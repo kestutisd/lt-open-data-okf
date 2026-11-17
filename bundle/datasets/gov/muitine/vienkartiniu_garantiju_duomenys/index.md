@@ -1,0 +1,7 @@
+# `datasets/gov/muitine/vienkartiniu_garantiju_duomenys`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [Rezervacija — Duomenys apie vienkartinių muitinės garantijų panaudojimus](Rezervacija.md) - Duomenys apie vienkartinių muitinės garantijų rezervacijas ir atlaisvinimus

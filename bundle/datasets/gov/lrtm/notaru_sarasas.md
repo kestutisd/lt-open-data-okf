@@ -1,0 +1,37 @@
+---
+type: Dataset
+title: "Notarų sąrašo duomenų rinkinys"
+description: "Informacija apie Lietuvoje veikiančius notarus"
+resource: "https://get.data.gov.lt/datasets/gov/lrtm/notaru_sarasas"
+tags: [gov, lrtm, deployed]
+generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+sources:
+  - id: manifest
+    title: "atviriduomenys/manifest — datasets/gov/lrtm/notaru_sarasas.csv"
+    resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrtm/notaru_sarasas.csv#L3"
+    last_modified: "2026-11-11T14:39:20Z"
+---
+
+# Notarų sąrašo duomenų rinkinys
+
+Informacija apie Lietuvoje veikiančius notarus
+
+- **Namespace:** `datasets/gov/lrtm/notaru_sarasas`[^manifest]
+- **Manifest CSV:** [datasets/gov/lrtm/notaru_sarasas.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrtm/notaru_sarasas.csv#L3)
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lrtm/notaru_sarasas`
+- **Parent Namespace (`ns`):** Lietuvos Respublikos teisingumo ministerija (`datasets/gov/lrtm`)
+
+# Tables
+
+| Table | Title | Level | Primary Key | Access | Columns | Description |
+| --- | --- | --- | --- | --- | --- | --- |
+| [NotaruSarasas](notaru_sarasas/NotaruSarasas.md) | Notarų sąrašas | `4` | `vda_prime_key` | — | 16 | Rinkinyje pateikiamas Lietuvos Respublikos notarų sąrašas, užtikrinantis notariato veiklos skaidrumą, teisinį reguliavimą ir priežiūrą. |
+
+# Prefixes
+
+| Prefix | URI |
+| --- | --- |
+| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
+| `manifest` | `https://github.com/atviriduomenys/manifest/issues/` |
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lrtm/notaru_sarasas.csv

@@ -1,0 +1,7 @@
+# `datasets/gov/marijampoles_sav/marijampoles_zeldiniai`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [MiestoZeldinys — Marijampolės savivaldybės želdiniai](MiestoZeldinys.md) - Spinta table datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys (18 columns).

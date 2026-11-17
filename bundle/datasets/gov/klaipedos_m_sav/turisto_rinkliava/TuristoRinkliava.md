@@ -1,0 +1,39 @@
+---
+type: Table
+title: "TuristoRinkliava — Turisto rinkliavos deklaravimo duomenys"
+description: "Rinkinyje pateikiami Klaipėdos miesto savivaldybės vietinės rinkliavos už suteiktą nakvynę (vadinamąjį turisto rinkliavos mokestį) deklaracijų duomenys."
+resource: "https://get.data.gov.lt/datasets/gov/klaipedos_m_sav/turisto_rinkliava/TuristoRinkliava"
+tags: [gov, klaipedos_m_sav, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+sources:
+  - id: manifest
+    title: "atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/turisto_rinkliava.csv"
+    resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/turisto_rinkliava.csv#L6"
+    last_modified: "2026-11-11T14:39:20Z"
+---
+
+# TuristoRinkliava — Turisto rinkliavos deklaravimo duomenys
+
+Rinkinyje pateikiami Klaipėdos miesto savivaldybės vietinės rinkliavos už suteiktą nakvynę (vadinamąjį turisto rinkliavos mokestį) deklaracijų duomenys. Vietinė rinkliava Klaipėdoje yra 1 euras už vienam asmeniui suteiktą nakvynę. Deklaracijas teikia fiziniai ir juridiniai asmenys, teikiantys apgyvendinimo paslaugas Klaipėdos mieste – nepriklausomai nuo to, ar veikla vykdoma pagal verslo liudijimą, individualios veiklos pažymą ar kitą apgyvendinimo paslaugų teikimo formą. Rinkinio objektas – viena turisto rinkliavos deklaracija, pateikta konkretaus apgyvendinimo paslaugų teikėjo už atitinkamus atskaitinius metus ir mėnesį ar ketvirtį. Rinkinyje pateikiami duomenys nurodo deklaraciją pateikusio subjekto tipą (fizinis ar juridinis asmuo), jo veiklą pagal Ekonominės veiklos rūšių klasifikatorių (EVRK 2.1), bei deklaracijos pateikimo laikotarpį. Šiame rinkinyje pateikiami duomenys neapima konkrečių nakvynių skaičiaus ar mokėtinų rinkliavos sumų, o atspindi faktą, jog deklaracija už tam tikrą laikotarpį buvo pateikta.
+
+- **Model:** `datasets/gov/klaipedos_m_sav/turisto_rinkliava/TuristoRinkliava`[^manifest]
+- **Dataset:** [Turisto rinkliavos deklaravimo duomenų rinkinys](../turisto_rinkliava.md) (`datasets/gov/klaipedos_m_sav/turisto_rinkliava`)
+- **Manifest CSV:** [datasets/gov/klaipedos_m_sav/turisto_rinkliava.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/turisto_rinkliava.csv#L6)
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/klaipedos_m_sav/turisto_rinkliava/TuristoRinkliava`
+- **Primary Key (`ref`):** `vda_prime_key`
+- **Level:** `4`
+
+# Schema
+
+| Property | Type | Ref | Level | Access | URI | Title | Description |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `vda_prime_key` | `string` | — | `4` | `open` | — | Įrašo unikalus identifikatorius | — |
+| `kodas` | `string` | — | `4` | `open` | — | Juridinio arba šifruotas fizinio asmens identifikatorius | — |
+| `asmens_tipas` | `string` | — | `4` | `open` | — | Reikšmė nurodanti asmens tipą - fizinis arba juridinis asmuo | — |
+| `pavadinimas` | `string` | — | `4` | `open` | — | Juridinis pavadinimas arba fizinio asmens vardas ir pavardė | — |
+| `evrk_kodas` | `string` | — | `4` | `open` | — | Ekonominės veiklos rūšies kodas pagal EVRK 2.1 redakciją. | — |
+| `evrk_aprasymas` | `string` | — | `4` | `open` | — | Ekonominės veiklos aprašymas pagal EVRK 2.1 kodą. | — |
+| `metai` | `integer` | — | `4` | `open` | — | Deklaracijos pateikimo metai | — |
+| `menuo` | `integer` | — | `4` | `open` | — | Reikšmė nurodo kalendorinį mėnesį (1–12), jei deklaruojama kas mėnesį, arba ketvirtį (1–4), jei deklaruojama kas ketvirtį. | — |
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/turisto_rinkliava.csv

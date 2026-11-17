@@ -1,0 +1,205 @@
+---
+type: Table
+title: "UpiuValstybinioMonitoringoDuomenys — Aprašymas upių duomenų"
+description: "Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d. nutarime Nr. 996 „Dėl Valstybinės aplinkos monitoringo 2018–2023 metų programos patvirtinimo“."
+resource: "https://get.data.gov.lt/datasets/gov/aaa/upiu_monitoringo_duomenys/UpiuValstybinioMonitoringoDuomenys"
+tags: [gov, aaa, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+sources:
+  - id: manifest
+    title: "atviriduomenys/manifest — datasets/gov/aaa/upiu_monitoringo_duomenys.csv"
+    resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/upiu_monitoringo_duomenys.csv#L4"
+    last_modified: "2026-11-11T14:39:20Z"
+---
+
+# UpiuValstybinioMonitoringoDuomenys — Aprašymas upių duomenų
+
+Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d. nutarime Nr. 996 „Dėl Valstybinės aplinkos monitoringo 2018–2023 metų programos patvirtinimo“. Kasmet Aplinkos ministro įsakymu tvirtinami Valstybinės aplinkos monitoringo 2018-2023 metų programos uždavinių įgyvendinimo planai (https://aaa.lrv.lt/lt/veiklos-sritys/aplinkos-monitoringas/valstybine-aplinkos-monitoringo-programa). Kai kuriais atvejais tyrimai gali būti neatlikti dėl klimatinių sąlygų arba įrangos gedimų.
+
+- **Model:** `datasets/gov/aaa/upiu_monitoringo_duomenys/UpiuValstybinioMonitoringoDuomenys`[^manifest]
+- **Dataset:** [datasets/gov/aaa/upiu_monitoringo_duomenys](../upiu_monitoringo_duomenys.md) (`datasets/gov/aaa/upiu_monitoringo_duomenys`)
+- **Manifest CSV:** [datasets/gov/aaa/upiu_monitoringo_duomenys.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/upiu_monitoringo_duomenys.csv#L4)
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/upiu_monitoringo_duomenys/UpiuValstybinioMonitoringoDuomenys`
+- **Level:** `4`
+
+# Schema
+
+| Property | Type | Ref | Level | Access | URI | Title | Description |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `telkinio_pav` | `string` | — | `4` | `open` | — | Vandens telkinio pavadinimas | — |
+| `m_vietos_kodas` | `string` | — | `4` | `open` | — | Monitoringo vietos kodas | — |
+| `m_vietos_pav` | `string` | — | `4` | `open` | — | Monitoringo vietos pavadinimas | — |
+| `koord` | `geometry(point, 3346)` | — | `4` | `open` | — | Monitoringo vietos koordinatės (LKS) | — |
+| `data` | `date` | `D` | `4` | `open` | — | Tyrimų data | — |
+| `debitas` | `string` | — | `4` | `open` | — | Debitas, m3/s | — |
+| `sroves_greitis` | `string` | — | `4` | `open` | — | Srovės greitis, m/s | — |
+| `vandens_temp` | `number` | `°C` | `4` | `open` | — | Vandens temperatūra, °C | — |
+| `suspend_medziagos` | `string` | — | `4` | `open` | — | Suspenduotos (skendinčios) medžiagos, mg/l | — |
+| `sarmingumas` | `number` | `mmol/L` | `4` | `open` | — | Šarmingumas, mmol/l | — |
+| `deguon_istirpes` | `string` | — | `4` | `open` | — | Deguonis ištirpęs, mg/l O2 | — |
+| `deguon_prisotinimas` | `number` | `%` | `4` | `open` | — | Deguonimi prisotinimas, % | — |
+| `ph` | `number` | — | `4` | `open` | — | pH | — |
+| `elektr_laidis` | `integer` | `µS/cm` | `4` | `open` | — | Savitasis elektrinis laidis, mikroS/cm | — |
+| `biochem_deg_suvartojimas` | `string` | — | `4` | `open` | — | Biocheminis deguonies suvartojimas per 7 paras, mg/l O2 | — |
+| `amonio_azotas` | `string` | — | `4` | `open` | — | Amonio azotas, mg/l N | — |
+| `nitritu_azotas` | `string` | — | `4` | `open` | — | Nitritų azotas, mg/l N | — |
+| `nitratu_azotas` | `string` | — | `4` | `open` | — | Nitratų azotas, mg/l N | — |
+| `azotas_mineralinis` | `number` | `mg/l` | `4` | `open` | — | Azotas mineralinis, mg/l | — |
+| `azotas_bendras` | `number` | `mg/l` | `4` | `open` | — | Azotas bendras, mg/l | — |
+| `fosfatu_fosforas` | `string` | — | `4` | `open` | — | Fosfatų fosforas, mg/l P | — |
+| `fosforas_bendras` | `string` | — | `4` | `open` | — | Fosforas bendras, mg/l | — |
+| `chem_deg_suvartojimas` | `string` | — | `4` | `open` | — | Cheminis deguonies suvartojimas (bichromatinė oksidacija), mg/l O2 | — |
+| `anglingumas` | `number` | `mg/l` | `4` | `open` | — | Tirpinis organinis anglingumas, mg/l | — |
+| `chloridai` | `number` | `mg/l` | `4` | `open` | — | Chloridai, mg/l | — |
+| `kalcis` | `number` | `mg/l` | `4` | `open` | — | Kalcis, mg/l | — |
+| `kalis` | `number` | `mg/l` | `4` | `open` | — | Kalis, mg/l | — |
+| `magnis` | `number` | `mg/l` | `4` | `open` | — | Magnis, mg/l | — |
+| `natris` | `number` | `mg/l` | `4` | `open` | — | Natris, mg/l | — |
+| `sulfatai` | `string` | — | `4` | `open` | — | Sulfatai, mg/l | — |
+| `chlorofilas_a` | `string` | — | `4` | `open` | — | Chlorofilas a, µg/l | — |
+| `kalcio_karbonatas` | `number` | `mg/l` | `4` | `open` | — | Kalcio karbonatas, mg/l CaCO3 | — |
+| `gyvsidabris` | `string` | — | `4` | `open` | — | Gyvsidabris tirpus, µg/l | — |
+| `kadmis` | `string` | — | `4` | `open` | — | Kadmis tirpus, µg/l | — |
+| `nikelis` | `string` | — | `4` | `open` | — | Nikelis tirpus, µg/l | — |
+| `svinas` | `string` | — | `4` | `open` | — | Švinas tirpus, µg/l | — |
+| `varis` | `string` | — | `4` | `open` | — | Varis, µg/l | — |
+| `chromas` | `string` | — | `4` | `open` | — | Chromas, µg/l | — |
+| `vanadis` | `string` | — | `4` | `open` | — | Vanadis, µg/l | — |
+| `aliuminis` | `string` | — | `4` | `open` | — | Aliuminis, µg/l | — |
+| `alavas` | `string` | — | `4` | `open` | — | Alavas, µg/l | — |
+| `arsenas` | `string` | — | `4` | `open` | — | Arsenas, µg/l | — |
+| `cinkas` | `string` | — | `4` | `open` | — | Cinkas, µg/l | — |
+| `antracenas` | `string` | — | `4` | `open` | — | Antracenas, µg/l | — |
+| `fluorantenas` | `string` | — | `4` | `open` | — | Fluorantenas, µg/l | — |
+| `naftalenas` | `string` | — | `4` | `open` | — | Naftalenas, µg/l | — |
+| `benz_a_pirenas` | `string` | — | `4` | `open` | — | Benz(a)pirenas, µg/l | — |
+| `benz_b_fluorantenas` | `string` | — | `4` | `open` | — | Benz(b)fluorantenas | — |
+| `benz_k_fluorantenas` | `string` | — | `4` | `open` | — | Benz(k)fluorantenas, µg/l | — |
+| `benz_ghi_perilenas` | `string` | — | `4` | `open` | — | Benz(g,h,i)perilenas, µg/l | — |
+| `inden_123_cd_pirenas` | `string` | — | `4` | `open` | — | Inden(1,2,3-cd)pirenas, µg/l | — |
+| `p4_n_nonilfenolis` | `string` | — | `4` | `open` | — | 4-n-nonilfenolis, µg/l | — |
+| `p4_n_oktilfenolis` | `string` | — | `4` | `open` | — | 4-n-oktilfenolis, µg/l | — |
+| `p4_nonilfenolis` | `string` | — | `4` | `open` | — | 4-nonilfenolis, µg/l | — |
+| `p4_nonilfenolis_sakot` | `string` | — | `4` | `open` | — | 4-nonilfenolis (šakotasis), µg/l | — |
+| `p4_n_nonilfenolis_sakot` | `string` | — | `4` | `open` | — | 4-n-nonilfenolis (šakotasis), µg/l | — |
+| `p4_tert_oktilfenolis` | `string` | — | `4` | `open` | — | 4-tert-oktilfenolis, µg/l | — |
+| `p4_t_oktilfenolio_dietoksilatas` | `string` | — | `4` | `open` | — | 4-t-oktilfenolio_dietoksilatas, µg/l | — |
+| `p4_t_oktilfenolio_monoetoksilatas` | `string` | — | `4` | `open` | — | 4-t-oktilfenolio_monoetoksilatas, µg/l | — |
+| `p4_t_oktilfenolio_trietoksilatas` | `string` | — | `4` | `open` | — | 4-t-oktilfenolio_trietoksilatas, µg/l | — |
+| `nonilfenoliai` | `string` | — | `4` | `open` | — | Nonilfenoliai (techninis mišinys), µg/l | — |
+| `pentachlorfenolis` | `string` | — | `4` | `open` | — | Pentachlorfenolis, µg/l | — |
+| `benzenas` | `string` | — | `4` | `open` | — | Benzenas, µg/l | — |
+| `p12_dichloretanas` | `string` | — | `4` | `open` | — | 1,2-dichloretanas, µg/l | — |
+| `p123_trichlorbenzenas` | `string` | — | `4` | `open` | — | 1,2,3-trichlorbenzenas, µg/l | — |
+| `p124_trichlorbenzenas` | `string` | — | `4` | `open` | — | 1,2,4-trichlorbenzenas, µg/l | — |
+| `heksachlorbutadienas` | `string` | — | `4` | `open` | — | Heksachlorbutadienas, µg/l | — |
+| `trichloretilenas` | `string` | — | `4` | `open` | — | Trichloretilenas, µg/l | — |
+| `tetrachlormetanas` | `string` | — | `4` | `open` | — | Tetrachlormetanas, µg/l | — |
+| `dichlormetanas` | `string` | — | `4` | `open` | — | Dichlormetanas, µg/l | — |
+| `tetrachloretilenas` | `string` | — | `4` | `open` | — | Tetrachloretilenas, µg/l | — |
+| `trichlormetanas` | `string` | — | `4` | `open` | — | Trichlormetanas, µg/l | — |
+| `aldrinas` | `string` | — | `4` | `open` | — | Aldrinas, µg/l | — |
+| `dieldrinas` | `string` | — | `4` | `open` | — | Dieldrinas, µg/l | — |
+| `izodrinas` | `string` | — | `4` | `open` | — | Izodrinas, µg/l | — |
+| `endrinas` | `string` | — | `4` | `open` | — | Endrinas, µg/l | — |
+| `alfa_heksachlorcikloheksanas` | `string` | — | `4` | `open` | — | Alfa-heksachlorcikloheksanas, µg/l | — |
+| `beta_heksachlorcikloheksanas` | `string` | — | `4` | `open` | — | Beta-heksachlorcikloheksanas, µg/l | — |
+| `gama_heksachlorcikloheksanas` | `string` | — | `4` | `open` | — | Gama-heksachlorcikloheksanas, µg/l | — |
+| `heksachlorbenzenas` | `string` | — | `4` | `open` | — | Heksachlorbenzenas, µg/l | — |
+| `pentachlorbenzenas` | `string` | — | `4` | `open` | — | Pentachlorbenzenas, µg/l | — |
+| `alfa_endosulfanas` | `string` | — | `4` | `open` | — | Alfa-endosulfanas, µg/l | — |
+| `beta_endosulfanas` | `string` | — | `4` | `open` | — | Beta-endosulfanas, µg/l | — |
+| `o_p_ddt` | `string` | — | `4` | `open` | — | o,p'-DDT, µg/l | — |
+| `p_p_ddd` | `string` | — | `4` | `open` | — | p,p'-DDD, µg/l | — |
+| `p_p_ddt` | `string` | — | `4` | `open` | — | p,p'-DDT, µg/l | — |
+| `p_p_dde` | `string` | — | `4` | `open` | — | p,p'-DDE, µg/l | — |
+| `simazinas` | `string` | — | `4` | `open` | — | Simazinas, µg/l | — |
+| `atrazinas` | `string` | — | `4` | `open` | — | Atrazinas, µg/l | — |
+| `diuronas` | `string` | — | `4` | `open` | — | Diuronas, µg/l | — |
+| `izoproturonas` | `string` | — | `4` | `open` | — | Izoproturonas, µg/l | — |
+| `chinoksifenas` | `string` | — | `4` | `open` | — | Chinoksifenas, µg/l | — |
+| `aklonifenas` | `string` | — | `4` | `open` | — | Aklonifenas, µg/l | — |
+| `cibutrinas` | `string` | — | `4` | `open` | — | Cibutrinas, µg/l | — |
+| `terbutrinas` | `string` | — | `4` | `open` | — | Terbutrinas, µg/l | — |
+| `chlorpyrifosas` | `string` | — | `4` | `open` | — | Chlorpyrifosas, µg/l | — |
+| `chlorfenvinfosas` | `string` | — | `4` | `open` | — | Chlorfenvinfosas, µg/l | — |
+| `trifluralinas` | `string` | — | `4` | `open` | — | Trifluralinas, µg/l | — |
+| `heptachloras` | `string` | — | `4` | `open` | — | Heptachloras, µg/l | — |
+| `heptachloro_epoksidas` | `string` | — | `4` | `open` | — | Heptachloro epoksidas, µg/l | — |
+| `tributilalavo_katijonas` | `string` | — | `4` | `open` | — | Tributilalavo katijonas, µg/l | — |
+| `di2_etilheksilftalatas` | `string` | — | `4` | `open` | — | Di(2-etilheksil)ftalatas, µg/l | — |
+| `chloralkanai` | `string` | — | `4` | `open` | — | Chloralkanai C10-C13, µg/l | — |
+| `hbcdd` | `string` | — | `4` | `open` | — | HBCDD, µg/l | — |
+| `bde_28` | `string` | — | `4` | `open` | — | BDE-28, µg/l | — |
+| `bde_47` | `string` | — | `4` | `open` | — | BDE-47, µg/l | — |
+| `bde_85` | `string` | — | `4` | `open` | — | BDE-85, µg/l | — |
+| `bde_99` | `string` | — | `4` | `open` | — | BDE-99, µg/l | — |
+| `bde_100` | `string` | — | `4` | `open` | — | BDE-100, µg/l | — |
+| `bde_153` | `string` | — | `4` | `open` | — | BDE-153, µg/l | — |
+| `bde_154` | `string` | — | `4` | `open` | — | BDE-154, µg/l | — |
+| `pcb_28` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 28, µg/l | — |
+| `pcb_52` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 52, µg/l | — |
+| `pcb_101` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 101, µg/l | — |
+| `pcb_118` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 118, µg/l | — |
+| `pcb_138` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 138, µg/l | — |
+| `pcb_153` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 153, µg/l | — |
+| `pcb_180` | `string` | — | `4` | `open` | — | Polichlorbifenilas PCB 180, µg/l | — |
+| `p17_alfa_etinilestradiolis` | `string` | — | `4` | `open` | — | 17-alfa-etinilestradiolis (EE2), µg/l | — |
+| `p17_beta_estradiolis` | `string` | — | `4` | `open` | — | 17-beta-estradiolis (E2), µg/l | — |
+| `estronas` | `string` | — | `4` | `open` | — | Estronas (E1), µg/l | — |
+| `eritromicinas` | `string` | — | `4` | `open` | — | Eritromicinas, µg/l | — |
+| `klaritromicinas` | `string` | — | `4` | `open` | — | Klaritromicinas, µg/l | — |
+| `azitromicinas` | `string` | — | `4` | `open` | — | Azitromicinas, µg/l | — |
+| `amoksicilinas` | `string` | — | `4` | `open` | — | Amoksicilinas, µg/l | — |
+| `ciprofloksacinas` | `string` | — | `4` | `open` | — | Ciprofloksacinas, µg/l | — |
+| `diklofenakas` | `string` | — | `4` | `open` | — | Diklofenakas, µg/l | — |
+| `p26_di_tret_butil_4_metilfenolis` | `string` | — | `4` | `open` | — | 2,6-di-tret-butil-4-metilfenolis, µg/l | — |
+| `tiametoksamas` | `string` | — | `4` | `open` | — | Tiametoksamas, µg/l | — |
+| `tiaklopridas` | `string` | — | `4` | `open` | — | Tiaklopridas, µg/l | — |
+| `metiokarbas` | `string` | — | `4` | `open` | — | Metiokarbas, µg/l | — |
+| `oksadiazonas` | `string` | — | `4` | `open` | — | Oksadiazonas, µg/l | — |
+| `trialatas` | `string` | — | `4` | `open` | — | Trialatas, µg/l | — |
+| `klotianidinas` | `string` | — | `4` | `open` | — | Klotianidinas, µg/l | — |
+| `imidaklopridas` | `string` | — | `4` | `open` | — | Imidaklopridas, µg/l | — |
+| `acetamipridas` | `string` | — | `4` | `open` | — | Acetamipridas, µg/l | — |
+| `pfba` | `string` | — | `4` | `open` | — | perfluorobutano rūgštis (PFBA), µg/l | — |
+| `pfpea` | `string` | — | `4` | `open` | — | perfluorpentano rūgštis (PFPeA), µg/l | — |
+| `pfhxa` | `string` | — | `4` | `open` | — | perfluorheksano rūgštis (PFHxA), µg/l | — |
+| `pfhpa` | `string` | — | `4` | `open` | — | perfluoroheptano rūgštis (PFHpA), µg/l | — |
+| `pfoa` | `string` | — | `4` | `open` | — | perfluoroktano rūgštis (PFOA), µg/l | — |
+| `pfnr` | `string` | — | `4` | `open` | — | perfluoronano rūgštis (PFNR), µg/l | — |
+| `pfda` | `string` | — | `4` | `open` | — | perfluorodekano rūgštis (PFDA), µg/l | — |
+| `pfunda` | `string` | — | `4` | `open` | — | perfluoroundekano rūgštis (PFUnDA), µg/l | — |
+| `pfdoda` | `string` | — | `4` | `open` | — | perfluorodekekano rūgštis (PFDoDA), µg/l | — |
+| `pfbs` | `string` | — | `4` | `open` | — | perfluorobutano sulfonrūgštis (PFBS), µg/l | — |
+| `pfhxs` | `string` | — | `4` | `open` | — | perfluorheksano sulfonrūgštis (PFHxS), µg/l | — |
+| `pfhps` | `string` | — | `4` | `open` | — | perfluoroheptano sulfonrūgštis (PFHpS), µg/l | — |
+| `pfos` | `string` | — | `4` | `open` | — | perfluoroktano sulfonrūgštis (PFOS), µg/l | — |
+| `pfds` | `string` | — | `4` | `open` | — | perfluorodekano sulfonrūgštis (PFDS), µg/l | — |
+| `pfosa` | `string` | — | `4` | `open` | — | perfluoroktano sulfonamidas (PFOSA), µg/l | — |
+| `dikofolis` | `string` | — | `4` | `open` | — | dikofolis, µg/l | — |
+| `alachloras` | `string` | — | `4` | `open` | — | alachloras, µg/l | — |
+| `bifenoksas` | `string` | — | `4` | `open` | — | bifenoksas, µg/l | — |
+| `cipermetrinas` | `string` | — | `4` | `open` | — | cipermetrinas, µg/l | — |
+| `dichlorvosas` | `string` | — | `4` | `open` | — | dichlorvosas, µg/l | — |
+| `hbcdd_izo_sum` | `string` | — | `4` | `open` | — | Heksabromciklododekanas, izomerų suma, µg/l | — |
+| `pfos_dariniai` | `string` | — | `4` | `open` | — | Perfluoroktansulfonrūgštis ir jos dariniai (PFOS), µg/l | — |
+| `sulfametoksazolas` | `string` | — | `4` | `open` | — | Sulfametoksazolas, µg/l | — |
+| `trimetoprimas` | `string` | — | `4` | `open` | — | Trimetoprimas, µg/l | — |
+| `venlafaksinas` | `string` | — | `4` | `open` | — | Venlafaksinas, µg/l | — |
+| `odesmetilvenlafaksinas` | `string` | — | `4` | `open` | — | O-desmetilvenlafaksinas, µg/l | — |
+| `flukonazolas` | `string` | — | `4` | `open` | — | Flukonazolas, µg/l | — |
+| `penkonazolas` | `string` | — | `4` | `open` | — | Penkonazolas, µg/l | — |
+| `ipkonazolas` | `string` | — | `4` | `open` | — | Ipkonazolas, µg/l | — |
+| `tebukonazolas` | `string` | — | `4` | `open` | — | Tebukonazolas, µg/l | — |
+| `klotrimazolas` | `string` | — | `4` | `open` | — | Klotrimazolas, µg/l | — |
+| `imazalilas` | `string` | — | `4` | `open` | — | Imazalilas, µg/l | — |
+| `tetrakonazolas` | `string` | — | `4` | `open` | — | Tetrakonazolas, µg/l | — |
+| `dimoksistrobinas` | `string` | — | `4` | `open` | — | Dimoksistrobinas, µg/l | — |
+| `famoksadonas` | `string` | — | `4` | `open` | — | Famoksadonas, µg/l | — |
+| `metaflumizonas` | `string` | — | `4` | `open` | — | Metaflumizonas, µg/l | — |
+| `metkonazolas` | `string` | — | `4` | `open` | — | Metkonazolas, µg/l | — |
+| `mikonazolas` | `string` | — | `4` | `open` | — | Mikonazolas, µg/l | — |
+| `prochlorazas` | `string` | — | `4` | `open` | — | Prochlorazas, µg/l | — |
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/upiu_monitoringo_duomenys.csv

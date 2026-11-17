@@ -1,0 +1,9 @@
+# `datasets/gov/vdtat/saugiuju_dokumentu_registras`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [ApsaugosPriemone — Saugiųjų dokumentų ir blankų apsaugos priemonių sąrašas](ApsaugosPriemone.md) - Valstybės saugiųjų dokumentų ir saugiųjų dokumentų blankų, tokių kaip tokių kaip pasai, asmens tapatybės kortelės, kelionės dokumentai, vairuotojo pažymėjimai, akcizais...
+* [Dokumentas — Saugiųjų dokumentų ir saugiųjų dokumentų blankų aprašomieji duomenys](Dokumentas.md) - Valstybės saugiųjų dokumentų ir saugiųjų dokumentų blankų, tokių kaip tokių kaip pasai, asmens tapatybės kortelės, kelionės dokumentai, vairuotojo pažymėjimai, akcizais...
+* [Pavyzdys — Saugiųjų dokumentų ir blankų pavyzdžių sąrašas](Pavyzdys.md) - Valstybės saugiųjų dokumentų ir saugiųjų dokumentų blankų, tokių kaip tokių kaip pasai, asmens tapatybės kortelės, kelionės dokumentai, vairuotojo pažymėjimai, akcizais...

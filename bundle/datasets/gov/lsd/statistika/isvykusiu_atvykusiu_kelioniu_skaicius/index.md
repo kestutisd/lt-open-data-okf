@@ -1,0 +1,9 @@
+# `datasets/gov/lsd/statistika/isvykusiu_atvykusiu_kelioniu_skaicius`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [S8R293M4090701 — Išvykusių Lietuvos gyventojų ir atvykusių užsieniečių kelionių skaičius (pagal turistų tipą)](S8R293M4090701.md) - Duomenų rinkinys apie lietuvos nuolatinių gyventojų (toliau – gyventojai) keliaujančių į užsienį skaičių jų kelionių nakvynių skaičių ir tikslus naudojamą pagrindinę transporto...
+* [S8R293M4090703 — Išvykusių Lietuvos gyventojų ir atvykusių užsieniečių kelionių skaičius (pagal transporto rušį ir...](S8R293M4090703.md) - Duomenų rinkinys apie lietuvos nuolatinių gyventojų (toliau – gyventojai) keliaujančių į užsienį skaičių jų kelionių nakvynių skaičių ir tikslus naudojamą pagrindinę transporto...
+* [S8R293M4090704 — Išvykusių Lietuvos gyventojų ir atvykusių užsieniečių kelionių skaičius (pagal lankytojų tipą...](S8R293M4090704.md) - Duomenų rinkinys apie lietuvos nuolatinių gyventojų (toliau – gyventojai) keliaujančių į užsienį skaičių jų kelionių nakvynių skaičių ir tikslus naudojamą pagrindinę transporto...

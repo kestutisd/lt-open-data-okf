@@ -1,0 +1,9 @@
+# `datasets/gov/cpva/paramu_duomenys`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [FinansuojamaSuma — Projekto įgyvendinimui prašomos finansuoti, finansuotos bei grąžintos sumos](FinansuojamaSuma.md) - Duomenys pateikiami iš Informacinės projektų administravimo sistemos (IPAS) skirtos kaupti, apdoroti ir saugoti statistinius ir finansinius duomenis, susijusius su VšĮ...
+* [PazeidimoTyrimas — Pažeidimų tyrimų informacija įtariant pažeidimą](PazeidimoTyrimas.md) - Duomenys pateikiami iš Informacinės projektų administravimo sistemos (IPAS) skirtos kaupti, apdoroti ir saugoti statistinius ir finansinius duomenis, susijusius su VšĮ...
+* [Sutartis — Pateiktos paraiškos bei pasirašytos finansuoti sutartys](Sutartis.md) - Duomenys pateikiami iš Informacinės projektų administravimo sistemos (IPAS) skirtos kaupti, apdoroti ir saugoti statistinius ir finansinius duomenis, susijusius su VšĮ...

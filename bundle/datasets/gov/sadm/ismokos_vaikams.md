@@ -1,0 +1,33 @@
+---
+type: Dataset
+title: "datasets/gov/sadm/ismokos_vaikams"
+description: "Spinta dataset datasets/gov/sadm/ismokos_vaikams (1 table)."
+resource: "https://get.data.gov.lt/datasets/gov/sadm/ismokos_vaikams"
+tags: [gov, sadm, deployed]
+generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+sources:
+  - id: manifest
+    title: "atviriduomenys/manifest — datasets/gov/sadm/ismokos_vaikams.csv"
+    resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/ismokos_vaikams.csv#L2"
+    last_modified: "2026-11-11T14:39:20Z"
+---
+
+# datasets/gov/sadm/ismokos_vaikams
+
+- **Namespace:** `datasets/gov/sadm/ismokos_vaikams`[^manifest]
+- **Manifest CSV:** [datasets/gov/sadm/ismokos_vaikams.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/ismokos_vaikams.csv#L2)
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/ismokos_vaikams`
+
+# Tables
+
+| Table | Title | Level | Primary Key | Access | Columns | Description |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Mokejimas](ismokos_vaikams/Mokejimas.md) | Duomenys apie išmokas vaikams | `4` | `id` | `open` | 10 | — |
+
+# Prefixes
+
+| Prefix | URI |
+| --- | --- |
+| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/ismokos_vaikams.csv

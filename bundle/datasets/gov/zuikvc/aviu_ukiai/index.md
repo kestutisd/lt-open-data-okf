@@ -1,0 +1,7 @@
+# `datasets/gov/zuikvc/aviu_ukiai`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [AviuUkiuPasiskirstymas — Ūkių pasiskirstymas pagal avių skaičių](AviuUkiuPasiskirstymas.md) - Spinta table datasets/gov/zuikvc/aviu_ukiai/AviuUkiuPasiskirstymas (19 columns).

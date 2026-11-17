@@ -1,0 +1,9 @@
+# `datasets/gov/lsd/statistika/skurdo_rizikos_lygis`
+
+* [Parent Directory (`..`)](../index.md) - Up to parent index
+
+# Table
+
+* [S3R453M3080360 — Skurdo rizikos lygis (pagal amžių ir pilietybę)](S3R453M3080360.md) - Metinė visų Lietuvos privačių namų ūkių ir nuolatinių Lietuvos gyventojų statistinė informacija apie asmenų, kurių ekvivalentinės piniginės disponuojamosios pajamos mažesnės už...
+* [S3R453M3080361 — Skurdo rizikos lygis (pagal pajamų kvintilines grupes)](S3R453M3080361.md) - Metinė visų Lietuvos privačių namų ūkių ir nuolatinių Lietuvos gyventojų statistinė informacija apie asmenų, kurių ekvivalentinės piniginės disponuojamosios pajamos mažesnės už...
+* [S3R453M3080362 — Skurdo rizikos lygis (pagal amžių ir gimimo šalį)](S3R453M3080362.md) - Metinė visų Lietuvos privačių namų ūkių ir nuolatinių Lietuvos gyventojų statistinė informacija apie asmenų, kurių ekvivalentinės piniginės disponuojamosios pajamos mažesnės už...

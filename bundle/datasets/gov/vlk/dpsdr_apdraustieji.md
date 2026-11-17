@@ -1,0 +1,28 @@
+---
+type: Dataset
+title: "datasets/gov/vlk/dpsdr_apdraustieji"
+description: "Spinta dataset datasets/gov/vlk/dpsdr_apdraustieji (2 tables)."
+resource: "https://get.data.gov.lt/datasets/gov/vlk/dpsdr_apdraustieji"
+tags: [gov, vlk, deployed]
+generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+sources:
+  - id: manifest
+    title: "atviriduomenys/manifest — datasets/gov/vlk/dpsdr_apdraustieji.csv"
+    resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/dpsdr_apdraustieji.csv#L2"
+    last_modified: "2026-11-11T14:39:20Z"
+---
+
+# datasets/gov/vlk/dpsdr_apdraustieji
+
+- **Namespace:** `datasets/gov/vlk/dpsdr_apdraustieji`[^manifest]
+- **Manifest CSV:** [datasets/gov/vlk/dpsdr_apdraustieji.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/dpsdr_apdraustieji.csv#L2)
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlk/dpsdr_apdraustieji`
+
+# Tables
+
+| Table | Title | Level | Primary Key | Access | Columns | Description |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Apdraustasis](dpsdr_apdraustieji/Apdraustasis.md) | Apdraustųjų skaičius | `4` | — | — | 4 | — |
+| [Pagrindas](dpsdr_apdraustieji/Pagrindas.md) | Draudžiamųjų grupės | `4` | `kodas` | — | 2 | — |
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vlk/dpsdr_apdraustieji.csv
