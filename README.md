@@ -35,7 +35,11 @@ Pure [Open Knowledge Format (`OKF v0.2`)](https://github.com/GoogleCloudPlatform
 │   └── datasasets/               # Upstream [sic] namespace preserved verbatim from CSV
 └── skills/
     └── lt-open-data/
-        └── SKILL.md              # Agent skill for OKF navigation & Spinta DSA rules
+        ├── SKILL.md              # Agent skill for OKF navigation & Spinta DSA rules
+        └── references/           # Cross-OS bundle, Spinta RQL, and metadata/join references
+            ├── cross-os-bundle.md
+            ├── metadata-and-joins.md
+            └── spinta-rql.md
 ```
 
 ## OKF v0.2 & Spinta DSA Conventions
