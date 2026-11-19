@@ -3,23 +3,32 @@ type: Table
 title: "Skolininkas — HR archyviniai duomenys apibūdinantys skolininkus"
 description: "Spinta table datasets/gov/rc/hr/skolininkai/Skolininkas (21 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/hr/skolininkai/Skolininkas"
-tags: [gov, rc, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, skolininkas, deployed, level-2, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/hr/skolininkai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/hr/skolininkai.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/rc/hr/skolininkai.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2130/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/hr/skolininkai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Skolininkas — HR archyviniai duomenys apibūdinantys skolininkus
 
 - **Model:** `datasets/gov/rc/hr/skolininkai/Skolininkas`[^manifest]
-- **Dataset:** [Likviduoto hipotekos registro (HR) archyviniai duomenys apie skolininkus](../skolininkai.md) (`datasets/gov/rc/hr/skolininkai`)
-- **Manifest CSV:** [datasets/gov/rc/hr/skolininkai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/hr/skolininkai.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/hr/skolininkai/Skolininkas`
-- **Primary Key (`ref`):** `sandorio_id, skolininko_id`
-- **Level:** `2`
+- **Dataset:** [Likviduoto hipotekos registro (HR) archyviniai duomenys apie skolininkus](../skolininkai.md) (`datasets/gov/rc/hr/skolininkai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/hr/skolininkai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/hr/skolininkai.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/hr/skolininkai/Skolininkas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `sandorio_id, skolininko_id`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -31,7 +40,7 @@ sources:
 | `amziaus_grupe` | `string` | — | `3` | `open` | — | Skolininko amžiaus grupė | — |
 | `reg_data` | `integer` | — | `2` | `open` | — | Skolininko registracijos data (metai) | — |
 | `sal_grupe` | `string` | — | `3` | `open` | — | Skolininko šalies grupės pavadinimas | — |
-| `sandorio_tipas` | `ref` | [/datasets/gov/rc/hr/tipu_klasifikatoriai/SandorioTipas](../tipu_klasifikatoriai/SandorioTipas.md) | `2` | `open` | — | Sandorio tipas | — |
+| `sandorio_tipas` | `ref` | [SandorioTipas](../tipu_klasifikatoriai/SandorioTipas.md) (`level=2` scalar) | `2` | `open` | — | Sandorio tipas | — |
 | `sand_ireg_ketv` | `date` | `Q` | `2` | `open` | — | Sandorio įregistravimo metai - ketvirtis | — |
 | `sand_isreg_ketv` | `date` | `Q` | `2` | `open` | — | Sandorio išregistravimo metai - ketvirtis | — |
 | `iraso_priezastis` | `string` | — | `2` | `open` | — | Įrašo pagrindas | — |
@@ -49,7 +58,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `maksimalus` | `0` | — | — | Ne | — |
 | `maksimalus` | `1` | — | — | Taip | — |
@@ -75,4 +84,5 @@ sources:
 | `reg_data` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 | `pri_terminas_metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/hr/skolininkai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/hr/skolininkai.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/hr/skolininkai.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/hr/skolininkai (https://data.gov.lt/datasets/2130/)

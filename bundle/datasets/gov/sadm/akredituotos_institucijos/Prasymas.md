@@ -3,23 +3,32 @@ type: Table
 title: "Prasymas — Prašymai istaigų, teikti akredituotas socialines paslaugas"
 description: "Spinta table datasets/gov/sadm/akredituotos_institucijos/Prasymas (47 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/sadm/akredituotos_institucijos/Prasymas"
-tags: [gov, sadm, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, sadm, prasymas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/sadm/akredituotos_institucijos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/akredituotos_institucijos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/sadm/akredituotos_institucijos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4118/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/sadm/akredituotos_institucijos"
+    author: "team:vda"
+    last_modified: "2026-10-22T00:00:00Z"
 ---
 
 # Prasymas — Prašymai istaigų, teikti akredituotas socialines paslaugas
 
 - **Model:** `datasets/gov/sadm/akredituotos_institucijos/Prasymas`[^manifest]
-- **Dataset:** [datasets/gov/sadm/akredituotos_institucijos](../akredituotos_institucijos.md) (`datasets/gov/sadm/akredituotos_institucijos`)
-- **Manifest CSV:** [datasets/gov/sadm/akredituotos_institucijos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/akredituotos_institucijos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/akredituotos_institucijos/Prasymas`
-- **Primary Key (`ref`):** `prasymo_id`
-- **Level:** `4`
+- **Dataset:** [Prašymai teikti akredituotas socialines paslaugas](../akredituotos_institucijos.md) (`datasets/gov/sadm/akredituotos_institucijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/sadm/akredituotos_institucijos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/akredituotos_institucijos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/akredituotos_institucijos/Prasymas` (`deployed`)[^manifest]
+- **Provider:** `sadm` — Lietuvos Respublikos socialinės apsaugos ir darbo ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `prasymo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-10-22`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -75,9 +84,14 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `form_type` | `"1"` | `1` | — | Prašymai teikti akredituotą socialinę priežiūrą (iki 2024-07-01) | — |
 | `form_type` | `"2"` | `2` | — | Prašymai teikti akredituotą socialinę priežiūra ir laikino atokvėpio paslaugas. | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/akredituotos_institucijos.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/akredituotos_institucijos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/akredituotos_institucijos.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/sadm/akredituotos_institucijos (https://data.gov.lt/datasets/4118/)

@@ -3,25 +3,28 @@ type: Table
 title: "GaliojantisProjektas — Galiojantys projektai (VTPSI)"
 description: "VTPSI galiojantys statybos projektai"
 resource: "https://get.data.gov.lt/datasets/gov/vtpsi/galiojantys_projektai/GaliojantisProjektas"
-tags: [gov, vtpsi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vtpsi, galiojantisprojektas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vtpsi/galiojantys_projektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vtpsi/galiojantys_projektai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vtpsi/galiojantys_projektai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # GaliojantisProjektas — Galiojantys projektai (VTPSI)
 
-VTPSI galiojantys statybos projektai
+VTPSI galiojantys statybos projektai[^manifest]
 
 - **Model:** `datasets/gov/vtpsi/galiojantys_projektai/GaliojantisProjektas`[^manifest]
-- **Dataset:** [datasets/gov/vtpsi/galiojantys_projektai](../galiojantys_projektai.md) (`datasets/gov/vtpsi/galiojantys_projektai`)
-- **Manifest CSV:** [datasets/gov/vtpsi/galiojantys_projektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vtpsi/galiojantys_projektai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vtpsi/galiojantys_projektai/GaliojantisProjektas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/vtpsi/galiojantys_projektai](../galiojantys_projektai.md) (`datasets/gov/vtpsi/galiojantys_projektai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vtpsi/galiojantys_projektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vtpsi/galiojantys_projektai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vtpsi/galiojantys_projektai/GaliojantisProjektas` (`deployed`)[^manifest]
+- **Provider:** `vtpsi` — Valstybinė teritorijų planavimo ir statybos inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -56,4 +59,8 @@ VTPSI galiojantys statybos projektai
 | `taskas_lks` | `geometry(3346)` | — | `3` | `open` | — | Taško koordinatės pagal Lietuvos Koordinačių Sistemą (LKS) | — |
 | `taskas_wgs` | `geometry(point)` | — | `3` | `open` | — | Taško koordinatės pagal Geografinę Koordinačių Sistemą (WGS) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vtpsi/galiojantys_projektai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vtpsi/galiojantys_projektai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vtpsi/galiojantys_projektai.csv#L6)

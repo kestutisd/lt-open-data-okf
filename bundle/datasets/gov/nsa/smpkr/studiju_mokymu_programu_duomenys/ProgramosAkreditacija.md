@@ -3,25 +3,34 @@ type: Table
 title: "ProgramosAkreditacija — Studijų ir mokymų programų akreditacijos"
 description: "Lentelėje pateikti studijų ir mokymų programų akreditacijų duomenys iš Nacionalinės švietimo agentūros (NŠA) Studijų, mokymo programų ir kvalifikacijų registro (SMPKR)."
 resource: "https://get.data.gov.lt/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys/ProgramosAkreditacija"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, programosakreditacija, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3918/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # ProgramosAkreditacija — Studijų ir mokymų programų akreditacijos
 
-Lentelėje pateikti studijų ir mokymų programų akreditacijų duomenys iš Nacionalinės švietimo agentūros (NŠA) Studijų, mokymo programų ir kvalifikacijų registro (SMPKR). Šių duomenų laiko aprėptis - nuo 2002 metų iki šių dienų. Duomenys atnaujinami kas mėnesį.
+Lentelėje pateikti studijų ir mokymų programų akreditacijų duomenys iš Nacionalinės švietimo agentūros (NŠA) Studijų, mokymo programų ir kvalifikacijų registro (SMPKR). Šių duomenų laiko aprėptis - nuo 2002 metų iki šių dienų. Duomenys atnaujinami kas mėnesį. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys/ProgramosAkreditacija`[^manifest]
-- **Dataset:** [Studijų ir mokymų programų duomenys](../studiju_mokymu_programu_duomenys.md) (`datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys`)
-- **Manifest CSV:** [datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys/ProgramosAkreditacija`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Studijų ir mokymų programų duomenys](../studiju_mokymu_programu_duomenys.md) (`datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys/ProgramosAkreditacija` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -40,4 +49,5 @@ Lentelėje pateikti studijų ir mokymų programų akreditacijų duomenys iš Nac
 | `akred_ivert_balas` | `string` | — | `4` | `open` | — | Įvertis balais | — |
 | `balo_paskut_redagav` | `date` | `D` | `4` | `open` | — | Suteikto įvertinimo balais paskutinio redagavimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys.csv#L37)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/smpkr/studiju_mokymu_programu_duomenys (https://data.gov.lt/datasets/3918/)

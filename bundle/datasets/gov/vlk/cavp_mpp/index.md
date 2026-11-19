@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/cavp_mpp`
+# Directory Index: `datasets/gov/vlk/cavp_mpp`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

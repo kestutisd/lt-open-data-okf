@@ -1,9 +1,9 @@
-# `datasets/gov/vgtpt/teisis/klasifikatoriai`
+# Directory Index: `datasets/gov/vgtpt/teisis/klasifikatoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [BylosRusis — Teisinės pagalbos paslaugų informacinės sistemos bylų rūšių klasifikatorius](BylosRusis.md) - Spinta table datasets/gov/vgtpt/teisis/klasifikatoriai/BylosRusis (3 columns).
-* [ParinkimoPagrindas — Teisinės pagalbos paslaugų informacinės sistemos pagalbos teikimo pagrindų klasifikatorius](ParinkimoPagrindas.md) - Spinta table datasets/gov/vgtpt/teisis/klasifikatoriai/ParinkimoPagrindas (3 columns).
-* [Teritorija — Teisinės pagalbos paslaugų informacinės sistemos teritorijos klasifikatorius](Teritorija.md) - Spinta table datasets/gov/vgtpt/teisis/klasifikatoriai/Teritorija (4 columns).
+* [BylosRusis — Teisinės pagalbos paslaugų informacinės sistemos bylų rūšių klasifikatorius](BylosRusis.md) - Teisinės pagalbos paslaugų informacinės sistemos (TEISIS) klasifikatoriai, 3 vnt., Teisinės pagalbos paslaugų informacinės sistemos teritorijos klasifikatorius
+* [ParinkimoPagrindas — Teisinės pagalbos paslaugų informacinės sistemos pagalbos teikimo pagrindų klasifikatorius](ParinkimoPagrindas.md) - Teisinės pagalbos paslaugų informacinės sistemos (TEISIS) klasifikatoriai, 3 vnt., Teisinės pagalbos paslaugų informacinės sistemos teritorijos klasifikatorius
+* [Teritorija — Teisinės pagalbos paslaugų informacinės sistemos teritorijos klasifikatorius](Teritorija.md) - Teisinės pagalbos paslaugų informacinės sistemos (TEISIS) klasifikatoriai, 3 vnt., Teisinės pagalbos paslaugų informacinės sistemos teritorijos klasifikatorius

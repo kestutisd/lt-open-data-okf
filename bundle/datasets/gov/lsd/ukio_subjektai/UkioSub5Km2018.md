@@ -3,21 +3,32 @@ type: Table
 title: "UkioSub5Km2018 — Ūkio subjektų geoerdviniai duomenys 2015-2018 m. 5x5km gardelėse."
 description: "Spinta table datasets/gov/lsd/ukio_subjektai/UkioSub5Km2018 (19 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5Km2018"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, ukiosub5km2018, deployed, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L91"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv#L91"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1914/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/ukio_subjektai"
+    author: "team:vda"
+    last_modified: "2026-02-25T00:00:00Z"
 ---
 
 # UkioSub5Km2018 — Ūkio subjektų geoerdviniai duomenys 2015-2018 m. 5x5km gardelėse.
 
 - **Model:** `datasets/gov/lsd/ukio_subjektai/UkioSub5Km2018`[^manifest]
-- **Dataset:** [datasets/gov/lsd/ukio_subjektai](../ukio_subjektai.md) (`datasets/gov/lsd/ukio_subjektai`)
-- **Manifest CSV:** [datasets/gov/lsd/ukio_subjektai.csv#L91](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L91)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5Km2018`
+- **Dataset:** [Veikiančių ūkio subjektų duomenys](../ukio_subjektai.md) (`datasets/gov/lsd/ukio_subjektai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/ukio_subjektai.csv#L91](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L91)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5Km2018` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-02-25`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,4 +54,5 @@ sources:
 | `objectid` | `integer` | — | `4` | `open` | — | Objekto įdentifikacinis numeris | — |
 | `shape_area` | `number` | — | `4` | `open` | — | gardelės plotas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv#L91 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L91)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/ukio_subjektai (https://data.gov.lt/datasets/1914/)

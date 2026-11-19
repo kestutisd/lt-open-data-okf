@@ -3,22 +3,32 @@ type: Table
 title: "ChemMedziagos — Cheminės medžiagos / mišiniai"
 description: "Spinta table datasets/gov/aaa/chemines_medziagos/ChemMedziagos (10 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/chemines_medziagos/ChemMedziagos"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, chemmedziagos, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/chemines_medziagos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/chemines_medziagos.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/chemines_medziagos.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1560/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/chemines_medziagos"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # ChemMedziagos — Cheminės medžiagos / mišiniai
 
 - **Model:** `datasets/gov/aaa/chemines_medziagos/ChemMedziagos`[^manifest]
-- **Dataset:** [datasets/gov/aaa/chemines_medziagos](../chemines_medziagos.md) (`datasets/gov/aaa/chemines_medziagos`)
-- **Manifest CSV:** [datasets/gov/aaa/chemines_medziagos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/chemines_medziagos.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/chemines_medziagos/ChemMedziagos`
-- **Level:** `2`
+- **Dataset:** [Lietuvos rinkoje esančios pavojingos cheminės medžiagos](../chemines_medziagos.md) (`datasets/gov/aaa/chemines_medziagos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/chemines_medziagos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/chemines_medziagos.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/chemines_medziagos/ChemMedziagos` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,7 +47,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `veiksmas` | `"EK"` | — | — | Eksportuota | — |
 | `veiksmas` | `"SU"` | — | — | Sunaudota | — |
@@ -51,4 +61,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/chemines_medziagos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/chemines_medziagos.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/chemines_medziagos.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/chemines_medziagos (https://data.gov.lt/datasets/1560/)

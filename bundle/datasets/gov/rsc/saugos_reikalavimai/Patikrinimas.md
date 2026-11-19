@@ -3,22 +3,32 @@ type: Table
 title: "Patikrinimas — Saugos reikalavimų vykdymo patikrinimai"
 description: "Spinta table datasets/gov/rsc/saugos_reikalavimai/Patikrinimas (17 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rsc/saugos_reikalavimai/Patikrinimas"
-tags: [gov, rsc, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rsc, patikrinimas, deployed, level-2, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rsc/saugos_reikalavimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/saugos_reikalavimai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rsc/saugos_reikalavimai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/458/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rsc/saugos_reikalavimai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Patikrinimas — Saugos reikalavimų vykdymo patikrinimai
 
 - **Model:** `datasets/gov/rsc/saugos_reikalavimai/Patikrinimas`[^manifest]
-- **Dataset:** [datasets/gov/rsc/saugos_reikalavimai](../saugos_reikalavimai.md) (`datasets/gov/rsc/saugos_reikalavimai`)
-- **Manifest CSV:** [datasets/gov/rsc/saugos_reikalavimai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/saugos_reikalavimai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsc/saugos_reikalavimai/Patikrinimas`
-- **Level:** `2`
+- **Dataset:** [Radiacinės saugos centro atlikti radiacinės saugos reikalavimų vykdymo patikrinimai](../saugos_reikalavimai.md) (`datasets/gov/rsc/saugos_reikalavimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rsc/saugos_reikalavimai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/saugos_reikalavimai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsc/saugos_reikalavimai/Patikrinimas` (`deployed`)[^manifest]
+- **Provider:** `rsc` — Radiacinės saugos centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +54,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `skyriaus_id` | `"33"` | — | — | Vilnius | — |
 | `skyriaus_id` | `"34"` | — | — | Kaunas | Aktyvus iki 2019-12-30 |
@@ -86,4 +96,10 @@ sources:
 | `ja_kodas` | `update(base: "/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo")` | `base` | `4` | `open` | — | — | — |
 | `ja_kodas` | `update(type: "ref", ref: "/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rsc/saugos_reikalavimai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rsc/saugos_reikalavimai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/saugos_reikalavimai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rsc/saugos_reikalavimai (https://data.gov.lt/datasets/458/)

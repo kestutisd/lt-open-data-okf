@@ -1,6 +1,6 @@
-# `datasets/gov/taurages_r_sav/prasymai_priimti_mokytis`
+# Directory Index: `datasets/gov/taurages_r_sav/prasymai_priimti_mokytis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

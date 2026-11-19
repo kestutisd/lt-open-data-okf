@@ -1,6 +1,6 @@
-# `datasets/gov/hi/profesines`
+# Directory Index: `datasets/gov/hi/profesines`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

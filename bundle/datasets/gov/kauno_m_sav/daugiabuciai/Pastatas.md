@@ -3,25 +3,34 @@ type: Table
 title: "Pastatas — Duomenys apie Kauno miesto daugiabučius"
 description: "Pateikiami Kauno miesto savivaldybės duomenys apie Kauno mieste stovinčius daugiabučius pastatus."
 resource: "https://get.data.gov.lt/datasets/gov/kauno_m_sav/daugiabuciai/Pastatas"
-tags: [gov, kauno_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kauno_m_sav, pastatas, deployed, level-4, cadence-annual_2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/daugiabuciai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/daugiabuciai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/daugiabuciai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2744/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/daugiabuciai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Pastatas — Duomenys apie Kauno miesto daugiabučius
 
-Pateikiami Kauno miesto savivaldybės duomenys apie Kauno mieste stovinčius daugiabučius pastatus. Rinkinio objektas - daugiabutis pastatas. Rinkinį sudaro informacija apie daugiabučio pastatymo laikotarpį, namo ir aplink jį esančios žemės plotus, namo pastatymo metus, valdymo formą ir esamą valdytoją, renovacijos būklę bei renovacijos metu atliktus darbus. Taip pat nurodytas namo adresas bei jo koordinatės.
+Pateikiami Kauno miesto savivaldybės duomenys apie Kauno mieste stovinčius daugiabučius pastatus. Rinkinio objektas - daugiabutis pastatas. Rinkinį sudaro informacija apie daugiabučio pastatymo laikotarpį, namo ir aplink jį esančios žemės plotus, namo pastatymo metus, valdymo formą ir esamą valdytoją, renovacijos būklę bei renovacijos metu atliktus darbus. Taip pat nurodytas namo adresas bei jo koordinatės. Pasiteiravimui kreiptis į Valstybės duomenų valdysenos komandą: vdv@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/kauno_m_sav/daugiabuciai/Pastatas`[^manifest]
-- **Dataset:** [Duomenys apie Kauno miesto daugiabučius](../daugiabuciai.md) (`datasets/gov/kauno_m_sav/daugiabuciai`)
-- **Manifest CSV:** [datasets/gov/kauno_m_sav/daugiabuciai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/daugiabuciai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/daugiabuciai/Pastatas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Duomenys apie Kauno miesto daugiabučius](../daugiabuciai.md) (`datasets/gov/kauno_m_sav/daugiabuciai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kauno_m_sav/daugiabuciai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/daugiabuciai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/daugiabuciai/Pastatas` (`deployed`)[^manifest]
+- **Provider:** `kauno_m_sav` — Kauno miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL_2`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,7 +57,7 @@ Pateikiami Kauno miesto savivaldybės duomenys apie Kauno mieste stovinčius dau
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `valdymo_forma` | `"Administratorius"` | — | — | — | — |
 | `valdymo_forma` | `"Bendrija"` | — | — | — | — |
@@ -67,4 +76,9 @@ Pateikiami Kauno miesto savivaldybės duomenys apie Kauno mieste stovinčius dau
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `atlikti_darbai_lt` | `update(property: "atlikti_darbai_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/daugiabuciai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/daugiabuciai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/daugiabuciai.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/daugiabuciai (https://data.gov.lt/datasets/2744/)

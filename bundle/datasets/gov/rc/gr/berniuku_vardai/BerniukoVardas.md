@@ -3,23 +3,32 @@ type: Table
 title: "BerniukoVardas — Populiariausi berniukų vardai Lietuvoje, TOP 20 (berniuko vardas, gimimo metai, bendravardžių kiekis)"
 description: "Spinta table datasets/gov/rc/gr/berniuku_vardai/BerniukoVardas (5 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/gr/berniuku_vardai/BerniukoVardas"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, berniukovardas, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/gr/berniuku_vardai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/berniuku_vardai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rc/gr/berniuku_vardai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1752/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/gr/berniuku_vardai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BerniukoVardas — Populiariausi berniukų vardai Lietuvoje, TOP 20 (berniuko vardas, gimimo metai, bendravardžių kiekis)
 
 - **Model:** `datasets/gov/rc/gr/berniuku_vardai/BerniukoVardas`[^manifest]
-- **Dataset:** [Populiariausi berniukų vardai Lietuvoje, TOP 20 (berniuko vardas, gimimo metai, bendravardžių kiekis)](../berniuku_vardai.md) (`datasets/gov/rc/gr/berniuku_vardai`)
-- **Manifest CSV:** [datasets/gov/rc/gr/berniuku_vardai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/berniuku_vardai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/gr/berniuku_vardai/BerniukoVardas`
-- **Primary Key (`ref`):** `gimimo_metai, gimimo_ketvirtis, nr`
-- **Level:** `4`
+- **Dataset:** [Populiariausi berniukų vardai Lietuvoje, TOP 20 (berniuko vardas, gimimo metai, bendravardžių...](../berniuku_vardai.md) (`datasets/gov/rc/gr/berniuku_vardai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/gr/berniuku_vardai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/berniuku_vardai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/gr/berniuku_vardai/BerniukoVardas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `gimimo_metai, gimimo_ketvirtis, nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -31,4 +40,5 @@ sources:
 | `gimimo_metai` | `integer` | — | `2` | `open` | — | Gyventojo gimimo datos metai | — |
 | `gimimo_ketvirtis` | `string` | — | `2` | `open` | — | Gyventojo gimimo datos ketvirtis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/gr/berniuku_vardai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/gr/berniuku_vardai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/berniuku_vardai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/gr/berniuku_vardai (https://data.gov.lt/datasets/1752/)

@@ -3,21 +3,26 @@ type: Table
 title: "VptNSutartys"
 description: "Spinta table datasets/gov/vpt/sutartys/VptNSutartys (27 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNSutartys"
-tags: [gov, vpt, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vpt, vptnsutartys, deployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VptNSutartys
 
 - **Model:** `datasets/gov/vpt/sutartys/VptNSutartys`[^manifest]
-- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)
-- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNSutartys`
+- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNSutartys` (`deployed`)[^manifest]
+- **Provider:** `vpt` — Viešųjų pirkimų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -51,4 +56,8 @@ sources:
 | `dok_fakt_sut_ivyk_verte` | `string` | — | `3` | `open` | — | — | — |
 | `dok_fakt_sut_ivyk_data` | `datetime` | — | `3` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv
+# Related References
+
+- [VPT Public Procurement Notices Join Reference](../../../../references/joins/vpt-procurement-notices.md) — Notice parent-child UUID joins, CPV normalization, and buyer/supplier JAR links.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L4)

@@ -1,11 +1,11 @@
-# `datasets/gov/resc`
+# Directory Index: `datasets/gov/resc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [nato_public_forum_dalyviai/](nato_public_forum_dalyviai/index.md) - Namespace `datasets/gov/resc/nato_public_forum_dalyviai` (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/resc/nato_public_forum_dalyviai](nato_public_forum_dalyviai.md) - Spinta dataset datasets/gov/resc/nato_public_forum_dalyviai (1 table).
+* [„NATO“ public forum dalyvių registro duomenys](nato_public_forum_dalyviai.md) - Šiame rinkinyje pateiktas 2023 m. liepos 11-12 d.
+
+# Subdirectories
+
+* [nato_public_forum_dalyviai/](nato_public_forum_dalyviai/index.md) - 1 table

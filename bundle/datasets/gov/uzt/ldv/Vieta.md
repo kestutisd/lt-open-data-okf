@@ -1,25 +1,36 @@
 ---
 type: Table
-title: "Vieta — Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje. nuo 1990m. iki šių dienų. Lentelės objektas - laisva darbo vieta. Pateikiami išsamūs duomenys apie laisvą darbo..."
-description: "Spinta table datasets/gov/uzt/ldv/Vieta (53 columns)."
+title: "Vieta — Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje. nuo 1990m. iki šių dienų. Lentelės objektas - laisva darbo vieta. Pateikiami išsamūs duomenys apie laisvą darbo vietą, darbdavį ir kandidatui keliamus..."
+description: "Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje."
 resource: "https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta"
-tags: [gov, uzt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, uzt, vieta, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/uzt/ldv.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/uzt/ldv.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/uzt/ldv.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2894/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/uzt/ldv"
+    author: "team:vda"
+    last_modified: "2026-05-06T00:00:00Z"
 ---
 
-# Vieta — Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje. nuo 1990m. iki šių dienų. Lentelės objektas - laisva darbo vieta. Pateikiami išsamūs duomenys apie laisvą darbo...
+# Vieta — Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje. nuo 1990m. iki šių dienų. Lentelės objektas - laisva...
+
+**Dataset Context:** Pateikiami Užimtumo tarnybos duomenys apie laisvas darbo vietas Lietuvoje. nuo 1990m. iki šių dienų. Lentelės objektas - laisva darbo vieta. Pateikiami išsamūs duomenys apie laisvą darbo vietą, darbdavį, darbo užmokestį, kandidatui keliamus reikalavimus ir tikslines gyventojų grupes, kurioms taikomas darbo skelbimas. Rinkinys apima ne tik juridinių, bet ir kitų teisinės veiklos formą turinčių subjektų (pvz. asmenys su verslo liudijimais) skelbiamas laisvas darbo vietas. Naudotojų patogumui išskiriamas požymis, ar darbo vieta yra laisva einamajai dienai.[^manifest]
 
 - **Model:** `datasets/gov/uzt/ldv/Vieta`[^manifest]
-- **Dataset:** [Užimtumo Tarnybos skelbiamos laisvos darbo vietos](../ldv.md) (`datasets/gov/uzt/ldv`)
-- **Manifest CSV:** [datasets/gov/uzt/ldv.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/uzt/ldv.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta`
-- **Primary Key (`ref`):** `darbo_vietos_id`
-- **Level:** `4`
+- **Dataset:** [Užimtumo Tarnybos skelbiamos laisvos darbo vietos](../ldv.md) (`datasets/gov/uzt/ldv`)[^manifest]
+- **Manifest CSV:** [datasets/gov/uzt/ldv.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/uzt/ldv.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/uzt/ldv/Vieta` (`deployed`)[^manifest]
+- **Provider:** `uzt` — Užimtumo Tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `darbo_vietos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-05-06`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -81,7 +92,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `statusas` | `"archyvuota"` | — | — | — | — |
 | `statusas` | `"sukurta"` | — | — | — | — |
@@ -128,4 +139,9 @@ sources:
 | `reik_kompetencijos_lt` | `update(property: "reik_kompetencijos_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `reik_gebejimai` | `update(property: ""reik_gebejimai[]"", type: ""array"", source: ""Reik_gebejimai"")` | `property` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/uzt/ldv.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/uzt/ldv.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/uzt/ldv.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/uzt/ldv (https://data.gov.lt/datasets/2894/)

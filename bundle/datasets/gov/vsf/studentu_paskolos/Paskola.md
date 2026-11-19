@@ -3,25 +3,34 @@ type: Table
 title: "Paskola — Studentų paskolų informacija"
 description: "Duomenų rinkinyje pateikiami studentų paskolų paraiškų anketų ir išduotų paskolų duomenys, kuriuos teikia Valstybinis studijų fondas (https://vsf.lrv.lt/)."
 resource: "https://get.data.gov.lt/datasets/gov/vsf/studentu_paskolos/Paskola"
-tags: [gov, vsf, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vsf, paskola, deployed, level-4, cadence-bimonthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vsf/studentu_paskolos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsf/studentu_paskolos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vsf/studentu_paskolos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4132/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vsf/studentu_paskolos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paskola — Studentų paskolų informacija
 
-Duomenų rinkinyje pateikiami studentų paskolų paraiškų anketų ir išduotų paskolų duomenys, kuriuos teikia Valstybinis studijų fondas (https://vsf.lrv.lt/). Rinkinyje nurodytos paskolos, suteiktos 1998–2013 m. Kiekviena rinkinio eilutė atitinka vieną unikalią studentui suteiktą paskolą. Rinkinį sudaro anketos duomenys, kuriuose nurodoma studento mokymosi įstaiga ir pateikiama šifruota asmeninė informacija, bei suteiktų paskolų duomenys, kuriuose nurodoma paskolos suma, jos grąžinimo terminai ir nustatyti delspinigiai.
+Duomenų rinkinyje pateikiami studentų paskolų paraiškų anketų ir išduotų paskolų duomenys, kuriuos teikia Valstybinis studijų fondas (https://vsf.lrv.lt/). Rinkinyje nurodytos paskolos, suteiktos 1998–2013 m. Kiekviena rinkinio eilutė atitinka vieną unikalią studentui suteiktą paskolą. Rinkinį sudaro anketos duomenys, kuriuose nurodoma studento mokymosi įstaiga ir pateikiama šifruota asmeninė informacija, bei suteiktų paskolų duomenys, kuriuose nurodoma paskolos suma, jos grąžinimo terminai ir nustatyti delspinigiai. Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^manifest]
 
 - **Model:** `datasets/gov/vsf/studentu_paskolos/Paskola`[^manifest]
-- **Dataset:** [Studentų paskolų informacija](../studentu_paskolos.md) (`datasets/gov/vsf/studentu_paskolos`)
-- **Manifest CSV:** [datasets/gov/vsf/studentu_paskolos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsf/studentu_paskolos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vsf/studentu_paskolos/Paskola`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Studentų paskolų informacija](../studentu_paskolos.md) (`datasets/gov/vsf/studentu_paskolos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vsf/studentu_paskolos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsf/studentu_paskolos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vsf/studentu_paskolos/Paskola` (`deployed`)[^manifest]
+- **Provider:** `vsf` — Valstybinis studijų fondas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `BIMONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -51,4 +60,10 @@ Duomenų rinkinyje pateikiami studentų paskolų paraiškų anketų ir išduotų
 | `nurasyta_suma` | `number` | — | `4` | `open` | — | Paskolos suma arba dalis, kuri buvo nurašyta. | — |
 | `busena` | `string` | — | `4` | `open` | — | Paskolos požymio reikšmės | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vsf/studentu_paskolos.csv
+# Related References
+
+- [Lithuanian Currency History (1 EUR = 3.45280 LTL) & ISO 4217](../../../../references/lt-valiutos-istorija.md) — 2015-01-01 euro adoption rules and historical `LTL` / `LTT` / `SUR` periods.
+- [Statutory LTL to EUR Currency Conversion](../../../../computations/ltl-to-eur-conversion.md) — Sanctioned `Attested Computation` (`1 EUR = 3.45280 LTL`, `ROUND_HALF_UP`).
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vsf/studentu_paskolos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsf/studentu_paskolos.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vsf/studentu_paskolos (https://data.gov.lt/datasets/4132/)

@@ -1,6 +1,6 @@
-# `datasets/gov/lgkt/mokymai`
+# Directory Index: `datasets/gov/lgkt/mokymai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

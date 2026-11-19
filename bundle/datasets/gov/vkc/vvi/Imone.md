@@ -3,25 +3,34 @@ type: Table
 title: "Imone — Valstybės valdomų įmonių finansiniai duomenys"
 description: "Valdymo koordinavimo centro (VKC) sistema „Valstybės valdomų įmonių finansiniai ir nefinansiniai duomenys“ kaupia valstybės valdomų įmonių finansinius duomenis."
 resource: "https://get.data.gov.lt/datasets/gov/vkc/vvi/Imone"
-tags: [gov, vkc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vkc, imone, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vkc/vvi.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/vvi.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vkc/vvi.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2839/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vkc/vvi"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Imone — Valstybės valdomų įmonių finansiniai duomenys
 
-Valdymo koordinavimo centro (VKC) sistema „Valstybės valdomų įmonių finansiniai ir nefinansiniai duomenys“ kaupia valstybės valdomų įmonių finansinius duomenis. Duomenys kaupiami nuo 2019 m. ir yra atnaujinami. Duomenų rinkinys sudarytas iš duomenų aktualumo datos, įmonės JAR kodo, pavadinimo, sektoriaus, ar yra valstybės valdomų įmonių (VVĮ) portfelyje, teisinės formos, atstovaujančios įstaigos, valstybei priklausančios dalies, bendro pelno, veiklos pelno, pelno mokesčio, grynojo pelno, ilgalaiko turto, trumpalaiko turto, laikotarpių po einamųjų metų pajamų su sąnaudomis, bendrojo turto, įstatinio pasirašytojo kapitalo, įprastų bei perkainojimo rezervų, nepaskirstytojo pelno, įsipareigojimų einamaisiais metais, metais po einamųjų metų ir bendrų įsipareigojimų. Vienas įrašas atitinka vieną įmonę konkrečiais metais. Valstybei priklausanti dalis matuojama procentais šimtųjų tikslumu, visi kiti skaičiai matuojami tūkst. eurų. Jeigu skaičius yra neigiamas, jis reiškia matuojamo požymio priešingybę, pvz., neigiamas pelnas reiškia nuostolius. Atvertas duomenų rinkinys nebus atnaujinamas.
+Valdymo koordinavimo centro (VKC) sistema „Valstybės valdomų įmonių finansiniai ir nefinansiniai duomenys“ kaupia valstybės valdomų įmonių finansinius duomenis. Duomenys kaupiami nuo 2019 m. ir yra atnaujinami. Duomenų rinkinys sudarytas iš duomenų aktualumo datos, įmonės JAR kodo, pavadinimo, sektoriaus, ar yra valstybės valdomų įmonių (VVĮ) portfelyje, teisinės formos, atstovaujančios įstaigos, valstybei priklausančios dalies, bendro pelno, veiklos pelno, pelno mokesčio, grynojo pelno, ilgalaiko turto, trumpalaiko turto, laikotarpių po einamųjų metų pajamų su sąnaudomis, bendrojo turto, įstatinio pasirašytojo kapitalo, įprastų bei perkainojimo rezervų, nepaskirstytojo pelno, įsipareigojimų einamaisiais metais, metais po einamųjų metų ir bendrų įsipareigojimų. Vienas įrašas atitinka vieną įmonę konkrečiais metais. Valstybei priklausanti dalis matuojama procentais šimtųjų tikslumu, visi kiti skaičiai matuojami tūkst. eurų. Jeigu skaičius yra neigiamas, jis reiškia matuojamo požymio priešingybę, pvz., neigiamas pelnas reiškia nuostolius. Atvertas duomenų rinkinys nebus atnaujinamas. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vkc/vvi/Imone`[^manifest]
-- **Dataset:** [Valstybės valdomų įmonių finansiniai duomenys](../vvi.md) (`datasets/gov/vkc/vvi`)
-- **Manifest CSV:** [datasets/gov/vkc/vvi.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/vvi.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkc/vvi/Imone`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Valstybės valdomų įmonių finansiniai duomenys](../vvi.md) (`datasets/gov/vkc/vvi`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vkc/vvi.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/vvi.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkc/vvi/Imone` (`deployed`)[^manifest]
+- **Provider:** `vkc` — Valdymo koordinavimo centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,7 +63,7 @@ Valdymo koordinavimo centro (VKC) sistema „Valstybės valdomų įmonių finans
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `sektorius` | `"Kita"` | — | — | Kita | — |
 | `sektorius` | `"Susisiekimas"` | — | — | Susisiekimas | — |
@@ -86,4 +95,9 @@ Valdymo koordinavimo centro (VKC) sistema „Valstybės valdomų įmonių finans
 | `isipareigojimai_per_metus` | `update(type: "money", ref: "EUR")` | `type` | — | — | — | — | — |
 | `isipareigojimai` | `update(type: "money", ref: "EUR")` | `type` | — | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vkc/vvi.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vkc/vvi.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/vvi.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vkc/vvi (https://data.gov.lt/datasets/2839/)

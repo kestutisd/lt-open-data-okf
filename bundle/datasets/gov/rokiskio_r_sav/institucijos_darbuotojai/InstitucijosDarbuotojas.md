@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "InstitucijosDarbuotojas — Rokiškio savivaldybės darbuotojai"
-description: "Spinta table datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas (12 columns)."
+description: "Rokiškio savivaldybės darbuotojai"
 resource: "https://get.data.gov.lt/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas"
-tags: [gov, rokiskio_r_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rokiskio_r_sav, institucijosdarbuotojas, deployed, level-4, cadence-monthly_2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2898/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # InstitucijosDarbuotojas — Rokiškio savivaldybės darbuotojai
 
+**Dataset Context:** Rokiškio savivaldybės darbuotojai[^manifest]
+
 - **Model:** `datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas`[^manifest]
-- **Dataset:** [Rokiškio savivaldybės darbuotojai](../institucijos_darbuotojai.md) (`datasets/gov/rokiskio_r_sav/institucijos_darbuotojai`)
-- **Manifest CSV:** [datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas`
-- **Primary Key (`ref`):** `tabelio_nr`
-- **Level:** `4`
+- **Dataset:** [Rokiškio savivaldybės darbuotojai](../institucijos_darbuotojai.md) (`datasets/gov/rokiskio_r_sav/institucijos_darbuotojai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas` (`deployed`)[^manifest]
+- **Provider:** `rokiskio_r_sav` — Rokiškio rajono savivaldybė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `tabelio_nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY_2`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -38,4 +49,9 @@ sources:
 | `institucija` | `string` | — | `4` | `open` | — | Institucijos pavadinimas | — |
 | `imones_kodas` | `string` | — | `4` | `open` | — | Įmonės kodas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rokiskio_r_sav/institucijos_darbuotojai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rokiskio_r_sav/institucijos_darbuotojai (https://data.gov.lt/datasets/2898/)

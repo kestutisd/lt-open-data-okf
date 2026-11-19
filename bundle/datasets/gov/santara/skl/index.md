@@ -1,6 +1,6 @@
-# `datasets/gov/santara/skl`
+# Directory Index: `datasets/gov/santara/skl`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

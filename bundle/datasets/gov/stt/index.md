@@ -1,11 +1,11 @@
-# `datasets/gov/stt` — Specialiųjų tyrimų tarnyba
+# Directory Index: `datasets/gov/stt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [korupcija/](korupcija/index.md) - Gauti pranešimai apie korupciją (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Gauti pranešimai apie korupciją](korupcija.md) - Gauti pranešimai apie korupciją,"Duomenų rinkinyje pateikiami Specialiųjų tyrimų tarnybai pateikti pranešimai apie korupcinio pobūdžio nusikalstamas veikas nuo 2024m. Rinkinio...
+* [Gauti pranešimai apie korupciją](korupcija.md) - Gauti pranešimai apie korupciją,"Duomenų rinkinyje pateikiami Specialiųjų tyrimų tarnybai pateikti pranešimai apie korupcinio pobūdžio nusikalstamas veikas nuo 2024m.
+
+# Subdirectories
+
+* [korupcija/](korupcija/index.md) - 1 table

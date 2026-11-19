@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Mokinys — Neformalaus ugdymo grupių mokiniai"
-description: "Rinkinyje pateikiama Kauno m."
+description: "\"Rinkinyje pateikiama Kauno m. savivaldybės neformalaus ugdymo grupių užimtumo informacija nuo 2021 m. rugsėjo mėn.\""
 resource: "https://get.data.gov.lt/datasets/gov/kauno_m_sav/mokiniai_grupese/Mokinys"
-tags: [gov, kauno_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kauno_m_sav, mokinys, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/mokiniai_grupese.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2943/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/mokiniai_grupese"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Mokinys — Neformalaus ugdymo grupių mokiniai
 
-Rinkinyje pateikiama Kauno m. savivaldybės neformalaus ugdymo grupių užimtumo informacija nuo 2021 m. rugsėjo mėn.
+"Rinkinyje pateikiama Kauno m. savivaldybės neformalaus ugdymo grupių užimtumo informacija nuo 2021 m. rugsėjo mėn."[^manifest]
 
 - **Model:** `datasets/gov/kauno_m_sav/mokiniai_grupese/Mokinys`[^manifest]
-- **Dataset:** [datasets/gov/kauno_m_sav/mokiniai_grupese](../mokiniai_grupese.md) (`datasets/gov/kauno_m_sav/mokiniai_grupese`)
-- **Manifest CSV:** [datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/mokiniai_grupese/Mokinys`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Neformalaus ugdymo grupių mokiniai](../mokiniai_grupese.md) (`datasets/gov/kauno_m_sav/mokiniai_grupese`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/mokiniai_grupese/Mokinys` (`deployed`)[^manifest]
+- **Provider:** `kauno_m_sav` — Kauno miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -50,9 +59,10 @@ Rinkinyje pateikiama Kauno m. savivaldybės neformalaus ugdymo grupių užimtumo
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis_ak` | `"Moteris"` | — | — | Moteris | — |
 | `lytis_ak` | `"Vyras"` | — | — | Vyras | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/mokiniai_grupese.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/mokiniai_grupese.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/mokiniai_grupese (https://data.gov.lt/datasets/2943/)

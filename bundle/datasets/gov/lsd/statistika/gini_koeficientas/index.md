@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/gini_koeficientas`
+# Directory Index: `datasets/gov/lsd/statistika/gini_koeficientas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,25 +3,34 @@ type: Table
 title: "Pastaba — Vyriausybės atstovų pastabos savivaldybių taryboms"
 description: "Lentelėje pateikiamos Vyriausybės atstovų teikiamos pastabos savivaldybių taryboms dėl sprendimų projektų atitikties centrinės valdžios teisės aktams."
 resource: "https://get.data.gov.lt/datasets/gov/vai/pastabos_savivaldybiu_taryboms/Pastaba"
-tags: [gov, vai, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vai, pastaba, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2816/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vai/pastabos_savivaldybiu_taryboms"
+    author: "team:vda"
+    last_modified: "2026-05-07T00:00:00Z"
 ---
 
 # Pastaba — Vyriausybės atstovų pastabos savivaldybių taryboms
 
-Lentelėje pateikiamos Vyriausybės atstovų teikiamos pastabos savivaldybių taryboms dėl sprendimų projektų atitikties centrinės valdžios teisės aktams. Informacija apie pastabas pateikiama nuo 2024 metų atnaujinant kas ketvirtį.
+Lentelėje pateikiamos Vyriausybės atstovų teikiamos pastabos savivaldybių taryboms dėl sprendimų projektų atitikties centrinės valdžios teisės aktams. Informacija apie pastabas pateikiama nuo 2024 metų atnaujinant kas ketvirtį. Dėl techninių klausimų ar galimų klaidų galima kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vai/pastabos_savivaldybiu_taryboms/Pastaba`[^manifest]
-- **Dataset:** [Vyriausybės atstovų pastabos savivaldybių taryboms](../pastabos_savivaldybiu_taryboms.md) (`datasets/gov/vai/pastabos_savivaldybiu_taryboms`)
-- **Manifest CSV:** [datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vai/pastabos_savivaldybiu_taryboms/Pastaba`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Vyriausybės atstovų pastabos savivaldybių taryboms](../pastabos_savivaldybiu_taryboms.md) (`datasets/gov/vai/pastabos_savivaldybiu_taryboms`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vai/pastabos_savivaldybiu_taryboms/Pastaba` (`deployed`)[^manifest]
+- **Provider:** `vai` — Vyriausybės atstovų įstaiga *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-05-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,4 +48,5 @@ Lentelėje pateikiamos Vyriausybės atstovų teikiamos pastabos savivaldybių ta
 | `vyriausybes_atstovas` | `string` | — | `4` | `open` | — | Vyriausybės atstovas | — |
 | `dokumento_pav` | `string` | — | `4` | `open` | — | Duomenų failo pavadinimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vai/pastabos_savivaldybiu_taryboms.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vai/pastabos_savivaldybiu_taryboms (https://data.gov.lt/datasets/2816/)

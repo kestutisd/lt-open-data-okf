@@ -3,24 +3,34 @@ type: Table
 title: "Saskaitos — Sąskaitos"
 description: "Viešojo sektoriaus sąskaitų duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/nbfc/viesojo_sektoriaus_saskaitos/Saskaitos"
-tags: [gov, nbfc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nbfc, saskaitos, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nbfc/sabis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nbfc/sabis.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nbfc/sabis.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3924/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nbfc/viesojo_sektoriaus_saskaitos"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # Saskaitos — Sąskaitos
 
-Viešojo sektoriaus sąskaitų duomenys
+Viešojo sektoriaus sąskaitų duomenys[^manifest]
 
 - **Model:** `datasets/gov/nbfc/viesojo_sektoriaus_saskaitos/Saskaitos`[^manifest]
-- **Dataset:** [Viešojo sektoriaus sąskaitų administravimo bendroji informacinė sistema](../viesojo_sektoriaus_saskaitos.md) (`datasets/gov/nbfc/viesojo_sektoriaus_saskaitos`)
-- **Manifest CSV:** [datasets/gov/nbfc/sabis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nbfc/sabis.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nbfc/viesojo_sektoriaus_saskaitos/Saskaitos`
-- **Level:** `4`
+- **Dataset:** [Viešojo sektoriaus sąskaitų administravimo bendroji informacinė sistema](../viesojo_sektoriaus_saskaitos.md) (`datasets/gov/nbfc/viesojo_sektoriaus_saskaitos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nbfc/sabis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nbfc/sabis.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nbfc/viesojo_sektoriaus_saskaitos/Saskaitos` (`deployed`)[^manifest]
+- **Provider:** `nbfc` — Nacionalinis bendrųjų funkcijų centras *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-10-20`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,4 +55,9 @@ Viešojo sektoriaus sąskaitų duomenys
 | `sf_busena` | `string` | — | `4` | `open` | — | Sąskaitos būsena | — |
 | `sf_buseno_data` | `datetime` | `S` | `4` | `open` | — | Sąskaitos būsenos data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nbfc/sabis.csv
+# Related References
+
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/nbfc/sabis.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nbfc/sabis.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nbfc/viesojo_sektoriaus_saskaitos (https://data.gov.lt/datasets/3924/)

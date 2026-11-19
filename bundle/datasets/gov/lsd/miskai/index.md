@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/miskai`
+# Directory Index: `datasets/gov/lsd/miskai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

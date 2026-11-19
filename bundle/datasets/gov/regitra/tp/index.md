@@ -1,6 +1,6 @@
-# `datasets/gov/regitra/tp`
+# Directory Index: `datasets/gov/regitra/tp`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

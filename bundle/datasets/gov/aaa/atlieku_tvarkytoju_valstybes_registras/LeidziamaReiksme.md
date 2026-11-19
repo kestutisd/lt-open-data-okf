@@ -3,25 +3,34 @@ type: Table
 title: "LeidziamaReiksme — Leidžiamų tvarkyti atliekų kiekiai"
 description: "Atliekų tvarkymo vietai TIPK/taršos leidime nustatyti leidžiamų tvarkyti atliekų kiekiai"
 resource: "https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras/LeidziamaReiksme"
-tags: [gov, aaa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, leidziamareiksme, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3840/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # LeidziamaReiksme — Leidžiamų tvarkyti atliekų kiekiai
 
-Atliekų tvarkymo vietai TIPK/taršos leidime nustatyti leidžiamų tvarkyti atliekų kiekiai
+Atliekų tvarkymo vietai TIPK/taršos leidime nustatyti leidžiamų tvarkyti atliekų kiekiai[^manifest]
 
 - **Model:** `datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras/LeidziamaReiksme`[^manifest]
-- **Dataset:** [Atliekų tvarkytojų valstybės registro duomenys](../atlieku_tvarkytoju_valstybes_registras.md) (`datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras`)
-- **Manifest CSV:** [datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras/LeidziamaReiksme`
-- **Primary Key (`ref`):** `reiksmes_id`
-- **Level:** `4`
+- **Dataset:** [Atliekų tvarkytojų valstybės registro duomenys](../atlieku_tvarkytoju_valstybes_registras.md) (`datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras/LeidziamaReiksme` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `reiksmes_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,7 +63,7 @@ Atliekų tvarkymo vietai TIPK/taršos leidime nustatyti leidžiamų tvarkyti atl
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `leidimo_tipas` | `"Leidimas"` | — | — | — | — |
 | `leidimo_tipas` | `"Licencija"` | — | — | — | — |
@@ -68,4 +77,5 @@ Atliekų tvarkymo vietai TIPK/taršos leidime nustatyti leidžiamų tvarkyti atl
 | `tvarkymo_vietos_busena` | `"Tikslinama"` | — | — | — | — |
 | `tvarkymo_vietos_busena` | `"Išregistruojama"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/atlieku_tvarkytoju_valstybes_registras (https://data.gov.lt/datasets/3840/)

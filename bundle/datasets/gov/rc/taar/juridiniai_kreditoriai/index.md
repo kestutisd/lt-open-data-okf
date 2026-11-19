@@ -1,7 +1,7 @@
-# `datasets/gov/rc/taar/juridiniai_kreditoriai`
+# Directory Index: `datasets/gov/rc/taar/juridiniai_kreditoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [JuridinisKreditorius](JuridinisKreditorius.md) - Spinta table datasets/gov/rc/taar/juridiniai_kreditoriai/JuridinisKreditorius (10 columns).
+* [JuridinisKreditorius](JuridinisKreditorius.md) - Turto arešto aktų registro nuasmeninti duomenys (RAW DATA) apie kreditorius, kai kreditoriai juridiniai asmenys, jų teisinę formą ir kilmės šalį, turto arešto aktų jų statusus, įregistravimo /...

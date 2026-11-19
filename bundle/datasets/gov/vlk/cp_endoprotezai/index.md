@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/cp_endoprotezai`
+# Directory Index: `datasets/gov/vlk/cp_endoprotezai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

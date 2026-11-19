@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "LigoniniuDuomenys — COVID-19 ligoninių duomenys"
-description: "Turimos bei užimtos stacionaro lovos, deguonies tiekimu aprūpintos lovos, intensyvios terapijos ir reanimacijos skyrių lovos, dirbtinės plaučių ventiliacijos įranga ir jos panaudojimas, ECMO sistemos ir jų užimtumas, pacientų srautas..."
+description: "Turimos bei užimtos stacionaro lovos, deguonies tiekimu aprūpintos lovos, intensyvios terapijos ir reanimacijos skyrių lovos, dirbtinės plaučių ventiliacijos įranga ir jos panaudojimas, ECMO sistemos ir jų užimtumas, pacientų srautas, darbingo ir nedarbingo personalo kiekiai..."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/covid19/LigoniniuDuomenys"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, ligoniniuduomenys, deployed, level-3, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L52"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L52"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1670/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/covid19"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # LigoniniuDuomenys — COVID-19 ligoninių duomenys
 
-Turimos bei užimtos stacionaro lovos, deguonies tiekimu aprūpintos lovos, intensyvios terapijos ir reanimacijos skyrių lovos, dirbtinės plaučių ventiliacijos įranga ir jos panaudojimas, ECMO sistemos ir jų užimtumas, pacientų srautas, darbingo ir nedarbingo personalo kiekiai, skiriamo Remdesivir kiekiai. Duomenys yra agreguoti pagal datą ir regionus (penkias teritorines ligonių kasas).
+Turimos bei užimtos stacionaro lovos, deguonies tiekimu aprūpintos lovos, intensyvios terapijos ir reanimacijos skyrių lovos, dirbtinės plaučių ventiliacijos įranga ir jos panaudojimas, ECMO sistemos ir jų užimtumas, pacientų srautas, darbingo ir nedarbingo personalo kiekiai, skiriamo Remdesivir kiekiai. Duomenys yra agreguoti pagal datą ir regionus (penkias teritorines ligonių kasas).[^manifest]
 
 - **Model:** `datasets/gov/lsd/covid19/LigoniniuDuomenys`[^manifest]
-- **Dataset:** [datasets/gov/lsd/covid19](../covid19.md) (`datasets/gov/lsd/covid19`)
-- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L52](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L52)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/LigoniniuDuomenys`
-- **Level:** `3`
+- **Dataset:** [COVID-19 pandemijos duomenys](../covid19.md) (`datasets/gov/lsd/covid19`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L52](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L52)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/LigoniniuDuomenys` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -62,4 +72,9 @@ Turimos bei užimtos stacionaro lovos, deguonies tiekimu aprūpintos lovos, inte
 | `remdesivir_patients_new_r7mean` | `number` | `U` | `4` | `open` | — | Naujų pacientų, gaunančių Remdesivir, skaičius | — |
 | `koord` | `geometry(point,4326)` | `m` | `4` | `open` | — | Ligoninės koordinatės (WGS) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L52 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L52)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/covid19 (https://data.gov.lt/datasets/1670/)

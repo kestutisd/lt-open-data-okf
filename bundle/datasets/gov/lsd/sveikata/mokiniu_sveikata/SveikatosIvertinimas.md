@@ -3,26 +3,34 @@ type: Table
 title: "SveikatosIvertinimas — Sveikatos būklės įvertinimas"
 description: "E027-1 formos pirmos dalies duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/sveikata/mokiniu_sveikata/SveikatosIvertinimas"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, sveikatosivertinimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/sveikata/mokiniu_sveikata.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4067/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/sveikata/mokiniu_sveikata"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # SveikatosIvertinimas — Sveikatos būklės įvertinimas
 
-E027-1 formos pirmos dalies duomenys
+E027-1 formos pirmos dalies duomenys[^manifest]
 
 - **Model:** `datasets/gov/lsd/sveikata/mokiniu_sveikata/SveikatosIvertinimas`[^manifest]
-- **Dataset:** [Kasmetinės vaikų sveikatos patikros duomenys](../mokiniu_sveikata.md) (`datasets/gov/lsd/sveikata/mokiniu_sveikata`)
-- **Manifest CSV:** [datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/sveikata/mokiniu_sveikata/SveikatosIvertinimas`
-- **Primary Key (`ref`):** `tikrinimo_id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Kasmetinės vaikų sveikatos patikros duomenys](../mokiniu_sveikata.md) (`datasets/gov/lsd/sveikata/mokiniu_sveikata`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/sveikata/mokiniu_sveikata/SveikatosIvertinimas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `tikrinimo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-10-20`[^dcat]
 
 # Schema
 
@@ -46,7 +54,7 @@ E027-1 formos pirmos dalies duomenys
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"V"` | — | — | Vyras | — |
 | `lytis` | `"M"` | — | — | Moteris | — |
@@ -58,4 +66,10 @@ E027-1 formos pirmos dalies duomenys
 | `vertinimo_isvada` | `"Mokinys gali dalyvauti ugdymo veikloje laikydamasis rekomendacijų"` | — | — | — | — |
 | `vertinimo_isvada` | `"Vaikas gali dalyvauti mokykloje vykdomoje ugdymo veikloje, laikydamasis šių rekomendacijų"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/sveikata/mokiniu_sveikata.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata/mokiniu_sveikata.csv#L26)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/sveikata/mokiniu_sveikata (https://data.gov.lt/datasets/4067/)

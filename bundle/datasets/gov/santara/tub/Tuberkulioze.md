@@ -2,22 +2,26 @@
 type: Table
 title: "Tuberkulioze"
 description: "Spinta table datasets/gov/santara/tub/Tuberkulioze (9 columns)."
-tags: [gov, santara, undeployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, santara, tuberkulioze, undeployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/santara/tub.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/tub.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/santara/tub.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Tuberkulioze
 
 - **Model:** `datasets/gov/santara/tub/Tuberkulioze`[^manifest]
-- **Dataset:** [Duomenys apie tuberkuliozės atvejus](../tub.md) (`datasets/gov/santara/tub`)
-- **Manifest CSV:** [datasets/gov/santara/tub.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/tub.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Level:** `3`
+- **Dataset:** [Duomenys apie tuberkuliozės atvejus](../tub.md) (`datasets/gov/santara/tub`)[^manifest]
+- **Manifest CSV:** [datasets/gov/santara/tub.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/tub.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `santara` — VUL Santaros klinikos *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -35,7 +39,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"Vyras"` | — | — | Vyras | — |
 | `lytis` | `"Moteris"` | — | — | Moteris | — |
@@ -55,4 +59,4 @@ sources:
 | `alkoholis` | `3` | — | — | Girtauja | — |
 | `alkoholis` | `4` | — | — | Alkoholikas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/santara/tub.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/santara/tub.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/tub.csv#L5)

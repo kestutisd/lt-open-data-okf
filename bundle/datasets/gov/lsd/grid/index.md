@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/grid`
+# Directory Index: `datasets/gov/lsd/grid`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

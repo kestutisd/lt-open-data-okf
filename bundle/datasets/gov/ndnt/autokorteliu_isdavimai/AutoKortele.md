@@ -3,25 +3,34 @@ type: Table
 title: "AutoKortele — Asmenų su negalia automobilio statymo kortelių išdavimų duomenys"
 description: "Lentelėje pateikti asmenų su negalia automobilio statymo kortelių išdavimų duomenys iš Neįgalumo ir darbingumo nustatymo tarnybos informacinės sistemos (NDNT IS)."
 resource: "https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele"
-tags: [gov, ndnt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ndnt, autokortele, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ndnt/autokorteliu_isdavimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2806/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/ndnt/autokorteliu_isdavimai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # AutoKortele — Asmenų su negalia automobilio statymo kortelių išdavimų duomenys
 
-Lentelėje pateikti asmenų su negalia automobilio statymo kortelių išdavimų duomenys iš Neįgalumo ir darbingumo nustatymo tarnybos informacinės sistemos (NDNT IS). Svarbu atkreipti dėmesį, kad automobilio statymo kortelė gali būti išduodama ne tik negalią turintiems darbingo amžiaus asmenims, bet ir vaikams ar pensinio amžiaus žmonėms. Rinkinyje pateikiami ir kas mėnesį atnaujinami nuo 2024 m. liepos mėnesio sukaupti kortelių išdavimo duomenys. Ateityje planuojama papildyti lentelę istoriniais kortelių išdavimo duomenimis.
+Lentelėje pateikti asmenų su negalia automobilio statymo kortelių išdavimų duomenys iš Neįgalumo ir darbingumo nustatymo tarnybos informacinės sistemos (NDNT IS). Svarbu atkreipti dėmesį, kad automobilio statymo kortelė gali būti išduodama ne tik negalią turintiems darbingo amžiaus asmenims, bet ir vaikams ar pensinio amžiaus žmonėms. Rinkinyje pateikiami ir kas mėnesį atnaujinami nuo 2024 m. liepos mėnesio sukaupti kortelių išdavimo duomenys. Ateityje planuojama papildyti lentelę istoriniais kortelių išdavimo duomenimis. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele`[^manifest]
-- **Dataset:** [Asmenų su negalia automobilio statymo kortelių išdavimų duomenys](../autokorteliu_isdavimai.md) (`datasets/gov/ndnt/autokorteliu_isdavimai`)
-- **Manifest CSV:** [datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Asmenų su negalia automobilio statymo kortelių išdavimų duomenys](../autokorteliu_isdavimai.md) (`datasets/gov/ndnt/autokorteliu_isdavimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ndnt/autokorteliu_isdavimai/AutoKortele` (`deployed`)[^manifest]
+- **Provider:** `ndnt` — Asmens su negalia teisių apsaugos agentūra (buv. NDNT) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,9 +52,10 @@ Lentelėje pateikti asmenų su negalia automobilio statymo kortelių išdavimų 
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `ar_leista` | `"leista išduoti"` | — | — | Leidžiama išduoti automobilio statymo kortelę | — |
 | `ar_leista` | `"neleista išduoti"` | — | — | Neleidžiama išduoti automobilio statymo kortelės | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ndnt/autokorteliu_isdavimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ndnt/autokorteliu_isdavimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/ndnt/autokorteliu_isdavimai (https://data.gov.lt/datasets/2806/)

@@ -1,6 +1,6 @@
-# `datasets/gov/rc/stsr/nekilnojamas_turtas`
+# Directory Index: `datasets/gov/rc/stsr/nekilnojamas_turtas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,9 +1,9 @@
-# `datasets/gov/tvs/turtas`
+# Directory Index: `datasets/gov/tvs/turtas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [KedainiuRajSav](KedainiuRajSav.md) - Spinta table datasets/gov/tvs/turtas/KedainiuRajSav (13 columns).
-* [MarijampolesRajSav](MarijampolesRajSav.md) - Spinta table datasets/gov/tvs/turtas/MarijampolesRajSav (13 columns).
-* [TelsiuRajSav](TelsiuRajSav.md) - Spinta table datasets/gov/tvs/turtas/TelsiuRajSav (13 columns).
+* [KedainiuRajSav](KedainiuRajSav.md) - Rinkinys pateikia informaciją apie savivaldybių valdomą nekilnojamąjį turtą.
+* [MarijampolesRajSav](MarijampolesRajSav.md) - Rinkinys pateikia informaciją apie savivaldybių valdomą nekilnojamąjį turtą.
+* [TelsiuRajSav](TelsiuRajSav.md) - Rinkinys pateikia informaciją apie savivaldybių valdomą nekilnojamąjį turtą.

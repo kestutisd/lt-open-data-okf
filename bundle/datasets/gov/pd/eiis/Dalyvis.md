@@ -2,29 +2,32 @@
 type: Table
 title: "Dalyvis"
 description: "Spinta table datasets/gov/pd/eiis/Dalyvis (29 columns)."
-tags: [gov, pd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pd, dalyvis, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pd/eiis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L108"
+    title: "atviriduomenys/manifest — datasets/gov/pd/eiis.csv#L108"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Dalyvis
 
 - **Model:** `datasets/gov/pd/eiis/Dalyvis`[^manifest]
-- **Dataset:** [datasets/gov/pd/eiis](../eiis.md) (`datasets/gov/pd/eiis`)
-- **Manifest CSV:** [datasets/gov/pd/eiis.csv#L108](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L108)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `dalyvis_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/pd/eiis](../eiis.md) (`datasets/gov/pd/eiis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pd/eiis.csv#L108](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L108)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pd` — Policijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `dalyvis_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `eismo_ivykis` | `ref` | [EismoIvykis](EismoIvykis.md) | `4` | — | — | — | — |
+| `eismo_ivykis` | `ref` | [EismoIvykis](EismoIvykis.md) (`level=4 UUID`: `eismo_ivykis._id`) | `4` | — | — | — | — |
 | `dalyvis_id` | `integer` | — | `4` | `open` | — | Dalyvio ID | — |
 | `kategorija` | `string` | — | `3` | `open` | — | Kategorija | — |
 | `dalyvio_tipas` | `string` | — | `4` | `open` | — | Dalyvio tipas | — |
@@ -56,7 +59,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `dalyvio_tipas` | `"Fizinis asmuo"` | — | — | Fizinis asmuo | — |
 | `dalyvio_tipas` | `"Vairuotojas"` | — | — | Vairuotojas | — |
@@ -107,4 +110,4 @@ sources:
 | `teisenos_stadija_busena` | `"IKITEISMINIS"` | — | — | Ikitesminis | — |
 | `teisenos_stadija_busena` | `"ADMINISTRACINIS"` | — | — | Administracinis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pd/eiis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/pd/eiis.csv#L108 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L108)

@@ -3,21 +3,32 @@ type: Table
 title: "ValstPerduotasTurtas"
 description: "Spinta table datasets/gov/vmi/turto_realizavimas/ValstPerduotasTurtas (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/turto_realizavimas/ValstPerduotasTurtas"
-tags: [gov, vmi, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, valstperduotasturtas, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/turto_realizavimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/turto_realizavimas.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/turto_realizavimas.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1193/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/turto_realizavimas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # ValstPerduotasTurtas
 
 - **Model:** `datasets/gov/vmi/turto_realizavimas/ValstPerduotasTurtas`[^manifest]
-- **Dataset:** [datasets/gov/vmi/turto_realizavimas](../turto_realizavimas.md) (`datasets/gov/vmi/turto_realizavimas`)
-- **Manifest CSV:** [datasets/gov/vmi/turto_realizavimas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/turto_realizavimas.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/turto_realizavimas/ValstPerduotasTurtas`
+- **Dataset:** [Valstybei perduoto turto duomenys](../turto_realizavimas.md) (`datasets/gov/vmi/turto_realizavimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/turto_realizavimas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/turto_realizavimas.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/turto_realizavimas/ValstPerduotasTurtas` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -31,7 +42,7 @@ sources:
 | `bylos_tipas` | `string` | — | `3` | `open` | — | Bylos tipas | — |
 | `realizuota` | `date` | `D` | `4` | `open` | — | Realizavimo veiksmo data | — |
 | `realiz_budas` | `string` | — | `3` | `open` | — | Realizavimo veiksmo tipas | — |
-| `realizuotojas` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `2` | `open` | — | Realizuotojo pavadinimas | — |
+| `realizuotojas` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=2` scalar) | `2` | `open` | — | Realizuotojo pavadinimas | — |
 | `mato_vnt` | `string` | — | `3` | `open` | — | Mato vienetas | — |
 | `realiz_turto_verte` | `number` | — | `2` | `open` | — | Realizuoto turto vertė | — |
 | `realiz_turto_kiekis` | `integer` | `U` | `4` | `open` | — | Realizuoto turto kiekis | — |
@@ -51,4 +62,9 @@ sources:
 | `apsk_turto_verte` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `apsk_turto_suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/turto_realizavimas.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/turto_realizavimas.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/turto_realizavimas.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/turto_realizavimas (https://data.gov.lt/datasets/1193/)

@@ -1,10 +1,10 @@
-# `datasets/gov/rc/jar/atributai`
+# Directory Index: `datasets/gov/rc/jar/atributai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Atributas — Juridinių asmenų registro atributų klasifikatorius](Atributas.md) - Spinta table datasets/gov/rc/jar/atributai/Atributas (6 columns).
-* [AtributoTipas — Juridinių asmenų registro atributų tipų klasifikatorius](AtributoTipas.md) - Spinta table datasets/gov/rc/jar/atributai/AtributoTipas (3 columns).
-* [LeistinasAtributas — Juridinių asmenų registro leistinų atributų klasifikatorius pagal teisines formas](LeistinasAtributas.md) - Spinta table datasets/gov/rc/jar/atributai/LeistinasAtributas (2 columns).
-* [TekstinisAtributas — Juridinių asmenų registro tekstinių atributų klasifikatorius](TekstinisAtributas.md) - Spinta table datasets/gov/rc/jar/atributai/TekstinisAtributas (3 columns).
+* [Atributas — Juridinių asmenų registro atributų klasifikatorius](Atributas.md) - Lietuvos Respublikos juridinių asmenų registro atributų klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.) (JAR atributų klasifikatorius; JAR kokybinių atributų klasifikatorius; JAR leistinų...
+* [AtributoTipas — Juridinių asmenų registro atributų tipų klasifikatorius](AtributoTipas.md) - Lietuvos Respublikos juridinių asmenų registro atributų klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.) (JAR atributų klasifikatorius; JAR kokybinių atributų klasifikatorius; JAR leistinų...
+* [LeistinasAtributas — Juridinių asmenų registro leistinų atributų klasifikatorius pagal teisines formas](LeistinasAtributas.md) - Lietuvos Respublikos juridinių asmenų registro atributų klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.) (JAR atributų klasifikatorius; JAR kokybinių atributų klasifikatorius; JAR leistinų...
+* [TekstinisAtributas — Juridinių asmenų registro tekstinių atributų klasifikatorius](TekstinisAtributas.md) - Lietuvos Respublikos juridinių asmenų registro atributų klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.) (JAR atributų klasifikatorius; JAR kokybinių atributų klasifikatorius; JAR leistinų...

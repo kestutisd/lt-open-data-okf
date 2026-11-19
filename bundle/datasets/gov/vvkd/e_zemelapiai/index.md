@@ -1,13 +1,13 @@
-# `datasets/gov/vvkd/e_zemelapiai`
+# Directory Index: `datasets/gov/vvkd/e_zemelapiai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
 * [BunaNauja — Naujų bunų geoerdviniai duomenys](BunaNauja.md) - Šiame sluoksnyje pateikiamos Nemune esančios bunos.
 * [GylisBuja — Bujų geoerdviniai duomenys](GylisBuja.md) - Šiame sluoksnyje pateikiami Bujų duomenys Nemune.
 * [GylisDruskininkaiNevezisVilnius — Gylių duomenys](GylisDruskininkaiNevezisVilnius.md) - Šiame sluoksnyje pateikiami gylių duomenis Nemune Druskininkuose, Neryje Vilniuje ir Nevėžyje.
-* [GylisKaunasKursiuMarios — Gylių duomenys](GylisKaunasKursiuMarios.md) - Šiame sluoksnyje pateikiami gylių duomenys Nemune nuo Birštono iki Kauno, Nemune nuo Kauno iki Kuršių marių, Kuršių mariose, Klaipėdos kanale, Minijoje nuo Atmatos iki...
+* [GylisKaunasKursiuMarios — Gylių duomenys](GylisKaunasKursiuMarios.md) - Šiame sluoksnyje pateikiami gylių duomenys Nemune nuo Birštono iki Kauno, Nemune nuo Kauno iki Kuršių marių, Kuršių mariose, Klaipėdos kanale, Minijoje nuo Atmatos iki Klaipėdos kanalo.
 * [GylisLankytinaVieta — Lankytinų vietų geoerdviniai duomenys](GylisLankytinaVieta.md) - Šiame sluoksnyje pateikiamos vidaus vandenų keliuose esančios lankytinos vietos (uostai, prieplaukos ir pan.
 * [JettyOrPier — Duomenys apie prieplaukas](JettyOrPier.md) - Šiame sluoksnyje pateikiami duomenys apie prieplaukas Nemune nuo Baltarusijos pasienio iki Kauno.
 * [KaunasAugustowWFL1AugustowKanalSluz — Augustavo kanalo geoerdviniai duomenys](KaunasAugustowWFL1AugustowKanalSluz.md) - Šiame sluoksnyje pateikiami Augustavo kanalo šliuzų geoerdviniai duomenys.
@@ -22,5 +22,5 @@
 * [SvarbiInformacija — Svarbios informacijos duomenys](SvarbiInformacija.md) - Šiame sluoksnyje pateikiami svarbios informacijos duomenys, informaciniai pranešimai ir pan.
 * [TuristineTrasa — Turistinės trasos duomenys](TuristineTrasa.md) - Šiame sluoksnyje pateikiami turistinės trasos geoerdviniai duomenys Nemune nuo Druskininkų iki Birštono.
 * [WaterwayKaunasAugustow — Vandens kelio Kaunas - Augustavas geoerdviniai duomenys](WaterwayKaunasAugustow.md) - Šiame sluoksnyje pateikiami vandens kelio Kaunas - Augustavas geoerdviniai duomenys.
-* [Zenklas — Vandens kelių ženklų informaciniai duomenys](Zenklas.md) - Šiame sluoksnyje pateikiami vidaus vandenų kelių ženklų geoerdviniai duomenys, pavadinimai, tipai ir pan. Sluoksnyje pateikiami ženklai išsidėstę Nemunu nuo Kauno iki žiočių...
-* [ZenklasVilnius — Vandens kelių ženklų informaciniai duomenys](ZenklasVilnius.md) - Šiame sluoksnyje pateikiami vidaus vandenų kelių ženklų geoerdviniai duomenys, pavadinimai, tipai ir pan. Sluoksnyje pateikiami ženklai išsidėstę Neryje Vilniuje.
+* [Zenklas — Vandens kelių ženklų informaciniai duomenys](Zenklas.md) - Šiame sluoksnyje pateikiami vidaus vandenų kelių ženklų geoerdviniai duomenys, pavadinimai, tipai ir pan.
+* [ZenklasVilnius — Vandens kelių ženklų informaciniai duomenys](ZenklasVilnius.md) - Šiame sluoksnyje pateikiami vidaus vandenų kelių ženklų geoerdviniai duomenys, pavadinimai, tipai ir pan.

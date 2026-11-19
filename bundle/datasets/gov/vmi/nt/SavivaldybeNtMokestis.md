@@ -1,24 +1,36 @@
 ---
 type: Table
 title: "SavivaldybeNtMokestis — NT mokesčio duomenys pagal savivaldybes"
-description: "Spinta table datasets/gov/vmi/nt/SavivaldybeNtMokestis (20 columns)."
+description: "Nekilnojamo turto mokesčio (toliau - NTM) duomenų rinkinys"
 resource: "https://get.data.gov.lt/datasets/gov/vmi/nt/SavivaldybeNtMokestis"
-tags: [gov, vmi, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, savivaldybentmokestis, deployed, level-3, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L56"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L56"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1185/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/nt"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SavivaldybeNtMokestis — NT mokesčio duomenys pagal savivaldybes
 
+**Dataset Context:** Nekilnojamo turto mokesčio (toliau - NTM) duomenų rinkinys[^manifest]
+
 - **Model:** `datasets/gov/vmi/nt/SavivaldybeNtMokestis`[^manifest]
-- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)
-- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L56](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L56)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/SavivaldybeNtMokestis`
-- **Level:** `3`
+- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L56](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L56)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/SavivaldybeNtMokestis` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -47,7 +59,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `nt_tipas` | `1` | — | — | Nuosavas | — |
 | `nt_tipas` | `2` | — | — | Perimtas | — |
@@ -79,4 +91,5 @@ sources:
 | `eilutes_nr_ffdata` | `update(ref: "enum")` | `ref` | `4` | `open` | — | — | — |
 | `nt_vertes_pokytis` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L56 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L56)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/nt (https://data.gov.lt/datasets/1185/)

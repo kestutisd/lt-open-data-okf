@@ -1,6 +1,6 @@
-# `datasets/gov/ast/skaitikliu_tikrinimai`
+# Directory Index: `datasets/gov/ast/skaitikliu_tikrinimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

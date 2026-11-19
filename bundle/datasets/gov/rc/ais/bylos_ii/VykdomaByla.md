@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "VykdomaByla — Antstolių informacinės sistemos (AIS) duomenys apie antstolių vykdomas bylas – II"
-description: "Spinta table datasets/gov/rc/ais/bylos_ii/VykdomaByla (5 columns)."
+description: "AIS duomenys apie antstolių vykdomas bylas – II (pagal skolininkų fizinių ir juridinių asmenų skaičių, amžių, išieškotiną sumą)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/ais/bylos_ii/VykdomaByla"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, vykdomabyla, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/ais/bylos_ii.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ais/bylos_ii.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rc/ais/bylos_ii.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2170/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/ais/bylos_ii"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # VykdomaByla — Antstolių informacinės sistemos (AIS) duomenys apie antstolių vykdomas bylas – II
 
+**Dataset Context:** AIS duomenys apie antstolių vykdomas bylas – II (pagal skolininkų fizinių ir juridinių asmenų skaičių, amžių, išieškotiną sumą). Antstolių informacinės sistemos (AIS) pirminiai duomenys (RAW DATA) apie antstolių vykdomas bylas. Duomenų geografinė imtis — visa šalies teritorija. Brandos lygis — III. Atnaujinimo dažnumas — kas 3 mėn. Duomenų formatas — CSV. Licencija — CC BY 4.0[^manifest]
+
 - **Model:** `datasets/gov/rc/ais/bylos_ii/VykdomaByla`[^manifest]
-- **Dataset:** [Antstolių informacinės sistemos (AIS) duomenys apie antstolių vykdomas bylas – II](../bylos_ii.md) (`datasets/gov/rc/ais/bylos_ii`)
-- **Manifest CSV:** [datasets/gov/rc/ais/bylos_ii.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ais/bylos_ii.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ais/bylos_ii/VykdomaByla`
-- **Primary Key (`ref`):** `nr`
-- **Level:** `4`
+- **Dataset:** [Antstolių informacinės sistemos (AIS) duomenys apie antstolių vykdomas bylas – II](../bylos_ii.md) (`datasets/gov/rc/ais/bylos_ii`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/ais/bylos_ii.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ais/bylos_ii.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ais/bylos_ii/VykdomaByla` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -33,7 +44,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tipas` | `"Fizinis asmuo"` | — | — | Kai skolininko tipas fizinis asmuo | — |
 | `tipas` | `"Juridinis asmuo"` | — | — | Kai skolininko tipas juridinis asmuo pats iš savęs (lot. Per se) | — |
@@ -49,4 +60,5 @@ sources:
 | `amziaus_grupe` | `"85+"` | — | — | Kai skolininko amžiaus grupė yra 85 ir daugiau metų | — |
 | `amziaus_grupe` | `"Nenustatyta"` | — | — | Kai skolininko amžiaus grupės amžius nenurodytas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ais/bylos_ii.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ais/bylos_ii.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ais/bylos_ii.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/ais/bylos_ii (https://data.gov.lt/datasets/2170/)

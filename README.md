@@ -1,63 +1,125 @@
-# Lithuanian Open Data — OKF v0.2 Knowledge Bundle
+# Lithuanian Open Data — OKF v0.3 Knowledge Bundle & Agent Skills
 
-Pure [Open Knowledge Format (`OKF v0.2`)](https://github.com/GoogleCloudPlatform/open-knowledge-format) knowledge bundle generated directly from the Lithuanian Open Data Spinta Data Structure Definition (`DSA`) catalog at [`atviriduomenys/manifest`](https://github.com/atviriduomenys/manifest) (commit `ec54998dcea52a0d26dc1c172eacec438d47e727`, `2026-11-11T14:39:20Z`).
+Unofficial [Open Knowledge Format (`OKF v0.3`)](https://github.com/open-knowledge-format/open-knowledge-format) knowledge bundle and multi-agent plugin for Lithuanian Open Data, generated from [`atviriduomenys/manifest`](https://github.com/atviriduomenys/manifest) (`get_data_gov_lt.in`), [`data.gov.lt`](https://data.gov.lt) DCAT-AP metadata, and statutory EU/ISO classifications.
 
-> **Unofficial / Unverified:** Neither Lithuanian public-sector agencies nor human data stewards have reviewed or endorsed this bundle. All `3,411` concepts omit `verified:` frontmatter (`0` `human:` verifications; inferred trust tier `unverified`).
+> **Unofficial / Unverified:** Neither Lithuanian public-sector agencies (*VSSA*, *VDA*, *Registrų centras*, *VMI*, *Sodra*, *VKC*, *VPT*) nor human data stewards have reviewed or endorsed this bundle. All `3,420` shipped concepts omit `verified:` frontmatter (`0` verifications; derived OKF v0.3 trust tier `unverified`).
 
-## Summary
+## Bundle Summary (`OKF v0.3`)
 
 | Metric | Value |
 | --- | --- |
-| OKF Specification Version | `0.2` ([bundle/index.md](bundle/index.md)) |
-| Upstream Source | [`atviriduomenys/manifest`](https://github.com/atviriduomenys/manifest) (`ec54998dce`) |
-| Manifest CSV Files Parsed | `1,100` (`988` in `get_data_gov_lt.in`, `112` undeployed) |
-| `Dataset` Concepts | `1,104` (`992` deployed, `112` undeployed) |
-| `Table` Concepts | `2,307` (`2,098` deployed, `209` undeployed) |
-| Total OKF Concepts | `3,411` |
-| License | `GNU AGPL-3.0` ([LICENSE](LICENSE), [NOTICE.md](NOTICE.md)) |
+| OKF Specification Version | `0.3` ([bundle/index.md](bundle/index.md)) |
+| Upstream Spinta Manifest | [`atviriduomenys/manifest`](https://github.com/atviriduomenys/manifest) (`ec54998dce`, `2026-11-11T14:39:20Z`) |
+| Input Provenance Lock | `inputs.lock.json` (SHA-256 digests for `manifest`, `get_data_gov_lt.in`, `dcat-ap.rdf`, EU/ISO inputs) |
+| Manifest CSV Files Parsed | `1,100` (`988` listed in `get_data_gov_lt.in`, `112` undeployed) |
+| `Dataset` Concepts (`type: Dataset`) | `1,104` (`992` `deployed`, `112` `undeployed`) |
+| `Table` Concepts (`type: Table`) | `2,307` (`2,098` `deployed`, `209` `undeployed`) |
+| `Reference` Concepts (`type: Reference`) | `8` (Spinta DSA guide, ISO 639, CPV/BVPŽ, EVRK 2/2.1, LTL/EUR history, JAR/AR/VPT join guides) |
+| `Attested Computation` Concepts | `1` (`bundle/computations/ltl-to-eur-conversion.md` + deterministic Python executor & attester) |
+| **Total OKF v0.3 Concepts** | **`3,420`** (`unverified` by default) |
+| Interactive Graph Viewer | [bundle/viz.html](bundle/viz.html) (self-contained offline HTML5 Canvas explorer) |
+| License | `AGPL-3.0-only` ([LICENSE](LICENSE), [NOTICE.md](NOTICE.md)) |
 
 ## Repository Structure
 
 ```text
 .
 ├── .agents/
-│   └── skills.json               # Workspace skill discovery manifest
-├── .gitattributes                # LF line-ending normalization
-├── .gitignore                    # OS metadata ignore rules
-├── LICENSE                       # GNU AGPL-3.0 (from atviriduomenys/manifest)
-├── NOTICE.md                     # Attribution & unofficial/unverified disclaimer
-├── README.md                     # Repository overview
-├── bundle/                       # OKF v0.2 Knowledge Bundle
-│   ├── index.md                  # Root progressive-disclosure index (okf_version: "0.2")
-│   ├── log.md                    # Directory update log
-│   ├── viz.html                  # Self-contained offline HTML5 Canvas graph viewer
-│   ├── datasets/                 # Canonical dataset & table concepts + index.md hierarchy
-│   └── datasasets/               # Upstream [sic] namespace preserved verbatim from CSV
-└── skills/
-    └── lt-open-data/
-        ├── SKILL.md              # Agent skill for OKF navigation & Spinta DSA rules
-        └── references/           # Cross-OS bundle, Spinta RQL, and metadata/join references
-            ├── cross-os-bundle.md
-            ├── metadata-and-joins.md
-            └── spinta-rql.md
+│   ├── skills.json                              # Direct workspace skill discovery
+│   └── plugins/
+│       └── marketplace.json                     # Codex CLI plugin marketplace (./skills root)
+├── .antigravity-plugin/
+│   └── plugin.json                              # Google Antigravity plugin manifest
+├── .claude-plugin/
+│   └── marketplace.json                         # Claude Code plugin marketplace (./skills root)
+├── .gitattributes                               # Strict LF line-ending normalization
+├── .gitignore                                   # Python bytecode & OS metadata ignore rules
+├── LICENSE                                      # GNU AGPL-3.0-only
+├── NOTICE.md                                    # Attribution, sources, & unverified disclaimer
+├── README.md                                    # Repository & multi-agent installation guide
+├── inputs.lock.json                             # Cryptographic SHA-256 lock of upstream inputs
+├── bundle/                                      # OKF v0.3 Knowledge Bundle (3,420 concepts)
+│   ├── index.md                                 # Root index (okf_version: "0.3", title, description, license)
+│   ├── log.md                                   # Reverse-chronological update history (no frontmatter)
+│   ├── viz.html                                 # Offline HTML5 Canvas concept graph explorer
+│   ├── computations/                            # Attested Computations (ltl-to-eur-conversion.md)
+│   ├── datasasets/                              # Preserved upstream [sic] Spinta namespace (1 dataset, 4 tables)
+│   ├── datasets/                                # Canonical Spinta dataset & table hierarchy (1,103 datasets, 2,303 tables)
+│   └── references/                              # Spinta guide, EU/ISO standards, joins/, executors/, attesters/
+└── skills/                                      # Lightweight plugin root (copied without multi-MB ./bundle)
+    ├── .claude-plugin/
+    │   └── plugin.json                          # Claude Code plugin manifest (skills: "./")
+    ├── .codex-plugin/
+    │   └── plugin.json                          # Codex CLI plugin manifest (skills: "./")
+    ├── lt-open-data/                            # Consumer & Spinta RQL query skill
+    │   ├── SKILL.md
+    │   ├── references/
+    │   │   ├── cross-os-bundle.md
+    │   │   ├── metadata-and-joins.md
+    │   │   ├── okf-trust-and-attestation.md
+    │   │   └── spinta-rql.md
+    │   └── scripts/
+    │       └── scan.py                          # Diacritic/stem-aware OKF v0.3 scanner (PyYAML + stdlib fallback)
+    └── lt-open-data-steward/                    # Producer, verification sign-off, & OKF v0.3 validator skill
+        ├── SKILL.md
+        ├── references/
+        │   ├── frontmatter-and-provenance.md
+        │   └── steward-workflows.md
+        └── scripts/
+            └── validate.py                      # OKF v0.3 conformance + --spinta-checks validator
 ```
 
-## OKF v0.2 & Spinta DSA Conventions
+## Included Agent Skills
 
-- **Concept paths follow declared Spinta namespaces:** `bundle/<dataset>.md` (`type: Dataset`) and `bundle/<dataset>/<Model>.md` (`type: Table`) always reflect the CSV's declared `dataset` and `model` identifiers (`151` CSV filenames differ from their declared namespace).
-- **Saugykla deployment (`get_data_gov_lt.in`):** Frontmatter `resource: "https://get.data.gov.lt/<path>"` is emitted only when the source CSV is listed in `get_data_gov_lt.in`; schema-only manifests omit `resource`.
-- **Provenance (`sources`):** Every concept cites `[^manifest]` pointing to the exact upstream CSV file and 1-based line number in `atviriduomenys/manifest`.
+1. **[`lt-open-data`](skills/lt-open-data/SKILL.md) (Consumer & Live RQL Skill):**
+   Discovers Lithuanian Open Data datasets, tables, EU/ISO standards, and canonical joins across local or sparse-cached bundles; constructs safe `get.data.gov.lt` Spinta RQL queries (`level`-aware foreign keys, `open` access checks, cursor pagination, `?count()`); executes statutory `Attested Computation`s (such as LTL-to-EUR conversion under Council Reg. 851/2014); and reports OKF v0.3 trust tiers, freshness, attestations, and `[^id]` citations.
+2. **[`lt-open-data-steward`](skills/lt-open-data-steward/SKILL.md) (Producer, Steward Sign-Off & Validator Skill):**
+   Refreshes or enriches concepts from `atviriduomenys/manifest` (`get_data_gov_lt.in` + `inputs.lock.json`) and `data.gov.lt` DCAT-AP metadata, scrubs personal email/phone PII, records explicit `human:<id>` / `team:<id>` / `process:<id>` verification events, retires or renames models with `status: deprecated` and `/`-rooted `superseded_by`, authors sanctioned `Attested Computation` contracts, migrates `v0.1`/`v0.2` bundles to `v0.3`, and validates bundles via `validate.py --strict --spinta-checks`.
 
-## Quick Start
+## Multi-Agent Installation
 
-1. **Browse progressively:** Start at [bundle/index.md](bundle/index.md) or [bundle/datasets/gov/index.md](bundle/datasets/gov/index.md), open a `Dataset` concept (`bundle/<dataset>.md`), and follow `# Tables` links to `bundle/<dataset>/<Model>.md` for column-level `# Schema` definitions.
-2. **Explore visually offline:** Open [bundle/viz.html](bundle/viz.html) directly in any modern browser (zero external CDN requests).
-3. **Install the agent skill ([skills/lt-open-data/SKILL.md](skills/lt-open-data/SKILL.md)):**
-   - **Agent Skills CLI (Claude Code, Cursor, Codex, etc.):** `npx skills add kestutisd/lt-open-data-okf` (pass `-g` for global install).
-   - **Claude Code (manual copy):** Copy `skills/lt-open-data` to `$HOME/.claude/skills/lt-open-data` (global) or `.claude/skills/lt-open-data` (project).
-   - **Antigravity:** Open a clone of this repository as a workspace (auto-loaded via [.agents/skills.json](.agents/skills.json)), or copy `skills/lt-open-data` to `$HOME/.gemini/config/skills/lt-open-data` (global).
-   - When installed standalone without cloning this repository, the skill resolves `./bundle` or bootstraps a shallow cache at `$HOME/.cache/lt-open-data-okf` on first use.
+Plugin manifests set `./skills` as the plugin source directory so plugin managers copy **only** the lightweight `skills/` tree instead of the `3,420`-concept `bundle/`. When running outside a clone of this repository, `lt-open-data` automatically bootstraps a shallow sparse-checkout cache (`'bundle/**' '!bundle/viz.html'`) at `${XDG_CACHE_HOME:-$HOME/.cache}/lt-open-data-okf`.
+
+### 1. Agent Skills CLI (Claude Code, Cursor, Codex, Copilot, Windsurf)
+
+```bash
+# Install both lt-open-data and lt-open-data-steward into your agent environment:
+npx skills add kestutisd/lt-open-data-okf
+
+# Or install globally (-g) or select a single skill (--skill):
+npx skills add kestutisd/lt-open-data-okf -g --skill lt-open-data
+npx skills add kestutisd/lt-open-data-okf -g --skill lt-open-data-steward
+```
+
+### 2. Claude Code Plugin Marketplace
+
+```text
+/plugin marketplace add kestutisd/lt-open-data-okf
+/plugin install lt-open-data@lt-open-data-okf
+```
+
+### 3. OpenAI Codex CLI Plugin
+
+Codex CLI discovers the repository marketplace at [.agents/plugins/marketplace.json](.agents/plugins/marketplace.json), which mounts [skills/.codex-plugin/plugin.json](skills/.codex-plugin/plugin.json) (`./skills` only) and exposes both `lt-open-data` and `lt-open-data-steward`.
+
+### 4. Google Antigravity Plugin / Workspace
+
+- **Workspace mode:** Open a clone of this repository in Antigravity — skills load automatically via [.agents/skills.json](.agents/skills.json) and [.antigravity-plugin/plugin.json](.antigravity-plugin/plugin.json).
+- **Global user plugin:** Copy `.antigravity-plugin/plugin.json` and `skills/` into `$HOME/.gemini/config/plugins/lt-open-data/` (or copy individual skill folders to `$HOME/.gemini/config/skills/`).
+
+## Quick CLI Usage
+
+```bash
+# Scan concepts with Lithuanian diacritic- and stem-insensitive matching (works with or without PyYAML):
+python3 skills/lt-open-data/scripts/scan.py bundle --grep "mokesčių" --deployed
+
+# Filter by concept type or inspect JSON summary:
+python3 skills/lt-open-data/scripts/scan.py bundle --type "Attested Computation" --json
+
+# Validate full OKF v0.3 conformance + Spinta/PII/bijection invariants:
+python3 skills/lt-open-data-steward/scripts/validate.py bundle --strict --spinta-checks
+```
 
 ## License
 
-Licensed under **GNU AGPL-3.0** — see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
+Licensed under **GNU AGPL-3.0-only** — see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).

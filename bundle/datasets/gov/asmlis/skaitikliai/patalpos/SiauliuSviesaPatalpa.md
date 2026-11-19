@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "SiauliuSviesaPatalpa — Aptarnavimo ir atsiskaitymo už suteiktas paslaugas administravimo sistemos „Mokesta” UAB „Šiaulių šviesa“ patalpų įrašai."
-description: "Spinta table datasets/gov/asmlis/skaitikliai/patalpos/SiauliuSviesaPatalpa (7 columns)."
+description: "Savivaldybių MOKESTA ir ASMLIS sistemų duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/asmlis/skaitikliai/patalpos/SiauliuSviesaPatalpa"
-tags: [gov, asmlis, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, asmlis, siauliusviesapatalpa, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/asmlis/skaitikliu_parodymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/skaitikliu_parodymai.csv#L51"
+    title: "atviriduomenys/manifest — datasets/gov/asmlis/skaitikliu_parodymai.csv#L51"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2944/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/asmlis/skaitikliai/patalpos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# SiauliuSviesaPatalpa — Aptarnavimo ir atsiskaitymo už suteiktas paslaugas administravimo sistemos „Mokesta” UAB „Šiaulių šviesa“ patalpų įrašai.
+# SiauliuSviesaPatalpa — Aptarnavimo ir atsiskaitymo už suteiktas paslaugas administravimo sistemos „Mokesta” UAB „Šiaulių šviesa“ patalpų...
+
+**Dataset Context:** Savivaldybių MOKESTA ir ASMLIS sistemų duomenys[^manifest]
 
 - **Model:** `datasets/gov/asmlis/skaitikliai/patalpos/SiauliuSviesaPatalpa`[^manifest]
-- **Dataset:** [datasets/gov/asmlis/skaitikliai/patalpos](../patalpos.md) (`datasets/gov/asmlis/skaitikliai/patalpos`)
-- **Manifest CSV:** [datasets/gov/asmlis/skaitikliu_parodymai.csv#L51](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/skaitikliu_parodymai.csv#L51)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/asmlis/skaitikliai/patalpos/SiauliuSviesaPatalpa`
-- **Primary Key (`ref`):** `patalpos_id`
-- **Level:** `4`
+- **Dataset:** [Aptarnavimo ir atsiskaitymo už suteiktas paslaugas administravimo sistemų „Asmlis” ir „Mokesta”...](../patalpos.md) (`datasets/gov/asmlis/skaitikliai/patalpos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/asmlis/skaitikliu_parodymai.csv#L51](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/skaitikliu_parodymai.csv#L51)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/asmlis/skaitikliai/patalpos/SiauliuSviesaPatalpa` (`deployed`)[^manifest]
+- **Provider:** `asmlis` — MOKESTA ir ASMLIS sistemos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `patalpos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -33,4 +44,9 @@ sources:
 | `geometrija` | `geometry(point, 4326)` | — | `4` | `open` | — | Paslaugos teikimo vietos koordinatės wgs | — |
 | `koord_adreso_tipas` | `string` | — | `4` | `open` | — | Paslaugos teikimo vietos koordinačių tipas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/asmlis/skaitikliu_parodymai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/asmlis/skaitikliu_parodymai.csv#L51 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/skaitikliu_parodymai.csv#L51)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/asmlis/skaitikliai/patalpos (https://data.gov.lt/datasets/2944/)

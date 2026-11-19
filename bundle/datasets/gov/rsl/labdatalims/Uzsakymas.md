@@ -3,24 +3,34 @@ type: Table
 title: "Uzsakymas — Kraujo produktų užsakymai pacientams"
 description: "Duomenų rinkinyje pateikiami nuo 2016 m. informacinėje sistemoje „LabDataLIMS“ kaupiami ir iki šiol atnaujinami Respublikinės Šiaulių ligoninės atliktų kraujo perpylimo procedūrų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/rsl/labdatalims/Uzsakymas"
-tags: [gov, rsl, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rsl, uzsakymas, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rsl/labdatalims.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsl/labdatalims.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/rsl/labdatalims.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3853/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rsl/labdatalims"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # Uzsakymas — Kraujo produktų užsakymai pacientams
 
-Duomenų rinkinyje pateikiami nuo 2016 m. informacinėje sistemoje „LabDataLIMS“ kaupiami ir iki šiol atnaujinami Respublikinės Šiaulių ligoninės atliktų kraujo perpylimo procedūrų duomenys. Vienas įrašas atitinka vieną išdavimo įvykio ir išduoto produkto kombinaciją. Duomenų rinkinį sudaro: išdavimo identifikatorius, numeris, užsakymo ir išdavimo datos, recipiento identifikatorius, asmens kodas, lytis bei gimimo metai iš atitinkamų stulpelių bei galiojančių asmens kodų, kraujo grupė, kraujo produkto identifikatorius, grupė, fenotipas, Kelo kodas, komponento kodas bei pavadinimas, minėto produkto tūris, davimo bei galiojimo pabaigos datos ir tiekėjas. Dalyje įrašų kraujo produkto išdavimo data yra ankstesnė už užsakymo, kadangi skubiais atvejais užsakymas fiksuojamas po išdavimo. Pavieniais atvejais to paties kodo kraujo produktų galiojimo laikas ženkliai skiriasi nuo didžiosios dalies atitinkamo kodo produkto, veikiausiai, dėl klaidingai įvestų duomenų. Duomenų teikėjas – VšĮ Respublikinė Šiaulių ligoninė.
+Duomenų rinkinyje pateikiami nuo 2016 m. informacinėje sistemoje „LabDataLIMS“ kaupiami ir iki šiol atnaujinami Respublikinės Šiaulių ligoninės atliktų kraujo perpylimo procedūrų duomenys. Vienas įrašas atitinka vieną išdavimo įvykio ir išduoto produkto kombinaciją. Duomenų rinkinį sudaro: išdavimo identifikatorius, numeris, užsakymo ir išdavimo datos, recipiento identifikatorius, asmens kodas, lytis bei gimimo metai iš atitinkamų stulpelių bei galiojančių asmens kodų, kraujo grupė, kraujo produkto identifikatorius, grupė, fenotipas, Kelo kodas, komponento kodas bei pavadinimas, minėto produkto tūris, davimo bei galiojimo pabaigos datos ir tiekėjas. Dalyje įrašų kraujo produkto išdavimo data yra ankstesnė už užsakymo, kadangi skubiais atvejais užsakymas fiksuojamas po išdavimo. Pavieniais atvejais to paties kodo kraujo produktų galiojimo laikas ženkliai skiriasi nuo didžiosios dalies atitinkamo kodo produkto, veikiausiai, dėl klaidingai įvestų duomenų. Duomenų teikėjas – VšĮ Respublikinė Šiaulių ligoninė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/rsl/labdatalims/Uzsakymas`[^manifest]
-- **Dataset:** [datasets/gov/rsl/labdatalims](../labdatalims.md) (`datasets/gov/rsl/labdatalims`)
-- **Manifest CSV:** [datasets/gov/rsl/labdatalims.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsl/labdatalims.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsl/labdatalims/Uzsakymas`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Kraujo produktų užsakymai pacientams](../labdatalims.md) (`datasets/gov/rsl/labdatalims`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rsl/labdatalims.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsl/labdatalims.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsl/labdatalims/Uzsakymas` (`deployed`)[^manifest]
+- **Provider:** `rsl` — VšĮ Respublikinė Šiaulių ligoninė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-10-20`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -52,7 +62,7 @@ Duomenų rinkinyje pateikiami nuo 2016 m. informacinėje sistemoje „LabDataLIM
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `recipiento_asmens_kodo_validacija` | `"Tinkamas"` | — | — | Tinkamas | — |
 | `recipiento_lytis` | `"M"` | — | — | Moteris | — |
@@ -98,4 +108,5 @@ Duomenų rinkinyje pateikiami nuo 2016 m. informacinėje sistemoje „LabDataLIM
 | `tiekejas` | `"VšĮ VU ligoninė Santaros klinika Kraujo centras"` | — | — | VšĮ VU ligoninė Santaros klinika Kraujo centras | — |
 | `tiekejas` | `"Kauno klinikų Kraujo centras"` | — | — | Kauno klinikų Kraujo centras | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rsl/labdatalims.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rsl/labdatalims.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsl/labdatalims.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rsl/labdatalims (https://data.gov.lt/datasets/3853/)

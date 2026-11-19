@@ -1,7 +1,7 @@
-# `datasets/gov/nvsc`
+# Directory Index: `datasets/gov/nvsc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Subdirectories
 
-* [uzkreciamos_ligos/](uzkreciamos_ligos/index.md) - Namespace `datasets/gov/nvsc/uzkreciamos_ligos` (2 datasets, 5 tables)
+* [uzkreciamos_ligos/](uzkreciamos_ligos/index.md) - 2 datasets, 5 tables

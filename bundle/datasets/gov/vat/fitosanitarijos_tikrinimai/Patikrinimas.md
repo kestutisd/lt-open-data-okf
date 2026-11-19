@@ -1,26 +1,34 @@
 ---
 type: Table
-title: "Patikrinimas — Pateikiama informacija apie atliktus fitosanitarinius tikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; žyma, kad tikrinami ne LR ūkio subjektai; metodinė sritis..."
+title: "Patikrinimas — Pateikiama informacija apie atliktus fitosanitarinius tikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; žyma, kad tikrinami ne LR ūkio subjektai; metodinė sritis; tikrinimo sritis; tikrinimo pobūdis..."
 description: "Spinta table datasets/gov/vat/fitosanitarijos_tikrinimai/Patikrinimas (7 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vat/fitosanitarijos_tikrinimai/Patikrinimas"
-tags: [gov, vat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vat, patikrinimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1864/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vat/fitosanitarijos_tikrinimai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# Patikrinimas — Pateikiama informacija apie atliktus fitosanitarinius tikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; žyma, kad tikrinami ne LR ūkio subjektai; metodinė sritis...
+# Patikrinimas — Pateikiama informacija apie atliktus fitosanitarinius tikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo...
 
 - **Model:** `datasets/gov/vat/fitosanitarijos_tikrinimai/Patikrinimas`[^manifest]
-- **Dataset:** [datasets/gov/vat/fitosanitarijos_tikrinimai](../fitosanitarijos_tikrinimai.md) (`datasets/gov/vat/fitosanitarijos_tikrinimai`)
-- **Manifest CSV:** [datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/fitosanitarijos_tikrinimai/Patikrinimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Fitosanitarinių tikrinimų duomenys](../fitosanitarijos_tikrinimai.md) (`datasets/gov/vat/fitosanitarijos_tikrinimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/fitosanitarijos_tikrinimai/Patikrinimas` (`deployed`)[^manifest]
+- **Provider:** `vat` — Valstybinė augalininkystės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -36,10 +44,11 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `rusis` | `"neplaninis"` | — | — | — | — |
 | `rusis` | `"planinis"` | — | — | — | — |
 | `rusis` | `"planinis+neplaninis"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r8_fitosanitarijos_tikrinimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vat/fitosanitarijos_tikrinimai (https://data.gov.lt/datasets/1864/)

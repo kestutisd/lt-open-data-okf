@@ -3,29 +3,34 @@ type: Table
 title: "PajungimasAtjungimas — Alytaus šilumos tinklų karšto vandens ir šildymo pajungimai, atjungimai"
 description: "Rinkinyje pateikiamai UAB “Alytaus šilumos tinklai” paskyrų registro duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/ast/paskyru_registras/PajungimasAtjungimas"
-tags: [gov, ast, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ast, pajungimasatjungimas, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ast/paskyru_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ast/paskyru_registras.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/ast/paskyru_registras.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2782/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/ast/paskyru_registras"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # PajungimasAtjungimas — Alytaus šilumos tinklų karšto vandens ir šildymo pajungimai, atjungimai
 
-Rinkinyje pateikiamai UAB “Alytaus šilumos tinklai” paskyrų registro duomenys. Registre registruojamos paskyros, kurios pildomos šildymo ir/arba karšto vandens paslaugų pajungimui ir atjungimui objektuose, kurie tampa klientais, atsisako paslaugų, arba – dažniausias atvejis - pajungiamas/atjungiamas šildymas (šildymo sezono metu).
-
-Viena eilutė atitinka vieną kontrolieriau vizitą į atitinkamą adresą.
-
-Duomenys kaupiami nuo 2019 metų. ir iki dabar.
+Rinkinyje pateikiamai UAB “Alytaus šilumos tinklai” paskyrų registro duomenys. Registre registruojamos paskyros, kurios pildomos šildymo ir/arba karšto vandens paslaugų pajungimui ir atjungimui objektuose, kurie tampa klientais, atsisako paslaugų, arba – dažniausias atvejis - pajungiamas/atjungiamas šildymas (šildymo sezono metu). Viena eilutė atitinka vieną kontrolieriau vizitą į atitinkamą adresą. Duomenys kaupiami nuo 2019 metų. ir iki dabar. PASITEIRAVIMUI: Valstybės duomenų valdysenos atvėrimo komanda: atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/ast/paskyru_registras/PajungimasAtjungimas`[^manifest]
-- **Dataset:** [datasets/gov/ast/paskyru_registras](../paskyru_registras.md) (`datasets/gov/ast/paskyru_registras`)
-- **Manifest CSV:** [datasets/gov/ast/paskyru_registras.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ast/paskyru_registras.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ast/paskyru_registras/PajungimasAtjungimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Alytaus šilumos tinklų karšto vandens ir šildymo pajungimai, atjungimai](../paskyru_registras.md) (`datasets/gov/ast/paskyru_registras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ast/paskyru_registras.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ast/paskyru_registras.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ast/paskyru_registras/PajungimasAtjungimas` (`deployed`)[^manifest]
+- **Provider:** `ast` — Alytaus šilumos tinklai *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,7 +53,7 @@ Duomenys kaupiami nuo 2019 metų. ir iki dabar.
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `adreso_tipas` | `"Adresas (aktualus)"` | — | — | Adresas (aktualus) | — |
 | `adreso_tipas` | `"Gatvė"` | — | — | Gatvė | — |
@@ -66,4 +71,5 @@ Duomenys kaupiami nuo 2019 metų. ir iki dabar.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `pastabos_lt` | `update(property: "pastabos_lt@lt", type: "text")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ast/paskyru_registras.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/ast/paskyru_registras.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ast/paskyru_registras.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/ast/paskyru_registras (https://data.gov.lt/datasets/2782/)

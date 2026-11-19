@@ -1,11 +1,11 @@
-# `datasets/gov/transeksta`
+# Directory Index: `datasets/gov/transeksta`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [ctadb/](ctadb/index.md) - Transporto priemonių techninės apžiūros duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Transporto priemonių techninės apžiūros duomenys](ctadb.md) - Spinta dataset datasets/gov/transeksta/ctadb (1 table).
+* [Transporto priemonių techninės apžiūros duomenys](ctadb.md) - Lietuvos techninės apžiūros įmonių asociacijos „TRANSEKSTA“ centralizuotoji techninės apžiūros duomenų bazė kaupia kelių transporto priemonių techninių apžiūrų (TA) duomenis, vykdomų asocijuotųjų...
+
+# Subdirectories
+
+* [ctadb/](ctadb/index.md) - 1 table

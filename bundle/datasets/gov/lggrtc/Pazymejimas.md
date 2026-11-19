@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Pazymejimas — Nuo okupacijų nukentėjusių asmenų pažymėjimai"
-description: "Lietuvos gyventojų genocido ir rezistencijos tyrimo centro išduoti pažymėjimai asmenims, nukentėjusiems nuo 1939-1990 okupacijų."
+description: "\"Lietuvos gyventojų genocido ir rezistencijos tyrimo centro išduoti pažymėjimai asmenims, nukentėjusiems nuo 1939-1990 okupacijų."
 resource: "https://get.data.gov.lt/datasets/gov/lggrtc/Pazymejimas"
-tags: [gov, lggrtc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lggrtc, pazymejimas, deployed, level-4, cadence-annual_2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2811/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lggrtc"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Pazymejimas — Nuo okupacijų nukentėjusių asmenų pažymėjimai
 
-Lietuvos gyventojų genocido ir rezistencijos tyrimo centro išduoti pažymėjimai asmenims, nukentėjusiems nuo 1939-1990 okupacijų. Rinkinyje pateikiama nukentėjusiojo statusas, pažymėjimo numeris, išdavimo įsakymo data ir numeris. Teisiniai straipsniai, jo dalys, punktai ir papunkčiai. Duomenys nuo 1998m iki dabar.
+"Lietuvos gyventojų genocido ir rezistencijos tyrimo centro išduoti pažymėjimai asmenims, nukentėjusiems nuo 1939-1990 okupacijų. Rinkinyje pateikiama nukentėjusiojo statusas, pažymėjimo numeris, išdavimo įsakymo data ir numeris. Teisiniai straipsniai, jo dalys, punktai ir papunkčiai. Duomenys nuo 1998m iki dabar."[^manifest]
 
 - **Model:** `datasets/gov/lggrtc/Pazymejimas`[^manifest]
-- **Dataset:** [Lietuvos gyventojų genocido ir rezistencijos tyrimo centras](../lggrtc.md) (`datasets/gov/lggrtc`)
-- **Manifest CSV:** [datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lggrtc/Pazymejimas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Lietuvos gyventojų genocido ir rezistencijos tyrimo centras](../lggrtc.md) (`datasets/gov/lggrtc`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lggrtc/Pazymejimas` (`deployed`)[^manifest]
+- **Provider:** `lggrtc` — Lietuvos gyventojų genocido ir rezistencijos tyrimo centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL_2`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,4 +55,5 @@ Lietuvos gyventojų genocido ir rezistencijos tyrimo centro išduoti pažymėjim
 | `isdavimo_isakymas` | `string` | — | `4` | `open` | — | Pažymėjimo įsakymo numeris | — |
 | `pazymejimo_pametimo_data` | `date` | `M` | `4` | `open` | — | Pažymėjimo pametimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lggrtc/nukentejusiu_pazymejimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lggrtc (https://data.gov.lt/datasets/2811/)

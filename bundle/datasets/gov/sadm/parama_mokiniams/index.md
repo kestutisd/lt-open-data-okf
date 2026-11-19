@@ -1,7 +1,7 @@
-# `datasets/gov/sadm/parama_mokiniams`
+# Directory Index: `datasets/gov/sadm/parama_mokiniams`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Aprupinimas — Duomenys apie paramą mokiniams](Aprupinimas.md) - Spinta table datasets/gov/sadm/parama_mokiniams/Aprupinimas (6 columns).
+* [Aprupinimas — Duomenys apie paramą mokiniams](Aprupinimas.md) - Socialinės Apsaugos ir Darbo Ministerijos duomenys apie mokiniams suteiktą socialinę paramą savivaldybėse (nemokamas maitinimas ir parama mokinio reikmenims įsigyti).

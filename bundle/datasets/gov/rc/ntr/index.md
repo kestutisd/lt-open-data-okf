@@ -1,29 +1,29 @@
-# `datasets/gov/rc/ntr`
+# Directory Index: `datasets/gov/rc/ntr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [ntr_atributai/](ntr_atributai/index.md) - NTR atributų klasifikatoriai (0 datasets, 5 tables)
-* [ntr_inzineriniai_statiniai/](ntr_inzineriniai_statiniai/index.md) - Nekilnojamojo turto registre įregistruotų inžinerinių statinių duomenys pagal savivaldybes (0 datasets, 1 table)
-* [ntr_kiti_klasifikatoriai/](ntr_kiti_klasifikatoriai/index.md) - Kiti NTR klasifikatoriai (0 datasets, 7 tables)
-* [ntr_naudojimo_budai/](ntr_naudojimo_budai/index.md) - NTR paskirčių klasifikatoriai (0 datasets, 2 tables)
-* [ntr_objektai/](ntr_objektai/index.md) - NTR objektus apibūdinantys klasifikatoriai (0 datasets, 5 tables)
-* [ntr_paskirtys/](ntr_paskirtys/index.md) - NTR paskirčių klasifikatoriai (0 datasets, 3 tables)
-* [ntr_pastatai/](ntr_pastatai/index.md) - Nekilnojamojo turto registre įregistruotų pastatų duomenys pagal savivaldybes (0 datasets, 1 table)
-* [ntr_patalpos/](ntr_patalpos/index.md) - Nekilnojamojo turto registre įregistruotų patalpų duomenys pagal savivaldybes (0 datasets, 1 table)
-* [ntr_teises/](ntr_teises/index.md) - NTR teisių tipų ir teisių potipių klasifikatoriai (0 datasets, 2 tables)
-* [ntr_zemes_sklypai/](ntr_zemes_sklypai/index.md) - Nekilnojamojo turto registre įregistruotų žemės sklypų duomenys pagal savivaldybes (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [NTR atributų klasifikatoriai](ntr_atributai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_atributai (5 tables).
-* [Nekilnojamojo turto registre įregistruotų inžinerinių statinių duomenys pagal savivaldybes](ntr_inzineriniai_statiniai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_inzineriniai_statiniai (1 table).
-* [Kiti NTR klasifikatoriai](ntr_kiti_klasifikatoriai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_kiti_klasifikatoriai (7 tables).
-* [NTR paskirčių klasifikatoriai](ntr_naudojimo_budai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_naudojimo_budai (2 tables).
-* [NTR objektus apibūdinantys klasifikatoriai](ntr_objektai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_objektai (5 tables).
-* [NTR paskirčių klasifikatoriai](ntr_paskirtys.md) - Spinta dataset datasets/gov/rc/ntr/ntr_paskirtys (3 tables).
-* [Nekilnojamojo turto registre įregistruotų pastatų duomenys pagal savivaldybes](ntr_pastatai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_pastatai (1 table).
-* [Nekilnojamojo turto registre įregistruotų patalpų duomenys pagal savivaldybes](ntr_patalpos.md) - Spinta dataset datasets/gov/rc/ntr/ntr_patalpos (1 table).
-* [NTR teisių tipų ir teisių potipių klasifikatoriai](ntr_teises.md) - Spinta dataset datasets/gov/rc/ntr/ntr_teises (2 tables).
-* [Nekilnojamojo turto registre įregistruotų žemės sklypų duomenys pagal savivaldybes](ntr_zemes_sklypai.md) - Spinta dataset datasets/gov/rc/ntr/ntr_zemes_sklypai (1 table).
+* [NTR atributų klasifikatoriai](ntr_atributai.md) - NTR atributų klasifikatoriai (duomenų rinkinių grupė, viso 5 vnt.) (NTR atributų klasifikatorius; NTR atributų reikšmių klasifikatorius; NTR atributų tipų klasifikatorius; NTR leistinų atributų...
+* [Nekilnojamojo turto registre įregistruotų inžinerinių statinių duomenys pagal savivaldybes](ntr_inzineriniai_statiniai.md) - Nekilnojamojo turto registre (NTR) įregistruotų inžinerinių statinių duomenys pagal savivaldybes (rinkinių grupė, viso 60 vnt.).
+* [Kiti NTR klasifikatoriai](ntr_kiti_klasifikatoriai.md) - Kiti NTR klasifikatoriai (duomenų rinkinių grupė, viso 9 vnt.) (NTR identifikatorių tipų klasifikatorius; NTR objektų adresų formavimo taisyklių klasifikatorius; NTR įsigijimo tipų...
+* [NTR paskirčių klasifikatoriai](ntr_naudojimo_budai.md) - NTR naudojimo būdų klasifikatoriai (duomenų rinkinių grupė, viso 3 vnt.) (NTR naudojimo būdų klasifikatorius; NTR leistinų naudojimo būdų klasifikatorius, NTR naudojimo pobūdžių klasifikatorius)
+* [NTR objektus apibūdinantys klasifikatoriai](ntr_objektai.md) - NTR objektus apibūdinantys klasifikatoriai (duomenų rinkinių grupė, viso 5 vnt.) (NTR turto objektų grupių klasifikatorius, NTR objektų tipų klasifikatorius; NTR leistinų objektų tipų...
+* [NTR paskirčių klasifikatoriai](ntr_paskirtys.md) - NTR paskirčių klasifikatoriai (duomenų rinkinių grupė, viso 3 vnt.) ( NTR paskirčių grupių klasifikatorius; NTR paskirčių tipų klasifikatorius; NTR leistinų paskirčių klasifikatorius )
+* [Nekilnojamojo turto registre įregistruotų pastatų duomenys pagal savivaldybes](ntr_pastatai.md) - Nekilnojamojo turto registre (NTR) įregistruotų pastatų duomenys pagal savivaldybes (rinkinių grupė, viso 60 vnt.).
+* [Nekilnojamojo turto registre įregistruotų patalpų duomenys pagal savivaldybes](ntr_patalpos.md) - Nekilnojamojo turto registre (NTR) įregistruotų patalpų duomenys pagal savivaldybes (rinkinių grupė, viso 60 vnt.).
+* [NTR teisių tipų ir teisių potipių klasifikatoriai](ntr_teises.md) - NTR teisių tipų ir teisių potipių klasifikatoriai (duomenų rinkinių grupė, viso 2vnt.) (NTR teisių ir suvaržymų tipų klasifikatorius; NTR teisių ir suvaržymų potipių klasifikatorius)
+* [Nekilnojamojo turto registre įregistruotų žemės sklypų duomenys pagal savivaldybes](ntr_zemes_sklypai.md) - Nekilnojamojo turto registre (NTR) įregistruotų žemės sklypų duomenys pagal savivaldybes (rinkinių grupė, viso 60 vnt.).
+
+# Subdirectories
+
+* [ntr_atributai/](ntr_atributai/index.md) - 5 tables
+* [ntr_inzineriniai_statiniai/](ntr_inzineriniai_statiniai/index.md) - 1 table
+* [ntr_kiti_klasifikatoriai/](ntr_kiti_klasifikatoriai/index.md) - 7 tables
+* [ntr_naudojimo_budai/](ntr_naudojimo_budai/index.md) - 2 tables
+* [ntr_objektai/](ntr_objektai/index.md) - 5 tables
+* [ntr_paskirtys/](ntr_paskirtys/index.md) - 3 tables
+* [ntr_pastatai/](ntr_pastatai/index.md) - 1 table
+* [ntr_patalpos/](ntr_patalpos/index.md) - 1 table
+* [ntr_teises/](ntr_teises/index.md) - 2 tables
+* [ntr_zemes_sklypai/](ntr_zemes_sklypai/index.md) - 1 table

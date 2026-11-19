@@ -3,24 +3,32 @@ type: Table
 title: "Produktas — Pateikiama informacija apie Lietuvos Respublikoje registruotus augalų apsaugos produktus"
 description: "Spinta table datasets/gov/vat/registruoti_aap/Produktas (50 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vat/registruoti_aap/Produktas"
-tags: [gov, vat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vat, produktas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vat/r33_registruoti_aap.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r33_registruoti_aap.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vat/r33_registruoti_aap.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1889/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vat/registruoti_aap"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Produktas — Pateikiama informacija apie Lietuvos Respublikoje registruotus augalų apsaugos produktus
 
 - **Model:** `datasets/gov/vat/registruoti_aap/Produktas`[^manifest]
-- **Dataset:** [Informacija apie Lietuvos Respublikoje registruotus augalų apsaugos produktus](../registruoti_aap.md) (`datasets/gov/vat/registruoti_aap`)
-- **Manifest CSV:** [datasets/gov/vat/r33_registruoti_aap.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r33_registruoti_aap.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/registruoti_aap/Produktas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Informacija apie Lietuvos Respublikoje registruotus augalų apsaugos produktus](../registruoti_aap.md) (`datasets/gov/vat/registruoti_aap`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vat/r33_registruoti_aap.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r33_registruoti_aap.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/registruoti_aap/Produktas` (`deployed`)[^manifest]
+- **Provider:** `vat` — Valstybinė augalininkystės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -79,7 +87,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `veiklioji_medziaga` | `"Cheminė medžiaga"` | — | — | — | — |
 | `veiklioji_medziaga` | `"Mikroorganizmas"` | — | — | — | — |
@@ -96,4 +104,5 @@ sources:
 | `tipas` | `"MIKOORGANIZMAS"` | — | — | — | — |
 | `tipas` | `"PREPARATAS_SEKLU_APDOROJIMUI"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r33_registruoti_aap.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r33_registruoti_aap.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r33_registruoti_aap.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vat/registruoti_aap (https://data.gov.lt/datasets/1889/)

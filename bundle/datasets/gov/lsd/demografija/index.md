@@ -1,11 +1,11 @@
-# `datasets/gov/lsd/demografija`
+# Directory Index: `datasets/gov/lsd/demografija`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [med_mirties_liudijimai/](med_mirties_liudijimai/index.md) - Namespace `datasets/gov/lsd/demografija/med_mirties_liudijimai` (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/lsd/demografija/med_mirties_liudijimai](med_mirties_liudijimai.md) - Spinta dataset datasets/gov/lsd/demografija/med_mirties_liudijimai (1 table).
+* [Mirčių skaičius pagal skaitmeninius medicininius mirties liudijimus](med_mirties_liudijimai.md) - DUOMENŲ ŠALTINIS: Naudojami eSveikatos (ESPBI IS) skaitmeninių medicininių mirties liudijimų (forma E106) duomenys, kuriuos Registrų centras kasdien teikia į Valstybės duoenų agentūros (VDA)...
+
+# Subdirectories
+
+* [med_mirties_liudijimai/](med_mirties_liudijimai/index.md) - 1 table

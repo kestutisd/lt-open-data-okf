@@ -1,16 +1,16 @@
-# `datasets/gov/ivpk`
+# Directory Index: `datasets/gov/ivpk`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [adp/](adp/index.md) - Namespace `datasets/gov/ivpk/adp` (1 dataset, 24 tables)
-* [registrai/](registrai/index.md) - Namespace `datasets/gov/ivpk/registrai` (0 datasets, 24 tables)
-* [statistika/](statistika/index.md) - IVPK statistikos portalo duomenys (0 datasets, 1 table)
-* [viisp/](viisp/index.md) - Namespace `datasets/gov/ivpk/viisp` (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/ivpk/registrai](registrai.md) - Spinta dataset datasets/gov/ivpk/registrai (24 tables).
-* [IVPK statistikos portalo duomenys](statistika.md) - Spinta dataset datasets/gov/ivpk/statistika (1 table).
-* [datasets/gov/ivpk/viisp](viisp.md) - Spinta dataset datasets/gov/ivpk/viisp (3 tables).
+* [Valstybės registrų ir informacinių sistemų registro duomenys](registrai.md) - IVPK registrų duomenys - Informacinės visuomenės plėtros stebėsenos ir valstybės IT paslaugų valdymo informacinės sistemos; Administracinių nusižengimų registras; Tarpžinybinė mokestinių duomenų...
+* [IVPK statistikos portalo duomenys](statistika.md) - Lithuanian open data dataset datasets/gov/ivpk/statistika (1 lentelė).
+* [datasets/gov/ivpk/viisp](viisp.md) - Lithuanian open data dataset datasets/gov/ivpk/viisp (3 lentelės).
+
+# Subdirectories
+
+* [adp/](adp/index.md) - 1 dataset, 24 tables
+* [registrai/](registrai/index.md) - 24 tables
+* [statistika/](statistika/index.md) - 1 table
+* [viisp/](viisp/index.md) - 3 tables

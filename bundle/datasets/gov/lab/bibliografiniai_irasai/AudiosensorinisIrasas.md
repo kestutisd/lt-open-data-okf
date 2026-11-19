@@ -3,24 +3,34 @@ type: Table
 title: "AudiosensorinisIrasas — Bibliografiniai įrašai"
 description: "Elektroninių leidinių valdymo informacinės sistemos (ELVIS) bibliografinių įrašų sąrašas."
 resource: "https://get.data.gov.lt/datasets/gov/lab/bibliografiniai_irasai/AudiosensorinisIrasas"
-tags: [gov, lab, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab, audiosensorinisirasas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab/bibliografiniai_irasai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab/bibliografiniai_irasai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lab/bibliografiniai_irasai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3841/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab/bibliografiniai_irasai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # AudiosensorinisIrasas — Bibliografiniai įrašai
 
-Elektroninių leidinių valdymo informacinės sistemos (ELVIS) bibliografinių įrašų sąrašas.
+Elektroninių leidinių valdymo informacinės sistemos (ELVIS) bibliografinių įrašų sąrašas.[^manifest]
 
 - **Model:** `datasets/gov/lab/bibliografiniai_irasai/AudiosensorinisIrasas`[^manifest]
-- **Dataset:** [Bibliografiniai įrašai](../bibliografiniai_irasai.md) (`datasets/gov/lab/bibliografiniai_irasai`)
-- **Manifest CSV:** [datasets/gov/lab/bibliografiniai_irasai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab/bibliografiniai_irasai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab/bibliografiniai_irasai/AudiosensorinisIrasas`
-- **Level:** `4`
+- **Dataset:** [Bibliografiniai įrašai](../bibliografiniai_irasai.md) (`datasets/gov/lab/bibliografiniai_irasai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab/bibliografiniai_irasai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab/bibliografiniai_irasai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab/bibliografiniai_irasai/AudiosensorinisIrasas` (`deployed`)[^manifest]
+- **Provider:** `lab` — Lietuvos audiosensorinė biblioteka *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -60,4 +70,9 @@ Elektroninių leidinių valdymo informacinės sistemos (ELVIS) bibliografinių �
 | `megstamiausiu_kiekis` | `integer` | — | `4` | `open` | — | Naudotojų, pažymėjusių leidinį kaip mėgstamiausią, skaičius | — |
 | `apskaiciuoto_vertinimo_data` | `date` | `D` | `4` | `open` | — | Data, kurią apskaičiuotas vidutinis leidinio vertinimas, įvertinusių naudotojų skaičius ir į mėgstamiausių leidinių sąrašą įtraukusių naudotojų skaičius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab/bibliografiniai_irasai.csv
+# Related References
+
+- [ISO 639 Language Codes Reference](../../../../references/iso-639-kalbu-kodai.md) — ISO 639-1 / 639-2 / EU NAL codes and special markers `zxx`, `und`, `mul`, `mis`.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab/bibliografiniai_irasai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab/bibliografiniai_irasai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab/bibliografiniai_irasai (https://data.gov.lt/datasets/3841/)

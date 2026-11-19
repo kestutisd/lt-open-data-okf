@@ -3,24 +3,34 @@ type: Table
 title: "SavanoriavimoValandos — Savanoriavimo valandos"
 description: "Jaunimo reikalų agentūros jaunimo savanoriškos tarnybos savanorių savanoriautos valandos priimančiose organizacijose"
 resource: "https://get.data.gov.lt/datasets/gov/jra/savanoriavimo_valandos/SavanoriavimoValandos"
-tags: [gov, jra, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, jra, savanoriavimovalandos, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/jra/savanoriavimo_valandos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/jra/savanoriavimo_valandos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/jra/savanoriavimo_valandos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3863/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/jra/savanoriavimo_valandos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # SavanoriavimoValandos — Savanoriavimo valandos
 
-Jaunimo reikalų agentūros jaunimo savanoriškos tarnybos savanorių savanoriautos valandos priimančiose organizacijose
+Jaunimo reikalų agentūros jaunimo savanoriškos tarnybos savanorių savanoriautos valandos priimančiose organizacijose[^manifest]
 
 - **Model:** `datasets/gov/jra/savanoriavimo_valandos/SavanoriavimoValandos`[^manifest]
-- **Dataset:** [Savanoriavimo valandos](../savanoriavimo_valandos.md) (`datasets/gov/jra/savanoriavimo_valandos`)
-- **Manifest CSV:** [datasets/gov/jra/savanoriavimo_valandos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/jra/savanoriavimo_valandos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/jra/savanoriavimo_valandos/SavanoriavimoValandos`
-- **Level:** `4`
+- **Dataset:** [Savanoriavimo valandos](../savanoriavimo_valandos.md) (`datasets/gov/jra/savanoriavimo_valandos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/jra/savanoriavimo_valandos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/jra/savanoriavimo_valandos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/jra/savanoriavimo_valandos/SavanoriavimoValandos` (`deployed`)[^manifest]
+- **Provider:** `jra` — Jaunimo reikalų agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,4 +64,5 @@ Jaunimo reikalų agentūros jaunimo savanoriškos tarnybos savanorių savanoriau
 | `val_modifikavimo_data` | `date` | `D` | `4` | `open` | — | Savanoriavimo valandų modifikavimo data | — |
 | `val_versija` | `string` | — | `4` | `open` | — | Savanoriavimo valandų įvedimo versija, skaičiuojama nuo 0 | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/jra/savanoriavimo_valandos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/jra/savanoriavimo_valandos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/jra/savanoriavimo_valandos.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/jra/savanoriavimo_valandos (https://data.gov.lt/datasets/3863/)

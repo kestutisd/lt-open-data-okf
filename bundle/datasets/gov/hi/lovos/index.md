@@ -1,10 +1,10 @@
-# `datasets/gov/hi/lovos`
+# Directory Index: `datasets/gov/hi/lovos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Istaiga — Įstaigos](Istaiga.md) - Spinta table datasets/gov/hi/lovos/Istaiga (3 columns).
-* [LovosProfilis — Lovų profiliai](LovosProfilis.md) - Spinta table datasets/gov/hi/lovos/LovosProfilis (4 columns).
-* [Savivaldybe — Savivaldybės](Savivaldybe.md) - Spinta table datasets/gov/hi/lovos/Savivaldybe (3 columns).
-* [VeiklosRodiklis — Lovos veiklos rodikliai](VeiklosRodiklis.md) - Spinta table datasets/gov/hi/lovos/VeiklosRodiklis (18 columns).
+* [Istaiga — Įstaigos](Istaiga.md) - Pagal asmens sveikatos priežiūros įstaigą, lovų specialybės grupes, savivaldybes
+* [LovosProfilis — Lovų profiliai](LovosProfilis.md) - Pagal asmens sveikatos priežiūros įstaigą, lovų specialybės grupes, savivaldybes
+* [Savivaldybe — Savivaldybės](Savivaldybe.md) - Pagal asmens sveikatos priežiūros įstaigą, lovų specialybės grupes, savivaldybes
+* [VeiklosRodiklis — Lovos veiklos rodikliai](VeiklosRodiklis.md) - Pagal asmens sveikatos priežiūros įstaigą, lovų specialybės grupes, savivaldybes

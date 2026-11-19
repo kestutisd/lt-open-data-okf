@@ -1,11 +1,11 @@
-# `datasets/gov/hi/savizudybes`
+# Directory Index: `datasets/gov/hi/savizudybes`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [statistika/](statistika/index.md) - Namespace `datasets/gov/hi/savizudybes/statistika` (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/hi/savizudybes/statistika](statistika.md) - Spinta dataset datasets/gov/hi/savizudybes/statistika (2 tables).
+* [Agreguoti savižudybės atvejų ir savižudybės grėsmių skaičiai](statistika.md) - Duomenų rinkinio pagrindu yra parengta viešai prieinama „Savižudybių stebėsenos“ švieslentė: https://osp.stat.gov.lt/savizudybiu-stebesena Rinkinį sudaro: Savižudybės atvejų duomenys, remiantis HI...
+
+# Subdirectories
+
+* [statistika/](statistika/index.md) - 2 tables

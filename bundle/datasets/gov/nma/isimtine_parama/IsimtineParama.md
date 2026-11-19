@@ -3,22 +3,32 @@ type: Table
 title: "IsimtineParama — Lietuvos kaimo plėtros programos 2014-2020 priemonė \"Išimtinė laikina parama ūkininkams ir MVĮ\""
 description: "Spinta table datasets/gov/nma/isimtine_parama/IsimtineParama (5 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/nma/isimtine_parama/IsimtineParama"
-tags: [gov, nma, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nma, isimtineparama, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nma/isimtine_parama.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/isimtine_parama.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/nma/isimtine_parama.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2299/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nma/isimtine_parama"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # IsimtineParama — Lietuvos kaimo plėtros programos 2014-2020 priemonė "Išimtinė laikina parama ūkininkams ir MVĮ"
 
 - **Model:** `datasets/gov/nma/isimtine_parama/IsimtineParama`[^manifest]
-- **Dataset:** [datasets/gov/nma/isimtine_parama](../isimtine_parama.md) (`datasets/gov/nma/isimtine_parama`)
-- **Manifest CSV:** [datasets/gov/nma/isimtine_parama.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/isimtine_parama.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/isimtine_parama/IsimtineParama`
-- **Level:** `3`
+- **Dataset:** [Lietuvos kaimo plėtros programos 2014-2020 priemonė "Išimtinė laikina parama ūkininkams ir MVĮ"](../isimtine_parama.md) (`datasets/gov/nma/isimtine_parama`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nma/isimtine_parama.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/isimtine_parama.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/isimtine_parama/IsimtineParama` (`deployed`)[^manifest]
+- **Provider:** `nma` — Nacionalinė mokėjimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -32,7 +42,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tipas` | `"Fizinis"` | — | — | Fizinis asmuo | — |
 | `tipas` | `"Juridinis"` | — | — | Juridinis asmuo | — |
@@ -45,4 +55,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `suma_eur` | `update(type: "money, ref: "EUR")"` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nma/isimtine_parama.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nma/isimtine_parama.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/isimtine_parama.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nma/isimtine_parama (https://data.gov.lt/datasets/2299/)

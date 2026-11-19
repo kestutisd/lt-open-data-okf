@@ -3,24 +3,34 @@ type: Table
 title: "Grupe — DRG grupių sąrašas"
 description: "Informacija apie giminingų diagnozių grupes."
 resource: "https://get.data.gov.lt/datasets/gov/vlk/drg/Grupe"
-tags: [gov, vlk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vlk, grupe, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vlk/drg.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/drg.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vlk/drg.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1384/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vlk/drg"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Grupe — DRG grupių sąrašas
 
-Informacija apie giminingų diagnozių grupes. Kiekvieną ADRG sudaro DRGs, kurios skiriasi pagal sunaudojamus išteklius. DRGs – tai detaliausias klasifikavimo lygmuo. ADRG dažniausiai skirstoma į DRGs pagal gydymo atvejo klinikinio sudėtingumo lygmenis.
+Informacija apie giminingų diagnozių grupes. Kiekvieną ADRG sudaro DRGs, kurios skiriasi pagal sunaudojamus išteklius. DRGs – tai detaliausias klasifikavimo lygmuo. ADRG dažniausiai skirstoma į DRGs pagal gydymo atvejo klinikinio sudėtingumo lygmenis.[^manifest]
 
 - **Model:** `datasets/gov/vlk/drg/Grupe`[^manifest]
-- **Dataset:** [datasets/gov/vlk/drg](../drg.md) (`datasets/gov/vlk/drg`)
-- **Manifest CSV:** [datasets/gov/vlk/drg.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/drg.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlk/drg/Grupe`
-- **Level:** `4`
+- **Dataset:** [DRG sąrašas](../drg.md) (`datasets/gov/vlk/drg`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vlk/drg.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/drg.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlk/drg/Grupe` (`deployed`)[^manifest]
+- **Provider:** `vlk` — Valstybinė ligonių kasa *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -34,11 +44,11 @@ Informacija apie giminingų diagnozių grupes. Kiekvieną ADRG sudaro DRGs, kuri
 | `pdk_id` | `integer` | — | `2` | `open` | — | — | — |
 | `pdk_kodas` | `string` | — | `2` | `open` | — | PDK kodas | Pagrindinės diagnostinės kategorijos (PDK) kodas |
 | `pdk_pavadinimas` | `string` | — | `2` | `open` | — | PDK pavadinimas | Pagrindinės diagnostinės kategorijos (PDK) pavadinimas. |
-| `versija` | `ref` | [Versija](Versija.md) | `4` | `open` | — | Nuoroda į DRG versijas | — |
+| `versija` | `ref` | [Versija](Versija.md) (`level=4 UUID`: `versija._id`) | `4` | `open` | — | Nuoroda į DRG versijas | — |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `profilis` | `'Chirurginis'` | — | — | Chirurginis | — |
 | `profilis` | `'Kitas'` | — | — | Kitas | — |
@@ -56,4 +66,5 @@ Informacija apie giminingų diagnozių grupes. Kiekvieną ADRG sudaro DRGs, kuri
 | `pdk_kodas` | `update(property: "pdk.kodas", type: "")` | `property` | `4` | — | — | — | — |
 | `pdk_pavadinimas` | `update(property: "pdk.pavadinimas", type: "")` | `property` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vlk/drg.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vlk/drg.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/drg.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vlk/drg (https://data.gov.lt/datasets/1384/)

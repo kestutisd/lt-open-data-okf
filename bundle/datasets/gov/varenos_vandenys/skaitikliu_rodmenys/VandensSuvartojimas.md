@@ -3,25 +3,34 @@ type: Table
 title: "VandensSuvartojimas — Vandens suvartojimo skaitiklių rodmenys"
 description: "Lentelėje pateikiami vandens suvartojimo skaitiklių rodmenys nuo 2005 metų iš UAB „Varėnos vandenys“ apskaitos sistemos PROGRA."
 resource: "https://get.data.gov.lt/datasets/gov/varenos_vandenys/skaitikliu_rodmenys/VandensSuvartojimas"
-tags: [gov, varenos_vandenys, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, varenos_vandenys, vandenssuvartojimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2873/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/varenos_vandenys/skaitikliu_rodmenys"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # VandensSuvartojimas — Vandens suvartojimo skaitiklių rodmenys
 
-Lentelėje pateikiami vandens suvartojimo skaitiklių rodmenys nuo 2005 metų iš UAB „Varėnos vandenys“ apskaitos sistemos PROGRA. Duomenys atnaujinami kas mėnesį.
+Lentelėje pateikiami vandens suvartojimo skaitiklių rodmenys nuo 2005 metų iš UAB „Varėnos vandenys“ apskaitos sistemos PROGRA. Duomenys atnaujinami kas mėnesį. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/varenos_vandenys/skaitikliu_rodmenys/VandensSuvartojimas`[^manifest]
-- **Dataset:** [Vandens suvartojimo skaitiklių rodmenys](../skaitikliu_rodmenys.md) (`datasets/gov/varenos_vandenys/skaitikliu_rodmenys`)
-- **Manifest CSV:** [datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/varenos_vandenys/skaitikliu_rodmenys/VandensSuvartojimas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Vandens suvartojimo skaitiklių rodmenys](../skaitikliu_rodmenys.md) (`datasets/gov/varenos_vandenys/skaitikliu_rodmenys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/varenos_vandenys/skaitikliu_rodmenys/VandensSuvartojimas` (`deployed`)[^manifest]
+- **Provider:** `varenos_vandenys` — UAB „Varėnos vandenys“ *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,4 +52,5 @@ Lentelėje pateikiami vandens suvartojimo skaitiklių rodmenys nuo 2005 metų i�
 | `apsk_men` | `date` | `M` | `4` | `open` | — | Vandens suvartojimo apskaitos mėnuo | — |
 | `kor_data_laikas` | `datetime` | `S` | `4` | `open` | — | Įrašo koregavimo data ir laikas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_vandenys/skaitikliu_rodmenys.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/varenos_vandenys/skaitikliu_rodmenys (https://data.gov.lt/datasets/2873/)

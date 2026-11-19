@@ -3,25 +3,34 @@ type: Table
 title: "Leidimas — Išduoti automobilių parkavimo leidimai Šiaulių mieste"
 description: "Informacija apie išduotus automobilių parkavimo leidimus Šiaulių mieste"
 resource: "https://get.data.gov.lt/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai/Leidimas"
-tags: [gov, siauliu_sviesa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, siauliu_sviesa, leidimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20"
+    title: "atviriduomenys/manifest — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4037/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Leidimas — Išduoti automobilių parkavimo leidimai Šiaulių mieste
 
-Informacija apie išduotus automobilių parkavimo leidimus Šiaulių mieste
+Informacija apie išduotus automobilių parkavimo leidimus Šiaulių mieste[^manifest]
 
 - **Model:** `datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai/Leidimas`[^manifest]
-- **Dataset:** [Išduoti automobilių stovėjimo leidimai ir užfiksuoti pažeidimai Šiaulių mieste](../administraciniai_nusizengimai_leidimai.md) (`datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai`)
-- **Manifest CSV:** [datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai/Leidimas`
-- **Primary Key (`ref`):** `leidimo_automobiliui_id`
-- **Level:** `4`
+- **Dataset:** [Išduoti automobilių stovėjimo leidimai ir užfiksuoti pažeidimai Šiaulių mieste](../administraciniai_nusizengimai_leidimai.md) (`datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai/Leidimas` (`deployed`)[^manifest]
+- **Provider:** `siauliu_sviesa` — UAB Šiaulių šviesa *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `leidimo_automobiliui_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`[^dcat]
 
 # Schema
 
@@ -45,9 +54,14 @@ Informacija apie išduotus automobilių parkavimo leidimus Šiaulių mieste
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `asmens_tipas` | `"Fizinis asmuo"` | — | — | — | — |
 | `asmens_tipas` | `"Juridinis asmuo"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai.csv#L20)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/siauliu_sviesa/administraciniai_nusizengimai_leidimai (https://data.gov.lt/datasets/4037/)

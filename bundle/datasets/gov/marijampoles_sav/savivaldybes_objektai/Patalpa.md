@@ -3,25 +3,28 @@ type: Table
 title: "Patalpa — Sutartys dėl gyvenamųjų ir negyvenamųjų patalpų"
 description: "Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl gyvenamųjų ir negyvenamųjų patalpų"
 resource: "https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/Patalpa"
-tags: [gov, marijampoles_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, marijampoles_sav, patalpa, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28"
+    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Patalpa — Sutartys dėl gyvenamųjų ir negyvenamųjų patalpų
 
-Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl gyvenamųjų ir negyvenamųjų patalpų
+Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl gyvenamųjų ir negyvenamųjų patalpų[^manifest]
 
 - **Model:** `datasets/gov/marijampoles_sav/savivaldybes_objektai/Patalpa`[^manifest]
-- **Dataset:** [Sutartys dėl nekilnojamo turto objektų](../savivaldybes_objektai.md) (`datasets/gov/marijampoles_sav/savivaldybes_objektai`)
-- **Manifest CSV:** [datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/Patalpa`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Sutartys dėl nekilnojamo turto objektų](../savivaldybes_objektai.md) (`datasets/gov/marijampoles_sav/savivaldybes_objektai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/Patalpa` (`deployed`)[^manifest]
+- **Provider:** `marijampoles_sav` — Marijampolės savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -46,7 +49,7 @@ Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl gyvenamųj�
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `registro_tipas` | `"Patalpos/butai"` | — | — | — | — |
 | `sutarties_tipas` | `"Nuoma"` | — | — | — | — |
@@ -54,4 +57,4 @@ Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl gyvenamųj�
 | `sutarties_tipas` | `"Patikėjimo teisė"` | — | — | — | — |
 | `sutarties_tipas` | `"Subnuoma"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L28)

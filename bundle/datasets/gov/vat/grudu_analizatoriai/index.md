@@ -1,6 +1,6 @@
-# `datasets/gov/vat/grudu_analizatoriai`
+# Directory Index: `datasets/gov/vat/grudu_analizatoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

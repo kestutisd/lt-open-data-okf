@@ -1,6 +1,6 @@
-# `datasets/gov/nma/vietos_projektai_investicijos`
+# Directory Index: `datasets/gov/nma/vietos_projektai_investicijos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

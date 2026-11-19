@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/isvykusiu_turistu_nakvyniu_skaicius`
+# Directory Index: `datasets/gov/lsd/statistika/isvykusiu_turistu_nakvyniu_skaicius`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

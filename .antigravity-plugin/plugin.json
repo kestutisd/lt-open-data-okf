@@ -1,0 +1,17 @@
+{
+  "name": "lt-open-data",
+  "displayName": "Lithuanian Open Data (OKF v0.3)",
+  "version": "0.3.0",
+  "description": "Agent skills for Lithuanian Open Data (OKF v0.3): discover Spinta DSA schemas and EU/ISO classifications, query get.data.gov.lt RQL endpoints with provenance/trust/attestation reporting, and steward or validate OKF v0.3 bundles.",
+  "author": {
+    "name": "kestutisd",
+    "url": "https://github.com/kestutisd"
+  },
+  "homepage": "https://github.com/kestutisd/lt-open-data-okf",
+  "repository": "https://github.com/kestutisd/lt-open-data-okf",
+  "suggestedPrompts": [
+    "Find open datasets on get.data.gov.lt about legal entity tax payments and build a bounded RQL query",
+    "Convert a historical LTL amount to EUR using the bundle's Attested Computation and report trust and attestation",
+    "Validate the Lithuanian Open Data OKF v0.3 bundle with strict and Spinta checks"
+  ]
+}

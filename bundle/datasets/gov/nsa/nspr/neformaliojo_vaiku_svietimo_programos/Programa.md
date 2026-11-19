@@ -3,25 +3,34 @@ type: Table
 title: "Programa — Neformaliojo vaikų švietimo programos"
 description: "Viena eilutė atitinka vieną neformaliojo vaikų švietimo programą"
 resource: "https://get.data.gov.lt/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos/Programa"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, programa, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3997/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Programa — Neformaliojo vaikų švietimo programos
 
-Viena eilutė atitinka vieną neformaliojo vaikų švietimo programą
+Viena eilutė atitinka vieną neformaliojo vaikų švietimo programą[^manifest]
 
 - **Model:** `datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos/Programa`[^manifest]
-- **Dataset:** [Neformaliojo vaikų švietimo programos](../neformaliojo_vaiku_svietimo_programos.md) (`datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos`)
-- **Manifest CSV:** [datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos/Programa`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Neformaliojo vaikų švietimo programos](../neformaliojo_vaiku_svietimo_programos.md) (`datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos/Programa` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -55,20 +64,21 @@ Viena eilutė atitinka vieną neformaliojo vaikų švietimo programą
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
-| `prg_isreg_priezast_lt` | `"Programos teikėjo prašymu"` | — | — | Programos teikėjo prašymu | — |
-| `prg_isreg_priezast_lt` | `"Nevykdant daugiau kaip dvejus metus"` | — | — | Nevykdant daugiau kaip dvejus metus | — |
-| `prg_isreg_priezast_lt` | `"Registro tvarkytojo sprendimu"` | — | — | Registro tvarkytojo sprendimu | — |
-| `prg_isreg_priezast_lt` | `"Prijungiant prie kitos programos"` | — | — | Prijungiant prie kitos programos | — |
-| `prg_isreg_priezast_en` | `"According to the program developer's request"` | — | — | According to the program developer's request | — |
-| `prg_isreg_priezast_en` | `"Do not take place more than two years"` | — | — | Do not take place more than two years | — |
-| `prg_isreg_priezast_en` | `"By Decision of the Register Manager"` | — | — | By Decision of the Register Manager | — |
-| `prg_isreg_priezast_en` | `"Connected to the other program"` | — | — | Connected to the other program | — |
-| `prg_teikejo_kodo_tipas` | `"LT JAR kodas"` | — | — | LT JAR kodas | — |
-| `prg_teikejo_kodo_tipas` | `"LT asmens kodas"` | — | — | LT asmens kodas | — |
-| `prg_teikejo_kodo_tipas` | `"Kitas kodas"` | — | — | Kitas kodas | — |
-| `prg_teikejo_kodo_tipas` | `"Senas LT JAR kodas"` | — | — | Senas LT JAR kodas | — |
+| `prg_isreg_priezast_lt` | `"Programos teikėjo prašymu"` | — | — | "Programos teikėjo prašymu" | — |
+| `prg_isreg_priezast_lt` | `"Nevykdant daugiau kaip dvejus metus"` | — | — | "Nevykdant daugiau kaip dvejus metus" | — |
+| `prg_isreg_priezast_lt` | `"Registro tvarkytojo sprendimu"` | — | — | "Registro tvarkytojo sprendimu" | — |
+| `prg_isreg_priezast_lt` | `"Prijungiant prie kitos programos"` | — | — | "Prijungiant prie kitos programos" | — |
+| `prg_isreg_priezast_en` | `"According to the program developer's request"` | — | — | "According to the program developer's request" | — |
+| `prg_isreg_priezast_en` | `"Do not take place more than two years"` | — | — | "Do not take place more than two years" | — |
+| `prg_isreg_priezast_en` | `"By Decision of the Register Manager"` | — | — | "By Decision of the Register Manager" | — |
+| `prg_isreg_priezast_en` | `"Connected to the other program"` | — | — | "Connected to the other program" | — |
+| `prg_teikejo_kodo_tipas` | `"LT JAR kodas"` | — | — | "LT JAR kodas" | — |
+| `prg_teikejo_kodo_tipas` | `"LT asmens kodas"` | — | — | "LT asmens kodas" | — |
+| `prg_teikejo_kodo_tipas` | `"Kitas kodas"` | — | — | "Kitas kodas" | — |
+| `prg_teikejo_kodo_tipas` | `"Senas LT JAR kodas"` | — | — | "Senas LT JAR kodas" | — |
 | `prg_teikejo_kodo_tipas` | `"Institucijos padalinio kodas"` | — | — | Institucijos padalinio kodas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos (https://data.gov.lt/datasets/3997/)

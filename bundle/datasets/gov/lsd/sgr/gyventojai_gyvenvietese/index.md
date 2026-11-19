@@ -1,7 +1,7 @@
-# `datasets/gov/lsd/sgr/gyventojai_gyvenvietese`
+# Directory Index: `datasets/gov/lsd/sgr/gyventojai_gyvenvietese`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [GyventojuSkaiciusGyvenvietese](GyventojuSkaiciusGyvenvietese.md) - Gyventojų skaičius gyvenvietėse ir gyvenviečių koordinates.
+* [GyventojuSkaiciusGyvenvietese](GyventojuSkaiciusGyvenvietese.md) - "Gyventojų skaičius gyvenvietėse ir gyvenviečių koordinates.

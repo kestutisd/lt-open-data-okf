@@ -3,25 +3,34 @@ type: Table
 title: "Kelione"
 description: "Lentelėje pateikiama bendra informacija apie reisą – maršruto grafiko pavadinimas bei pradžia ir pabaiga"
 resource: "https://get.data.gov.lt/datasets/gov/sp/keleiviu_srautai/Kelione"
-tags: [gov, sp, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, sp, kelione, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/sp/keleiviu_srautai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sp/keleiviu_srautai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/sp/keleiviu_srautai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3901/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/sp/keleiviu_srautai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Kelione
 
-Lentelėje pateikiama bendra informacija apie reisą – maršruto grafiko pavadinimas bei pradžia ir pabaiga
+Lentelėje pateikiama bendra informacija apie reisą – maršruto grafiko pavadinimas bei pradžia ir pabaiga[^manifest]
 
 - **Model:** `datasets/gov/sp/keleiviu_srautai/Kelione`[^manifest]
-- **Dataset:** [Vilniaus miesto viešojo transporto maršrutų keleivių srautų duomenys](../keleiviu_srautai.md) (`datasets/gov/sp/keleiviu_srautai`)
-- **Manifest CSV:** [datasets/gov/sp/keleiviu_srautai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sp/keleiviu_srautai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sp/keleiviu_srautai/Kelione`
-- **Primary Key (`ref`):** `reiso_id`
-- **Level:** `4`
+- **Dataset:** [Vilniaus miesto viešojo transporto maršrutų keleivių srautų duomenys](../keleiviu_srautai.md) (`datasets/gov/sp/keleiviu_srautai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/sp/keleiviu_srautai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sp/keleiviu_srautai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sp/keleiviu_srautai/Kelione` (`deployed`)[^manifest]
+- **Provider:** `sp` — Vilniaus miesto SĮ „Susisiekimo paslaugos“ *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `reiso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -38,4 +47,5 @@ Lentelėje pateikiama bendra informacija apie reisą – maršruto grafiko pavad
 | `stoteliu_sk` | `integer` | — | `4` | `open` | — | Stotelių skaičius maršrute | — |
 | `tp_id` | `string` | — | `4` | `open` | — | Transporto priemonės identifikatorius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/sp/keleiviu_srautai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/sp/keleiviu_srautai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sp/keleiviu_srautai.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/sp/keleiviu_srautai (https://data.gov.lt/datasets/3901/)

@@ -1,6 +1,6 @@
-# `datasets/gov/nsa/sr/studiju_pertraukimas`
+# Directory Index: `datasets/gov/nsa/sr/studiju_pertraukimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

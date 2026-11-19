@@ -1,11 +1,11 @@
-# `datasets/gov/akmenes_r_sav` — Akmenės rajono savivaldybė
+# Directory Index: `datasets/gov/akmenes_r_sav`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [korteles_panaudojimai/](korteles_panaudojimai/index.md) - Akmeniečio kortelės panaudojimai (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
 * [Akmeniečio kortelės panaudojimai](korteles_panaudojimai.md) - Informacija apie Akmenės rajono savivaldybės išduotos Akmeniečio kortelės panaudojimus
+
+# Subdirectories
+
+* [korteles_panaudojimai/](korteles_panaudojimai/index.md) - 1 table

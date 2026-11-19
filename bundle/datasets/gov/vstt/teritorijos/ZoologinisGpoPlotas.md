@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "ZoologinisGpoPlotas — Zoologiniai GPO Plotai"
-description: "Spinta table datasets/gov/vstt/teritorijos/ZoologinisGpoPlotas (48 columns)."
+description: "Saugomų teritorijų valstybės kadastro duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vstt/teritorijos/ZoologinisGpoPlotas"
-tags: [gov, vstt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vstt, zoologinisgpoplotas, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418"
+    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/789/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # ZoologinisGpoPlotas — Zoologiniai GPO Plotai
 
+**Dataset Context:** Saugomų teritorijų valstybės kadastro duomenys[^manifest]
+
 - **Model:** `datasets/gov/vstt/teritorijos/ZoologinisGpoPlotas`[^manifest]
-- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)
-- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/ZoologinisGpoPlotas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/ZoologinisGpoPlotas` (`deployed`)[^manifest]
+- **Provider:** `vstt` — Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,13 +52,13 @@ sources:
 | `rusis_lt` | `string` | — | `4` | `open` | — | Tiksli rūšis | — |
 | `radaviete_lt` | `string` | — | `4` | `open` | — | Radavietės aprašymas | — |
 | `kiti_lt` | `string` | — | `4` | `open` | — | Kiti parametrai | — |
-| `adm_hier_kodas` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe[sav_kodas]](../../rc/ar/savivaldybe/Savivaldybe.md) | `4` | `open` | — | Savivaldybės kodas | — |
+| `adm_hier_kodas` | `ref` | [Savivaldybe](../../rc/ar/savivaldybe/Savivaldybe.md) (`level=4 UUID` via `Savivaldybe[sav_kodas]`: `adm_hier_kodas._id`) | `4` | `open` | — | Savivaldybės kodas | — |
 | `adm_pavadinimas_lt` | `string` | — | `4` | `open` | — | Savivaldybės pavadinimas | — |
-| `adm_hier_kodas_sen` | `ref` | [/datasets/gov/rc/ar/seniunija/Seniunija[sen_kodas]](../../rc/ar/seniunija/Seniunija.md) | `4` | `open` | — | Seniūnijos kodas | — |
+| `adm_hier_kodas_sen` | `ref` | [Seniunija](../../rc/ar/seniunija/Seniunija.md) (`level=4 UUID` via `Seniunija[sen_kodas]`: `adm_hier_kodas_sen._id`) | `4` | `open` | — | Seniūnijos kodas | — |
 | `adm_pavadinimas_sen_lt` | `string` | — | `4` | `open` | — | Seniūnijos pavadinimas | — |
-| `gyv_rej_kodas` | `ref` | [/datasets/gov/rc/ar/gyvenamojivietove/GyvenamojiVietove[gyv_kodas]](../../rc/ar/gyvenamojivietove/GyvenamojiVietove.md) | `4` | `open` | — | Gyvenamosios vietovės rejestro kodas | — |
+| `gyv_rej_kodas` | `ref` | [GyvenamojiVietove](../../rc/ar/gyvenamojivietove/GyvenamojiVietove.md) (`level=4 UUID` via `GyvenamojiVietove[gyv_kodas]`: `gyv_rej_kodas._id`) | `4` | `open` | — | Gyvenamosios vietovės rejestro kodas | — |
 | `gyv_pavad_v_lt` | `string` | — | `4` | `open` | — | Gyvenamosios vietovės pavadinimas | — |
-| `gat_kodas` | `ref` | [/datasets/gov/rc/ar/gatve/Gatve[gat_kodas]](../../rc/ar/gatve/Gatve.md) | `4` | `open` | — | Gatvės kodas | — |
+| `gat_kodas` | `ref` | [Gatve](../../rc/ar/gatve/Gatve.md) (`level=4 UUID` via `Gatve[gat_kodas]`: `gat_kodas._id`) | `4` | `open` | — | Gatvės kodas | — |
 | `gat_pavadinimas_lt` | `string` | — | `4` | `open` | — | Gatvės pavadinimas | — |
 | `mu_kod` | `integer` | — | `2` | `open` | — | Miškų urėdijos kodas | — |
 | `mu_pavad_lt` | `string` | — | `4` | `open` | — | Miškų urėdijos pavadinimas | — |
@@ -64,7 +75,7 @@ sources:
 | `saltiniai_lt` | `string` | — | `4` | `open` | — | Duomenų šaltiniai | Nurodomi moksliniai tyrimai ir publikacijos |
 | `buf_zona_apras` | `string` | — | `4` | `open` | — | Buferinė zona | Duomenys apie valstybinio parko buferinę apsaugos zoną |
 | `pastabos` | `string` | — | `4` | `open` | — | Pastabos | — |
-| `steigejas_galiojantis` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `4` | `open` | — | Steigėjas | Institucija kurios potvarkiu šiuo metu galioja saugoma teritorija arba jos riba |
+| `steigejas_galiojantis` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=4 UUID` via `JuridinisAsmuo[ja_pavadinimas]`: `steigejas_galiojantis._id`) | `4` | `open` | — | Steigėjas | Institucija kurios potvarkiu šiuo metu galioja saugoma teritorija arba jos riba |
 | `galiojantis` | `date` | `D` | `4` | `open` | — | Steigimo data | Šiuo metu galiojančio saugomos teritorijos steigimo teisės akto data |
 | `steig_ta_galiojantis` | `string` | — | `4` | `open` | — | Teisinis statusas | Teisės aktas pagal kurį šiuo metu galioja gamtos paveldo objekto riba (vieta) reglamentai arba šis teisės aktas yra šiuo metu galiojantis gamtos paveldo objekto teisinis pagrindas |
 | `planavimo_dok` | `string` | — | `4` | `open` | — | Planavimo dokumentas | Duomenys apie parengtus planavimo dokumentus |
@@ -76,7 +87,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `gkodas` | `"nk1"` | — | — | Valstybinis | — |
 | `gkodas` | `"nk2"` | — | — | Savivaldybės | — |
@@ -125,4 +136,10 @@ sources:
 | `vieta_lt` | `update("vieta_lt@lt", type: "text")` | — | `4` | `open` | — | — | — |
 | `aprasymas_lt` | `update("aprasymas_lt@lt", type: "text")` | — | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L1418)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos (https://data.gov.lt/datasets/789/)

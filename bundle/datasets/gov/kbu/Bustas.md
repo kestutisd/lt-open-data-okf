@@ -3,25 +3,34 @@ type: Table
 title: "Bustas — Klaipėdos miesto savivaldybės nuomojamų būstų registras"
 description: "Rinkinys apie savivaldybės ir socialinio būsto nuomą Klaipėdos miesto savivaldybėje, kuriame pateikiama informacija apie būstų charakteristikas, nuomos sąlygas ir nuomininkus."
 resource: "https://get.data.gov.lt/datasets/gov/kbu/Bustas"
-tags: [gov, kbu, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kbu, bustas, deployed, level-4, cadence-annual_2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kbu/bustai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kbu/bustai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/kbu/bustai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3831/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kbu"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Bustas — Klaipėdos miesto savivaldybės nuomojamų būstų registras
 
-Rinkinys apie savivaldybės ir socialinio būsto nuomą Klaipėdos miesto savivaldybėje, kuriame pateikiama informacija apie būstų charakteristikas, nuomos sąlygas ir nuomininkus. Kiekvienos lentelės viena eilutė atitinką vieną sudarytą nuomos sutartį Klaipėdos miesto savivaldybėje. Duomenų teikėjas: VšĮ Klaipėdos butai.
+Rinkinys apie savivaldybės ir socialinio būsto nuomą Klaipėdos miesto savivaldybėje, kuriame pateikiama informacija apie būstų charakteristikas, nuomos sąlygas ir nuomininkus. Kiekvienos lentelės viena eilutė atitinką vieną sudarytą nuomos sutartį Klaipėdos miesto savivaldybėje. Duomenų teikėjas: VšĮ Klaipėdos butai. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/kbu/Bustas`[^manifest]
-- **Dataset:** [VšĮ Klaipėdos būstai](../kbu.md) (`datasets/gov/kbu`)
-- **Manifest CSV:** [datasets/gov/kbu/bustai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kbu/bustai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kbu/Bustas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [VšĮ Klaipėdos būstai](../kbu.md) (`datasets/gov/kbu`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kbu/bustai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kbu/bustai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kbu/Bustas` (`deployed`)[^manifest]
+- **Provider:** `kbu` — VšĮ Klaipėdos būstai *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL_2`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -47,4 +56,5 @@ Rinkinys apie savivaldybės ir socialinio būsto nuomą Klaipėdos miesto saviva
 | `ilguma_wgs` | `number` | — | `4` | `open` | — | Ilgumos koordinatė WGS84 koordinačių sistemoje | — |
 | `geometrija` | `string` | — | `4` | `open` | — | Geometrija | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kbu/bustai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kbu/bustai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kbu/bustai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kbu (https://data.gov.lt/datasets/3831/)

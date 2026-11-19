@@ -2,22 +2,26 @@
 type: Table
 title: "SKLiga"
 description: "Spinta table datasets/gov/santara/skl/SKLiga (13 columns)."
-tags: [gov, santara, undeployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, santara, skliga, undeployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/santara/skl.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/skl.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/santara/skl.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # SKLiga
 
 - **Model:** `datasets/gov/santara/skl/SKLiga`[^manifest]
-- **Dataset:** [Širdies ir kraujagyslių ligomis sergančių pacientų apsilankymų statistiniai duomenys](../skl.md) (`datasets/gov/santara/skl`)
-- **Manifest CSV:** [datasets/gov/santara/skl.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/skl.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Level:** `3`
+- **Dataset:** [Širdies ir kraujagyslių ligomis sergančių pacientų apsilankymų statistiniai duomenys](../skl.md) (`datasets/gov/santara/skl`)[^manifest]
+- **Manifest CSV:** [datasets/gov/santara/skl.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/skl.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `santara` — VUL Santaros klinikos *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -39,7 +43,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"Vyras"` | — | — | Vyras | — |
 | `lytis` | `"Moteris"` | — | — | Moteris | — |
@@ -50,4 +54,4 @@ sources:
 | `mityba` | `"Subalansuota"` | — | — | Subalansuota mityba | — |
 | `mityba` | `"Nesubalansuota"` | — | — | Nesubalansuota mityba | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/santara/skl.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/santara/skl.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/santara/skl.csv#L4)

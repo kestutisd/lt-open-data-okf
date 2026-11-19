@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/medianinis_gyvent_amzius`
+# Directory Index: `datasets/gov/lsd/statistika/medianinis_gyvent_amzius`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

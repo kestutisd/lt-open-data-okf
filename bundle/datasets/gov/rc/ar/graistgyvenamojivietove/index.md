@@ -1,7 +1,7 @@
-# `datasets/gov/rc/ar/graistgyvenamojivietove`
+# Directory Index: `datasets/gov/rc/ar/graistgyvenamojivietove`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [GraIstGyvenamojiVietove — Adresų registro gyvenamųjų vietovių erdviniai duomenys](GraIstGyvenamojiVietove.md) - Gyvenamųjų vietovių erdvinių duomenų rinkinys iš Lietuvos Respublikos adresų registro (Lietuvos Respublikos administracinius vienetus – gyvenamąsias vietoves apibūdinantys...
+* [GraIstGyvenamojiVietove — Adresų registro gyvenamųjų vietovių erdviniai duomenys](GraIstGyvenamojiVietove.md) - Gyvenamųjų vietovių erdvinių duomenų rinkinys iš Lietuvos Respublikos adresų registro (Lietuvos Respublikos administracinius vienetus – gyvenamąsias vietoves apibūdinantys duomenys).

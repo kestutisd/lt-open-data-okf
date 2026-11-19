@@ -3,22 +3,32 @@ type: Table
 title: "BankrotoAtaskaitosDatos — Įmonių bankroto ataskaitų duomenys"
 description: "Spinta table datasets/gov/avnt/imoniu_bankrotas/BankrotoAtaskaitosDatos (23 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/avnt/imoniu_bankrotas/BankrotoAtaskaitosDatos"
-tags: [gov, avnt, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, avnt, bankrotoataskaitosdatos, deployed, level-2, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/avnt/imoniu_bankrotas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/avnt/imoniu_bankrotas.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/avnt/imoniu_bankrotas.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1979/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/avnt/imoniu_bankrotas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BankrotoAtaskaitosDatos — Įmonių bankroto ataskaitų duomenys
 
 - **Model:** `datasets/gov/avnt/imoniu_bankrotas/BankrotoAtaskaitosDatos`[^manifest]
-- **Dataset:** [Įmonių bankroto ataskaitų duomenys](../imoniu_bankrotas.md) (`datasets/gov/avnt/imoniu_bankrotas`)
-- **Manifest CSV:** [datasets/gov/avnt/imoniu_bankrotas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/avnt/imoniu_bankrotas.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/avnt/imoniu_bankrotas/BankrotoAtaskaitosDatos`
-- **Level:** `2`
+- **Dataset:** [Įmonių bankroto ataskaitų duomenys](../imoniu_bankrotas.md) (`datasets/gov/avnt/imoniu_bankrotas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/avnt/imoniu_bankrotas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/avnt/imoniu_bankrotas.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/avnt/imoniu_bankrotas/BankrotoAtaskaitosDatos` (`deployed`)[^manifest]
+- **Provider:** `avnt` — Audito, apskaitos, turto vertinimo ir nemokumo valdymo tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -72,4 +82,9 @@ sources:
 | `apygardos_teismas` | `update(property: "apygardos_teismas.kodas", type: "")` | `type` | `4` | `open` | — | — | — |
 | `nutraukimo_priezastis` | `update(property: "nutraukimo_priezastis@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/avnt/imoniu_bankrotas.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/avnt/imoniu_bankrotas.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/avnt/imoniu_bankrotas.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/avnt/imoniu_bankrotas (https://data.gov.lt/datasets/1979/)

@@ -1,13 +1,13 @@
-# `datasets/gov/pkpd`
+# Directory Index: `datasets/gov/pkpd`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [evis/](evis/index.md) - Transporto priemonių rezervacijos kirsti pasienį (0 datasets, 1 table)
-* [sienos_kirtimu_rezervaciju_statistika/](sienos_kirtimu_rezervaciju_statistika/index.md) - Krovininių transporto priemonių rezervacijų kirsti Lietuvos Respublikos sieną statistika (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Transporto priemonių rezervacijos kirsti pasienį](evis.md) - Spinta dataset datasets/gov/pkpd/evis (1 table).
-* [Krovininių transporto priemonių rezervacijų kirsti Lietuvos Respublikos sieną statistika](sienos_kirtimu_rezervaciju_statistika.md) - Spinta dataset datasets/gov/pkpd/sienos_kirtimu_rezervaciju_statistika (1 table).
+* [Transporto priemonių rezervacijos kirsti pasienį](evis.md) - Pasienio kontrolės punktų direkcijos (PKPD) ir AB „Regitra“ duomenų bendras rinkinys, sudarytas Valstybės duomenų agentūros.
+* [Krovininių transporto priemonių rezervacijų kirsti Lietuvos Respublikos sieną statistika](sienos_kirtimu_rezervaciju_statistika.md) - Lentelėje pateikiama krovininių transporto priemonių rezervacijų kirsti Lietuvos Respublikos sieną statistika iš Pasienio kontrolės punktų direkcijos (PKPD) eilių valdymo informacinės sistemos (EVIS).
+
+# Subdirectories
+
+* [evis/](evis/index.md) - 1 table
+* [sienos_kirtimu_rezervaciju_statistika/](sienos_kirtimu_rezervaciju_statistika/index.md) - 1 table

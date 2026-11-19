@@ -1,15 +1,15 @@
-# `datasets/gov/palangos_gintaras` — Vaikų reabilitacijos sanatorija "Palangos gintaras"
+# Directory Index: `datasets/gov/palangos_gintaras`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [maistas/](maistas/index.md) - Namespace `datasets/gov/palangos_gintaras/maistas` (0 datasets, 1 table)
-* [pacientai/](pacientai/index.md) - Namespace `datasets/gov/palangos_gintaras/pacientai` (0 datasets, 2 tables)
-* [suteiktos_paslaugos/](suteiktos_paslaugos/index.md) - Informacija apie suteiktas prekes ir paslaugas (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/palangos_gintaras/maistas](maistas.md) - Spinta dataset datasets/gov/palangos_gintaras/maistas (1 table).
-* [datasets/gov/palangos_gintaras/pacientai](pacientai.md) - Spinta dataset datasets/gov/palangos_gintaras/pacientai (2 tables).
-* [Informacija apie suteiktas prekes ir paslaugas](suteiktos_paslaugos.md) - Spinta dataset datasets/gov/palangos_gintaras/suteiktos_paslaugos (1 table).
+* [Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ patiekti patiekalai](maistas.md) - Šiame rinkinyje pateikiamas vaikų reabilitacijos sanatorijos "Palangos gintaras" patiektų patiekalų sąrašas.
+* [Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas](pacientai.md) - Šiame rinkinyje pateikiamas Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas.
+* [Informacija apie suteiktas prekes ir paslaugas](suteiktos_paslaugos.md) - Informacija apie VšĮ Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientams nuo 2023 m. suteiktas prekes ir paslaugas, nurodytas komercinėse sutartyse.
+
+# Subdirectories
+
+* [maistas/](maistas/index.md) - 1 table
+* [pacientai/](pacientai/index.md) - 2 tables
+* [suteiktos_paslaugos/](suteiktos_paslaugos/index.md) - 1 table

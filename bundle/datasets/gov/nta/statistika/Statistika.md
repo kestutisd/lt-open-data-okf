@@ -2,29 +2,32 @@
 type: Table
 title: "Statistika"
 description: "Spinta table datasets/gov/nta/statistika/Statistika (19 columns)."
-tags: [gov, nta, undeployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nta, statistika, undeployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nta/statistika.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/statistika.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nta/statistika.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Statistika
 
 - **Model:** `datasets/gov/nta/statistika/Statistika`[^manifest]
-- **Dataset:** [datasets/gov/nta/statistika](../statistika.md) (`datasets/gov/nta/statistika`)
-- **Manifest CSV:** [datasets/gov/nta/statistika.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/statistika.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `bylos_numeris`
-- **Level:** `3`
+- **Dataset:** [datasets/gov/nta/statistika](../statistika.md) (`datasets/gov/nta/statistika`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nta/statistika.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/statistika.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `nta` — Nacionalinė teismų administracija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `bylos_numeris`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `teismo_rumai` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `4` | `open` | — | Teismo rūmai | — |
+| `teismo_rumai` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=4 UUID` via `JuridinisAsmuo[ja_pavadinimas]`: `teismo_rumai._id`) | `4` | `open` | — | Teismo rūmai | — |
 | `bylos_numeris` | `string` | — | `2` | `open` | — | Bylos numeris | — |
 | `procesinis_numeris` | `string` | — | `3` | `open` | — | Procesinis numeris | — |
 | `gauta` | `date` | `D` | `4` | `open` | — | Gavimo data | — |
@@ -46,7 +49,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `instancija` | `"I-a instancija"` | — | — | I-a instancija | — |
 | `instancija` | `"Apeliacinė instancija"` | — | — | Apeliacinė instancija | — |
@@ -74,4 +77,8 @@ sources:
 | `tipas` | `update(property: "byla.tipas", type: "")` | `type` | `4` | `open` | `spinta: 216` | — | — |
 | `potipis` | `update(property: "byla.potipis", type: "")` | `type` | `4` | `open` | `spinta: 216` | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nta/statistika.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/nta/statistika.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/statistika.csv#L6)

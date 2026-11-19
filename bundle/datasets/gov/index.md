@@ -1,204 +1,204 @@
-# `datasets/gov`
+# Directory Index: `datasets/gov`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [aaa/](aaa/index.md) - Namespace `datasets/gov/aaa` (26 datasets, 57 tables)
-* [aad/](aad/index.md) - Aplinkos apsaugos departamentas prie Aplinkos ministerijos (2 datasets, 3 tables)
-* [akmenes_r_sav/](akmenes_r_sav/index.md) - Akmenės rajono savivaldybė (1 dataset, 1 table)
-* [anta/](anta/index.md) - Namespace `datasets/gov/anta` (1 dataset, 2 tables)
-* [anyksciu_r_sav/](anyksciu_r_sav/index.md) - Anykščių rajono savivaldybė (1 dataset, 2 tables)
-* [apva/](apva/index.md) - Namespace `datasets/gov/apva` (3 datasets, 3 tables)
-* [asmlis/](asmlis/index.md) - MOKESTA ir ASMLIS sistemos (6 datasets, 27 tables)
-* [ast/](ast/index.md) - Alytaus šilumos tinklai (4 datasets, 4 tables)
-* [avnt/](avnt/index.md) - Namespace `datasets/gov/avnt` (3 datasets, 5 tables)
-* [bpc/](bpc/index.md) - Namespace `datasets/gov/bpc` (3 datasets, 6 tables)
-* [cpva/](cpva/index.md) - VšĮ Centrinė projektų valdymo agentūra (7 datasets, 13 tables)
-* [datalab/](datalab/index.md) - Namespace `datasets/gov/datalab` (6 datasets, 11 tables)
-* [eimin/](eimin/index.md) - Lietuvos Respublikos ekonomikos ir inovacijų ministerija (3 datasets, 3 tables)
-* [esis/](esis/index.md) - Namespace `datasets/gov/esis` (2 datasets, 2 tables)
-* [eso/](eso/index.md) - Energijos skirstymo operatorius (4 datasets, 4 tables)
-* [essc/](essc/index.md) - Ekstremalių sveikatai situacijų centras (4 datasets, 4 tables)
-* [finmin/](finmin/index.md) - Namespace `datasets/gov/finmin` (7 datasets, 57 tables)
-* [giscentras/](giscentras/index.md) - Namespace `datasets/gov/giscentras` (2 datasets, 41 tables)
-* [go_vilnius/](go_vilnius/index.md) - VšĮ GO Vilnius (2 datasets, 5 tables)
-* [gtc/](gtc/index.md) - Namespace `datasets/gov/gtc` (3 datasets, 4 tables)
-* [hi/](hi/index.md) - Higienos institutas (12 datasets, 30 tables)
-* [id_vilnius/](id_vilnius/index.md) - Namespace `datasets/gov/id_vilnius` (1 dataset, 9 tables)
-* [ignalig_progra/](ignalig_progra/index.md) - Namespace `datasets/gov/ignalig_progra` (1 dataset, 1 table)
-* [ird/](ird/index.md) - Informatikos ir ryšių departamentas (3 datasets, 18 tables)
-* [ivpk/](ivpk/index.md) - Namespace `datasets/gov/ivpk` (4 datasets, 52 tables)
-* [jra/](jra/index.md) - Namespace `datasets/gov/jra` (3 datasets, 3 tables)
-* [kalvarijos_sav/](kalvarijos_sav/index.md) - Kalvarijos savivaldybė (1 dataset, 1 table)
-* [kapines/](kapines/index.md) - Savivaldybių kapinių duomenys (2 datasets, 101 tables)
-* [karatc/](karatc/index.md) - VšĮ Kauno regiono atliekų tvarkymo centras (1 dataset, 1 table)
-* [kaunas/](kaunas/index.md) - Namespace `datasets/gov/kaunas` (3 datasets, 3 tables)
-* [kauno_m_sav/](kauno_m_sav/index.md) - Kauno miesto savivaldybė (14 datasets, 16 tables)
-* [kbu/](kbu/index.md) - VšĮ Klaipėdos būstai (0 datasets, 1 table)
-* [kgspgl/](kgspgl/index.md) - Namespace `datasets/gov/kgspgl` (1 dataset, 1 table)
-* [klaipedos_m_sav/](klaipedos_m_sav/index.md) - Klaipėdos miesto savivaldybė (8 datasets, 11 tables)
-* [klaipedos_r_sav/](klaipedos_r_sav/index.md) - Klaipėdos rajono savivaldybė (2 datasets, 5 tables)
-* [koris_grandis/](koris_grandis/index.md) - UAB „KORIS“ sistema „GRANDIS“ (2 datasets, 4 tables)
-* [kratc/](kratc/index.md) - Namespace `datasets/gov/kratc` (2 datasets, 2 tables)
-* [kre/](kre/index.md) - Klaipėdos rajono energija (2 datasets, 2 tables)
-* [kretingos_r_sav/](kretingos_r_sav/index.md) - Kretingos rajono savivaldybė (2 datasets, 2 tables)
-* [ktizm/](ktizm/index.md) - Namespace `datasets/gov/ktizm` (1 dataset, 3 tables)
-* [kvjud/](kvjud/index.md) - AB Klaipėdos valstybinio jūrų uosto direkcija (4 datasets, 5 tables)
-* [lab/](lab/index.md) - Namespace `datasets/gov/lab` (1 dataset, 1 table)
-* [lab_tyrimai/](lab_tyrimai/index.md) - Namespace `datasets/gov/lab_tyrimai` (1 dataset, 38 tables)
-* [lakd/](lakd/index.md) - Namespace `datasets/gov/lakd` (13 datasets, 17 tables)
-* [lamabpo/](lamabpo/index.md) - Lietuvos aukštųjų mokyklų asociacija bendrajam priėmimui organizuoti (LAMA BPO) (3 datasets, 8 tables)
-* [lbek/](lbek/index.md) - Namespace `datasets/gov/lbek` (1 dataset, 1 table)
-* [lggrtc/](lggrtc/index.md) - Lietuvos gyventojų genocido ir rezistencijos tyrimo centras (1 dataset, 2 tables)
-* [lgkt/](lgkt/index.md) - Lygių galimybių kontrolierių tarnyba (3 datasets, 4 tables)
-* [lgt/](lgt/index.md) - Namespace `datasets/gov/lgt` (12 datasets, 13 tables)
-* [lhmt/](lhmt/index.md) - Lietuvos hidrometeorologijos tarnyba (LHMT) (4 datasets, 4 tables)
-* [linesa/](linesa/index.md) - Namespace `datasets/gov/linesa` (1 dataset, 1 table)
-* [lkc/](lkc/index.md) - Lietuvos Kino Centras prie Kultūros Ministerijos (1 dataset, 1 table)
-* [lkd/](lkd/index.md) - Namespace `datasets/gov/lkd` (3 datasets, 3 tables)
-* [lki/](lki/index.md) - Namespace `datasets/gov/lki` (8 datasets, 16 tables)
-* [llti/](llti/index.md) - Lietuvių literatūros ir tautosakos institutas (5 datasets, 7 tables)
-* [lmi/](lmi/index.md) - Lietuvos metrologijos inspekcija (2 datasets, 2 tables)
-* [lmt/](lmt/index.md) - Namespace `datasets/gov/lmt` (2 datasets, 2 tables)
-* [lnb/](lnb/index.md) - Lietuvos nacionalinė Martyno Mažvydo biblioteka (7 datasets, 9 tables)
-* [lndm/](lndm/index.md) - Lietuvos nacionalinis dailės muziejus (1 dataset, 1 table)
-* [lpt/](lpt/index.md) - Lošimų priežiūros tarnyba (5 datasets, 5 tables)
-* [lrkt/](lrkt/index.md) - Lietuvos Respublikos Konkurencijos Taryba (1 dataset, 1 table)
-* [lrpk/](lrpk/index.md) - Namespace `datasets/gov/lrpk` (1 dataset, 1 table)
-* [lrsk/](lrsk/index.md) - Lietuvos Respublikos Seimo Kanceliarija (8 datasets, 12 tables)
-* [lrtm/](lrtm/index.md) - Lietuvos Respublikos teisingumo ministerija (1 dataset, 1 table)
-* [lrvk/](lrvk/index.md) - Lietuvos Respublikos Vyriausybės Kanceliarija (1 dataset, 3 tables)
-* [lsd/](lsd/index.md) - Namespace `datasets/gov/lsd` (146 datasets, 331 tables)
-* [lsmu/](lsmu/index.md) - Namespace `datasets/gov/lsmu` (2 datasets, 3 tables)
-* [lst/](lst/index.md) - Namespace `datasets/gov/lst` (2 datasets, 52 tables)
-* [ltsa/](ltsa/index.md) - Namespace `datasets/gov/ltsa` (8 datasets, 18 tables)
-* [lvat/](lvat/index.md) - Lietuvos vyriausiojo archyvaro tarnyba (1 dataset, 2 tables)
-* [lzukt/](lzukt/index.md) - Lietuvos žemės ūkio konsultavimo tarnyba (0 datasets, 3 tables)
-* [map/](map/index.md) - Marijampolės autobusų parkas (1 dataset, 1 table)
-* [marijampoles_sav/](marijampoles_sav/index.md) - Marijampolės savivaldybė (7 datasets, 9 tables)
-* [med_personalas/](med_personalas/index.md) - Lietuvos sveikatos universiteto Kauno klinikų medicininio personalo etatai (0 datasets, 1 table)
-* [migracija/](migracija/index.md) - Namespace `datasets/gov/migracija` (6 datasets, 10 tables)
-* [miskai/](miskai/index.md) - Namespace `datasets/gov/miskai` (8 datasets, 52 tables)
-* [mita/](mita/index.md) - Namespace `datasets/gov/mita` (3 datasets, 3 tables)
-* [mml/](mml/index.md) - Namespace `datasets/gov/mml` (1 dataset, 1 table)
-* [moletu_r_sav/](moletu_r_sav/index.md) - Molėtų rajono savivaldybė (1 dataset, 1 table)
-* [muitine/](muitine/index.md) - Muitinės departamentas prie LR FM (25 datasets, 42 tables)
-* [nbfc/](nbfc/index.md) - Nacionalinis bendrųjų funkcijų centras (2 datasets, 5 tables)
-* [ndnt/](ndnt/index.md) - Namespace `datasets/gov/ndnt` (5 datasets, 5 tables)
-* [nma/](nma/index.md) - Namespace `datasets/gov/nma` (55 datasets, 57 tables)
-* [nsa/](nsa/index.md) - Namespace `datasets/gov/nsa` (13 datasets, 20 tables)
-* [nta/](nta/index.md) - Namespace `datasets/gov/nta` (4 datasets, 4 tables)
-* [ntakd/](ntakd/index.md) - Namespace `datasets/gov/ntakd` (4 datasets, 4 tables)
-* [ntb/](ntb/index.md) - Namespace `datasets/gov/ntb` (1 dataset, 3 tables)
-* [nvi/](nvi/index.md) - Namespace `datasets/gov/nvi` (2 datasets, 2 tables)
-* [nvsc/](nvsc/index.md) - Namespace `datasets/gov/nvsc` (2 datasets, 5 tables)
-* [nvspl/](nvspl/index.md) - Namespace `datasets/gov/nvspl` (2 datasets, 4 tables)
-* [nzt/](nzt/index.md) - Namespace `datasets/gov/nzt` (2 datasets, 2 tables)
-* [on/](on/index.md) - Oro Navigacija (3 datasets, 3 tables)
-* [pagd/](pagd/index.md) - Priešgaisrinės apsaugos ir gelbėjimo departamentas (7 datasets, 7 tables)
-* [palangos_gintaras/](palangos_gintaras/index.md) - Vaikų reabilitacijos sanatorija "Palangos gintaras" (3 datasets, 4 tables)
-* [panevezio_m_sav/](panevezio_m_sav/index.md) - Panevėžio miesto savivaldybė (4 datasets, 8 tables)
-* [pb/](pb/index.md) - Namespace `datasets/gov/pb` (6 datasets, 43 tables)
-* [pd/](pd/index.md) - Namespace `datasets/gov/pd` (6 datasets, 8 tables)
-* [pkpd/](pkpd/index.md) - Namespace `datasets/gov/pkpd` (2 datasets, 2 tables)
-* [pl/](pl/index.md) - Namespace `datasets/gov/pl` (1 dataset, 1 table)
-* [pppkc/](pppkc/index.md) - Namespace `datasets/gov/pppkc` (1 dataset, 1 table)
-* [prienu_r_sav/](prienu_r_sav/index.md) - Namespace `datasets/gov/prienu_r_sav` (1 dataset, 1 table)
-* [radiologija/](radiologija/index.md) - Pacientams atlikti radiologiniai tyrimai (1 dataset, 27 tables)
-* [rc/](rc/index.md) - Namespace `datasets/gov/rc` (160 datasets, 202 tables)
-* [regitra/](regitra/index.md) - Namespace `datasets/gov/regitra` (5 datasets, 5 tables)
-* [resc/](resc/index.md) - Namespace `datasets/gov/resc` (1 dataset, 1 table)
-* [rokiskio_r_sav/](rokiskio_r_sav/index.md) - Namespace `datasets/gov/rokiskio_r_sav` (2 datasets, 2 tables)
-* [rpl/](rpl/index.md) - Rokiškio psichiatrijos ligoninė (3 datasets, 3 tables)
-* [rplc/](rplc/index.md) - Namespace `datasets/gov/rplc` (3 datasets, 3 tables)
-* [rppc/](rppc/index.md) - Namespace `datasets/gov/rppc` (1 dataset, 1 table)
-* [rrt/](rrt/index.md) - Namespace `datasets/gov/rrt` (14 datasets, 22 tables)
-* [rsc/](rsc/index.md) - Namespace `datasets/gov/rsc` (7 datasets, 7 tables)
-* [rsl/](rsl/index.md) - Namespace `datasets/gov/rsl` (1 dataset, 1 table)
-* [rtl/](rtl/index.md) - Namespace `datasets/gov/rtl` (1 dataset, 1 table)
-* [rvul/](rvul/index.md) - Namespace `datasets/gov/rvul` (1 dataset, 5 tables)
-* [sadm/](sadm/index.md) - Namespace `datasets/gov/sadm` (6 datasets, 11 tables)
-* [sakiai/](sakiai/index.md) - Namespace `datasets/gov/sakiai` (1 dataset, 6 tables)
-* [sam/](sam/index.md) - Lietuvos Respublikos sveikatos apsaugos ministerija (2 datasets, 2 tables)
-* [santara/](santara/index.md) - Namespace `datasets/gov/santara` (3 datasets, 3 tables)
-* [se/](se/index.md) - AB Šiaulių energija (1 dataset, 2 tables)
-* [siauliai/](siauliai/index.md) - Namespace `datasets/gov/siauliai` (2 datasets, 2 tables)
-* [siauliu_m_sav/](siauliu_m_sav/index.md) - Šiaulių miesto savivaldybė (2 datasets, 7 tables)
-* [siauliu_sviesa/](siauliu_sviesa/index.md) - UAB Šiaulių šviesa (1 dataset, 2 tables)
-* [siauliu_vand/](siauliu_vand/index.md) - Namespace `datasets/gov/siauliu_vand` (2 datasets, 2 tables)
-* [simno_komun/](simno_komun/index.md) - Alytaus rajono savivaldybės įmonė „Simno komunalininkas“ (4 datasets, 5 tables)
-* [skuodo_r_sav/](skuodo_r_sav/index.md) - Skuodo rajono savivaldybė (1 dataset, 1 table)
-* [smpf/](smpf/index.md) - VšĮ Švietimo mainų paramos fondas (SMPF) (1 dataset, 2 tables)
-* [sp/](sp/index.md) - Vilniaus miesto SĮ „Susisiekimo paslaugos“ (1 dataset, 3 tables)
-* [sppd/](sppd/index.md) - Socialinių paslaugų priežiūros departamentas prie SADM (3 datasets, 5 tables)
-* [ssva/](ssva/index.md) - Namespace `datasets/gov/ssva` (8 datasets, 17 tables)
-* [stt/](stt/index.md) - Specialiųjų tyrimų tarnyba (1 dataset, 1 table)
-* [sumin/](sumin/index.md) - Namespace `datasets/gov/sumin` (1 dataset, 4 tables)
-* [svietimas/](svietimas/index.md) - Namespace `datasets/gov/svietimas` (1 dataset, 1 table)
-* [taurages_r_sav/](taurages_r_sav/index.md) - Namespace `datasets/gov/taurages_r_sav` (1 dataset, 1 table)
-* [tb/](tb/index.md) - Turto Bankas (1 dataset, 1 table)
-* [telsiu_r_sav/](telsiu_r_sav/index.md) - Namespace `datasets/gov/telsiu_r_sav` (1 dataset, 1 table)
-* [telsiu_vand/](telsiu_vand/index.md) - UAB "Telšių vandenys" (1 dataset, 1 table)
-* [tka/](tka/index.md) - Namespace `datasets/gov/tka` (1 dataset, 1 table)
-* [tmd/](tmd/index.md) - Namespace `datasets/gov/tmd` (1 dataset, 1 table)
-* [tppc/](tppc/index.md) - Namespace `datasets/gov/tppc` (1 dataset, 1 table)
-* [transeksta/](transeksta/index.md) - Namespace `datasets/gov/transeksta` (1 dataset, 1 table)
-* [tvs/](tvs/index.md) - Savivaldybių turto valdymo duomenų rinkinys (2 datasets, 6 tables)
-* [ukmlig/](ukmlig/index.md) - Namespace `datasets/gov/ukmlig` (1 dataset, 1 table)
-* [unesco/](unesco/index.md) - Lietuvos nacionalinės UNESCO komisijos sekretoriatas (1 dataset, 1 table)
-* [urm/](urm/index.md) - Namespace `datasets/gov/urm` (3 datasets, 3 tables)
-* [utenos_r_sav/](utenos_r_sav/index.md) - Utenos rajono savivaldybė (2 datasets, 3 tables)
-* [uzt/](uzt/index.md) - Užimtumo Tarnyba (1 dataset, 1 table)
-* [vai/](vai/index.md) - Namespace `datasets/gov/vai` (1 dataset, 1 table)
-* [varenos_r_sav/](varenos_r_sav/index.md) - Varėnos rajono savivaldybė (1 dataset, 1 table)
-* [varenos_vandenys/](varenos_vandenys/index.md) - Namespace `datasets/gov/varenos_vandenys` (1 dataset, 1 table)
-* [vaspvt/](vaspvt/index.md) - Namespace `datasets/gov/vaspvt` (4 datasets, 33 tables)
-* [vat/](vat/index.md) - Namespace `datasets/gov/vat` (36 datasets, 39 tables)
-* [vdtat/](vdtat/index.md) - Valstybės dokumentų technologinės apsaugos tarnyba prie FM (2 datasets, 4 tables)
-* [vert/](vert/index.md) - Valstybinė energetikos reguliavimo tarnyba (2 datasets, 2 tables)
-* [vgn/](vgn/index.md) - Varėnos globos namai (2 datasets, 2 tables)
-* [vgtpt/](vgtpt/index.md) - Namespace `datasets/gov/vgtpt` (6 datasets, 8 tables)
-* [via_lietuva/](via_lietuva/index.md) - Namespace `datasets/gov/via_lietuva` (2 datasets, 6 tables)
-* [viesasis_transport/](viesasis_transport/index.md) - Viešojo transporto duomenys (1 dataset, 7 tables)
-* [vilkavi_vand/](vilkavi_vand/index.md) - UAB „Vilkaviškio vandenys“ (2 datasets, 2 tables)
-* [vilniaus_m_sav/](vilniaus_m_sav/index.md) - Vilniaus miesto savivaldybė (14 datasets, 22 tables)
-* [vk/](vk/index.md) - Namespace `datasets/gov/vk` (11 datasets, 13 tables)
-* [vkc/](vkc/index.md) - Namespace `datasets/gov/vkc` (3 datasets, 3 tables)
-* [vkpk/](vkpk/index.md) - Namespace `datasets/gov/vkpk` (1 dataset, 1 table)
-* [vlk/](vlk/index.md) - Namespace `datasets/gov/vlk` (33 datasets, 57 tables)
-* [vlkk/](vlkk/index.md) - Namespace `datasets/gov/vlkk` (3 datasets, 3 tables)
-* [vmi/](vmi/index.md) - Namespace `datasets/gov/vmi` (21 datasets, 29 tables)
-* [vmspc/](vmspc/index.md) - BĮ Vilniaus miesto socialinių paslaugų centras (2 datasets, 2 tables)
-* [vmt/](vmt/index.md) - Valstybinė Miškų Tarnyba (1 dataset, 4 tables)
-* [vmvt/](vmvt/index.md) - Namespace `datasets/gov/vmvt` (11 datasets, 15 tables)
-* [vpb/](vpb/index.md) - Namespace `datasets/gov/vpb` (4 datasets, 14 tables)
-* [vpt/](vpt/index.md) - Namespace `datasets/gov/vpt` (3 datasets, 108 tables)
-* [vrk/](vrk/index.md) - Vyriausioji rinkimų komisija (16 datasets, 19 tables)
-* [vsdfv/](vsdfv/index.md) - Namespace `datasets/gov/vsdfv` (11 datasets, 15 tables)
-* [vsf/](vsf/index.md) - Valstybinis studijų fondas (2 datasets, 2 tables)
-* [vstt/](vstt/index.md) - Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos (5 datasets, 24 tables)
-* [vtek/](vtek/index.md) - Vyriausioji tarnybinės etikos komisija (3 datasets, 7 tables)
-* [vtpsi/](vtpsi/index.md) - Namespace `datasets/gov/vtpsi` (1 dataset, 1 table)
-* [vulzk/](vulzk/index.md) - Namespace `datasets/gov/vulzk` (3 datasets, 3 tables)
-* [vvkd/](vvkd/index.md) - AB Vidaus vandens kelių direkcija (1 dataset, 20 tables)
-* [vvkt/](vvkt/index.md) - Valstybinė vaistų kontrolės tarnyba (4 datasets, 6 tables)
-* [vvt/](vvt/index.md) - Vilniaus viešasis transportas (1 dataset, 1 table)
-* [vvtat/](vvtat/index.md) - Valstybinė vartotojų teisių apsaugos tarnyba (4 datasets, 16 tables)
-* [zoo/](zoo/index.md) - Lietuvos zoologijos sodas (1 dataset, 1 table)
-* [zr/](zr/index.md) - VšĮ Žaliojo Regiono sistemų duomenys (1 dataset, 2 tables)
-* [ztzum/](ztzum/index.md) - Žuvininkystės tarnyba prie LR žemės ūkio ministerijos (2 datasets, 2 tables)
-* [zua/](zua/index.md) - Žemės ūkio agentūra prie Lietuvos Respublikos žemės ūkio ministerijos (0 datasets, 1 table)
-* [zuikvc/](zuikvc/index.md) - Namespace `datasets/gov/zuikvc` (31 datasets, 31 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Savivaldybių kapinių duomenys](kapines.md) - Rinkinyje pateikiama Lietuvos savivaldybių kapinių bendro pobūdžio informacija, atvaizduojama kapinių skaitmeninimo ir duomenų valdymo sistemose „CEMETY“ ir „LIKSGIS“: kapinių...
-* [VšĮ Klaipėdos būstai](kbu.md) - Spinta dataset datasets/gov/kbu (1 table).
-* [Lietuvos gyventojų genocido ir rezistencijos tyrimo centras](lggrtc.md) - Spinta dataset datasets/gov/lggrtc (1 table).
-* [Lygių galimybių kontrolierių tarnyba](lgkt.md) - Spinta dataset datasets/gov/lgkt (1 table).
-* [Lietuvos žemės ūkio konsultavimo tarnyba](lzukt.md) - Lietuvos žemės ūkio konsultavimo tarnybos integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė sistemos duomenų rinkiniai, skirti augalų kenkėjų, ligų ir...
-* [Lietuvos sveikatos universiteto Kauno klinikų medicininio personalo etatai](med_personalas.md) - Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami dirbančio medicininio personalo tarnybiniai...
-* [Pacientams atlikti radiologiniai tyrimai](radiologija.md) - Spinta dataset datasets/gov/radiologija (25 tables).
-* [Alytaus rajono savivaldybės įmonė „Simno komunalininkas“](simno_komun.md) - Spinta dataset datasets/gov/simno_komun (1 table).
-* [Žemės ūkio agentūra prie Lietuvos Respublikos žemės ūkio ministerijos](zua.md) - Spinta dataset datasets/gov/zua (1 table).
+* [Savivaldybių kapinių duomenys](kapines.md) - Rinkinyje pateikiama Lietuvos savivaldybių kapinių bendro pobūdžio informacija, atvaizduojama kapinių skaitmeninimo ir duomenų valdymo sistemose „CEMETY“ ir „LIKSGIS“: kapinių pavadinimas...
+* [VšĮ Klaipėdos būstai](kbu.md) - Šiame rinkinyje pateikiama informacija apie Klaipėdos miesto savivaldybės nuomojamus savivaldybės ir socialinius būstus: būstų charakteristikos, nuomos sąlygos ir nuomininkai.
+* [Lietuvos gyventojų genocido ir rezistencijos tyrimo centras](lggrtc.md) - Duomenų rinkinyje pateikiami Lietuvos gyventojų genocido ir rezistencijos tyrimo centro nuo 1939–1990 m. okupacijų nukentėjusiems asmenims išduotų pažymėjimų duomenys: nukentėjusiojo statusas...
+* [Lygių galimybių kontrolierių tarnyba](lgkt.md) - Lygių galimybių tarnybos teikiamų konsultacijų gyvai arba telefonu dėl lygių galimybių pažeidimų registro duomenų rinkinyje pateikiami nuo 2020 m. iki dabar kaupiami duomenys: konsultacijos data...
+* [Lietuvos žemės ūkio konsultavimo tarnyba](lzukt.md) - Lietuvos žemės ūkio konsultavimo tarnybos integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė sistemos duomenų rinkiniai, skirti augalų kenkėjų, ligų ir žalingumo įverčių...
+* [Lietuvos sveikatos universiteto Kauno klinikų medicininio personalo etatai](med_personalas.md) - Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami dirbančio medicininio personalo tarnybiniai duomenys: darbuotojo...
+* [Pacientams atlikti radiologiniai tyrimai](radiologija.md) - Asmens sveikatos priežiūros įstaigų naudojamose Rentgeno vaizdų archyvavimo informacinėse sistemose yra kaupiami pacientams atliktų radiologinių tyrimų duomenys.
+* [Alytaus rajono savivaldybės įmonė „Simno komunalininkas“](simno_komun.md) - Iš gręžinių išgautas (pakeltas) vanduo Rinkinyje pateikiamas Alytaus rajono savivaldybės įmonės „Simno komunalininkas“ vedamoje vandens gavybos apskaitoje stebimas iš gręžinių išgauto (pakelto)...
+* [Žemės ūkio agentūra prie Lietuvos Respublikos žemės ūkio ministerijos](zua.md) - Duomenų rinkinyje pateikiama informacija apie fizinių ir juridinių asmenų pateiktas paraiškas bei išduotas licencijas, susijusias su žemės ūkio produktų importu ir eksportu.
+
+# Subdirectories
+
+* [aaa/](aaa/index.md) - 26 datasets, 57 tables
+* [aad/](aad/index.md) - 2 datasets, 3 tables
+* [akmenes_r_sav/](akmenes_r_sav/index.md) - 1 dataset, 1 table
+* [anta/](anta/index.md) - 1 dataset, 2 tables
+* [anyksciu_r_sav/](anyksciu_r_sav/index.md) - 1 dataset, 2 tables
+* [apva/](apva/index.md) - 3 datasets, 3 tables
+* [asmlis/](asmlis/index.md) - 6 datasets, 27 tables
+* [ast/](ast/index.md) - 4 datasets, 4 tables
+* [avnt/](avnt/index.md) - 3 datasets, 5 tables
+* [bpc/](bpc/index.md) - 3 datasets, 6 tables
+* [cpva/](cpva/index.md) - 7 datasets, 13 tables
+* [datalab/](datalab/index.md) - 6 datasets, 11 tables
+* [eimin/](eimin/index.md) - 3 datasets, 3 tables
+* [esis/](esis/index.md) - 2 datasets, 2 tables
+* [eso/](eso/index.md) - 4 datasets, 4 tables
+* [essc/](essc/index.md) - 4 datasets, 4 tables
+* [finmin/](finmin/index.md) - 7 datasets, 57 tables
+* [giscentras/](giscentras/index.md) - 2 datasets, 41 tables
+* [go_vilnius/](go_vilnius/index.md) - 2 datasets, 5 tables
+* [gtc/](gtc/index.md) - 3 datasets, 4 tables
+* [hi/](hi/index.md) - 12 datasets, 30 tables
+* [id_vilnius/](id_vilnius/index.md) - 1 dataset, 9 tables
+* [ignalig_progra/](ignalig_progra/index.md) - 1 dataset, 1 table
+* [ird/](ird/index.md) - 3 datasets, 18 tables
+* [ivpk/](ivpk/index.md) - 4 datasets, 52 tables
+* [jra/](jra/index.md) - 3 datasets, 3 tables
+* [kalvarijos_sav/](kalvarijos_sav/index.md) - 1 dataset, 1 table
+* [kapines/](kapines/index.md) - 2 datasets, 101 tables
+* [karatc/](karatc/index.md) - 1 dataset, 1 table
+* [kaunas/](kaunas/index.md) - 3 datasets, 3 tables
+* [kauno_m_sav/](kauno_m_sav/index.md) - 14 datasets, 16 tables
+* [kbu/](kbu/index.md) - 1 table
+* [kgspgl/](kgspgl/index.md) - 1 dataset, 1 table
+* [klaipedos_m_sav/](klaipedos_m_sav/index.md) - 8 datasets, 11 tables
+* [klaipedos_r_sav/](klaipedos_r_sav/index.md) - 2 datasets, 5 tables
+* [koris_grandis/](koris_grandis/index.md) - 2 datasets, 4 tables
+* [kratc/](kratc/index.md) - 2 datasets, 2 tables
+* [kre/](kre/index.md) - 2 datasets, 2 tables
+* [kretingos_r_sav/](kretingos_r_sav/index.md) - 2 datasets, 2 tables
+* [ktizm/](ktizm/index.md) - 1 dataset, 3 tables
+* [kvjud/](kvjud/index.md) - 4 datasets, 5 tables
+* [lab/](lab/index.md) - 1 dataset, 1 table
+* [lab_tyrimai/](lab_tyrimai/index.md) - 1 dataset, 38 tables
+* [lakd/](lakd/index.md) - 13 datasets, 17 tables
+* [lamabpo/](lamabpo/index.md) - 3 datasets, 8 tables
+* [lbek/](lbek/index.md) - 1 dataset, 1 table
+* [lggrtc/](lggrtc/index.md) - 1 dataset, 2 tables
+* [lgkt/](lgkt/index.md) - 3 datasets, 4 tables
+* [lgt/](lgt/index.md) - 12 datasets, 13 tables
+* [lhmt/](lhmt/index.md) - 4 datasets, 4 tables
+* [linesa/](linesa/index.md) - 1 dataset, 1 table
+* [lkc/](lkc/index.md) - 1 dataset, 1 table
+* [lkd/](lkd/index.md) - 3 datasets, 3 tables
+* [lki/](lki/index.md) - 8 datasets, 16 tables
+* [llti/](llti/index.md) - 5 datasets, 7 tables
+* [lmi/](lmi/index.md) - 2 datasets, 2 tables
+* [lmt/](lmt/index.md) - 2 datasets, 2 tables
+* [lnb/](lnb/index.md) - 7 datasets, 9 tables
+* [lndm/](lndm/index.md) - 1 dataset, 1 table
+* [lpt/](lpt/index.md) - 5 datasets, 5 tables
+* [lrkt/](lrkt/index.md) - 1 dataset, 1 table
+* [lrpk/](lrpk/index.md) - 1 dataset, 1 table
+* [lrsk/](lrsk/index.md) - 8 datasets, 12 tables
+* [lrtm/](lrtm/index.md) - 1 dataset, 1 table
+* [lrvk/](lrvk/index.md) - 1 dataset, 3 tables
+* [lsd/](lsd/index.md) - 146 datasets, 331 tables
+* [lsmu/](lsmu/index.md) - 2 datasets, 3 tables
+* [lst/](lst/index.md) - 2 datasets, 52 tables
+* [ltsa/](ltsa/index.md) - 8 datasets, 18 tables
+* [lvat/](lvat/index.md) - 1 dataset, 2 tables
+* [lzukt/](lzukt/index.md) - 3 tables
+* [map/](map/index.md) - 1 dataset, 1 table
+* [marijampoles_sav/](marijampoles_sav/index.md) - 7 datasets, 9 tables
+* [med_personalas/](med_personalas/index.md) - 1 table
+* [migracija/](migracija/index.md) - 6 datasets, 10 tables
+* [miskai/](miskai/index.md) - 8 datasets, 52 tables
+* [mita/](mita/index.md) - 3 datasets, 3 tables
+* [mml/](mml/index.md) - 1 dataset, 1 table
+* [moletu_r_sav/](moletu_r_sav/index.md) - 1 dataset, 1 table
+* [muitine/](muitine/index.md) - 25 datasets, 42 tables
+* [nbfc/](nbfc/index.md) - 2 datasets, 5 tables
+* [ndnt/](ndnt/index.md) - 5 datasets, 5 tables
+* [nma/](nma/index.md) - 55 datasets, 57 tables
+* [nsa/](nsa/index.md) - 13 datasets, 20 tables
+* [nta/](nta/index.md) - 4 datasets, 4 tables
+* [ntakd/](ntakd/index.md) - 4 datasets, 4 tables
+* [ntb/](ntb/index.md) - 1 dataset, 3 tables
+* [nvi/](nvi/index.md) - 2 datasets, 2 tables
+* [nvsc/](nvsc/index.md) - 2 datasets, 5 tables
+* [nvspl/](nvspl/index.md) - 2 datasets, 4 tables
+* [nzt/](nzt/index.md) - 2 datasets, 2 tables
+* [on/](on/index.md) - 3 datasets, 3 tables
+* [pagd/](pagd/index.md) - 7 datasets, 7 tables
+* [palangos_gintaras/](palangos_gintaras/index.md) - 3 datasets, 4 tables
+* [panevezio_m_sav/](panevezio_m_sav/index.md) - 4 datasets, 8 tables
+* [pb/](pb/index.md) - 6 datasets, 43 tables
+* [pd/](pd/index.md) - 6 datasets, 8 tables
+* [pkpd/](pkpd/index.md) - 2 datasets, 2 tables
+* [pl/](pl/index.md) - 1 dataset, 1 table
+* [pppkc/](pppkc/index.md) - 1 dataset, 1 table
+* [prienu_r_sav/](prienu_r_sav/index.md) - 1 dataset, 1 table
+* [radiologija/](radiologija/index.md) - 1 dataset, 27 tables
+* [rc/](rc/index.md) - 160 datasets, 202 tables
+* [regitra/](regitra/index.md) - 5 datasets, 5 tables
+* [resc/](resc/index.md) - 1 dataset, 1 table
+* [rokiskio_r_sav/](rokiskio_r_sav/index.md) - 2 datasets, 2 tables
+* [rpl/](rpl/index.md) - 3 datasets, 3 tables
+* [rplc/](rplc/index.md) - 3 datasets, 3 tables
+* [rppc/](rppc/index.md) - 1 dataset, 1 table
+* [rrt/](rrt/index.md) - 14 datasets, 22 tables
+* [rsc/](rsc/index.md) - 7 datasets, 7 tables
+* [rsl/](rsl/index.md) - 1 dataset, 1 table
+* [rtl/](rtl/index.md) - 1 dataset, 1 table
+* [rvul/](rvul/index.md) - 1 dataset, 5 tables
+* [sadm/](sadm/index.md) - 6 datasets, 11 tables
+* [sakiai/](sakiai/index.md) - 1 dataset, 6 tables
+* [sam/](sam/index.md) - 2 datasets, 2 tables
+* [santara/](santara/index.md) - 3 datasets, 3 tables
+* [se/](se/index.md) - 1 dataset, 2 tables
+* [siauliai/](siauliai/index.md) - 2 datasets, 2 tables
+* [siauliu_m_sav/](siauliu_m_sav/index.md) - 2 datasets, 7 tables
+* [siauliu_sviesa/](siauliu_sviesa/index.md) - 1 dataset, 2 tables
+* [siauliu_vand/](siauliu_vand/index.md) - 2 datasets, 2 tables
+* [simno_komun/](simno_komun/index.md) - 4 datasets, 5 tables
+* [skuodo_r_sav/](skuodo_r_sav/index.md) - 1 dataset, 1 table
+* [smpf/](smpf/index.md) - 1 dataset, 2 tables
+* [sp/](sp/index.md) - 1 dataset, 3 tables
+* [sppd/](sppd/index.md) - 3 datasets, 5 tables
+* [ssva/](ssva/index.md) - 8 datasets, 17 tables
+* [stt/](stt/index.md) - 1 dataset, 1 table
+* [sumin/](sumin/index.md) - 1 dataset, 4 tables
+* [svietimas/](svietimas/index.md) - 1 dataset, 1 table
+* [taurages_r_sav/](taurages_r_sav/index.md) - 1 dataset, 1 table
+* [tb/](tb/index.md) - 1 dataset, 1 table
+* [telsiu_r_sav/](telsiu_r_sav/index.md) - 1 dataset, 1 table
+* [telsiu_vand/](telsiu_vand/index.md) - 1 dataset, 1 table
+* [tka/](tka/index.md) - 1 dataset, 1 table
+* [tmd/](tmd/index.md) - 1 dataset, 1 table
+* [tppc/](tppc/index.md) - 1 dataset, 1 table
+* [transeksta/](transeksta/index.md) - 1 dataset, 1 table
+* [tvs/](tvs/index.md) - 2 datasets, 6 tables
+* [ukmlig/](ukmlig/index.md) - 1 dataset, 1 table
+* [unesco/](unesco/index.md) - 1 dataset, 1 table
+* [urm/](urm/index.md) - 3 datasets, 3 tables
+* [utenos_r_sav/](utenos_r_sav/index.md) - 2 datasets, 3 tables
+* [uzt/](uzt/index.md) - 1 dataset, 1 table
+* [vai/](vai/index.md) - 1 dataset, 1 table
+* [varenos_r_sav/](varenos_r_sav/index.md) - 1 dataset, 1 table
+* [varenos_vandenys/](varenos_vandenys/index.md) - 1 dataset, 1 table
+* [vaspvt/](vaspvt/index.md) - 4 datasets, 33 tables
+* [vat/](vat/index.md) - 36 datasets, 39 tables
+* [vdtat/](vdtat/index.md) - 2 datasets, 4 tables
+* [vert/](vert/index.md) - 2 datasets, 2 tables
+* [vgn/](vgn/index.md) - 2 datasets, 2 tables
+* [vgtpt/](vgtpt/index.md) - 6 datasets, 8 tables
+* [via_lietuva/](via_lietuva/index.md) - 2 datasets, 6 tables
+* [viesasis_transport/](viesasis_transport/index.md) - 1 dataset, 7 tables
+* [vilkavi_vand/](vilkavi_vand/index.md) - 2 datasets, 2 tables
+* [vilniaus_m_sav/](vilniaus_m_sav/index.md) - 14 datasets, 22 tables
+* [vk/](vk/index.md) - 11 datasets, 13 tables
+* [vkc/](vkc/index.md) - 3 datasets, 3 tables
+* [vkpk/](vkpk/index.md) - 1 dataset, 1 table
+* [vlk/](vlk/index.md) - 33 datasets, 57 tables
+* [vlkk/](vlkk/index.md) - 3 datasets, 3 tables
+* [vmi/](vmi/index.md) - 21 datasets, 29 tables
+* [vmspc/](vmspc/index.md) - 2 datasets, 2 tables
+* [vmt/](vmt/index.md) - 1 dataset, 4 tables
+* [vmvt/](vmvt/index.md) - 11 datasets, 15 tables
+* [vpb/](vpb/index.md) - 4 datasets, 14 tables
+* [vpt/](vpt/index.md) - 3 datasets, 108 tables
+* [vrk/](vrk/index.md) - 16 datasets, 19 tables
+* [vsdfv/](vsdfv/index.md) - 11 datasets, 15 tables
+* [vsf/](vsf/index.md) - 2 datasets, 2 tables
+* [vstt/](vstt/index.md) - 5 datasets, 24 tables
+* [vtek/](vtek/index.md) - 3 datasets, 7 tables
+* [vtpsi/](vtpsi/index.md) - 1 dataset, 1 table
+* [vulzk/](vulzk/index.md) - 3 datasets, 3 tables
+* [vvkd/](vvkd/index.md) - 1 dataset, 20 tables
+* [vvkt/](vvkt/index.md) - 4 datasets, 6 tables
+* [vvt/](vvt/index.md) - 1 dataset, 1 table
+* [vvtat/](vvtat/index.md) - 4 datasets, 16 tables
+* [zoo/](zoo/index.md) - 1 dataset, 1 table
+* [zr/](zr/index.md) - 1 dataset, 2 tables
+* [ztzum/](ztzum/index.md) - 2 datasets, 2 tables
+* [zua/](zua/index.md) - 1 table
+* [zuikvc/](zuikvc/index.md) - 31 datasets, 31 tables

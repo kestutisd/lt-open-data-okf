@@ -2,29 +2,32 @@
 type: Table
 title: "RoadSegment"
 description: "Spinta table datasets/gov/lakd/eismo_intensyvumas_live/RoadSegment (13 columns)."
-tags: [gov, lakd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lakd, roadsegment, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lakd/eismo_intensyvumas_live.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismo_intensyvumas_live.csv#L23"
+    title: "atviriduomenys/manifest — datasets/gov/lakd/eismo_intensyvumas_live.csv#L23"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # RoadSegment
 
 - **Model:** `datasets/gov/lakd/eismo_intensyvumas_live/RoadSegment`[^manifest]
-- **Dataset:** [Eismo intensyvumo duomenų katalogas](../eismo_intensyvumas_live.md) (`datasets/gov/lakd/eismo_intensyvumas_live`)
-- **Manifest CSV:** [datasets/gov/lakd/eismo_intensyvumas_live.csv#L23](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismo_intensyvumas_live.csv#L23)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `start_x`
-- **Level:** `4`
+- **Dataset:** [Eismo intensyvumo duomenų katalogas](../eismo_intensyvumas_live.md) (`datasets/gov/lakd/eismo_intensyvumas_live`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lakd/eismo_intensyvumas_live.csv#L23](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismo_intensyvumas_live.csv#L23)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `lakd` — AB „Via Lietuva“ (buv. Lietuvos automobilių kelių direkcija) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `start_x`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `device` | `ref` | [Device](Device.md) | `4` | `open` | — | — | — |
+| `device` | `ref` | [Device](Device.md) (`level=4 UUID`: `device._id`) | `4` | `open` | — | — | — |
 | `direction` | `string` | — | `4` | `open` | — | Kryptis | — |
 | `start_x` | `number` | — | `2` | `private` | — | Ruožo pradžios X taškas, LKS-94 | — |
 | `start_y` | `number` | — | `2` | `private` | — | Ruožo pradžios Y taškas, LKS-94 | — |
@@ -40,7 +43,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `direction` | `"positive"` | — | — | Kryptis pirmyn | — |
 | `direction` | `"negative"` | — | — | Kryptis atgal | — |
@@ -48,4 +51,8 @@ sources:
 | `traffic_type` | `"slow"` | — | — | Lėtas eismas | — |
 | `traffic_type` | `"high"` | — | — | Intensyvus eismas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lakd/eismo_intensyvumas_live.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lakd/eismo_intensyvumas_live.csv#L23 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismo_intensyvumas_live.csv#L23)

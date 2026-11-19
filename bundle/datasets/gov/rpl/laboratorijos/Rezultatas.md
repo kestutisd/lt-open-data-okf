@@ -3,23 +3,32 @@ type: Table
 title: "Rezultatas — Sveikatos priežiūros įstaigų laboratorijos rezultatų duomenys (Rokiškio psichiatrijos ligoninė)"
 description: "Spinta table datasets/gov/rpl/laboratorijos/Rezultatas (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rpl/laboratorijos/Rezultatas"
-tags: [gov, rpl, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rpl, rezultatas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rpl/laboratorijos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rpl/laboratorijos.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rpl/laboratorijos.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2723/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rpl/laboratorijos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Rezultatas — Sveikatos priežiūros įstaigų laboratorijos rezultatų duomenys (Rokiškio psichiatrijos ligoninė)
 
 - **Model:** `datasets/gov/rpl/laboratorijos/Rezultatas`[^manifest]
-- **Dataset:** [Sveikatos priežiūros įstaigų laboratorijos rezultatų duomenys (Rokiškio psichiatrijos ligoninė)](../laboratorijos.md) (`datasets/gov/rpl/laboratorijos`)
-- **Manifest CSV:** [datasets/gov/rpl/laboratorijos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rpl/laboratorijos.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rpl/laboratorijos/Rezultatas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Sveikatos priežiūros įstaigų laboratorijos rezultatų duomenys (Rokiškio psichiatrijos ligoninė)](../laboratorijos.md) (`datasets/gov/rpl/laboratorijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rpl/laboratorijos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rpl/laboratorijos.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rpl/laboratorijos/Rezultatas` (`deployed`)[^manifest]
+- **Provider:** `rpl` — Rokiškio psichiatrijos ligoninė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,7 +55,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tyr_grupe` | `"KRAUJAS"` | — | — | Kraujas | — |
 | `tyr_grupe` | `"BIOCHEMIJA"` | — | — | Biochemija | — |
@@ -56,4 +65,5 @@ sources:
 | `tyr_grupe` | `"SEROLOGIJA"` | — | — | Serologija | — |
 | `tyr_grupe` | `"HORMONAI"` | — | — | Hormonai | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rpl/laboratorijos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rpl/laboratorijos.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rpl/laboratorijos.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rpl/laboratorijos (https://data.gov.lt/datasets/2723/)

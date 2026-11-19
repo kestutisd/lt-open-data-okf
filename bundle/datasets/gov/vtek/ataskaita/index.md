@@ -1,6 +1,6 @@
-# `datasets/gov/vtek/ataskaita`
+# Directory Index: `datasets/gov/vtek/ataskaita`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

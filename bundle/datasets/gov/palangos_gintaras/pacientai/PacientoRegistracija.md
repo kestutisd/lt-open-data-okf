@@ -3,25 +3,34 @@ type: Table
 title: "PacientoRegistracija — Pacientų registracijų sąrašas"
 description: "Vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas."
 resource: "https://get.data.gov.lt/datasets/gov/palangos_gintaras/pacientai/PacientoRegistracija"
-tags: [gov, palangos_gintaras, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, palangos_gintaras, pacientoregistracija, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/palangos_gintaras/pacientai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/pacientai.csv#L14"
+    title: "atviriduomenys/manifest — datasets/gov/palangos_gintaras/pacientai.csv#L14"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2720/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/palangos_gintaras/pacientai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # PacientoRegistracija — Pacientų registracijų sąrašas
 
-Vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas. Duomenys pateikiami nuo 2010 metų ir iki dabar.
+Vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas. Duomenys pateikiami nuo 2010 metų ir iki dabar.[^manifest]
 
 - **Model:** `datasets/gov/palangos_gintaras/pacientai/PacientoRegistracija`[^manifest]
-- **Dataset:** [datasets/gov/palangos_gintaras/pacientai](../pacientai.md) (`datasets/gov/palangos_gintaras/pacientai`)
-- **Manifest CSV:** [datasets/gov/palangos_gintaras/pacientai.csv#L14](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/pacientai.csv#L14)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/palangos_gintaras/pacientai/PacientoRegistracija`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracijų sąrašas](../pacientai.md) (`datasets/gov/palangos_gintaras/pacientai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/palangos_gintaras/pacientai.csv#L14](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/pacientai.csv#L14)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/palangos_gintaras/pacientai/PacientoRegistracija` (`deployed`)[^manifest]
+- **Provider:** `palangos_gintaras` — Vaikų reabilitacijos sanatorija "Palangos gintaras" *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -51,7 +60,7 @@ Vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracij�
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tlk_pasl_pavad` | `"A: vaikų kvėpavimo sistemos ligos"` | — | — | Vaikų kvėpavimo sistemos ligos | — |
 | `tlk_pasl_pavad` | `"A: vaikų ausų, nosies, gerklės ligos"` | — | — | Vaikų ausų, nosies, gerklės ligos | — |
@@ -66,11 +75,12 @@ Vaikų reabilitacijos sanatorijos „Palangos gintaras“ pacientų registracij�
 | `gyd_prof_pavad` | `"Sveikatą grąžinantis gydymas"` | — | — | Sveikatą grąžinantis gydymas | — |
 | `gyd_prof_pavad` | `"Palaikomoji reabilitacija"` | — | — | Palaikomoji reabilitacija | — |
 | `gyd_prof_pavad` | `"Reabilitacinis gydymas"` | — | — | Reabilitacinis gydymas | — |
-| `gyd_prof_pavad` | `"Reabilitacinis gyd.,pakart .R"` | — | — | Reabilitacinis gyd.,pakart . R | — |
+| `gyd_prof_pavad` | `"Reabilitacinis gyd.,pakart .R"` | — | — | Reabilitacinis gyd.,pakart .R | — |
 | `gyd_prof_pavad` | `"Ambulatorinė reabilitacija"` | — | — | Ambulatorinė reabilitacija | — |
 | `gyd_prof_pavad` | `"Sveikatos grąžinam.gyd.(suaug."` | — | — | Sveikatos grąžinam.gyd.(suaug. | — |
 | `gyd_prof_pavad` | `"Mokamos procedūros"` | — | — | Mokamos procedūros | — |
 | `gyd_prof_pavad` | `"Sveikatinimo savaitgalis"` | — | — | Sveikatinimo savaitgalis | — |
 | `gyd_prof_pavad` | `"Palaikomoji reab.(regos,klaus."` | — | — | Palaikomoji reab.(regos,klaus. | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/palangos_gintaras/pacientai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/palangos_gintaras/pacientai.csv#L14 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/pacientai.csv#L14)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/palangos_gintaras/pacientai (https://data.gov.lt/datasets/2720/)

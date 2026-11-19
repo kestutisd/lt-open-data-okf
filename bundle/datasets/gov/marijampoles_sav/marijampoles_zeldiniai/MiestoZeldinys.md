@@ -3,22 +3,26 @@ type: Table
 title: "MiestoZeldinys — Marijampolės savivaldybės želdiniai"
 description: "Spinta table datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys"
-tags: [gov, marijampoles_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, marijampoles_sav, miestozeldinys, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # MiestoZeldinys — Marijampolės savivaldybės želdiniai
 
 - **Model:** `datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys`[^manifest]
-- **Dataset:** [Marijampolės savivaldybės želdiniai](../marijampoles_zeldiniai.md) (`datasets/gov/marijampoles_sav/marijampoles_zeldiniai`)
-- **Manifest CSV:** [datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys`
-- **Level:** `4`
+- **Dataset:** [Marijampolės savivaldybės želdiniai](../marijampoles_zeldiniai.md) (`datasets/gov/marijampoles_sav/marijampoles_zeldiniai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/marijampoles_zeldiniai/MiestoZeldinys` (`deployed`)[^manifest]
+- **Provider:** `marijampoles_sav` — Marijampolės savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -43,4 +47,8 @@ sources:
 | `platuma_wgs` | `number` | — | `4` | `open` | — | Želdinio platumos koordinatė | — |
 | `koregavimo_data` | `date` | `D` | `4` | `open` | — | Eilutės koregavimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/marijampoles_zeldiniai.csv#L6)

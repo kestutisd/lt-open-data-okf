@@ -3,24 +3,34 @@ type: Table
 title: "KazluRudosPSPC — Kazlų Rūdos pirminės sveikatos priežiūros centro pacientams atliktų laboratorinių tyrimų duomenys"
 description: "Kazlų Rūdos pirminės sveikatos priežiūros centro sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KazluRudosPSPC"
-tags: [gov, lab_tyrimai, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, kazlurudospspc, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # KazluRudosPSPC — Kazlų Rūdos pirminės sveikatos priežiūros centro pacientams atliktų laboratorinių tyrimų duomenys
 
-Kazlų Rūdos pirminės sveikatos priežiūros centro sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2022 metų lapkričio kaupiami ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Kazlų Rūdos pirminės sveikatos priežiūros centras.
+Kazlų Rūdos pirminės sveikatos priežiūros centro sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2022 metų lapkričio kaupiami ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Kazlų Rūdos pirminės sveikatos priežiūros centras. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/KazluRudosPSPC`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KazluRudosPSPC`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KazluRudosPSPC` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +55,7 @@ Kazlų Rūdos pirminės sveikatos priežiūros centro sistemoje „OpenLIMS“ k
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"M"` | — | — | Moteris | — |
 | `paciento_lytis` | `"V"` | — | — | Vyras | — |
@@ -56,4 +66,5 @@ Kazlų Rūdos pirminės sveikatos priežiūros centro sistemoje „OpenLIMS“ k
 | `tyrimo_meginio_tipas` | `"Šlapimas"` | — | — | Šlapimas | — |
 | `tyrimo_meginio_tipas` | `"Serumas"` | — | — | Serumas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L461)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

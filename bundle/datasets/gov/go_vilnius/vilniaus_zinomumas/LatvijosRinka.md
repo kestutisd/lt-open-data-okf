@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "LatvijosRinka — Vilniaus žinomumo apklausų rezultatai Latvijos rinkoje"
-description: "Spinta table datasets/gov/go_vilnius/vilniaus_zinomumas/LatvijosRinka (19 columns)."
+description: "\"Rinkinys iš \"GO Vilnius\" rengtos apklausos 2023 m. apie Vilniaus žinomumą."
 resource: "https://get.data.gov.lt/datasets/gov/go_vilnius/vilniaus_zinomumas/LatvijosRinka"
-tags: [gov, go_vilnius, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, go_vilnius, latvijosrinka, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/go_vilnius/vilniaus_zinomumas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52"
+    title: "atviriduomenys/manifest — datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2792/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/go_vilnius/vilniaus_zinomumas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # LatvijosRinka — Vilniaus žinomumo apklausų rezultatai Latvijos rinkoje
 
+**Dataset Context:** "Rinkinys iš "GO Vilnius" rengtos apklausos 2023 m. apie Vilniaus žinomumą. Apklausos atliktos skirtingose rinkose (Vokietijoje, Latvijoje, Lenkijoje, Didžiojoje Britanijoje). Vieną lentelės eilutę sudaro informacija apie respondentą ir jo atsakymai į pateiktus apklausos klausimus. Paskutinis stulpelis įvertine kiekvieno korespondento statistinį svorį apklausoje. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt"[^manifest]
+
 - **Model:** `datasets/gov/go_vilnius/vilniaus_zinomumas/LatvijosRinka`[^manifest]
-- **Dataset:** [Vilniaus žinomumo tyrimų apklausų duomenų rinkinys](../vilniaus_zinomumas.md) (`datasets/gov/go_vilnius/vilniaus_zinomumas`)
-- **Manifest CSV:** [datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/go_vilnius/vilniaus_zinomumas/LatvijosRinka`
-- **Primary Key (`ref`):** `dalyv_id`
-- **Level:** `4`
+- **Dataset:** [Vilniaus žinomumo tyrimų apklausų duomenų rinkinys](../vilniaus_zinomumas.md) (`datasets/gov/go_vilnius/vilniaus_zinomumas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/go_vilnius/vilniaus_zinomumas/LatvijosRinka` (`deployed`)[^manifest]
+- **Provider:** `go_vilnius` — VšĮ GO Vilnius *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `dalyv_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -30,7 +41,7 @@ sources:
 | `rinka` | `string` | — | `4` | `open` | — | Apklausos rinka | Šalis, kurioje atliekama apklausa" |
 | `lytis` | `string` | — | `4` | `open` | — | Respondento lytis | — |
 | `amzius` | `integer` | — | `4` | `open` | — | Respondento amžius | — |
-| `kilmes_salis` | `string` | — | `4` | `open` | — | Respondento kilmė | Respondento kilmės šalis - vieta, kurioje gimė |
+| `kilmes_salis` | `string` | — | `4` | `open` | — | Respondento kilmė | "Respondento kilmės šalis - vieta, kurioje gimė" |
 | `gyvenamoji_vt` | `string` | — | `4` | `open` | — | Respondento gyvenamoji vieta | Dabartinė respondento gyvenamoji vieta: miestas |
 | `gyv_vt_pop` | `string` | — | `4` | `open` | — | Respondento gyvenamosios vietos populiacija | — |
 | `issilavinimas` | `string` | — | `4` | `open` | — | Respondento išsilavinimas | — |
@@ -47,7 +58,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `rinka` | `"Latvija"` | — | — | Latvija | — |
 | `lytis` | `"Vyras"` | — | — | Vyras | — |
@@ -71,4 +82,5 @@ sources:
 | `kelioniu_dazn` | `"4-5 kartus per metus"` | — | — | 4-5 kartus per metus | — |
 | `kelioniu_dazn` | `"Daugiau nei 5 kartus per metus"` | — | — | Daugiau nei 5 kartus per metus | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/go_vilnius/vilniaus_zinomumas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/vilniaus_zinomumas.csv#L52)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/go_vilnius/vilniaus_zinomumas (https://data.gov.lt/datasets/2792/)

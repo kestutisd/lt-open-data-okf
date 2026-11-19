@@ -3,25 +3,34 @@ type: Table
 title: "KlaipedosUniversitetoLigonine — Klaipėdos universiteto ligoninės pacientams atlikti laboratoriniai tyrimai"
 description: "Klaipėdos universiteto ligoninės sistemoje „LIS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KlaipedosUniversitetoLigonine"
-tags: [gov, lab_tyrimai, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, klaipedosuniversitetoligonine, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # KlaipedosUniversitetoLigonine — Klaipėdos universiteto ligoninės pacientams atlikti laboratoriniai tyrimai
 
-Klaipėdos universiteto ligoninės sistemoje „LIS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Rinkinyje pateikiami nuo 2015 metų gruodžio mėnesio sukaupti ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: užsakymo, jo tėvinės bei vaikinės analizių identifikatoriai, brūkšninis kodas, užsakymo ir jo analizės patvirtinimo laikai, paciento identifikatorius, kodas ir jo galimos rūšys, paciento gimimo metai ir lytis, tiek iš gimimo datos arba lyties stulpelių, tiek iš galiojančių asmens kodų, tyrimo arba jo analitės pavadinimas, originalus rezultato stulpelis, taip pat atskiri stulpeliai tekstiniams bei skaitiniams rezultatams, originalus rezultato normų režių stulpelis kartu su atskirais apatinės ir viršutinės normos stulpeliais, matavimo vienetas ir rezultato laikas. Vienas įrašas atitinka vieną užsakymo, užsakymo analizės, jos tėvinės analizės ir brūkšninio kodo kombinaciją. Visi panaudoti identifikatoriai užšifruoti konfidencialumo tikslais. Kai užsakymo analizės ir jos tėvinės analizės identifikatoriai sutampa, dalis reikšmių tyrimo arba analitės stulpelyje yra tyrimų pavadinimai, priešingu atveju – tik analičių pavadinimai. Tarp paciento kodo reikšmių yra ne tik Lietuvos fizinio asmens kodų, bet ir kitų identifikacinių kodų, pvz., „Sodros“ kodų. Trečdalio pacientų gimimo metai yra padidinti, kito trečdalio sumažinti vienais metais konfidencialumo tikslais. Kadangi tiek tekstiniai, tiek skaitiniai tyrimų bei analičių rezultatai įvairiais formatais saugomi viename stulpelyje, patogumo dėlei „Regex“ išraiškomis buvo sukurti stulpeliai atskirai saugoti tekstinius bei skaitinius rezultatus, todėl pastarųjų dviejų stulpelių vertės gali neatitikti originalaus rezultatų stulpelio duomenų. Dėl šios priežasties taip pat atskirų normos rėžių stulpelių reikšmės gali neatitikti originalaus normų rėžių stulpelio reikšmių. Duomenų teikėjas – VšĮ Klaipėdos universiteto ligoninė.
+Klaipėdos universiteto ligoninės sistemoje „LIS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Rinkinyje pateikiami nuo 2015 metų gruodžio mėnesio sukaupti ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: užsakymo, jo tėvinės bei vaikinės analizių identifikatoriai, brūkšninis kodas, užsakymo ir jo analizės patvirtinimo laikai, paciento identifikatorius, kodas ir jo galimos rūšys, paciento gimimo metai ir lytis, tiek iš gimimo datos arba lyties stulpelių, tiek iš galiojančių asmens kodų, tyrimo arba jo analitės pavadinimas, originalus rezultato stulpelis, taip pat atskiri stulpeliai tekstiniams bei skaitiniams rezultatams, originalus rezultato normų režių stulpelis kartu su atskirais apatinės ir viršutinės normos stulpeliais, matavimo vienetas ir rezultato laikas. Vienas įrašas atitinka vieną užsakymo, užsakymo analizės, jos tėvinės analizės ir brūkšninio kodo kombinaciją. Visi panaudoti identifikatoriai užšifruoti konfidencialumo tikslais. Kai užsakymo analizės ir jos tėvinės analizės identifikatoriai sutampa, dalis reikšmių tyrimo arba analitės stulpelyje yra tyrimų pavadinimai, priešingu atveju – tik analičių pavadinimai. Tarp paciento kodo reikšmių yra ne tik Lietuvos fizinio asmens kodų, bet ir kitų identifikacinių kodų, pvz., „Sodros“ kodų. Trečdalio pacientų gimimo metai yra padidinti, kito trečdalio sumažinti vienais metais konfidencialumo tikslais. Kadangi tiek tekstiniai, tiek skaitiniai tyrimų bei analičių rezultatai įvairiais formatais saugomi viename stulpelyje, patogumo dėlei „Regex“ išraiškomis buvo sukurti stulpeliai atskirai saugoti tekstinius bei skaitinius rezultatus, todėl pastarųjų dviejų stulpelių vertės gali neatitikti originalaus rezultatų stulpelio duomenų. Dėl šios priežasties taip pat atskirų normos rėžių stulpelių reikšmės gali neatitikti originalaus normų rėžių stulpelio reikšmių. Duomenų teikėjas – VšĮ Klaipėdos universiteto ligoninė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/KlaipedosUniversitetoLigonine`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KlaipedosUniversitetoLigonine`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KlaipedosUniversitetoLigonine` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,7 +63,7 @@ Klaipėdos universiteto ligoninės sistemoje „LIS“ kaupiami įstaigos pacien
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_kodo_tipas` | `"Lietuviškas asmens kodas"` | — | — | Lietuviškas asmens kodas | — |
 | `paciento_kodo_tipas` | `"Sodros kodas"` | — | — | Sodros kodas | — |
@@ -76,4 +85,5 @@ Klaipėdos universiteto ligoninės sistemoje „LIS“ kaupiami įstaigos pacien
 | `vda_paciento_lytis_ak` | `"V"` | — | — | Vyras | — |
 | `vda_paciento_lytis_ak` | `"M"` | — | — | Moteris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L920)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

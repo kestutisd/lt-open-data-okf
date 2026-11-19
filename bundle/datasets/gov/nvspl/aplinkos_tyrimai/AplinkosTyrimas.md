@@ -3,31 +3,28 @@ type: Table
 title: "AplinkosTyrimas — Nacionalinės visuomenės sveikatos priežiūros laboratorijos aplinkos tyrimų duomenys"
 description: "Duomenų rinkinyje pateikiami duomenys, susiję su Nacionalinės visuomenės sveikatos priežiūros laboratorijos vykdomais aplinkos mikrobiologiniais, cheminiais ir parazitologiniais tyrimais."
 resource: "https://get.data.gov.lt/datasets/gov/nvspl/aplinkos_tyrimai/AplinkosTyrimas"
-tags: [gov, nvspl, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nvspl, aplinkostyrimas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nvspl/aplinkos_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvspl/aplinkos_tyrimai.csv#L11"
+    title: "atviriduomenys/manifest — datasets/gov/nvspl/aplinkos_tyrimai.csv#L11"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # AplinkosTyrimas — Nacionalinės visuomenės sveikatos priežiūros laboratorijos aplinkos tyrimų duomenys
 
-Duomenų rinkinyje pateikiami duomenys, susiję su Nacionalinės visuomenės sveikatos priežiūros laboratorijos vykdomais aplinkos mikrobiologiniais, cheminiais ir parazitologiniais tyrimais. Duomenys teikiami iš Aplinkos mikrobiologinių, cheminių, parazitologinių tyrimų duomenų bazės „Laputė“, skirtos sveikatos apsaugos srities stebėsenai ir analizei.
-
-Rinkinyje pateikiama informacija apie tiriamus mėginius: jų identifikatorius, pavadinimus, paskirtį, mėginio kiekį bei taikomas laboratorines paslaugas. Lentelėje fiksuojami tyrimų rezultatai, įskaitant skaitines reikšmes, matavimo vienetus, rezultatų neapibrėžtumą ir taikomas normas, leidžiančias vertinti atitiktį sveikatos saugos reikalavimams. Taip pat pateikiama klasifikacinė informacija apie tyrimų rūšis, klases, grupes ir poskyrius, sudaranti prielaidas detalesnei duomenų analizei.
-
-Duomenys apima mėginių paėmimo, pristatymo, laikymo ir tyrimo atlikimo laikus bei sąlygas, leidžiančias atsekti visą tyrimo procesą. Papildomi laukai, tokie kaip mėginio pristatymo temperatūra ar tyrimo kaina, suteikia galimybę analizuoti laboratorinių procesų kokybę, kaštus ir organizavimą. Šis duomenų rinkinys sudaro pagrindą aplinkos sveikatos rizikų vertinimui, visuomenės sveikatos būklės stebėsenai ir duomenimis grįstų sprendimų priėmimui.
-
-Duomenų atnaujinimas numatomas kas 6 mėn.
+Duomenų rinkinyje pateikiami duomenys, susiję su Nacionalinės visuomenės sveikatos priežiūros laboratorijos vykdomais aplinkos mikrobiologiniais, cheminiais ir parazitologiniais tyrimais. Duomenys teikiami iš Aplinkos mikrobiologinių, cheminių, parazitologinių tyrimų duomenų bazės „Laputė“, skirtos sveikatos apsaugos srities stebėsenai ir analizei. Rinkinyje pateikiama informacija apie tiriamus mėginius: jų identifikatorius, pavadinimus, paskirtį, mėginio kiekį bei taikomas laboratorines paslaugas. Lentelėje fiksuojami tyrimų rezultatai, įskaitant skaitines reikšmes, matavimo vienetus, rezultatų neapibrėžtumą ir taikomas normas, leidžiančias vertinti atitiktį sveikatos saugos reikalavimams. Taip pat pateikiama klasifikacinė informacija apie tyrimų rūšis, klases, grupes ir poskyrius, sudaranti prielaidas detalesnei duomenų analizei. Duomenys apima mėginių paėmimo, pristatymo, laikymo ir tyrimo atlikimo laikus bei sąlygas, leidžiančias atsekti visą tyrimo procesą. Papildomi laukai, tokie kaip mėginio pristatymo temperatūra ar tyrimo kaina, suteikia galimybę analizuoti laboratorinių procesų kokybę, kaštus ir organizavimą. Šis duomenų rinkinys sudaro pagrindą aplinkos sveikatos rizikų vertinimui, visuomenės sveikatos būklės stebėsenai ir duomenimis grįstų sprendimų priėmimui. Duomenų atnaujinimas numatomas kas 6 mėn. Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt[^manifest]
 
 - **Model:** `datasets/gov/nvspl/aplinkos_tyrimai/AplinkosTyrimas`[^manifest]
-- **Dataset:** [Nacionalinės visuomenės sveikatos priežiūros laboratorijos aplinkos tyrimų duomenys](../aplinkos_tyrimai.md) (`datasets/gov/nvspl/aplinkos_tyrimai`)
-- **Manifest CSV:** [datasets/gov/nvspl/aplinkos_tyrimai.csv#L11](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvspl/aplinkos_tyrimai.csv#L11)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvspl/aplinkos_tyrimai/AplinkosTyrimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Nacionalinės visuomenės sveikatos priežiūros laboratorijos aplinkos tyrimų duomenys](../aplinkos_tyrimai.md) (`datasets/gov/nvspl/aplinkos_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nvspl/aplinkos_tyrimai.csv#L11](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvspl/aplinkos_tyrimai.csv#L11)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvspl/aplinkos_tyrimai/AplinkosTyrimas` (`deployed`)[^manifest]
+- **Provider:** `nvspl` — Nacionalinė visuomenės sveikatos priežiūros laboratorija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -61,4 +58,4 @@ Duomenų atnaujinimas numatomas kas 6 mėn.
 | `kaina_isakymu` | `number` | — | `4` | `open` | — | Kaina pagal įsakymą – suma, kuri nustatyta įsakymu ar valstybiniu dokumentu už tyrimą ar paslaugą | — |
 | `laikotarpis` | `string` | — | `4` | `open` | — | Laikotarpis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nvspl/aplinkos_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nvspl/aplinkos_tyrimai.csv#L11 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvspl/aplinkos_tyrimai.csv#L11)

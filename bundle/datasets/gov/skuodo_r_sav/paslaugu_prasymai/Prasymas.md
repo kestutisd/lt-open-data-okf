@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Prasymas — Skuodo rajono savivaldybės prašymai priimti į ugdymo ir socialinių paslaugų įstaigas"
-description: "Skuodo rajono savivaldybės centralizuoto vaikų priėmimo į ikimokyklines įstaigas informacinė sistema yra skirta valdyti registraciją ir priėmimą į tokias įstaigas kaip darželiai, sporto ir meno mokyklos bei socialinės priežiūros ir..."
+description: "Skuodo rajono savivaldybės centralizuoto vaikų priėmimo į ikimokyklines įstaigas informacinė sistema yra skirta valdyti registraciją ir priėmimą į tokias įstaigas kaip darželiai, sporto ir meno mokyklos bei socialinės priežiūros ir paslaugų šeimai centrai."
 resource: "https://get.data.gov.lt/datasets/gov/skuodo_r_sav/paslaugu_prasymai/Prasymas"
-tags: [gov, skuodo_r_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, skuodo_r_sav, prasymas, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2760/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/skuodo_r_sav/paslaugu_prasymai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Prasymas — Skuodo rajono savivaldybės prašymai priimti į ugdymo ir socialinių paslaugų įstaigas
 
-Skuodo rajono savivaldybės centralizuoto vaikų priėmimo į ikimokyklines įstaigas informacinė sistema yra skirta valdyti registraciją ir priėmimą į tokias įstaigas kaip darželiai, sporto ir meno mokyklos bei socialinės priežiūros ir paslaugų šeimai centrai. Rinkinyje pateikiama prašymai nuo 2011 metų iki dabar. Sistemoje duomenis pildo ugdymo ir paslaugų įstaigos, kurios atsako už duomenų kokybę.
+Skuodo rajono savivaldybės centralizuoto vaikų priėmimo į ikimokyklines įstaigas informacinė sistema yra skirta valdyti registraciją ir priėmimą į tokias įstaigas kaip darželiai, sporto ir meno mokyklos bei socialinės priežiūros ir paslaugų šeimai centrai. Rinkinyje pateikiama prašymai nuo 2011 metų iki dabar. Sistemoje duomenis pildo ugdymo ir paslaugų įstaigos, kurios atsako už duomenų kokybę.[^manifest]
 
 - **Model:** `datasets/gov/skuodo_r_sav/paslaugu_prasymai/Prasymas`[^manifest]
-- **Dataset:** [Skuodo rajono savivaldybės prašymai priimti į ugdymo ir socialinių paslaugų įstaigas](../paslaugu_prasymai.md) (`datasets/gov/skuodo_r_sav/paslaugu_prasymai`)
-- **Manifest CSV:** [datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/skuodo_r_sav/paslaugu_prasymai/Prasymas`
-- **Primary Key (`ref`):** `prasymo_id`
-- **Level:** `4`
+- **Dataset:** [Skuodo rajono savivaldybės prašymai priimti į ugdymo ir socialinių paslaugų įstaigas](../paslaugu_prasymai.md) (`datasets/gov/skuodo_r_sav/paslaugu_prasymai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/skuodo_r_sav/paslaugu_prasymai/Prasymas` (`deployed`)[^manifest]
+- **Provider:** `skuodo_r_sav` — Skuodo rajono savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `prasymo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,4 +52,5 @@ Skuodo rajono savivaldybės centralizuoto vaikų priėmimo į ikimokyklines įst
 | `vietu_sk_grupeje` | `integer` | — | `4` | `open` | — | Vietų skaičius | — |
 | `duomenu_atnaujinimas` | `date` | `D` | `4` | `open` | — | Duomenų atnaujinimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/skuodo_r_sav/paslaugu_prasymai.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/skuodo_r_sav/paslaugu_prasymai (https://data.gov.lt/datasets/2760/)

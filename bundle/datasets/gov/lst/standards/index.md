@@ -1,6 +1,6 @@
-# `datasets/gov/lst/standards`
+# Directory Index: `datasets/gov/lst/standards`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
@@ -14,7 +14,7 @@
 * [ICS](ICS.md) - Tarptautinė standartų klasifikacija (ICS), ją sudaro sritys, grupės ir pogrupiai
 * [ICSRemark](ICSRemark.md) - Tarptautinės standartų klasifikacijos (ICS) sričių, grupių ar pogrupių paaiškinimai
 * [ImplementationType](ImplementationType.md) - Tarptautinių ir Europos standartų perėmimo nacionaliniais standartais būdai (atgaminimo, vertimo, atgaminimo ir vertimo, patvirtinimo)
-* [LRLawStatement](LRLawStatement.md) - Nacionalinių teisės aktų, kuriais į nacionalinę teisę perkelta Europos Sąjungos direktyva arba standartas turi nuokrypą arba standartas turi išskirtinę nuorodą, duomenys...
+* [LRLawStatement](LRLawStatement.md) - Nacionalinių teisės aktų, kuriais į nacionalinę teisę perkelta Europos Sąjungos direktyva arba standartas turi nuokrypą arba standartas turi išskirtinę nuorodą, duomenys (pavadinimas, numeris...
 * [LRLawStatementType](LRLawStatementType.md) - Europos Sąjungos direktyvą įgyvendinančio nacionalinio teisės akto tipas (įstatymas, nutarimas, įsakymas, taisyklės)
 * [Language](Language.md) - Kalbos ir jų kodai
 * [Organisation](Organisation.md) - Tarptautinės standartizacijos institucijos, Europos standartizacijos organizacijos ir nacionalinė standartizacijos institucija
@@ -33,7 +33,7 @@
 * [RelatedProject](RelatedProject.md) - Projekto ryšys su pagrindiniu standartu (keičiantis, keitinys, pataisa)
 * [RelatedStandard](RelatedStandard.md) - Standarto ryšys su kitais standartais (pakeičia, keitinys, pataisa)
 * [Stage](Stage.md) - Standarto rengimo etapų duomenys (etapo kodas, pavadinimas, atlikimo terminas)
-* [Standard](Standard.md) - Duomenys apie Lietuvos standartus (standarto žymuo, išleidimo data, panaikinimo data, atitikties laipsnis ir kt. duomenys)
+* [Standard](Standard.md) - Duomenys apie Lietuvos standartus (standarto žymuo, išleidimo data, panaikinimo data, atitikties laipsnis ir kt.
 * [StandardDirective](StandardDirective.md) - Standarto ryšys su Europos Sąjungos direktyvomis
 * [StandardDocument](StandardDocument.md) - Duomenys apie standarto dokumentus ir jų tipus
 * [StandardDocumentType](StandardDocumentType.md) - Standarto dokumento tipas (publikuotas dokumentas)
@@ -44,6 +44,6 @@
 * [StandardStatus](StandardStatus.md) - Standarto leidybos būsenos (publikuotas, nepublikuotas, panaikintas)
 * [TermApprovedBy](TermApprovedBy.md) - Standarte nurodyto termino straipsnį aprobavęs subjektas
 * [TermSource](TermSource.md) - Šaltinis iš kur paimtas terminas (iš terminų standarto arba iš standarto apibrėžimų skyriaus)
-* [Text](Text.md) - Su standartu susijusi tekstinė informacija (standarto pavadinimas (antraštė), aprašymas (abstract), taikymo sritis (scope) lietuvių ir anglų kalbomis, pastaba, kuri pateikia...
+* [Text](Text.md) - Su standartu susijusi tekstinė informacija (standarto pavadinimas (antraštė), aprašymas (abstract), taikymo sritis (scope) lietuvių ir anglų kalbomis, pastaba, kuri pateikia papildomą informaciją...
 * [TextType](TextType.md) - Su standartu susijusios tekstinės informacijos tipai
 * [TypeOfPublication](TypeOfPublication.md) - Standartų ir standartizacijos leidinių bei jų projektų nomenklatūra

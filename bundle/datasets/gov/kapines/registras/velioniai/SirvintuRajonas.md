@@ -1,25 +1,30 @@
 ---
 type: Table
 title: "SirvintuRajonas — Širvintų rajono savivaldybės kapinėse palaidotų velionių duomenys"
-description: "Spinta table datasets/gov/kapines/registras/velioniai/SirvintuRajonas (26 columns)."
+description: "Rinkinyje pateikiami suskaitmenintose Lietuvos savivaldybėms priklausančiose kapinėse palaidotų velionių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų."
 resource: "https://get.data.gov.lt/datasets/gov/kapines/registras/velioniai/SirvintuRajonas"
-tags: [gov, kapines, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kapines, sirvinturajonas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kapines/velionys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kapines/velionys.csv#L1232"
+    title: "atviriduomenys/manifest — datasets/gov/kapines/velionys.csv#L1232"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # SirvintuRajonas — Širvintų rajono savivaldybės kapinėse palaidotų velionių duomenys
 
+**Dataset Context:** Rinkinyje pateikiami suskaitmenintose Lietuvos savivaldybėms priklausančiose kapinėse palaidotų velionių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų. Nurodomos velionio charakteristikos (vardas, pavardė, lytis, gimimo, mirties ir palaidojimo datos) ir su jo kapaviete susiję duomenys (ryšys su kitais kapavietėje palaidotais asmenimis, kapą prižiūrinčiu asmeniu, kapo gylis, vieta bendrame kapinių plane). Turint klausimų apie duomenų rinkinį, prašome kreiptis į Valstybės duomenų valdysenos atvėrimo komandą elektroniniu paštu atverimas@stat.gov.lt[^manifest]
+
 - **Model:** `datasets/gov/kapines/registras/velioniai/SirvintuRajonas`[^manifest]
-- **Dataset:** [Duomenys apie velionis, palaidotus savivaldybių kapinėse](../velioniai.md) (`datasets/gov/kapines/registras/velioniai`)
-- **Manifest CSV:** [datasets/gov/kapines/velionys.csv#L1232](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kapines/velionys.csv#L1232)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kapines/registras/velioniai/SirvintuRajonas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Duomenys apie velionis, palaidotus savivaldybių kapinėse](../velioniai.md) (`datasets/gov/kapines/registras/velioniai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kapines/velionys.csv#L1232](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kapines/velionys.csv#L1232)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kapines/registras/velioniai/SirvintuRajonas` (`deployed`)[^manifest]
+- **Provider:** `kapines` — Savivaldybių kapinių registro duomenys *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -52,4 +57,8 @@ sources:
 | `vieta_kape` | `integer` | — | `4` | `open` | — | Velionio palaidojimo vieta kapavietėje. Pavyzdžiui, 3 vietų kapavietėje per vidurį laidojamam velioniui būtų žymima 2. | — |
 | `geometrija` | `geometry(3346)` | — | `4` | `open` | — | Velionio kapavietės vietos taško koordinatės pagal WGS84 / Pseudo-Mercator koordinačių sistemą. | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kapines/velionys.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/kapines/velionys.csv#L1232 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kapines/velionys.csv#L1232)

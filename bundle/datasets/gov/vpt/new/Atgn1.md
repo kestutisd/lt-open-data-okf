@@ -3,23 +3,34 @@ type: Table
 title: "Atgn1 — AtGn-1 tipinė forma"
 description: "Viešojo pirkimo arba pirkimo, atlikto gynybos ir saugumo srityje, procedūrų ataskaita"
 resource: "https://get.data.gov.lt/datasets/gov/vpt/new/Atgn1"
-tags: [gov, vpt, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vpt, atgn1, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vpt/new.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/new.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vpt/new.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/389/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vpt/new"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Atgn1 — AtGn-1 tipinė forma
 
-Viešojo pirkimo arba pirkimo, atlikto gynybos ir saugumo srityje, procedūrų ataskaita
+Viešojo pirkimo arba pirkimo, atlikto gynybos ir saugumo srityje, procedūrų ataskaita[^manifest]
 
 - **Model:** `datasets/gov/vpt/new/Atgn1`[^manifest]
-- **Dataset:** [Pirkimų, vykdytų po 2017-07-01 duomenys](../new.md) (`datasets/gov/vpt/new`)
-- **Manifest CSV:** [datasets/gov/vpt/new.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/new.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/new/Atgn1`
+- **Dataset:** [Pirkimų, vykdytų po 2017-07-01 duomenys](../new.md) (`datasets/gov/vpt/new`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vpt/new.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/new.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/new/Atgn1` (`deployed`)[^manifest]
+- **Provider:** `vpt` — Viešųjų pirkimų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -102,4 +113,10 @@ Viešojo pirkimo arba pirkimo, atlikto gynybos ir saugumo srityje, procedūrų a
 | `update_date` | `datetime` | — | `3` | `open` | — | — | — |
 | `country_2` | `string` | — | `3` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/new.csv
+# Related References
+
+- [VPT Public Procurement Notices Join Reference](../../../../references/joins/vpt-procurement-notices.md) — Notice parent-child UUID joins, CPV normalization, and buyer/supplier JAR links.
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/new.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/new.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vpt/new (https://data.gov.lt/datasets/389/)

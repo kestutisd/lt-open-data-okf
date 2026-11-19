@@ -1,6 +1,6 @@
-# `datasets/gov/lakd/eismo_intensyvumas_live`
+# Directory Index: `datasets/gov/lakd/eismo_intensyvumas_live`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

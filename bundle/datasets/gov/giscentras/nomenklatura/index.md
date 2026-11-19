@@ -1,6 +1,6 @@
-# `datasets/gov/giscentras/nomenklatura`
+# Directory Index: `datasets/gov/giscentras/nomenklatura`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

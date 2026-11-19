@@ -1,6 +1,6 @@
-# `datasets/gov/lrtm/notaru_sarasas`
+# Directory Index: `datasets/gov/lrtm/notaru_sarasas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,24 +3,34 @@ type: Table
 title: "Sutartis — Viešųjų pirkimų sutartys"
 description: "Viešųjų pirkimų sutarčių lentelė."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/vpt/cvpp/Sutartis"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, sutartis, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/cvpp.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/cvpp.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/cvpp.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2867/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/cvpp"
+    author: "team:vda"
+    last_modified: "2026-06-12T00:00:00Z"
 ---
 
 # Sutartis — Viešųjų pirkimų sutartys
 
-Viešųjų pirkimų sutarčių lentelė. Lentelė sudaryta iš dokumento bei vidinio sistemos identifikatorių, sutarties sekos, CPV kodo, sutarties tipo, registracijos numerio, sutarties numerio, pirkimo numerio, statuso, sutarties objekto rūšies, jo pavadinimo, sutarties vertės, sutarties faktinio įvykdymo datos ir vertės, dokumento sudarymo, registracijos, įvedimo ir išsiuntimo datų, sutarties formos tipo, sutarties turinio, registruoto subjekto bei sisteminio vartotojo identifikatorių bei požymių, ar sutartis importuota ir, ar tinka išsiuntimui. Vienas įrašas atitinka vieną sutarties dokumentą.
+Viešųjų pirkimų sutarčių lentelė. Lentelė sudaryta iš dokumento bei vidinio sistemos identifikatorių, sutarties sekos, CPV kodo, sutarties tipo, registracijos numerio, sutarties numerio, pirkimo numerio, statuso, sutarties objekto rūšies, jo pavadinimo, sutarties vertės, sutarties faktinio įvykdymo datos ir vertės, dokumento sudarymo, registracijos, įvedimo ir išsiuntimo datų, sutarties formos tipo, sutarties turinio, registruoto subjekto bei sisteminio vartotojo identifikatorių bei požymių, ar sutartis importuota ir, ar tinka išsiuntimui. Vienas įrašas atitinka vieną sutarties dokumentą.[^manifest]
 
 - **Model:** `datasets/gov/lsd/vpt/cvpp/Sutartis`[^manifest]
-- **Dataset:** [Viešųjų pirkimų duomenys](../cvpp.md) (`datasets/gov/lsd/vpt/cvpp`)
-- **Manifest CSV:** [datasets/gov/lsd/vpt/cvpp.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/cvpp.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/cvpp/Sutartis`
-- **Primary Key (`ref`):** `dok_id`
+- **Dataset:** [Viešųjų pirkimų duomenys](../cvpp.md) (`datasets/gov/lsd/vpt/cvpp`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/vpt/cvpp.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/cvpp.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/cvpp/Sutartis` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Viešųjų pirkimų tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `dok_id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-06-12`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -53,4 +63,9 @@ Viešųjų pirkimų sutarčių lentelė. Lentelė sudaryta iš dokumento bei vid
 | `imported` | `boolean` | — | `4` | `open` | — | Ar sutartis importuota | — |
 | `user_id` | `string` | — | `4` | `open` | — | Išorinis raktas į vartotoją | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/cvpp.csv
+# Related References
+
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/cvpp.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/cvpp.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/cvpp (https://data.gov.lt/datasets/2867/)

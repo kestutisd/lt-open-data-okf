@@ -1,11 +1,11 @@
-# `datasets/gov/lsd/nvsc`
+# Directory Index: `datasets/gov/lsd/nvsc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [bpdb/](bpdb/index.md) - Biocidinių produktų duomenys (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Biocidinių produktų duomenys](bpdb.md) - Nacionalinio visuomenės sveikatos centro naudojamoje Biocidinių produktų duomenų bazėje (toliau – BPDB) nuo 1999 m. balandžio 12 d. kaupiami duomenys apie biocidinius produktus...
+* [Biocidinių produktų duomenys](bpdb.md) - Nacionalinio visuomenės sveikatos centro naudojamoje Biocidinių produktų duomenų bazėje (toliau – BPDB) nuo 1999 m. balandžio 12 d.
+
+# Subdirectories
+
+* [bpdb/](bpdb/index.md) - 3 tables

@@ -3,25 +3,28 @@ type: Table
 title: "GRIDHexo2km2011 — 2 km heksagoninių gardelių 2011 m. gyventojų surašymo rodikliai"
 description: "Lentelėje pateikiami 2 km heksagoninių gardelių erdviniai objektai ir su jais susieti 2011 m. gyventojų surašymo sociodemografiniai rodikliai."
 resource: "https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/GRIDHexo2km2011"
-tags: [gov, lki, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lki, gridhexo2km2011, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L49"
+    title: "atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv#L49"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # GRIDHexo2km2011 — 2 km heksagoninių gardelių 2011 m. gyventojų surašymo rodikliai
 
-Lentelėje pateikiami 2 km heksagoninių gardelių erdviniai objektai ir su jais susieti 2011 m. gyventojų surašymo sociodemografiniai rodikliai.
+Lentelėje pateikiami 2 km heksagoninių gardelių erdviniai objektai ir su jais susieti 2011 m. gyventojų surašymo sociodemografiniai rodikliai.[^manifest]
 
 - **Model:** `datasets/gov/lki/gyventoju_surasymas_2011/GRIDHexo2km2011`[^manifest]
-- **Dataset:** [datasets/gov/lki/gyventoju_surasymas_2011](../gyventoju_surasymas_2011.md) (`datasets/gov/lki/gyventoju_surasymas_2011`)
-- **Manifest CSV:** [datasets/gov/lki/gyventoju_surasymas_2011.csv#L49](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L49)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/GRIDHexo2km2011`
-- **Primary Key (`ref`):** `feature_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/lki/gyventoju_surasymas_2011](../gyventoju_surasymas_2011.md) (`datasets/gov/lki/gyventoju_surasymas_2011`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lki/gyventoju_surasymas_2011.csv#L49](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L49)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/GRIDHexo2km2011` (`deployed`)[^manifest]
+- **Provider:** `lki` — Lietuvių kalbos institutas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `feature_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -69,4 +72,4 @@ Lentelėje pateikiami 2 km heksagoninių gardelių erdviniai objektai ir su jais
 | `tautybe_lt_proc` | `number` | — | `4` | `open` | — | Lietuvių tautybės gyventojų dalis procentais | — |
 | `tautybe_sl` | `integer` | — | `4` | `open` | — | Šaltinio kategorijos „sl“ tautybės grupės gyventojų skaičius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv#L49 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L49)

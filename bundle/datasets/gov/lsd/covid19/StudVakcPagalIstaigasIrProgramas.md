@@ -3,24 +3,34 @@ type: Table
 title: "StudVakcPagalIstaigasIrProgramas — Studentų vakcinacija ir imunizacija pagal įstaigas ir studijų programas"
 description: "Studentų vakcinaciją ir bendrą imunizaciją nuo SARS‑CoV-2 pagal aukštąsias mokymosi įstaigas ir studijų programas"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/covid19/StudVakcPagalIstaigasIrProgramas"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, studvakcpagalistaigasirprogramas, deployed, level-3, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L222"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L222"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1670/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/covid19"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # StudVakcPagalIstaigasIrProgramas — Studentų vakcinacija ir imunizacija pagal įstaigas ir studijų programas
 
-Studentų vakcinaciją ir bendrą imunizaciją nuo SARS‑CoV-2 pagal aukštąsias mokymosi įstaigas ir studijų programas
+Studentų vakcinaciją ir bendrą imunizaciją nuo SARS‑CoV-2 pagal aukštąsias mokymosi įstaigas ir studijų programas[^manifest]
 
 - **Model:** `datasets/gov/lsd/covid19/StudVakcPagalIstaigasIrProgramas`[^manifest]
-- **Dataset:** [datasets/gov/lsd/covid19](../covid19.md) (`datasets/gov/lsd/covid19`)
-- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L222](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L222)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/StudVakcPagalIstaigasIrProgramas`
-- **Level:** `3`
+- **Dataset:** [COVID-19 pandemijos duomenys](../covid19.md) (`datasets/gov/lsd/covid19`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L222](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L222)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/StudVakcPagalIstaigasIrProgramas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,4 +49,5 @@ Studentų vakcinaciją ir bendrą imunizaciją nuo SARS‑CoV-2 pagal aukštąsi
 | `confidentiality` | `string` | — | `2` | `open` | — | Konfidencialumo taisyklė | Žymi, ar buvo pritaikyta konfidencialumo taisyklė, modifikuojanti absoliučius ir procentinius skaičius, kad būtų neįmanoma sužinoti, kas konkrečiai yra vakcinuotas ir kas ne. Taisyklė: mažiausiame pogrupyje negali būti mažiau nei 5 asmenys. Jei yra – tokiu atveju laikoma, kad tame pogrupyje yra 5 asmenys ir procentai skaičiuojami atitinkamai. |
 | `data_freshness` | `date` | `D` | `4` | `open` | — | Duomenų "šviežumas" | Mažiausia iš dviejų datų: paskutinės įtrauktos vakcinacijos datos ir paskutinio įtraukto teigiamo testo datos. |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L222 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L222)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/covid19 (https://data.gov.lt/datasets/1670/)

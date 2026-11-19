@@ -1,11 +1,11 @@
-# `datasets/gov/lsd/turizmas`
+# Directory Index: `datasets/gov/lsd/turizmas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [atvyksta/](atvyksta/index.md) - Atvykstamojo turizmo statistiniai tyrimai (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Atvykstamojo turizmo statistiniai tyrimai](atvyksta.md) - Spinta dataset datasets/gov/lsd/turizmas/atvyksta (2 tables).
+* [Atvykstamojo turizmo statistiniai tyrimai](atvyksta.md) - Statistinio tyrimo tikslas – parengti ir paskelbti statistinę informaciją apie atvykstančių į Lietuvą užsieniečių, jų kelionių ir nakvynių skaičių, kelionės tikslus, naudojamas transporto...
+
+# Subdirectories
+
+* [atvyksta/](atvyksta/index.md) - 2 tables

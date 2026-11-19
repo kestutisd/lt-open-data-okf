@@ -3,25 +3,34 @@ type: Table
 title: "TrakoMatavimas — Trakų matavimai"
 description: "Lentelėje skelbiami trakų matavimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/vmt/inventorizacija/TrakoMatavimas"
-tags: [gov, vmt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmt, trakomatavimas, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmt/inventorizacija.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmt/inventorizacija.csv#L120"
+    title: "atviriduomenys/manifest — datasets/gov/vmt/inventorizacija.csv#L120"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2830/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmt/inventorizacija"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # TrakoMatavimas — Trakų matavimai
 
-Lentelėje skelbiami trakų matavimų duomenys. Anot Visuotinės Lietuvių Enciklopedijos, trakas - tai sumedėjusios augalijos žemutinis ardas; dažniausia tokie krūmai, kaip lazdynai, šaltekšniai, kadagiai, šermukšniai, serbentai ir kt., augantys po medžių danga. Viena lentelės eilutė identifikuoja trakto barelio sektoriaus vienos medelių rūšies inventorizacija vieno penkmečio laikotarpiu. Pateikiami agreguoti duomenys apie medelius pagal jų aukštį.
+Lentelėje skelbiami trakų matavimų duomenys. Anot Visuotinės Lietuvių Enciklopedijos, trakas - tai sumedėjusios augalijos žemutinis ardas; dažniausia tokie krūmai, kaip lazdynai, šaltekšniai, kadagiai, šermukšniai, serbentai ir kt., augantys po medžių danga. Viena lentelės eilutė identifikuoja trakto barelio sektoriaus vienos medelių rūšies inventorizacija vieno penkmečio laikotarpiu. Pateikiami agreguoti duomenys apie medelius pagal jų aukštį.[^manifest]
 
 - **Model:** `datasets/gov/vmt/inventorizacija/TrakoMatavimas`[^manifest]
-- **Dataset:** [Nacionalinės miškų inventorizacijos matavimų duomenys](../inventorizacija.md) (`datasets/gov/vmt/inventorizacija`)
-- **Manifest CSV:** [datasets/gov/vmt/inventorizacija.csv#L120](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmt/inventorizacija.csv#L120)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmt/inventorizacija/TrakoMatavimas`
-- **Primary Key (`ref`):** `matavimo_id`
-- **Level:** `4`
+- **Dataset:** [Nacionalinės miškų inventorizacijos matavimų duomenys](../inventorizacija.md) (`datasets/gov/vmt/inventorizacija`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmt/inventorizacija.csv#L120](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmt/inventorizacija.csv#L120)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmt/inventorizacija/TrakoMatavimas` (`deployed`)[^manifest]
+- **Provider:** `vmt` — Valstybinė Miškų Tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `matavimo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,9 +52,10 @@ Lentelėje skelbiami trakų matavimų duomenys. Anot Visuotinės Lietuvių Encik
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `atstumas` | `"Atstumas nuo trakto kraštinės pradžios 225 metrai"` | — | — | — | — |
 | `atstumas` | `"Atstumas nuo trakto kraštinės pradžios 475 metrai"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmt/inventorizacija.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmt/inventorizacija.csv#L120 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmt/inventorizacija.csv#L120)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmt/inventorizacija (https://data.gov.lt/datasets/2830/)

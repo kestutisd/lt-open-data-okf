@@ -3,23 +3,32 @@ type: Table
 title: "Sukelejas — Užkrečiamųjų ligų sukelėjai"
 description: "Spinta table datasets/gov/nvsc/uzkreciamos_ligos/sukelejai/Sukelejas (61 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai/Sukelejas"
-tags: [gov, nvsc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nvsc, sukelejas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1853/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Sukelejas — Užkrečiamųjų ligų sukelėjai
 
 - **Model:** `datasets/gov/nvsc/uzkreciamos_ligos/sukelejai/Sukelejas`[^manifest]
-- **Dataset:** [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų sukelėjų duomenys](../sukelejai.md) (`datasets/gov/nvsc/uzkreciamos_ligos/sukelejai`)
-- **Manifest CSV:** [datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai/Sukelejas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų sukelėjų duomenys](../sukelejai.md) (`datasets/gov/nvsc/uzkreciamos_ligos/sukelejai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai/Sukelejas` (`deployed`)[^manifest]
+- **Provider:** `nvsc` — Nacionalinis visuomenės sveikatos centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -27,7 +36,7 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `vda_id` | `string` | — | `4` | `open` | — | Unikalus identifikatorius | — |
 | `centras` | `string` | — | `2` | `open` | — | NVSC departamenas | — |
-| `tlk` | `ref` | [/datasets/gov/vlk/tlk10am/Tlk10am[code]](../../../vlk/tlk10am/Tlk10am.md) | `4` | `open` | — | Diagnozės kodas | — |
+| `tlk` | `ref` | [Tlk10am](../../../vlk/tlk10am/Tlk10am.md) (`level=4 UUID` via `Tlk10am[code]`: `tlk._id`) | `4` | `open` | — | Diagnozės kodas | — |
 | `diagnoze` | `string` | — | `4` | `open` | — | Diagnozės pavadinimas | — |
 | `suk_seima_gentis` | `string` | — | `2` | `open` | — | Sukelėjo šeima, gentis | — |
 | `suk_pavadinimas` | `string` | — | `2` | `open` | — | Sukelėjo pavadinimas | — |
@@ -89,7 +98,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `gydymas` | `"Stacionarinis"` | — | — | Pacientas gydomas stacionare | — |
 | `gydymas` | `"Ambulatorinis"` | — | — | Pacientas gydomas ambulatoriškai | — |
@@ -97,4 +106,5 @@ sources:
 | `paciento_tyrimo_priezastis` | `"Tiriamas dėl sąlyčio"` | — | — | Pacientas tiriamas dėl sąlyčio | — |
 | `paciento_tyrimo_priezastis` | `"Tiriamas pagal būtinybę"` | — | — | Pacientas tiriamas pagal būtinybę | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/sukelejai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nvsc/uzkreciamos_ligos/sukelejai (https://data.gov.lt/datasets/1853/)

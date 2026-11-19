@@ -1,26 +1,30 @@
 ---
 type: Dataset
 title: "datasets/gov/vrk/reitingo_eilutes"
-description: "Spinta dataset datasets/gov/vrk/reitingo_eilutes (1 table)."
+description: "Lithuanian open data dataset datasets/gov/vrk/reitingo_eilutes (1 lentelė)."
 tags: [gov, vrk, undeployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L2"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv#L2"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # datasets/gov/vrk/reitingo_eilutes
 
 - **Namespace:** `datasets/gov/vrk/reitingo_eilutes`[^manifest]
-- **Manifest CSV:** [datasets/gov/vrk/reitingo_eilutes.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L2)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
+- **Manifest CSV:** [datasets/gov/vrk/reitingo_eilutes.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L2)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (`undeployed` — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `1` (1 lentelė)[^manifest]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ReitingoEilute](reitingo_eilutes/ReitingoEilute.md) | — | `4` | `rink_turo_apyg_id, rink_turo_apyl_id` | — | 14 | — |
+| [ReitingoEilute](reitingo_eilutes/ReitingoEilute.md) | — | `4` | `rink_turo_apyg_id, rink_turo_apyl_id` | — | `14` | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv#L2 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L2)

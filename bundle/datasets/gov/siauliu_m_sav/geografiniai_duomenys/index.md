@@ -1,6 +1,6 @@
-# `datasets/gov/siauliu_m_sav/geografiniai_duomenys`
+# Directory Index: `datasets/gov/siauliu_m_sav/geografiniai_duomenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

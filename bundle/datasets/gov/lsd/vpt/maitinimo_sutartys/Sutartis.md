@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "Sutartis — Bendrojo ugdymo įstaigų maitinimo paslaugų viešųjų pirkimų sutarčių duomenys"
-description: "Spinta table datasets/gov/lsd/vpt/maitinimo_sutartys/Sutartis (25 columns)."
+description: "Rinkinyje pateikiami Viešųjų pirkimų tarnybos (VPT) Viešųjų pirkimų monitoringo informacinės sistemos Lietuvos bendrojo ugdymo įstaigų maitinimo sutarčių, viešinamų Viešųjų pirkimų portale, duomenys nuo 2008 m. Nurodomi išsamūs maitinimo sutarčių duomenys (galiojimo..."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/vpt/maitinimo_sutartys/Sutartis"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, sutartis, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/maitinimo_sutartys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4088/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/maitinimo_sutartys"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # Sutartis — Bendrojo ugdymo įstaigų maitinimo paslaugų viešųjų pirkimų sutarčių duomenys
 
+**Dataset Context:** Rinkinyje pateikiami Viešųjų pirkimų tarnybos (VPT) Viešųjų pirkimų monitoringo informacinės sistemos Lietuvos bendrojo ugdymo įstaigų maitinimo sutarčių, viešinamų Viešųjų pirkimų portale, duomenys nuo 2008 m. Nurodomi išsamūs maitinimo sutarčių duomenys (galiojimo laikotarpis, sutarties vertė, duomenys apie perkančiąją organizaciją ir konkursą laimėjusį tiekėją). Pažymėtina, kad maitinimo paslaugų konkursą gali organizuoti ne tik mokykla, bet ir mokyklos savininkė – savivaldybės administracija. Tokiu atveju prie perkančiosios organizacijos nurodomas maitinimo konkursą organizavusios savivaldybės administracijos pavadinimas. 2025 m. pabaigoje bendro Viešųjų pirkimų tarnybos ir Valstybės duomenų agentūros projekto metu, pasitelkiant dirbtinio intelekto (DI) modelį, buvo analizuojamos galiojančios ugdymo įstaigų maitinimo sutartys. DI modelis identifikavo duomenis apie maitinimo organizavimą (ar tiekiamas ekologiškas maistas, ar už maistą galima atsiskaityti elektroninėje maitinimo užsakymų ir atsiskaitymo sistemoje (EMUAS), ar maitinimas valgyklose organizuojamas savitarnos principu) ir sutartyse nurodytus patiekalus bei jų požymius (kaina, maitinimo laikas, moksleivių amžiaus grupė, kuriai skirtas patiekalas). Atkreipiame dėmesį, jog DI modelio identifikuotų duomenų tikslumas nėra garantuojamas. Šie duomenys atnaujinami nebus. Duomenų teikėjas – Viešųjų pirkimų tarnyba Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^manifest]
+
 - **Model:** `datasets/gov/lsd/vpt/maitinimo_sutartys/Sutartis`[^manifest]
-- **Dataset:** [Ugdymo įstaigų maitinimo sutarčių duomenys](../maitinimo_sutartys.md) (`datasets/gov/lsd/vpt/maitinimo_sutartys`)
-- **Manifest CSV:** [datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/maitinimo_sutartys/Sutartis`
-- **Primary Key (`ref`):** `sutarties_id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Ugdymo įstaigų maitinimo sutarčių duomenys](../maitinimo_sutartys.md) (`datasets/gov/lsd/vpt/maitinimo_sutartys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/maitinimo_sutartys/Sutartis` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Viešųjų pirkimų tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `sutarties_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-10-20`[^dcat]
 
 # Schema
 
@@ -54,11 +64,17 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tiekejo_valstybe` | `"Lietuva"` | — | — | — | — |
 | `tiekejo_valstybe` | `"Lenkija"` | — | — | — | — |
 | `tiekejo_valstybe` | `"Slovėnija"` | — | — | — | — |
 | `tiekejo_valstybe` | `"Latvija"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/maitinimo_sutartys.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/maitinimo_sutartys.csv#L15)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/maitinimo_sutartys (https://data.gov.lt/datasets/4088/)

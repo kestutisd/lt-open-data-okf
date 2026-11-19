@@ -1,6 +1,6 @@
-# `datasets/gov/bpc/pagalbos_skambuciai`
+# Directory Index: `datasets/gov/bpc/pagalbos_skambuciai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

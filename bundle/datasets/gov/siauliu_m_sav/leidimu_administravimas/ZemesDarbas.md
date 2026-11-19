@@ -3,25 +3,34 @@ type: Table
 title: "ZemesDarbas — Šiaulių miesto savivaldybės išduoti leidimai žemės darbams"
 description: "Informacija apie Šiaulių miesto savivaldybės išduotus leidimus žemės darbams"
 resource: "https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/ZemesDarbas"
-tags: [gov, siauliu_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, siauliu_m_sav, zemesdarbas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34"
+    title: "atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2912/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/siauliu_m_sav/leidimu_administravimas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # ZemesDarbas — Šiaulių miesto savivaldybės išduoti leidimai žemės darbams
 
-Informacija apie Šiaulių miesto savivaldybės išduotus leidimus žemės darbams
+Informacija apie Šiaulių miesto savivaldybės išduotus leidimus žemės darbams[^manifest]
 
 - **Model:** `datasets/gov/siauliu_m_sav/leidimu_administravimas/ZemesDarbas`[^manifest]
-- **Dataset:** [Šiaulių miesto savivaldybės išduoti leidimai ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/siauliu_m_sav/leidimu_administravimas`)
-- **Manifest CSV:** [datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/ZemesDarbas`
-- **Primary Key (`ref`):** `leidimo_id`
-- **Level:** `4`
+- **Dataset:** [Šiaulių miesto savivaldybės išduoti leidimai ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/siauliu_m_sav/leidimu_administravimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/ZemesDarbas` (`deployed`)[^manifest]
+- **Provider:** `siauliu_m_sav` — Šiaulių miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `leidimo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,7 +57,7 @@ Informacija apie Šiaulių miesto savivaldybės išduotus leidimus žemės darba
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `leidimo_tipas` | `"KasinejimoDarbai.VykdytiZemesDarbus"` | — | — | Licencija išduota vykdyti žemės darbams | — |
 | `leidimo_tipas` | `"KasinejimoDarbai.AtitvertiDaliViesojoNaudojimoTeritorijos"` | — | — | Licencija išduota atitverti dalį viešojo naudojimo teritorijos | — |
@@ -66,4 +75,5 @@ Informacija apie Šiaulių miesto savivaldybės išduotus leidimus žemės darba
 | `priezastis_zemes_darbams_lt` | `update(property: "priezastis_zemes_darbams_lt@lt", type: "text")` | `type` | — | — | — | — | — |
 | `pasalintos_zemes_kiekis_lt` | `update(property: "pasalintos_zemes_kiekis_lt@lt", type: "text")` | `type` | — | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L34)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/siauliu_m_sav/leidimu_administravimas (https://data.gov.lt/datasets/2912/)

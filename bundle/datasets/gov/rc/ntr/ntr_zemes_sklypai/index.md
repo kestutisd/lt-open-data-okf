@@ -1,6 +1,6 @@
-# `datasets/gov/rc/ntr/ntr_zemes_sklypai`
+# Directory Index: `datasets/gov/rc/ntr/ntr_zemes_sklypai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

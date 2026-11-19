@@ -1,15 +1,15 @@
-# `datasets/gov/ird` — Informatikos ir ryšių departamentas
+# Directory Index: `datasets/gov/ird`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [anr/](anr/index.md) - Administracinių nusižengimų registras (0 datasets, 4 tables)
-* [nusikalstamumas/](nusikalstamumas/index.md) - Namespace `datasets/gov/ird/nusikalstamumas` (0 datasets, 11 tables)
-* [vataras_vatis/](vataras_vatis/index.md) - Valstybės tarnautojų registras, Valstybės tarnybos valdymo informacinė sistema (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Administracinių nusižengimų registras](anr.md) - Registro objektai: LR administracinių nusižengimų kodekso nustatyta tvarka užfiksuoti administraciniai nusižengimai; LR įstatymų ir ES teisės aktų nustatyta tvarka užfiksuoti...
-* [datasets/gov/ird/nusikalstamumas](nusikalstamumas.md) - Informatikos ir ryšių departamentas prie LR Vidaus reikalų ministerijos
-* [Valstybės tarnautojų registras, Valstybės tarnybos valdymo informacinė sistema](vataras_vatis.md) - Šių informacinių sistemų tikslas – vykdyti žmogiškųjų išteklių valdymo viešajame administravime, valstybės tarnybos valdymo sprendimų planavimo, Valstybės tarnybos įstatymo ir...
+* [Administracinių nusižengimų registras](anr.md) - Registro objektai: LR administracinių nusižengimų kodekso nustatyta tvarka užfiksuoti administraciniai nusižengimai; LR įstatymų ir ES teisės aktų nustatyta tvarka užfiksuoti ūkio subjektų...
+* [Nusikalstamų veikų statistiniai duomenys](nusikalstamumas.md) - Nusikalstamų veikų statistiniai duomenys
+* [Valstybės tarnautojų registras, Valstybės tarnybos valdymo informacinė sistema](vataras_vatis.md) - Šių informacinių sistemų tikslas – vykdyti žmogiškųjų išteklių valdymo viešajame administravime, valstybės tarnybos valdymo sprendimų planavimo, Valstybės tarnybos įstatymo ir su juo susijusių...
+
+# Subdirectories
+
+* [anr/](anr/index.md) - 4 tables
+* [nusikalstamumas/](nusikalstamumas/index.md) - 11 tables
+* [vataras_vatis/](vataras_vatis/index.md) - 3 tables

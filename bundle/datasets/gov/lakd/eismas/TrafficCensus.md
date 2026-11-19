@@ -2,24 +2,27 @@
 type: Table
 title: "TrafficCensus — Eismo intensyvumas"
 description: "Spinta table datasets/gov/lakd/eismas/TrafficCensus (27 columns)."
-tags: [gov, lakd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lakd, trafficcensus, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lakd/eismas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismas.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lakd/eismas.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # TrafficCensus — Eismo intensyvumas
 
 - **Model:** `datasets/gov/lakd/eismas/TrafficCensus`[^manifest]
-- **Dataset:** [datasets/gov/lakd/eismas](../eismas.md) (`datasets/gov/lakd/eismas`)
-- **Manifest CSV:** [datasets/gov/lakd/eismas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismas.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **URI:** `vadovas:dsa/dimensijos.html#model.ref`
+- **Dataset:** [datasets/gov/lakd/eismas](../eismas.md) (`datasets/gov/lakd/eismas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lakd/eismas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismas.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `lakd` — AB „Via Lietuva“ (buv. Lietuvos automobilių kelių direkcija) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **URI:** `vadovas:dsa/dimensijos.html#model.ref`[^manifest]
 
 # Schema
 
@@ -28,7 +31,7 @@ sources:
 | `id` | `integer` | — | `4` | `open` | — | ID | — |
 | `geometry` | `geometry(linestring,4326)` | `m` | `4` | `open` | — | Geometrija | — |
 | `objectid` | `integer` | — | `4` | `open` | — | Identifikatorius | — |
-| `kelionr` | `ref` | [/datasets/gov/lakd/keliai/StateRoad[kelionr]](../keliai/StateRoad.md) | `4` | `open` | — | Kelio numeris | — |
+| `kelionr` | `ref` | [StateRoad](../keliai/StateRoad.md) (`level=4 UUID` via `StateRoad[kelionr]`: `kelionr._id`) | `4` | `open` | — | Kelio numeris | — |
 | `pradziakm` | `number` | `km` | `4` | `open` | — | Ruožo pradžia | — |
 | `pabaigakm` | `number` | `km` | `4` | `open` | — | Ruožo pabaiga | — |
 | `postovieta` | `number` | `km` | `4` | `open` | — | Matavimo vieta | — |
@@ -59,4 +62,8 @@ sources:
 | --- | --- |
 | `vadovas` | `https://atviriduomenys.readthedocs.io/` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lakd/eismas.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lakd/eismas.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lakd/eismas.csv#L6)

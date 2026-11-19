@@ -3,25 +3,34 @@ type: Table
 title: "Vilkas — Duomenys apie sumedžiotus vilkus"
 description: "Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklės Lietuvos Respublikos teritorijoje duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/vstt/vilku_medziokles/Vilkas"
-tags: [gov, vstt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vstt, vilkas, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vstt/medziokles.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/medziokles.csv#L15"
+    title: "atviriduomenys/manifest — datasets/gov/vstt/medziokles.csv#L15"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2889/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vstt/vilku_medziokles"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Vilkas — Duomenys apie sumedžiotus vilkus
 
-Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklės Lietuvos Respublikos teritorijoje duomenys. Rinkinio objektas - vienas sumedžiotas vilkas. Nurodomas medžioklės laikas, vieta, būdas, duomenys apie vilką (amžius, lytis, sveikatos būklė) ir gaują (jauniklių ir suaugusių vilkų skaičius). Duomenų teikėjas: Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos.
+Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklės Lietuvos Respublikos teritorijoje duomenys. Rinkinio objektas - vienas sumedžiotas vilkas. Nurodomas medžioklės laikas, vieta, būdas, duomenys apie vilką (amžius, lytis, sveikatos būklė) ir gaują (jauniklių ir suaugusių vilkų skaičius). Duomenų teikėjas: Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vstt/vilku_medziokles/Vilkas`[^manifest]
-- **Dataset:** [Sumedžioti vilkai Lietuvoje](../vilku_medziokles.md) (`datasets/gov/vstt/vilku_medziokles`)
-- **Manifest CSV:** [datasets/gov/vstt/medziokles.csv#L15](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/medziokles.csv#L15)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/vilku_medziokles/Vilkas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Sumedžioti vilkai Lietuvoje](../vilku_medziokles.md) (`datasets/gov/vstt/vilku_medziokles`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vstt/medziokles.csv#L15](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/medziokles.csv#L15)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/vilku_medziokles/Vilkas` (`deployed`)[^manifest]
+- **Provider:** `vstt` — Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +53,7 @@ Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklė
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `medziojimo_budas` | `"tykojant"` | — | — | — | — |
 | `medziojimo_budas` | `"varant"` | — | — | — | — |
@@ -55,4 +64,9 @@ Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklė
 | `lytis` | `"Patinas"` | — | — | — | — |
 | `lytis` | `"Patelė"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/medziokles.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/medziokles.csv#L15 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/medziokles.csv#L15)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vstt/vilku_medziokles (https://data.gov.lt/datasets/2889/)

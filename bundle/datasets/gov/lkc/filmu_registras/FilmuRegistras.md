@@ -3,27 +3,34 @@ type: Table
 title: "FilmuRegistras — Filmų registras"
 description: "Duomenų rinkinys apima informaciją apie Lietuvoje registruotus filmus ir jų metaduomenis, susijusius su kūrybinėmis komandomis, rodymo teisėmis, subtitrais, gamybos informacija ir autorinėmis teisėmis."
 resource: "https://get.data.gov.lt/datasets/gov/lkc/filmu_registras/FilmuRegistras"
-tags: [gov, lkc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lkc, filmuregistras, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lkc/filmu_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lkc/filmu_registras.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/lkc/filmu_registras.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3896/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lkc/filmu_registras"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # FilmuRegistras — Filmų registras
 
-Duomenų rinkinys apima informaciją apie Lietuvoje registruotus filmus ir jų metaduomenis, susijusius su kūrybinėmis komandomis, rodymo teisėmis, subtitrais, gamybos informacija ir autorinėmis teisėmis. Kiekviena lentelės eilutė atitinka vieną filmą. Rinkinys gali būti naudojamas kultūros tyrimams, kino statistikai, filmų duomenų analizei ar autorinių teisių stebėsenai.
-
-Duomenų teikėjas – Lietuvos Kino Centras.
+Duomenų rinkinys apima informaciją apie Lietuvoje registruotus filmus ir jų metaduomenis, susijusius su kūrybinėmis komandomis, rodymo teisėmis, subtitrais, gamybos informacija ir autorinėmis teisėmis. Kiekviena lentelės eilutė atitinka vieną filmą. Rinkinys gali būti naudojamas kultūros tyrimams, kino statistikai, filmų duomenų analizei ar autorinių teisių stebėsenai. Duomenų teikėjas – Lietuvos Kino Centras. Dėl techninių klausimų ar galimų klaidų galima kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lkc/filmu_registras/FilmuRegistras`[^manifest]
-- **Dataset:** [Filmų registras](../filmu_registras.md) (`datasets/gov/lkc/filmu_registras`)
-- **Manifest CSV:** [datasets/gov/lkc/filmu_registras.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lkc/filmu_registras.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lkc/filmu_registras/FilmuRegistras`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Filmų registras](../filmu_registras.md) (`datasets/gov/lkc/filmu_registras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lkc/filmu_registras.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lkc/filmu_registras.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lkc/filmu_registras/FilmuRegistras` (`deployed`)[^manifest]
+- **Provider:** `lkc` — Lietuvos Kino Centras prie Kultūros Ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -61,4 +68,5 @@ Duomenų teikėjas – Lietuvos Kino Centras.
 | `isregistruotas_data` | `datetime` | `D` | `4` | `open` | — | Išregistravimo data | — |
 | `filmo_teises` | `string` | — | `4` | `open` | — | Suteiktos teisės | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lkc/filmu_registras.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lkc/filmu_registras.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lkc/filmu_registras.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lkc/filmu_registras (https://data.gov.lt/datasets/3896/)

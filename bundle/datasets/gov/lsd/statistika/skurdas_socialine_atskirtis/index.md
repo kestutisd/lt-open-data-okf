@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/skurdas_socialine_atskirtis`
+# Directory Index: `datasets/gov/lsd/statistika/skurdas_socialine_atskirtis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

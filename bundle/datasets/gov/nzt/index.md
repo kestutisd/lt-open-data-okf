@@ -1,13 +1,13 @@
-# `datasets/gov/nzt`
+# Directory Index: `datasets/gov/nzt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [matininkai/](matininkai/index.md) - Namespace `datasets/gov/nzt/matininkai` (0 datasets, 1 table)
-* [paraiskos/](paraiskos/index.md) - Paraiškų įsigyti privačius žemės ir miškų ūkio paskirties sklypus duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/nzt/matininkai](matininkai.md) - Spinta dataset datasets/gov/nzt/matininkai (1 table).
-* [Paraiškų įsigyti privačius žemės ir miškų ūkio paskirties sklypus duomenys](paraiskos.md) - Lentelėje pateikti Nacionalinės žemės tarnybos prie Aplinkos ministerijos išduotų sutikimų įsigyti žemės ir miškų ūkio paskirties sklypus duomenys.
+* [Duomenys apie asmenis, kuriems teisės aktų nustatyta tvarka išduoti kvalifikacijos pažymėjimai rengti žemėtvarkos...](matininkai.md) - Informacija apie asmenis, kuriems teisės aktų nustatyta tvarka išduoti galiojantys kvalifikacijos pažymėjimai rengti žemėtvarkos planavimo dokumentus, matininko ar geodezininko kvalifikacijos...
+* [Paraiškų įsigyti privačius žemės ir miškų ūkio paskirties sklypus duomenys](paraiskos.md) - "Lentelėje pateikti Nacionalinės žemės tarnybos prie Aplinkos ministerijos išduotų sutikimų įsigyti žemės ir miškų ūkio paskirties sklypus duomenys.
+
+# Subdirectories
+
+* [matininkai/](matininkai/index.md) - 1 table
+* [paraiskos/](paraiskos/index.md) - 1 table

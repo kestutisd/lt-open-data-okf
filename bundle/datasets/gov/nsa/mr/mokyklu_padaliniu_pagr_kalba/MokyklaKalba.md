@@ -3,25 +3,34 @@ type: Table
 title: "MokyklaKalba — Bendrojo ugdymo mokyklų (padalinių) pagrindinės kalbos"
 description: "Lentelėje pateikiama Lietuvos bendrojo ugdymo mokyklų (padalinių) informacija (mokyklos grupė, mokyklos tipas, mokinių skaičius, pagrindinė kalba) nuo 2001 kiekvieniems mokslo metams iš Nacionalinės švietimo agentūros Mokinių registro."
 resource: "https://get.data.gov.lt/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba/MokyklaKalba"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, mokyklakalba, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3854/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # MokyklaKalba — Bendrojo ugdymo mokyklų (padalinių) pagrindinės kalbos
 
-Lentelėje pateikiama Lietuvos bendrojo ugdymo mokyklų (padalinių) informacija (mokyklos grupė, mokyklos tipas, mokinių skaičius, pagrindinė kalba) nuo 2001 kiekvieniems mokslo metams iš Nacionalinės švietimo agentūros Mokinių registro. Duomenys atnaujinami kartą per mėnesį.
+Lentelėje pateikiama Lietuvos bendrojo ugdymo mokyklų (padalinių) informacija (mokyklos grupė, mokyklos tipas, mokinių skaičius, pagrindinė kalba) nuo 2001 kiekvieniems mokslo metams iš Nacionalinės švietimo agentūros Mokinių registro. Duomenys atnaujinami kartą per mėnesį. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba/MokyklaKalba`[^manifest]
-- **Dataset:** [Bendrojo ugdymo mokyklų (padalinių) pagrindinės kalbos](../mokyklu_padaliniu_pagr_kalba.md) (`datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba`)
-- **Manifest CSV:** [datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba/MokyklaKalba`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Bendrojo ugdymo mokyklų (padalinių) pagrindinės kalbos](../mokyklu_padaliniu_pagr_kalba.md) (`datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba/MokyklaKalba` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,4 +53,5 @@ Lentelėje pateikiama Lietuvos bendrojo ugdymo mokyklų (padalinių) informacija
 | `kalbu_rikiavimas_pagal_proc` | `string` | — | `4` | `open` | — | Kalbos, išrikiuotos pagal tai, kiek mokinių (procentaliai) daugiausia mokėsi konkrečia kalba konkrečioje įstaigoje tam tikrais mokslo metais | — |
 | `duomenu_atnaujinimo_data` | `datetime` | `S` | `4` | `open` | — | Duomenų atnaujinimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/mr/mokyklu_padaliniu_pagr_kalba (https://data.gov.lt/datasets/3854/)

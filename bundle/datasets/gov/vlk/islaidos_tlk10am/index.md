@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/islaidos_tlk10am`
+# Directory Index: `datasets/gov/vlk/islaidos_tlk10am`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

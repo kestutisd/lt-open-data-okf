@@ -1,7 +1,7 @@
-# `datasets/gov/muitine/muitines_prievolininku_registras`
+# Directory Index: `datasets/gov/muitine/muitines_prievolininku_registras`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [MuitinesPrievolininkas — Ekonominės veiklos vykdytojai įtraukti į MPR](MuitinesPrievolininkas.md) - Spinta table datasets/gov/muitine/muitines_prievolininku_registras/MuitinesPrievolininkas (9 columns).
+* [MuitinesPrievolininkas — Ekonominės veiklos vykdytojai įtraukti į MPR](MuitinesPrievolininkas.md) - Ekonominės veiklos vykdytojai ir kiti asmenys įtraukti į muitinės prievolininkų registrą

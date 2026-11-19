@@ -3,22 +3,32 @@ type: Table
 title: "ItNaudAsmuo — Asmenų informacinių technologijų naudojimas"
 description: "Spinta table datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudAsmuo (550 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudAsmuo"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, itnaudasmuo, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/803/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/it_naudojimas_namu_ukiuose"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # ItNaudAsmuo — Asmenų informacinių technologijų naudojimas
 
 - **Model:** `datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudAsmuo`[^manifest]
-- **Dataset:** [Informacinių technologijų naudojimas namų ūkiuose](../it_naudojimas_namu_ukiuose.md) (`datasets/gov/lsd/it_naudojimas_namu_ukiuose`)
-- **Manifest CSV:** [datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudAsmuo`
-- **Level:** `3`
+- **Dataset:** [Informacinių technologijų naudojimas namų ūkiuose](../it_naudojimas_namu_ukiuose.md) (`datasets/gov/lsd/it_naudojimas_namu_ukiuose`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudAsmuo` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -577,7 +587,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `cu` | `"1"` | — | — | Per pastaruosius 3 mėnesius | — |
 | `cu` | `"2"` | — | — | Seniau nei prieš 3 mėnesius, bet ne seniau nei prieš metus | — |
@@ -2350,4 +2360,9 @@ sources:
 | `int_type` | `"4"` | — | — | Statistinio tyrimo anketą respondentas užpildė savarankiškai internetu (CAWI) | — |
 | `int_type` | `"5"` | — | — | Kita | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L162)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/it_naudojimas_namu_ukiuose (https://data.gov.lt/datasets/803/)

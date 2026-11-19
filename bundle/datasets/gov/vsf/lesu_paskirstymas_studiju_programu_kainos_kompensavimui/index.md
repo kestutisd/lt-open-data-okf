@@ -1,6 +1,6 @@
-# `datasets/gov/vsf/lesu_paskirstymas_studiju_programu_kainos_kompensavimui`
+# Directory Index: `datasets/gov/vsf/lesu_paskirstymas_studiju_programu_kainos_kompensavimui`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

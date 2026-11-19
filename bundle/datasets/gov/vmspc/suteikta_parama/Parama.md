@@ -3,25 +3,34 @@ type: Table
 title: "Parama"
 description: "Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenamosios vietos"
 resource: "https://get.data.gov.lt/datasets/gov/vmspc/suteikta_parama/Parama"
-tags: [gov, vmspc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmspc, parama, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmspc/suteikta_parama.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteikta_parama.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/vmspc/suteikta_parama.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3800/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmspc/suteikta_parama"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Parama
 
-Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenamosios vietos
+Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenamosios vietos[^manifest]
 
 - **Model:** `datasets/gov/vmspc/suteikta_parama/Parama`[^manifest]
-- **Dataset:** [Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenamosios vietos](../suteikta_parama.md) (`datasets/gov/vmspc/suteikta_parama`)
-- **Manifest CSV:** [datasets/gov/vmspc/suteikta_parama.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteikta_parama.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmspc/suteikta_parama/Parama`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenamosios vietos](../suteikta_parama.md) (`datasets/gov/vmspc/suteikta_parama`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmspc/suteikta_parama.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteikta_parama.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmspc/suteikta_parama/Parama` (`deployed`)[^manifest]
+- **Provider:** `vmspc` — BĮ Vilniaus miesto socialinių paslaugų centras *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,11 +50,12 @@ Vilniaus miesto socialinių paslaugų centro suteikta parama asmenims be gyvenam
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis_ak` | `"Moteris"` | — | — | Moteris | — |
 | `lytis_ak` | `"Vyras"` | — | — | Vyras | — |
 | `lytis` | `"Moteris"` | — | — | Moteris | — |
 | `lytis` | `"Vyras"` | — | — | Vyras | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmspc/suteikta_parama.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmspc/suteikta_parama.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteikta_parama.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmspc/suteikta_parama (https://data.gov.lt/datasets/3800/)

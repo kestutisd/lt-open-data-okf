@@ -1,6 +1,6 @@
-# `datasets/gov/klaipedos_m_sav/prekybos_leidimai`
+# Directory Index: `datasets/gov/klaipedos_m_sav/prekybos_leidimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

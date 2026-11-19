@@ -2,30 +2,34 @@
 type: Table
 title: "CustomsOffice"
 description: "Spinta table datasets/gov/muitine/muitines_istaigos/CustomsOffice (16 columns)."
-tags: [gov, muitine, undeployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, muitine, customsoffice, undeployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/muitine/muitines_istaigos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_istaigos.csv#L17"
+    title: "atviriduomenys/manifest — datasets/gov/muitine/muitines_istaigos.csv#L17"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # CustomsOffice
 
 - **Model:** `datasets/gov/muitine/muitines_istaigos/CustomsOffice`[^manifest]
-- **Dataset:** [datasets/gov/muitine/muitines_istaigos](../muitines_istaigos.md) (`datasets/gov/muitine/muitines_istaigos`)
-- **Manifest CSV:** [datasets/gov/muitine/muitines_istaigos.csv#L17](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_istaigos.csv#L17)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `id`
-- **URI:** `foaf:Organization`
+- **Dataset:** [datasets/gov/muitine/muitines_istaigos](../muitines_istaigos.md) (`datasets/gov/muitine/muitines_istaigos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/muitine/muitines_istaigos.csv#L17](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_istaigos.csv#L17)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `muitine` — Muitinės departamentas prie LR FM *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **URI:** `foaf:Organization`[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `id` | `string` | — | `4` | `open` | — | Rinkinio identifikacinis numeris | — |
-| `metadata` | `ref` | [Metadata](Metadata.md) | `4` | `open` | — | Nuoroda į tėvinį elementą | — |
+| `metadata` | `ref` | [Metadata](Metadata.md) (`level=4 UUID`: `metadata._id`) | `4` | `open` | — | Nuoroda į tėvinį elementą | — |
 | `reference_number` | `string` | — | `3` | `open` | — | Muitinės įstaigos kodas | — |
 | `reference_number_main_office` | `string` | — | `3` | `open` | — | — | neprivalomas |
 | `reference_number_higher_authority` | `string` | — | `3` | `open` | — | Vadovaujančioji įstaiga | — |
@@ -43,7 +47,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `geo_info_code` | `"Q"` | — | — | Vidinė įstaiga | — |
 | `geo_info_code` | `"CB"` | — | — | Baltijos jūros pakrantė | — |
@@ -58,4 +62,4 @@ sources:
 | --- | --- |
 | `foaf` | `http://xmlns.com/foaf/0.1/` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/muitine/muitines_istaigos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/muitine/muitines_istaigos.csv#L17 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_istaigos.csv#L17)

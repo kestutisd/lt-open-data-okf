@@ -3,24 +3,34 @@ type: Table
 title: "StandardDocument"
 description: "Duomenys apie standarto dokumentus ir jų tipus"
 resource: "https://get.data.gov.lt/datasets/gov/lst/standards/StandardDocument"
-tags: [gov, lst, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lst, standarddocument, deployed, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lst/standards.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lst/standards.csv#L314"
+    title: "atviriduomenys/manifest — datasets/gov/lst/standards.csv#L314"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1636/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lst/standards"
+    author: "team:vda"
+    last_modified: "2026-10-02T00:00:00Z"
 ---
 
 # StandardDocument
 
-Duomenys apie standarto dokumentus ir jų tipus
+Duomenys apie standarto dokumentus ir jų tipus[^manifest]
 
 - **Model:** `datasets/gov/lst/standards/StandardDocument`[^manifest]
-- **Dataset:** [datasets/gov/lst/standards](../standards.md) (`datasets/gov/lst/standards`)
-- **Manifest CSV:** [datasets/gov/lst/standards.csv#L314](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lst/standards.csv#L314)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lst/standards/StandardDocument`
-- **Primary Key (`ref`):** `standard, document`
+- **Dataset:** [Lietuvos standartų ir standartizacijos leidinių bibliografinių duomenų bazė](../standards.md) (`datasets/gov/lst/standards`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lst/standards.csv#L314](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lst/standards.csv#L314)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lst/standards/StandardDocument` (`deployed`)[^manifest]
+- **Provider:** `lst` — Lietuvos standartizacijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `standard, document`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-10-02`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -30,4 +40,5 @@ Duomenys apie standarto dokumentus ir jų tipus
 | `document` | `ref` | [Document](Document.md) | — | `open` | — | — | — |
 | `document_type` | `ref` | [StandardDocumentType](StandardDocumentType.md) | — | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lst/standards.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lst/standards.csv#L314 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lst/standards.csv#L314)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lst/standards (https://data.gov.lt/datasets/1636/)

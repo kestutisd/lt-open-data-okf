@@ -2,23 +2,26 @@
 type: Table
 title: "KiauliuLaikytojas — Kiaulių laikytojų ir kiaulių skaičius pagal ūkių dydį"
 description: "Spinta table datasets/gov/zuikvc/kiauliu_laikytojai/KiauliuLaikytojas (13 columns)."
-tags: [gov, zuikvc, undeployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, zuikvc, kiauliulaikytojas, undeployed, level-2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/zuikvc/kiauliu_laikytojai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # KiauliuLaikytojas — Kiaulių laikytojų ir kiaulių skaičius pagal ūkių dydį
 
 - **Model:** `datasets/gov/zuikvc/kiauliu_laikytojai/KiauliuLaikytojas`[^manifest]
-- **Dataset:** [datasets/gov/zuikvc/kiauliu_laikytojai](../kiauliu_laikytojai.md) (`datasets/gov/zuikvc/kiauliu_laikytojai`)
-- **Manifest CSV:** [datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `savivaldybe`
-- **Level:** `2`
+- **Dataset:** [datasets/gov/zuikvc/kiauliu_laikytojai](../kiauliu_laikytojai.md) (`datasets/gov/zuikvc/kiauliu_laikytojai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `zuikvc` — VĮ Žemės ūkio duomenų centras (buv. VĮ Žemės ūkio informacijos ir kaimo verslo centras) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `savivaldybe`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -45,4 +48,4 @@ sources:
 | `savivaldybe` | `create(property: "savivaldybe", type: "ref", ref: "/datasets/gov/rc/ar/savivaldybe/Savivaldybe")` | `type` | `2` | `open` | — | — | — |
 | `savivaldybe` | `update(property: "savivaldybe.pavadinimas", type: "")` | `type` | `2` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/kiauliu_laikytojai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/kiauliu_laikytojai.csv#L8)

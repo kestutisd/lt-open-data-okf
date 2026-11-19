@@ -3,23 +3,32 @@ type: Table
 title: "AtsisakytasPalikimas"
 description: "Spinta table datasets/gov/rc/tr/atsisakyti_palikimai/AtsisakytasPalikimas (9 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/tr/atsisakyti_palikimai/AtsisakytasPalikimas"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, atsisakytaspalikimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/tr/atsisakyti_palikimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3"
+    title: "atviriduomenys/manifest — datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2143/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/tr/atsisakyti_palikimai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # AtsisakytasPalikimas
 
 - **Model:** `datasets/gov/rc/tr/atsisakyti_palikimai/AtsisakytasPalikimas`[^manifest]
-- **Dataset:** [Testamentų registro (TR) duomenys apie atsisakytą priimti palikimą](../atsisakyti_palikimai.md) (`datasets/gov/rc/tr/atsisakyti_palikimai`)
-- **Manifest CSV:** [datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/tr/atsisakyti_palikimai/AtsisakytasPalikimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Testamentų registro (TR) duomenys apie atsisakytą priimti palikimą](../atsisakyti_palikimai.md) (`datasets/gov/rc/tr/atsisakyti_palikimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/tr/atsisakyti_palikimai/AtsisakytasPalikimas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,7 +46,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `palikejo_lytis` | `"V"` | — | — | Vyras | — |
 | `palikejo_lytis` | `"M"` | — | — | Moteris | — |
@@ -50,4 +59,5 @@ sources:
 | `poz_ar_iped_ja` | `1` | — | — | Juridinis asmuo | — |
 | `poz_ar_iped_ja` | `0` | — | — | Fizinis asmuo | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/tr/atsisakyti_palikimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/atsisakyti_palikimai.csv#L3)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/tr/atsisakyti_palikimai (https://data.gov.lt/datasets/2143/)

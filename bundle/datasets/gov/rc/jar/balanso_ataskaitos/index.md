@@ -1,7 +1,7 @@
-# `datasets/gov/rc/jar/balanso_ataskaitos`
+# Directory Index: `datasets/gov/rc/jar/balanso_ataskaitos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [BalansoAtaskaita — Juridinių asmenų pateikti finansinės atskaitomybės dokumentai – balanso ataskaitos](BalansoAtaskaita.md) - Spinta table datasets/gov/rc/jar/balanso_ataskaitos/BalansoAtaskaita (13 columns).
+* [BalansoAtaskaita — Juridinių asmenų pateikti finansinės atskaitomybės dokumentai – balanso ataskaitos](BalansoAtaskaita.md) - Juridinių asmenų registre tvarkomų juridinių asmenų finansinės atskaitomybės dokumentų duomenys iš balanso ataskaitų (apie juridinių asmenų nuosavą kapitalą; apie juridinių asmenų mokėtinas sumas...

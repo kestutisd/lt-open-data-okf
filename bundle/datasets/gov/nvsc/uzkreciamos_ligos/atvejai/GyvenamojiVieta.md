@@ -3,23 +3,32 @@ type: Table
 title: "GyvenamojiVieta — Užkrečiamųjų ligų atvejai pagal gyvenamąją vietą"
 description: "Spinta table datasets/gov/nvsc/uzkreciamos_ligos/atvejai/GyvenamojiVieta (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/atvejai/GyvenamojiVieta"
-tags: [gov, nvsc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nvsc, gyvenamojivieta, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31"
+    title: "atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1852/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nvsc/uzkreciamos_ligos/atvejai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # GyvenamojiVieta — Užkrečiamųjų ligų atvejai pagal gyvenamąją vietą
 
 - **Model:** `datasets/gov/nvsc/uzkreciamos_ligos/atvejai/GyvenamojiVieta`[^manifest]
-- **Dataset:** [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų duomenys](../atvejai.md) (`datasets/gov/nvsc/uzkreciamos_ligos/atvejai`)
-- **Manifest CSV:** [datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/atvejai/GyvenamojiVieta`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų duomenys](../atvejai.md) (`datasets/gov/nvsc/uzkreciamos_ligos/atvejai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvsc/uzkreciamos_ligos/atvejai/GyvenamojiVieta` (`deployed`)[^manifest]
+- **Provider:** `nvsc` — Nacionalinis visuomenės sveikatos centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -30,7 +39,7 @@ sources:
 | `namo_tipas` | `string` | — | `4` | `open` | — | Namo tipas | Požymis nurodantis, ar pacientas gyvena individualiame name, daugiabutyje, ar bendrabutyje |
 | `lytis` | `string` | — | `4` | `open` | — | Lytis | — |
 | `amziaus_grupe` | `string` | — | `4` | `open` | — | Amžiaus grupė | — |
-| `tlk` | `ref` | [/datasets/gov/vlk/tlk10am/Tlk10am[code]](../../../vlk/tlk10am/Tlk10am.md) | `4` | `open` | — | Galutinės diagnozės kodas | — |
+| `tlk` | `ref` | [Tlk10am](../../../vlk/tlk10am/Tlk10am.md) (`level=4 UUID` via `Tlk10am[code]`: `tlk._id`) | `4` | `open` | — | Galutinės diagnozės kodas | — |
 | `galutine_diagnoze` | `string` | — | `4` | `open` | — | Galutinė diagnozė | — |
 | `salytis_su_gyvunu` | `boolean` | — | `4` | `open` | — | Sąlytis su gyvūnu | Požymis nurodantis, ar buvo paciento sąlytis su gyvūnu. Svarbu tiriant, ar užsikrėsta nuo gyvūno. |
 | `susirgimo_menuo` | `date` | `M` | `4` | `open` | — | Susirgimuo mėnuo | — |
@@ -44,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `gyvenamoji_vieta` | `'kaimas'` | — | — | kaimas | — |
 | `gyvenamoji_vieta` | `'miestas'` | — | — | miestas | — |
@@ -72,4 +81,5 @@ sources:
 | `ligos_klinikine_eiga` | `'lengva'` | — | — | lengva | — |
 | `ligos_klinikine_eiga` | `'sunki'` | — | — | sunki | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvsc/uzkreciamos_ligos/atvejai.csv#L31)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nvsc/uzkreciamos_ligos/atvejai (https://data.gov.lt/datasets/1852/)

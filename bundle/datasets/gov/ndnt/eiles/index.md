@@ -1,6 +1,6 @@
-# `datasets/gov/ndnt/eiles`
+# Directory Index: `datasets/gov/ndnt/eiles`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

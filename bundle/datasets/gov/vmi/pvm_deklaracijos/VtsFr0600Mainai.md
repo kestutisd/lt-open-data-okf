@@ -3,21 +3,32 @@ type: Table
 title: "VtsFr0600Mainai — FR0600_DUOMENYS"
 description: "Spinta table datasets/gov/vmi/pvm_deklaracijos/VtsFr0600Mainai (30 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/pvm_deklaracijos/VtsFr0600Mainai"
-tags: [gov, vmi, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, vtsfr0600mainai, deployed, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/pvm_deklaracijos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/pvm_deklaracijos.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/pvm_deklaracijos.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1163/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/pvm_deklaracijos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # VtsFr0600Mainai — FR0600_DUOMENYS
 
 - **Model:** `datasets/gov/vmi/pvm_deklaracijos/VtsFr0600Mainai`[^manifest]
-- **Dataset:** [Pridėtinės vertės mokesčio deklaracijų duomenų rinkinys](../pvm_deklaracijos.md) (`datasets/gov/vmi/pvm_deklaracijos`)
-- **Manifest CSV:** [datasets/gov/vmi/pvm_deklaracijos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/pvm_deklaracijos.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/pvm_deklaracijos/VtsFr0600Mainai`
+- **Dataset:** [Pridėtinės vertės mokesčio deklaracijų duomenų rinkinys](../pvm_deklaracijos.md) (`datasets/gov/vmi/pvm_deklaracijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/pvm_deklaracijos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/pvm_deklaracijos.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/pvm_deklaracijos/VtsFr0600Mainai` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,4 +65,9 @@ sources:
 | `atskaitomas_pvm` | `number` | — | `4` | `open` | — | Atskaitomas pirkimo ir importo PVM | — |
 | `moketinas_i_biudzeta_arba_grazintinas_is_biudzeto_pvm` | `number` | — | `4` | `open` | — | Mokėtinas į biudžetą arba grąžintinas iš biudžeto (-) PVM | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/pvm_deklaracijos.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/pvm_deklaracijos.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/pvm_deklaracijos.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/pvm_deklaracijos (https://data.gov.lt/datasets/1163/)

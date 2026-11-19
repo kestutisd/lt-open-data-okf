@@ -1,6 +1,6 @@
-# `datasets/gov/nma/kp_verslo_pradziai_info`
+# Directory Index: `datasets/gov/nma/kp_verslo_pradziai_info`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

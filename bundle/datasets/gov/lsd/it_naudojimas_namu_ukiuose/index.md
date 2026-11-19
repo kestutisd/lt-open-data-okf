@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/it_naudojimas_namu_ukiuose`
+# Directory Index: `datasets/gov/lsd/it_naudojimas_namu_ukiuose`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

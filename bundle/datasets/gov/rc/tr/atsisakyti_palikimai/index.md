@@ -1,6 +1,6 @@
-# `datasets/gov/rc/tr/atsisakyti_palikimai`
+# Directory Index: `datasets/gov/rc/tr/atsisakyti_palikimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,6 +1,6 @@
-# `datasets/gov/vkc/sudetis`
+# Directory Index: `datasets/gov/vkc/sudetis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

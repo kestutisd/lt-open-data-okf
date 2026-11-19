@@ -1,6 +1,6 @@
-# `datasets/gov/lki/publicistikos_tekstynas`
+# Directory Index: `datasets/gov/lki/publicistikos_tekstynas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

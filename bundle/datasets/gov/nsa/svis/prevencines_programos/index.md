@@ -1,6 +1,6 @@
-# `datasets/gov/nsa/svis/prevencines_programos`
+# Directory Index: `datasets/gov/nsa/svis/prevencines_programos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

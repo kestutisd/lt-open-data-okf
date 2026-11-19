@@ -3,24 +3,32 @@ type: Table
 title: "Veisle — Pateikiama informacija apie į Nacionalinį sąrašą įrašytas veisles, išbrauktas veisles, veislių palaikytojų ir selekcininkų įgaliotųjų atstovų sąrašus."
 description: "Spinta table datasets/gov/vat/saugomos_veisles/Veisle (14 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vat/saugomos_veisles/Veisle"
-tags: [gov, vat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vat, veisle, deployed, level-4, cadence-irreg]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vat/saugomos_veisles.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/saugomos_veisles.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vat/saugomos_veisles.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1868/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vat/saugomos_veisles"
+    author: "team:vda"
+    last_modified: "2026-10-19T00:00:00Z"
 ---
 
-# Veisle — Pateikiama informacija apie į Nacionalinį sąrašą įrašytas veisles, išbrauktas veisles, veislių palaikytojų ir selekcininkų įgaliotųjų atstovų sąrašus.
+# Veisle — Pateikiama informacija apie į Nacionalinį sąrašą įrašytas veisles, išbrauktas veisles, veislių palaikytojų ir selekcininkų...
 
 - **Model:** `datasets/gov/vat/saugomos_veisles/Veisle`[^manifest]
-- **Dataset:** [datasets/gov/vat/saugomos_veisles](../saugomos_veisles.md) (`datasets/gov/vat/saugomos_veisles`)
-- **Manifest CSV:** [datasets/gov/vat/saugomos_veisles.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/saugomos_veisles.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/saugomos_veisles/Veisle`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Nacionalinis saugomų augalų veislių sąrašas, Lietuvos Respublikoje saugomų augalų veislių...](../saugomos_veisles.md) (`datasets/gov/vat/saugomos_veisles`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vat/saugomos_veisles.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/saugomos_veisles.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/saugomos_veisles/Veisle` (`deployed`)[^manifest]
+- **Provider:** `vat` — Valstybinė augalininkystės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `IRREG`, Modified `2026-10-19`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,7 +51,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `grupe` | `"ŽEMĖS ŪKIO AUGALAI"` | — | — | — | — |
 | `grupe` | `"DARŽOVĖS"` | — | — | — | — |
@@ -71,4 +79,9 @@ sources:
 | `galioja_iki` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vat/saugomos_veisles.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vat/saugomos_veisles.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/saugomos_veisles.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vat/saugomos_veisles (https://data.gov.lt/datasets/1868/)

@@ -3,22 +3,32 @@ type: Table
 title: "KelionesAtvykSuNakv2021 — Atvykusių turistų kelionės su nakvyne 2021 m."
 description: "Spinta table datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykSuNakv2021 (55 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykSuNakv2021"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, kelionesatvyksunakv2021, deployed, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2079/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/turizmas/atvyksta"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # KelionesAtvykSuNakv2021 — Atvykusių turistų kelionės su nakvyne 2021 m.
 
 - **Model:** `datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykSuNakv2021`[^manifest]
-- **Dataset:** [Atvykstamojo turizmo statistiniai tyrimai](../atvyksta.md) (`datasets/gov/lsd/turizmas/atvyksta`)
-- **Manifest CSV:** [datasets/gov/lsd/turizmas/atvyksta.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykSuNakv2021`
-- **Primary Key (`ref`):** `id`
+- **Dataset:** [Atvykstamojo turizmo statistiniai tyrimai](../atvyksta.md) (`datasets/gov/lsd/turizmas/atvyksta`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/turizmas/atvyksta.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykSuNakv2021` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -34,27 +44,27 @@ sources:
 | `tikslas` | `string` | — | `4` | `open` | — | Kelionės tikslas | — |
 | `transporto_priemone` | `string` | — | `4` | `open` | — | Transporto priemonė | Pagrindinė transporto priemonė, kuria keliavo |
 | `vertinimas` | `integer` | — | `4` | `open` | — | Kaip vertina kelionę | — |
-| `pirmakart` | `integer` | `bool` | `4` | `open` | — | Ar pirmąkart lankėsi Lietuvoje | — |
-| `info_agentura` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kelionių agentūra | — |
-| `info_reklama` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - reklama | — |
-| `info_draugai` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - draugai ir giminės | — |
-| `info_verslopartn` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - verslo partneriai | — |
-| `info_gidas` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kelionės vadovas | — |
-| `info_internetas` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - internetas | — |
-| `info_isanksciau` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - ankstesnis vizitas | — |
-| `info_kt` | `integer` | `bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kita | — |
-| `lanke_vilnius` | `integer` | `bool` | `4` | `open` | — | Aplankė Vilnių | — |
-| `lanke_kaunas` | `integer` | `bool` | `4` | `open` | — | Aplankė Kauną | — |
-| `lanke_klaipeda` | `integer` | `bool` | `4` | `open` | — | Aplankė Klaipėdą | — |
-| `lanke_palanga` | `integer` | `bool` | `4` | `open` | — | Aplankė Palangą | — |
-| `lanke_trakai` | `integer` | `bool` | `4` | `open` | — | Aplankė Trakus | — |
-| `lanke_birstonas` | `integer` | `bool` | `4` | `open` | — | Aplankė Birštoną | — |
-| `lanke_druskininkai` | `integer` | `bool` | `4` | `open` | — | Aplankė Druskininkus | — |
-| `lanke_kursiunerija` | `integer` | `bool` | `4` | `open` | — | Aplankė Kuršių Neriją | — |
-| `lanke_alytkaunmarijapskr` | `integer` | `bool` | `4` | `open` | — | Aplankė Alytaus, Kauno arba Marijampolės apskritis | — |
-| `lanke_klaiptelsiutauragapskr` | `integer` | `bool` | `4` | `open` | — | Aplankė Klaipėdos, Telšių arba Tauragės apskritis | — |
-| `lanke_siauliupanevezapskr` | `integer` | `bool` | `4` | `open` | — | Aplankė Šiaulių arba Panevėžio apskritis | — |
-| `lanke_utenosvilniausapskr` | `integer` | `bool` | `4` | `open` | — | Aplankė Utenos arba Vilniaus apskritis | — |
+| `pirmakart` | `integer` | `enum: bool` | `4` | `open` | — | Ar pirmąkart lankėsi Lietuvoje | — |
+| `info_agentura` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kelionių agentūra | — |
+| `info_reklama` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - reklama | — |
+| `info_draugai` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - draugai ir giminės | — |
+| `info_verslopartn` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - verslo partneriai | — |
+| `info_gidas` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kelionės vadovas | — |
+| `info_internetas` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - internetas | — |
+| `info_isanksciau` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - ankstesnis vizitas | — |
+| `info_kt` | `integer` | `enum: bool` | `4` | `open` | — | Informacijos apie Lietuvą šaltinis - kita | — |
+| `lanke_vilnius` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Vilnių | — |
+| `lanke_kaunas` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Kauną | — |
+| `lanke_klaipeda` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Klaipėdą | — |
+| `lanke_palanga` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Palangą | — |
+| `lanke_trakai` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Trakus | — |
+| `lanke_birstonas` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Birštoną | — |
+| `lanke_druskininkai` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Druskininkus | — |
+| `lanke_kursiunerija` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Kuršių Neriją | — |
+| `lanke_alytkaunmarijapskr` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Alytaus, Kauno arba Marijampolės apskritis | — |
+| `lanke_klaiptelsiutauragapskr` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Klaipėdos, Telšių arba Tauragės apskritis | — |
+| `lanke_siauliupanevezapskr` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Šiaulių arba Panevėžio apskritis | — |
+| `lanke_utenosvilniausapskr` | `integer` | `enum: bool` | `4` | `open` | — | Aplankė Utenos arba Vilniaus apskritis | — |
 | `islaid_pries` | `integer` | — | `2` | `open` | — | Išlaidos prieš kelionę | Visos išlaidos čia pateiktos vienam asmeniui (respondento nurodytos išlaidos padalintos iš asmenų skaičiaus); apima paslaugų paketą, vizą ir kitas išlaidas prieš kelionę |
 | `zmoniu_sk_pries` | `integer` | `U` | `4` | `open` | — | Žmonių skaičius, kuriam nurodytos išlaidos prieš kelionę | — |
 | `islaid_paketui` | `integer` | — | `2` | `open` | — | Išlaidos paslaugų paketui | Nurodyta vidutinė kaina vienai šaliai, jei paslaugų paketas apima kelias šalis |
@@ -82,7 +92,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"1"` | — | — | Vyras | — |
 | `lytis` | `"2"` | — | — | Moteris | — |
@@ -187,4 +197,5 @@ sources:
 | `islaid_kt` | `update(type: "money", ref: "EUR")` | `type` | `4` | `open` | — | — | — |
 | `islaid_viso` | `update(type: "money", ref: "EUR")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/turizmas/atvyksta (https://data.gov.lt/datasets/2079/)

@@ -2,23 +2,26 @@
 type: Table
 title: "Narys"
 description: "Spinta table datasets/gov/vrk/nariai/Narys (12 columns)."
-tags: [gov, vrk, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vrk, narys, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/nariai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/nariai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/nariai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Narys
 
 - **Model:** `datasets/gov/vrk/nariai/Narys`[^manifest]
-- **Dataset:** [datasets/gov/vrk/nariai](../nariai.md) (`datasets/gov/vrk/nariai`)
-- **Manifest CSV:** [datasets/gov/vrk/nariai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/nariai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `nariai_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/vrk/nariai](../nariai.md) (`datasets/gov/vrk/nariai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vrk/nariai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/nariai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `nariai_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -39,7 +42,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `org_tipas` | `"Partija"` | — | — | Partija | — |
 | `org_tipas` | `"Politinis komitetas (SAV)"` | — | — | Politinis komitetas (SAV) | — |
@@ -63,4 +66,4 @@ sources:
 | `amziaus_grupe` | `"75-79"` | — | — | Amžiaus grupė nuo 75 iki 79 metų | — |
 | `amziaus_grupe` | `"80+"` | — | — | Amžiaus grupė nuo 80 metų | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/nariai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/nariai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/nariai.csv#L4)

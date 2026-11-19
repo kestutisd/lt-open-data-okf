@@ -1,7 +1,7 @@
-# `datasets/gov/kaunas/kasimai`
+# Directory Index: `datasets/gov/kaunas/kasimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Kasimai — Kasimo darbai](Kasimai.md) - Spinta table datasets/gov/kaunas/kasimai/Kasimai (21 columns).
+* [Kasimai — Kasimo darbai](Kasimai.md) - Kauno mieste vykdomi kasimo darbai

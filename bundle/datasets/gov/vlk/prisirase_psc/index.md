@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/prisirase_psc`
+# Directory Index: `datasets/gov/vlk/prisirase_psc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

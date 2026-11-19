@@ -1,56 +1,56 @@
-# `datasets/gov/kapines/registras/kapavietes`
+# Directory Index: `datasets/gov/kapines/registras/kapavietes`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [AkmenesRajonas — Akmenės rajono savivaldybės kapinių kapaviečių duomenys](AkmenesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/AkmenesRajonas (17 columns).
-* [AlytausMiestas — Alytaus miesto savivaldybės kapinių kapaviečių duomenys](AlytausMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/AlytausMiestas (17 columns).
-* [BirzuRajonas — Biržų rajono savivaldybės kapinių kapaviečių duomenys](BirzuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/BirzuRajonas (17 columns).
-* [Druskininkai — Druskininkų savivaldybės kapinių kapaviečių duomenys](Druskininkai.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Druskininkai (17 columns).
-* [Elektrenai — Elektrėnų savivaldybės kapinių kapaviečių duomenys](Elektrenai.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Elektrenai (17 columns).
-* [IgnalinosRajonas — Ignalinos rajono savivaldybės kapinių kapaviečių duomenys](IgnalinosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/IgnalinosRajonas (17 columns).
-* [JonavosRajonas — Jonavos rajono savivaldybės kapinių kapaviečių duomenys](JonavosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/JonavosRajonas (17 columns).
-* [JoniskioRajonas — Joniškio rajono savivaldybės kapinių kapaviečių duomenys](JoniskioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/JoniskioRajonas (17 columns).
-* [JurbarkoRajonas — Jurbarko rajono savivaldybės kapinių kapaviečių duomenys](JurbarkoRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/JurbarkoRajonas (17 columns).
-* [Kaisiadorys — Kaišiadorių savivaldybės kapinių kapaviečių duomenys](Kaisiadorys.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Kaisiadorys (17 columns).
-* [KaunoMiestas — Kauno miesto savivaldybės kapinių kapaviečių duomenys](KaunoMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KaunoMiestas (17 columns).
-* [KaunoRajonas — Kauno rajono savivaldybės kapinių kapaviečių duomenys](KaunoRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KaunoRajonas (17 columns).
-* [KazluRuda — Kazlų Rūdos savivaldybės kapinių kapaviečių duomenys](KazluRuda.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KazluRuda (17 columns).
-* [KedainiuRajonas — Kėdainių rajono savivaldybės kapinių kapaviečių duomenys](KedainiuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KedainiuRajonas (17 columns).
-* [KelmesRajonas — Kelmės rajono savivaldybės kapinių kapaviečių duomenys](KelmesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KelmesRajonas (17 columns).
-* [KlaipedosMiestas — Klaipėdos miesto savivaldybės kapinių kapaviečių duomenys](KlaipedosMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KlaipedosMiestas (17 columns).
-* [KlaipedosRajonas — Klaipėdos rajono savivaldybės kapinių kapaviečių duomenys](KlaipedosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KlaipedosRajonas (17 columns).
-* [KretingosRajonas — Kretingos rajono savivaldybės kapinių kapaviečių duomenys](KretingosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KretingosRajonas (18 columns).
-* [KupiskioRajonas — Kupiškio rajono savivaldybės kapinių kapaviečių duomenys](KupiskioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/KupiskioRajonas (17 columns).
-* [Marijampole — Marijampolės savivaldybės kapinių kapaviečių duomenys](Marijampole.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Marijampole (17 columns).
-* [MazeikiuRajonas — Mažeikių rajono savivaldybės kapinių kapaviečių duomenys](MazeikiuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/MazeikiuRajonas (17 columns).
-* [MoletuRajonas — Molėtų rajono savivaldybės kapinių kapaviečių duomenys](MoletuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/MoletuRajonas (17 columns).
-* [Pagegiai — Pagėgių savivaldybės kapinių kapaviečių duomenys](Pagegiai.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Pagegiai (17 columns).
-* [PakruojoRajonas — Pakruojo rajono savivaldybės kapinių kapaviečių duomenys](PakruojoRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PakruojoRajonas (17 columns).
-* [PalangosMiestas — Palangos miesto savivaldybės kapinių kapaviečių duomenys](PalangosMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PalangosMiestas (17 columns).
-* [PanevezioMiestas — Panevėžio miesto savivaldybės kapinių kapaviečių duomenys](PanevezioMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PanevezioMiestas (17 columns).
-* [PanevezioRajonas — Panevėžio rajono savivaldybės kapinių kapaviečių duomenys](PanevezioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PanevezioRajonas (17 columns).
-* [PasvalioRajonas — Pasvalio rajono savivaldybės kapinių kapaviečių duomenys](PasvalioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PasvalioRajonas (17 columns).
-* [PlungesRajonas — Plungės rajono savivaldybės kapinių kapaviečių duomenys](PlungesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PlungesRajonas (17 columns).
-* [PrienuRajonas — Prienų rajono savivaldybės kapinių kapaviečių duomenys](PrienuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/PrienuRajonas (17 columns).
-* [Rietavas — Rietavo savivaldybės kapinių kapaviečių duomenys](Rietavas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Rietavas (17 columns).
-* [RokiskioRajonas — Rokiškio rajono savivaldybės kapinių kapaviečių duomenys](RokiskioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/RokiskioRajonas (17 columns).
-* [SakiuRajonas — Šakių rajono savivaldybės kapinių kapaviečių duomenys](SakiuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SakiuRajonas (17 columns).
-* [SalcininkuRajonas — Šalčininkų rajono savivaldybės kapinių kapaviečių duomenys](SalcininkuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SalcininkuRajonas (17 columns).
-* [SiauliuMiestas — Šiaulių miesto savivaldybės kapinių kapaviečių duomenys](SiauliuMiestas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SiauliuMiestas (17 columns).
-* [SiauliuRajonas — Šiaulių rajono savivaldybės kapinių kapaviečių duomenys](SiauliuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SiauliuRajonas (17 columns).
-* [SilalesRajonas — Šilalės rajono savivaldybės kapinių kapaviečių duomenys](SilalesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SilalesRajonas (17 columns).
-* [SilutesRajonas — Šilutės rajono savivaldybės kapinių kapaviečių duomenys](SilutesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SilutesRajonas (17 columns).
-* [SirvintuRajonas — Širvintų rajono savivaldybės kapinių kapaviečių duomenys](SirvintuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SirvintuRajonas (17 columns).
-* [SkuodoRajonas — Skuodo rajono savivaldybės kapinių kapaviečių duomenys](SkuodoRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SkuodoRajonas (17 columns).
-* [SvencioniuRajonas — Švenčionių rajono savivaldybės kapinių kapaviečių duomenys](SvencioniuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/SvencioniuRajonas (17 columns).
-* [TauragesRajonas — Tauragės rajono savivaldybės kapinių kapaviečių duomenys](TauragesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/TauragesRajonas (17 columns).
-* [TelsiuRajonas — Telšių rajono savivaldybės kapinių kapaviečių duomenys](TelsiuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/TelsiuRajonas (17 columns).
-* [TrakuRajonas — Trakų rajono savivaldybės kapinių kapaviečių duomenys](TrakuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/TrakuRajonas (17 columns).
-* [UkmergesRajonas — Ukmergės rajono savivaldybės kapinių kapaviečių duomenys](UkmergesRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/UkmergesRajonas (17 columns).
-* [UtenosRajonas — Utenos rajono savivaldybės kapinių kapaviečių duomenys](UtenosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/UtenosRajonas (17 columns).
-* [VarenosRajonas — Varėnos rajono savivaldybės kapinių kapaviečių duomenys](VarenosRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/VarenosRajonas (17 columns).
-* [VilkaviskioRajonas — Vilkaviškio rajono savivaldybės kapinių kapaviečių duomenys](VilkaviskioRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/VilkaviskioRajonas (17 columns).
-* [Visaginas — Visagino savivaldybės kapinių kapaviečių duomenys](Visaginas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/Visaginas (17 columns).
-* [ZarasuRajonas — Zarasų rajono savivaldybės kapinių kapaviečių duomenys](ZarasuRajonas.md) - Spinta table datasets/gov/kapines/registras/kapavietes/ZarasuRajonas (17 columns).
+* [AkmenesRajonas — Akmenės rajono savivaldybės kapinių kapaviečių duomenys](AkmenesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [AlytausMiestas — Alytaus miesto savivaldybės kapinių kapaviečių duomenys](AlytausMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [BirzuRajonas — Biržų rajono savivaldybės kapinių kapaviečių duomenys](BirzuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Druskininkai — Druskininkų savivaldybės kapinių kapaviečių duomenys](Druskininkai.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Elektrenai — Elektrėnų savivaldybės kapinių kapaviečių duomenys](Elektrenai.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [IgnalinosRajonas — Ignalinos rajono savivaldybės kapinių kapaviečių duomenys](IgnalinosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [JonavosRajonas — Jonavos rajono savivaldybės kapinių kapaviečių duomenys](JonavosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [JoniskioRajonas — Joniškio rajono savivaldybės kapinių kapaviečių duomenys](JoniskioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [JurbarkoRajonas — Jurbarko rajono savivaldybės kapinių kapaviečių duomenys](JurbarkoRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Kaisiadorys — Kaišiadorių savivaldybės kapinių kapaviečių duomenys](Kaisiadorys.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KaunoMiestas — Kauno miesto savivaldybės kapinių kapaviečių duomenys](KaunoMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KaunoRajonas — Kauno rajono savivaldybės kapinių kapaviečių duomenys](KaunoRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KazluRuda — Kazlų Rūdos savivaldybės kapinių kapaviečių duomenys](KazluRuda.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KedainiuRajonas — Kėdainių rajono savivaldybės kapinių kapaviečių duomenys](KedainiuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KelmesRajonas — Kelmės rajono savivaldybės kapinių kapaviečių duomenys](KelmesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KlaipedosMiestas — Klaipėdos miesto savivaldybės kapinių kapaviečių duomenys](KlaipedosMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KlaipedosRajonas — Klaipėdos rajono savivaldybės kapinių kapaviečių duomenys](KlaipedosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KretingosRajonas — Kretingos rajono savivaldybės kapinių kapaviečių duomenys](KretingosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [KupiskioRajonas — Kupiškio rajono savivaldybės kapinių kapaviečių duomenys](KupiskioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Marijampole — Marijampolės savivaldybės kapinių kapaviečių duomenys](Marijampole.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [MazeikiuRajonas — Mažeikių rajono savivaldybės kapinių kapaviečių duomenys](MazeikiuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [MoletuRajonas — Molėtų rajono savivaldybės kapinių kapaviečių duomenys](MoletuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Pagegiai — Pagėgių savivaldybės kapinių kapaviečių duomenys](Pagegiai.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PakruojoRajonas — Pakruojo rajono savivaldybės kapinių kapaviečių duomenys](PakruojoRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PalangosMiestas — Palangos miesto savivaldybės kapinių kapaviečių duomenys](PalangosMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PanevezioMiestas — Panevėžio miesto savivaldybės kapinių kapaviečių duomenys](PanevezioMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PanevezioRajonas — Panevėžio rajono savivaldybės kapinių kapaviečių duomenys](PanevezioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PasvalioRajonas — Pasvalio rajono savivaldybės kapinių kapaviečių duomenys](PasvalioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PlungesRajonas — Plungės rajono savivaldybės kapinių kapaviečių duomenys](PlungesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [PrienuRajonas — Prienų rajono savivaldybės kapinių kapaviečių duomenys](PrienuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Rietavas — Rietavo savivaldybės kapinių kapaviečių duomenys](Rietavas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [RokiskioRajonas — Rokiškio rajono savivaldybės kapinių kapaviečių duomenys](RokiskioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SakiuRajonas — Šakių rajono savivaldybės kapinių kapaviečių duomenys](SakiuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SalcininkuRajonas — Šalčininkų rajono savivaldybės kapinių kapaviečių duomenys](SalcininkuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SiauliuMiestas — Šiaulių miesto savivaldybės kapinių kapaviečių duomenys](SiauliuMiestas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SiauliuRajonas — Šiaulių rajono savivaldybės kapinių kapaviečių duomenys](SiauliuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SilalesRajonas — Šilalės rajono savivaldybės kapinių kapaviečių duomenys](SilalesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SilutesRajonas — Šilutės rajono savivaldybės kapinių kapaviečių duomenys](SilutesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SirvintuRajonas — Širvintų rajono savivaldybės kapinių kapaviečių duomenys](SirvintuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SkuodoRajonas — Skuodo rajono savivaldybės kapinių kapaviečių duomenys](SkuodoRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [SvencioniuRajonas — Švenčionių rajono savivaldybės kapinių kapaviečių duomenys](SvencioniuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [TauragesRajonas — Tauragės rajono savivaldybės kapinių kapaviečių duomenys](TauragesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [TelsiuRajonas — Telšių rajono savivaldybės kapinių kapaviečių duomenys](TelsiuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [TrakuRajonas — Trakų rajono savivaldybės kapinių kapaviečių duomenys](TrakuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [UkmergesRajonas — Ukmergės rajono savivaldybės kapinių kapaviečių duomenys](UkmergesRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [UtenosRajonas — Utenos rajono savivaldybės kapinių kapaviečių duomenys](UtenosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [VarenosRajonas — Varėnos rajono savivaldybės kapinių kapaviečių duomenys](VarenosRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [VilkaviskioRajonas — Vilkaviškio rajono savivaldybės kapinių kapaviečių duomenys](VilkaviskioRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [Visaginas — Visagino savivaldybės kapinių kapaviečių duomenys](Visaginas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.
+* [ZarasuRajonas — Zarasų rajono savivaldybės kapinių kapaviečių duomenys](ZarasuRajonas.md) - Pateikiami suskaitmenintų Lietuvos savivaldybėms priklausančių kapinių kapaviečių duomenys iš savivaldybių CEMETY ir LIKSGIS informacinių sistemų.

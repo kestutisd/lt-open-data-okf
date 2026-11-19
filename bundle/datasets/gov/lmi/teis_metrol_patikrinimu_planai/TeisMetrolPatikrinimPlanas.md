@@ -3,25 +3,34 @@ type: Table
 title: "TeisMetrolPatikrinimPlanas — Lietuvos metrologijos inspekcijos įmonių patikrinimų ketvirčio planai"
 description: "Duomenų rinkinyje kaupiami Lietuvos metrologijos inspekcijos įmonių patikrinimo ketvirčio planų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lmi/teis_metrol_patikrinimu_planai/TeisMetrolPatikrinimPlanas"
-tags: [gov, lmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lmi, teismetrolpatikrinimplanas, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2832/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lmi/teis_metrol_patikrinimu_planai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # TeisMetrolPatikrinimPlanas — Lietuvos metrologijos inspekcijos įmonių patikrinimų ketvirčio planai
 
-Duomenų rinkinyje kaupiami Lietuvos metrologijos inspekcijos įmonių patikrinimo ketvirčio planų duomenys. Viena eilutė rinkinyje atitinka vieną planuojamą patikrinimą. Rinkinyje nurodomos įmonės, jų rizika, adresas ir (arba) veiklos vieta, veiklos rūšis pagal ekonominės veiklos rūšies klasifikatoriaus antrąją redakciją. Rinkinį sudaro nuo 2021 metų sausio 1 dienos sukaupti duomenys.
+Duomenų rinkinyje kaupiami Lietuvos metrologijos inspekcijos įmonių patikrinimo ketvirčio planų duomenys. Viena eilutė rinkinyje atitinka vieną planuojamą patikrinimą. Rinkinyje nurodomos įmonės, jų rizika, adresas ir (arba) veiklos vieta, veiklos rūšis pagal ekonominės veiklos rūšies klasifikatoriaus antrąją redakciją. Rinkinį sudaro nuo 2021 metų sausio 1 dienos sukaupti duomenys. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lmi/teis_metrol_patikrinimu_planai/TeisMetrolPatikrinimPlanas`[^manifest]
-- **Dataset:** [Lietuvos metrologijos inspekcijos įmonių patikrinimų ketvirčio planai](../teis_metrol_patikrinimu_planai.md) (`datasets/gov/lmi/teis_metrol_patikrinimu_planai`)
-- **Manifest CSV:** [datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lmi/teis_metrol_patikrinimu_planai/TeisMetrolPatikrinimPlanas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Lietuvos metrologijos inspekcijos įmonių patikrinimų ketvirčio planai](../teis_metrol_patikrinimu_planai.md) (`datasets/gov/lmi/teis_metrol_patikrinimu_planai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lmi/teis_metrol_patikrinimu_planai/TeisMetrolPatikrinimPlanas` (`deployed`)[^manifest]
+- **Provider:** `lmi` — Lietuvos metrologijos inspekcija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,7 +52,7 @@ Duomenų rinkinyje kaupiami Lietuvos metrologijos inspekcijos įmonių patikrini
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `skyrius` | `"Rytų regiono skyrius"` | — | — | Rytų regiono skyrius | — |
 | `skyrius` | `"Vakarų regiono skyrius"` | — | — | Vakarų regiono skyrius | — |
@@ -51,4 +60,10 @@ Duomenų rinkinyje kaupiami Lietuvos metrologijos inspekcijos įmonių patikrini
 | `rizika` | `"Vidutinės rizikos"` | — | — | Vidutinė įmonės rizika | — |
 | `rizika` | `"Mažos rizikos"` | — | — | Maža įmonės rizika | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmi/teis_metrol_patikrinimu_planai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lmi/teis_metrol_patikrinimu_planai (https://data.gov.lt/datasets/2832/)

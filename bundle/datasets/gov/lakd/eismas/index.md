@@ -1,6 +1,6 @@
-# `datasets/gov/lakd/eismas`
+# Directory Index: `datasets/gov/lakd/eismas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

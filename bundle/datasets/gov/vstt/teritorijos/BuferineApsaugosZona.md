@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "BuferineApsaugosZona — Buferinės apsaugos zonos"
-description: "Spinta table datasets/gov/vstt/teritorijos/BuferineApsaugosZona (19 columns)."
+description: "Saugomų teritorijų valstybės kadastro duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuferineApsaugosZona"
-tags: [gov, vstt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vstt, buferineapsaugoszona, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L456"
+    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L456"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/789/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BuferineApsaugosZona — Buferinės apsaugos zonos
 
+**Dataset Context:** Saugomų teritorijų valstybės kadastro duomenys[^manifest]
+
 - **Model:** `datasets/gov/vstt/teritorijos/BuferineApsaugosZona`[^manifest]
-- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)
-- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L456](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L456)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuferineApsaugosZona`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L456](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L456)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuferineApsaugosZona` (`deployed`)[^manifest]
+- **Provider:** `vstt` — Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -33,10 +44,10 @@ sources:
 | `parengimas` | `date` | `D` | `4` | `open` | — | Buferinės apsaugos zonos parengimo data | — |
 | `pozymis` | `integer` | — | `4` | `open` | — | Apsaugos zonos pozoniai | — |
 | `pastabos` | `string` | — | `4` | `open` | — | Pastabos | — |
-| `steigejas` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `4` | `open` | — | Steigėjas – institucija | — |
+| `steigejas` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=4 UUID` via `JuridinisAsmuo[ja_pavadinimas]`: `steigejas._id`) | `4` | `open` | — | Steigėjas – institucija | — |
 | `steigimas` | `date` | `D` | `4` | `open` | — | Steigimo data | — |
 | `steig_ta` | `string` | — | `4` | `open` | — | Įsteigimo teisės aktas | — |
-| `steigejas_galiojantis` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `4` | `open` | — | Steigėjas | Institucija kurios potvarkiu šiuo metu galioja saugoma teritorija arba jos riba |
+| `steigejas_galiojantis` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=4 UUID` via `JuridinisAsmuo[ja_pavadinimas]`: `steigejas_galiojantis._id`) | `4` | `open` | — | Steigėjas | Institucija kurios potvarkiu šiuo metu galioja saugoma teritorija arba jos riba |
 | `galiojantis` | `date` | `D` | `4` | `open` | — | Steigimo data | Šiuo metu galiojančio saugomos teritorijos steigimo teisės akto data |
 | `steig_ta_galiojantis` | `string` | — | `4` | `open` | — | Teisinis statusas | Teisės aktas pagal kurį šiuo metu galioja saugomos teritorijos riba reglamentai arba šis teisės aktas yra šiuo metu galiojantis saugomos teritorijos teisinis pagrindas |
 | `id` | `string` | — | `4` | `open` | — | Identifikavimo kodas | — |
@@ -47,7 +58,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `gkodas` | `"nr0"` | — | — | Valstybinis rezervatas | — |
 | `gkodas` | `"nr1"` | — | — | Rezervatinė apyrubė | — |
@@ -93,4 +104,10 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `vieta_lt` | `update("vieta_lt@lt", type: "text")` | — | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L456 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L456)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos (https://data.gov.lt/datasets/789/)

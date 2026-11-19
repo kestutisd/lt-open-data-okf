@@ -1,6 +1,6 @@
-# `datasets/gov/vvt/km_per_diena`
+# Directory Index: `datasets/gov/vvt/km_per_diena`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

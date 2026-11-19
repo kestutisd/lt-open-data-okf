@@ -1,28 +1,59 @@
 ---
 type: Dataset
-title: "datasets/gov/nma/nv_bendra_informacija"
-description: "Spinta dataset datasets/gov/nma/nv_bendra_informacija (2 tables)."
+title: "Lietuvos kaimo plėtros programos 2014-2020 priemonė \"Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui\" bendra informacija"
+description: "Pateikiama informacija apie priemonės „Agrarinė aplinkosauga ir klimatas“ veiklos „Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimas“ paraiškas ir išmokėtas sumas."
 resource: "https://get.data.gov.lt/datasets/gov/nma/nv_bendra_informacija"
-tags: [gov, nma, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nma, deployed, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nma/nv_bendra_informacija.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/nv_bendra_informacija.csv#L2"
+    title: "atviriduomenys/manifest — datasets/gov/nma/nv_bendra_informacija.csv#L2"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2251/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nma/nv_bendra_informacija"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# datasets/gov/nma/nv_bendra_informacija
+# Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui"...
 
 - **Namespace:** `datasets/gov/nma/nv_bendra_informacija`[^manifest]
-- **Manifest CSV:** [datasets/gov/nma/nv_bendra_informacija.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/nv_bendra_informacija.csv#L2)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/nv_bendra_informacija`
+- **Manifest CSV:** [datasets/gov/nma/nv_bendra_informacija.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/nv_bendra_informacija.csv#L2)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/nv_bendra_informacija` (`deployed`)[^manifest]
+- **Provider:** `nma` — Nacionalinė mokėjimo agentūra *(resolved from institutional code)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `2` (2 lentelės)[^manifest]
+
+# Portal Metadata (DCAT-AP)
+
+- **DCAT Dataset URI:** `https://data.gov.lt/datasets/2251/`[^dcat]
+- **Publisher (`dct:publisher`):** Nacionalinė mokėjimo agentūra prie Žemės ūkio ministerijos[^dcat]
+- **Matched Spinta Endpoint:** `https://get.data.gov.lt/datasets/gov/nma/nv_bendra_informacija`[^dcat]
+- **Portal Title (`@lt`):** Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui" bendra informacija[^dcat]
+- **Portal Title (`@en`):** Preservation of endangered Lithuanian old breeds of livestock and poultry. General information.[^dcat]
+- **Issued (`dct:issued`):** `2023-05-24`[^dcat]
+- **Last Modified (`dct:modified`):** `2025-12-18`[^dcat]
+- **Update Cadence (`dct:accrualPeriodicity`):** `ANNUAL` (`http://publications.europa.eu/resource/authority/frequency/ANNUAL`)[^dcat]
+- **Distribution Date Span:** `2023-03-09` .. `2025-04-17`[^dcat]
+- **License (`dct:license`):** `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
+
+### Portal Description (`@lt`)
+
+Pateikiama informacija apie priemonės „Agrarinė aplinkosauga ir klimatas“ veiklos „Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimas“ paraiškas ir išmokėtas sumas.[^dcat]
+
+### Portal Description (`@en`)
+
+Information is provided about applications and amounts paid out for the activity &quot;Preservation of Endangered Lithuanian Old-Breed Livestock and Poultry&quot; of the &quot;Agrarian Environment and Climate&quot; measure.[^dcat]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [NVInformacija](nv_bendra_informacija/NVInformacija.md) | Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui" bendra informacija | `3` | — | — | 14 | — |
-| [NVInformacijaPPS21](nv_bendra_informacija/NVInformacijaPPS21.md) | Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui" bendra informacija | `3` | — | — | 7 | — |
+| [NVInformacija](nv_bendra_informacija/NVInformacija.md) | Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui" bendra informacija | `3` | — | — | `14` | — |
+| [NVInformacijaPPS21](nv_bendra_informacija/NVInformacijaPPS21.md) | Lietuvos kaimo plėtros programos 2014-2020 priemonė "Parama Nykstančių Lietuvos senųjų veislių gyvulių ir naminių paukščių išsaugojimui" bendra informacija | `3` | — | — | `7` | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nma/nv_bendra_informacija.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nma/nv_bendra_informacija.csv#L2 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/nv_bendra_informacija.csv#L2)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nma/nv_bendra_informacija (https://data.gov.lt/datasets/2251/)

@@ -1,7 +1,7 @@
-# `datasets/gov/rc/taar/fiziniai_kreditoriai`
+# Directory Index: `datasets/gov/rc/taar/fiziniai_kreditoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [FizinisKreditorius](FizinisKreditorius.md) - Spinta table datasets/gov/rc/taar/fiziniai_kreditoriai/FizinisKreditorius (10 columns).
+* [FizinisKreditorius](FizinisKreditorius.md) - Turto arešto aktų registro nuasmeninti duomenys (RAW DATA) apie kreditorius, kai kreditoriai fiziniai asmenys, jų amžiaus grupę ir pilietybę, turto arešto aktų jų statusus, įregistravimo /...

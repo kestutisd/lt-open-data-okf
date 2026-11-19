@@ -1,24 +1,36 @@
 ---
 type: Table
 title: "LaboratorinisTyrimas — LSMU Kauno Klinikų laboratorijoje pacientams atliktų laboratorinių tyrimų rezultatai"
-description: "Spinta table datasets/gov/lsmu/lab_tyrimai/LaboratorinisTyrimas (20 columns)."
+description: "Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami LSMULKK laboratorijoje atliktų tyrimų, jų užsakymų ir atsakymų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lsmu/lab_tyrimai/LaboratorinisTyrimas"
-tags: [gov, lsmu, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsmu, laboratorinistyrimas, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsmu/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsmu/lab_tyrimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lsmu/lab_tyrimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3864/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsmu/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # LaboratorinisTyrimas — LSMU Kauno Klinikų laboratorijoje pacientams atliktų laboratorinių tyrimų rezultatai
 
+**Dataset Context:** Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami LSMULKK laboratorijoje atliktų tyrimų, jų užsakymų ir atsakymų duomenys. Rinkinyje pateikiama pacientų informacija: pseudonimizuotas asmens kodas, gimimo metai, lytis, tyrimų duomenys – tyrimo grupė, užsakymo laikas, pavadinimas, trumpinys; taip pat tyrimų atsakymai – rezultato reikšmė, tipas, matavimo vienetai, normos ir jų ribos. Duomenyse asmenų gimimo metai „triukšminti“ (gimimo metai nurodomi su +-1 metų paklaida). Duomenų laiko aprėptis nuo 2015 m. rugpjūčio mėn. Duomenų teikėjas – Lietuvos sveikatos mokslų universiteto ligoninė Kauno klinikos. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
+
 - **Model:** `datasets/gov/lsmu/lab_tyrimai/LaboratorinisTyrimas`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lsmu/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lsmu/lab_tyrimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsmu/lab_tyrimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsmu/lab_tyrimai/LaboratorinisTyrimas`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lsmu/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsmu/lab_tyrimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsmu/lab_tyrimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsmu/lab_tyrimai/LaboratorinisTyrimas` (`deployed`)[^manifest]
+- **Provider:** `lsmu` — Lietuvos sveikatos mokslų universitetas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -47,7 +59,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `identifikatoriaus_tipas` | `"LTU"` | — | — | Lietuviškas asmens kodas | — |
 | `identifikatoriaus_tipas` | `"ORGANIZATION"` | — | — | LSMU Kauno klinikų unikalus identifikatorius | — |
@@ -67,4 +79,5 @@ sources:
 | `rez_tipas` | `"CODED"` | — | — | Rezultato reikšmė pateikta iš žodyno | — |
 | `rez_tipas` | `"NAR"` | — | — | Tekstinės rezultato reikšmės | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsmu/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsmu/lab_tyrimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsmu/lab_tyrimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsmu/lab_tyrimai (https://data.gov.lt/datasets/3864/)

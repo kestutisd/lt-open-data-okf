@@ -1,7 +1,7 @@
-# `datasets/gov/rc/jar/ne_juridiniai_asmenys`
+# Directory Index: `datasets/gov/rc/jar/ne_juridiniai_asmenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [NeJuridinisAsmuo — Juridinių asmenų registro ne juridinių asmenų (valstybės, savivaldybių, valstybės ir savivaldybių...](NeJuridinisAsmuo.md) - Spinta table datasets/gov/rc/jar/ne_juridiniai_asmenys/NeJuridinisAsmuo (3 columns).
+* [NeJuridinisAsmuo — Juridinių asmenų registro ne juridinių asmenų (valstybės, savivaldybių, valstybės ir savivaldybių...](NeJuridinisAsmuo.md) - Lietuvos Respublikos juridinių asmenų registro ne juridinių asmenų (valstybės, savivaldybių, valstybės ir savivaldybių atstovaujamųjų ir vykdomųjų institucijų, kurios neregistruojamos JAR)...

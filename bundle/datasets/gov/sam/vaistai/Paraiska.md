@@ -3,29 +3,34 @@ type: Table
 title: "Paraiska — Paraiškų dėl vaistinių preparatų ar medicinos pagalbos priemonių įrašymo į kompensavimo sąrašus svarstymo duomenys"
 description: "Lietuvos Respublikos sveikatos apsaugos ministerija (LR SAM) renka ir skelbia duomenis apie svarstomas paraiškas dėl vaistinių preparatų ir medicinos pagalbos priemonių (MPP) įtraukimo į kompensuojamųjų sąrašus."
 resource: "https://get.data.gov.lt/datasets/gov/sam/vaistai/Paraiska"
-tags: [gov, sam, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, sam, paraiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/sam/vaistai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sam/vaistai.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/sam/vaistai.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3822/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/sam/vaistai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paraiska — Paraiškų dėl vaistinių preparatų ar medicinos pagalbos priemonių įrašymo į kompensavimo sąrašus svarstymo duomenys
 
-Lietuvos Respublikos sveikatos apsaugos ministerija (LR SAM) renka ir skelbia duomenis apie svarstomas paraiškas dėl vaistinių preparatų ir medicinos pagalbos priemonių (MPP) įtraukimo į kompensuojamųjų sąrašus. Šie duomenys suteikia galimybę stebėti sveikatos technologijų vertinimo (STV) procesą ir priimamus sprendimus dėl kompensavimo.
-
-STV paraiškų duomenis teikia Valstybinė vaistų kontrolės tarnyba (VVKT). MPP duomenys gaunami iš Valstybinės akreditavimo sveikatos priežiūros veiklai tarnybos (VASPVT) duomenų bazių.
-
-Šio rinkinio duomenis galima praturtinti jungiant su VVKT atvertu rinkiniu (duomenys jungiami per stulpelį „paraiskos_numeris“): https://data.gov.lt/datasets/2897/.
+Lietuvos Respublikos sveikatos apsaugos ministerija (LR SAM) renka ir skelbia duomenis apie svarstomas paraiškas dėl vaistinių preparatų ir medicinos pagalbos priemonių (MPP) įtraukimo į kompensuojamųjų sąrašus. Šie duomenys suteikia galimybę stebėti sveikatos technologijų vertinimo (STV) procesą ir priimamus sprendimus dėl kompensavimo. STV paraiškų duomenis teikia Valstybinė vaistų kontrolės tarnyba (VVKT). MPP duomenys gaunami iš Valstybinės akreditavimo sveikatos priežiūros veiklai tarnybos (VASPVT) duomenų bazių. Šio rinkinio duomenis galima praturtinti jungiant su VVKT atvertu rinkiniu (duomenys jungiami per stulpelį „paraiskos_numeris“): https://data.gov.lt/datasets/2897/.[^manifest]
 
 - **Model:** `datasets/gov/sam/vaistai/Paraiska`[^manifest]
-- **Dataset:** [Paraiškų dėl vaistinių preparatų ar medicinos pagalbos priemonių įrašymo į kompensavimo sąrašus svarstymo duomenys](../vaistai.md) (`datasets/gov/sam/vaistai`)
-- **Manifest CSV:** [datasets/gov/sam/vaistai.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sam/vaistai.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sam/vaistai/Paraiska`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Paraiškų dėl vaistinių preparatų ar medicinos pagalbos priemonių įrašymo į kompensavimo sąrašus...](../vaistai.md) (`datasets/gov/sam/vaistai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/sam/vaistai.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sam/vaistai.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sam/vaistai/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `sam` — Lietuvos Respublikos sveikatos apsaugos ministerija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,4 +50,5 @@ STV paraiškų duomenis teikia Valstybinė vaistų kontrolės tarnyba (VVKT). MP
 | `isakymo_data` | `date` | `D` | `4` | `open` | — | Įsakymo data | — |
 | `isakymo_numeris` | `string` | — | `4` | `open` | — | Įsakymo numeris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/sam/vaistai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/sam/vaistai.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sam/vaistai.csv#L9)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/sam/vaistai (https://data.gov.lt/datasets/3822/)

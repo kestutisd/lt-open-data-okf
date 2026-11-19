@@ -1,6 +1,6 @@
-# `datasets/gov/vilkavi_vand/skaitikliu_irengimai_patikros`
+# Directory Index: `datasets/gov/vilkavi_vand/skaitikliu_irengimai_patikros`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

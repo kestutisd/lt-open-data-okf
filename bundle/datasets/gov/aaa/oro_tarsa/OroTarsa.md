@@ -3,22 +3,32 @@ type: Table
 title: "OroTarsa"
 description: "Spinta table datasets/gov/aaa/oro_tarsa/OroTarsa (30 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/oro_tarsa/OroTarsa"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, orotarsa, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/oro_tarsa.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/oro_tarsa.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/oro_tarsa.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1787/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/oro_tarsa"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # OroTarsa
 
 - **Model:** `datasets/gov/aaa/oro_tarsa/OroTarsa`[^manifest]
-- **Dataset:** [datasets/gov/aaa/oro_tarsa](../oro_tarsa.md) (`datasets/gov/aaa/oro_tarsa`)
-- **Manifest CSV:** [datasets/gov/aaa/oro_tarsa.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/oro_tarsa.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/oro_tarsa/OroTarsa`
-- **Level:** `2`
+- **Dataset:** [Stacionarių taršos šaltinių metinių aplinkos oro ataskaitų duomenys](../oro_tarsa.md) (`datasets/gov/aaa/oro_tarsa`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/oro_tarsa.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/oro_tarsa.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/oro_tarsa/OroTarsa` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -57,7 +67,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `mat_vnt` | `"T"` | — | — | Tonos | — |
 | `mat_vnt` | `"M"` | — | — | Kubiniai metrai | — |
@@ -76,4 +86,9 @@ sources:
 | `lesos` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `lesos_ataskait` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/oro_tarsa.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/oro_tarsa.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/oro_tarsa.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/oro_tarsa (https://data.gov.lt/datasets/1787/)

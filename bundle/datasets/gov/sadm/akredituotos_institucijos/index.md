@@ -1,6 +1,6 @@
-# `datasets/gov/sadm/akredituotos_institucijos`
+# Directory Index: `datasets/gov/sadm/akredituotos_institucijos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

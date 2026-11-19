@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "Paraiska"
-description: "Spinta table datasets/gov/nzt/paraiskos/Paraiska (18 columns)."
+description: "\"Lentelėje pateikti Nacionalinės žemės tarnybos prie Aplinkos ministerijos išduotų sutikimų įsigyti žemės ir miškų ūkio paskirties sklypus duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/nzt/paraiskos/Paraiska"
-tags: [gov, nzt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nzt, paraiska, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nzt/paraiskos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nzt/paraiskos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nzt/paraiskos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3794/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nzt/paraiskos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paraiska
 
+**Dataset Context:** "Lentelėje pateikti Nacionalinės žemės tarnybos prie Aplinkos ministerijos išduotų sutikimų įsigyti žemės ir miškų ūkio paskirties sklypus duomenys. Rinkinys sudarytas Valstybės duomenų agentūros. Duomenys pateikiami nuo momento, kai paraiškos tampa aktualios tikrinimo procesui. Lentelės viena eilutė atitinka vieną paraišką. Atkreipiame dėmesį, kad duomenų eilutės yra nuolatos pildomos, o informacija jose yra tikslinama. Duomenys apima visoje Lietuvoje išsidėsčiusius juridinius bei fizinius asmenis. Duomenų laiko aprėptis – nuo 2022 m. sausio 1d. Duomenų teikėjas – Nacionalinės žemės tarnyba prie Aplinkos ministerijos. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt."[^manifest]
+
 - **Model:** `datasets/gov/nzt/paraiskos/Paraiska`[^manifest]
-- **Dataset:** [Paraiškų įsigyti privačius žemės ir miškų ūkio paskirties sklypus duomenys](../paraiskos.md) (`datasets/gov/nzt/paraiskos`)
-- **Manifest CSV:** [datasets/gov/nzt/paraiskos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nzt/paraiskos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nzt/paraiskos/Paraiska`
-- **Primary Key (`ref`):** `paraiskos_id`
-- **Level:** `4`
+- **Dataset:** [Paraiškų įsigyti privačius žemės ir miškų ūkio paskirties sklypus duomenys](../paraiskos.md) (`datasets/gov/nzt/paraiskos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nzt/paraiskos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nzt/paraiskos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nzt/paraiskos/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `nzt` — Nacionalinė žemės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `paraiskos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,7 +57,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `prasymo_tipas` | `"Įsigyti miškų ūkio paskirties žemę"` | — | — | — | — |
 | `prasymo_tipas` | `"Įsigyti žemės ūkio paskirties žemę"` | — | — | — | — |
@@ -64,4 +75,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `paslaugos_suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | Valstybės rinkliava kurios dydis yra nustatytas nutarimu Nr. 1458 'Dėl Konkrečių valstybės rinkliavos dydžių ir šios rinkliavos mokėjimo ir grąžinimo taisyklių patvirtinimo' |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nzt/paraiskos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nzt/paraiskos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nzt/paraiskos.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nzt/paraiskos (https://data.gov.lt/datasets/3794/)

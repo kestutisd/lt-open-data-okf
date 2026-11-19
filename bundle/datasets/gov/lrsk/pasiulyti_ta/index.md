@@ -1,6 +1,6 @@
-# `datasets/gov/lrsk/pasiulyti_ta`
+# Directory Index: `datasets/gov/lrsk/pasiulyti_ta`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

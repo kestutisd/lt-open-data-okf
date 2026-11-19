@@ -1,7 +1,7 @@
-# `datasets/gov/koris_grandis` — UAB „KORIS“ sistema „GRANDIS“
+# Directory Index: `datasets/gov/koris_grandis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Subdirectories
 
-* [skaitikliai/](skaitikliai/index.md) - Komunaliniai suvartojimo įrašai sistemoje „GRANDIS“ (2 datasets, 4 tables)
+* [skaitikliai/](skaitikliai/index.md) - 2 datasets, 4 tables

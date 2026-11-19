@@ -1,6 +1,6 @@
-# `datasets/gov/nma/mpuv_paseliai_2019`
+# Directory Index: `datasets/gov/nma/mpuv_paseliai_2019`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

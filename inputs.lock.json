@@ -1,0 +1,86 @@
+{
+  "dcat_ap_rdf": {
+    "sha256": "ba3df570c3a83f9973749f6e3490324aee7d6270e49021838f5a2ebc99600633",
+    "size_bytes": 33598885,
+    "url": "https://data.gov.lt/edp/dcat-ap.rdf"
+  },
+  "manifest": {
+    "commit_sha": "ec54998dcea52a0d26dc1c172eacec438d47e727",
+    "commit_timestamp_utc": "2026-11-11T14:39:20Z",
+    "deployment_list_sha256": "065528d188ffb051d1e0fc8c186aa74e9d2529af505849bf7d0e4d2ca0250090",
+    "license": "AGPL-3.0-only",
+    "repository": "https://github.com/atviriduomenys/manifest.git"
+  },
+  "standards_inputs": [
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "celex_32006R1893_en.html",
+      "sha256": "3c24afdb65e7c453026031296bb8e2cb1bf8c4a57d4e794f11e06d6dc094f83e",
+      "size_bytes": 1024249,
+      "source_url": "https://publications.europa.eu/resource/celex/32006R1893"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "celex_32006R1893_lt.html",
+      "sha256": "326527a0ba3380599a07807a4b7396ca5d9ee0a5e3f665684e985c052f03ae66",
+      "size_bytes": 1028539,
+      "source_url": "https://publications.europa.eu/resource/celex/32006R1893"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "celex_32008R0213_en.html",
+      "sha256": "3bd5bfbe60f6968f6bb64e6bb824ab6c565e4786fde44378828318faf1544b66",
+      "size_bytes": 6815632,
+      "source_url": "https://publications.europa.eu/resource/celex/32008R0213"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "celex_32008R0213_lt.html",
+      "sha256": "da35bef7f73d6ed27acca013a0b5e97c9f99f05f43d58acefd8214611837685b",
+      "size_bytes": 6908067,
+      "source_url": "https://publications.europa.eu/resource/celex/32008R0213"
+    },
+    {
+      "license_or_reuse": "ODC-PDDL-1.0",
+      "path": "currency-codes/data/codes-all.csv",
+      "sha256": "c4b6829a966f0564e77dc6c2d100d268cce61b30f7637bf3d5ec626b0393407f",
+      "size_bytes": 17853,
+      "source_url": "https://raw.githubusercontent.com/datasets/currency-codes/31cfa1380316ecc8a213fd6e17ec46cea49a3991/data/codes-all.csv"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "eu_iso4217_dates.json",
+      "sha256": "807a83b16c8b9b4fa44736fb0eda64c1c3e157ed844ac006e0ebf5bb60d57456",
+      "size_bytes": 75612,
+      "source_url": "https://publications.europa.eu/webapi/rdf/sparql"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "eu_iso4217_labels.json",
+      "sha256": "eb6095ddd653fb70fc7a2b3e2beeca2e3ee5d7b6d60cd4288a3ad39b0ed164a1",
+      "size_bytes": 78920,
+      "source_url": "https://publications.europa.eu/webapi/rdf/sparql"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "eu_iso639_labels.json",
+      "sha256": "8cee698377741eafdd71605e5d6c4a9a8516e8a83fc047f163f44a00d4254ead",
+      "size_bytes": 128308,
+      "source_url": "https://publications.europa.eu/webapi/rdf/sparql"
+    },
+    {
+      "license_or_reuse": "Reuse Decision 2011/833/EU",
+      "path": "eu_iso639_notations.json",
+      "sha256": "ff402965ee0712add0686bb5590a34aedf2e8fbd38807a6168e70a92a269e93a",
+      "size_bytes": 459216,
+      "source_url": "https://publications.europa.eu/webapi/rdf/sparql"
+    },
+    {
+      "license_or_reuse": "ODC-PDDL-1.0",
+      "path": "language-codes/data/language-codes-full.csv",
+      "sha256": "72735a905b71b9779344429a2a50ce973990e09186cc2a43b927769a1ab635e9",
+      "size_bytes": 20928,
+      "source_url": "https://raw.githubusercontent.com/datasets/language-codes/620566f38e5104eb93ef486d0e53b8b1cd4066ab/data/language-codes-full.csv"
+    }
+  ]
+}

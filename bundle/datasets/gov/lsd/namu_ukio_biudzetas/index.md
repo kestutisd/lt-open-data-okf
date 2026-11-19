@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/namu_ukio_biudzetas`
+# Directory Index: `datasets/gov/lsd/namu_ukio_biudzetas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

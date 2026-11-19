@@ -1,7 +1,7 @@
-# `datasets/gov/panevezio_m_sav/taryba`
+# Directory Index: `datasets/gov/panevezio_m_sav/taryba`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Narys — Rinkinyje pateikiamas buvusių ir esamų Panevėžio miesto tarybos narių sąrašas. Duomenys apima laikotarpį nuo...](Narys.md) - Spinta table datasets/gov/panevezio_m_sav/taryba/Narys (5 columns).
+* [Narys — Rinkinyje pateikiamas buvusių ir esamų Panevėžio miesto tarybos narių sąrašas. Duomenys apima laikotarpį nuo...](Narys.md) - Rinkinyje pateikiamas buvusių ir esamų Panevėžio miesto tarybos narių sąrašas.

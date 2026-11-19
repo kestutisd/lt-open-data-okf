@@ -3,24 +3,34 @@ type: Table
 title: "AnyksciuRajonoLigonine — Anykščių rajono ligoninės pacientams atlikti radiologiniai tyrimai"
 description: "Anykščių rajono ligoninės naudojamoje „MedDream“ IS kaupiami pacientams atliktų radiologinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/radiologija/AnyksciuRajonoLigonine"
-tags: [gov, radiologija, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, radiologija, anyksciurajonoligonine, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L54"
+    title: "atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv#L54"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2762/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/radiologija"
+    author: "team:vda"
+    last_modified: "2026-10-26T00:00:00Z"
 ---
 
 # AnyksciuRajonoLigonine — Anykščių rajono ligoninės pacientams atlikti radiologiniai tyrimai
 
-Anykščių rajono ligoninės naudojamoje „MedDream“ IS kaupiami pacientams atliktų radiologinių tyrimų duomenys. Kaupiamų duomenų aprėptis laike – nuo 2013 m., atnaujinant duomenis kasdien. Duomenų rinkinį sudaro: paciento pseudonimizuotas asmens kodas, tyrimo studijos identifikatorius ir data, paciento gimimo metai, lytis, tyrimo serijos identifikatorius, aprašymas ir modalumas, tirtos kūno dalies duomenys, medicininio atvaizdo identifikatorius, apšvita arksekundėmis ir fotometrinė interpretacija. Vienas įrašas atitinka vieną medicininį atvaizdą (visų medicininių atvaizdų identifikatoriai unikalūs).
+Anykščių rajono ligoninės naudojamoje „MedDream“ IS kaupiami pacientams atliktų radiologinių tyrimų duomenys. Kaupiamų duomenų aprėptis laike – nuo 2013 m., atnaujinant duomenis kasdien. Duomenų rinkinį sudaro: paciento pseudonimizuotas asmens kodas, tyrimo studijos identifikatorius ir data, paciento gimimo metai, lytis, tyrimo serijos identifikatorius, aprašymas ir modalumas, tirtos kūno dalies duomenys, medicininio atvaizdo identifikatorius, apšvita arksekundėmis ir fotometrinė interpretacija. Vienas įrašas atitinka vieną medicininį atvaizdą (visų medicininių atvaizdų identifikatoriai unikalūs). Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^manifest]
 
 - **Model:** `datasets/gov/radiologija/AnyksciuRajonoLigonine`[^manifest]
-- **Dataset:** [Pacientams atlikti radiologiniai tyrimai](../radiologija.md) (`datasets/gov/radiologija`)
-- **Manifest CSV:** [datasets/gov/radiologija/radiologija.csv#L54](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L54)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/radiologija/AnyksciuRajonoLigonine`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Pacientams atlikti radiologiniai tyrimai](../radiologija.md) (`datasets/gov/radiologija`)[^manifest]
+- **Manifest CSV:** [datasets/gov/radiologija/radiologija.csv#L54](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L54)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/radiologija/AnyksciuRajonoLigonine` (`deployed`)[^manifest]
+- **Provider:** `radiologija`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-10-26`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,7 +52,7 @@ Anykščių rajono ligoninės naudojamoje „MedDream“ IS kaupiami pacientams 
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"vyras"` | `V` | — | Vyras | — |
 | `paciento_lytis` | `"moteris"` | `M` | — | Moteris | — |
@@ -52,4 +62,5 @@ Anykščių rajono ligoninės naudojamoje „MedDream“ IS kaupiami pacientams 
 | `tyrimo_serijos_modalumas` | `"Kompiuterinė radiografija"` | `CR` | — | Kompiuterinė radiografija | — |
 | `tyrimo_serijos_modalumas` | `"SR dokumentas"` | `SR` | — | SR dokumentas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv#L54 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L54)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/radiologija (https://data.gov.lt/datasets/2762/)

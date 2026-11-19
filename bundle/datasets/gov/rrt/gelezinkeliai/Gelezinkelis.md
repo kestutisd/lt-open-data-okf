@@ -2,22 +2,26 @@
 type: Table
 title: "Gelezinkelis"
 description: "Spinta table datasets/gov/rrt/gelezinkeliai/Gelezinkelis (20 columns)."
-tags: [gov, rrt, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rrt, gelezinkelis, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rrt/gelezinkeliai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/gelezinkeliai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rrt/gelezinkeliai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Gelezinkelis
 
 - **Model:** `datasets/gov/rrt/gelezinkeliai/Gelezinkelis`[^manifest]
-- **Dataset:** [datasets/gov/rrt/gelezinkeliai](../gelezinkeliai.md) (`datasets/gov/rrt/gelezinkeliai`)
-- **Manifest CSV:** [datasets/gov/rrt/gelezinkeliai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/gelezinkeliai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/rrt/gelezinkeliai](../gelezinkeliai.md) (`datasets/gov/rrt/gelezinkeliai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rrt/gelezinkeliai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/gelezinkeliai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `rrt` — Ryšių reguliavimo tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -46,10 +50,14 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `test_type` | `"DL TEST"` | — | — | Atsisiuntimo (download) testas | — |
 | `test_type` | `"UP TEST"` | — | — | Išsiuntimo (upload) testas | — |
 | `test_type` | `"PING TEST"` | — | — | Ping testas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rrt/gelezinkeliai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rrt/gelezinkeliai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/gelezinkeliai.csv#L4)

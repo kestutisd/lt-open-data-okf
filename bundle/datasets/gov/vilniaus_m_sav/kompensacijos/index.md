@@ -1,7 +1,7 @@
-# `datasets/gov/vilniaus_m_sav/kompensacijos`
+# Directory Index: `datasets/gov/vilniaus_m_sav/kompensacijos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [IstaigaMenuo — Kompensacijos Vilniaus miesto ikimokyklinio ir priešmokyklinio švietimo švietimo įstaigoms](IstaigaMenuo.md) - Spręsdama vietų trūkumo Vilniaus ikimokyklinio ir priešmokyklinio švietimo įstaigose klausimą, Vilniaus miesto savivaldybė nuo 2015 m. moka mėnesines kompensacijas...
+* [IstaigaMenuo — Kompensacijos Vilniaus miesto ikimokyklinio ir priešmokyklinio švietimo švietimo įstaigoms](IstaigaMenuo.md) - Spręsdama vietų trūkumo Vilniaus ikimokyklinio ir priešmokyklinio švietimo įstaigose klausimą, Vilniaus miesto savivaldybė nuo 2015 m. moka mėnesines kompensacijas, pasirinkusiems leisti vaikus į...

@@ -3,25 +3,34 @@ type: Table
 title: "VilniausRajSiuksliavezioMarsrutas — Vilniaus rajono savivaldybės šiukšliavežių maršrutai"
 description: "Vilniaus rajono savivaldybės informacinėje sistemoje MOKESTA kaupiami atliekų tvarkymo rinkliavų duomenys ir kitus duomenis."
 resource: "https://get.data.gov.lt/datasets/gov/asmlis/marsrutai/VilniausRajSiuksliavezioMarsrutas"
-tags: [gov, asmlis, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, asmlis, vilniausrajsiuksliaveziomarsrutas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/asmlis/marsrutai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/marsrutai.csv#L45"
+    title: "atviriduomenys/manifest — datasets/gov/asmlis/marsrutai.csv#L45"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2918/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/asmlis/marsrutai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # VilniausRajSiuksliavezioMarsrutas — Vilniaus rajono savivaldybės šiukšliavežių maršrutai
 
-Vilniaus rajono savivaldybės informacinėje sistemoje MOKESTA kaupiami atliekų tvarkymo rinkliavų duomenys ir kitus duomenis. Duomenų rinkinyje pateikiami šiukšliavežių maršrutų duomenys:šifruotas automobilio valstybinis numeris, automobilio markė, laikas ir koordinatės, nurodančios vietą, kurioje tuo metu buvo automobilis.
+Vilniaus rajono savivaldybės informacinėje sistemoje MOKESTA kaupiami atliekų tvarkymo rinkliavų duomenys ir kitus duomenis. Duomenų rinkinyje pateikiami šiukšliavežių maršrutų duomenys:šifruotas automobilio valstybinis numeris, automobilio markė, laikas ir koordinatės, nurodančios vietą, kurioje tuo metu buvo automobilis.[^manifest]
 
 - **Model:** `datasets/gov/asmlis/marsrutai/VilniausRajSiuksliavezioMarsrutas`[^manifest]
-- **Dataset:** [Šiukšliavežių maršrutai](../marsrutai.md) (`datasets/gov/asmlis/marsrutai`)
-- **Manifest CSV:** [datasets/gov/asmlis/marsrutai.csv#L45](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/marsrutai.csv#L45)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/asmlis/marsrutai/VilniausRajSiuksliavezioMarsrutas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Šiukšliavežių maršrutai](../marsrutai.md) (`datasets/gov/asmlis/marsrutai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/asmlis/marsrutai.csv#L45](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/marsrutai.csv#L45)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/asmlis/marsrutai/VilniausRajSiuksliavezioMarsrutas` (`deployed`)[^manifest]
+- **Provider:** `asmlis` — MOKESTA ir ASMLIS sistemos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -38,4 +47,9 @@ Vilniaus rajono savivaldybės informacinėje sistemoje MOKESTA kaupiami atliekų
 | `koodinates_saltinis` | `string` | — | `4` | `open` | — | Koordinatės šaltinis (gps - navigaciją, foreign - išoriniai, kiti šaltiniai) | — |
 | `geometrija` | `geometry(point, 4326)` | — | `4` | `open` | — | Geometrija | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/asmlis/marsrutai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/asmlis/marsrutai.csv#L45 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/asmlis/marsrutai.csv#L45)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/asmlis/marsrutai (https://data.gov.lt/datasets/2918/)

@@ -3,24 +3,32 @@ type: Table
 title: "IndividualiVeikla — Duomenys apie asmenis vykdančius individualias veiklas"
 description: "Spinta table datasets/gov/vmi/veiklos/IndividualiVeikla (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/veiklos/IndividualiVeikla"
-tags: [gov, vmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, individualiveikla, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/individuali_veikla.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/individuali_veikla.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/individuali_veikla.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1912/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/veiklos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # IndividualiVeikla — Duomenys apie asmenis vykdančius individualias veiklas
 
 - **Model:** `datasets/gov/vmi/veiklos/IndividualiVeikla`[^manifest]
-- **Dataset:** [datasets/gov/vmi/veiklos](../veiklos.md) (`datasets/gov/vmi/veiklos`)
-- **Manifest CSV:** [datasets/gov/vmi/individuali_veikla.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/individuali_veikla.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/veiklos/IndividualiVeikla`
-- **Primary Key (`ref`):** `eiles_nr`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Fizinių asmenų, vykdančių individualią veiklą pagal pažymą, duomenys](../veiklos.md) (`datasets/gov/vmi/veiklos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/individuali_veikla.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/individuali_veikla.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/veiklos/IndividualiVeikla` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `eiles_nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `veiklos_tipas` | `201` | — | — | Notarai | — |
 | `veiklos_tipas` | `202` | — | — | Advokatai | — |
@@ -60,4 +68,5 @@ sources:
 | `pagrindine` | `1` | — | — | Pagrindinė veikla | — |
 | `pagrindine` | `0` | — | — | Šalutinė veikla | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/individuali_veikla.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/individuali_veikla.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/individuali_veikla.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/veiklos (https://data.gov.lt/datasets/1912/)

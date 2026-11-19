@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/rc/ja_akc_dal_nar_paj`
+# Directory Index: `datasets/gov/lsd/rc/ja_akc_dal_nar_paj`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,25 +3,34 @@ type: Table
 title: "TechPriemone — Techninės pagalbos priemonių prašymų duomenys"
 description: "Lentelėje pateikti techninės pagalbos priemonių prašymų ir jų įgyvendinimo duomenys iš Techninės pagalbos priemonių centro Techninės pagalbos priemonių apskaitos informacinės sistemos (TPPAIS)."
 resource: "https://get.data.gov.lt/datasets/gov/tppc/technines_pagalbos_priemones/TechPriemone"
-tags: [gov, tppc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, tppc, techpriemone, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/tppc/technines_pagalbos_priemones.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tppc/technines_pagalbos_priemones.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/tppc/technines_pagalbos_priemones.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2814/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/tppc/technines_pagalbos_priemones"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # TechPriemone — Techninės pagalbos priemonių prašymų duomenys
 
-Lentelėje pateikti techninės pagalbos priemonių prašymų ir jų įgyvendinimo duomenys iš Techninės pagalbos priemonių centro Techninės pagalbos priemonių apskaitos informacinės sistemos (TPPAIS). Lentelę sudaro nuo TTPAIS sistemos veikimo pradžios (2016 m.) sukaupti ir kas mėnesį atnaujinami duomenys.
+Lentelėje pateikti techninės pagalbos priemonių prašymų ir jų įgyvendinimo duomenys iš Techninės pagalbos priemonių centro Techninės pagalbos priemonių apskaitos informacinės sistemos (TPPAIS). Lentelę sudaro nuo TTPAIS sistemos veikimo pradžios (2016 m.) sukaupti ir kas mėnesį atnaujinami duomenys. Dėl techninių klausimų ar galimų klaidų kreiptis elektroniniu paštu atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/tppc/technines_pagalbos_priemones/TechPriemone`[^manifest]
-- **Dataset:** [Techninės pagalbos priemonių prašymų duomenys](../technines_pagalbos_priemones.md) (`datasets/gov/tppc/technines_pagalbos_priemones`)
-- **Manifest CSV:** [datasets/gov/tppc/technines_pagalbos_priemones.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tppc/technines_pagalbos_priemones.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tppc/technines_pagalbos_priemones/TechPriemone`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Techninės pagalbos priemonių prašymų duomenys](../technines_pagalbos_priemones.md) (`datasets/gov/tppc/technines_pagalbos_priemones`)[^manifest]
+- **Manifest CSV:** [datasets/gov/tppc/technines_pagalbos_priemones.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tppc/technines_pagalbos_priemones.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tppc/technines_pagalbos_priemones/TechPriemone` (`deployed`)[^manifest]
+- **Provider:** `tppc` — Techninės pagalbos priemonių centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,4 +51,5 @@ Lentelėje pateikti techninės pagalbos priemonių prašymų ir jų įgyvendinim
 | `ived_data` | `date` | `D` | `4` | `open` | — | Duomenų eilutės įvedimo data | — |
 | `reda_data` | `date` | `D` | `4` | `open` | — | Duomenų eilutės redagavimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/tppc/technines_pagalbos_priemones.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/tppc/technines_pagalbos_priemones.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tppc/technines_pagalbos_priemones.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/tppc/technines_pagalbos_priemones (https://data.gov.lt/datasets/2814/)

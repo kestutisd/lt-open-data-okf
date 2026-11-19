@@ -1,6 +1,6 @@
-# `datasets/gov/zuikvc/gyvuliu_eksportas`
+# Directory Index: `datasets/gov/zuikvc/gyvuliu_eksportas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

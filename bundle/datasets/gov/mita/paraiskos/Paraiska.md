@@ -3,21 +3,32 @@ type: Table
 title: "Paraiska — Mokslinių tyrimų ir eksperimentinės plėtros (MTEP) finansavimo priemonėse finansuotų projektų duomenys"
 description: "Spinta table datasets/gov/mita/paraiskos/Paraiska (7 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/mita/paraiskos/Paraiska"
-tags: [gov, mita, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, mita, paraiska, deployed, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/mita/paraiskos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/mita/paraiskos.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/mita/paraiskos.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1444/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/mita/paraiskos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Paraiska — Mokslinių tyrimų ir eksperimentinės plėtros (MTEP) finansavimo priemonėse finansuotų projektų duomenys
 
 - **Model:** `datasets/gov/mita/paraiskos/Paraiska`[^manifest]
-- **Dataset:** [Mokslo, inovacijų ir technologijų agentūros administruojamose mokslinių tyrimų ir eksperimentinės plėtros (MTEP) finansavimo priemonėse finansuotų projektų duomenys.](../paraiskos.md) (`datasets/gov/mita/paraiskos`)
-- **Manifest CSV:** [datasets/gov/mita/paraiskos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/mita/paraiskos.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/mita/paraiskos/Paraiska`
+- **Dataset:** [Mokslo, inovacijų ir technologijų agentūros administruojamose mokslinių tyrimų ir...](../paraiskos.md) (`datasets/gov/mita/paraiskos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/mita/paraiskos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/mita/paraiskos.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/mita/paraiskos/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `mita` — Mokslo, inovacijų ir technologijų agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,4 +48,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `finansavimas` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/mita/paraiskos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/mita/paraiskos.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/mita/paraiskos.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/mita/paraiskos (https://data.gov.lt/datasets/1444/)

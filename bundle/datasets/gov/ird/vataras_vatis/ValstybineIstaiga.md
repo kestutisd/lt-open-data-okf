@@ -3,25 +3,34 @@ type: Table
 title: "ValstybineIstaiga — Valstybės ir savivaldybių institucijos bei įstaigos, jų pavaldumas"
 description: "Aktualus ir išsamus valstybės ir savivaldybių institucijų bei įstaigų sąrašas, šių įstaigų pavaldumas viena kitai."
 resource: "https://get.data.gov.lt/datasets/gov/ird/vataras_vatis/ValstybineIstaiga"
-tags: [gov, ird, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ird, valstybineistaiga, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ird/vataras_vatis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ird/vataras_vatis.csv#L33"
+    title: "atviriduomenys/manifest — datasets/gov/ird/vataras_vatis.csv#L33"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1240/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/ird/vataras_vatis"
+    author: "team:vda"
+    last_modified: "2026-10-19T00:00:00Z"
 ---
 
 # ValstybineIstaiga — Valstybės ir savivaldybių institucijos bei įstaigos, jų pavaldumas
 
-Aktualus ir išsamus valstybės ir savivaldybių institucijų bei įstaigų sąrašas, šių įstaigų pavaldumas viena kitai. Duomenų šaltinis - VATIS ir VATARAS. Pateikiamos tik šiuo metu egzistuojančios įstaigos.
+Aktualus ir išsamus valstybės ir savivaldybių institucijų bei įstaigų sąrašas, šių įstaigų pavaldumas viena kitai. Duomenų šaltinis - VATIS ir VATARAS. Pateikiamos tik šiuo metu egzistuojančios įstaigos. Dėl techninių klausimų kreiptis į atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/ird/vataras_vatis/ValstybineIstaiga`[^manifest]
-- **Dataset:** [Valstybės tarnautojų registras, Valstybės tarnybos valdymo informacinė sistema](../vataras_vatis.md) (`datasets/gov/ird/vataras_vatis`)
-- **Manifest CSV:** [datasets/gov/ird/vataras_vatis.csv#L33](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ird/vataras_vatis.csv#L33)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ird/vataras_vatis/ValstybineIstaiga`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Valstybės tarnautojų registras, Valstybės tarnybos valdymo informacinė sistema](../vataras_vatis.md) (`datasets/gov/ird/vataras_vatis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ird/vataras_vatis.csv#L33](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ird/vataras_vatis.csv#L33)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ird/vataras_vatis/ValstybineIstaiga` (`deployed`)[^manifest]
+- **Provider:** `ird` — Informatikos ir ryšių departamentas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-10-19`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,4 +48,9 @@ Aktualus ir išsamus valstybės ir savivaldybių institucijų bei įstaigų sąr
 | `isteigta` | `date` | `D` | `2` | `open` | — | Įstaigos įsteigimo data | — |
 | `atnaujinimas` | `date` | `D` | `4` | `open` | — | Naujausio įrašo arba modifikacijos data gaunamuose duomenyse | Paruošiamas imant naujausio įrašo originaliuose duomenyse datą |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ird/vataras_vatis.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/ird/vataras_vatis.csv#L33 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ird/vataras_vatis.csv#L33)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/ird/vataras_vatis (https://data.gov.lt/datasets/1240/)

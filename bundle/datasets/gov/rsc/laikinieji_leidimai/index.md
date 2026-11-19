@@ -1,6 +1,6 @@
-# `datasets/gov/rsc/laikinieji_leidimai`
+# Directory Index: `datasets/gov/rsc/laikinieji_leidimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

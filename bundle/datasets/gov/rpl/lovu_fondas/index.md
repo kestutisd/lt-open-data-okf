@@ -1,6 +1,6 @@
-# `datasets/gov/rpl/lovu_fondas`
+# Directory Index: `datasets/gov/rpl/lovu_fondas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

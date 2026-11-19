@@ -3,23 +3,26 @@ type: Table
 title: "BendrasPastatoAtributas — Pastatų atributas"
 description: "Spinta table datasets/gov/datalab/ntr_pastatu_atributai/BendrasPastatoAtributas (41 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/datalab/ntr_pastatu_atributai/BendrasPastatoAtributas"
-tags: [gov, datalab, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, datalab, bendraspastatoatributas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/datalab/ntr_pastatu_atributai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/ntr_pastatu_atributai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/datalab/ntr_pastatu_atributai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # BendrasPastatoAtributas — Pastatų atributas
 
 - **Model:** `datasets/gov/datalab/ntr_pastatu_atributai/BendrasPastatoAtributas`[^manifest]
-- **Dataset:** [NTR pastatų atributai](../ntr_pastatu_atributai.md) (`datasets/gov/datalab/ntr_pastatu_atributai`)
-- **Manifest CSV:** [datasets/gov/datalab/ntr_pastatu_atributai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/ntr_pastatu_atributai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/datalab/ntr_pastatu_atributai/BendrasPastatoAtributas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [NTR pastatų atributai](../ntr_pastatu_atributai.md) (`datasets/gov/datalab/ntr_pastatu_atributai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/datalab/ntr_pastatu_atributai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/ntr_pastatu_atributai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/datalab/ntr_pastatu_atributai/BendrasPastatoAtributas` (`deployed`)[^manifest]
+- **Provider:** `datalab` — Valstybės duomenų agentūra (DataLab) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -67,4 +70,4 @@ sources:
 | `salis` | `string` | — | `4` | `open` | — | Šalis | — |
 | `geo_new` | `string` | — | `4` | `open` | — | Geografinė koordinatė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/datalab/ntr_pastatu_atributai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/datalab/ntr_pastatu_atributai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/ntr_pastatu_atributai.csv#L6)

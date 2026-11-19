@@ -3,25 +3,34 @@ type: Table
 title: "Programa — Profesinio mokymo programų duomenys"
 description: "Pateikiami profesinio mokymo programų duomenys Lietuvos profesinio mokymo įstaigose."
 resource: "https://get.data.gov.lt/datasets/gov/lamabpo/profesines_mokyklos/Programa"
-tags: [gov, lamabpo, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lamabpo, programa, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lamabpo/profesiniu_prasymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/profesiniu_prasymai.csv#L11"
+    title: "atviriduomenys/manifest — datasets/gov/lamabpo/profesiniu_prasymai.csv#L11"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2913/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lamabpo/profesines_mokyklos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Programa — Profesinio mokymo programų duomenys
 
-Pateikiami profesinio mokymo programų duomenys Lietuvos profesinio mokymo įstaigose. Lentelės objektas – profesinio mokymo įstaigos vykdomos mokymo programos modulis vieno priėmimo etapo metu per vienerių metų laikotarpį. Nurodomi priėmimo etapo duomenys (metai ir etapas) ir duomenys apie mokymo programą (mokymo įstaiga, filialas, programos pavadinimas, modulis, mokymo programos vykdymo apskritis,savivaldybė ir suteikiama kvalifikacija, baigus mokymo programą).
+Pateikiami profesinio mokymo programų duomenys Lietuvos profesinio mokymo įstaigose. Lentelės objektas – profesinio mokymo įstaigos vykdomos mokymo programos modulis vieno priėmimo etapo metu per vienerių metų laikotarpį. Nurodomi priėmimo etapo duomenys (metai ir etapas) ir duomenys apie mokymo programą (mokymo įstaiga, filialas, programos pavadinimas, modulis, mokymo programos vykdymo apskritis,savivaldybė ir suteikiama kvalifikacija, baigus mokymo programą).[^manifest]
 
 - **Model:** `datasets/gov/lamabpo/profesines_mokyklos/Programa`[^manifest]
-- **Dataset:** [Priėmimo į profesinio mokymo įstaigas prašymų duomenys](../profesines_mokyklos.md) (`datasets/gov/lamabpo/profesines_mokyklos`)
-- **Manifest CSV:** [datasets/gov/lamabpo/profesiniu_prasymai.csv#L11](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/profesiniu_prasymai.csv#L11)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lamabpo/profesines_mokyklos/Programa`
-- **Primary Key (`ref`):** `programos_id`
-- **Level:** `4`
+- **Dataset:** [Priėmimo į profesinio mokymo įstaigas prašymų duomenys](../profesines_mokyklos.md) (`datasets/gov/lamabpo/profesines_mokyklos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lamabpo/profesiniu_prasymai.csv#L11](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/profesiniu_prasymai.csv#L11)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lamabpo/profesines_mokyklos/Programa` (`deployed`)[^manifest]
+- **Provider:** `lamabpo` — Lietuvos aukštųjų mokyklų asociacija bendrajam priėmimui organizuoti (LAMA BPO) *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `programos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -50,7 +59,7 @@ Pateikiami profesinio mokymo programų duomenys Lietuvos profesinio mokymo įsta
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `suteikiama` | `"kvalifikacija"` | — | — | — | — |
 | `suteikiama` | `"vidurinis išsilavinimas ir kvalifikacija"` | — | — | — | — |
@@ -66,4 +75,5 @@ Pateikiami profesinio mokymo programų duomenys Lietuvos profesinio mokymo įsta
 | `jar_validacija` | `"Yra ne skaitmenų"` | — | — | — | — |
 | `jar_validacija` | `"Netinkamas kontrolinis skaitmuo"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lamabpo/profesiniu_prasymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lamabpo/profesiniu_prasymai.csv#L11 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/profesiniu_prasymai.csv#L11)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lamabpo/profesines_mokyklos (https://data.gov.lt/datasets/2913/)

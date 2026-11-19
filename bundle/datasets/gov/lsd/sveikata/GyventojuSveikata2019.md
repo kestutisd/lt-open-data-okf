@@ -3,23 +3,34 @@ type: Table
 title: "GyventojuSveikata2019 — Gyventojų sveikatos statistinis tyrimas 2019 m."
 description: "2019 metais atliktas gyventojų sveikatos statistinis tyrimas"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/sveikata/GyventojuSveikata2019"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, gyventojusveikata2019, deployed, cadence-quinquennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/sveikata.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata.csv#L634"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/sveikata.csv#L634"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1622/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/sveikata"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # GyventojuSveikata2019 — Gyventojų sveikatos statistinis tyrimas 2019 m.
 
-2019 metais atliktas gyventojų sveikatos statistinis tyrimas
+2019 metais atliktas gyventojų sveikatos statistinis tyrimas[^manifest]
 
 - **Model:** `datasets/gov/lsd/sveikata/GyventojuSveikata2019`[^manifest]
-- **Dataset:** [datasets/gov/lsd/sveikata](../sveikata.md) (`datasets/gov/lsd/sveikata`)
-- **Manifest CSV:** [datasets/gov/lsd/sveikata.csv#L634](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata.csv#L634)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/sveikata/GyventojuSveikata2019`
+- **Dataset:** [Gyventojų sveikatos statistinio tyrimo duomenys](../sveikata.md) (`datasets/gov/lsd/sveikata`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/sveikata.csv#L634](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata.csv#L634)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/sveikata/GyventojuSveikata2019` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUINQUENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -29,7 +40,7 @@ sources:
 | `wgt` | `string` | — | — | `open` | — | Asmens populiacijos svoris | — |
 | `proxy` | `integer` | — | — | `open` | — | Dalyvavimo tyrime pobūdis | — |
 | `refdate` | `date` | — | — | `open` | — | Apklausos ataskaitinė data | — |
-| `sex` | `integer` | `sex` | — | `open` | — | Lytis | — |
+| `sex` | `integer` | `enum: sex` | — | `open` | — | Lytis | — |
 | `age` | `integer` | — | — | `open` | — | Amžius | — |
 | `ap` | `integer` | — | — | `open` | — | Gimimo šalis | — |
 | `deg_urb` | `integer` | — | — | `open` | — | Pilietybė | — |
@@ -172,7 +183,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `proxy` | `1` | — | — | Pats respondentas | — |
 | `proxy` | `2` | — | — | Už respondentą atsakė kitas to paties namų ūkio narys | — |
@@ -681,4 +692,9 @@ sources:
 | `ic3` | `-2` | — | — | Netaikoma | — |
 | `ic3` | `-3` | — | — | Neįtraukiama į skaičiavimus (Proxy = 2 arba 3) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/sveikata.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/sveikata.csv#L634 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/sveikata.csv#L634)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/sveikata (https://data.gov.lt/datasets/1622/)

@@ -1,7 +1,7 @@
-# `datasets/gov/lggrtc/pasipriesinimo_okupacijoms_dalyviai`
+# Directory Index: `datasets/gov/lggrtc/pasipriesinimo_okupacijoms_dalyviai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [PasipriesinimoDalyvis — Pasipriešinimo okupacijoms dalyviai](PasipriesinimoDalyvis.md) - Rinkinyje pateikiami duomenys apie asmenis, kuriems buvo suteiktas pasipriešinimo okupaciniams režimams dalyvio statusas pagal Lietuvos Respublikos Lietuvos gyventojų genocido...
+* [PasipriesinimoDalyvis — Pasipriešinimo okupacijoms dalyviai](PasipriesinimoDalyvis.md) - Rinkinyje pateikiami duomenys apie asmenis, kuriems buvo suteiktas pasipriešinimo okupaciniams režimams dalyvio statusas pagal Lietuvos Respublikos Lietuvos gyventojų genocido ir rezistencijos...

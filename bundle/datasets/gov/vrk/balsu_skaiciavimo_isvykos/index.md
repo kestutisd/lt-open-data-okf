@@ -1,6 +1,6 @@
-# `datasets/gov/vrk/balsu_skaiciavimo_isvykos`
+# Directory Index: `datasets/gov/vrk/balsu_skaiciavimo_isvykos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

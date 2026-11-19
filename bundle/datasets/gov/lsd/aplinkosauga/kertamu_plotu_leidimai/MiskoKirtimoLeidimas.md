@@ -1,36 +1,37 @@
 ---
 type: Table
 title: "MiskoKirtimoLeidimas — Kertamų miško plotų atstumai iki Lietuvos Respublikos sienos"
-description: "Lentelėje pateikiami duomenys apie miško kirtimų leidimus ir kertamų miško plotų atstumus iki Lietuvos Respublikos (LR) sienos."
+description: "\"Lentelėje pateikiami duomenys apie miško kirtimų leidimus ir kertamų miško plotų atstumus iki Lietuvos Respublikos (LR) sienos."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai/MiskoKirtimoLeidimas"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, miskokirtimoleidimas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # MiskoKirtimoLeidimas — Kertamų miško plotų atstumai iki Lietuvos Respublikos sienos
 
-Lentelėje pateikiami duomenys apie miško kirtimų leidimus ir kertamų miško plotų atstumus iki Lietuvos Respublikos (LR) sienos. Viena lentelės eilutė atitinka vieną unikalų išduotą leidimą kirsti miško plotą. Lentelę sudaro: unikalios eilutės identifikatorius, kertamo miško ploto tipas, vyraujanti medžių rūšis, kirtimo rūšis, atkūrimo būdas, kertamo ploto dydis hektarais, mažiausias atstumas iki LR sienos, artimiausia kertamo ploto kaimyninės valstybės siena, leidimo kirsti mišką galiojimo pradžia ir pabaiga, valstybinės miškų urėdijos padalinio pavadinimas, girininkijos pavadinimas, kertamo miško ploto nuosavybės forma, kvartalas, sklypas, kadastrinis numeris ir kertamo miško ploto geometrija keliais formatais.
-
-Duomenys apie leidimus kirsti miškus gaunami iš Aplinkosaugos leidimų informacinės sistemos Leidimų kirsti mišką posistemio atvirų duomenų nuorodos: https://lkmp.alisas.lt/static/lkmp-data.geojson.zip.
+"Lentelėje pateikiami duomenys apie miško kirtimų leidimus ir kertamų miško plotų atstumus iki Lietuvos Respublikos (LR) sienos. Viena lentelės eilutė atitinka vieną unikalų išduotą leidimą kirsti miško plotą. Lentelę sudaro: unikalios eilutės identifikatorius, kertamo miško ploto tipas, vyraujanti medžių rūšis, kirtimo rūšis, atkūrimo būdas, kertamo ploto dydis hektarais, mažiausias atstumas iki LR sienos, artimiausia kertamo ploto kaimyninės valstybės siena, leidimo kirsti mišką galiojimo pradžia ir pabaiga, valstybinės miškų urėdijos padalinio pavadinimas, girininkijos pavadinimas, kertamo miško ploto nuosavybės forma, kvartalas, sklypas, kadastrinis numeris ir kertamo miško ploto geometrija keliais formatais. Duomenys apie leidimus kirsti miškus gaunami iš Aplinkosaugos leidimų informacinės sistemos Leidimų kirsti mišką posistemio atvirų duomenų nuorodos: https://lkmp.alisas.lt/static/lkmp-data.geojson.zip. Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt. "[^manifest]
 
 - **Model:** `datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai/MiskoKirtimoLeidimas`[^manifest]
-- **Dataset:** [Kertamų miško plotų leidimai ir atstumai iki LR sienos](../kertamu_plotu_leidimai.md) (`datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai`)
-- **Manifest CSV:** [datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai/MiskoKirtimoLeidimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Kertamų miško plotų leidimai ir atstumai iki LR sienos](../kertamu_plotu_leidimai.md) (`datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai/MiskoKirtimoLeidimas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `vda_prime_key` | `string` | — | `4` | `open` | — | VDA unikalus identifikatorius | Valstybės duomenų agentūros sugeneruotas unikalios eilutės identifikatorius |
-| `id` | `string` | — | `4` | `open` | — | ALIS LKMP ID | Aplinkos ministerijos Aplinkosaugos leidimų informacinės sistemos (ALIS), Leidimų kirsti mišką posistemio (LKMP) sugeneruotas įrašo identifikacinis numeris |
+| `id` | `string` | — | `4` | `open` | — | ALIS LKMP ID | "Aplinkos ministerijos Aplinkosaugos leidimų informacinės sistemos (ALIS), Leidimų kirsti mišką posistemio (LKMP) sugeneruotas įrašo identifikacinis numeris" |
 | `ploto_tipas` | `string` | — | `4` | `open` | — | Kertamo miško ploto tipas | — |
 | `vyraujantys_medziai` | `string` | — | `4` | `open` | — | Vyraujančių medžių rūšies pavadinimas kertamame plote | — |
 | `kirtimo_rusis` | `string` | — | `4` | `open` | — | Kirtimo rūšis | — |
@@ -52,7 +53,7 @@ Duomenys apie leidimus kirsti miškus gaunami iš Aplinkosaugos leidimų informa
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `ploto_tipas` | `"biržė"` | — | — | Biržė | — |
 | `ploto_tipas` | `"sklypas"` | — | — | Sklypas | — |
@@ -67,4 +68,8 @@ Duomenys apie leidimus kirsti miškus gaunami iš Aplinkosaugos leidimų informa
 | `nuosavybes_forma` | `"valstybinė"` | — | — | Valstybinė | — |
 | `nuosavybes_forma` | `"privati"` | — | — | Privati | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/aplinkosauga/kertamu_plotu_leidimai.csv#L6)

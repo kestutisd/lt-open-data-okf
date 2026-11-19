@@ -1,6 +1,6 @@
-# `datasets/gov/aaa/isleid_perd_tersalai`
+# Directory Index: `datasets/gov/aaa/isleid_perd_tersalai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

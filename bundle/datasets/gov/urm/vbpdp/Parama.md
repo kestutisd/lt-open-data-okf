@@ -2,23 +2,26 @@
 type: Table
 title: "Parama"
 description: "Spinta table datasets/gov/urm/vbpdp/Parama (9 columns)."
-tags: [gov, urm, undeployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, urm, parama, undeployed, level-2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/urm/vbpdp.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vbpdp.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/urm/vbpdp.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Parama
 
 - **Model:** `datasets/gov/urm/vbpdp/Parama`[^manifest]
-- **Dataset:** [Vystomojo bendradarbiavimo ir paramos demokratijai programos įgyvendinimas](../vbpdp.md) (`datasets/gov/urm/vbpdp`)
-- **Manifest CSV:** [datasets/gov/urm/vbpdp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vbpdp.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `metai`
-- **Level:** `2`
+- **Dataset:** [Vystomojo bendradarbiavimo ir paramos demokratijai programos įgyvendinimas](../vbpdp.md) (`datasets/gov/urm/vbpdp`)[^manifest]
+- **Manifest CSV:** [datasets/gov/urm/vbpdp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vbpdp.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `urm` — Lietuvos Respublikos užsienio reikalų ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `metai`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -48,4 +51,4 @@ sources:
 | `mokesciai` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `is_viso` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/urm/vbpdp.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/urm/vbpdp.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vbpdp.csv#L5)

@@ -1,6 +1,6 @@
-# `datasets/gov/nbfc/viesojo_sektoriaus_saskaitos`
+# Directory Index: `datasets/gov/nbfc/viesojo_sektoriaus_saskaitos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

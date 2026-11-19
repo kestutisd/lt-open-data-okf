@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/mazmen_prekyb_imoniu_apyvartos_indeksai`
+# Directory Index: `datasets/gov/lsd/statistika/mazmen_prekyb_imoniu_apyvartos_indeksai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

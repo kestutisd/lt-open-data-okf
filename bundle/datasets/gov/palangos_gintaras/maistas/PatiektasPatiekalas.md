@@ -3,25 +3,34 @@ type: Table
 title: "PatiektasPatiekalas — Vaikų reabilitacijos sanatorijos \"Palangos gintaras\" patiektų patiekalų sąrašas"
 description: "Šiame rinkinyje pateikiamas vaikų reabilitacijos sanatorijos \"Palangos gintaras\" patiektų patiekalų sąrašas."
 resource: "https://get.data.gov.lt/datasets/gov/palangos_gintaras/maistas/PatiektasPatiekalas"
-tags: [gov, palangos_gintaras, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, palangos_gintaras, patiektaspatiekalas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/palangos_gintaras/maistas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/maistas.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/palangos_gintaras/maistas.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2719/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/palangos_gintaras/maistas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # PatiektasPatiekalas — Vaikų reabilitacijos sanatorijos "Palangos gintaras" patiektų patiekalų sąrašas
 
-Šiame rinkinyje pateikiamas vaikų reabilitacijos sanatorijos "Palangos gintaras" patiektų patiekalų sąrašas. Duomenys pateikiami už 2016-2023 metus. Pateiki duomenys nebebus atnaujinami.
+Šiame rinkinyje pateikiamas vaikų reabilitacijos sanatorijos "Palangos gintaras" patiektų patiekalų sąrašas. Duomenys pateikiami už 2016-2023 metus. Pateiki duomenys nebebus atnaujinami.[^manifest]
 
 - **Model:** `datasets/gov/palangos_gintaras/maistas/PatiektasPatiekalas`[^manifest]
-- **Dataset:** [datasets/gov/palangos_gintaras/maistas](../maistas.md) (`datasets/gov/palangos_gintaras/maistas`)
-- **Manifest CSV:** [datasets/gov/palangos_gintaras/maistas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/maistas.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/palangos_gintaras/maistas/PatiektasPatiekalas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Palangos vaikų reabilitacijos sanatorijos „Palangos gintaras“ patiekti patiekalai](../maistas.md) (`datasets/gov/palangos_gintaras/maistas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/palangos_gintaras/maistas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/maistas.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/palangos_gintaras/maistas/PatiektasPatiekalas` (`deployed`)[^manifest]
+- **Provider:** `palangos_gintaras` — Vaikų reabilitacijos sanatorija "Palangos gintaras" *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,4 +46,5 @@ sources:
 | `kodas` | `string` | — | `4` | `open` | — | Patiekalo kodas | — |
 | `simbolis` | `string` | — | `3` | `open` | — | Simbolis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/palangos_gintaras/maistas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/palangos_gintaras/maistas.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/palangos_gintaras/maistas.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/palangos_gintaras/maistas (https://data.gov.lt/datasets/2719/)

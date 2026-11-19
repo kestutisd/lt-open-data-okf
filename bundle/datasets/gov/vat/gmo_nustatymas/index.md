@@ -1,6 +1,6 @@
-# `datasets/gov/vat/gmo_nustatymas`
+# Directory Index: `datasets/gov/vat/gmo_nustatymas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,9 +1,9 @@
-# `datasets/gov/tvs/sutartys`
+# Directory Index: `datasets/gov/tvs/sutartys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [KedainiuRajSav](KedainiuRajSav.md) - Spinta table datasets/gov/tvs/sutartys/KedainiuRajSav (14 columns).
-* [MarijampolesRajSav](MarijampolesRajSav.md) - Spinta table datasets/gov/tvs/sutartys/MarijampolesRajSav (16 columns).
-* [TelsiuRajSav](TelsiuRajSav.md) - Spinta table datasets/gov/tvs/sutartys/TelsiuRajSav (16 columns).
+* [KedainiuRajSav](KedainiuRajSav.md) - Duomenų rinkinys pateikia informaciją apie savivaldybių sudarytas sutartis dėl nekilnojamojo turto nuomos, pardavimo ar naudojimo.
+* [MarijampolesRajSav](MarijampolesRajSav.md) - Duomenų rinkinys pateikia informaciją apie savivaldybių sudarytas sutartis dėl nekilnojamojo turto nuomos, pardavimo ar naudojimo.
+* [TelsiuRajSav](TelsiuRajSav.md) - Duomenų rinkinys pateikia informaciją apie savivaldybių sudarytas sutartis dėl nekilnojamojo turto nuomos, pardavimo ar naudojimo.

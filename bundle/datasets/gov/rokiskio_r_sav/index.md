@@ -1,13 +1,13 @@
-# `datasets/gov/rokiskio_r_sav`
+# Directory Index: `datasets/gov/rokiskio_r_sav`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [institucijos_darbuotojai/](institucijos_darbuotojai/index.md) - Rokiškio savivaldybės darbuotojai (0 datasets, 1 table)
-* [interneto_svetaines_apsilankymai/](interneto_svetaines_apsilankymai/index.md) - Interneto svetainės „rokiskis.lt“ puslapių skilčių apsilankymai (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
 * [Rokiškio savivaldybės darbuotojai](institucijos_darbuotojai.md) - Rokiškio savivaldybės darbuotojai
-* [Interneto svetainės „rokiskis.lt“ puslapių skilčių apsilankymai](interneto_svetaines_apsilankymai.md) - Spinta dataset datasets/gov/rokiskio_r_sav/interneto_svetaines_apsilankymai (1 table).
+* [Interneto svetainės „rokiskis.lt“ puslapių skilčių apsilankymai](interneto_svetaines_apsilankymai.md) - Lentelėje pateikta informacija apie interneto svetainės „rokiskis.lt“ puslapių skilčių apsilankymus iš Rokiškio rajono savivaldybės interneto turinio valdymo sistemos (ITVS).
+
+# Subdirectories
+
+* [institucijos_darbuotojai/](institucijos_darbuotojai/index.md) - 1 table
+* [interneto_svetaines_apsilankymai/](interneto_svetaines_apsilankymai/index.md) - 1 table

@@ -2,23 +2,26 @@
 type: Table
 title: "PolicijosRegistruojamasIvykis"
 description: "Spinta table datasets/gov/pd/prir/PolicijosRegistruojamasIvykis (25 columns)."
-tags: [gov, pd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pd, policijosregistruojamasivykis, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pd/prir.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/prir.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/pd/prir.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # PolicijosRegistruojamasIvykis
 
 - **Model:** `datasets/gov/pd/prir/PolicijosRegistruojamasIvykis`[^manifest]
-- **Dataset:** [datasets/gov/pd/prir](../prir.md) (`datasets/gov/pd/prir`)
-- **Manifest CSV:** [datasets/gov/pd/prir.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/prir.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/pd/prir](../prir.md) (`datasets/gov/pd/prir`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pd/prir.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/prir.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pd` — Policijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -36,23 +39,23 @@ sources:
 | `teises_pazeidimo_pozymis` | `string` | — | `4` | `open` | — | Teisės pažeidimo požymis | — |
 | `tipas1` | `string` | — | `4` | `open` | — | Įvykio tipas 1 | — |
 | `tipas2` | `string` | — | `4` | `open` | — | Įvykio tipas 2 | — |
-| `policijos_istaiga` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `2` | `open` | — | Policijos įstaiga | — |
-| `policijos_istaigal2` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `2` | `open` | — | Policijos įstaiga 2 | — |
-| `policijos_komisariatas` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `2` | `open` | — | Policijos komisariatas | — |
+| `policijos_istaiga` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=2` scalar) | `2` | `open` | — | Policijos įstaiga | — |
+| `policijos_istaigal2` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=2` scalar) | `2` | `open` | — | Policijos įstaiga 2 | — |
+| `policijos_komisariatas` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=2` scalar) | `2` | `open` | — | Policijos komisariatas | — |
 | `pranesejo_statusas` | `string` | — | `4` | `open` | — | Pranešėjo statusas | — |
 | `ar_dalyvauja_nepilnameciai` | `integer` | — | `4` | `open` | — | Ar dalyvauja nepilnamečiai | — |
 | `vieta` | `string` | — | `3` | `open` | — | Įvykio vieta | — |
 | `vieta2` | `string` | — | `3` | `open` | — | Detalesnė įvykio vieta | — |
 | `valstybe` | `string` | — | `3` | `open` | — | Valstybė | — |
-| `vietove` | `ref` | [/datasets/gov/rc/ar/gyvenamojivietove/GyvenamojiVietove[pavadinimas]](../../rc/ar/gyvenamojivietove/GyvenamojiVietove.md) | `2` | `open` | — | Vietovė | — |
-| `savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe[pavadinimas]](../../rc/ar/savivaldybe/Savivaldybe.md) | `2` | `open` | — | Savivaldybė | — |
-| `seniunija` | `ref` | [/datasets/gov/rc/ar/seniunija/Seniunija[pavadinimas]](../../rc/ar/seniunija/Seniunija.md) | `2` | `open` | — | Seniūnija | — |
-| `gatve` | `ref` | [/datasets/gov/rc/ar/gatve/Gatve[pavadinimas]](../../rc/ar/gatve/Gatve.md) | `2` | `open` | — | Gatvė | — |
-| `kertanti_gatve` | `ref` | [/datasets/gov/rc/ar/gatve/Gatve[pavadinimas]](../../rc/ar/gatve/Gatve.md) | `2` | `open` | — | Kertanti gatvė (sankryža) | — |
+| `vietove` | `ref` | [GyvenamojiVietove](../../rc/ar/gyvenamojivietove/GyvenamojiVietove.md) (`level=2` scalar) | `2` | `open` | — | Vietovė | — |
+| `savivaldybe` | `ref` | [Savivaldybe](../../rc/ar/savivaldybe/Savivaldybe.md) (`level=2` scalar) | `2` | `open` | — | Savivaldybė | — |
+| `seniunija` | `ref` | [Seniunija](../../rc/ar/seniunija/Seniunija.md) (`level=2` scalar) | `2` | `open` | — | Seniūnija | — |
+| `gatve` | `ref` | [Gatve](../../rc/ar/gatve/Gatve.md) (`level=2` scalar) | `2` | `open` | — | Gatvė | — |
+| `kertanti_gatve` | `ref` | [Gatve](../../rc/ar/gatve/Gatve.md) (`level=2` scalar) | `2` | `open` | — | Kertanti gatvė (sankryža) | — |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `kategorija` | `"A"` | — | — | A | Pranešimas apie rengiamą, daromą ar padarytą labai sunkų ar sunkų, apysunkį nusikaltimą, kai nukentėjusiojo gyvybei, sveikatai ar didelės vertės turtui gresia pavojus (nustatoma, kai reaguoti reikia labai skubiai). |
 | `kategorija` | `"B"` | — | — | B | Pranešimas apie rengiamą, daromą ar padarytą sunkų, apysunkį ar nesunkų nusikaltimą arba kai nukentėjusiojo gyvybei ar sveikatai gali kilti pavojus, nėra informacijos apie nukentėjusiojo būklę, yra neteisėto turto pasisavinimo ar jo sunaikinimo pavojus, jeigu neturintis įgaliojimų asmuo sulaikė teisės pažeidėją, taip pat pranešimas apie chuliganiškus viešosios tvarkos pažeidimus, viešosios rimties trikdymą, kiti teisės pažeidimai, kai gali kilti pavojus žmonių gyvybei ar sveikatai (nustatoma, kai reaguoti reikia skubiai). |
@@ -111,4 +114,9 @@ sources:
 | `ar_dalyvauja_nepilnameciai` | `true` | `1` | — | Taip | — |
 | `ar_dalyvauja_nepilnameciai` | `false` | `0` | — | Ne | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pd/prir.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/pd/prir.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/prir.csv#L9)

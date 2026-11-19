@@ -1,11 +1,11 @@
-# `datasets/gov/tppc`
+# Directory Index: `datasets/gov/tppc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [technines_pagalbos_priemones/](technines_pagalbos_priemones/index.md) - Techninės pagalbos priemonių prašymų duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Techninės pagalbos priemonių prašymų duomenys](technines_pagalbos_priemones.md) - Spinta dataset datasets/gov/tppc/technines_pagalbos_priemones (1 table).
+* [Techninės pagalbos priemonių prašymų duomenys](technines_pagalbos_priemones.md) - Lentelėje pateikti techninės pagalbos priemonių prašymų ir jų įgyvendinimo duomenys iš Techninės pagalbos priemonių centro Techninės pagalbos priemonių apskaitos informacinės sistemos (TPPAIS).
+
+# Subdirectories
+
+* [technines_pagalbos_priemones/](technines_pagalbos_priemones/index.md) - 1 table

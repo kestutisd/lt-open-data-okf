@@ -1,6 +1,6 @@
-# `datasets/gov/vmspc/suteikta_parama`
+# Directory Index: `datasets/gov/vmspc/suteikta_parama`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

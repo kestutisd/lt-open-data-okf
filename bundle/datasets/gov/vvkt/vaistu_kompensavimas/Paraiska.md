@@ -3,27 +3,34 @@ type: Table
 title: "Paraiska — Sveikatos technologijų vertinimas (STV). Paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys ir vertinimo eigos stebėsena"
 description: "Duomenų rinkinį sudaro Valstybinei vaistų kontrolės tarnybai prie Lietuvos Respublikos sveikatos apsaugos ministerijos pateiktų sveikatos technologijų vertinimo paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/vvkt/vaistu_kompensavimas/Paraiska"
-tags: [gov, vvkt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vvkt, paraiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vvkt/vaistu_kompensavimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vvkt/vaistu_kompensavimas.csv#L10"
+    title: "atviriduomenys/manifest — datasets/gov/vvkt/vaistu_kompensavimas.csv#L10"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2897/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vvkt/vaistu_kompensavimas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
-# Paraiska — Sveikatos technologijų vertinimas (STV). Paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys ir vertinimo eigos stebėsena
+# Paraiska — Sveikatos technologijų vertinimas (STV). Paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys ir vertinimo...
 
-Duomenų rinkinį sudaro Valstybinei vaistų kontrolės tarnybai prie Lietuvos Respublikos sveikatos apsaugos ministerijos pateiktų sveikatos technologijų vertinimo paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys. Rinkinyje pateikiama tokių paraiškų eiga – nurodomos aktualios datos, pareiškėjai, vaistiniai preparatai, indikacijos ir pan. Duomenų rinkinio viena eilutė atitinka vieną paraišką.
-
-Su rekomendacijomis ir detalesne informacija galima susipažinti čia: https://vvkt.lrv.lt/lt/sveikatos-technologiju-vertinimas/vaistiniu-preparatu-medicinos-pagalbos-priemoniu-ir-ligu-vertinimai/.
+Duomenų rinkinį sudaro Valstybinei vaistų kontrolės tarnybai prie Lietuvos Respublikos sveikatos apsaugos ministerijos pateiktų sveikatos technologijų vertinimo paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys. Rinkinyje pateikiama tokių paraiškų eiga – nurodomos aktualios datos, pareiškėjai, vaistiniai preparatai, indikacijos ir pan. Duomenų rinkinio viena eilutė atitinka vieną paraišką. Su rekomendacijomis ir detalesne informacija galima susipažinti čia: https://vvkt.lrv.lt/lt/sveikatos-technologiju-vertinimas/vaistiniu-preparatu-medicinos-pagalbos-priemoniu-ir-ligu-vertinimai/. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vvkt/vaistu_kompensavimas/Paraiska`[^manifest]
-- **Dataset:** [Sveikatos technologijų vertinimas (STV). Paraiškų įrašyti vaistinį preparatą į kompensavimo sąrašus duomenys ir vertinimo eigos stebėsena](../vaistu_kompensavimas.md) (`datasets/gov/vvkt/vaistu_kompensavimas`)
-- **Manifest CSV:** [datasets/gov/vvkt/vaistu_kompensavimas.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vvkt/vaistu_kompensavimas.csv#L10)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vvkt/vaistu_kompensavimas/Paraiska`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Sveikatos technologijų vertinimas (STV). Paraiškų įrašyti vaistinį preparatą į kompensavimo...](../vaistu_kompensavimas.md) (`datasets/gov/vvkt/vaistu_kompensavimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vvkt/vaistu_kompensavimas.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vvkt/vaistu_kompensavimas.csv#L10)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vvkt/vaistu_kompensavimas/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `vvkt` — Valstybinė vaistų kontrolės tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,4 +51,5 @@ Su rekomendacijomis ir detalesne informacija galima susipažinti čia: https://v
 | `vertinimo_pabaigos_data` | `date` | `D` | `4` | `open` | — | Išvadų pateikimo; užduoties įvykdymo data | — |
 | `rekomendaciju_nepateikimo_priezastis` | `string` | — | `2` | `open` | — | Rekomendacijų nepateikimo priežastis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vvkt/vaistu_kompensavimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vvkt/vaistu_kompensavimas.csv#L10 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vvkt/vaistu_kompensavimas.csv#L10)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vvkt/vaistu_kompensavimas (https://data.gov.lt/datasets/2897/)

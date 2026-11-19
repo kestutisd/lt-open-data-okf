@@ -3,25 +3,28 @@ type: Table
 title: "Statusas — Socialinio ir savivaldybės būsto nuomos duomenys"
 description: "Lentelėje pateikiami socialinio ir savivaldybės būsto nuomos Lietuvos savivaldybėse istorijos duomenys nuo 20 a."
 resource: "https://get.data.gov.lt/datasets/gov/sadm/socialinis_bustas/Statusas"
-tags: [gov, sadm, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, sadm, statusas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/sadm/soc_bustas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/soc_bustas.csv#L73"
+    title: "atviriduomenys/manifest — datasets/gov/sadm/soc_bustas.csv#L73"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Statusas — Socialinio ir savivaldybės būsto nuomos duomenys
 
-Lentelėje pateikiami socialinio ir savivaldybės būsto nuomos Lietuvos savivaldybėse istorijos duomenys nuo 20 a. pabaigos. Lentelės objektas – vieno socialinio arba savivaldybės būsto statusas (nuomojamas, laisvas, rezervuotas, parduotas ir kt.) tam tikru laikotarpiu. Lentelėje pateikiami būsto statuso duomenys (būsena, būsenos pradžia ir pabaiga, būsto charakteristikos, vietovė) ir nuomos informacija (sutarties dėl nuomos pasirašymo metai, būsto nuomos kainos savivaldybėje ataskaitiniais metais, 25 %, 50 % ir 75 % kvantiliai bei požymis, nurodantis, ar būste gyvena asmuo iš socialinio būsto eilės sąrašo; duomenų naudotojams primename, jog kvantilis nurodo reikšmę, už kurią x dalis duomenų yra mažesni arba lygūs). Duomenys jungiami su lentele „Socialinio būsto fondas“ pagal lauką „busto_id“.
+Lentelėje pateikiami socialinio ir savivaldybės būsto nuomos Lietuvos savivaldybėse istorijos duomenys nuo 20 a. pabaigos. Lentelės objektas – vieno socialinio arba savivaldybės būsto statusas (nuomojamas, laisvas, rezervuotas, parduotas ir kt.) tam tikru laikotarpiu. Lentelėje pateikiami būsto statuso duomenys (būsena, būsenos pradžia ir pabaiga, būsto charakteristikos, vietovė) ir nuomos informacija (sutarties dėl nuomos pasirašymo metai, būsto nuomos kainos savivaldybėje ataskaitiniais metais, 25 %, 50 % ir 75 % kvantiliai bei požymis, nurodantis, ar būste gyvena asmuo iš socialinio būsto eilės sąrašo; duomenų naudotojams primename, jog kvantilis nurodo reikšmę, už kurią x dalis duomenų yra mažesni arba lygūs). Duomenys jungiami su lentele „Socialinio būsto fondas“ pagal lauką „busto_id“.[^manifest]
 
 - **Model:** `datasets/gov/sadm/socialinis_bustas/Statusas`[^manifest]
-- **Dataset:** [Socialinio būsto duomenys](../socialinis_bustas.md) (`datasets/gov/sadm/socialinis_bustas`)
-- **Manifest CSV:** [datasets/gov/sadm/soc_bustas.csv#L73](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/soc_bustas.csv#L73)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/socialinis_bustas/Statusas`
-- **Primary Key (`ref`):** `ivykio_id`
-- **Level:** `4`
+- **Dataset:** [Socialinio būsto duomenys](../socialinis_bustas.md) (`datasets/gov/sadm/socialinis_bustas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/sadm/soc_bustas.csv#L73](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/soc_bustas.csv#L73)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/socialinis_bustas/Statusas` (`deployed`)[^manifest]
+- **Provider:** `sadm` — Lietuvos Respublikos socialinės apsaugos ir darbo ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `ivykio_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -46,9 +49,9 @@ Lentelėje pateikiami socialinio ir savivaldybės būsto nuomos Lietuvos savival
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `busto_tipas` | `"Savivaldybės būstas"` | — | — | — | — |
 | `busto_tipas` | `"Socialinis būstas"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/soc_bustas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/soc_bustas.csv#L73 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/soc_bustas.csv#L73)

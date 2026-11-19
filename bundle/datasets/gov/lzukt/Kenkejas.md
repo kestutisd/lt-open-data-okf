@@ -3,26 +3,34 @@ type: Table
 title: "Kenkejas — Augalų kenkėjų katalogas"
 description: "Integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė sistemos kenkėjų katalogas"
 resource: "https://get.data.gov.lt/datasets/gov/lzukt/Kenkejas"
-tags: [gov, lzukt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lzukt, kenkejas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lzukt/ikmis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lzukt/ikmis.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lzukt/ikmis.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3922/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lzukt"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Kenkejas — Augalų kenkėjų katalogas
 
-Integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė sistemos kenkėjų katalogas
+Integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė sistemos kenkėjų katalogas[^manifest]
 
 - **Model:** `datasets/gov/lzukt/Kenkejas`[^manifest]
-- **Dataset:** [Lietuvos žemės ūkio konsultavimo tarnyba](../lzukt.md) (`datasets/gov/lzukt`)
-- **Manifest CSV:** [datasets/gov/lzukt/ikmis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lzukt/ikmis.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lzukt/Kenkejas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Lietuvos žemės ūkio konsultavimo tarnyba](../lzukt.md) (`datasets/gov/lzukt`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lzukt/ikmis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lzukt/ikmis.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lzukt/Kenkejas` (`deployed`)[^manifest]
+- **Provider:** `lzukt` — Lietuvos žemės ūkio konsultavimo tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -40,4 +48,5 @@ Integruotos augalų apsaugos informavimo, konsultavimo ir mokymų informacinė s
 | `kokius_augalus_pazeidzia` | `string` | — | `4` | `open` | — | Aprašymas, kokius augalus pažeidžia | — |
 | `atsparumo_valdymas` | `string` | — | `4` | `open` | — | Aprašymas, kaip valdyti atsparumą kenkėjui | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lzukt/ikmis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lzukt/ikmis.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lzukt/ikmis.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lzukt (https://data.gov.lt/datasets/3922/)

@@ -1,11 +1,11 @@
-# `datasets/gov/varenos_vandenys`
+# Directory Index: `datasets/gov/varenos_vandenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [skaitikliu_rodmenys/](skaitikliu_rodmenys/index.md) - Vandens suvartojimo skaitiklių rodmenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Vandens suvartojimo skaitiklių rodmenys](skaitikliu_rodmenys.md) - Spinta dataset datasets/gov/varenos_vandenys/skaitikliu_rodmenys (1 table).
+* [Vandens suvartojimo skaitiklių rodmenys](skaitikliu_rodmenys.md) - Lentelėje pateikiami vandens suvartojimo skaitiklių rodmenys nuo 2005 metų iš UAB „Varėnos vandenys“ apskaitos sistemos PROGRA.
+
+# Subdirectories
+
+* [skaitikliu_rodmenys/](skaitikliu_rodmenys/index.md) - 1 table

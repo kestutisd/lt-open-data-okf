@@ -1,6 +1,6 @@
-# `datasets/gov/panevezio_m_sav/ikimokyklinis_ugdymas`
+# Directory Index: `datasets/gov/panevezio_m_sav/ikimokyklinis_ugdymas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

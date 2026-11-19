@@ -1,6 +1,6 @@
-# `datasets/gov/vmi/imokos_forma1_vp`
+# Directory Index: `datasets/gov/vmi/imokos_forma1_vp`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

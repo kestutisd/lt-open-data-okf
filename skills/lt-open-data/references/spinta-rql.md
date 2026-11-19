@@ -1,8 +1,9 @@
 # Spinta DSA REST and RQL Query Reference (`get.data.gov.lt`)
 
-## 1. Endpoint Anatomy and Dual Query Syntax
+## 1. Endpoint Anatomy, Dual Query Syntax, and Portal Separation
 
-- Build every API URL from the table concept's frontmatter `resource:` (`https://get.data.gov.lt/<dataset>/<Model>`), never from the upstream manifest CSV filename, because declared Spinta namespaces often differ from CSV file paths.
+- Build every API URL exclusively from the table concept's frontmatter `resource:` (`https://get.data.gov.lt/<dataset>/<Model>`), never from the upstream manifest CSV filename, because `151` of `1,100` CSV file paths diverge from their declared Spinta namespaces (including preserved `[sic]` paths such as `datasasets/`).
+- Never mix `get.data.gov.lt` (`Spinta REST/RQL`) syntax with `api.dataportal.gov.lt` (`VDA Lakehouse Iceberg`) endpoints (documented in `bundle/references/spinta-dsa-guide.md`): `api.dataportal.gov.lt` keys namespaces by 9-digit publisher JAR code, flattens foreign keys to scalar source codes, and replaces Spinta UUID `_id` values with incompatible 20-digit integers.
 - Use Spyna expression syntax (`?limit(10)&select(_id,<field>)&sort(-<field>)`) as the primary query grammar on `get.data.gov.lt`.
 - Use UAPI underscore syntax (`?_limit=10&_select=_id,<field>&_sort=-<field>&_page=<token>&_count`) only when a client library requires `key=value` query parameters.
 - Never pass unprefixed control parameters such as `?page=1`, `?offset=20`, `?per_page=50`, or `?format=csv` because Spinta interprets every key without a leading `_` as a column equality filter and returns HTTP `400` `PropertyNotFound`.
@@ -28,10 +29,10 @@ https://get.data.gov.lt/<dataset>/<Model>/:format/json?<field1>.ge(100)&(<field2
 
 - Pass `select(_id,<field1>,<field2>)` on wide tables to project only required properties and keep response payloads compact.
 - Match foreign-key (`ref`) projection and filter syntax strictly to the column's Spinta maturity `level` in `# Schema`:
-  - `level >= 4` (`4` or `5`): project `select(<fk>._id)` and filter `<fk>._id="<uuid>"` because Spinta serializes `{"_id": "<uuid>"}` pointing to `<TargetModel>._id` even when `# Schema` `Ref` displays `<TargetModel>[<pk>]`.
+  - `level >= 4` (`4` or `5`): project `select(<fk>._id)` and filter `<fk>._id="<uuid>"` because Spinta serializes `{"_id": "<uuid>"}` pointing to `<TargetModel>._id` **even when `# Schema` `Ref` displays `<TargetModel>[<pk>]`**.
   - Natural-key lookup at `level >= 4`: run two sequential queries by fetching `_id` from `<TargetModel>/:format/json?<pk>="<val>"&select(_id)&limit(5)` first and then filtering `<Model>/:format/json?<fk>._id="<uuid>"&limit(20)`.
-  - `level = 3`: project `select(<fk>.<pk>)` and filter `<fk>.<pk>="<val>"` because Spinta serializes natural-key object `{"<pk>": "<val>"}` without `_id`.
-  - `level <= 2` (`0`, `1`, `2`, or blank marker cell): project `select(<field>)` and filter `<field>="<val>"` with no dotted subfield because Spinta stores an unlinked scalar value.
+  - `level = 3`: project `select(<fk>.<pk>)` and filter `<fk>.<pk>="<val>"` because `level = 3` serializes natural-key object `{"<pk>": "<val>"}` without `_id`.
+  - `level <= 2` (`0`, `1`, `2`, or `—`): project `select(<field>)` and filter `<field>="<val>"` with no dotted subfield because Spinta stores an unlinked scalar value.
 - Order results with `sort(<field>)` for ascending order, `sort(-<field>)` for descending order, or `sort(-<field1>,<field2>)` for multi-column sorting.
 - Paginate exclusively via cursor tokens from `"_page": {"next": "<base64-token>"}` using `?limit(<N>)&page("<base64-token>")` (or `?_limit=<N>&_page=<base64-token>`) until `"_page"` or `"next"` is absent because Spinta supports no numeric offset pagination.
 - Query exact row totals with `/:format/json?count()` or `?<filter>&count()` (returning `{"_data":[{"count()":<integer>}]}`) rather than counting rows in a truncated sample page.
@@ -56,7 +57,7 @@ https://get.data.gov.lt/<dataset>/<Model>/:format/json?limit(100)&page("<base64-
 - Never send SQL aggregate functions (`sum()`, `avg()`, `min()`, `max()`) to Spinta because only `count()` runs server-side and other aggregates fail with HTTP `400` `UnknownMethod`.
 - Check `?count()` before computing client-side sums or averages over `select(...)`, and perform client-side aggregation only when total row volume is small; otherwise state that server-side aggregation is unsupported.
 - Never send SQL clauses (`GROUP BY`, `HAVING`, `JOIN`, `OFFSET`, `WHERE`) because Spinta evaluates single-model row filters and rejects SQL syntax with HTTP `400` `InvalidSyntax`.
-- Stop immediately on HTTP `401` (`AuthorizedClientsOnly`) or HTTP `403` (`Forbidden`) without probing workarounds, and cite `# Schema` `Access` (`open` and `open (inherited)` allow anonymous reads, `public` requires GDPR-authorized recipients, and `protected`/`private` are restricted).
+- Stop immediately on HTTP `401` (`AuthorizedClientsOnly`) or HTTP `403` (`Forbidden`) without probing workarounds, and cite `# Schema` `Access` (`open` and `open (inherited)` allow anonymous reads, `public` requires GDPR-authorized recipients and purpose limitation, and `protected`/`private` are restricted).
 - Expect HTTP `404` (`ModelNotFound`) whenever a concept omits frontmatter `resource:` (`undeployed` in `get_data_gov_lt.in`).
 - Pass `-g` (`--globoff`) to `curl` / `curl.exe` so `()` and `[]` are not glob-expanded by the shell, and percent-encode spaces (`%20`), quotes (`%22`), `|` (`%7C`), and non-ASCII characters in raw HTTP clients.
 - Keep total URL length below `2000` bytes (batching `any()` lists to `<= 50` items) because reverse proxies reject oversized query strings with HTTP `414 URI Too Long`.

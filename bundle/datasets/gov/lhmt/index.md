@@ -1,17 +1,17 @@
-# `datasets/gov/lhmt` — Lietuvos hidrometeorologijos tarnyba (LHMT)
+# Directory Index: `datasets/gov/lhmt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [fenologija/](fenologija/index.md) - Lietuvos hidrometeorologijos tarnybos registruoti žydinčių augalų fenologiniai tarpsniai Lietuvoje (0 datasets, 1 table)
-* [hidrologija/](hidrologija/index.md) - Namespace `datasets/gov/lhmt/hidrologija` (0 datasets, 1 table)
-* [klimatologija/](klimatologija/index.md) - Namespace `datasets/gov/lhmt/klimatologija` (0 datasets, 1 table)
-* [stebejimai/](stebejimai/index.md) - Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys. (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Lietuvos hidrometeorologijos tarnybos registruoti žydinčių augalų fenologiniai tarpsniai Lietuvoje](fenologija.md) - Duomenų rinkinyje pateikiami Lietuvos hidrometeorologijos tarnybos (LHMT) duomenys apie Lietuvoje žydinčių augalų fenologinių tarpsnių stebėjimą.
-* [datasets/gov/lhmt/hidrologija](hidrologija.md) - Spinta dataset datasets/gov/lhmt/hidrologija (1 table).
-* [datasets/gov/lhmt/klimatologija](klimatologija.md) - Spinta dataset datasets/gov/lhmt/klimatologija (1 table).
-* [Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.](stebejimai.md) - Spinta dataset datasets/gov/lhmt/stebejimai (1 table).
+* [Lietuvos hidrometeorologijos tarnybos registruoti žydinčių augalų fenologiniai tarpsniai Lietuvoje](fenologija.md) - "Duomenų rinkinyje pateikiami Lietuvos hidrometeorologijos tarnybos (LHMT) duomenys apie Lietuvoje žydinčių augalų fenologinių tarpsnių stebėjimą.
+* [Informacija apie vandens matavimo stotis](hidrologija.md) - Vandens matavimo stočių tinklo metaduomenys.
+* [Informacija apie meteorologijos stotis](klimatologija.md) - Meteorologijos stočių tinklo metaduomenys.
+* [Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.](stebejimai.md) - Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.
+
+# Subdirectories
+
+* [fenologija/](fenologija/index.md) - 1 table
+* [hidrologija/](hidrologija/index.md) - 1 table
+* [klimatologija/](klimatologija/index.md) - 1 table
+* [stebejimai/](stebejimai/index.md) - 1 table

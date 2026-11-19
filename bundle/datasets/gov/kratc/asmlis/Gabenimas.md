@@ -3,25 +3,34 @@ type: Table
 title: "Gabenimas — Atliekų priėmimas / perdavimas Klaipėdos regione"
 description: "Klaipėdos regiono atliekų tvarkymo centro naudojama Atliekų surinkimo, monitoringo ir logistikos informacinė sistema (ASMLIS) kaupia gabenamų atliekų duomenis."
 resource: "https://get.data.gov.lt/datasets/gov/kratc/asmlis/Gabenimas"
-tags: [gov, kratc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kratc, gabenimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kratc/asmlis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kratc/asmlis.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/kratc/asmlis.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2865/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kratc/asmlis"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Gabenimas — Atliekų priėmimas / perdavimas Klaipėdos regione
 
-Klaipėdos regiono atliekų tvarkymo centro naudojama Atliekų surinkimo, monitoringo ir logistikos informacinė sistema (ASMLIS) kaupia gabenamų atliekų duomenis. Duomenys kaupiami nuo 2008-07-01 ir atnaujinami iki šiol. Duomenų rinkinys sudarytas iš atliekų gabenimo datos ir laiko, atliekų svorio, atliekų gabenimo kliento sistemoje identifikatoriaus, kliento pseudonimizuoto vardo su pavarde arba pavadinimo, kliento tipo, gabenamų atliekų kodo, apibūdinimo, priėmimo vietos, kurioje svertos atliekos, pavadinimo, adreso ir atliekų tvarkymo veiklos. Vienas įrašas atitinka vieną atliekų gabenimo įvykį. Klientų nurodyti kaip „galimai juridiniai“, kadangi jų asmenų kodai neatitinka JAR kodo taisyklių, tačiau pavadinimai sufleruoja, jog tai juridiniai asmenys.
+Klaipėdos regiono atliekų tvarkymo centro naudojama Atliekų surinkimo, monitoringo ir logistikos informacinė sistema (ASMLIS) kaupia gabenamų atliekų duomenis. Duomenys kaupiami nuo 2008-07-01 ir atnaujinami iki šiol. Duomenų rinkinys sudarytas iš atliekų gabenimo datos ir laiko, atliekų svorio, atliekų gabenimo kliento sistemoje identifikatoriaus, kliento pseudonimizuoto vardo su pavarde arba pavadinimo, kliento tipo, gabenamų atliekų kodo, apibūdinimo, priėmimo vietos, kurioje svertos atliekos, pavadinimo, adreso ir atliekų tvarkymo veiklos. Vienas įrašas atitinka vieną atliekų gabenimo įvykį. Klientų nurodyti kaip „galimai juridiniai“, kadangi jų asmenų kodai neatitinka JAR kodo taisyklių, tačiau pavadinimai sufleruoja, jog tai juridiniai asmenys. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/kratc/asmlis/Gabenimas`[^manifest]
-- **Dataset:** [Atliekų priėmimas / perdavimas Klaipėdos regione](../asmlis.md) (`datasets/gov/kratc/asmlis`)
-- **Manifest CSV:** [datasets/gov/kratc/asmlis.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kratc/asmlis.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kratc/asmlis/Gabenimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Atliekų priėmimas / perdavimas Klaipėdos regione](../asmlis.md) (`datasets/gov/kratc/asmlis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kratc/asmlis.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kratc/asmlis.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kratc/asmlis/Gabenimas` (`deployed`)[^manifest]
+- **Provider:** `kratc` — UAB Klaipėdos regiono atliekų tvarkymo centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,7 +50,7 @@ Klaipėdos regiono atliekų tvarkymo centro naudojama Atliekų surinkimo, monito
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `kliento_tipas` | `"Juridinis"` | — | — | Lietuvos Respublikos juridinis asmuo | — |
 | `kliento_tipas` | `"Nežinoma"` | — | — | Nežinoma asmens rūšis | — |
@@ -50,4 +59,5 @@ Klaipėdos regiono atliekų tvarkymo centro naudojama Atliekų surinkimo, monito
 | `atlieku_tvarkymo_veiklos_pavadinimas` | `"Priėmimas"` | — | — | Atliekų priėmimas | — |
 | `atlieku_tvarkymo_veiklos_pavadinimas` | `"Pervežimas"` | — | — | Atliekų pervežimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kratc/asmlis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kratc/asmlis.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kratc/asmlis.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kratc/asmlis (https://data.gov.lt/datasets/2865/)

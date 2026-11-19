@@ -1,24 +1,36 @@
 ---
 type: Table
 title: "AvansinisNtMokestis — Avansinio NT mokesčio duomenys"
-description: "Spinta table datasets/gov/vmi/nt/AvansinisNtMokestis (10 columns)."
+description: "Nekilnojamo turto mokesčio (toliau - NTM) duomenų rinkinys"
 resource: "https://get.data.gov.lt/datasets/gov/vmi/nt/AvansinisNtMokestis"
-tags: [gov, vmi, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, avansinisntmokestis, deployed, level-2, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L34"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L34"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1185/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/nt"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # AvansinisNtMokestis — Avansinio NT mokesčio duomenys
 
+**Dataset Context:** Nekilnojamo turto mokesčio (toliau - NTM) duomenų rinkinys[^manifest]
+
 - **Model:** `datasets/gov/vmi/nt/AvansinisNtMokestis`[^manifest]
-- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)
-- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L34](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L34)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/AvansinisNtMokestis`
-- **Level:** `2`
+- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L34](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L34)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/AvansinisNtMokestis` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -50,4 +62,5 @@ sources:
 | `avansas_pozymis` | `update(ref: "enum")` | `ref` | `4` | `open` | — | — | — |
 | `avansas` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L34 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L34)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/nt (https://data.gov.lt/datasets/1185/)

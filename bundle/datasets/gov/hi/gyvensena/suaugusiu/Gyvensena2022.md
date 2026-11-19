@@ -3,23 +3,34 @@ type: Table
 title: "Gyvensena2022 — Suaugusiųjų gyvensenos tyrimo 2022 metų duomenys"
 description: "Klausimynas skelbiamas internete: https://www.hi.lt/uploads/Visuomenes_sveikatos_technologiju_centras/Suaugusiu_gyventoju_gyvensenos_stebesenos_tyrimo_klausimynas.pdf"
 resource: "https://get.data.gov.lt/datasets/gov/hi/gyvensena/suaugusiu/Gyvensena2022"
-tags: [gov, hi, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, hi, gyvensena2022, deployed, cadence-quadrennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/hi/gyvensena/suaugusiu.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/suaugusiu.csv#L587"
+    title: "atviriduomenys/manifest — datasets/gov/hi/gyvensena/suaugusiu.csv#L587"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1226/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/hi/gyvensena/suaugusiu"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Gyvensena2022 — Suaugusiųjų gyvensenos tyrimo 2022 metų duomenys
 
-Klausimynas skelbiamas internete: https://www.hi.lt/uploads/Visuomenes_sveikatos_technologiju_centras/Suaugusiu_gyventoju_gyvensenos_stebesenos_tyrimo_klausimynas.pdf
+Klausimynas skelbiamas internete: https://www.hi.lt/uploads/Visuomenes_sveikatos_technologiju_centras/Suaugusiu_gyventoju_gyvensenos_stebesenos_tyrimo_klausimynas.pdf[^manifest]
 
 - **Model:** `datasets/gov/hi/gyvensena/suaugusiu/Gyvensena2022`[^manifest]
-- **Dataset:** [Suaugusiųjų gyvensenos duomenys](../suaugusiu.md) (`datasets/gov/hi/gyvensena/suaugusiu`)
-- **Manifest CSV:** [datasets/gov/hi/gyvensena/suaugusiu.csv#L587](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/suaugusiu.csv#L587)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/gyvensena/suaugusiu/Gyvensena2022`
+- **Dataset:** [Suaugusiųjų gyvensenos duomenys](../suaugusiu.md) (`datasets/gov/hi/gyvensena/suaugusiu`)[^manifest]
+- **Manifest CSV:** [datasets/gov/hi/gyvensena/suaugusiu.csv#L587](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/suaugusiu.csv#L587)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/gyvensena/suaugusiu/Gyvensena2022` (`deployed`)[^manifest]
+- **Provider:** `hi` — Suaugusiųjų ir vaikų gyvensenos duomenys *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUADRENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -62,7 +73,7 @@ Klausimynas skelbiamas internete: https://www.hi.lt/uploads/Visuomenes_sveikatos
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `vaisiai` | `'1'` | — | — | Niekada | — |
 | `vaisiai` | `'2'` | — | — | Rečiau nei kartą per savaitę | — |
@@ -225,4 +236,5 @@ Klausimynas skelbiamas internete: https://www.hi.lt/uploads/Visuomenes_sveikatos
 | `gyvenamoji_vietove` | `'2'` | — | — | Kaimas | — |
 | `gyvenamoji_vietove` | `'9'` | — | — | Neatsakyta į klausimą | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/hi/gyvensena/suaugusiu.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/hi/gyvensena/suaugusiu.csv#L587 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/suaugusiu.csv#L587)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/hi/gyvensena/suaugusiu (https://data.gov.lt/datasets/1226/)

@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/apibendrinti_pzv_gavybos_duomenys`
+# Directory Index: `datasets/gov/lgt/apibendrinti_pzv_gavybos_duomenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

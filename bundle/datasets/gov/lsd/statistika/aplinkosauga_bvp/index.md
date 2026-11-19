@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/aplinkosauga_bvp`
+# Directory Index: `datasets/gov/lsd/statistika/aplinkosauga_bvp`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

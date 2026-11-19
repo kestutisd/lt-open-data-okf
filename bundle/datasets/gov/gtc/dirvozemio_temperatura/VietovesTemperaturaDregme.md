@@ -3,25 +3,34 @@ type: Table
 title: "VietovesTemperaturaDregme — Vietovės dirvožemio temperatūra ir drėgmė"
 description: "Informacija apie Gamtos Tyrimų Centro mokslinių darbuotojų tiriamą dirvožemio temperatūrą ir drėgmę įvairiose vietovėse Lietuvos teritorijoje"
 resource: "https://get.data.gov.lt/datasets/gov/gtc/dirvozemio_temperatura/VietovesTemperaturaDregme"
-tags: [gov, gtc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, gtc, vietovestemperaturadregme, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/gtc/dirvozemio_temperatura.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/gtc/dirvozemio_temperatura.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/gtc/dirvozemio_temperatura.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2638/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/gtc/dirvozemio_temperatura"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # VietovesTemperaturaDregme — Vietovės dirvožemio temperatūra ir drėgmė
 
-Informacija apie Gamtos Tyrimų Centro mokslinių darbuotojų tiriamą dirvožemio temperatūrą ir drėgmę įvairiose vietovėse Lietuvos teritorijoje
+Informacija apie Gamtos Tyrimų Centro mokslinių darbuotojų tiriamą dirvožemio temperatūrą ir drėgmę įvairiose vietovėse Lietuvos teritorijoje[^manifest]
 
 - **Model:** `datasets/gov/gtc/dirvozemio_temperatura/VietovesTemperaturaDregme`[^manifest]
-- **Dataset:** [Dirvožemio temperatūra ir drėgmė bei dirvožemyje augantys augalai](../dirvozemio_temperatura.md) (`datasets/gov/gtc/dirvozemio_temperatura`)
-- **Manifest CSV:** [datasets/gov/gtc/dirvozemio_temperatura.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/gtc/dirvozemio_temperatura.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/gtc/dirvozemio_temperatura/VietovesTemperaturaDregme`
-- **Primary Key (`ref`):** `atvejo_id`
-- **Level:** `4`
+- **Dataset:** [Dirvožemio temperatūra ir drėgmė bei dirvožemyje augantys augalai](../dirvozemio_temperatura.md) (`datasets/gov/gtc/dirvozemio_temperatura`)[^manifest]
+- **Manifest CSV:** [datasets/gov/gtc/dirvozemio_temperatura.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/gtc/dirvozemio_temperatura.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/gtc/dirvozemio_temperatura/VietovesTemperaturaDregme` (`deployed`)[^manifest]
+- **Provider:** `gtc` — Gamtos tyrimų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `atvejo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -40,7 +49,7 @@ Informacija apie Gamtos Tyrimų Centro mokslinių darbuotojų tiriamą dirvožem
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `apytiksle_vietoves_klasifikacija` | `"1"` | — | — | Miškas | — |
 | `apytiksle_vietoves_klasifikacija` | `"3"` | — | — | Krūmynai | — |
@@ -49,4 +58,5 @@ Informacija apie Gamtos Tyrimų Centro mokslinių darbuotojų tiriamą dirvožem
 | `apytiksle_vietoves_klasifikacija` | `"13"` | — | — | Jūrinė pakrantė | — |
 | `apytiksle_vietoves_klasifikacija` | `"14"` | — | — | Dirbtinis dirvožemis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/gtc/dirvozemio_temperatura.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/gtc/dirvozemio_temperatura.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/gtc/dirvozemio_temperatura.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/gtc/dirvozemio_temperatura (https://data.gov.lt/datasets/2638/)

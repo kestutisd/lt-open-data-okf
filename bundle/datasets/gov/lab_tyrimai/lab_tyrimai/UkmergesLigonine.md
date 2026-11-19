@@ -3,24 +3,34 @@ type: Table
 title: "UkmergesLigonine — Ukmergės ligoninėje pacientams atliktų laboratorinių tyrimų duomenys"
 description: "Ukmergės ligoninės sistemoje „sLIS“ nuo 2018 metų kaupiami pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/UkmergesLigonine"
-tags: [gov, lab_tyrimai, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, ukmergesligonine, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # UkmergesLigonine — Ukmergės ligoninėje pacientams atliktų laboratorinių tyrimų duomenys
 
-Ukmergės ligoninės sistemoje „sLIS“ nuo 2018 metų kaupiami pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2021 metų kaupiami ir iki šiol atnaujinami duomenys. Vienas įrašas atitinka vieną analitės identifikatoriaus reikšmę (visi analičių identifikatoriai yra unikalūs). Rinkinio duomenis sudaro: paciento identifikatorius, gimimo metai, lytis, tyrimo identifikatorius, pavadinimas bei validacijos data, tyrimo analitės identifikatorius, pavadinimas, originalus rezultatų stulpelis su dviem papildomais stulpeliais, į kuriuos atitinkamai išskirstyti tyrimų semantiniai vertinimai ir skaitiniai rezultatai, rezultatų normų rėžiai ir matavimo vienetai. Tyrimo analitė – vienas iš matuojamų sudedamųjų atliekamo laboratorinio tyrimo veiksnių. Kadangi į vieną stulpelį suvedami tiek analičių skaitiniai rezultatai, tiek semantiniai vertinimai, stulpelių su atskirais semantiniais vertinimais arba skaitiniais rezultatais reikšmės kartais gali neatitikti realybės. Duomenų teikėjas – VšĮ Ukmergės ligoninė.
+Ukmergės ligoninės sistemoje „sLIS“ nuo 2018 metų kaupiami pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2021 metų kaupiami ir iki šiol atnaujinami duomenys. Vienas įrašas atitinka vieną analitės identifikatoriaus reikšmę (visi analičių identifikatoriai yra unikalūs). Rinkinio duomenis sudaro: paciento identifikatorius, gimimo metai, lytis, tyrimo identifikatorius, pavadinimas bei validacijos data, tyrimo analitės identifikatorius, pavadinimas, originalus rezultatų stulpelis su dviem papildomais stulpeliais, į kuriuos atitinkamai išskirstyti tyrimų semantiniai vertinimai ir skaitiniai rezultatai, rezultatų normų rėžiai ir matavimo vienetai. Tyrimo analitė – vienas iš matuojamų sudedamųjų atliekamo laboratorinio tyrimo veiksnių. Kadangi į vieną stulpelį suvedami tiek analičių skaitiniai rezultatai, tiek semantiniai vertinimai, stulpelių su atskirais semantiniais vertinimais arba skaitiniais rezultatais reikšmės kartais gali neatitikti realybės. Duomenų teikėjas – VšĮ Ukmergės ligoninė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/UkmergesLigonine`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/UkmergesLigonine`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/UkmergesLigonine` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,10 +54,11 @@ Ukmergės ligoninės sistemoje „sLIS“ nuo 2018 metų kaupiami pacientams atl
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"M"` | — | — | Moteris | — |
 | `lytis` | `"V"` | — | — | Vyras | — |
 | `lytis` | `"N"` | — | — | Nežinoma | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L378)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

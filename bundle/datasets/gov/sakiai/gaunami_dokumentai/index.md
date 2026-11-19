@@ -1,12 +1,12 @@
-# `datasets/gov/sakiai/gaunami_dokumentai`
+# Directory Index: `datasets/gov/sakiai/gaunami_dokumentai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Dokumentas](Dokumentas.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/Dokumentas (5 columns).
-* [DokumentoFormosTipas](DokumentoFormosTipas.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/DokumentoFormosTipas (2 columns).
-* [DokumentoTipas](DokumentoTipas.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/DokumentoTipas (2 columns).
-* [GaunamasDokumentas — Dvs gaunami dokumentai](GaunamasDokumentas.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/GaunamasDokumentas (7 columns).
-* [Registras](Registras.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/Registras (4 columns).
-* [Subjektas](Subjektas.md) - Spinta table datasets/gov/sakiai/gaunami_dokumentai/Subjektas (2 columns).
+* [Dokumentas](Dokumentas.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.
+* [DokumentoFormosTipas](DokumentoFormosTipas.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.
+* [DokumentoTipas](DokumentoTipas.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.
+* [GaunamasDokumentas — Dvs gaunami dokumentai](GaunamasDokumentas.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.
+* [Registras](Registras.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.
+* [Subjektas](Subjektas.md) - Visi nuo 2018 m. tik Šakių rajono savivaldybės administracijos raštinės registruoti gauti dokumentai - asmenų skundai, prašymai paslaugoms gauti, raštai iš LR ministerijų/departamentų ir kita.

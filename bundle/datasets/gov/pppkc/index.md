@@ -1,11 +1,11 @@
-# `datasets/gov/pppkc`
+# Directory Index: `datasets/gov/pppkc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [omdrf/](omdrf/index.md) - Pinigų plovimo prevencijos apmokymų dalyvių duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Pinigų plovimo prevencijos apmokymų dalyvių duomenys](omdrf.md) - Spinta dataset datasets/gov/pppkc/omdrf (1 table).
+* [Pinigų plovimo prevencijos apmokymų dalyvių duomenys](omdrf.md) - Pinigų plovimo prevencijos kompetencijų centro (PPPKC) administruojamoje organizuojamų mokymų dalyvių registracijos formoje (OMDRF) kaupiami į įstaigos vykdomus mokymus užsiregistravusiųjų dalyvių...
+
+# Subdirectories
+
+* [omdrf/](omdrf/index.md) - 1 table

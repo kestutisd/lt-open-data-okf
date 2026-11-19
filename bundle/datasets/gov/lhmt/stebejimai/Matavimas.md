@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Matavimas — Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys."
-description: "Duomenų rinkinį sudaro stoties pavadinimas ir kodas, stoties lokacijos koordinatės, stebėjimo laikas, reali ir juntamoji oro temperatūra stebėjimo metu, vėjo greitis, vėjo gūsis, vėjo kryptis, debesuotumas, slėgis jūros lygmenyje..."
+description: "Duomenų rinkinį sudaro stoties pavadinimas ir kodas, stoties lokacijos koordinatės, stebėjimo laikas, reali ir juntamoji oro temperatūra stebėjimo metu, vėjo greitis, vėjo gūsis, vėjo kryptis, debesuotumas, slėgis jūros lygmenyje, santykinė oro drėgmė, kritulių kiekis ir oro..."
 resource: "https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas"
-tags: [gov, lhmt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lhmt, matavimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lhmt/stebejimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lhmt/stebejimai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/lhmt/stebejimai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3872/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lhmt/stebejimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Matavimas — Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.
 
-Duomenų rinkinį sudaro stoties pavadinimas ir kodas, stoties lokacijos koordinatės, stebėjimo laikas, reali ir juntamoji oro temperatūra stebėjimo metu, vėjo greitis, vėjo gūsis, vėjo kryptis, debesuotumas, slėgis jūros lygmenyje, santykinė oro drėgmė, kritulių kiekis ir oro sąlygos.
+Duomenų rinkinį sudaro stoties pavadinimas ir kodas, stoties lokacijos koordinatės, stebėjimo laikas, reali ir juntamoji oro temperatūra stebėjimo metu, vėjo greitis, vėjo gūsis, vėjo kryptis, debesuotumas, slėgis jūros lygmenyje, santykinė oro drėgmė, kritulių kiekis ir oro sąlygos.[^manifest]
 
 - **Model:** `datasets/gov/lhmt/stebejimai/Matavimas`[^manifest]
-- **Dataset:** [Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.](../stebejimai.md) (`datasets/gov/lhmt/stebejimai`)
-- **Manifest CSV:** [datasets/gov/lhmt/stebejimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lhmt/stebejimai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Rinkinyje pateikiami Lietuvos meteorologijos stočių meteorologinių stebėjimų duomenys.](../stebejimai.md) (`datasets/gov/lhmt/stebejimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lhmt/stebejimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lhmt/stebejimai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lhmt/stebejimai/Matavimas` (`deployed`)[^manifest]
+- **Provider:** `lhmt` — Lietuvos hidrometeorologijos tarnyba (LHMT) *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,4 +53,5 @@ Duomenų rinkinį sudaro stoties pavadinimas ir kodas, stoties lokacijos koordin
 | `kritutliu_kiekis` | `number` | — | `4` | `open` | — | Kritulių kiekis | — |
 | `oro_salygos` | `string` | — | `4` | `open` | — | Oro sąlygos | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lhmt/stebejimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lhmt/stebejimai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lhmt/stebejimai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lhmt/stebejimai (https://data.gov.lt/datasets/3872/)

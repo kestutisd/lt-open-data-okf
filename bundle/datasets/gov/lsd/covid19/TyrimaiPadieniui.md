@@ -3,24 +3,34 @@ type: Table
 title: "TyrimaiPadieniui — COVID-19 tyrimai padieniui pagal laboratorijas"
 description: "SARS-CoV-2 laboratorinių tyrimų atsakymų agreguoti pagal datą ir laboratoriją duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/covid19/TyrimaiPadieniui"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, tyrimaipadieniui, deployed, level-3, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L122"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L122"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1670/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/covid19"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # TyrimaiPadieniui — COVID-19 tyrimai padieniui pagal laboratorijas
 
-SARS-CoV-2 laboratorinių tyrimų atsakymų agreguoti pagal datą ir laboratoriją duomenys
+SARS-CoV-2 laboratorinių tyrimų atsakymų agreguoti pagal datą ir laboratoriją duomenys[^manifest]
 
 - **Model:** `datasets/gov/lsd/covid19/TyrimaiPadieniui`[^manifest]
-- **Dataset:** [datasets/gov/lsd/covid19](../covid19.md) (`datasets/gov/lsd/covid19`)
-- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L122](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L122)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/TyrimaiPadieniui`
-- **Level:** `3`
+- **Dataset:** [COVID-19 pandemijos duomenys](../covid19.md) (`datasets/gov/lsd/covid19`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L122](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L122)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/TyrimaiPadieniui` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -35,7 +45,7 @@ SARS-CoV-2 laboratorinių tyrimų atsakymų agreguoti pagal datą ir laboratorij
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `test_type` | `1477` | — | — | PGR testas | — |
 | `test_type` | `1537` | — | — | PGR (GeneExpert) testas | — |
@@ -44,4 +54,5 @@ SARS-CoV-2 laboratorinių tyrimų atsakymų agreguoti pagal datą ir laboratorij
 | `test_type` | `1677` | — | — | PGR (GeneExpert) mokamas testas | — |
 | `test_type` | `1697` | — | — | Antigeno mokamas testas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L122 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L122)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/covid19 (https://data.gov.lt/datasets/1670/)

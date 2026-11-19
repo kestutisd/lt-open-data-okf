@@ -3,23 +3,26 @@ type: Table
 title: "BendroPlotoPaskirst — Bendro žemės ploto pasiskirstymas pagal žemės naudmenas (ha)"
 description: "Spinta table datasets/gov/miskai/apskaita/BendroPlotoPaskirst (17 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/miskai/apskaita/BendroPlotoPaskirst"
-tags: [gov, miskai, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, miskai, bendroplotopaskirst, deployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/miskai/apskaita.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/apskaita.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/miskai/apskaita.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # BendroPlotoPaskirst — Bendro žemės ploto pasiskirstymas pagal žemės naudmenas (ha)
 
 - **Model:** `datasets/gov/miskai/apskaita/BendroPlotoPaskirst`[^manifest]
-- **Dataset:** [datasets/gov/miskai/apskaita](../apskaita.md) (`datasets/gov/miskai/apskaita`)
-- **Manifest CSV:** [datasets/gov/miskai/apskaita.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/apskaita.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/miskai/apskaita/BendroPlotoPaskirst`
-- **Primary Key (`ref`):** `zemes_misku_gr`
-- **Level:** `3`
+- **Dataset:** [datasets/gov/miskai/apskaita](../apskaita.md) (`datasets/gov/miskai/apskaita`)[^manifest]
+- **Manifest CSV:** [datasets/gov/miskai/apskaita.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/apskaita.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/miskai/apskaita/BendroPlotoPaskirst` (`deployed`)[^manifest]
+- **Provider:** `miskai` — Valstybinė miškų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `zemes_misku_gr`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -43,4 +46,4 @@ sources:
 | `nenaudojama_zeme` | `number` | `ha` | `4` | `open` | — | Kita žemė. Iš jos - nenaudojama žemė | — |
 | `nusausinta_zeme` | `number` | `ha` | `4` | `open` | — | Nusausinta žemė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/miskai/apskaita.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/miskai/apskaita.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/apskaita.csv#L8)

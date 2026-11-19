@@ -3,22 +3,32 @@ type: Table
 title: "AtliekuSusidarymasTvarkymas — Atliekų susidarymo ir tvarkymo duomenys"
 description: "Spinta table datasets/gov/aaa/atlieku_tvarkymas/AtliekuSusidarymasTvarkymas (17 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkymas/AtliekuSusidarymasTvarkymas"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, atliekususidarymastvarkymas, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkymas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkymas.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkymas.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/460/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/atlieku_tvarkymas"
+    author: "team:vda"
+    last_modified: "2026-02-02T00:00:00Z"
 ---
 
 # AtliekuSusidarymasTvarkymas — Atliekų susidarymo ir tvarkymo duomenys
 
 - **Model:** `datasets/gov/aaa/atlieku_tvarkymas/AtliekuSusidarymasTvarkymas`[^manifest]
-- **Dataset:** [datasets/gov/aaa/atlieku_tvarkymas](../atlieku_tvarkymas.md) (`datasets/gov/aaa/atlieku_tvarkymas`)
-- **Manifest CSV:** [datasets/gov/aaa/atlieku_tvarkymas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkymas.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkymas/AtliekuSusidarymasTvarkymas`
-- **Level:** `2`
+- **Dataset:** [Atliekų susidarymo ir tvarkymo duomenys](../atlieku_tvarkymas.md) (`datasets/gov/aaa/atlieku_tvarkymas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/atlieku_tvarkymas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkymas.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/atlieku_tvarkymas/AtliekuSusidarymasTvarkymas` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-02-02`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,4 +58,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkymas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/atlieku_tvarkymas.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/atlieku_tvarkymas.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/atlieku_tvarkymas (https://data.gov.lt/datasets/460/)

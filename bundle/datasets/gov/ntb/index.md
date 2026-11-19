@@ -1,11 +1,11 @@
-# `datasets/gov/ntb`
+# Directory Index: `datasets/gov/ntb`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [pacientu_valios_pareiskimai/](pacientu_valios_pareiskimai/index.md) - Namespace `datasets/gov/ntb/pacientu_valios_pareiskimai` (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/ntb/pacientu_valios_pareiskimai](pacientu_valios_pareiskimai.md) - Spinta dataset datasets/gov/ntb/pacientu_valios_pareiskimai (3 tables).
+* [Pacientų valios pareiškimo duomenys](pacientu_valios_pareiskimai.md) - Duomenys apie pacientų valios pareiškimą (donorystės ir kiti duomenys) pagal amžiaus grupes, lytį ir gyvenamąją vietą
+
+# Subdirectories
+
+* [pacientu_valios_pareiskimai/](pacientu_valios_pareiskimai/index.md) - 3 tables

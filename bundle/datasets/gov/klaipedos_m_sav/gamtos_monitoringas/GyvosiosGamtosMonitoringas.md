@@ -3,41 +3,34 @@ type: Table
 title: "GyvosiosGamtosMonitoringas — Klaipėdos miesto savivaldybės gyvosios aplinkos monitoringo duomenys"
 description: "Rinkinyje pateikiami Klaipėdos miesto savivaldybės gyvosios gamtos monitoringo duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/klaipedos_m_sav/gamtos_monitoringas/GyvosiosGamtosMonitoringas"
-tags: [gov, klaipedos_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, klaipedos_m_sav, gyvosiosgamtosmonitoringas, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2663/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/klaipedos_m_sav/gamtos_monitoringas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # GyvosiosGamtosMonitoringas — Klaipėdos miesto savivaldybės gyvosios aplinkos monitoringo duomenys
 
-Rinkinyje pateikiami Klaipėdos miesto savivaldybės gyvosios gamtos monitoringo duomenys.
-
-Šiame rinkinyje pateikiami tokie duomenys:
-
-• paviršinio vandens monitoringas
-
-• gyvosios gamtos (paukščių) monitoringas
-
-• gyvosios gamtos (šikšnosparnių) monitoringas
-
-• gyvosios gamtos (augalijos) monitoringas
-
-• gyvosios gamtos (varliagyvių) monitoringas
-
-• gyvosios gamtos (žuvų) monitoringas
-
-Duomenys pateikiami nuo 2005 metų.
+Rinkinyje pateikiami Klaipėdos miesto savivaldybės gyvosios gamtos monitoringo duomenys. Šiame rinkinyje pateikiami tokie duomenys: •	paviršinio vandens monitoringas •	gyvosios gamtos (paukščių) monitoringas •	gyvosios gamtos (šikšnosparnių) monitoringas •	gyvosios gamtos (augalijos) monitoringas •	gyvosios gamtos (varliagyvių) monitoringas •	gyvosios gamtos (žuvų) monitoringas Duomenys pateikiami nuo 2005 metų.[^manifest]
 
 - **Model:** `datasets/gov/klaipedos_m_sav/gamtos_monitoringas/GyvosiosGamtosMonitoringas`[^manifest]
-- **Dataset:** [Klaipėdos miesto savivaldybės gyvosios aplinkos monitoringo duomenys](../gamtos_monitoringas.md) (`datasets/gov/klaipedos_m_sav/gamtos_monitoringas`)
-- **Manifest CSV:** [datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/klaipedos_m_sav/gamtos_monitoringas/GyvosiosGamtosMonitoringas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Klaipėdos miesto savivaldybės gyvosios aplinkos monitoringo duomenys](../gamtos_monitoringas.md) (`datasets/gov/klaipedos_m_sav/gamtos_monitoringas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/klaipedos_m_sav/gamtos_monitoringas/GyvosiosGamtosMonitoringas` (`deployed`)[^manifest]
+- **Provider:** `klaipedos_m_sav` — Klaipėdos miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -70,7 +63,7 @@ Duomenys pateikiami nuo 2005 metų.
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `monitoringo_tasko_tipas` | `"ggms"` | — | — | Gyvosios gamtos (šikšnosparnių) monitoringas | — |
 | `monitoringo_tasko_tipas` | `"ggmp"` | — | — | Gyvosios gamtos (paukščių) monitoringas | — |
@@ -98,4 +91,5 @@ Duomenys pateikiami nuo 2005 metų.
 | `rusies_pav_en` | `update(property: "rusies_pav_en", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `parametro_reiksme_lt` | `update(property: "parametro_reiksme_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_m_sav/gyvosios_gamtos_monitoringas.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/klaipedos_m_sav/gamtos_monitoringas (https://data.gov.lt/datasets/2663/)

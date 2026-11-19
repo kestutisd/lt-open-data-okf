@@ -1,7 +1,7 @@
-# `datasets/gov/kaunas/oras`
+# Directory Index: `datasets/gov/kaunas/oras`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Oras — Rodikliai per periodą](Oras.md) - Spinta table datasets/gov/kaunas/oras/Oras (13 columns).
+* [Oras — Rodikliai per periodą](Oras.md) - Kauno miesto aplinkos parametrai

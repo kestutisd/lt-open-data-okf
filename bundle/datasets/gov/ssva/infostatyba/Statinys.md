@@ -3,21 +3,32 @@ type: Table
 title: "Statinys — Valstybinės teritorijų planavimo ir statybos inspekcijos prie aplinkos ministerijos duomenys"
 description: "Spinta table datasets/gov/ssva/infostatyba/Statinys (27 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/ssva/infostatyba/Statinys"
-tags: [gov, ssva, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ssva, statinys, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ssva/infostatyba.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/infostatyba.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/ssva/infostatyba.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1000/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/ssva/infostatyba"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Statinys — Valstybinės teritorijų planavimo ir statybos inspekcijos prie aplinkos ministerijos duomenys
 
 - **Model:** `datasets/gov/ssva/infostatyba/Statinys`[^manifest]
-- **Dataset:** [Valstybinės teritorijų planavimo ir statybos inspekcijos prie aplinkos ministerijos duomenys](../infostatyba.md) (`datasets/gov/ssva/infostatyba`)
-- **Manifest CSV:** [datasets/gov/ssva/infostatyba.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/infostatyba.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ssva/infostatyba/Statinys`
+- **Dataset:** [Valstybinės teritorijų planavimo ir statybos inspekcijos prie aplinkos ministerijos duomenys](../infostatyba.md) (`datasets/gov/ssva/infostatyba`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ssva/infostatyba.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/infostatyba.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ssva/infostatyba/Statinys` (`deployed`)[^manifest]
+- **Provider:** `ssva` — Statybos sektoriaus vystymo agentūra (SSVA) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -51,4 +62,9 @@ sources:
 | `taskas_wgs` | `geometry(4326)` | — | `4` | `open` | — | Koordinate WGS84 formatu | — |
 | `uuid` | `string` | — | `4` | `open` | — | Dokumento identifikatorius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ssva/infostatyba.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/ssva/infostatyba.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/infostatyba.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/ssva/infostatyba (https://data.gov.lt/datasets/1000/)

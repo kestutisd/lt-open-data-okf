@@ -2,22 +2,26 @@
 type: Table
 title: "TransportoPriemone"
 description: "Spinta table datasets/gov/regitra/tp/TransportoPriemone (69 columns)."
-tags: [gov, regitra, undeployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, regitra, transportopriemone, undeployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/regitra/tp.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/regitra/tp.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/regitra/tp.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # TransportoPriemone
 
 - **Model:** `datasets/gov/regitra/tp/TransportoPriemone`[^manifest]
-- **Dataset:** [datasets/gov/regitra/tp](../tp.md) (`datasets/gov/regitra/tp`)
-- **Manifest CSV:** [datasets/gov/regitra/tp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/regitra/tp.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `keb_kodas, spec_kodas`
+- **Dataset:** [datasets/gov/regitra/tp](../tp.md) (`datasets/gov/regitra/tp`)[^manifest]
+- **Manifest CSV:** [datasets/gov/regitra/tp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/regitra/tp.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `regitra` — AB „Regitra“ *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `keb_kodas, spec_kodas`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -90,12 +94,12 @@ sources:
 | `kilmes_salis` | `string` | — | `5` | `open` | `locn:geographicName` | Uþsienio ðalies kodas | Kurios registracijos dokumentø pagrindu transporto priemonë registruota Lietuvoje. |
 | `vald_tipas` | `string` | — | `3` | `open` | — | Valdytojo tipas | — |
 | `vald_gim_dat_int` | `string` | — | `3` | `open` | — | Valdytojo (fizinio asmens) gimimo datos intervalas | — |
-| `savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe](../../rc/ar/savivaldybe/Savivaldybe.md) | `5` | `open` | `locn:geographicName` | Savivaldybë | Pagal valdytojo registracijos adresà |
-| `apskritis` | `ref` | [/datasets/gov/rc/ar/apskritis/Apskritis](../../rc/ar/apskritis/Apskritis.md) | `5` | `open` | `locn:geographicName` | Apskritis | Pagal valdytojo registracijos adresà |
+| `savivaldybe` | `ref` | [Savivaldybe](../../rc/ar/savivaldybe/Savivaldybe.md) (`level=5 UUID`: `savivaldybe._id`) | `5` | `open` | `locn:geographicName` | Savivaldybë | Pagal valdytojo registracijos adresà |
+| `apskritis` | `ref` | [Apskritis](../../rc/ar/apskritis/Apskritis.md) (`level=5 UUID`: `apskritis._id`) | `5` | `open` | `locn:geographicName` | Apskritis | Pagal valdytojo registracijos adresà |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `vairas_desineje` | `true` | `Y` | — | Taip | — |
 | `vairas_desineje` | `false` | `N` | — | Ne | — |
@@ -110,7 +114,7 @@ sources:
 
 # Translations (`@en`)
 
-| Property | Title (`@en`) | Description (`@en`) |
+| Property | Title (@en) | Description (@en) |
 | --- | --- | --- |
 | `marke` | Make (Trade name of the manufacturer) | When `vald_tipas="Fizinis"` (Legal) and `marke+komercinis_pav+savivaldyeb=1`, then instead "Make (trade name of the manufacturer)" indicated `Nuasmeninta`, taking into account the protection of personal data. |
 | `komercinis_pav` | Commercial name | When `vald_tipas="Fizinis"` (Legal) and `marke+komercinis_pav+savivaldybe=1`, then instead "Commercial name" indicated `Nuasmeninta`, taking into account the protection of personal data). |
@@ -188,4 +192,8 @@ sources:
 | --- | --- |
 | `locn` | `http://www.w3.org/ns/locn#` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/regitra/tp.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/regitra/tp.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/regitra/tp.csv#L5)

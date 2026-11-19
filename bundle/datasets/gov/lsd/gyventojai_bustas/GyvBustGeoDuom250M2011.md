@@ -3,21 +3,32 @@ type: Table
 title: "GyvBustGeoDuom250M2011 — Gyventojų ir būstų surašymo geoerdviniai duomenys 250x250 gardelėse 2011 m."
 description: "Spinta table datasets/gov/lsd/gyventojai_bustas/GyvBustGeoDuom250M2011 (39 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/gyventojai_bustas/GyvBustGeoDuom250M2011"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, gyvbustgeoduom250m2011, deployed, cadence-decennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/gyventojai_bustas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventojai_bustas.csv#L46"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/gyventojai_bustas.csv#L46"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1911/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/gyventojai_bustas"
+    author: "team:vda"
+    last_modified: "2026-02-25T00:00:00Z"
 ---
 
 # GyvBustGeoDuom250M2011 — Gyventojų ir būstų surašymo geoerdviniai duomenys 250x250 gardelėse 2011 m.
 
 - **Model:** `datasets/gov/lsd/gyventojai_bustas/GyvBustGeoDuom250M2011`[^manifest]
-- **Dataset:** [datasets/gov/lsd/gyventojai_bustas](../gyventojai_bustas.md) (`datasets/gov/lsd/gyventojai_bustas`)
-- **Manifest CSV:** [datasets/gov/lsd/gyventojai_bustas.csv#L46](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventojai_bustas.csv#L46)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/gyventojai_bustas/GyvBustGeoDuom250M2011`
+- **Dataset:** [Lietuvos Respublikos visuotinio gyventojų ir būstų surašymo rezultatų duomenys](../gyventojai_bustas.md) (`datasets/gov/lsd/gyventojai_bustas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/gyventojai_bustas.csv#L46](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventojai_bustas.csv#L46)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/gyventojai_bustas/GyvBustGeoDuom250M2011` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DECENNIAL`, Modified `2026-02-25`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -63,4 +74,5 @@ sources:
 | `nasliai` | `string` | — | `4` | `open` | — | Našlių skaičius | — |
 | `butas1` | `string` | — | `4` | `open` | — | Vieno buto namų skaičius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/gyventojai_bustas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/gyventojai_bustas.csv#L46 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventojai_bustas.csv#L46)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/gyventojai_bustas (https://data.gov.lt/datasets/1911/)

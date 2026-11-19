@@ -3,23 +3,34 @@ type: Table
 title: "Household2008 — Namų ūkio duomenys 2008m."
 description: "Namų ūkio dydis, svoris įverčių skaičiavimui, vertinimo sritys (gyvenamoji vietovė, namų ūkio tipas, namų ūkio galvos socialinė-ekonominė grupė, amžius, išsilavinimas ir kt.)"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Household2008"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, household2008, deployed, cadence-quadrennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L263"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv#L263"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1630/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/namu_ukio_biudzetas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Household2008 — Namų ūkio duomenys 2008m.
 
-Namų ūkio dydis, svoris įverčių skaičiavimui, vertinimo sritys (gyvenamoji vietovė, namų ūkio tipas, namų ūkio galvos socialinė-ekonominė grupė, amžius, išsilavinimas ir kt.)
+Namų ūkio dydis, svoris įverčių skaičiavimui, vertinimo sritys (gyvenamoji vietovė, namų ūkio tipas, namų ūkio galvos socialinė-ekonominė grupė, amžius, išsilavinimas ir kt.)[^manifest]
 
 - **Model:** `datasets/gov/lsd/namu_ukio_biudzetas/Household2008`[^manifest]
-- **Dataset:** [datasets/gov/lsd/namu_ukio_biudzetas](../namu_ukio_biudzetas.md) (`datasets/gov/lsd/namu_ukio_biudzetas`)
-- **Manifest CSV:** [datasets/gov/lsd/namu_ukio_biudzetas.csv#L263](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L263)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Household2008`
+- **Dataset:** [Namų ūkių biudžeto statistinio tyrimo duomenys](../namu_ukio_biudzetas.md) (`datasets/gov/lsd/namu_ukio_biudzetas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/namu_ukio_biudzetas.csv#L263](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L263)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Household2008` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUADRENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +56,7 @@ Namų ūkio dydis, svoris įverčių skaičiavimui, vertinimo sritys (gyvenamoji
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tipas` | `1` | — | — | Vienas gyvenantis asmuo | — |
 | `tipas` | `2` | — | — | Vienas suaugęs asmuo su vaikais | — |
@@ -96,4 +107,5 @@ Namų ūkio dydis, svoris įverčių skaičiavimui, vertinimo sritys (gyvenamoji
 | `strata2` | `6` | — | — | Kiti miestai | — |
 | `strata2` | `7` | — | — | Kaimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv#L263 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L263)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/namu_ukio_biudzetas (https://data.gov.lt/datasets/1630/)

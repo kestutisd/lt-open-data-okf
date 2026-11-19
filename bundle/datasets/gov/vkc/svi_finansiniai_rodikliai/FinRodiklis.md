@@ -3,25 +3,34 @@ type: Table
 title: "FinRodiklis — Savivaldybių valdomų įmonių finansiniai rodikliai"
 description: "Lentelėje pateikti savivaldybių valdomų įmonių 2018 -2023 metų finansinių rodiklių duomenys iš VšĮ Valdymo koordinavimo centro (VKC)."
 resource: "https://get.data.gov.lt/datasets/gov/vkc/svi_finansiniai_rodikliai/FinRodiklis"
-tags: [gov, vkc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vkc, finrodiklis, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vkc/svi_finansiniai_rodikliai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2849/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vkc/svi_finansiniai_rodikliai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # FinRodiklis — Savivaldybių valdomų įmonių finansiniai rodikliai
 
-Lentelėje pateikti savivaldybių valdomų įmonių 2018 -2023 metų finansinių rodiklių duomenys iš VšĮ Valdymo koordinavimo centro (VKC).
+Lentelėje pateikti savivaldybių valdomų įmonių 2018 -2023 metų finansinių rodiklių duomenys iš VšĮ Valdymo koordinavimo centro (VKC). Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vkc/svi_finansiniai_rodikliai/FinRodiklis`[^manifest]
-- **Dataset:** [Savivaldybių valdomų įmonių finansiniai rodikliai](../svi_finansiniai_rodikliai.md) (`datasets/gov/vkc/svi_finansiniai_rodikliai`)
-- **Manifest CSV:** [datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkc/svi_finansiniai_rodikliai/FinRodiklis`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Savivaldybių valdomų įmonių finansiniai rodikliai](../svi_finansiniai_rodikliai.md) (`datasets/gov/vkc/svi_finansiniai_rodikliai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkc/svi_finansiniai_rodikliai/FinRodiklis` (`deployed`)[^manifest]
+- **Provider:** `vkc` — Valdymo koordinavimo centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -62,7 +71,7 @@ Lentelėje pateikti savivaldybių valdomų įmonių 2018 -2023 metų finansinių
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `sektorius` | `"Kita"` | — | — | Kita | — |
 | `sektorius` | `"Vandentvarka"` | — | — | Vandentvarka | — |
@@ -78,4 +87,9 @@ Lentelėje pateikti savivaldybių valdomų įmonių 2018 -2023 metų finansinių
 | `ebitda` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `ebit` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vkc/svi_finansiniai_rodikliai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkc/svi_finansiniai_rodikliai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vkc/svi_finansiniai_rodikliai (https://data.gov.lt/datasets/2849/)

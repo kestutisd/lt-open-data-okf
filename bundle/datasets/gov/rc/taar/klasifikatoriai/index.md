@@ -1,10 +1,10 @@
-# `datasets/gov/rc/taar/klasifikatoriai`
+# Directory Index: `datasets/gov/rc/taar/klasifikatoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [AI — Turto arešto aktų registro areštuojančių institucijų tipų klasifikatorius](AI.md) - Spinta table datasets/gov/rc/taar/klasifikatoriai/AI (2 columns).
-* [DokumentoStatusas — Turto arešto aktų registro dokumentų statusų klasifikatorius](DokumentoStatusas.md) - Spinta table datasets/gov/rc/taar/klasifikatoriai/DokumentoStatusas (2 columns).
-* [TurtoPotipis](TurtoPotipis.md) - Spinta table datasets/gov/rc/taar/klasifikatoriai/TurtoPotipis (2 columns).
-* [TurtoTipas — Turto arešto aktų registro turto tipų klasifikatorius](TurtoTipas.md) - Spinta table datasets/gov/rc/taar/klasifikatoriai/TurtoTipas (2 columns).
+* [AI — Turto arešto aktų registro areštuojančių institucijų tipų klasifikatorius](AI.md) - Turto arešto aktų registro klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.): TAAR turto tipų klasifikatorius; TAAR tipų potipių klasifikatorius; TAAR dokumentų statusų klasifikatorius; TAAR...
+* [DokumentoStatusas — Turto arešto aktų registro dokumentų statusų klasifikatorius](DokumentoStatusas.md) - Turto arešto aktų registro klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.): TAAR turto tipų klasifikatorius; TAAR tipų potipių klasifikatorius; TAAR dokumentų statusų klasifikatorius; TAAR...
+* [TurtoPotipis](TurtoPotipis.md) - Turto arešto aktų registro klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.): TAAR turto tipų klasifikatorius; TAAR tipų potipių klasifikatorius; TAAR dokumentų statusų klasifikatorius; TAAR...
+* [TurtoTipas — Turto arešto aktų registro turto tipų klasifikatorius](TurtoTipas.md) - Turto arešto aktų registro klasifikatoriai (duomenų rinkinių grupė, viso 4 vnt.): TAAR turto tipų klasifikatorius; TAAR tipų potipių klasifikatorius; TAAR dokumentų statusų klasifikatorius; TAAR...

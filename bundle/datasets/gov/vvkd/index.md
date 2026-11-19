@@ -1,11 +1,11 @@
-# `datasets/gov/vvkd` — AB Vidaus vandens kelių direkcija
+# Directory Index: `datasets/gov/vvkd`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [e_zemelapiai/](e_zemelapiai/index.md) - Vidaus vandenų e-navigacinių žemėlapių informacija (0 datasets, 20 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
 * [Vidaus vandenų e-navigacinių žemėlapių informacija](e_zemelapiai.md) - Šiame viename rinkinyje pateikiama vidaus vandenų kelių e-navigacinių žemėlapių informacija.
+
+# Subdirectories
+
+* [e_zemelapiai/](e_zemelapiai/index.md) - 20 tables

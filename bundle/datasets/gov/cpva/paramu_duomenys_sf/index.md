@@ -1,6 +1,6 @@
-# `datasets/gov/cpva/paramu_duomenys_sf`
+# Directory Index: `datasets/gov/cpva/paramu_duomenys_sf`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

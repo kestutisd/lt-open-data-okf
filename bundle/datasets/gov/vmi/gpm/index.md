@@ -1,6 +1,6 @@
-# `datasets/gov/vmi/gpm`
+# Directory Index: `datasets/gov/vmi/gpm`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

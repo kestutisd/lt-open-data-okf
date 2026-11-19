@@ -3,24 +3,34 @@ type: Table
 title: "BiudzetoVykdymoAtaskaita — Biudžeto vykdymo ataskaita"
 description: "Valstybės kontrolės biudžeto išlaidų sąmatos vykdymo duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vk/bva/BiudzetoVykdymoAtaskaita"
-tags: [gov, vk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vk, biudzetovykdymoataskaita, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vk/bva.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/bva.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/vk/bva.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1847/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vk/bva"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BiudzetoVykdymoAtaskaita — Biudžeto vykdymo ataskaita
 
-Valstybės kontrolės biudžeto išlaidų sąmatos vykdymo duomenys
+Valstybės kontrolės biudžeto išlaidų sąmatos vykdymo duomenys[^manifest]
 
 - **Model:** `datasets/gov/vk/bva/BiudzetoVykdymoAtaskaita`[^manifest]
-- **Dataset:** [datasets/gov/vk/bva](../bva.md) (`datasets/gov/vk/bva`)
-- **Manifest CSV:** [datasets/gov/vk/bva.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/bva.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vk/bva/BiudzetoVykdymoAtaskaita`
-- **Level:** `4`
+- **Dataset:** [Valstybės kontrolės biudžeto vykdymo ataskaitų duomenys](../bva.md) (`datasets/gov/vk/bva`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vk/bva.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/bva.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vk/bva/BiudzetoVykdymoAtaskaita` (`deployed`)[^manifest]
+- **Provider:** `vk` — Valstybės kontrolė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -55,4 +65,5 @@ Valstybės kontrolės biudžeto išlaidų sąmatos vykdymo duomenys
 | `gauti_asignavimai_kartu_su_iskaitytu_prajusiu_metu_lesu_likuciu` | `update(type: "money", ref: "EUR")` | `type, ref` | `4` | — | `spinta: 40` | — | — |
 | `panaudoti_asignavimai` | `update(type: "money", ref: "EUR")` | `type, ref` | `4` | — | `spinta: 40` | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vk/bva.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vk/bva.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/bva.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vk/bva (https://data.gov.lt/datasets/1847/)

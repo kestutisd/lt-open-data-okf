@@ -1,6 +1,6 @@
-# `datasets/gov/aad/ukio_subjektu_patikrinimai`
+# Directory Index: `datasets/gov/aad/ukio_subjektu_patikrinimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

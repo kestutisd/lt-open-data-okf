@@ -1,6 +1,6 @@
-# `datasets/gov/on/notam`
+# Directory Index: `datasets/gov/on/notam`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

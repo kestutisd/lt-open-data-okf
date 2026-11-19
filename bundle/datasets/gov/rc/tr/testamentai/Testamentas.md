@@ -3,23 +3,32 @@ type: Table
 title: "Testamentas"
 description: "Spinta table datasets/gov/rc/tr/testamentai/Testamentas (12 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/tr/testamentai/Testamentas"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, testamentas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/tr/testamentai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/testamentai.csv#L3"
+    title: "atviriduomenys/manifest — datasets/gov/rc/tr/testamentai.csv#L3"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2141/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/tr/testamentai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Testamentas
 
 - **Model:** `datasets/gov/rc/tr/testamentai/Testamentas`[^manifest]
-- **Dataset:** [Testamentų registro (TR) duomenys apie testamentus](../testamentai.md) (`datasets/gov/rc/tr/testamentai`)
-- **Manifest CSV:** [datasets/gov/rc/tr/testamentai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/testamentai.csv#L3)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/tr/testamentai/Testamentas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Testamentų registro (TR) duomenys apie testamentus](../testamentai.md) (`datasets/gov/rc/tr/testamentai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/tr/testamentai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/testamentai.csv#L3)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/tr/testamentai/Testamentas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -27,7 +36,7 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `id` | `integer` | — | `4` | `open` | — | Registro objekto identifikavimo kodas šiame duomenų rinkinyje | — |
 | `pavadinimas` | `string` | — | `3` | `open` | — | Registro objekto pavadinimas | — |
-| `testamento_rusis` | `ref` | [/datasets/gov/rc/tr/tr_klasifikatoriai/TrRusis](../tr_klasifikatoriai/TrRusis.md) | `4` | `open` | — | Testamento rūšis | — |
+| `testamento_rusis` | `ref` | [TrRusis](../tr_klasifikatoriai/TrRusis.md) (`level=4 UUID`: `testamento_rusis._id`) | `4` | `open` | — | Testamento rūšis | — |
 | `sudaryta_uzs` | `integer` | — | `4` | `open` | — | Ar sudarytas užsienyje | — |
 | `reg_data` | `string` | — | `3` | `open` | — | Testamento įregistravimo laikotarpis (metai - ketvirtis) | — |
 | `isreg_data` | `string` | — | `3` | `open` | — | Testamento išregistravimo laikotarpis (metai - ketvirtis) | — |
@@ -40,7 +49,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `sudaryta_uzs` | `1` | — | — | Testamentas sudarytas užsienyje | — |
 | `sudaryta_uzs` | `0` | — | — | Testamentas sudarytas Lietuvoje | — |
@@ -50,4 +59,5 @@ sources:
 | `uzsienietis` | `1` | — | — | Užsienietis | — |
 | `uzsienietis` | `0` | — | — | Lietuvos Respublikos pilietis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/tr/testamentai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/tr/testamentai.csv#L3 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/tr/testamentai.csv#L3)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/tr/testamentai (https://data.gov.lt/datasets/2141/)

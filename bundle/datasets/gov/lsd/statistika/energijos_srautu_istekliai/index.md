@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/energijos_srautu_istekliai`
+# Directory Index: `datasets/gov/lsd/statistika/energijos_srautu_istekliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

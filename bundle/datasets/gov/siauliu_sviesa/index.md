@@ -1,11 +1,11 @@
-# `datasets/gov/siauliu_sviesa` — UAB Šiaulių šviesa
+# Directory Index: `datasets/gov/siauliu_sviesa`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [administraciniai_nusizengimai_leidimai/](administraciniai_nusizengimai_leidimai/index.md) - Išduoti automobilių stovėjimo leidimai ir užfiksuoti pažeidimai Šiaulių mieste (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
 * [Išduoti automobilių stovėjimo leidimai ir užfiksuoti pažeidimai Šiaulių mieste](administraciniai_nusizengimai_leidimai.md) - Informacija apie išduotus automobilių stovėjimo leidimus ir užfiksuotus pažeidimus Šiaulių mieste
+
+# Subdirectories
+
+* [administraciniai_nusizengimai_leidimai/](administraciniai_nusizengimai_leidimai/index.md) - 2 tables

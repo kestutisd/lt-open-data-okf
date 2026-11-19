@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "DarboKruvis — Pedagogų darbo krūvis"
-description: "Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendrojo, ikimokyklinio ugdymo mokyklų, profesinio mokymo įstaigų, neformaliojo vaikų švietimo mokyklų ir formalųjį švietimą papildančio ugdymo mokyklų, mokslo ir..."
+description: "Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendrojo, ikimokyklinio ugdymo mokyklų, profesinio mokymo įstaigų, neformaliojo vaikų švietimo mokyklų ir formalųjį švietimą papildančio ugdymo mokyklų, mokslo ir studijų institucijų pedagoginių darbuotojų..."
 resource: "https://get.data.gov.lt/datasets/gov/nsa/pr/pedagogu_kruvis/DarboKruvis"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, darbokruvis, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/pr/pedagogu_kruvis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2615/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/pr/pedagogu_kruvis"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # DarboKruvis — Pedagogų darbo krūvis
 
-Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendrojo, ikimokyklinio ugdymo mokyklų, profesinio mokymo įstaigų, neformaliojo vaikų švietimo mokyklų ir formalųjį švietimą papildančio ugdymo mokyklų, mokslo ir studijų institucijų pedagoginių darbuotojų ir/arba tyrėjų) pareigybių ir darbo krūvio duomenys iš pedagogų registro (PR). Duomenys kaupiami nuo 2010 m. Siekiant užtikrinti asmens duomenų apsaugą duomenys buvo triukšminti.
+Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendrojo, ikimokyklinio ugdymo mokyklų, profesinio mokymo įstaigų, neformaliojo vaikų švietimo mokyklų ir formalųjį švietimą papildančio ugdymo mokyklų, mokslo ir studijų institucijų pedagoginių darbuotojų ir/arba tyrėjų) pareigybių ir darbo krūvio duomenys iš pedagogų registro (PR). Duomenys kaupiami nuo 2010 m. Siekiant užtikrinti asmens duomenų apsaugą duomenys buvo triukšminti.[^manifest]
 
 - **Model:** `datasets/gov/nsa/pr/pedagogu_kruvis/DarboKruvis`[^manifest]
-- **Dataset:** [Pedagogų darbo krūvis](../pedagogu_kruvis.md) (`datasets/gov/nsa/pr/pedagogu_kruvis`)
-- **Manifest CSV:** [datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/pr/pedagogu_kruvis/DarboKruvis`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Pedagogų darbo krūvis](../pedagogu_kruvis.md) (`datasets/gov/nsa/pr/pedagogu_kruvis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/pr/pedagogu_kruvis/DarboKruvis` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,7 +52,7 @@ Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendroj
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"V"` | — | — | Vyras | — |
 | `lytis` | `"M"` | — | — | Moteris | — |
@@ -56,4 +65,5 @@ Lentelėje pateikti Nacionalinės Švietimo agentūros (NŠA) pedagogų (bendroj
 | `institucija_tipai` | `update(property: "institucija_tipai[]", type: "array", source: "Institucija_tipai")` | `property` | `4` | — | — | — | — |
 | `pareigybe_pav_lt` | `update(property: "pareigybe_pav_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/pr/pedagogu_kruvis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/pr/pedagogu_kruvis.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/pr/pedagogu_kruvis (https://data.gov.lt/datasets/2615/)

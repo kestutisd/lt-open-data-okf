@@ -1,8 +1,8 @@
-# `datasets/gov/rc/jar/formos_statusai`
+# Directory Index: `datasets/gov/rc/jar/formos_statusai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Forma — Juridinių asmenų registro teisinių formų klasifikatorius](Forma.md) - Spinta table datasets/gov/rc/jar/formos_statusai/Forma (6 columns).
-* [Statusas — Juridinių asmenų registro teisinių statusų klasifikatorius](Statusas.md) - Spinta table datasets/gov/rc/jar/formos_statusai/Statusas (3 columns).
+* [Forma — Juridinių asmenų registro teisinių formų klasifikatorius](Forma.md) - Lietuvos Respublikos juridinių asmenų registro teisinių formų ir teisinių statusų klasifikatoriai (duomenų rinkinių grupė, viso 2vnt.) (JAR teisinių formų klasifikatorius; JAR teisinių statusų...
+* [Statusas — Juridinių asmenų registro teisinių statusų klasifikatorius](Statusas.md) - Lietuvos Respublikos juridinių asmenų registro teisinių formų ir teisinių statusų klasifikatoriai (duomenų rinkinių grupė, viso 2vnt.) (JAR teisinių formų klasifikatorius; JAR teisinių statusų...

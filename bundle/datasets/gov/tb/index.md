@@ -1,11 +1,11 @@
-# `datasets/gov/tb` — Turto Bankas
+# Directory Index: `datasets/gov/tb`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [lr_nt_objektas/](lr_nt_objektas/index.md) - Lietuvos Respublikos nuosavybės teise valdomas turtas (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Lietuvos Respublikos nuosavybės teise valdomas turtas](lr_nt_objektas.md) - Spinta dataset datasets/gov/tb/lr_nt_objektas (1 table).
+* [Lietuvos Respublikos nuosavybės teise valdomas turtas](lr_nt_objektas.md) - Rinkinyje pateikiamas VĮ Turto banke registruotas Lietuvos Respublikos nuosavybės teise valdomas turtas (pastatai, inžinerija, patalpos), nuosavybės pradžios ir pabaigos data, plotas, registrų...
+
+# Subdirectories
+
+* [lr_nt_objektas/](lr_nt_objektas/index.md) - 1 table

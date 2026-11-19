@@ -1,6 +1,6 @@
-# `datasets/gov/nma/zvejyba_covid`
+# Directory Index: `datasets/gov/nma/zvejyba_covid`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

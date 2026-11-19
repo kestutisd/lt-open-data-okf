@@ -1,6 +1,6 @@
-# `datasets/gov/lrvk/portfeliai`
+# Directory Index: `datasets/gov/lrvk/portfeliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

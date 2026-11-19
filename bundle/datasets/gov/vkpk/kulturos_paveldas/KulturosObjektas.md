@@ -3,25 +3,34 @@ type: Table
 title: "KulturosObjektas — Lietuvai reikšmingas kultūros paveldas, esantis užsienyje"
 description: "Duomenų rinkinyje pateikiamas kultūros paveldo objekto pavadinimas, aprašymas, kategorijos, laikotarpis, metai, miestas, šalis, WGS koordinatės, autoriai, susiję asmenys ir interneto svetainės adresas (URL)."
 resource: "https://get.data.gov.lt/datasets/gov/vkpk/kulturos_paveldas/KulturosObjektas"
-tags: [gov, vkpk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vkpk, kulturosobjektas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vkpk/kulturos_objektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkpk/kulturos_objektai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vkpk/kulturos_objektai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3814/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vkpk/kulturos_paveldas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # KulturosObjektas — Lietuvai reikšmingas kultūros paveldas, esantis užsienyje
 
-Duomenų rinkinyje pateikiamas kultūros paveldo objekto pavadinimas, aprašymas, kategorijos, laikotarpis, metai, miestas, šalis, WGS koordinatės, autoriai, susiję asmenys ir interneto svetainės adresas (URL).
+Duomenų rinkinyje pateikiamas kultūros paveldo objekto pavadinimas, aprašymas, kategorijos, laikotarpis, metai, miestas, šalis, WGS koordinatės, autoriai, susiję asmenys ir interneto svetainės adresas (URL).[^manifest]
 
 - **Model:** `datasets/gov/vkpk/kulturos_paveldas/KulturosObjektas`[^manifest]
-- **Dataset:** [Lietuvai reikšmingas kultūros paveldas, esantis užsienyje](../kulturos_paveldas.md) (`datasets/gov/vkpk/kulturos_paveldas`)
-- **Manifest CSV:** [datasets/gov/vkpk/kulturos_objektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkpk/kulturos_objektai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkpk/kulturos_paveldas/KulturosObjektas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Lietuvai reikšmingas kultūros paveldas, esantis užsienyje](../kulturos_paveldas.md) (`datasets/gov/vkpk/kulturos_paveldas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vkpk/kulturos_objektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkpk/kulturos_objektai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vkpk/kulturos_paveldas/KulturosObjektas` (`deployed`)[^manifest]
+- **Provider:** `vkpk` — Valstybinė kultūros paveldo komisija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,4 +50,5 @@ Duomenų rinkinyje pateikiamas kultūros paveldo objekto pavadinimas, aprašymas
 | `susijusios_asmenybes` | `string` | — | `4` | `open` | — | Susijusių asmenybių informacija | — |
 | `url` | `string` | — | `4` | `open` | — | Išorinis URL nuoroda | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vkpk/kulturos_objektai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vkpk/kulturos_objektai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vkpk/kulturos_objektai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vkpk/kulturos_paveldas (https://data.gov.lt/datasets/3814/)

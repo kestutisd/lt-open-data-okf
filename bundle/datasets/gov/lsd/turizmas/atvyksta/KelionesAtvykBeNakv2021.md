@@ -3,22 +3,32 @@ type: Table
 title: "KelionesAtvykBeNakv2021 — Atvykusių turistų kelionės be nakvynės 2021 m."
 description: "Spinta table datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykBeNakv2021 (32 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykBeNakv2021"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, kelionesatvykbenakv2021, deployed, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L119"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv#L119"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2079/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/turizmas/atvyksta"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # KelionesAtvykBeNakv2021 — Atvykusių turistų kelionės be nakvynės 2021 m.
 
 - **Model:** `datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykBeNakv2021`[^manifest]
-- **Dataset:** [Atvykstamojo turizmo statistiniai tyrimai](../atvyksta.md) (`datasets/gov/lsd/turizmas/atvyksta`)
-- **Manifest CSV:** [datasets/gov/lsd/turizmas/atvyksta.csv#L119](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L119)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykBeNakv2021`
-- **Primary Key (`ref`):** `id`
+- **Dataset:** [Atvykstamojo turizmo statistiniai tyrimai](../atvyksta.md) (`datasets/gov/lsd/turizmas/atvyksta`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/turizmas/atvyksta.csv#L119](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L119)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/turizmas/atvyksta/KelionesAtvykBeNakv2021` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -34,7 +44,7 @@ sources:
 | `tikslas` | `string` | — | `4` | `open` | — | Kelionės tikslas | — |
 | `transporto_priemone` | `string` | — | `4` | `open` | — | Transporto priemonė | Pagrindinė transporto priemonė, kuria keliavo |
 | `trukme` | `integer` | `h` | `4` | `open` | — | Kiek valandų praleido Lietuvoje | — |
-| `pirmakart` | `integer` | `bool` | `4` | `open` | — | Ar pirmąkart lankėsi Lietuvoje | — |
+| `pirmakart` | `integer` | `enum: bool` | `4` | `open` | — | Ar pirmąkart lankėsi Lietuvoje | — |
 | `islaid_pries` | `integer` | — | `2` | `open` | — | Išlaidos prieš kelionę | Visos išlaidos čia pateiktos vienam asmeniui (respondento nurodytos išlaidos padalintos iš asmenų skaičiaus); apima paslaugų paketą, vizą ir kitas išlaidas prieš kelionę |
 | `zmoniu_sk_pries` | `integer` | `U` | `4` | `open` | — | Žmonių skaičius, kuriam nurodytos išlaidos prieš kelionę | — |
 | `islaid_paketui` | `integer` | — | `2` | `open` | — | Išlaidos paslaugų paketui | Nurodyta vidutinė kaina vienai šaliai, jei paslaugų paketas apima kelias šalis |
@@ -59,7 +69,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"1"` | — | — | Vyras | — |
 | `lytis` | `"2"` | — | — | Moteris | — |
@@ -108,4 +118,5 @@ sources:
 | `islaid_kt` | `update(type: "money", ref: "EUR")` | `type` | `4` | `open` | — | — | — |
 | `islaid_viso` | `update(type: "money", ref: "EUR")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/turizmas/atvyksta.csv#L119 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/turizmas/atvyksta.csv#L119)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/turizmas/atvyksta (https://data.gov.lt/datasets/2079/)

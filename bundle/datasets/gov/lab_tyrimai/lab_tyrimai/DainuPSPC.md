@@ -3,27 +3,34 @@ type: Table
 title: "DainuPSPC — Dainų pirminės sveikatos priežiūros centro pacientams atliktų laboratorinių tyrimų duomenys"
 description: "VšĮ Dainų pirminės sveikatos priežiūros centro POLIS sistema kaupia pacientams atliktų laboratorinių tyrimų duomenis."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/DainuPSPC"
-tags: [gov, lab_tyrimai, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, dainupspc, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # DainuPSPC — Dainų pirminės sveikatos priežiūros centro pacientams atliktų laboratorinių tyrimų duomenys
 
-VšĮ Dainų pirminės sveikatos priežiūros centro POLIS sistema kaupia pacientams atliktų laboratorinių tyrimų duomenis. Duomenys kaupiami nuo 2021 m. ir yra atnaujinami iki šiol. Duomenų rinkinio kaupiami duomenys apima paciento šifruotą identifikatorių, lytį, gimimo metus, tyrimo užsakymo datą dienos tikslumu, tyrimo pavadinimą, tyrimo rezultatus bei nurodytas apatines ir viršutines normas.
-
-Rinkinyje viena eilutė nurodo vieno asmens vieną konkretų tyrimą.
+VšĮ Dainų pirminės sveikatos priežiūros centro POLIS sistema kaupia pacientams atliktų laboratorinių tyrimų duomenis. Duomenys kaupiami nuo 2021 m. ir yra atnaujinami iki šiol. Duomenų rinkinio kaupiami duomenys apima paciento šifruotą identifikatorių, lytį, gimimo metus, tyrimo užsakymo datą dienos tikslumu, tyrimo pavadinimą, tyrimo rezultatus bei nurodytas apatines ir viršutines normas. Rinkinyje viena eilutė nurodo vieno asmens vieną konkretų tyrimą. PASITERIAVIMUI: Valstybės duomenų valdysenos atvėrimo komanda: atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/DainuPSPC`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/DainuPSPC`
-- **Primary Key (`ref`):** `vda_primary_key`
-- **Level:** `4`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/DainuPSPC` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_primary_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -47,9 +54,10 @@ Rinkinyje viena eilutė nurodo vieno asmens vieną konkretų tyrimą.
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `vda_lytis_ak` | `"Vyras"` | — | — | Vyras | — |
 | `vda_lytis_ak` | `"Moteris"` | — | — | Moteris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L84)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

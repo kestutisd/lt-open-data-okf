@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "EcallSkambutis — Transporto priemonių pagalbos iškvietimo skambučių „eCall“ duomenys"
-description: "Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie kuriuos gauti pranešimai pagalbos telefonu 112, duomenys, kai transporto priemonėje įrengta sistema suaktyvinama automatiškai (transporto priemonėje įrengtais..."
+description: "Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie kuriuos gauti pranešimai pagalbos telefonu 112, duomenys, kai transporto priemonėje įrengta sistema suaktyvinama automatiškai (transporto priemonėje įrengtais jutikliais) arba rankiniu būdu ir per..."
 resource: "https://get.data.gov.lt/datasets/gov/bpc/pagalbos_ecall_iskvietimai/EcallSkambutis"
-tags: [gov, bpc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, bpc, ecallskambutis, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2761/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/bpc/pagalbos_ecall_iskvietimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # EcallSkambutis — Transporto priemonių pagalbos iškvietimo skambučių „eCall“ duomenys
 
-Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie kuriuos gauti pranešimai pagalbos telefonu 112, duomenys, kai transporto priemonėje įrengta sistema suaktyvinama automatiškai (transporto priemonėje įrengtais jutikliais) arba rankiniu būdu ir per mobiliojo ryšio tinklą užmezgamas ryšys tarp į eismo ar kitokį įvykį patekusios transporto priemonės ir Bendrojo pagalbos centro. Duomenys kaupiami nuo 2003 m. ir yra atnaujinami kas mėnesį.
+Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie kuriuos gauti pranešimai pagalbos telefonu 112, duomenys, kai transporto priemonėje įrengta sistema suaktyvinama automatiškai (transporto priemonėje įrengtais jutikliais) arba rankiniu būdu ir per mobiliojo ryšio tinklą užmezgamas ryšys tarp į eismo ar kitokį įvykį patekusios transporto priemonės ir Bendrojo pagalbos centro. Duomenys kaupiami nuo 2003 m. ir yra atnaujinami kas mėnesį. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/bpc/pagalbos_ecall_iskvietimai/EcallSkambutis`[^manifest]
-- **Dataset:** [datasets/gov/bpc/pagalbos_ecall_iskvietimai](../pagalbos_ecall_iskvietimai.md) (`datasets/gov/bpc/pagalbos_ecall_iskvietimai`)
-- **Manifest CSV:** [datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/bpc/pagalbos_ecall_iskvietimai/EcallSkambutis`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Transporto priemonių pagalbos iškvietimo skambučių „eCall“ duomenys](../pagalbos_ecall_iskvietimai.md) (`datasets/gov/bpc/pagalbos_ecall_iskvietimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/bpc/pagalbos_ecall_iskvietimai/EcallSkambutis` (`deployed`)[^manifest]
+- **Provider:** `bpc` — Bendrasis pagalbos centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,4 +54,5 @@ Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie
 | `x_koord_lks` | `integer` | — | `4` | `open` | — | Įvykio x koordinatė pagal LKS-94 koordinačių sistemą | — |
 | `y_koord_lks` | `integer` | — | `4` | `open` | — | Įvykio y koordinatė pagal LKS-94 koordinačių sistemą | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/bpc/pagalbos_ecall_iskvietimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/bpc/pagalbos_ecall_iskvietimai (https://data.gov.lt/datasets/2761/)

@@ -3,23 +3,32 @@ type: Table
 title: "SavTaskDuom2010 — Savivaldybių taškiniai geoerdviniai duomenys\",\" remiantis visuotiniu žemės ūkio surašymu 2010 m."
 description: "Spinta table datasets/gov/lsd/zemes_ukis/SavTaskDuom2010 (12 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/zemes_ukis/SavTaskDuom2010"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, savtaskduom2010, deployed, level-4, cadence-decennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/zemes_ukio_surasymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/zemes_ukio_surasymai.csv#L33"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/zemes_ukio_surasymai.csv#L33"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1909/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/zemes_ukis"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SavTaskDuom2010 — Savivaldybių taškiniai geoerdviniai duomenys"," remiantis visuotiniu žemės ūkio surašymu 2010 m.
 
 - **Model:** `datasets/gov/lsd/zemes_ukis/SavTaskDuom2010`[^manifest]
-- **Dataset:** [datasets/gov/lsd/zemes_ukis](../zemes_ukis.md) (`datasets/gov/lsd/zemes_ukis`)
-- **Manifest CSV:** [datasets/gov/lsd/zemes_ukio_surasymai.csv#L33](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/zemes_ukio_surasymai.csv#L33)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/zemes_ukis/SavTaskDuom2010`
-- **Primary Key (`ref`):** `objectid`
-- **Level:** `4`
+- **Dataset:** [Lietuvos Respublikos visuotinio žemės ūkio surašymo rezultatų duomenys](../zemes_ukis.md) (`datasets/gov/lsd/zemes_ukis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/zemes_ukio_surasymai.csv#L33](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/zemes_ukio_surasymai.csv#L33)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/zemes_ukis/SavTaskDuom2010` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `objectid`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DECENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -38,4 +47,9 @@ sources:
 | `karviu_sk` | `string` | — | `4` | `open` | — | Karvių skaičius | — |
 | `objectid` | `integer` | — | `4` | `open` | — | Objekto įdentifikatorius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/zemes_ukio_surasymai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/zemes_ukio_surasymai.csv#L33 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/zemes_ukio_surasymai.csv#L33)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/zemes_ukis (https://data.gov.lt/datasets/1909/)

@@ -3,23 +3,32 @@ type: Table
 title: "Paslauga — Vilniaus miesto socialinių paslaugų centro suteiktos paslaugos"
 description: "Spinta table datasets/gov/vmspc/suteiktos_paslaugos/Paslauga (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmspc/suteiktos_paslaugos/Paslauga"
-tags: [gov, vmspc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmspc, paslauga, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmspc/suteiktos_paslaugos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteiktos_paslaugos.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vmspc/suteiktos_paslaugos.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3801/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmspc/suteiktos_paslaugos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paslauga — Vilniaus miesto socialinių paslaugų centro suteiktos paslaugos
 
 - **Model:** `datasets/gov/vmspc/suteiktos_paslaugos/Paslauga`[^manifest]
-- **Dataset:** [Vilniaus miesto socialinių paslaugų centro suteiktos paslaugos](../suteiktos_paslaugos.md) (`datasets/gov/vmspc/suteiktos_paslaugos`)
-- **Manifest CSV:** [datasets/gov/vmspc/suteiktos_paslaugos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteiktos_paslaugos.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmspc/suteiktos_paslaugos/Paslauga`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Vilniaus miesto socialinių paslaugų centro suteiktos paslaugos](../suteiktos_paslaugos.md) (`datasets/gov/vmspc/suteiktos_paslaugos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmspc/suteiktos_paslaugos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteiktos_paslaugos.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmspc/suteiktos_paslaugos/Paslauga` (`deployed`)[^manifest]
+- **Provider:** `vmspc` — BĮ Vilniaus miesto socialinių paslaugų centras *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paslaugu_grupe` | `"I"` | — | — | Individuali | — |
 | `paslaugu_grupe` | `"N"` | — | — | Neindividuali | — |
@@ -53,4 +62,5 @@ sources:
 | `lytis_ak` | `"Moteris"` | — | — | Moteris | — |
 | `lytis_ak` | `"Vyras"` | — | — | Vyras | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmspc/suteiktos_paslaugos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmspc/suteiktos_paslaugos.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmspc/suteiktos_paslaugos.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmspc/suteiktos_paslaugos (https://data.gov.lt/datasets/3801/)

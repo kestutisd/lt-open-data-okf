@@ -1,6 +1,6 @@
-# `datasets/gov/simno_komun/tersalai_po_valymo`
+# Directory Index: `datasets/gov/simno_komun/tersalai_po_valymo`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

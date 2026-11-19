@@ -3,25 +3,34 @@ type: Table
 title: "Tipas — Patarlės ir priežodžiai"
 description: "Lietuvių patarlių ir priežodžių tipų sąrašas."
 resource: "https://get.data.gov.lt/datasets/gov/llti/patarles_priezodziai/Tipas"
-tags: [gov, llti, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, llti, tipas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/llti/patarles_priezodziai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/patarles_priezodziai.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/llti/patarles_priezodziai.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2920/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/llti/patarles_priezodziai"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # Tipas — Patarlės ir priežodžiai
 
-Lietuvių patarlių ir priežodžių tipų sąrašas. Tipas – tai populiariausias ar reprezentatyviausias, į svarbiausius rinkinius įtrauktas lietuviškos patarlės arba priežodžio variantas. Tipų antraštės (pavadinimai) pateikiamos su atraminiais žodžiais, interpretacija, vertimu į anglų, vokiečių bei rusų kalbas, variantų skaičiumi, sąsajomis su kitais tipais ir nuoroda į atitinkamo tipo puslapį Lietuvių literatūros ir tautosakos instituto patarlių ir priežodžių elektroniniame sąvade <https://elpp.archyvas.llti.lt/lt>. Ta pati tipų antraštė gali pasikartoti tarp kelių susijusių tipų ir tuomet turės skirtingus variantų (kurie šioje lentelėje nepateikiami) atraminius žodžius.
+Lietuvių patarlių ir priežodžių tipų sąrašas. Tipas – tai populiariausias ar reprezentatyviausias, į svarbiausius rinkinius įtrauktas lietuviškos patarlės arba priežodžio variantas. Tipų antraštės (pavadinimai) pateikiamos su atraminiais žodžiais, interpretacija, vertimu į anglų, vokiečių bei rusų kalbas, variantų skaičiumi, sąsajomis su kitais tipais ir nuoroda į atitinkamo tipo puslapį Lietuvių literatūros ir tautosakos instituto patarlių ir priežodžių elektroniniame sąvade <https://elpp.archyvas.llti.lt/lt>. Ta pati tipų antraštė gali pasikartoti tarp kelių susijusių tipų ir tuomet turės skirtingus variantų (kurie šioje lentelėje nepateikiami) atraminius žodžius.[^manifest]
 
 - **Model:** `datasets/gov/llti/patarles_priezodziai/Tipas`[^manifest]
-- **Dataset:** [Patarlių ir priežodžių elektroninis sąvadas](../patarles_priezodziai.md) (`datasets/gov/llti/patarles_priezodziai`)
-- **Manifest CSV:** [datasets/gov/llti/patarles_priezodziai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/patarles_priezodziai.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/llti/patarles_priezodziai/Tipas`
-- **Primary Key (`ref`):** `tipo_id`
-- **Level:** `4`
+- **Dataset:** [Patarlių ir priežodžių elektroninis sąvadas](../patarles_priezodziai.md) (`datasets/gov/llti/patarles_priezodziai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/llti/patarles_priezodziai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/patarles_priezodziai.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/llti/patarles_priezodziai/Tipas` (`deployed`)[^manifest]
+- **Provider:** `llti` — Lietuvių literatūros ir tautosakos institutas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `tipo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-10-20`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -55,4 +64,5 @@ Lietuvių patarlių ir priežodžių tipų sąrašas. Tipas – tai populiariaus
 | `vertimas_ru` | `update(property: "vertimas_ru@ru", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `pastabos` | `update(property: "pastabos@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/llti/patarles_priezodziai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/llti/patarles_priezodziai.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/patarles_priezodziai.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/llti/patarles_priezodziai (https://data.gov.lt/datasets/2920/)

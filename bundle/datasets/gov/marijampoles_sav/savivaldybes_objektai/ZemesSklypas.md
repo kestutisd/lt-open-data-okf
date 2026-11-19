@@ -3,25 +3,28 @@ type: Table
 title: "ZemesSklypas — Sutartys dėl žemės sklypų"
 description: "Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl žemės sklypų"
 resource: "https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/ZemesSklypas"
-tags: [gov, marijampoles_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, marijampoles_sav, zemessklypas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # ZemesSklypas — Sutartys dėl žemės sklypų
 
-Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl žemės sklypų
+Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl žemės sklypų[^manifest]
 
 - **Model:** `datasets/gov/marijampoles_sav/savivaldybes_objektai/ZemesSklypas`[^manifest]
-- **Dataset:** [Sutartys dėl nekilnojamo turto objektų](../savivaldybes_objektai.md) (`datasets/gov/marijampoles_sav/savivaldybes_objektai`)
-- **Manifest CSV:** [datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/ZemesSklypas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Sutartys dėl nekilnojamo turto objektų](../savivaldybes_objektai.md) (`datasets/gov/marijampoles_sav/savivaldybes_objektai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/marijampoles_sav/savivaldybes_objektai/ZemesSklypas` (`deployed`)[^manifest]
+- **Provider:** `marijampoles_sav` — Marijampolės savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -43,7 +46,7 @@ Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl žemės skl
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `objekto_aprasymas` | `"Žemės sklypas"` | — | — | — | — |
 | `objekto_aprasymas` | `"Žemės sklypo dalis"` | — | — | — | — |
@@ -52,4 +55,4 @@ Informacija apie Marijampolės savivaldybės sudarytas sutartis dėl žemės skl
 | `sutarties_tipas` | `"Panauda"` | — | — | Panaudos sutartimi valdomas objektas | — |
 | `sutarties_tipas` | `"Subnuoma"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/marijampoles_sav/savivaldybes_objektai.csv#L6)

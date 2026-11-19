@@ -1,6 +1,6 @@
-# `datasets/gov/avnt/imoniu_bankrotas`
+# Directory Index: `datasets/gov/avnt/imoniu_bankrotas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

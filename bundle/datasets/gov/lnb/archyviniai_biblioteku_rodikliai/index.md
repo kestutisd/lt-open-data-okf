@@ -1,6 +1,6 @@
-# `datasets/gov/lnb/archyviniai_biblioteku_rodikliai`
+# Directory Index: `datasets/gov/lnb/archyviniai_biblioteku_rodikliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,25 +1,34 @@
 ---
 type: Table
-title: "Kortele — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų duomenys nuo 2016m. Duomenys apima pacientų demografinę (gyvenamoji vieta..."
+title: "Kortele — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų duomenys nuo 2016m. Duomenys apima pacientų demografinę (gyvenamoji vieta, gimimo metų ir amžiaus grupės, lytis..."
 description: "Spinta table datasets/gov/rplc/stacionaras/Kortele (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rplc/stacionaras/Kortele"
-tags: [gov, rplc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rplc, kortele, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rplc/stacionaro_apsilankymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/stacionaro_apsilankymai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/rplc/stacionaro_apsilankymai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2382/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rplc/stacionaras"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
-# Kortele — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų duomenys nuo 2016m. Duomenys apima pacientų demografinę (gyvenamoji vieta...
+# Kortele — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų duomenys nuo 2016m....
 
 - **Model:** `datasets/gov/rplc/stacionaras/Kortele`[^manifest]
-- **Dataset:** [datasets/gov/rplc/stacionaras](../stacionaras.md) (`datasets/gov/rplc/stacionaras`)
-- **Manifest CSV:** [datasets/gov/rplc/stacionaro_apsilankymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/stacionaro_apsilankymai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/stacionaras/Kortele`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų...](../stacionaras.md) (`datasets/gov/rplc/stacionaras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rplc/stacionaro_apsilankymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/stacionaro_apsilankymai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/stacionaras/Kortele` (`deployed`)[^manifest]
+- **Provider:** `rplc` — Respublikinis priklausomybės ligų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `skyrius` | `"Alkoholinės abstinencijos gydymo skyrius"` | — | — | — | — |
 | `skyrius` | `"Psichosocialinio gydymo skyrius (Minesota)"` | — | — | — | — |
@@ -76,4 +85,5 @@ sources:
 | `israsyto_paciento_bukle` | `"sėkmingai baigė gydymą"` | — | — | — | Pacientas baigė gydymo kursą arba būklė pagerėjo esant neryškiems abstinencijos reiškiniams |
 | `israsyto_paciento_bukle` | `"nesėkmingai baigė gydymą"` | — | — | — | Pacientas išrašytas be pakitimų (nutraukė gydymą) arba išrašytas už režimo pažeidimus. |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/stacionaro_apsilankymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/stacionaro_apsilankymai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/stacionaro_apsilankymai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rplc/stacionaras (https://data.gov.lt/datasets/2382/)

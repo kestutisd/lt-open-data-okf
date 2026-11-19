@@ -1,28 +1,36 @@
 ---
 type: Table
 title: "Vardas — Vardų lingvistiniai duomenys"
-description: "Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių vardų sąvadas, kaip duomenų rinkinio šaltinis, yra sukurtas Gyventojų registro 2006 m. pilietybę turėjusių asmenų vardų duomenimis ir toliau yra pildomas..."
+description: "Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių vardų sąvadas, kaip duomenų rinkinio šaltinis, yra sukurtas Gyventojų registro 2006 m. pilietybę turėjusių asmenų vardų duomenimis ir toliau yra pildomas naujagimių vardais."
 resource: "https://get.data.gov.lt/datasets/gov/vlkk/vardai/Vardas"
-tags: [gov, vlkk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vlkk, vardas, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vlkk/vardai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlkk/vardai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vlkk/vardai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2664/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vlkk/vardai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Vardas — Vardų lingvistiniai duomenys
 
-Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių vardų sąvadas, kaip duomenų rinkinio šaltinis, yra sukurtas Gyventojų registro 2006 m. pilietybę turėjusių asmenų vardų duomenimis ir toliau yra pildomas naujagimių vardais. Rinkinyje duomenys kaupiami nuo 2010 m. ir yra atnaujinami kas 3 mėnesius. Duomenys apima pilną vardą, sudarančių vardų skaičių (komponentiškumą), vardo lytį, normiškumą, ar tai yra šventojo vardas, vardo įvedimo datą, vėliausias atnaujinimo bei paieškos datas, paieškų skaičių ir iki po 5 vardų kilmės grupes, pogrupius ir poskyrius.
+Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių vardų sąvadas, kaip duomenų rinkinio šaltinis, yra sukurtas Gyventojų registro 2006 m. pilietybę turėjusių asmenų vardų duomenimis ir toliau yra pildomas naujagimių vardais. Rinkinyje duomenys kaupiami nuo 2010 m. ir yra atnaujinami kas 3 mėnesius. Duomenys apima pilną vardą, sudarančių vardų skaičių (komponentiškumą), vardo lytį, normiškumą, ar tai yra šventojo vardas, vardo įvedimo datą, vėliausias atnaujinimo bei paieškos datas, paieškų skaičių ir iki po 5 vardų kilmės grupes, pogrupius ir poskyrius.[^manifest]
 
 - **Model:** `datasets/gov/vlkk/vardai/Vardas`[^manifest]
-- **Dataset:** [Vardų lingvistiniai duomenys](../vardai.md) (`datasets/gov/vlkk/vardai`)
-- **Manifest CSV:** [datasets/gov/vlkk/vardai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlkk/vardai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlkk/vardai/Vardas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Vardų lingvistiniai duomenys](../vardai.md) (`datasets/gov/vlkk/vardai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vlkk/vardai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlkk/vardai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlkk/vardai/Vardas` (`deployed`)[^manifest]
+- **Provider:** `vlkk` — Valstybinė lietuvių kalbos komisija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -56,7 +64,7 @@ Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių va
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"Vyras"` | `vyro` | — | Vyras | — |
 | `lytis` | `"Moteris"` | `moters` | — | Moteris | — |
@@ -75,4 +83,5 @@ Valstybinė lietuvių kalbos komisijos (VLKK) Lietuvos Respublikos piliečių va
 | `kilmes_grupe_5` | `"Baltiška kilmė"` | `baltiškos kilmės` | — | Baltiška kilmė | — |
 | `kilmes_grupe_5` | `"Svetima kilmė"` | `svetimos kilmės` | — | Svetima kilmė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vlkk/vardai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vlkk/vardai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlkk/vardai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vlkk/vardai (https://data.gov.lt/datasets/2664/)

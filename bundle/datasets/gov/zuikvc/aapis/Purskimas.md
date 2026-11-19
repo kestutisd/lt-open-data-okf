@@ -2,23 +2,26 @@
 type: Table
 title: "Purskimas — Augalų apsaugos produktais purškiamų plotų ir augalų sėklų, apdorotų augalų apsaugos produktais, duomenys"
 description: "Spinta table datasets/gov/zuikvc/aapis/Purskimas (10 columns)."
-tags: [gov, zuikvc, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, zuikvc, purskimas, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/zuikvc/aapis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/aapis.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/zuikvc/aapis.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Purskimas — Augalų apsaugos produktais purškiamų plotų ir augalų sėklų, apdorotų augalų apsaugos produktais, duomenys
 
 - **Model:** `datasets/gov/zuikvc/aapis/Purskimas`[^manifest]
-- **Dataset:** [datasets/gov/zuikvc/aapis](../aapis.md) (`datasets/gov/zuikvc/aapis`)
-- **Manifest CSV:** [datasets/gov/zuikvc/aapis.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/aapis.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `numeris`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/zuikvc/aapis](../aapis.md) (`datasets/gov/zuikvc/aapis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/zuikvc/aapis.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/aapis.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `zuikvc` — VĮ Žemės ūkio duomenų centras (buv. VĮ Žemės ūkio informacijos ir kaimo verslo centras) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `numeris`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -37,10 +40,14 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `busena` | `"P"` | — | — | Planuojamas | — |
 | `busena` | `"R"` | — | — | Registruotas | — |
 | `busena` | `"A"` | — | — | Atšauktas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/aapis.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/aapis.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/aapis.csv#L8)

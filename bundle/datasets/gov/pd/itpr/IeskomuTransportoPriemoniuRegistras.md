@@ -2,23 +2,26 @@
 type: Table
 title: "IeskomuTransportoPriemoniuRegistras"
 description: "Spinta table datasets/gov/pd/itpr/IeskomuTransportoPriemoniuRegistras (21 columns)."
-tags: [gov, pd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pd, ieskomutransportopriemoniuregistras, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pd/itpr.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/pd/itpr.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # IeskomuTransportoPriemoniuRegistras
 
 - **Model:** `datasets/gov/pd/itpr/IeskomuTransportoPriemoniuRegistras`[^manifest]
-- **Dataset:** [datasets/gov/pd/itpr](../itpr.md) (`datasets/gov/pd/itpr`)
-- **Manifest CSV:** [datasets/gov/pd/itpr.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `nationalid`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/pd/itpr](../itpr.md) (`datasets/gov/pd/itpr`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pd/itpr.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pd` — Policijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `nationalid`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -40,18 +43,18 @@ sources:
 | `nutraukimo_pagrindas_kt` | `string` | — | `3` | `open` | — | Paieškos butraukimo pagrindas (kita) | — |
 | `tipas` | `string` | — | `3` | `open` | — | Transporto priemonės tipas | — |
 | `tipas_kt` | `string` | — | `3` | `open` | — | Transporto priemonės tipas (kita) | — |
-| `marke` | `ref` | [/datasets/gov/regitra/tp/TransportoPriemone[marke]](../../regitra/tp/TransportoPriemone.md) | `4` | `open` | — | Transporto priemonės markė | — |
+| `marke` | `ref` | [TransportoPriemone](../../regitra/tp/TransportoPriemone.md) (`level=4 UUID` via `TransportoPriemone[marke]`: `marke._id`) | `4` | `open` | — | Transporto priemonės markė | — |
 | `marke_kt` | `string` | — | `2` | `open` | — | Transporto priemonės markė (kita) | — |
-| `modelis` | `ref` | [/datasets/gov/regitra/tp/TransportoPriemone[komercinis_pav]](../../regitra/tp/TransportoPriemone.md) | `4` | `open` | — | Transporto priemonės modelis | — |
+| `modelis` | `ref` | [TransportoPriemone](../../regitra/tp/TransportoPriemone.md) (`level=4 UUID` via `TransportoPriemone[komercinis_pav]`: `modelis._id`) | `4` | `open` | — | Transporto priemonės modelis | — |
 | `modelis_kt` | `string` | — | `2` | `open` | — | Transporto priemonės modelis (kita) | — |
 | `degalu_tipas` | `string` | — | `3` | `open` | — | Degalų tipas | — |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `statusas` | `'IESKOMA'` | — | — | Ieškoma | — |
 | `statusas` | `'ARCHYVAS'` | — | — | Archyvas | — |
 | `statusas` | `'NUTRAUKTA'` | — | — | Nutraukta | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pd/itpr.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/pd/itpr.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L9)

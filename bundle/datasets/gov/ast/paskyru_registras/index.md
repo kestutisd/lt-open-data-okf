@@ -1,6 +1,6 @@
-# `datasets/gov/ast/paskyru_registras`
+# Directory Index: `datasets/gov/ast/paskyru_registras`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

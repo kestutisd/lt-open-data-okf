@@ -1,11 +1,11 @@
-# `datasets/gov/lab_tyrimai`
+# Directory Index: `datasets/gov/lab_tyrimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [lab_tyrimai/](lab_tyrimai/index.md) - Pacientams atliktų laboratorinių tyrimų rezultatai (0 datasets, 38 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Pacientams atliktų laboratorinių tyrimų rezultatai](lab_tyrimai.md) - Spinta dataset datasets/gov/lab_tyrimai/lab_tyrimai (38 tables).
+* [Pacientams atliktų laboratorinių tyrimų rezultatai](lab_tyrimai.md) - Laboratorinių tyrimų informacinės sistemos, kaip OpenLIMS, sLIS, POLIS kaupia asmens sveikatos priežiūros įstaigose, naudojančiose kurią nors iš laboratorinių tyrimų sistemų, pacientams atliktų...
+
+# Subdirectories
+
+* [lab_tyrimai/](lab_tyrimai/index.md) - 38 tables

@@ -2,23 +2,26 @@
 type: Table
 title: "Kandidatas"
 description: "Spinta table datasets/gov/vrk/kandidatai/Kandidatas (28 columns)."
-tags: [gov, vrk, undeployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vrk, kandidatas, undeployed, level-2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/kandidatai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/kandidatai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/kandidatai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Kandidatas
 
 - **Model:** `datasets/gov/vrk/kandidatai/Kandidatas`[^manifest]
-- **Dataset:** [datasets/gov/vrk/kandidatai](../kandidatai.md) (`datasets/gov/vrk/kandidatai`)
-- **Manifest CSV:** [datasets/gov/vrk/kandidatai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/kandidatai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `kandidato_id`
-- **Level:** `2`
+- **Dataset:** [datasets/gov/vrk/kandidatai](../kandidatai.md) (`datasets/gov/vrk/kandidatai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vrk/kandidatai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/kandidatai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `kandidato_id`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -55,7 +58,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `dal_tipas` | `"Fizinis asmuo"` | — | — | Fizinis asmuo | — |
 | `dal_tipas` | `"Kandidatas ar kandidatų sąrašas, kai yra juos iškėlusios partijos teikimas"` | — | — | Kandidatas ar kandidatų sąrašas, kai yra juos iškėlusios partijos teikimas | — |
@@ -86,4 +89,8 @@ sources:
 | `amziaus_grupe` | `"75-79"` | — | — | Amžiaus grupė nuo 75 iki 79 metų | — |
 | `amziaus_grupe` | `"80+"` | — | — | Amžiaus grupė nuo 80 metų | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/kandidatai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/kandidatai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/kandidatai.csv#L4)

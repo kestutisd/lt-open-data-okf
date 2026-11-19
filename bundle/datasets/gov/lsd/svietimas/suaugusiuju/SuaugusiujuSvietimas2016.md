@@ -3,23 +3,34 @@ type: Table
 title: "SuaugusiujuSvietimas2016 — Suaugusiųjų švietimo statistinis tyrimas 2016 m."
 description: "2016 metais atliktas suaugusiųjų švietimo statistinio tyrimas"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2016"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, suaugusiujusvietimas2016, deployed, cadence-quinquennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L604"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv#L604"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1621/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/svietimas/suaugusiuju"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SuaugusiujuSvietimas2016 — Suaugusiųjų švietimo statistinis tyrimas 2016 m.
 
-2016 metais atliktas suaugusiųjų švietimo statistinio tyrimas
+2016 metais atliktas suaugusiųjų švietimo statistinio tyrimas[^manifest]
 
 - **Model:** `datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2016`[^manifest]
-- **Dataset:** [datasets/gov/lsd/svietimas/suaugusiuju](../suaugusiuju.md) (`datasets/gov/lsd/svietimas/suaugusiuju`)
-- **Manifest CSV:** [datasets/gov/lsd/svietimas.csv#L604](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L604)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2016`
+- **Dataset:** [Suaugusiųjų švietimo statistinio tyrimo duomenys](../suaugusiuju.md) (`datasets/gov/lsd/svietimas/suaugusiuju`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/svietimas.csv#L604](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L604)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2016` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUINQUENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -36,7 +47,7 @@ sources:
 | `hhnbpers_25plus` | `integer` | — | — | `open` | — | Namų ūkyje gyvenančių 25 metų ir vyresnio amžiaus asmenų skaičius | — |
 | `hhtype` | `integer` | — | — | `open` | — | Namų ūkio tipas | — |
 | `hhincome` | `integer` | — | — | `open` | — | Namų ūkio grynosios mėnesio ekvivalentinės pajamos | — |
-| `sex` | `integer` | `sex` | — | `open` | — | Lytis | — |
+| `sex` | `integer` | `enum: sex` | — | `open` | — | Lytis | — |
 | `age` | `integer` | — | — | `open` | — | Amžiaus grupės | — |
 | `citizen` | `integer` | — | — | `open` | — | Pilietybė | — |
 | `birthplace` | `integer` | — | — | `open` | — | Gimimo šalis | — |
@@ -269,7 +280,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `deg_urb` | `1` | — | — | Tankiai apgyvendinta vietovė | — |
 | `deg_urb` | `2` | — | — | Vidutiniškai apgyvendinta vietovė | — |
@@ -863,4 +874,5 @@ sources:
 | `langlevel2` | `3` | — | `open` | Suprantu įvairių sričių sudėtingesnius tekstus ir lanksčiai vartoju kalbą. Kalbą moku beveik puikiai | — |
 | `langlevel2` | `-2` | — | `open` | Netaikoma | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv#L604 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L604)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/svietimas/suaugusiuju (https://data.gov.lt/datasets/1621/)

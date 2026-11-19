@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "Aprupinimas — Duomenys apie paramą mokiniams"
-description: "Spinta table datasets/gov/sadm/parama_mokiniams/Aprupinimas (6 columns)."
+description: "Socialinės Apsaugos ir Darbo Ministerijos duomenys apie mokiniams suteiktą socialinę paramą savivaldybėse (nemokamas maitinimas ir parama mokinio reikmenims įsigyti)."
 resource: "https://get.data.gov.lt/datasets/gov/sadm/parama_mokiniams/Aprupinimas"
-tags: [gov, sadm, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, sadm, aprupinimas, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/sadm/parama_mokiniams.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/parama_mokiniams.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/sadm/parama_mokiniams.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1997/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/sadm/parama_mokiniams"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Aprupinimas — Duomenys apie paramą mokiniams
 
+**Dataset Context:** Socialinės Apsaugos ir Darbo Ministerijos duomenys apie mokiniams suteiktą socialinę paramą savivaldybėse (nemokamas maitinimas ir parama mokinio reikmenims įsigyti). Duomenys atnaujinami kas ketvirtį.[^manifest]
+
 - **Model:** `datasets/gov/sadm/parama_mokiniams/Aprupinimas`[^manifest]
-- **Dataset:** [datasets/gov/sadm/parama_mokiniams](../parama_mokiniams.md) (`datasets/gov/sadm/parama_mokiniams`)
-- **Manifest CSV:** [datasets/gov/sadm/parama_mokiniams.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/parama_mokiniams.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/parama_mokiniams/Aprupinimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Mokiniams suteiktos socialinės paramos duomenys](../parama_mokiniams.md) (`datasets/gov/sadm/parama_mokiniams`)[^manifest]
+- **Manifest CSV:** [datasets/gov/sadm/parama_mokiniams.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/parama_mokiniams.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/sadm/parama_mokiniams/Aprupinimas` (`deployed`)[^manifest]
+- **Provider:** `sadm` — Lietuvos Respublikos socialinės apsaugos ir darbo ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,4 +49,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/parama_mokiniams.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/sadm/parama_mokiniams.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/sadm/parama_mokiniams.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/sadm/parama_mokiniams (https://data.gov.lt/datasets/1997/)

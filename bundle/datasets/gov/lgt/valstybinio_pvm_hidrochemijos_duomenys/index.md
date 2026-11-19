@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/valstybinio_pvm_hidrochemijos_duomenys`
+# Directory Index: `datasets/gov/lgt/valstybinio_pvm_hidrochemijos_duomenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

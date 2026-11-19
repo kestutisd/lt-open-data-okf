@@ -1,9 +1,9 @@
-# `datasets/gov/vilniaus_m_sav/patalpos`
+# Directory Index: `datasets/gov/vilniaus_m_sav/patalpos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Patalpa — Vilniaus miesto savivaldybės nuomojamos patalpos](Patalpa.md) - Spinta table datasets/gov/vilniaus_m_sav/patalpos/Patalpa (17 columns).
-* [Saskaita — Vilniaus miesto savivaldybės sąskaitos patalpų nuomininkams už suteiktas paslaugas](Saskaita.md) - Spinta table datasets/gov/vilniaus_m_sav/patalpos/Saskaita (10 columns).
-* [Sutartis — Vilniaus miesto savivaldybės patalpų nuomų sutartys](Sutartis.md) - Spinta table datasets/gov/vilniaus_m_sav/patalpos/Sutartis (15 columns).
+* [Patalpa — Vilniaus miesto savivaldybės nuomojamos patalpos](Patalpa.md) - Rinkinyje skelbiami Vilniaus miesto savivaldybės nuomojamų patalpų duomenys iš „Active Vilnius“ nuomos sistemos.
+* [Saskaita — Vilniaus miesto savivaldybės sąskaitos patalpų nuomininkams už suteiktas paslaugas](Saskaita.md) - Rinkinyje skelbiami Vilniaus miesto savivaldybės nuomojamų patalpų duomenys iš „Active Vilnius“ nuomos sistemos.
+* [Sutartis — Vilniaus miesto savivaldybės patalpų nuomų sutartys](Sutartis.md) - Rinkinyje skelbiami Vilniaus miesto savivaldybės nuomojamų patalpų duomenys iš „Active Vilnius“ nuomos sistemos.

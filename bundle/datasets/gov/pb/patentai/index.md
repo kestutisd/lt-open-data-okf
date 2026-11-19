@@ -1,6 +1,6 @@
-# `datasets/gov/pb/patentai`
+# Directory Index: `datasets/gov/pb/patentai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
@@ -14,7 +14,7 @@
 * [ApplicationReference](ApplicationReference.md) - Spinta table datasets/gov/pb/patentai/ApplicationReference (3 columns).
 * [BibliographicData](BibliographicData.md) - Spinta table datasets/gov/pb/patentai/BibliographicData (2 columns).
 * [ClassificationICPR](ClassificationICPR.md) - Spinta table datasets/gov/pb/patentai/ClassificationICPR (7 columns).
-* [Inventor](Inventor.md) - Spinta table datasets/gov/pb/patentai/Inventor (1 column).
+* [Inventor](Inventor.md) - Spinta table datasets/gov/pb/patentai/Inventor (1 columns).
 * [InventorAddress](InventorAddress.md) - Spinta table datasets/gov/pb/patentai/InventorAddress (2 columns).
 * [InventorNationality](InventorNationality.md) - Spinta table datasets/gov/pb/patentai/InventorNationality (2 columns).
 * [InventorResidence](InventorResidence.md) - Spinta table datasets/gov/pb/patentai/InventorResidence (2 columns).

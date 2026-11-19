@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/geologiniai_reiskiniai_ir_procesai`
+# Directory Index: `datasets/gov/lgt/geologiniai_reiskiniai_ir_procesai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

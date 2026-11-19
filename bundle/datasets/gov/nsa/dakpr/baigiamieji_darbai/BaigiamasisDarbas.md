@@ -3,25 +3,34 @@ type: Table
 title: "BaigiamasisDarbas — Studijų baigiamieji darbai"
 description: "Lentelėje pateikti studijų apgintų baigiamųjų darbų duomenys nuo 2001 metų iš Nacionalinės švietimo agentūros (NŠA) diplomų, atestatų ir kvalifikacijos pažymėjimų registro (DAKPR)."
 resource: "https://get.data.gov.lt/datasets/gov/nsa/dakpr/baigiamieji_darbai/BaigiamasisDarbas"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, baigiamasisdarbas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/dakpr/baigiamieji_darbai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2722/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/dakpr/baigiamieji_darbai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # BaigiamasisDarbas — Studijų baigiamieji darbai
 
-Lentelėje pateikti studijų apgintų baigiamųjų darbų duomenys nuo 2001 metų iš Nacionalinės švietimo agentūros (NŠA) diplomų, atestatų ir kvalifikacijos pažymėjimų registro (DAKPR). Duomenų atnaujinimas - mėnesinis.
+Lentelėje pateikti studijų apgintų baigiamųjų darbų duomenys nuo 2001 metų iš Nacionalinės švietimo agentūros (NŠA) diplomų, atestatų ir kvalifikacijos pažymėjimų registro (DAKPR). Duomenų atnaujinimas - mėnesinis.[^manifest]
 
 - **Model:** `datasets/gov/nsa/dakpr/baigiamieji_darbai/BaigiamasisDarbas`[^manifest]
-- **Dataset:** [Studijų baigiamieji darbai](../baigiamieji_darbai.md) (`datasets/gov/nsa/dakpr/baigiamieji_darbai`)
-- **Manifest CSV:** [datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/dakpr/baigiamieji_darbai/BaigiamasisDarbas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Studijų baigiamieji darbai](../baigiamieji_darbai.md) (`datasets/gov/nsa/dakpr/baigiamieji_darbai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/dakpr/baigiamieji_darbai/BaigiamasisDarbas` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,9 +52,10 @@ Lentelėje pateikti studijų apgintų baigiamųjų darbų duomenys nuo 2001 met�
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `asm_lytis` | `"V"` | — | — | Vyras | — |
 | `asm_lytis` | `"M"` | — | — | Moteris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/dakpr/baigiamieji_darbai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/dakpr/baigiamieji_darbai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/dakpr/baigiamieji_darbai (https://data.gov.lt/datasets/2722/)

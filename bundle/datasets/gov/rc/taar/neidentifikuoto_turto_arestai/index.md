@@ -1,7 +1,7 @@
-# `datasets/gov/rc/taar/neidentifikuoto_turto_arestai`
+# Directory Index: `datasets/gov/rc/taar/neidentifikuoto_turto_arestai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [NeidentifikuotasTurtas](NeidentifikuotasTurtas.md) - Spinta table datasets/gov/rc/taar/neidentifikuoto_turto_arestai/NeidentifikuotasTurtas (8 columns).
+* [NeidentifikuotasTurtas](NeidentifikuotasTurtas.md) - Turto arešto aktų registro nuasmeninti duomenys (RAW DATA) apie areštuojamą neidentifikuotą turtą, turto tipą ir potipį, turto arešto aktų jų statusus, įregistravimo / išregistravimo datas.

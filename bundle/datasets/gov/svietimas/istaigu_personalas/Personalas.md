@@ -3,25 +3,34 @@ type: Table
 title: "Personalas"
 description: "Lietuvos savivaldybių švietimo įstaigų personalo duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/svietimas/istaigu_personalas/Personalas"
-tags: [gov, svietimas, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, svietimas, personalas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/svietimas/istaigu_personalas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/svietimas/istaigu_personalas.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/svietimas/istaigu_personalas.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3815/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/svietimas/istaigu_personalas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Personalas
 
-Lietuvos savivaldybių švietimo įstaigų personalo duomenys
+Lietuvos savivaldybių švietimo įstaigų personalo duomenys[^manifest]
 
 - **Model:** `datasets/gov/svietimas/istaigu_personalas/Personalas`[^manifest]
-- **Dataset:** [Lietuvos savivaldybių švietimo įstaigų personalas](../istaigu_personalas.md) (`datasets/gov/svietimas/istaigu_personalas`)
-- **Manifest CSV:** [datasets/gov/svietimas/istaigu_personalas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/svietimas/istaigu_personalas.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/svietimas/istaigu_personalas/Personalas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Lietuvos savivaldybių švietimo įstaigų personalas](../istaigu_personalas.md) (`datasets/gov/svietimas/istaigu_personalas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/svietimas/istaigu_personalas.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/svietimas/istaigu_personalas.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/svietimas/istaigu_personalas/Personalas` (`deployed`)[^manifest]
+- **Provider:** `svietimas`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,9 +53,10 @@ Lietuvos savivaldybių švietimo įstaigų personalo duomenys
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis_ak` | `"Moteris"` | — | — | Moteris | — |
 | `lytis_ak` | `"Vyras"` | — | — | Vyras | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/svietimas/istaigu_personalas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/svietimas/istaigu_personalas.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/svietimas/istaigu_personalas.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/svietimas/istaigu_personalas (https://data.gov.lt/datasets/3815/)

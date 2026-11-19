@@ -1,19 +1,19 @@
-# `datasets/gov/lpt` — Lošimų priežiūros tarnyba
+# Directory Index: `datasets/gov/lpt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [bendroviu_licencijos/](bendroviu_licencijos/index.md) - Lošimo bendrovių licencijos (0 datasets, 1 table)
-* [irenginiu_tipas/](irenginiu_tipas/index.md) - Lošimo įrenginių tipų sąrašas (0 datasets, 1 table)
-* [leidimai_punktams/](leidimai_punktams/index.md) - Lošimo punktų leidimo dokumentai (0 datasets, 1 table)
-* [registro_objektas/](registro_objektas/index.md) - Apribojusių savo galimybę lošti asmenų registro objektų prašymai (0 datasets, 1 table)
-* [registruoti_irenginiai/](registruoti_irenginiai/index.md) - Lošimo bendrovių įregistruoti įrenginiai (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Lošimo bendrovių licencijos](bendroviu_licencijos.md) - Spinta dataset datasets/gov/lpt/bendroviu_licencijos (1 table).
-* [Lošimo įrenginių tipų sąrašas](irenginiu_tipas.md) - Spinta dataset datasets/gov/lpt/irenginiu_tipas (1 table).
-* [Lošimo punktų leidimo dokumentai](leidimai_punktams.md) - Spinta dataset datasets/gov/lpt/leidimai_punktams (1 table).
-* [Apribojusių savo galimybę lošti asmenų registro objektų prašymai](registro_objektas.md) - Spinta dataset datasets/gov/lpt/registro_objektas (1 table).
-* [Lošimo bendrovių įregistruoti įrenginiai](registruoti_irenginiai.md) - Spinta dataset datasets/gov/lpt/registruoti_irenginiai (1 table).
+* [Lošimo bendrovių licencijos](bendroviu_licencijos.md) - Čia galite rasti duomenis apie Lošimų priežiūros tarnybos prie Lietuvos Respublikos finansų ministerijos išduotas ir galiojančius leidimus verstis lošimų veikla (numeris; leidimo turėtojas...
+* [Lošimo įrenginių tipų sąrašas](irenginiu_tipas.md) - Pateikiami duomenys apie Lošimų priežiūros tarnybos prie Lietuvos Respublikos finansų ministerijos patvirtintus lošimo įrenginių tipus.
+* [Lošimo punktų leidimo dokumentai](leidimai_punktams.md) - Čia galite rasti duomenis apie Lošimų priežiūros tarnybos prie Lietuvos Respublikos finansų ministerijos išduotas ir galiojančius leidimus verstis lošimo automatų salonų veikla (numeris; leidimo...
+* [Apribojusių savo galimybę lošti asmenų registro objektų prašymai](registro_objektas.md) - Nuo 2017 m. gegužės 1 d. asmenų prašymai neleisti lošti ir dalyvauti nuotoliniuose lošimuose registruojami Apribojusių savo galimybę lošti asmenų registre.
+* [Lošimo bendrovių įregistruoti įrenginiai](registruoti_irenginiai.md) - Lošimo bendrovių įregistruotų įrenginių ir jų istorijos sąrašas.
+
+# Subdirectories
+
+* [bendroviu_licencijos/](bendroviu_licencijos/index.md) - 1 table
+* [irenginiu_tipas/](irenginiu_tipas/index.md) - 1 table
+* [leidimai_punktams/](leidimai_punktams/index.md) - 1 table
+* [registro_objektas/](registro_objektas/index.md) - 1 table
+* [registruoti_irenginiai/](registruoti_irenginiai/index.md) - 1 table

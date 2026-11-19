@@ -1,7 +1,7 @@
-# `datasets/gov/pagd/priedangos`
+# Directory Index: `datasets/gov/pagd/priedangos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Priedanga](Priedanga.md) - Priedanga skirta trumpalaikei (iki kelių valandų) apsaugai kilus oro pavojui, nuo tiesioginio ir netiesioginio apšaudymo grėsmės karinės agresijos metu.
+* [Priedanga](Priedanga.md) - "Priedanga skirta trumpalaikei (iki kelių valandų) apsaugai kilus oro pavojui, nuo tiesioginio ir netiesioginio apšaudymo grėsmės karinės agresijos metu."

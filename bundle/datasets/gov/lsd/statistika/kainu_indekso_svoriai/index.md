@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/kainu_indekso_svoriai`
+# Directory Index: `datasets/gov/lsd/statistika/kainu_indekso_svoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,6 +1,6 @@
-# `datasets/gov/rc/nirvar/veiksnus_pagal_savivaldybes`
+# Directory Index: `datasets/gov/rc/nirvar/veiksnus_pagal_savivaldybes`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

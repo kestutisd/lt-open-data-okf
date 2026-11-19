@@ -1,13 +1,13 @@
-# `datasets/gov/aad` — Aplinkos apsaugos departamentas prie Aplinkos ministerijos
+# Directory Index: `datasets/gov/aad`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [nuoteku_irenginiai/](nuoteku_irenginiai/index.md) - Nuotekų valymo įrenginiai bei jų kokacijos (0 datasets, 2 tables)
-* [ukio_subjektu_patikrinimai/](ukio_subjektu_patikrinimai/index.md) - Ūkio subjektų metiniai patikrinimai (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
 * [Nuotekų valymo įrenginiai bei jų kokacijos](nuoteku_irenginiai.md) - Duomenys pateikiami iš aplinkos apsaugos departamento nuotekų tvarkymo informacinės sistemos.
-* [Ūkio subjektų metiniai patikrinimai](ukio_subjektu_patikrinimai.md) - Spinta dataset datasets/gov/aad/ukio_subjektu_patikrinimai (1 table).
+* [Ūkio subjektų metiniai patikrinimai](ukio_subjektu_patikrinimai.md) - Šiame duomenų rinkinyje pateikiama bendra informacija apie ūkio subjektų metinius patikrinimus.
+
+# Subdirectories
+
+* [nuoteku_irenginiai/](nuoteku_irenginiai/index.md) - 2 tables
+* [ukio_subjektu_patikrinimai/](ukio_subjektu_patikrinimai/index.md) - 1 table

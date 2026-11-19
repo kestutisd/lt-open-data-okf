@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Pirkimas — Ataskaitų duomenys"
-description: "Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir Papildomos viešojo pirkimo ir pirkimo procedūrų (ATN2) ataskaitų duomenys nuo 2017m. iki šių dienų."
+description: "Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir Papildomos viešojo pirkimo ir pirkimo procedūrų (ATN2) ataskaitų duomenys nuo 2017m."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/vpt/ataskaitos/Pirkimas"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, pirkimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/ataskaitos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/ataskaitos.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/vpt/ataskaitos.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2858/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/ataskaitos"
+    author: "team:vda"
+    last_modified: "2026-06-12T00:00:00Z"
 ---
 
 # Pirkimas — Ataskaitų duomenys
 
-Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir Papildomos viešojo pirkimo ir pirkimo procedūrų (ATN2) ataskaitų duomenys nuo 2017m. iki šių dienų. Rinkinio objektas - paskelbta ataskaita. Pateikiama detali informacija apie ataskaitą, viešajame pirkime dalyvavusią perkančiąją arba įgaliotąją organizacijas, pirkimo objektą bei vykdytą pirkimą.
+Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir Papildomos viešojo pirkimo ir pirkimo procedūrų (ATN2) ataskaitų duomenys nuo 2017m. iki šių dienų. Rinkinio objektas - paskelbta ataskaita. Pateikiama detali informacija apie ataskaitą, viešajame pirkime dalyvavusią perkančiąją arba įgaliotąją organizacijas, pirkimo objektą bei vykdytą pirkimą. Turint klausimų apie duomenų rinkinį, prašome kreiptis į Valstybės duomenų valdysenos atvėrimo komandą elektroniniu paštu atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lsd/vpt/ataskaitos/Pirkimas`[^manifest]
-- **Dataset:** [Viešųjų pirkimų ataskaitų duomenys](../ataskaitos.md) (`datasets/gov/lsd/vpt/ataskaitos`)
-- **Manifest CSV:** [datasets/gov/lsd/vpt/ataskaitos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/ataskaitos.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/ataskaitos/Pirkimas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Viešųjų pirkimų ataskaitų duomenys](../ataskaitos.md) (`datasets/gov/lsd/vpt/ataskaitos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/vpt/ataskaitos.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/ataskaitos.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/vpt/ataskaitos/Pirkimas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Viešųjų pirkimų tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-06-12`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -65,7 +74,7 @@ Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir 
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `ataskaitos_forma` | `"ATN1"` | — | — | Pirkimo procedūrų ataskaita | — |
 | `ataskaitos_forma` | `"ATN2"` | — | — | Papildoma viešojo pirkimo ir pirkimo procedūrų ataskaita | — |
@@ -87,4 +96,9 @@ Rinkinyje pateikiami Viešųjų pirkimų tarnybos Pirkimo procedūrų (ATN1) ir 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `pirkimo_objektas_lt` | `update(property: "pirkimo_objektas_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/ataskaitos.csv
+# Related References
+
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/vpt/ataskaitos.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/vpt/ataskaitos.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/vpt/ataskaitos (https://data.gov.lt/datasets/2858/)

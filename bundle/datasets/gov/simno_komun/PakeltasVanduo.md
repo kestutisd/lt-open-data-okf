@@ -3,29 +3,34 @@ type: Table
 title: "PakeltasVanduo — Iš gręžinių išgautas (pakeltas) vanduo"
 description: "Rinkinyje pateikiamas Alytaus rajono savivaldybės įmonės „Simno komunalininkas“ vedamoje vandens gavybos apskaitoje stebimas iš gręžinių išgauto (pakelto) vandens kiekis ir jo teikimas gyventojams bei įmonėms."
 resource: "https://get.data.gov.lt/datasets/gov/simno_komun/PakeltasVanduo"
-tags: [gov, simno_komun, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, simno_komun, pakeltasvanduo, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/simno_komun/pakeltas_vanduo.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/pakeltas_vanduo.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/simno_komun/pakeltas_vanduo.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2774/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/simno_komun"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # PakeltasVanduo — Iš gręžinių išgautas (pakeltas) vanduo
 
-Rinkinyje pateikiamas Alytaus rajono savivaldybės įmonės „Simno komunalininkas“ vedamoje vandens gavybos apskaitoje stebimas iš gręžinių išgauto (pakelto) vandens kiekis ir jo teikimas gyventojams bei įmonėms. Taip pat fiksuojamas technologinio vandens, skirto įrenginiams plauti, kiekis.
-
-Viena eilutė atitinka atitinkamo gręžinio tam tikro periodo ir parametro reikšmę.
-
-Duomenys kaupiami nuo 2018 metų. ir iki dabar.
+Rinkinyje pateikiamas Alytaus rajono savivaldybės įmonės „Simno komunalininkas“ vedamoje vandens gavybos apskaitoje stebimas iš gręžinių išgauto (pakelto) vandens kiekis ir jo teikimas gyventojams bei įmonėms. Taip pat fiksuojamas technologinio vandens, skirto įrenginiams plauti, kiekis. Viena eilutė atitinka atitinkamo gręžinio tam tikro periodo ir parametro reikšmę. Duomenys kaupiami nuo 2018 metų. ir iki dabar. PASITEIRAVIMUI: Valstybės duomenų valdysenos atvėrimo komanda: atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/simno_komun/PakeltasVanduo`[^manifest]
-- **Dataset:** [Alytaus rajono savivaldybės įmonė „Simno komunalininkas“](../simno_komun.md) (`datasets/gov/simno_komun`)
-- **Manifest CSV:** [datasets/gov/simno_komun/pakeltas_vanduo.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/pakeltas_vanduo.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/simno_komun/PakeltasVanduo`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Alytaus rajono savivaldybės įmonė „Simno komunalininkas“](../simno_komun.md) (`datasets/gov/simno_komun`)[^manifest]
+- **Manifest CSV:** [datasets/gov/simno_komun/pakeltas_vanduo.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/pakeltas_vanduo.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/simno_komun/PakeltasVanduo` (`deployed`)[^manifest]
+- **Provider:** `simno_komun` — Alytaus rajono savivaldybės įmonė „Simno komunalininkas“ *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -40,7 +45,7 @@ Duomenys kaupiami nuo 2018 metų. ir iki dabar.
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `rodiklis` | `"išgautas vanduo"` | — | — | atitinkamą mėnesį išgautas vanduo | — |
 | `rodiklis` | `"įmonėms tiekiamas vanduo"` | — | — | įmonėms tiekiamas vanduo | — |
@@ -50,4 +55,5 @@ Duomenys kaupiami nuo 2018 metų. ir iki dabar.
 | `rodiklis` | `"m3/d. pakelto vandens"` | — | — | Vidutinis pakelto vandens kieks per dieną m3/d. | — |
 | `rodiklis` | `"m3/d. į gyventojų ir įmonių tinklus"` | — | — | Vidutinis pakelto vandens kieks per dieną teikiamas į gyventojų ir į įmonių tinklus m3/d. | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/simno_komun/pakeltas_vanduo.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/simno_komun/pakeltas_vanduo.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/pakeltas_vanduo.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/simno_komun (https://data.gov.lt/datasets/2774/)

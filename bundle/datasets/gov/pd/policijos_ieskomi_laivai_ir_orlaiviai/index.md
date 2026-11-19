@@ -1,6 +1,6 @@
-# `datasets/gov/pd/policijos_ieskomi_laivai_ir_orlaiviai`
+# Directory Index: `datasets/gov/pd/policijos_ieskomi_laivai_ir_orlaiviai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

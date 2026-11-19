@@ -3,25 +3,34 @@ type: Table
 title: "RokiskioPASPC — Rokiškio pirminės asmens sveikatos priežiūros centro pacientams atlikti laboratoriniai tyrimai"
 description: "Rokiškio PASPC sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/RokiskioPASPC"
-tags: [gov, lab_tyrimai, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, rokiskiopaspc, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # RokiskioPASPC — Rokiškio pirminės asmens sveikatos priežiūros centro pacientams atlikti laboratoriniai tyrimai
 
-Rokiškio PASPC sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Rinkinyje pateikiami nuo 2018 metų sausio mėnesio duomenys, atnaujinami iki šiol. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Rokiškio pirminės asmens sveikatos priežiūros centras.
+Rokiškio PASPC sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Rinkinyje pateikiami nuo 2018 metų sausio mėnesio duomenys, atnaujinami iki šiol. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Rokiškio pirminės asmens sveikatos priežiūros centras. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/RokiskioPASPC`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/RokiskioPASPC`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/RokiskioPASPC` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,7 +55,7 @@ Rokiškio PASPC sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų 
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"M"` | — | — | Moteris | — |
 | `paciento_lytis` | `"V"` | — | — | Vyras | — |
@@ -60,4 +69,5 @@ Rokiškio PASPC sistemoje „OpenLIMS“ kaupiami įstaigos pacientams atliktų 
 | `tyrimo_meginio_tipas` | `"Šlapimas"` | — | — | Šlapimas | — |
 | `tyrimo_meginio_tipas` | `"Plazma"` | — | — | Plazma | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L891)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

@@ -1,13 +1,13 @@
-# `datasets/gov/vdtat` — Valstybės dokumentų technologinės apsaugos tarnyba prie FM
+# Directory Index: `datasets/gov/vdtat`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [dokumentu_paraiskos_komisijai/](dokumentu_paraiskos_komisijai/index.md) - Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų (0 datasets, 1 table)
-* [saugiuju_dokumentu_registras/](saugiuju_dokumentu_registras/index.md) - Saugiųjų dokumentų ir saugiųjų dokumentų blankų registro duomenys (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų](dokumentu_paraiskos_komisijai.md) - Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, banderolių, keleivinio transporto bilietų, oficialiųjų žymėjimo ženklų, dokumentų blankų vertinimo ir...
-* [Saugiųjų dokumentų ir saugiųjų dokumentų blankų registro duomenys](saugiuju_dokumentu_registras.md) - Valstybės saugiųjų dokumentų ir saugiųjų dokumentų blankų, tokių kaip tokių kaip pasai, asmens tapatybės kortelės, kelionės dokumentai, vairuotojo pažymėjimai, akcizais...
+* [Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų](dokumentu_paraiskos_komisijai.md) - Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, banderolių, keleivinio transporto bilietų, oficialiųjų žymėjimo ženklų, dokumentų blankų vertinimo ir priskyrimo prie...
+* [Saugiųjų dokumentų ir saugiųjų dokumentų blankų registro duomenys](saugiuju_dokumentu_registras.md) - Valstybės saugiųjų dokumentų ir saugiųjų dokumentų blankų, tokių kaip tokių kaip pasai, asmens tapatybės kortelės, kelionės dokumentai, vairuotojo pažymėjimai, akcizais apmokestinamų prekių...
+
+# Subdirectories
+
+* [dokumentu_paraiskos_komisijai/](dokumentu_paraiskos_komisijai/index.md) - 1 table
+* [saugiuju_dokumentu_registras/](saugiuju_dokumentu_registras/index.md) - 3 tables

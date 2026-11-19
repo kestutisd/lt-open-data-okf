@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/bendrasis_mirtingumas`
+# Directory Index: `datasets/gov/lsd/statistika/bendrasis_mirtingumas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

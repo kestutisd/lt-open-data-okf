@@ -3,25 +3,34 @@ type: Table
 title: "LeidimoImoka — Įmokos už Panevėžio miesto savivaldybės išduodamus leidimus ir licencijas"
 description: "Informacija apie imokas už Panevėžio miesto savivaldybės išduodamus leidimus ir licencijas"
 resource: "https://get.data.gov.lt/datasets/gov/panevezio_m_sav/leidimu_administravimas/LeidimoImoka"
-tags: [gov, panevezio_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, panevezio_m_sav, leidimoimoka, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/panevezio_m_sav/leidimu_administravimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29"
+    title: "atviriduomenys/manifest — datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4005/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/panevezio_m_sav/leidimu_administravimas"
+    author: "team:vda"
+    last_modified: "2026-11-11T00:00:00Z"
 ---
 
 # LeidimoImoka — Įmokos už Panevėžio miesto savivaldybės išduodamus leidimus ir licencijas
 
-Informacija apie imokas už Panevėžio miesto savivaldybės išduodamus leidimus ir licencijas
+Informacija apie imokas už Panevėžio miesto savivaldybės išduodamus leidimus ir licencijas[^manifest]
 
 - **Model:** `datasets/gov/panevezio_m_sav/leidimu_administravimas/LeidimoImoka`[^manifest]
-- **Dataset:** [Panevėžio miesto savivaldybės išduotos licencijos ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/panevezio_m_sav/leidimu_administravimas`)
-- **Manifest CSV:** [datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/panevezio_m_sav/leidimu_administravimas/LeidimoImoka`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Panevėžio miesto savivaldybės išduotos licencijos ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/panevezio_m_sav/leidimu_administravimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/panevezio_m_sav/leidimu_administravimas/LeidimoImoka` (`deployed`)[^manifest]
+- **Provider:** `panevezio_m_sav` — Panevėžio miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-11-11`[^dcat]
 
 # Schema
 
@@ -42,11 +51,12 @@ Informacija apie imokas už Panevėžio miesto savivaldybės išduodamus leidimu
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `imoku_gavejas` | `"Valstybinė mokesčių inspekcija"` | — | — | Valstybinė mokesčių inspekcija | — |
 | `imoku_gavejas` | `"Panevėžio_miesto_savivaldybė"` | — | — | Panevėžio miesto savivaldybė | — |
 | `imoku_gavejo_kodas` | `"188659752"` | — | — | Valstybinės mokesčių inspekcijos kodas | — |
 | `imoku_gavejo_kodas` | `"288724610"` | — | — | Panevėžio miesto savivaldybės kodas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/panevezio_m_sav/leidimu_administravimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/panevezio_m_sav/leidimu_administravimas.csv#L29)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/panevezio_m_sav/leidimu_administravimas (https://data.gov.lt/datasets/4005/)

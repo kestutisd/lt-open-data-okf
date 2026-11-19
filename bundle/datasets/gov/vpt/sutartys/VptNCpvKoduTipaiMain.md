@@ -3,21 +3,26 @@ type: Table
 title: "VptNCpvKoduTipaiMain"
 description: "Spinta table datasets/gov/vpt/sutartys/VptNCpvKoduTipaiMain (5 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNCpvKoduTipaiMain"
-tags: [gov, vpt, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vpt, vptncpvkodutipaimain, deployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L48"
+    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L48"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VptNCpvKoduTipaiMain
 
 - **Model:** `datasets/gov/vpt/sutartys/VptNCpvKoduTipaiMain`[^manifest]
-- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)
-- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L48](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L48)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNCpvKoduTipaiMain`
+- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L48](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L48)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNCpvKoduTipaiMain` (`deployed`)[^manifest]
+- **Provider:** `vpt` — Viešųjų pirkimų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -29,4 +34,9 @@ sources:
 | `kategorija` | `integer` | — | `3` | `open` | — | — | — |
 | `mcpv_versija` | `integer` | — | `3` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv
+# Related References
+
+- [VPT Public Procurement Notices Join Reference](../../../../references/joins/vpt-procurement-notices.md) — Notice parent-child UUID joins, CPV normalization, and buyer/supplier JAR links.
+- [BVPŽ / CPV Procurement Vocabulary (Reg. (EC) No 213/2008)](../../../../references/cpv-bvpz-kodai.md) — 45 2-digit CPV divisions (`03`–`98`) and 272 3-digit groups.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L48 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L48)

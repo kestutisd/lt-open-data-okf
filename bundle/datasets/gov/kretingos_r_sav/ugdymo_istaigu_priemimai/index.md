@@ -1,6 +1,6 @@
-# `datasets/gov/kretingos_r_sav/ugdymo_istaigu_priemimai`
+# Directory Index: `datasets/gov/kretingos_r_sav/ugdymo_istaigu_priemimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

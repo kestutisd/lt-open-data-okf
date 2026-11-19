@@ -1,6 +1,6 @@
-# `datasets/gov/vat/fitosanitarijos_kontrole`
+# Directory Index: `datasets/gov/vat/fitosanitarijos_kontrole`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

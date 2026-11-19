@@ -2,24 +2,26 @@
 type: Table
 title: "Design"
 description: "Spinta table datasets/gov/pb/dizainai/Design (13 columns)."
-tags: [gov, pb, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pb, design, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pb/dizainai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/dizainai.csv#L10"
+    title: "atviriduomenys/manifest — datasets/gov/pb/dizainai.csv#L10"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Design
 
 - **Model:** `datasets/gov/pb/dizainai/Design`[^manifest]
-- **Dataset:** [Dizainai](../dizainai.md) (`datasets/gov/pb/dizainai`)
-- **Manifest CSV:** [datasets/gov/pb/dizainai.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/dizainai.csv#L10)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `application_number`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Dizainai](../dizainai.md) (`datasets/gov/pb/dizainai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pb/dizainai.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/dizainai.csv#L10)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pb` — Valstybinis patentų biuras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `application_number`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
 
 # Schema
 
@@ -39,4 +41,4 @@ sources:
 | `expiry_date` | `date` | `D` | `4` | `open` | — | Registracijos galiojimo data | — |
 | `design_current_status_code` | `string` | — | `3` | `open` | — | Esamos paraiškos statuso kodas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pb/dizainai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/pb/dizainai.csv#L10 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/dizainai.csv#L10)

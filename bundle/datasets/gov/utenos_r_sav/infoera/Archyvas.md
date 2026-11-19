@@ -3,22 +3,32 @@ type: Table
 title: "Archyvas — Utenos rajono savivaldybės administracijos georeferencinių duomenų archyvas"
 description: "Spinta table datasets/gov/utenos_r_sav/infoera/Archyvas (8 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/utenos_r_sav/infoera/Archyvas"
-tags: [gov, utenos_r_sav, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, utenos_r_sav, archyvas, deployed, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/utenos_r_sav/infoera.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/utenos_r_sav/infoera.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/utenos_r_sav/infoera.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4115/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/utenos_r_sav/infoera"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Archyvas — Utenos rajono savivaldybės administracijos georeferencinių duomenų archyvas
 
 - **Model:** `datasets/gov/utenos_r_sav/infoera/Archyvas`[^manifest]
-- **Dataset:** [Utenos rajono savivaldybės administracijos georeferencinių duomenų sistema](../infoera.md) (`datasets/gov/utenos_r_sav/infoera`)
-- **Manifest CSV:** [datasets/gov/utenos_r_sav/infoera.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/utenos_r_sav/infoera.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/utenos_r_sav/infoera/Archyvas`
-- **Primary Key (`ref`):** `id`
+- **Dataset:** [Utenos rajono savivaldybės administracijos georeferencinių duomenų sistema](../infoera.md) (`datasets/gov/utenos_r_sav/infoera`)[^manifest]
+- **Manifest CSV:** [datasets/gov/utenos_r_sav/infoera.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/utenos_r_sav/infoera.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/utenos_r_sav/infoera/Archyvas` (`deployed`)[^manifest]
+- **Provider:** `utenos_r_sav` — Utenos rajono savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`[^dcat]
 
 # Schema
 
@@ -35,10 +45,11 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `darbo_tipas` | `"1"` | — | — | Topografinė nuotrauka | — |
 | `darbo_tipas` | `"2"` | — | — | Kontrolinė geodezinė nuotrauka | — |
 | `darbo_tipas` | `"3"` | — | — | Sklypo planas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/utenos_r_sav/infoera.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/utenos_r_sav/infoera.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/utenos_r_sav/infoera.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/utenos_r_sav/infoera (https://data.gov.lt/datasets/4115/)

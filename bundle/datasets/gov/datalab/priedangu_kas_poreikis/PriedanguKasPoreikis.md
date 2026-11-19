@@ -3,23 +3,32 @@ type: Table
 title: "PriedanguKasPoreikis — Priedangų KAS poreikis"
 description: "Spinta table datasets/gov/datalab/priedangu_kas_poreikis/PriedanguKasPoreikis (25 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/datalab/priedangu_kas_poreikis/PriedanguKasPoreikis"
-tags: [gov, datalab, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, datalab, priedangukasporeikis, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/datalab/priedangu_kas_poreikis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/priedangu_kas_poreikis.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/datalab/priedangu_kas_poreikis.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3913/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/datalab/priedangu_kas_poreikis"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # PriedanguKasPoreikis — Priedangų KAS poreikis
 
 - **Model:** `datasets/gov/datalab/priedangu_kas_poreikis/PriedanguKasPoreikis`[^manifest]
-- **Dataset:** [Priedangų KAS poreikis](../priedangu_kas_poreikis.md) (`datasets/gov/datalab/priedangu_kas_poreikis`)
-- **Manifest CSV:** [datasets/gov/datalab/priedangu_kas_poreikis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/priedangu_kas_poreikis.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/datalab/priedangu_kas_poreikis/PriedanguKasPoreikis`
-- **Primary Key (`ref`):** `administracine_teritorija_id`
-- **Level:** `4`
+- **Dataset:** [Priedangų KAS poreikis](../priedangu_kas_poreikis.md) (`datasets/gov/datalab/priedangu_kas_poreikis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/datalab/priedangu_kas_poreikis.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/priedangu_kas_poreikis.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/datalab/priedangu_kas_poreikis/PriedanguKasPoreikis` (`deployed`)[^manifest]
+- **Provider:** `datalab` — Valstybės duomenų agentūra (DataLab) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `administracine_teritorija_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -51,4 +60,5 @@ sources:
 | `kas_g_s` | `integer` | — | `4` | `open` | — | Gyventojų skaičius, turinčių prieigą prie sąlyginai tinkamų KAS | — |
 | `priedangos_kas_atitinka_reikalavimus` | `boolean` | — | `4` | `open` | — | Ar atitinka reikalavimus | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/datalab/priedangu_kas_poreikis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/datalab/priedangu_kas_poreikis.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/datalab/priedangu_kas_poreikis.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/datalab/priedangu_kas_poreikis (https://data.gov.lt/datasets/3913/)

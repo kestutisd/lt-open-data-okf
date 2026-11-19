@@ -1,7 +1,7 @@
-# `datasets/gov/kvjud/kroviniai`
+# Directory Index: `datasets/gov/kvjud/kroviniai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Operacija — Krovininių laivų operacijos Klaipėdos valstybinio jūrų uoste](Operacija.md) - Spinta table datasets/gov/kvjud/kroviniai/Operacija (19 columns).
+* [Operacija — Krovininių laivų operacijos Klaipėdos valstybinio jūrų uoste](Operacija.md) - Duomenų rinkinyje pateikiami Klaipėdos valstybinio jūrų uosto direkcijos duomenys apie krovininių laivų operacijas Klaipėdos jūrų uoste.

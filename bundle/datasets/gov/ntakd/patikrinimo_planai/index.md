@@ -1,6 +1,6 @@
-# `datasets/gov/ntakd/patikrinimo_planai`
+# Directory Index: `datasets/gov/ntakd/patikrinimo_planai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

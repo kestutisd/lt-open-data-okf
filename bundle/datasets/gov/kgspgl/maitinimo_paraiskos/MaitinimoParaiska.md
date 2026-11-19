@@ -3,27 +3,34 @@ type: Table
 title: "MaitinimoParaiska — VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės pacientų maitinimo paraiškos"
 description: "Šiame duomenų rinkinyje pateikiami VšĮ K."
 resource: "https://get.data.gov.lt/datasets/gov/kgspgl/maitinimo_paraiskos/MaitinimoParaiska"
-tags: [gov, kgspgl, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kgspgl, maitinimoparaiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kgspgl/kgspgl_paraiska.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kgspgl/kgspgl_paraiska.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/kgspgl/kgspgl_paraiska.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4134/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kgspgl/maitinimo_paraiskos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # MaitinimoParaiska — VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės pacientų maitinimo paraiškos
 
-Šiame duomenų rinkinyje pateikiami VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės (Kauno miesto savivaldybė) pacientų maitinimo paraiškų duomenys, kaupiami apskaitos programoje Progra – Apskaita.
-
-Rinkinys apima informaciją apie pacientams skirtą maitinimą pagal padalinius, dienas, valgymus, dietas, patiekalus, porcijų kiekius bei patiekalų savikainą. Pateikiami duomenys nuo 2022 metų kovo mėnesio.
+Šiame duomenų rinkinyje pateikiami VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės (Kauno miesto savivaldybė) pacientų maitinimo paraiškų duomenys, kaupiami apskaitos programoje Progra – Apskaita. Rinkinys apima informaciją apie pacientams skirtą maitinimą pagal padalinius, dienas, valgymus, dietas, patiekalus, porcijų kiekius bei patiekalų savikainą. Pateikiami duomenys nuo 2022 metų kovo mėnesio.[^manifest]
 
 - **Model:** `datasets/gov/kgspgl/maitinimo_paraiskos/MaitinimoParaiska`[^manifest]
-- **Dataset:** [VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės pacientų maitinimo paraiškos](../maitinimo_paraiskos.md) (`datasets/gov/kgspgl/maitinimo_paraiskos`)
-- **Manifest CSV:** [datasets/gov/kgspgl/kgspgl_paraiska.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kgspgl/kgspgl_paraiska.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kgspgl/maitinimo_paraiskos/MaitinimoParaiska`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninės pacientų maitinimo paraiškos](../maitinimo_paraiskos.md) (`datasets/gov/kgspgl/maitinimo_paraiskos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kgspgl/kgspgl_paraiska.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kgspgl/kgspgl_paraiska.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kgspgl/maitinimo_paraiskos/MaitinimoParaiska` (`deployed`)[^manifest]
+- **Provider:** `kgspgl` — VšĮ K. Griniaus slaugos ir palaikomojo gydymo ligoninė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,7 +49,7 @@ Rinkinys apima informaciją apie pacientams skirtą maitinimą pagal padalinius,
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `valgymas` | `"Pusryčiai"` | — | — | Pusryčiai | — |
 | `valgymas` | `"Priešpiečiai"` | — | — | Priešpiečiai | — |
@@ -51,4 +58,5 @@ Rinkinys apima informaciją apie pacientams skirtą maitinimą pagal padalinius,
 | `valgymas` | `"Vakarienė"` | — | — | Vakarienė | — |
 | `valgymas` | `"Nakčiai"` | — | — | Naktipiečiai | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kgspgl/kgspgl_paraiska.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kgspgl/kgspgl_paraiska.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kgspgl/kgspgl_paraiska.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kgspgl/maitinimo_paraiskos (https://data.gov.lt/datasets/4134/)

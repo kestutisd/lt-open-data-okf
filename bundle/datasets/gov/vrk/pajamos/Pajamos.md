@@ -2,23 +2,26 @@
 type: Table
 title: "Pajamos"
 description: "Spinta table datasets/gov/vrk/pajamos/Pajamos (30 columns)."
-tags: [gov, vrk, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vrk, pajamos, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/pajamos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/pajamos.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/pajamos.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Pajamos
 
 - **Model:** `datasets/gov/vrk/pajamos/Pajamos`[^manifest]
-- **Dataset:** [datasets/gov/vrk/pajamos](../pajamos.md) (`datasets/gov/vrk/pajamos`)
-- **Manifest CSV:** [datasets/gov/vrk/pajamos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/pajamos.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `pajamu_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/vrk/pajamos](../pajamos.md) (`datasets/gov/vrk/pajamos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vrk/pajamos.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/pajamos.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `pajamu_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -57,7 +60,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `p_kamp_rusis` | `"EP"` | — | — | Rinkimai į Europos Parlamentą | — |
 | `p_kamp_rusis` | `"PRE"` | — | — | Prezidento rinkimai | — |
@@ -131,4 +134,4 @@ sources:
 | `dal_reg_busena` | `"Praradęs PKD statusą"` | — | — | Praradęs PKD statusą | — |
 | `dal_reg_busena` | `"Registruotas"` | — | — | Registruotas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/pajamos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/pajamos.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/pajamos.csv#L4)

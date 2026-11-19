@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/bpk_palyginamosiomis_tr`
+# Directory Index: `datasets/gov/lsd/statistika/bpk_palyginamosiomis_tr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

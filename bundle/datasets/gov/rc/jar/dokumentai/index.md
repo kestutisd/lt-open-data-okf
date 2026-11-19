@@ -1,7 +1,7 @@
-# `datasets/gov/rc/jar/dokumentai`
+# Directory Index: `datasets/gov/rc/jar/dokumentai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Dokumentas — Juridinių asmenų registre įregistruotų juridinių asmenų steigimo dokumentai](Dokumentas.md) - Spinta table datasets/gov/rc/jar/dokumentai/Dokumentas (5 columns).
+* [Dokumentas — Juridinių asmenų registre įregistruotų juridinių asmenų steigimo dokumentai](Dokumentas.md) - Duomenys apie Lietuvos Respublikos juridinių asmenų registre įregistruotų juridinių asmenų registro tvarkytojui pateiktus dokumentus (kodas, pavadinimas, dokumentų rūšis, dokumentų data...

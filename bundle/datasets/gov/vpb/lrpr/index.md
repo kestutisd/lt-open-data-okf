@@ -1,6 +1,6 @@
-# `datasets/gov/vpb/lrpr`
+# Directory Index: `datasets/gov/vpb/lrpr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

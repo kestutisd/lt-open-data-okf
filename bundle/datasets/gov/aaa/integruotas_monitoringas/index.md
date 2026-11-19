@@ -1,6 +1,6 @@
-# `datasets/gov/aaa/integruotas_monitoringas`
+# Directory Index: `datasets/gov/aaa/integruotas_monitoringas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

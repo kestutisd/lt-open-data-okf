@@ -3,23 +3,32 @@ type: Table
 title: "NamuUkis — Namų ūkių pajamų ir gyvenimo sąlygų statistinio tyrimo rezultatai"
 description: "Spinta table datasets/gov/lsd/pajamu_ir_gyvenimo_salygos/NamuUkis (61 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos/NamuUkis"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, namuukis, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/799/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # NamuUkis — Namų ūkių pajamų ir gyvenimo sąlygų statistinio tyrimo rezultatai
 
 - **Model:** `datasets/gov/lsd/pajamu_ir_gyvenimo_salygos/NamuUkis`[^manifest]
-- **Dataset:** [Lietuvos statistikos departamento namų ūkių bei pavienių asmenų pajamų ir gyvenimo sąlygų statistinio tyrimo duomenys](../pajamu_ir_gyvenimo_salygos.md) (`datasets/gov/lsd/pajamu_ir_gyvenimo_salygos`)
-- **Manifest CSV:** [datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos/NamuUkis`
-- **Primary Key (`ref`):** `hb030`
-- **Level:** `4`
+- **Dataset:** [Lietuvos statistikos departamento namų ūkių bei pavienių asmenų pajamų ir gyvenimo sąlygų...](../pajamu_ir_gyvenimo_salygos.md) (`datasets/gov/lsd/pajamu_ir_gyvenimo_salygos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos/NamuUkis` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `hb030`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -89,7 +98,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `hh010` | `"1"` | — | — | Vieno buto namas | — |
 | `hh010` | `"2"` | — | — | Butas dviejų butų name | — |
@@ -228,4 +237,5 @@ sources:
 | `ap` | `create(property: "apskritis", type: "ref", ref: "/datasets/gov/rc/ar/apskritis/Apskritis")` | `type` | `2` | `open` | — | — | — |
 | `ap` | `update(property: "apskritis.adm_kodas", type: "")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/pajamu_ir_gyvenimo_salygos.csv#L258)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/pajamu_ir_gyvenimo_salygos (https://data.gov.lt/datasets/799/)

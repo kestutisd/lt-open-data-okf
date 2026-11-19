@@ -1,11 +1,11 @@
-# `datasets/gov/nsa/nspr`
+# Directory Index: `datasets/gov/nsa/nspr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [neformaliojo_vaiku_svietimo_programos/](neformaliojo_vaiku_svietimo_programos/index.md) - Neformaliojo vaikų švietimo programos (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Neformaliojo vaikų švietimo programos](neformaliojo_vaiku_svietimo_programos.md) - Spinta dataset datasets/gov/nsa/nspr/neformaliojo_vaiku_svietimo_programos (2 tables).
+* [Neformaliojo vaikų švietimo programos](neformaliojo_vaiku_svietimo_programos.md) - Duomenų rinkinys sudarytas iš dviejų lentelių – „Neformaliojo vaikų švietimo programos“ ir „Neformaliojo vaikų švietimo programų lankymas“.
+
+# Subdirectories
+
+* [neformaliojo_vaiku_svietimo_programos/](neformaliojo_vaiku_svietimo_programos/index.md) - 2 tables

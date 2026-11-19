@@ -1,26 +1,36 @@
 ---
 type: Table
-title: "Draudimas — Duomenys apie užsieniečius, kuriems buvo uždrausta atvykti į Lietuvos Respubliką, kuriems buvo atsisakyta išduoti vizą ar ji buvo panaikinta, ar atšaukta Šengeno viza arba kuriems buvo..."
-description: "Spinta table datasets/gov/migracija/draudimai_atvykti/Draudimas (8 columns)."
+title: "Draudimas — Duomenys apie užsieniečius, kuriems buvo uždrausta atvykti į Lietuvos Respubliką, kuriems buvo atsisakyta išduoti vizą ar ji buvo panaikinta, ar atšaukta Šengeno viza arba kuriems buvo atsisakyta išduoti leidimą gyventi ar..."
+description: "Duomenys apie asmenis, kuriems uždrausta atvykti į Lietuvos Respubliką"
 resource: "https://get.data.gov.lt/datasets/gov/migracija/draudimai_atvykti/Draudimas"
-tags: [gov, migracija, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, migracija, draudimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/migracija/draudimai_atvykti.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/migracija/draudimai_atvykti.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/migracija/draudimai_atvykti.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1945/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/migracija/draudimai_atvykti"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# Draudimas — Duomenys apie užsieniečius, kuriems buvo uždrausta atvykti į Lietuvos Respubliką, kuriems buvo atsisakyta išduoti vizą ar ji buvo panaikinta, ar atšaukta Šengeno viza arba kuriems buvo...
+# Draudimas — Duomenys apie užsieniečius, kuriems buvo uždrausta atvykti į Lietuvos Respubliką, kuriems buvo atsisakyta išduoti vizą ar ji...
+
+**Dataset Context:** Duomenys apie asmenis, kuriems uždrausta atvykti į Lietuvos Respubliką[^manifest]
 
 - **Model:** `datasets/gov/migracija/draudimai_atvykti/Draudimas`[^manifest]
-- **Dataset:** [datasets/gov/migracija/draudimai_atvykti](../draudimai_atvykti.md) (`datasets/gov/migracija/draudimai_atvykti`)
-- **Manifest CSV:** [datasets/gov/migracija/draudimai_atvykti.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/migracija/draudimai_atvykti.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/migracija/draudimai_atvykti/Draudimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Duomenys apie uždraudimą atvykti](../draudimai_atvykti.md) (`datasets/gov/migracija/draudimai_atvykti`)[^manifest]
+- **Manifest CSV:** [datasets/gov/migracija/draudimai_atvykti.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/migracija/draudimai_atvykti.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/migracija/draudimai_atvykti/Draudimas` (`deployed`)[^manifest]
+- **Provider:** `migracija` — Migracijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,7 +47,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"M"` | — | — | Moteris | — |
 | `lytis` | `"V"` | — | — | Vyras | — |
@@ -50,4 +60,5 @@ sources:
 | `poreiksme` | `"update(property: ""poreiksme[]"", type: ""array"", source: ""Poreiksme"")"` | `property` | `4` | — | — | — | — |
 | `pilietybe` | `"update(property: ""pilietybe[]"", type: ""array"", source: ""Pilietybe"")"` | `property` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/migracija/draudimai_atvykti.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/migracija/draudimai_atvykti.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/migracija/draudimai_atvykti.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/migracija/draudimai_atvykti (https://data.gov.lt/datasets/1945/)

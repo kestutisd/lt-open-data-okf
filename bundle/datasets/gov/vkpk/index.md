@@ -1,11 +1,11 @@
-# `datasets/gov/vkpk`
+# Directory Index: `datasets/gov/vkpk`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [kulturos_paveldas/](kulturos_paveldas/index.md) - Lietuvai reikšmingas kultūros paveldas, esantis užsienyje (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Lietuvai reikšmingas kultūros paveldas, esantis užsienyje](kulturos_paveldas.md) - Spinta dataset datasets/gov/vkpk/kulturos_paveldas (1 table).
+* [Lietuvai reikšmingas kultūros paveldas, esantis užsienyje](kulturos_paveldas.md) - Valstybinė kultūros paveldo komisija, vykdydama LR Vyriausybės patvirtintame Lietuvos Respublikos teritorijos bendrojo plano įgyvendinimo priemonių plane numatytą priemonę, nuo 2016 m. pradėjo...
+
+# Subdirectories
+
+* [kulturos_paveldas/](kulturos_paveldas/index.md) - 1 table

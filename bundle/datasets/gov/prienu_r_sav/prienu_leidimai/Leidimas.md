@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "Leidimas — Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo duomenys"
-description: "Prienų raj."
+description: "Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo sistemos duomenų rinkinį sudaro 1 lentelė – Prienų raj."
 resource: "https://get.data.gov.lt/datasets/gov/prienu_r_sav/prienu_leidimai/Leidimas"
-tags: [gov, prienu_r_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, prienu_r_sav, leidimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/prienu_r_sav/prienu_leidimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3867/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/prienu_r_sav/prienu_leidimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Leidimas — Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo duomenys
 
-Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo sistemos duomenų rinkinį sudaro 1 lentelė – Prienų raj. savivaldybės nuo 2025 m. kovo mėn. pabaigos renkami prekybai, reklamai arba paslaugų teikimui pateiktų paraiškų duomenys ir būsenos. Vienas įrašas lentelėje atitinka vieną juridinio ar fizinio asmens paraišką prekiauti ar teikti paslaugas Prienų raj. savivaldybės teritorijoje. Duomenų teikėjas – Prienų rajono savivaldybė.
+Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo sistemos duomenų rinkinį sudaro 1 lentelė – Prienų raj. savivaldybės nuo 2025 m. kovo mėn. pabaigos renkami prekybai, reklamai arba paslaugų teikimui pateiktų paraiškų duomenys ir būsenos. Vienas įrašas lentelėje atitinka vieną juridinio ar fizinio asmens paraišką prekiauti ar teikti paslaugas Prienų raj. savivaldybės teritorijoje. Duomenų teikėjas – Prienų rajono savivaldybė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/prienu_r_sav/prienu_leidimai/Leidimas`[^manifest]
-- **Dataset:** [Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo sistema](../prienu_leidimai.md) (`datasets/gov/prienu_r_sav/prienu_leidimai`)
-- **Manifest CSV:** [datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/prienu_r_sav/prienu_leidimai/Leidimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose vietose leidimų išdavimo sistema](../prienu_leidimai.md) (`datasets/gov/prienu_r_sav/prienu_leidimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/prienu_r_sav/prienu_leidimai/Leidimas` (`deployed`)[^manifest]
+- **Provider:** `prienu_r_sav` — Prienų rajono savivaldybė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -53,4 +62,5 @@ Prienų raj. sav. Išorinės reklamos, prekybos ir paslaugų teikimo viešosiose
 | `leidimo_pradzios_data` | `date` | `D` | `4` | `open` | — | Leidimo galiojimo pradžios data | — |
 | `pardavimo_tipas` | `string` | — | `4` | `open` | — | Pardavimo tipas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/prienu_r_sav/prienu_leidimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/prienu_r_sav/prienu_leidimai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/prienu_r_sav/prienu_leidimai (https://data.gov.lt/datasets/3867/)

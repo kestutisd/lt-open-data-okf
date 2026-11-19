@@ -3,30 +3,41 @@ type: Table
 title: "SuaugusiujuSvietimas2011 — Suaugusiųjų švietimo statistinis tyrimas 2011 m."
 description: "2011 metais atliktas suaugusiųjų švietimo statistinio tyrimas"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2011"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, suaugusiujusvietimas2011, deployed, cadence-quinquennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L374"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv#L374"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1621/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/svietimas/suaugusiuju"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SuaugusiujuSvietimas2011 — Suaugusiųjų švietimo statistinis tyrimas 2011 m.
 
-2011 metais atliktas suaugusiųjų švietimo statistinio tyrimas
+2011 metais atliktas suaugusiųjų švietimo statistinio tyrimas[^manifest]
 
 - **Model:** `datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2011`[^manifest]
-- **Dataset:** [datasets/gov/lsd/svietimas/suaugusiuju](../suaugusiuju.md) (`datasets/gov/lsd/svietimas/suaugusiuju`)
-- **Manifest CSV:** [datasets/gov/lsd/svietimas.csv#L374](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L374)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2011`
+- **Dataset:** [Suaugusiųjų švietimo statistinio tyrimo duomenys](../suaugusiuju.md) (`datasets/gov/lsd/svietimas/suaugusiuju`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/svietimas.csv#L374](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L374)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/svietimas/suaugusiuju/SuaugusiujuSvietimas2011` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUINQUENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `indyvidualno` | `integer` | — | — | `open` | — | Asmens ID | — |
-| `sex` | `integer` | `sex` | — | `open` | — | Lytis | — |
+| `sex` | `integer` | `enum: sex` | — | `open` | — | Lytis | — |
 | `age` | `integer` | — | — | `open` | — | Amžius | — |
 | `isced2d` | `integer` | — | — | `open` | — | Įgytas aukščiausias išsilavinimas | — |
 | `hatfield1` | `string` | — | — | `open` | — | Specialybė ar kvalifikacija, kurią Jūs įgijote | — |
@@ -86,7 +97,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `sex` | `1` | — | — | Vyras | — |
 | `sex` | `2` | — | — | Moteris | — |
@@ -261,4 +272,9 @@ sources:
 | `degurb` | `2` | — | — | Vidutiniškai apgyvendinta vietovė | — |
 | `degurb` | `3` | — | — | Menkai apgyvendinta vietovė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/svietimas.csv#L374 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/svietimas.csv#L374)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/svietimas/suaugusiuju (https://data.gov.lt/datasets/1621/)

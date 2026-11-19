@@ -1,13 +1,13 @@
-# `datasets/gov/nvsc/uzkreciamos_ligos`
+# Directory Index: `datasets/gov/nvsc/uzkreciamos_ligos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [atvejai/](atvejai/index.md) - Nacionalinio visuomenės sveikatos centro užkrečiamų ligų duomenys (0 datasets, 4 tables)
-* [sukelejai/](sukelejai/index.md) - Nacionalinio visuomenės sveikatos centro užkrečiamų ligų sukelėjų duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų duomenys](atvejai.md) - Spinta dataset datasets/gov/nvsc/uzkreciamos_ligos/atvejai (4 tables).
-* [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų sukelėjų duomenys](sukelejai.md) - Spinta dataset datasets/gov/nvsc/uzkreciamos_ligos/sukelejai (1 table).
+* [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų duomenys](atvejai.md) - Skelbiama informacija apie užkrečiamųjų ligų atvejus.
+* [Nacionalinio visuomenės sveikatos centro užkrečiamų ligų sukelėjų duomenys](sukelejai.md) - Skelbiama informacija apie užkrečiamųjų ligų sukėlėjus.
+
+# Subdirectories
+
+* [atvejai/](atvejai/index.md) - 4 tables
+* [sukelejai/](sukelejai/index.md) - 1 table

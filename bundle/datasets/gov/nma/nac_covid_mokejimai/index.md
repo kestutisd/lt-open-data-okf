@@ -1,6 +1,6 @@
-# `datasets/gov/nma/nac_covid_mokejimai`
+# Directory Index: `datasets/gov/nma/nac_covid_mokejimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

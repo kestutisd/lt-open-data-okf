@@ -1,6 +1,6 @@
-# `datasets/gov/lbek/leidimai`
+# Directory Index: `datasets/gov/lbek/leidimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

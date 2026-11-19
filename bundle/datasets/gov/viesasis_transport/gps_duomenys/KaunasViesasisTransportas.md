@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "KaunasViesasisTransportas — Kauno viešojo transporto GPS padėties duomenys"
-description: "Spinta table datasets/gov/viesasis_transport/gps_duomenys/KaunasViesasisTransportas (16 columns)."
+description: "Rinkiniuose pateikiama viešojo transporto GPS informacija."
 resource: "https://get.data.gov.lt/datasets/gov/viesasis_transport/gps_duomenys/KaunasViesasisTransportas"
-tags: [gov, viesasis_transport, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, viesasis_transport, kaunasviesasistransportas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/viesasis_transport/gps_duomenys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/viesasis_transport/gps_duomenys.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/viesasis_transport/gps_duomenys.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3856/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/viesasis_transport/gps_duomenys"
+    author: "team:vda"
+    last_modified: "2026-01-15T00:00:00Z"
 ---
 
 # KaunasViesasisTransportas — Kauno viešojo transporto GPS padėties duomenys
 
+**Dataset Context:** Rinkiniuose pateikiama viešojo transporto GPS informacija. Viešojo transporto padėties informacija matuojama kas 5-20 sekundžių. Duomenys atnaujinami kartą per dieną. Pateikiama informacija apie transporto rūšį, maršrutą, reiso identifikatorių, mašinos numerį, mašinos koordinates matavimo metu WGS-84 ir LKS-94 koordinačių sistemose, greitį, azimutą, reiso pradžią, nuokrypį nuo grafiko sekundėmis, mašinos tipą, matavimo datą ir laiką. Rinkinių objektas – vienos transporto priemonės GPS koordinatės laike. Duomenys nuo 2025-07-01. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
+
 - **Model:** `datasets/gov/viesasis_transport/gps_duomenys/KaunasViesasisTransportas`[^manifest]
-- **Dataset:** [Viešojo transporto GPS padėties duomenys](../gps_duomenys.md) (`datasets/gov/viesasis_transport/gps_duomenys`)
-- **Manifest CSV:** [datasets/gov/viesasis_transport/gps_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/viesasis_transport/gps_duomenys.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/viesasis_transport/gps_duomenys/KaunasViesasisTransportas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Viešojo transporto GPS padėties duomenys](../gps_duomenys.md) (`datasets/gov/viesasis_transport/gps_duomenys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/viesasis_transport/gps_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/viesasis_transport/gps_duomenys.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/viesasis_transport/gps_duomenys/KaunasViesasisTransportas` (`deployed`)[^manifest]
+- **Provider:** `viesasis_transport` — Viešojo transporto duomenys *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-01-15`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +55,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `transportas` | `"Autobusai"` | — | `open` | Autobusas | — |
 | `transportas` | `"Troleibusai"` | — | `open` | Troleibusas | — |
@@ -53,4 +64,5 @@ sources:
 | `masinos_tipas` | `"Padidintos talpos VT priemonė"` | — | `open` | Padidintos talpos 18m ilgio viešojo transporto priemonė | — |
 | `masinos_tipas` | `"Ypač didelės talpos VT priemonė"` | — | `open` | Padidintos talpos 25m ilgio viešojo transporto priemonė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/viesasis_transport/gps_duomenys.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/viesasis_transport/gps_duomenys.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/viesasis_transport/gps_duomenys.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/viesasis_transport/gps_duomenys (https://data.gov.lt/datasets/3856/)

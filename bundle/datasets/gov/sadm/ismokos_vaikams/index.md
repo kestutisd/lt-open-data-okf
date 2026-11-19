@@ -1,6 +1,6 @@
-# `datasets/gov/sadm/ismokos_vaikams`
+# Directory Index: `datasets/gov/sadm/ismokos_vaikams`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

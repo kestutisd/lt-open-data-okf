@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/valstybinio_pozeminio_vlm_duomenys`
+# Directory Index: `datasets/gov/lgt/valstybinio_pozeminio_vlm_duomenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

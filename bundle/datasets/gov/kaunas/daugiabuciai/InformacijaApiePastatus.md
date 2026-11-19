@@ -1,24 +1,36 @@
 ---
 type: Table
 title: "InformacijaApiePastatus — Daugiabučiai, valdytojai"
-description: "Spinta table datasets/gov/kaunas/daugiabuciai/InformacijaApiePastatus (31 columns)."
+description: "Kauno miesto daugiabučiai namai (3 ir daugiau butų), kuriems reikalingi bendro naudojimo objektų valdytojai"
 resource: "https://get.data.gov.lt/datasets/gov/kaunas/daugiabuciai/InformacijaApiePastatus"
-tags: [gov, kaunas, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kaunas, informacijaapiepastatus, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kaunas/daugiabuciai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kaunas/daugiabuciai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/kaunas/daugiabuciai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1361/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kaunas/daugiabuciai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # InformacijaApiePastatus — Daugiabučiai, valdytojai
 
+**Dataset Context:** Kauno miesto daugiabučiai namai (3 ir daugiau butų), kuriems reikalingi bendro naudojimo objektų valdytojai[^manifest]
+
 - **Model:** `datasets/gov/kaunas/daugiabuciai/InformacijaApiePastatus`[^manifest]
-- **Dataset:** [Kauno miesto savivaldybės teikiami duomenys](../daugiabuciai.md) (`datasets/gov/kaunas/daugiabuciai`)
-- **Manifest CSV:** [datasets/gov/kaunas/daugiabuciai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kaunas/daugiabuciai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kaunas/daugiabuciai/InformacijaApiePastatus`
-- **Primary Key (`ref`):** `id`
+- **Dataset:** [Kauno miesto savivaldybės teikiami duomenys](../daugiabuciai.md) (`datasets/gov/kaunas/daugiabuciai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kaunas/daugiabuciai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kaunas/daugiabuciai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kaunas/daugiabuciai/InformacijaApiePastatus` (`deployed`)[^manifest]
+- **Provider:** `kaunas` — Kauno miesto savivaldybė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -56,4 +68,5 @@ sources:
 | `lng` | `number` | — | — | `open` | — | Ilgumos koordinatės | Ilguma, WGS84 |
 | `lat` | `number` | — | — | `open` | — | Platumos koordinatės | Platuma WGS84 |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kaunas/daugiabuciai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kaunas/daugiabuciai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kaunas/daugiabuciai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kaunas/daugiabuciai (https://data.gov.lt/datasets/1361/)

@@ -1,27 +1,31 @@
 ---
 type: Dataset
 title: "datasets/gov/pd/itpr"
-description: "Spinta dataset datasets/gov/pd/itpr (1 table)."
+description: "Lithuanian open data dataset datasets/gov/pd/itpr (1 lentelė)."
 tags: [gov, pd, undeployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pd/itpr.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L3"
+    title: "atviriduomenys/manifest — datasets/gov/pd/itpr.csv#L3"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # datasets/gov/pd/itpr
 
 - **Namespace:** `datasets/gov/pd/itpr`[^manifest]
-- **Manifest CSV:** [datasets/gov/pd/itpr.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L3)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
+- **Manifest CSV:** [datasets/gov/pd/itpr.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L3)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (`undeployed` — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pd` — Policijos departamentas *(resolved from institutional code)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `1` (1 lentelė)[^manifest]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [IeskomuTransportoPriemoniuRegistras](itpr/IeskomuTransportoPriemoniuRegistras.md) | — | `4` | `nationalid` | — | 21 | — |
+| [IeskomuTransportoPriemoniuRegistras](itpr/IeskomuTransportoPriemoniuRegistras.md) | — | `4` | `nationalid` | — | `21` | — |
 
 # Prefixes
 
@@ -33,6 +37,6 @@ sources:
 
 | Target | Prepare | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `(dataset)` | `create(type: "param", ref: "dist", source: "/datasets/gov/ivpk/adp/catalog/DatasetDistribution")` | `type` | `4` | `open` | — | — | — |
+| `(model)` | `create(type: "param", ref: "dist", source: "/datasets/gov/ivpk/adp/catalog/DatasetDistribution")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pd/itpr.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/pd/itpr.csv#L3 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/itpr.csv#L3)

@@ -3,24 +3,32 @@ type: Table
 title: "IstaigosDuomenys — Istaigu_Duomenys"
 description: "Spinta table datasets/gov/vaspvt/priemones/IstaigosDuomenys (57 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vaspvt/priemones/IstaigosDuomenys"
-tags: [gov, vaspvt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vaspvt, istaigosduomenys, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L189"
+    title: "atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv#L189"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2310/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vaspvt/priemones"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # IstaigosDuomenys — Istaigu_Duomenys
 
 - **Model:** `datasets/gov/vaspvt/priemones/IstaigosDuomenys`[^manifest]
-- **Dataset:** [Sveikatos priežiūros technologijų, susijusių su medicinos prietaisais, vertinimo ir valdymo duomenys](../priemones.md) (`datasets/gov/vaspvt/priemones`)
-- **Manifest CSV:** [datasets/gov/vaspvt/medicinos_iranga.csv#L189](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L189)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vaspvt/priemones/IstaigosDuomenys`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Sveikatos priežiūros technologijų, susijusių su medicinos prietaisais, vertinimo ir valdymo duomenys](../priemones.md) (`datasets/gov/vaspvt/priemones`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vaspvt/medicinos_iranga.csv#L189](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L189)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vaspvt/priemones/IstaigosDuomenys` (`deployed`)[^manifest]
+- **Provider:** `vaspvt` — Valstybinė akreditavimo sveikatos priežiūros veiklai tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -86,7 +94,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `teisine_forma` | `"1"` | — | — | Viešoji Įstaiga | — |
 | `teisine_forma` | `"2"` | — | — | Uždaroji Akcinė Bendrovė | — |
@@ -161,4 +169,9 @@ sources:
 | `savivaldybe` | `create(property: "savivaldybe", type: "ref", ref: "/datasets/gov/rc/ar/savivaldybe/Savivaldybe")` | `type` | `4` | `open` | — | — | — |
 | `apskritis` | `create(property: "apskritis", type: "ref", ref: "/datasets/gov/rc/ar/savivaldybe/Apskritis")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv#L189 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L189)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vaspvt/priemones (https://data.gov.lt/datasets/2310/)

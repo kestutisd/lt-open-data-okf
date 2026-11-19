@@ -3,32 +3,41 @@ type: Table
 title: "ButuPirkimas — Agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių duomenys 1 km stačiakampėse gardelėse."
 description: "Lentelėje pateikiami agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių duomenys 1 km stačiakampėse gardelėse."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/butu_pirkimai_gardelese/ButuPirkimas"
-tags: [gov, lsd, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, butupirkimas, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/butu_pirkimai_gardelese.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2559/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/butu_pirkimai_gardelese"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
-# ButuPirkimas — Agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių duomenys 1 km stačiakampėse gardelėse.
+# ButuPirkimas — Agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių...
 
-Lentelėje pateikiami agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių duomenys 1 km stačiakampėse gardelėse. Laiko aprėptis - nuo 1998 m. Duomenys šiame rinkinyje apima ne visus gyvenamosios (butų) paskirties objektų pirkimų aibės sandorius, bet tik tuos sandorius, kurių metu įsigytas tik vienas objektas. Informacija apie sandorius, kurių metu buvo perkami keli objektai (pvz.: butas ir sandėliukas arba butas ir žemės skypas) šioje lentelėje nepateikiami. Geografinė informacija (gardelės) gauta iš VĮ Registrų centro Adresų registro.
+Lentelėje pateikiami agreguoti VĮ Registrų centro Nekilnojamojo turto registro (NTR) gyvenamosios paskirties (butų) objektų pirkimų sandorių duomenys 1 km stačiakampėse gardelėse. Laiko aprėptis - nuo 1998 m. Duomenys šiame rinkinyje apima ne visus gyvenamosios (butų) paskirties objektų pirkimų aibės sandorius, bet tik tuos sandorius, kurių metu įsigytas tik vienas objektas. Informacija apie sandorius, kurių metu buvo perkami keli objektai (pvz.: butas ir sandėliukas arba butas ir žemės skypas) šioje lentelėje nepateikiami. Geografinė informacija (gardelės) gauta iš VĮ Registrų centro Adresų registro.[^manifest]
 
 - **Model:** `datasets/gov/lsd/butu_pirkimai_gardelese/ButuPirkimas`[^manifest]
-- **Dataset:** [Nekilnojamojo turto registro butų pirkimų sandorių informacija gardelėse](../butu_pirkimai_gardelese.md) (`datasets/gov/lsd/butu_pirkimai_gardelese`)
-- **Manifest CSV:** [datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/butu_pirkimai_gardelese/ButuPirkimas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Nekilnojamojo turto registro butų pirkimų sandorių informacija gardelėse](../butu_pirkimai_gardelese.md) (`datasets/gov/lsd/butu_pirkimai_gardelese`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/butu_pirkimai_gardelese/ButuPirkimas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `iraso_id` | `string` | — | `4` | `open` | — | Duomenų eilutės įrašo identifikatorius | — |
-| `sq_grid_id` | `ref` | [/datasets/gov/lsd/grid/Grid1KmSq](../grid/Grid1KmSq.md) | `4` | `open` | — | Stačiakampės 1km gardelės unikalus identifikatorius | — |
+| `sq_grid_id` | `ref` | [Grid1KmSq](../grid/Grid1KmSq.md) (`level=4 UUID`: `sq_grid_id._id`) | `4` | `open` | — | Stačiakampės 1km gardelės unikalus identifikatorius | — |
 | `data_nuo` | `date` | `Y` | `4` | `open` | — | Laikotarpio (metų) pradžios data | — |
 | `data_iki` | `date` | `Y` | `4` | `open` | — | Laikotarpio (metų) pabaigos data | — |
 | `sandoriu_sk` | `number` | `U` | `4` | `open` | — | Unikalių sandorių skaičius | — |
@@ -82,4 +91,5 @@ Lentelėje pateikiami agreguoti VĮ Registrų centro Nekilnojamojo turto registr
 | `visuotinio_vertinimo_verte_p90` | `number` | — | `4` | `open` | — | Butų visuotinio vertinimo verčių 90-asis procentilis (Eur) | — |
 | `maks_visuotinio_vertinimo_verte` | `number` | — | `4` | `open` | — | Butų visuotinio vertinimo verčių didžiausia vertė (Eur) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/butu_pirkimai_gardelese.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/butu_pirkimai_gardelese.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/butu_pirkimai_gardelese (https://data.gov.lt/datasets/2559/)

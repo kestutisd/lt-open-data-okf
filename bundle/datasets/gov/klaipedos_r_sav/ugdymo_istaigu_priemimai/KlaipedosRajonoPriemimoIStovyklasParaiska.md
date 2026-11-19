@@ -3,25 +3,34 @@ type: Table
 title: "KlaipedosRajonoPriemimoIStovyklasParaiska — Klaipėdos rajono priėmimai į stovyklas"
 description: "Informacija apie vaikų priėmimo į Klaipėdos rajono savivaldybės stovyklas pateiktus prašymus"
 resource: "https://get.data.gov.lt/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai/KlaipedosRajonoPriemimoIStovyklasParaiska"
-tags: [gov, klaipedos_r_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, klaipedos_r_sav, klaipedosrajonopriemimoistovyklasparaiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41"
+    title: "atviriduomenys/manifest — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2739/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # KlaipedosRajonoPriemimoIStovyklasParaiska — Klaipėdos rajono priėmimai į stovyklas
 
-Informacija apie vaikų priėmimo į Klaipėdos rajono savivaldybės stovyklas pateiktus prašymus
+Informacija apie vaikų priėmimo į Klaipėdos rajono savivaldybės stovyklas pateiktus prašymus[^manifest]
 
 - **Model:** `datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai/KlaipedosRajonoPriemimoIStovyklasParaiska`[^manifest]
-- **Dataset:** [Priėmimai į Klaipėdos rajono ikimokyklinio ir mokyklinio ugdymo įstaigas](../ugdymo_istaigu_priemimai.md) (`datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai`)
-- **Manifest CSV:** [datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai/KlaipedosRajonoPriemimoIStovyklasParaiska`
-- **Primary Key (`ref`):** `registracijos_id`
-- **Level:** `4`
+- **Dataset:** [Priėmimai į Klaipėdos rajono ikimokyklinio ir mokyklinio ugdymo įstaigas](../ugdymo_istaigu_priemimai.md) (`datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai/KlaipedosRajonoPriemimoIStovyklasParaiska` (`deployed`)[^manifest]
+- **Provider:** `klaipedos_r_sav` — Klaipėdos rajono savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `registracijos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -57,4 +66,9 @@ Informacija apie vaikų priėmimo į Klaipėdos rajono savivaldybės stovyklas p
 | `paslaugos_gavejo_mokestis_eur` | `number` | — | `4` | `open` | — | Kaina tėvams po 40 proc. arba 80 proc. kompensacijos | — |
 | `apklausa_issiusta` | `boolean` | — | `4` | `open` | — | Išsiųstos apklausos po stovyklos požymis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai.csv#L41)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/klaipedos_r_sav/ugdymo_istaigu_priemimai (https://data.gov.lt/datasets/2739/)

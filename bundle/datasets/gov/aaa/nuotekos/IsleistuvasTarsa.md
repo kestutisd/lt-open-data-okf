@@ -3,22 +3,32 @@ type: Table
 title: "IsleistuvasTarsa — Metinę nuotekų ataskaitą teikiančio subjekto duomenys dėl išleidžiamų nuotekų (įskaitant kiekius pagal išleistuvą)"
 description: "Spinta table datasets/gov/aaa/nuotekos/IsleistuvasTarsa (36 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/nuotekos/IsleistuvasTarsa"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, isleistuvastarsa, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/nuotekos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/nuotekos.csv#L64"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/nuotekos.csv#L64"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1784/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/nuotekos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # IsleistuvasTarsa — Metinę nuotekų ataskaitą teikiančio subjekto duomenys dėl išleidžiamų nuotekų (įskaitant kiekius pagal išleistuvą)
 
 - **Model:** `datasets/gov/aaa/nuotekos/IsleistuvasTarsa`[^manifest]
-- **Dataset:** [datasets/gov/aaa/nuotekos](../nuotekos.md) (`datasets/gov/aaa/nuotekos`)
-- **Manifest CSV:** [datasets/gov/aaa/nuotekos.csv#L64](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/nuotekos.csv#L64)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/nuotekos/IsleistuvasTarsa`
-- **Level:** `2`
+- **Dataset:** [Metinių nuotekų tvarkymo apskaitos ataskaitų duomenys](../nuotekos.md) (`datasets/gov/aaa/nuotekos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/nuotekos.csv#L64](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/nuotekos.csv#L64)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/nuotekos/IsleistuvasTarsa` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -63,7 +73,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `aob_tipas` | `"USB"` | — | — | Ūkio subjektas | — |
 | `aob_tipas` | `"UVO"` | — | — | Ūkinės veiklos objektas | — |
@@ -115,4 +125,9 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `dok_atsisk_data_nuo` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/nuotekos.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/nuotekos.csv#L64 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/nuotekos.csv#L64)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/nuotekos (https://data.gov.lt/datasets/1784/)

@@ -3,22 +3,32 @@ type: Table
 title: "Leidimas — Laikinieji leidimai vykdyti veiklą su jonizuojančiosios spinduliuotės šaltiniais"
 description: "Spinta table datasets/gov/rsc/laikinieji_leidimai/Leidimas (15 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rsc/laikinieji_leidimai/Leidimas"
-tags: [gov, rsc, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rsc, leidimas, deployed, level-2, cadence-unknown]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rsc/laikinieji_leidimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/laikinieji_leidimai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rsc/laikinieji_leidimai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/940/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rsc/laikinieji_leidimai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Leidimas — Laikinieji leidimai vykdyti veiklą su jonizuojančiosios spinduliuotės šaltiniais
 
 - **Model:** `datasets/gov/rsc/laikinieji_leidimai/Leidimas`[^manifest]
-- **Dataset:** [datasets/gov/rsc/laikinieji_leidimai](../laikinieji_leidimai.md) (`datasets/gov/rsc/laikinieji_leidimai`)
-- **Manifest CSV:** [datasets/gov/rsc/laikinieji_leidimai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/laikinieji_leidimai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsc/laikinieji_leidimai/Leidimas`
-- **Level:** `2`
+- **Dataset:** [Radiacinės saugos centro išduoti laikinieji leidimai vykdyti veiklą su jonizuojančiosios...](../laikinieji_leidimai.md) (`datasets/gov/rsc/laikinieji_leidimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rsc/laikinieji_leidimai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/laikinieji_leidimai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rsc/laikinieji_leidimai/Leidimas` (`deployed`)[^manifest]
+- **Provider:** `rsc` — Radiacinės saugos centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `UNKNOWN`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,7 +52,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `busena` | `"Neišduotas"` | — | — | Neišduotas | — |
 | `busena` | `"Išduotas"` | — | — | Išduotas | — |
@@ -56,4 +66,9 @@ sources:
 | `gavejo_kodas` | `update(base: "/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo")` | `base` | `4` | `open` | — | — | — |
 | `gavejo_kodas` | `update(type: "ref", ref: "/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rsc/laikinieji_leidimai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rsc/laikinieji_leidimai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rsc/laikinieji_leidimai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rsc/laikinieji_leidimai (https://data.gov.lt/datasets/940/)

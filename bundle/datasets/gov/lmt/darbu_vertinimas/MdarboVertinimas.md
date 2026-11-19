@@ -3,25 +3,28 @@ type: Table
 title: "MdarboVertinimas — Mokslo ir meno darbų vertinimo duomenys"
 description: "Lentelėje - mokslo ir meno darbų vertinimo duomenys iš Lietuvos mokslo tarybos Mokslo (meno) veiklos rezultatų vertinimo sistemos „Vieversys“."
 resource: "https://get.data.gov.lt/datasets/gov/lmt/darbu_vertinimas/MdarboVertinimas"
-tags: [gov, lmt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lmt, mdarbovertinimas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lmt/darbu_vertinimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmt/darbu_vertinimas.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lmt/darbu_vertinimas.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # MdarboVertinimas — Mokslo ir meno darbų vertinimo duomenys
 
-Lentelėje - mokslo ir meno darbų vertinimo duomenys iš Lietuvos mokslo tarybos Mokslo (meno) veiklos rezultatų vertinimo sistemos „Vieversys“. Duomenys lentelėje pateikiami nuo 2018 metų ir atnaujinami, papildomi kas metus.
+Lentelėje - mokslo ir meno darbų vertinimo duomenys iš Lietuvos mokslo tarybos Mokslo (meno) veiklos rezultatų vertinimo sistemos „Vieversys“. Duomenys lentelėje pateikiami nuo 2018 metų ir atnaujinami, papildomi kas metus. Dėl techninių klausimų ar klaidų galima kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lmt/darbu_vertinimas/MdarboVertinimas`[^manifest]
-- **Dataset:** [Mokslo ir meno darbų vertinimo duomenys](../darbu_vertinimas.md) (`datasets/gov/lmt/darbu_vertinimas`)
-- **Manifest CSV:** [datasets/gov/lmt/darbu_vertinimas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmt/darbu_vertinimas.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lmt/darbu_vertinimas/MdarboVertinimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Mokslo ir meno darbų vertinimo duomenys](../darbu_vertinimas.md) (`datasets/gov/lmt/darbu_vertinimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lmt/darbu_vertinimas.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmt/darbu_vertinimas.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lmt/darbu_vertinimas/MdarboVertinimas` (`deployed`)[^manifest]
+- **Provider:** `lmt` — Lietuvos mokslo taryba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -56,4 +59,4 @@ Lentelėje - mokslo ir meno darbų vertinimo duomenys iš Lietuvos mokslo tarybo
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `komentaras_lt` | `update(property: "komentaras_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lmt/darbu_vertinimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lmt/darbu_vertinimas.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lmt/darbu_vertinimas.csv#L6)

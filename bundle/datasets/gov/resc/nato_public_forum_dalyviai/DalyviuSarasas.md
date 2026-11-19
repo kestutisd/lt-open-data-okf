@@ -1,27 +1,36 @@
 ---
 type: Table
 title: "DalyviuSarasas — Dalyvių sąrašas"
-description: "Šiame rinkinyje pateiktas 2023 liepos 11-12 d. Vilniuje vykusio NATO viešojo forumo dalyvių sąrašas."
+description: "Šiame rinkinyje pateiktas 2023 liepos 11-12 d."
 resource: "https://get.data.gov.lt/datasets/gov/resc/nato_public_forum_dalyviai/DalyviuSarasas"
-tags: [gov, resc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, resc, dalyviusarasas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/resc/ato_public_forum_dalyviai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/resc/ato_public_forum_dalyviai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/resc/ato_public_forum_dalyviai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2733/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/resc/nato_public_forum_dalyviai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # DalyviuSarasas — Dalyvių sąrašas
 
-Šiame rinkinyje pateiktas 2023 liepos 11-12 d. Vilniuje vykusio NATO viešojo forumo dalyvių sąrašas. Renginį bendrai organizavo NATO, Rytų Europos studijų centras (Lietuva), Atlantic Council (JAV), German Marshall Fund of the United States (JAV) ir Munich Security Conference (Vokietija).
+Šiame rinkinyje pateiktas 2023 liepos 11-12 d. Vilniuje vykusio NATO viešojo forumo dalyvių sąrašas. Renginį bendrai organizavo NATO, Rytų Europos studijų centras (Lietuva), Atlantic Council (JAV), German Marshall Fund of the United States (JAV) ir Munich Security Conference (Vokietija).[^manifest]
 
 - **Model:** `datasets/gov/resc/nato_public_forum_dalyviai/DalyviuSarasas`[^manifest]
-- **Dataset:** [datasets/gov/resc/nato_public_forum_dalyviai](../nato_public_forum_dalyviai.md) (`datasets/gov/resc/nato_public_forum_dalyviai`)
-- **Manifest CSV:** [datasets/gov/resc/ato_public_forum_dalyviai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/resc/ato_public_forum_dalyviai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/resc/nato_public_forum_dalyviai/DalyviuSarasas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [„NATO“ public forum dalyvių registro duomenys](../nato_public_forum_dalyviai.md) (`datasets/gov/resc/nato_public_forum_dalyviai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/resc/ato_public_forum_dalyviai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/resc/ato_public_forum_dalyviai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/resc/nato_public_forum_dalyviai/DalyviuSarasas` (`deployed`)[^manifest]
+- **Provider:** `resc` — Rytų Europos studijų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -47,7 +56,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"M"` | — | — | Vyras | — |
 | `lytis` | `"F"` | — | — | Moteris | — |
@@ -58,4 +67,5 @@ sources:
 | `atvyk_lektuvu` | `"n"` | — | — | Ne | — |
 | `atvyk_lektuvu` | `"tbp"` | — | — | Nesulaukta atsakymo (tbc - to be confirmed) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/resc/ato_public_forum_dalyviai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/resc/ato_public_forum_dalyviai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/resc/ato_public_forum_dalyviai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/resc/nato_public_forum_dalyviai (https://data.gov.lt/datasets/2733/)

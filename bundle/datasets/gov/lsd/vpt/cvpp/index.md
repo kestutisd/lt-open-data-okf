@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/vpt/cvpp`
+# Directory Index: `datasets/gov/lsd/vpt/cvpp`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

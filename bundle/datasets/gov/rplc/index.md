@@ -1,15 +1,15 @@
-# `datasets/gov/rplc`
+# Directory Index: `datasets/gov/rplc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [ambulatorija/](ambulatorija/index.md) - Namespace `datasets/gov/rplc/ambulatorija` (0 datasets, 1 table)
-* [stacionaras/](stacionaras/index.md) - Namespace `datasets/gov/rplc/stacionaras` (0 datasets, 1 table)
-* [studentu_registras/](studentu_registras/index.md) - Namespace `datasets/gov/rplc/studentu_registras` (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/rplc/ambulatorija](ambulatorija.md) - Spinta dataset datasets/gov/rplc/ambulatorija (1 table).
-* [datasets/gov/rplc/stacionaras](stacionaras.md) - Spinta dataset datasets/gov/rplc/stacionaras (1 table).
-* [datasets/gov/rplc/studentu_registras](studentu_registras.md) - Spinta dataset datasets/gov/rplc/studentu_registras (1 table).
+* [Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių pacientų apsilankymų duomenys](ambulatorija.md) - Šiame duomenų rinkinyje pateikiami RPLC Vilniaus filiale ambulatorines paslaugas gavusių pacientų duomenys.
+* [Respublikinio Priklausomybės Ligų Centro Vilniaus filialo stacionaro skyriuose gydytų pacientų duomenys](stacionaras.md) - Šiame duomenų rinkinyje pateikiami RPLC Vilniaus filiale stacionarines paslaugas gavusių pacientų duomenys.
+* [Respublikinio Priklausomybės Ligų Centro studentų, atliekančių praktiką gydymo įstaigoje, duomenys](studentu_registras.md) - Šiame duomenų rinkinyje pateikiami studentų atlikusių praktiką ar savanorišką veiklą RPLC duomenys.
+
+# Subdirectories
+
+* [ambulatorija/](ambulatorija/index.md) - 1 table
+* [stacionaras/](stacionaras/index.md) - 1 table
+* [studentu_registras/](studentu_registras/index.md) - 1 table

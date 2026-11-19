@@ -3,29 +3,39 @@ type: Table
 title: "Antimikrobinis — Antimikrobinių vaistinių preparatų suvartojimas"
 description: "Spinta table datasets/gov/hi/vaistu_suvartojimas/Antimikrobinis (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/hi/vaistu_suvartojimas/Antimikrobinis"
-tags: [gov, hi, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, hi, antimikrobinis, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/422/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/hi/vaistu_suvartojimas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Antimikrobinis — Antimikrobinių vaistinių preparatų suvartojimas
 
 - **Model:** `datasets/gov/hi/vaistu_suvartojimas/Antimikrobinis`[^manifest]
-- **Dataset:** [Antimikrobinių vaistinių preparatų suvartojimo Lietuvoje duomenys](../vaistu_suvartojimas.md) (`datasets/gov/hi/vaistu_suvartojimas`)
-- **Manifest CSV:** [datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/vaistu_suvartojimas/Antimikrobinis`
-- **Level:** `3`
+- **Dataset:** [Antimikrobinių vaistinių preparatų suvartojimo Lietuvoje duomenys](../vaistu_suvartojimas.md) (`datasets/gov/hi/vaistu_suvartojimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/vaistu_suvartojimas/Antimikrobinis` (`deployed`)[^manifest]
+- **Provider:** `hi` — Higienos institutas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `integer` | `yr` | `2` | `open` | — | Antimikrobinių vaistinių preparatų suvartojimo statistikos vedimo metai | — |
-| `istaiga` | `ref` | [/datasets/gov/vaspvt/licencijos/Istaiga[ja_kodas]](../../vaspvt/licencijos/Istaiga.md) | `4` | `open` | — | Sveikatos priežiūros įstaigos JAR kodas | — |
+| `istaiga` | `ref` | [Istaiga](../../vaspvt/licencijos/Istaiga.md) (`level=4 UUID` via `Istaiga[ja_kodas]`: `istaiga._id`) | `4` | `open` | — | Sveikatos priežiūros įstaigos JAR kodas | — |
 | `ligonine` | `string` | — | `2` | `open` | — | Ligoninės pavadinimas | — |
 | `tipas` | `string` | — | `4` | `open` | — | Ligoninės tipas | — |
 | `atc` | `string` | — | `4` | `open` | — | Tarptautinę anatominio terapinio cheminio indekso klasifikacijos kodas | — |
@@ -45,7 +55,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tipas` | `'Bendrojo pobūdžio ligoninė'` | — | — | Bendrojo pobūdžio ligoninė | — |
 | `tipas` | `'Palaikomojo gydymo ir slaugos ligoninė'` | — | — | Palaikomojo gydymo ir slaugos ligoninė | — |
@@ -57,4 +67,5 @@ sources:
 | `vnt` | `'mu'` | — | — | Tarptautinio vieneto milijoninės dalys | — |
 | `vnt` | `'ud'` | — | — | Antimikrobinio vaistinio preparato techninio vieneto dozė | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/vaistu_suvartojimas/antimikrobinis.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/hi/vaistu_suvartojimas (https://data.gov.lt/datasets/422/)

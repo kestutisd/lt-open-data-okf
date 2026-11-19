@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "EzeruBukle — Aprašymas ežerų duomenų"
-description: "Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upių baseinų rajonų valdymo planų ciklui, atliktas vadovaujantis Lietuvos Respublikos vandens įstatymo nuostatomis, į kurias perkelti ir pagrindinio Europos..."
+description: "Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upių baseinų rajonų valdymo planų ciklui, atliktas vadovaujantis Lietuvos Respublikos vandens įstatymo nuostatomis, į kurias perkelti ir pagrindinio Europos Sąjungos vandens teisinio dokumento – 2000 m...."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/ezeru_bukles_duomenys/EzeruBukle"
-tags: [gov, aaa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, ezerubukle, deployed, level-4, cadence-quinquennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/ezeru_bukles_duomenys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1782/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/ezeru_bukles_duomenys"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # EzeruBukle — Aprašymas ežerų duomenų
 
-Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upių baseinų rajonų valdymo planų ciklui, atliktas vadovaujantis Lietuvos Respublikos vandens įstatymo nuostatomis, į kurias perkelti ir pagrindinio Europos Sąjungos vandens teisinio dokumento – 2000 m. spalio 23 d. Europos Parlamento ir Tarybos direktyvos 2000/60/EB, nustatančios Bendrijos veiksmų vandens politikos srityje pagrindus (BVPD) reikalavimus.
+Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upių baseinų rajonų valdymo planų ciklui, atliktas vadovaujantis Lietuvos Respublikos vandens įstatymo nuostatomis, į kurias perkelti ir pagrindinio Europos Sąjungos vandens teisinio dokumento – 2000 m. spalio 23 d. Europos Parlamento ir Tarybos direktyvos 2000/60/EB, nustatančios Bendrijos veiksmų vandens politikos srityje pagrindus (BVPD) reikalavimus.[^manifest]
 
 - **Model:** `datasets/gov/aaa/ezeru_bukles_duomenys/EzeruBukle`[^manifest]
-- **Dataset:** [datasets/gov/aaa/ezeru_bukles_duomenys](../ezeru_bukles_duomenys.md) (`datasets/gov/aaa/ezeru_bukles_duomenys`)
-- **Manifest CSV:** [datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/ezeru_bukles_duomenys/EzeruBukle`
-- **Level:** `4`
+- **Dataset:** [Ežerų kategorijos vandens telkinių būklės duomenys](../ezeru_bukles_duomenys.md) (`datasets/gov/aaa/ezeru_bukles_duomenys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/ezeru_bukles_duomenys/EzeruBukle` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUINQUENNIAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,7 +56,7 @@ Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upi
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `rajonas` | `"Nemuno"` | — | — | Nemuno upių baseinų rajonas | — |
 | `rajonas` | `"Ventos"` | — | — | Ventos upių baseinų rajonas | — |
@@ -83,4 +93,9 @@ Vandens telkinių ekologinės ir cheminės būklės vertinimas, 2022-2027 m. upi
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `apskritis` | `update(base: "/datasets/gov/rc/ar/apskritis/Apskritis", type: "ref", ref: "/datasets/gov/rc/ar/apskritis/Apskritis")` | `base` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/ezeru_bukles_duomenys.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_bukles_duomenys.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/ezeru_bukles_duomenys (https://data.gov.lt/datasets/1782/)

@@ -1,6 +1,6 @@
-# `datasets/gov/vkc/svi_finansiniai_rodikliai`
+# Directory Index: `datasets/gov/vkc/svi_finansiniai_rodikliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

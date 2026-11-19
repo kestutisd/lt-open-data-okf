@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "BuveiniuApsaugaiSvarbiTeritorija — Buveinių apsaugai svarbios teritorijos"
-description: "Spinta table datasets/gov/vstt/teritorijos/BuveiniuApsaugaiSvarbiTeritorija (16 columns)."
+description: "Saugomų teritorijų valstybės kadastro duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuveiniuApsaugaiSvarbiTeritorija"
-tags: [gov, vstt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vstt, buveiniuapsaugaisvarbiteritorija, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/789/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BuveiniuApsaugaiSvarbiTeritorija — Buveinių apsaugai svarbios teritorijos
 
+**Dataset Context:** Saugomų teritorijų valstybės kadastro duomenys[^manifest]
+
 - **Model:** `datasets/gov/vstt/teritorijos/BuveiniuApsaugaiSvarbiTeritorija`[^manifest]
-- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)
-- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuveiniuApsaugaiSvarbiTeritorija`
-- **Primary Key (`ref`):** `bast_kodas`
-- **Level:** `4`
+- **Dataset:** [Saugomų teritorijų valstybės kadastro duomenys](../teritorijos.md) (`datasets/gov/vstt/teritorijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vstt/saugomu_ter_kadastras.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vstt/teritorijos/BuveiniuApsaugaiSvarbiTeritorija` (`deployed`)[^manifest]
+- **Provider:** `vstt` — Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `bast_kodas`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +55,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `statusas_bast` | `1` | — | — | Vietovės, atitinkančios, BAST kriterijus, patvirtintos D1-210 ministro įsakymu | — |
 | `statusas_bast` | `2` | — | — | Buveinių apsaugai svarbios teritorijos, patvirtintos LRV | — |
@@ -68,4 +79,9 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `vieta_lt` | `update("vieta_lt@lt", type: "text")` | — | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vstt/saugomu_ter_kadastras.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vstt/saugomu_ter_kadastras.csv#L9)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vstt/teritorijos (https://data.gov.lt/datasets/789/)

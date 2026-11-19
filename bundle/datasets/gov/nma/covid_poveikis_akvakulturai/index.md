@@ -1,6 +1,6 @@
-# `datasets/gov/nma/covid_poveikis_akvakulturai`
+# Directory Index: `datasets/gov/nma/covid_poveikis_akvakulturai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,23 +3,32 @@ type: Table
 title: "SeiminePadetis — Gyventojų registro duomenys apie gyventojų šeiminę padėtį, vaikų skaičių savivaldybėse"
 description: "Spinta table datasets/gov/rc/gr/seimines_padetys/SeiminePadetis (10 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/gr/seimines_padetys/SeiminePadetis"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, seiminepadetis, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/gr/seimines_padetys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/seimines_padetys.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/rc/gr/seimines_padetys.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1748/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/gr/seimines_padetys"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SeiminePadetis — Gyventojų registro duomenys apie gyventojų šeiminę padėtį, vaikų skaičių savivaldybėse
 
 - **Model:** `datasets/gov/rc/gr/seimines_padetys/SeiminePadetis`[^manifest]
-- **Dataset:** [Gyventojų registro duomenys apie gyventojų šeiminę padėtį, vaikų skaičių savivaldybėse](../seimines_padetys.md) (`datasets/gov/rc/gr/seimines_padetys`)
-- **Manifest CSV:** [datasets/gov/rc/gr/seimines_padetys.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/seimines_padetys.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/gr/seimines_padetys/SeiminePadetis`
-- **Primary Key (`ref`):** `nr`
-- **Level:** `4`
+- **Dataset:** [Gyventojų registro duomenys apie gyventojų šeiminę padėtį, vaikų skaičių savivaldybėse](../seimines_padetys.md) (`datasets/gov/rc/gr/seimines_padetys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/gr/seimines_padetys.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/seimines_padetys.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/gr/seimines_padetys/SeiminePadetis` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -34,13 +43,18 @@ sources:
 | `vaiku_sk_nuo_7_iki_17` | `integer` | `U` | `4` | `open` | — | Gyventojo turimų vaikų skaičius (nuo 7 iki 17 metų imtinai); | — |
 | `dek_metai` | `integer` | — | `2` | `open` | — | Gyventojo gyvenamosios vietos deklaravimo metai | — |
 | `dek_ketvirtis` | `string` | — | `2` | `open` | — | Gyventojo gyvenamosios vietos deklaravimo metų ketvirtis | — |
-| `savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) | `4` | `open` | — | Savivaldybė, kurioje deklaruota gyventojo gyvenamoji vieta, iš Adresų registro | — |
+| `savivaldybe` | `ref` | [Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) (`level=4 UUID`: `savivaldybe._id`) | `4` | `open` | — | Savivaldybė, kurioje deklaruota gyventojo gyvenamoji vieta, iš Adresų registro | — |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"V"` | — | — | Vyras | — |
 | `lytis` | `"M"` | — | — | Moteris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/gr/seimines_padetys.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/gr/seimines_padetys.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/gr/seimines_padetys.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/gr/seimines_padetys (https://data.gov.lt/datasets/1748/)

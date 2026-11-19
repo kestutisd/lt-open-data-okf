@@ -1,6 +1,6 @@
-# `datasets/gov/vmvt/kontroles_subjektai`
+# Directory Index: `datasets/gov/vmvt/kontroles_subjektai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

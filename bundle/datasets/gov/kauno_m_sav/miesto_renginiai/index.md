@@ -1,6 +1,6 @@
-# `datasets/gov/kauno_m_sav/miesto_renginiai`
+# Directory Index: `datasets/gov/kauno_m_sav/miesto_renginiai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

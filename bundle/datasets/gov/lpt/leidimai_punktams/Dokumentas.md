@@ -3,25 +3,34 @@ type: Table
 title: "Dokumentas — Lošimo punktų leidimo dokumentai"
 description: "Lošimo punktų leidimų dokumentų ir jų istorijos sąrašas"
 resource: "https://get.data.gov.lt/datasets/gov/lpt/leidimai_punktams/Dokumentas"
-tags: [gov, lpt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lpt, dokumentas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lpt/leidimai_punktams.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lpt/leidimai_punktams.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lpt/leidimai_punktams.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1773/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lpt/leidimai_punktams"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Dokumentas — Lošimo punktų leidimo dokumentai
 
-Lošimo punktų leidimų dokumentų ir jų istorijos sąrašas
+Lošimo punktų leidimų dokumentų ir jų istorijos sąrašas[^manifest]
 
 - **Model:** `datasets/gov/lpt/leidimai_punktams/Dokumentas`[^manifest]
-- **Dataset:** [Lošimo punktų leidimo dokumentai](../leidimai_punktams.md) (`datasets/gov/lpt/leidimai_punktams`)
-- **Manifest CSV:** [datasets/gov/lpt/leidimai_punktams.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lpt/leidimai_punktams.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lpt/leidimai_punktams/Dokumentas`
-- **Primary Key (`ref`):** `leidimo_dokumento_id`
-- **Level:** `4`
+- **Dataset:** [Lošimo punktų leidimo dokumentai](../leidimai_punktams.md) (`datasets/gov/lpt/leidimai_punktams`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lpt/leidimai_punktams.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lpt/leidimai_punktams.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lpt/leidimai_punktams/Dokumentas` (`deployed`)[^manifest]
+- **Provider:** `lpt` — Lošimų priežiūros tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `leidimo_dokumento_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,11 +54,12 @@ Lošimo punktų leidimų dokumentų ir jų istorijos sąrašas
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `leidimo_tipas` | `"Lošimų automatų salonas"` | — | — | Lošimų automatų salonas | — |
 | `leidimo_tipas` | `"Lažybų punktas"` | — | — | Lažybų punktas | — |
 | `leidimo_tipas` | `"Lošimo namai (kazino)"` | — | — | Lošimo namai (kazino) | — |
 | `leidimo_tipas` | `"Bingo salonas"` | — | — | Bingo salonas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lpt/leidimai_punktams.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lpt/leidimai_punktams.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lpt/leidimai_punktams.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lpt/leidimai_punktams (https://data.gov.lt/datasets/1773/)

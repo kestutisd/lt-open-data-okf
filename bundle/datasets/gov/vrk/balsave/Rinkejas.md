@@ -2,23 +2,26 @@
 type: Table
 title: "Rinkejas"
 description: "Spinta table datasets/gov/vrk/balsave/Rinkejas (16 columns)."
-tags: [gov, vrk, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vrk, rinkejas, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/balsave.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/balsave.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/balsave.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Rinkejas
 
 - **Model:** `datasets/gov/vrk/balsave/Rinkejas`[^manifest]
-- **Dataset:** [datasets/gov/vrk/balsave](../balsave.md) (`datasets/gov/vrk/balsave`)
-- **Manifest CSV:** [datasets/gov/vrk/balsave.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/balsave.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `apyg_id, rink_turo_apyl_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/vrk/balsave](../balsave.md) (`datasets/gov/vrk/balsave`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vrk/balsave.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/balsave.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `apyg_id, rink_turo_apyl_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -43,7 +46,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"V"` | — | — | Vyras | — |
 | `lytis` | `"M"` | — | — | Moteris | — |
@@ -69,4 +72,4 @@ sources:
 | `sav_kodas` | `update(property: "savivaldybe.sav_kodas", type: "")` | `property` | `4` | `open` | — | — | — |
 | `sav_pavadinimas` | `update(property: "savivaldybe.sav_pavadinimas", type: "")` | `property` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/balsave.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/balsave.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/balsave.csv#L6)

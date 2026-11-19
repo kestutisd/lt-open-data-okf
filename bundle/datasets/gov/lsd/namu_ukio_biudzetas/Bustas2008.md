@@ -3,23 +3,34 @@ type: Table
 title: "Bustas2008 — Būstas ir patogumai 2008m."
 description: "Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patogumai."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Bustas2008"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, bustas2008, deployed, cadence-quadrennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1630/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/namu_ukio_biudzetas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Bustas2008 — Būstas ir patogumai 2008m.
 
-Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patogumai.
+Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patogumai.[^manifest]
 
 - **Model:** `datasets/gov/lsd/namu_ukio_biudzetas/Bustas2008`[^manifest]
-- **Dataset:** [datasets/gov/lsd/namu_ukio_biudzetas](../namu_ukio_biudzetas.md) (`datasets/gov/lsd/namu_ukio_biudzetas`)
-- **Manifest CSV:** [datasets/gov/lsd/namu_ukio_biudzetas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Bustas2008`
+- **Dataset:** [Namų ūkių biudžeto statistinio tyrimo duomenys](../namu_ukio_biudzetas.md) (`datasets/gov/lsd/namu_ukio_biudzetas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/namu_ukio_biudzetas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/namu_ukio_biudzetas/Bustas2008` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUADRENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -27,17 +38,17 @@ Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patoguma
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `hh_ident` | `integer` | — | — | `open` | — | Namų ūkio ID | — |
 | `dwlowner` | `integer` | — | — | `open` | — | Būsto nuosavybė | — |
-| `loanhous` | `integer` | `bool` | — | `open` | — | Ar paimta būsto paskola? | — |
+| `loanhous` | `integer` | `enum: bool` | — | `open` | — | Ar paimta būsto paskola? | — |
 | `formrent` | `integer` | — | — | `open` | — | Nuomojate butą (namą) | — |
 | `dwltype` | `integer` | — | — | `open` | — | Gyvenamosios patalpos tipas | — |
 | `dw_year` | `integer` | — | — | `open` | — | Namo pastatymo metai | — |
 | `dw_other` | `integer` | — | — | `open` | — | Kitas nuosavas būstas | — |
-| `elect` | `integer` | `bool` | — | `open` | — | Elektra | — |
-| `bath` | `integer` | `bool` | — | `open` | — | Vonia, dušas | — |
-| `toilet` | `integer` | `bool` | — | `open` | — | Ar turite tualetą su nutekamuoju vandeniu | — |
-| `kitchen` | `integer` | `bool` | — | `open` | — | Atskira virtuvė | — |
-| `garage` | `integer` | `bool` | — | `open` | — | Garazas | — |
-| `phone` | `integer` | `bool` | — | `open` | — | Fiksuoto ryšio telefonas | — |
+| `elect` | `integer` | `enum: bool` | — | `open` | — | Elektra | — |
+| `bath` | `integer` | `enum: bool` | — | `open` | — | Vonia, dušas | — |
+| `toilet` | `integer` | `enum: bool` | — | `open` | — | Ar turite tualetą su nutekamuoju vandeniu | — |
+| `kitchen` | `integer` | `enum: bool` | — | `open` | — | Atskira virtuvė | — |
+| `garage` | `integer` | `enum: bool` | — | `open` | — | Garazas | — |
+| `phone` | `integer` | `enum: bool` | — | `open` | — | Fiksuoto ryšio telefonas | — |
 | `heating` | `integer` | — | — | `open` | — | Šildymas | — |
 | `h_water` | `integer` | — | — | `open` | — | Karšto vandens tiekimas | — |
 | `water` | `integer` | — | — | `open` | — | Vandentiekis | — |
@@ -49,7 +60,7 @@ Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patoguma
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `dwlowner` | `1` | — | — | Yra šio būsto savininkas | — |
 | `dwlowner` | `2` | — | — | Yra nuomininkas arba subnuomininkas, mokantis nuomą rinkos kaina | — |
@@ -110,4 +121,5 @@ Būsto tipas, namų ūkio užimamų kambarių skaičius, būsto plotas, patoguma
 | `sewerage` | `2` | — | — | Taip, vietinis | — |
 | `sewerage` | `3` | — | — | Ne | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/namu_ukio_biudzetas.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/namu_ukio_biudzetas.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/namu_ukio_biudzetas (https://data.gov.lt/datasets/1630/)

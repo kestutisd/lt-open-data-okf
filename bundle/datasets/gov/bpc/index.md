@@ -1,15 +1,15 @@
-# `datasets/gov/bpc`
+# Directory Index: `datasets/gov/bpc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [pagalbos_ecall_iskvietimai/](pagalbos_ecall_iskvietimai/index.md) - Namespace `datasets/gov/bpc/pagalbos_ecall_iskvietimai` (0 datasets, 1 table)
-* [pagalbos_resursai/](pagalbos_resursai/index.md) - Namespace `datasets/gov/bpc/pagalbos_resursai` (0 datasets, 1 table)
-* [pagalbos_skambuciai/](pagalbos_skambuciai/index.md) - Bendrojo pagalbos centro 112 skambučių duomenų rinkinys (0 datasets, 4 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/bpc/pagalbos_ecall_iskvietimai](pagalbos_ecall_iskvietimai.md) - Spinta dataset datasets/gov/bpc/pagalbos_ecall_iskvietimai (1 table).
-* [datasets/gov/bpc/pagalbos_resursai](pagalbos_resursai.md) - Spinta dataset datasets/gov/bpc/pagalbos_resursai (1 table).
+* [Transporto priemonių pagalbos iškvietimo skambučių „eCall“ duomenys](pagalbos_ecall_iskvietimai.md) - Lentelėje pateikti Bendrosios pagalbos centro (BPC) registruotų įvykių, apie kuriuos gauti pranešimai pagalbos telefonu 112, duomenys, kai transporto priemonėje įrengta sistema suaktyvinama...
+* [datasets/gov/bpc/pagalbos_resursai](pagalbos_resursai.md) - Lithuanian open data dataset datasets/gov/bpc/pagalbos_resursai (1 lentelė).
 * [Bendrojo pagalbos centro 112 skambučių duomenų rinkinys](pagalbos_skambuciai.md) - Bendrojo pagalbos centro (BPC) duomenys apie gautus pranešimus apie įvykius.
+
+# Subdirectories
+
+* [pagalbos_ecall_iskvietimai/](pagalbos_ecall_iskvietimai/index.md) - 1 table
+* [pagalbos_resursai/](pagalbos_resursai/index.md) - 1 table
+* [pagalbos_skambuciai/](pagalbos_skambuciai/index.md) - 4 tables

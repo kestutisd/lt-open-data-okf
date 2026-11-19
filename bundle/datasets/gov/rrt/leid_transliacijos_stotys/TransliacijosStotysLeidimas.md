@@ -3,25 +3,34 @@ type: Table
 title: "TransliacijosStotysLeidimas — Transliacijos stočių leidimai"
 description: "Lentelėje pateikiami Lietuvos Respublikos ryšių reguliavimo tarnybos išduoti leidimai naudoti transliacijos stotis (radijo, televizijos)."
 resource: "https://get.data.gov.lt/datasets/gov/rrt/leid_transliacijos_stotys/TransliacijosStotysLeidimas"
-tags: [gov, rrt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rrt, transliacijosstotysleidimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rrt/leid_transliacijos_stotys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/leid_transliacijos_stotys.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/rrt/leid_transliacijos_stotys.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2729/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rrt/leid_transliacijos_stotys"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # TransliacijosStotysLeidimas — Transliacijos stočių leidimai
 
-Lentelėje pateikiami Lietuvos Respublikos ryšių reguliavimo tarnybos išduoti leidimai naudoti transliacijos stotis (radijo, televizijos). Rinkinyje naudojamos WGS koordinatės, nurodančios antenos lokaciją. Pateikiami tik šiuo metu galiojantys leidimai. Duomenys atnaujinami kasdien.
+Lentelėje pateikiami Lietuvos Respublikos ryšių reguliavimo tarnybos išduoti leidimai naudoti transliacijos stotis (radijo, televizijos). Rinkinyje naudojamos WGS koordinatės, nurodančios antenos lokaciją. Pateikiami tik šiuo metu galiojantys leidimai. Duomenys atnaujinami kasdien.[^manifest]
 
 - **Model:** `datasets/gov/rrt/leid_transliacijos_stotys/TransliacijosStotysLeidimas`[^manifest]
-- **Dataset:** [Transliacijos stočių leidimai](../leid_transliacijos_stotys.md) (`datasets/gov/rrt/leid_transliacijos_stotys`)
-- **Manifest CSV:** [datasets/gov/rrt/leid_transliacijos_stotys.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/leid_transliacijos_stotys.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rrt/leid_transliacijos_stotys/TransliacijosStotysLeidimas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Transliacijos stočių leidimai](../leid_transliacijos_stotys.md) (`datasets/gov/rrt/leid_transliacijos_stotys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rrt/leid_transliacijos_stotys.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/leid_transliacijos_stotys.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rrt/leid_transliacijos_stotys/TransliacijosStotysLeidimas` (`deployed`)[^manifest]
+- **Provider:** `rrt` — Ryšių reguliavimo tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +54,7 @@ Lentelėje pateikiami Lietuvos Respublikos ryšių reguliavimo tarnybos išduoti
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `transliavimo_sistemos_tipas` | `"RADIO"` | — | — | Garso transliacija | — |
 | `transliavimo_sistemos_tipas` | `"DVB"` | — | — | Skaitmeninio vaizdo transliacija | — |
@@ -56,4 +65,9 @@ Lentelėje pateikiami Lietuvos Respublikos ryšių reguliavimo tarnybos išduoti
 | `antenos_poliarizacija` | `"H"` | — | — | Horizontali poliarizacija | — |
 | `antenos_poliarizacija` | `"V"` | — | — | Vertikali poliarizacija | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rrt/leid_transliacijos_stotys.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rrt/leid_transliacijos_stotys.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rrt/leid_transliacijos_stotys.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rrt/leid_transliacijos_stotys (https://data.gov.lt/datasets/2729/)

@@ -3,23 +3,32 @@ type: Table
 title: "Balsavimas — Balsavimai"
 description: "Spinta table datasets/gov/lrsk/balsavimai/Balsavimas (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lrsk/balsavimai/Balsavimas"
-tags: [gov, lrsk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lrsk, balsavimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lrsk/balsavimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/balsavimai.csv#L3"
+    title: "atviriduomenys/manifest — datasets/gov/lrsk/balsavimai.csv#L3"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/6101/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lrsk/balsavimai"
+    author: "team:vda"
+    last_modified: "2026-10-27T00:00:00Z"
 ---
 
 # Balsavimas — Balsavimai
 
 - **Model:** `datasets/gov/lrsk/balsavimai/Balsavimas`[^manifest]
-- **Dataset:** [Balsavimai](../balsavimai.md) (`datasets/gov/lrsk/balsavimai`)
-- **Manifest CSV:** [datasets/gov/lrsk/balsavimai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/balsavimai.csv#L3)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lrsk/balsavimai/Balsavimas`
-- **Primary Key (`ref`):** `balsavimo_id`
-- **Level:** `4`
+- **Dataset:** [Balsavimai](../balsavimai.md) (`datasets/gov/lrsk/balsavimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lrsk/balsavimai.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/balsavimai.csv#L3)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lrsk/balsavimai/Balsavimas` (`deployed`)[^manifest]
+- **Provider:** `lrsk` — Lietuvos Respublikos Seimo Kanceliarija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `balsavimo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-10-27`[^dcat]
 
 # Schema
 
@@ -44,4 +53,5 @@ sources:
 | `susilaike` | `integer` | — | `4` | `open` | — | Susilaikiusių skaičius | — |
 | `verdiktas` | `string` | — | `4` | `open` | — | Verdiktas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lrsk/balsavimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lrsk/balsavimai.csv#L3 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/balsavimai.csv#L3)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lrsk/balsavimai (https://data.gov.lt/datasets/6101/)

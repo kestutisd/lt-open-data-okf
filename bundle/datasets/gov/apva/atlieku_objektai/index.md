@@ -1,7 +1,7 @@
-# `datasets/gov/apva/atlieku_objektai`
+# Directory Index: `datasets/gov/apva/atlieku_objektai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [AtliekuObjektas](AtliekuObjektas.md) - Spinta table datasets/gov/apva/atlieku_objektai/AtliekuObjektas (16 columns).
+* [AtliekuObjektas](AtliekuObjektas.md) - Aplinkos projektų valdymo agentūros projektų monitoringo informacinėje sistemoje (APVA GIS) kaupiami geografiniai objektų duomenys.

@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "PastatoElementoNusidevejimas"
-description: "Spinta table datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas (9 columns)."
+description: "Informacija apie pastatų charakteristikas, pastatų ir jų elementų būklę."
 resource: "https://get.data.gov.lt/datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas"
-tags: [gov, ssva, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ssva, pastatoelementonusidevejimas, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ssva/pastatu_duomenu_bankas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22"
+    title: "atviriduomenys/manifest — datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4143/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/ssva/pastatu_duomenu_bankas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # PastatoElementoNusidevejimas
 
+**Dataset Context:** Informacija apie pastatų charakteristikas, pastatų ir jų elementų būklę.[^manifest]
+
 - **Model:** `datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas`[^manifest]
-- **Dataset:** [Pastatų ir jo elementų nusidėvėjimas ir rizikos](../pastatu_duomenu_bankas.md) (`datasets/gov/ssva/pastatu_duomenu_bankas`)
-- **Manifest CSV:** [datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas`
-- **Primary Key (`ref`):** `elemento_id`
-- **Level:** `4`
+- **Dataset:** [Pastatų ir jo elementų nusidėvėjimas ir rizikos](../pastatu_duomenu_bankas.md) (`datasets/gov/ssva/pastatu_duomenu_bankas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas` (`deployed`)[^manifest]
+- **Provider:** `ssva` — Statybos sektoriaus vystymo agentūra (SSVA) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `elemento_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -35,4 +46,9 @@ sources:
 | `geometrija_adp` | `geometry(point, 3346)` | — | `4` | `open` | — | Pastato vietos koordinatės LKS-94 (EPSG:3346) sistemoje | — |
 | `iraso_sukurimo_data` | `datetime` | `L` | `4` | `open` | — | Įrašo sukūrimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ssva/pastatu_duomenu_bankas.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ssva/pastatu_duomenu_bankas.csv#L22)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/ssva/pastatu_duomenu_bankas (https://data.gov.lt/datasets/4143/)

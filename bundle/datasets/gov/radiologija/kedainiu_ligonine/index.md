@@ -1,6 +1,6 @@
-# `datasets/gov/radiologija/kedainiu_ligonine`
+# Directory Index: `datasets/gov/radiologija/kedainiu_ligonine`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

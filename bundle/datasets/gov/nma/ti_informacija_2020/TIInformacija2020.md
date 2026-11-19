@@ -3,22 +3,32 @@ type: Table
 title: "TIInformacija2020 — Tiesioginės ir kompensacinės išmokos už deklaruotos plotus ir (arba) gyvulius. Bendra informacija. 2020 m."
 description: "Spinta table datasets/gov/nma/ti_informacija_2020/TIInformacija2020 (10 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/nma/ti_informacija_2020/TIInformacija2020"
-tags: [gov, nma, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nma, tiinformacija2020, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nma/ti_informacija_2020.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/ti_informacija_2020.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/nma/ti_informacija_2020.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2321/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nma/ti_informacija_2020"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # TIInformacija2020 — Tiesioginės ir kompensacinės išmokos už deklaruotos plotus ir (arba) gyvulius. Bendra informacija. 2020 m.
 
 - **Model:** `datasets/gov/nma/ti_informacija_2020/TIInformacija2020`[^manifest]
-- **Dataset:** [datasets/gov/nma/ti_informacija_2020](../ti_informacija_2020.md) (`datasets/gov/nma/ti_informacija_2020`)
-- **Manifest CSV:** [datasets/gov/nma/ti_informacija_2020.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/ti_informacija_2020.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/ti_informacija_2020/TIInformacija2020`
-- **Level:** `3`
+- **Dataset:** [Tiesioginės ir kompensacinės išmokos už deklaruotos plotus ir (arba) gyvulius. Bendra...](../ti_informacija_2020.md) (`datasets/gov/nma/ti_informacija_2020`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nma/ti_informacija_2020.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/ti_informacija_2020.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nma/ti_informacija_2020/TIInformacija2020` (`deployed`)[^manifest]
+- **Provider:** `nma` — Nacionalinė mokėjimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,7 +47,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `pareiskejo_tipas` | `"Fizinis"` | — | — | Fizinis asmuo | — |
 | `pareiskejo_tipas` | `"Juridinis"` | — | — | Juridinis asmuo | — |
@@ -52,4 +62,5 @@ sources:
 | `prasoma_suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `ismoketa_suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nma/ti_informacija_2020.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nma/ti_informacija_2020.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nma/ti_informacija_2020.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nma/ti_informacija_2020 (https://data.gov.lt/datasets/2321/)

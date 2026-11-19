@@ -1,11 +1,11 @@
-# `datasets/gov/nsa/dakpr`
+# Directory Index: `datasets/gov/nsa/dakpr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [baigiamieji_darbai/](baigiamieji_darbai/index.md) - Studijų baigiamieji darbai (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Studijų baigiamieji darbai](baigiamieji_darbai.md) - Spinta dataset datasets/gov/nsa/dakpr/baigiamieji_darbai (1 table).
+* [Studijų baigiamieji darbai](baigiamieji_darbai.md) - Rinkinyje pateikti nuo 2001 m. apgintų studijų baigiamųjų darbų duomenys iš Nacionalinės švietimo agentūros (NŠA) Diplomų, atestatų ir kvalifikacijos pažymėjimų registro (DAKPR).
+
+# Subdirectories
+
+* [baigiamieji_darbai/](baigiamieji_darbai/index.md) - 1 table

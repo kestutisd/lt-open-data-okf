@@ -1,6 +1,6 @@
-# `datasets/gov/moletu_r_sav/reklamos_leidimas`
+# Directory Index: `datasets/gov/moletu_r_sav/reklamos_leidimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

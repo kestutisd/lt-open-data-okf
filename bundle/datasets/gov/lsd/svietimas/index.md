@@ -1,13 +1,13 @@
-# `datasets/gov/lsd/svietimas`
+# Directory Index: `datasets/gov/lsd/svietimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [pasiekiamumo_teritorijos/](pasiekiamumo_teritorijos/index.md) - Švietimo institucijų pasiekiamumo pėsčiomis ir automobiliu teritorijos (0 datasets, 2 tables)
-* [suaugusiuju/](suaugusiuju/index.md) - Namespace `datasets/gov/lsd/svietimas/suaugusiuju` (0 datasets, 3 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Švietimo institucijų pasiekiamumo pėsčiomis ir automobiliu teritorijos](pasiekiamumo_teritorijos.md) - Spinta dataset datasets/gov/lsd/svietimas/pasiekiamumo_teritorijos (2 tables).
-* [datasets/gov/lsd/svietimas/suaugusiuju](suaugusiuju.md) - Spinta dataset datasets/gov/lsd/svietimas/suaugusiuju (3 tables).
+* [Švietimo institucijų pasiekiamumo pėsčiomis ir automobiliu teritorijos](pasiekiamumo_teritorijos.md) - Duomenų objektas yra švietimo institucijos, kuriose, tikslinių metų rugsėjo 1 dienos duomenimis, yra ugdomi mokiniai pagal bendrojo ugdymo programas.
+* [Suaugusiųjų švietimo statistinio tyrimo duomenys](suaugusiuju.md) - Kas 5 metus atliekamas suaugusiųjų švietimo statistinis tyrimas.
+
+# Subdirectories
+
+* [pasiekiamumo_teritorijos/](pasiekiamumo_teritorijos/index.md) - 2 tables
+* [suaugusiuju/](suaugusiuju/index.md) - 3 tables

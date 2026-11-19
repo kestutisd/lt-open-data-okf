@@ -1,13 +1,13 @@
-# `datasets/gov/rc/sr`
+# Directory Index: `datasets/gov/rc/sr`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [klasifikatoriai/](klasifikatoriai/index.md) - Reorganizuoto Sutarčių registro (SR) archyviniai duomenys (0 datasets, 2 tables)
-* [sutartys/](sutartys/index.md) - Reorganizuoto Sutarčių registro (SR) archyviniai duomenys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Reorganizuoto Sutarčių registro (SR) archyviniai duomenys](klasifikatoriai.md) - Spinta dataset datasets/gov/rc/sr/klasifikatoriai (2 tables).
-* [Reorganizuoto Sutarčių registro (SR) archyviniai duomenys](sutartys.md) - Spinta dataset datasets/gov/rc/sr/sutartys (1 table).
+* [Reorganizuoto Sutarčių registro (SR) archyviniai duomenys](klasifikatoriai.md) - Reorganizuoto SR archyviniai klasifikatoriai (Sutarčių registro sutarčių tipų archyvinis klasifikatorius; Sutarčių registro daiktų rūšių archyvinis klasifikatorius).
+* [Reorganizuoto Sutarčių registro (SR) archyviniai duomenys](sutartys.md) - Sutarčių registro archyviniai duomenys apie sutartis pagal rūšis.
+
+# Subdirectories
+
+* [klasifikatoriai/](klasifikatoriai/index.md) - 2 tables
+* [sutartys/](sutartys/index.md) - 1 table

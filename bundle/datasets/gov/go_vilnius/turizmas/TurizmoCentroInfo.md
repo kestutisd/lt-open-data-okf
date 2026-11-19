@@ -1,25 +1,30 @@
 ---
 type: Table
 title: "TurizmoCentroInfo — Statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus"
-description: "Spinta table datasets/gov/go_vilnius/turizmas/TurizmoCentroInfo (38 columns)."
+description: "\"Rinkinyje pateikiama statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus padieniui nuo 2015 iki 2023m."
 resource: "https://get.data.gov.lt/datasets/gov/go_vilnius/turizmas/TurizmoCentroInfo"
-tags: [gov, go_vilnius, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, go_vilnius, turizmocentroinfo, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/go_vilnius/turizmas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/turizmas.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/go_vilnius/turizmas.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # TurizmoCentroInfo — Statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus
 
+**Dataset Context:** "Rinkinyje pateikiama statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus padieniui nuo 2015 iki 2023m. Rinkinio objektas - suagreguoti mėnesiniai duomenys pagal centre apsilankiusių turistų valstybę ir/ar regioną bei konsultacijos suteikimo būdą (telefonu arba el. paštu). Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt."[^manifest]
+
 - **Model:** `datasets/gov/go_vilnius/turizmas/TurizmoCentroInfo`[^manifest]
-- **Dataset:** [Statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus](../turizmas.md) (`datasets/gov/go_vilnius/turizmas`)
-- **Manifest CSV:** [datasets/gov/go_vilnius/turizmas.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/turizmas.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/go_vilnius/turizmas/TurizmoCentroInfo`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Statistika apie Vilniaus turizmo informacijos centruose apsilankiusius turistus](../turizmas.md) (`datasets/gov/go_vilnius/turizmas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/go_vilnius/turizmas.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/turizmas.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/go_vilnius/turizmas/TurizmoCentroInfo` (`deployed`)[^manifest]
+- **Provider:** `go_vilnius` — VšĮ GO Vilnius *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -64,4 +69,4 @@ sources:
 | `is_viso` | `integer` | `U` | `4` | `open` | — | Viso lankytojų | Bendras lankytojų skaičius per visas kalendorines dienas |
 | `duomenu_atnaujinimas` | `date` | `1D` | `4` | `open` | — | Duomenų atnaujinimo data | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/go_vilnius/turizmas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/go_vilnius/turizmas.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/go_vilnius/turizmas.csv#L9)

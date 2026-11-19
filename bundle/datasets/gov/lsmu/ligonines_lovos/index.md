@@ -1,8 +1,8 @@
-# `datasets/gov/lsmu/ligonines_lovos`
+# Directory Index: `datasets/gov/lsmu/ligonines_lovos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [LovosStatusas — Lovų užimtumo duomenys](LovosStatusas.md) - Spinta table datasets/gov/lsmu/ligonines_lovos/LovosStatusas (6 columns).
-* [LovosVieta — Lovų vietų duomenys](LovosVieta.md) - Spinta table datasets/gov/lsmu/ligonines_lovos/LovosVieta (9 columns).
+* [LovosStatusas — Lovų užimtumo duomenys](LovosStatusas.md) - Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami lovų duomenys.
+* [LovosVieta — Lovų vietų duomenys](LovosVieta.md) - Lietuvos sveikatos mokslų universiteto ligoninės Kauno klinikų (LSMULKK) laboratorijos informacinėje sistemoje (LIS) kaupiami lovų duomenys.

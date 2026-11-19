@@ -1,6 +1,6 @@
-# `datasets/gov/nsa/dakpr/baigiamieji_darbai`
+# Directory Index: `datasets/gov/nsa/dakpr/baigiamieji_darbai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

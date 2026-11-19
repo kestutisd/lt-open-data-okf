@@ -3,23 +3,32 @@ type: Table
 title: "Revise — Projekto patikros vietoje"
 description: "Spinta table datasets/gov/finmin/kontroles_veiksmai/Revise (13 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/finmin/kontroles_veiksmai/Revise"
-tags: [gov, finmin, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, finmin, revise, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/finmin/kontroles_veiksmai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/finmin/kontroles_veiksmai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/finmin/kontroles_veiksmai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2162/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/finmin/kontroles_veiksmai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Revise — Projekto patikros vietoje
 
 - **Model:** `datasets/gov/finmin/kontroles_veiksmai/Revise`[^manifest]
-- **Dataset:** [2014-2020 m. ES fondų projektų kontrolės veiksmų duomenys](../kontroles_veiksmai.md) (`datasets/gov/finmin/kontroles_veiksmai`)
-- **Manifest CSV:** [datasets/gov/finmin/kontroles_veiksmai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/finmin/kontroles_veiksmai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/finmin/kontroles_veiksmai/Revise`
-- **Primary Key (`ref`):** `revise_id`
-- **Level:** `4`
+- **Dataset:** [2014-2020 m. ES fondų projektų kontrolės veiksmų duomenys](../kontroles_veiksmai.md) (`datasets/gov/finmin/kontroles_veiksmai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/finmin/kontroles_veiksmai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/finmin/kontroles_veiksmai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/finmin/kontroles_veiksmai/Revise` (`deployed`)[^manifest]
+- **Provider:** `finmin` — Lietuvos Respublikos finansų ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `revise_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,4 +54,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `remark_types` | `"update(property: ""remark_types[]"", type: ""array"", source: ""Remark_types"")"` | `property` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/finmin/kontroles_veiksmai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/finmin/kontroles_veiksmai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/finmin/kontroles_veiksmai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/finmin/kontroles_veiksmai (https://data.gov.lt/datasets/2162/)

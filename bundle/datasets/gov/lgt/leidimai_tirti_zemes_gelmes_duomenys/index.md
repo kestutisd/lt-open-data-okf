@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/leidimai_tirti_zemes_gelmes_duomenys`
+# Directory Index: `datasets/gov/lgt/leidimai_tirti_zemes_gelmes_duomenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

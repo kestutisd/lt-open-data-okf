@@ -3,24 +3,34 @@ type: Table
 title: "MetinisVeiklosPlanas — Valstybės kontrolės metinio veiklos plano duomenys"
 description: "Valstybės kontrolės metinio veiklos plano, kuriame pateikiama informacija apie planuojamus, atliekamus auditus ir vertinimus, duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vk/mvp/MetinisVeiklosPlanas"
-tags: [gov, vk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vk, metinisveiklosplanas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vk/mvp.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/mvp.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/vk/mvp.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1694/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vk/mvp"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # MetinisVeiklosPlanas — Valstybės kontrolės metinio veiklos plano duomenys
 
-Valstybės kontrolės metinio veiklos plano, kuriame pateikiama informacija apie planuojamus, atliekamus auditus ir vertinimus, duomenys
+Valstybės kontrolės metinio veiklos plano, kuriame pateikiama informacija apie planuojamus, atliekamus auditus ir vertinimus, duomenys[^manifest]
 
 - **Model:** `datasets/gov/vk/mvp/MetinisVeiklosPlanas`[^manifest]
-- **Dataset:** [datasets/gov/vk/mvp](../mvp.md) (`datasets/gov/vk/mvp`)
-- **Manifest CSV:** [datasets/gov/vk/mvp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/mvp.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vk/mvp/MetinisVeiklosPlanas`
-- **Level:** `4`
+- **Dataset:** [Valstybės kontrolės metinio veiklos plano duomenys](../mvp.md) (`datasets/gov/vk/mvp`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vk/mvp.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/mvp.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vk/mvp/MetinisVeiklosPlanas` (`deployed`)[^manifest]
+- **Provider:** `vk` — Valstybės kontrolė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -36,7 +46,7 @@ Valstybės kontrolės metinio veiklos plano, kuriame pateikiama informacija apie
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `veiklos_rusis` | `"Veiklos auditai"` | — | — | Veiklos auditai | Veiklos auditai – kai vertinama audituojamo subjekto veikla ekonomiškumo, efektyvumo ir rezultatyvumo požiūriu. |
 | `veiklos_rusis` | `"Finansiniai auditai"` | — | — | Finansiniai auditai | Finansiniai auditai – kai vertinami audituojamo subjekto metinių (konsoliduotųjų) finansinių ir biudžeto vykdymo ataskaitų rinkinių duomenis ir pareiškiama nepriklausoma auditoriaus nuomonė. |
@@ -51,4 +61,5 @@ Valstybės kontrolės metinio veiklos plano, kuriame pateikiama informacija apie
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `plano_metai` | `update(type: "date", ref: "Y")` | `type, ref` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vk/mvp.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vk/mvp.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vk/mvp.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vk/mvp (https://data.gov.lt/datasets/1694/)

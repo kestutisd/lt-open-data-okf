@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/valdzios_sektoriaus_mastrichto_skola`
+# Directory Index: `datasets/gov/lsd/statistika/valdzios_sektoriaus_mastrichto_skola`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

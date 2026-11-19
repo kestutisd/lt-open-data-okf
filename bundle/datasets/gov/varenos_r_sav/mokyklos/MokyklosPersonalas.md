@@ -3,29 +3,34 @@ type: Table
 title: "MokyklosPersonalas — Varėnos rajono savivaldybės mokyklų personalas"
 description: "Rinkinyje pateikiamas Varėnos rajono savivaldybės mokyklos personalo sąrašas."
 resource: "https://get.data.gov.lt/datasets/gov/varenos_r_sav/mokyklos/MokyklosPersonalas"
-tags: [gov, varenos_r_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, varenos_r_sav, mokyklospersonalas, deployed, level-4, cadence-annual_2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/varenos_r_sav/mokyklu_personalas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2810/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/varenos_r_sav/mokyklos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # MokyklosPersonalas — Varėnos rajono savivaldybės mokyklų personalas
 
-Rinkinyje pateikiamas Varėnos rajono savivaldybės mokyklos personalo sąrašas. Pateikiama tokia informacija kaip asmens lytis, užšifruotas asmens kodas, asmens amžius dešimtmečiais, pareigos, darbo laikotarpis ir ugdymo įstaiga.
-
-Viena eilutė atitinka vieno asmens darbo laikotarpį tam tikrose pareigose, tam tikroje įstaigoje.
-
-Duomenys pateikiami asmenų kurie įsidarbino nuo 1959 metų.
+Rinkinyje pateikiamas Varėnos rajono savivaldybės mokyklos personalo sąrašas. Pateikiama tokia informacija kaip asmens lytis, užšifruotas asmens kodas, asmens amžius dešimtmečiais, pareigos, darbo laikotarpis ir ugdymo įstaiga. Viena eilutė atitinka vieno asmens darbo laikotarpį tam tikrose pareigose, tam tikroje įstaigoje. Duomenys pateikiami asmenų kurie įsidarbino nuo 1959 metų. PASITEIRAVIMUI: Valstybės duomenų valdysenos atvėrimo komanda: atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/varenos_r_sav/mokyklos/MokyklosPersonalas`[^manifest]
-- **Dataset:** [Varėnos rajono savivaldybės mokyklų informacija](../mokyklos.md) (`datasets/gov/varenos_r_sav/mokyklos`)
-- **Manifest CSV:** [datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/varenos_r_sav/mokyklos/MokyklosPersonalas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Varėnos rajono savivaldybės mokyklų informacija](../mokyklos.md) (`datasets/gov/varenos_r_sav/mokyklos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/varenos_r_sav/mokyklos/MokyklosPersonalas` (`deployed`)[^manifest]
+- **Provider:** `varenos_r_sav` — Varėnos rajono savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL_2`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,4 +47,5 @@ Duomenys pateikiami asmenų kurie įsidarbino nuo 1959 metų.
 | `istaigos_id` | `string` | — | `4` | `open` | — | Įstaigos identifikacijos numeris | — |
 | `institucija` | `string` | — | `4` | `open` | — | Įstaigos pavadinimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/varenos_r_sav/mokyklu_personalas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/varenos_r_sav/mokyklu_personalas.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/varenos_r_sav/mokyklos (https://data.gov.lt/datasets/2810/)

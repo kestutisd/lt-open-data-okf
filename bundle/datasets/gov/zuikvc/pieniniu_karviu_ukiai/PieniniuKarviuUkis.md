@@ -2,23 +2,26 @@
 type: Table
 title: "PieniniuKarviuUkis — Ūkių pasiskirstymas pagal pieninių karvių skaičių"
 description: "Spinta table datasets/gov/zuikvc/pieniniu_karviu_ukiai/PieniniuKarviuUkis (19 columns)."
-tags: [gov, zuikvc, undeployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, zuikvc, pieniniukarviuukis, undeployed, level-2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # PieniniuKarviuUkis — Ūkių pasiskirstymas pagal pieninių karvių skaičių
 
 - **Model:** `datasets/gov/zuikvc/pieniniu_karviu_ukiai/PieniniuKarviuUkis`[^manifest]
-- **Dataset:** [datasets/gov/zuikvc/pieniniu_karviu_ukiai](../pieniniu_karviu_ukiai.md) (`datasets/gov/zuikvc/pieniniu_karviu_ukiai`)
-- **Manifest CSV:** [datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `savivaldybe`
-- **Level:** `2`
+- **Dataset:** [datasets/gov/zuikvc/pieniniu_karviu_ukiai](../pieniniu_karviu_ukiai.md) (`datasets/gov/zuikvc/pieniniu_karviu_ukiai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `zuikvc` — VĮ Žemės ūkio duomenų centras (buv. VĮ Žemės ūkio informacijos ir kaimo verslo centras) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `savivaldybe`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -44,4 +47,4 @@ sources:
 | `asm_sk_151` | `integer` | `U` | `4` | `open` | — | Asmenų, kurie laiko nuo 151 imtinai pieninių veislių karvių, skaičius | — |
 | `karv_sk_151` | `integer` | `U` | `4` | `open` | — | Pieninių veislių karvių, kurios laikomos pas asmenis, kurie laiko nuo 151 imtinai pieninių veislių karvių, skaičius | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/zuikvc/pieniniu_karviu_ukiai.csv#L8)

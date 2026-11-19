@@ -3,23 +3,32 @@ type: Table
 title: "SpTersalaiV — Specifinių teršalų tyrimai Kuršių marių ir Baltijos jūros vandenyje"
 description: "Spinta table datasets/gov/aaa/juros_mariu_monitoringas/SpTersalaiV (14 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/juros_mariu_monitoringas/SpTersalaiV"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, sptersalaiv, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/juros_mariu_monitoringas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/juros_mariu_monitoringas.csv#L127"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/juros_mariu_monitoringas.csv#L127"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1790/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/juros_mariu_monitoringas"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # SpTersalaiV — Specifinių teršalų tyrimai Kuršių marių ir Baltijos jūros vandenyje
 
 - **Model:** `datasets/gov/aaa/juros_mariu_monitoringas/SpTersalaiV`[^manifest]
-- **Dataset:** [datasets/gov/aaa/juros_mariu_monitoringas](../juros_mariu_monitoringas.md) (`datasets/gov/aaa/juros_mariu_monitoringas`)
-- **Manifest CSV:** [datasets/gov/aaa/juros_mariu_monitoringas.csv#L127](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/juros_mariu_monitoringas.csv#L127)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/juros_mariu_monitoringas/SpTersalaiV`
-- **Primary Key (`ref`):** `reg_nr`
-- **Level:** `2`
+- **Dataset:** [Kuršių marių ir Baltijos jūros valstybinio monitoringo duomenys](../juros_mariu_monitoringas.md) (`datasets/gov/aaa/juros_mariu_monitoringas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/juros_mariu_monitoringas.csv#L127](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/juros_mariu_monitoringas.csv#L127)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/juros_mariu_monitoringas/SpTersalaiV` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `reg_nr`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -40,4 +49,9 @@ sources:
 | `matavimo_vnt` | `string` | — | `4` | `open` | — | Matavimo vienetai | — |
 | `tyr_metodas` | `string` | — | `2` | `open` | — | Tyrimų metodas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/juros_mariu_monitoringas.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/juros_mariu_monitoringas.csv#L127 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/juros_mariu_monitoringas.csv#L127)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/juros_mariu_monitoringas (https://data.gov.lt/datasets/1790/)

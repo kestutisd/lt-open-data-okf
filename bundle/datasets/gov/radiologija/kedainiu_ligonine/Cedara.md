@@ -3,24 +3,28 @@ type: Table
 title: "Cedara — Kėdainių ligoninės „CEDARA“ sistemoje pacientams atliktų radiologinių tyrimų duomenys"
 description: "Informacinėje sistemoje „CEDARA“ kaupiami Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/radiologija/kedainiu_ligonine/Cedara"
-tags: [gov, radiologija, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, radiologija, cedara, deployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L672"
+    title: "atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv#L672"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Cedara — Kėdainių ligoninės „CEDARA“ sistemoje pacientams atliktų radiologinių tyrimų duomenys
 
-Informacinėje sistemoje „CEDARA“ kaupiami Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys. Duomenų rinkinyje pateikiami duomenys nuo 2016 metų. Vienas įrašas atitinka vieną tyrimo atvaizdą (visų tyrimo atvaizdų identifikatoriai unikalūs). Duomenų rinkinį sudaro: šifruotas paciento asmens kodas, asmens kodo validumo požymis, šifruoti paciento ir tyrimo studijos identifikatoriai, paciento gimimo metai ir lytis tiek iš gimimo datos arba lyties stulpelių, tiek iš validaus asmens kodo, šifruotas tyrimo serijos identifikatorius, tirta paciento kūno dalis, paciento lateralumas tyrimo serijos metu, tyrimo serijos modalumas, protokolas, tyrimo atvaizdo šifruotas identifikatorius, paciento kūno padėtis tyrimo atvaizde ir fotometrinė interpretacija. Paciento gimimo metų reikšmės iš gimimo datos stulpelio iki 1900 m. laikomos analitiškai tolygiomis nesamoms reikšmėms. Įstaiga radiologiniams tyrimams naudoja tiek „MedDream“, tiek „CEDARA“ sistemas. Duomenų teikėjas – VšĮ Kėdainių ligoninė.
+Informacinėje sistemoje „CEDARA“ kaupiami Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys. Duomenų rinkinyje pateikiami duomenys nuo 2016 metų. Vienas įrašas atitinka vieną tyrimo atvaizdą (visų tyrimo atvaizdų identifikatoriai unikalūs). Duomenų rinkinį sudaro: šifruotas paciento asmens kodas, asmens kodo validumo požymis, šifruoti paciento ir tyrimo studijos identifikatoriai, paciento gimimo metai ir lytis tiek iš gimimo datos arba lyties stulpelių, tiek iš validaus asmens kodo, šifruotas tyrimo serijos identifikatorius, tirta paciento kūno dalis, paciento lateralumas tyrimo serijos metu, tyrimo serijos modalumas, protokolas, tyrimo atvaizdo šifruotas identifikatorius, paciento kūno padėtis tyrimo atvaizde ir fotometrinė interpretacija. Paciento gimimo metų reikšmės iš gimimo datos stulpelio iki 1900 m. laikomos analitiškai tolygiomis nesamoms reikšmėms. Įstaiga radiologiniams tyrimams naudoja tiek „MedDream“, tiek „CEDARA“ sistemas. Duomenų teikėjas – VšĮ Kėdainių ligoninė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^manifest]
 
 - **Model:** `datasets/gov/radiologija/kedainiu_ligonine/Cedara`[^manifest]
-- **Dataset:** [Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys](../kedainiu_ligonine.md) (`datasets/gov/radiologija/kedainiu_ligonine`)
-- **Manifest CSV:** [datasets/gov/radiologija/radiologija.csv#L672](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L672)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/radiologija/kedainiu_ligonine/Cedara`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys](../kedainiu_ligonine.md) (`datasets/gov/radiologija/kedainiu_ligonine`)[^manifest]
+- **Manifest CSV:** [datasets/gov/radiologija/radiologija.csv#L672](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L672)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/radiologija/kedainiu_ligonine/Cedara` (`deployed`)[^manifest]
+- **Provider:** `radiologija`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -47,7 +51,7 @@ Informacinėje sistemoje „CEDARA“ kaupiami Kėdainių ligoninės pacientams 
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `vda_paciento_asm_k_val` | `"Tinkamas"` | — | — | Tinkamas | — |
 | `vda_paciento_asm_k_val` | `"Netinkamas"` | — | — | Netinkamas | — |
@@ -66,4 +70,4 @@ Informacinėje sistemoje „CEDARA“ kaupiami Kėdainių ligoninės pacientams 
 | `fotometrine_interpretacija` | `"MONOCHROME1"` | — | — | Vienspalvis atvaizdas, kurio pikselio minimali vertė po transformacijų atitinka baltą | — |
 | `fotometrine_interpretacija` | `"MONOCHROME2"` | — | — | Vienspalvis atvaizdas, kurio pikselio minimali vertė po transformacijų atitinka juodą | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/radiologija/radiologija.csv#L672 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/radiologija/radiologija.csv#L672)

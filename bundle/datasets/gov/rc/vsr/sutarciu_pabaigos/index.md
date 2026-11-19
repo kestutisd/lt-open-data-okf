@@ -1,6 +1,6 @@
-# `datasets/gov/rc/vsr/sutarciu_pabaigos`
+# Directory Index: `datasets/gov/rc/vsr/sutarciu_pabaigos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,21 +3,32 @@ type: Table
 title: "UkioSub5km2021 — Ūkio subjektų geoerdviniai duomenys 2021 m. 5x5 km gardelėse."
 description: "Spinta table datasets/gov/lsd/ukio_subjektai/UkioSub5km2021 (18 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5km2021"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, ukiosub5km2021, deployed, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L492"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv#L492"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1914/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/ukio_subjektai"
+    author: "team:vda"
+    last_modified: "2026-02-25T00:00:00Z"
 ---
 
 # UkioSub5km2021 — Ūkio subjektų geoerdviniai duomenys 2021 m. 5x5 km gardelėse.
 
 - **Model:** `datasets/gov/lsd/ukio_subjektai/UkioSub5km2021`[^manifest]
-- **Dataset:** [datasets/gov/lsd/ukio_subjektai](../ukio_subjektai.md) (`datasets/gov/lsd/ukio_subjektai`)
-- **Manifest CSV:** [datasets/gov/lsd/ukio_subjektai.csv#L492](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L492)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5km2021`
+- **Dataset:** [Veikiančių ūkio subjektų duomenys](../ukio_subjektai.md) (`datasets/gov/lsd/ukio_subjektai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/ukio_subjektai.csv#L492](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L492)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/ukio_subjektai/UkioSub5km2021` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-02-25`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,4 +53,5 @@ sources:
 | `m_n` | `integer` | — | `4` | `open` | — | Veikiančių ūkio subjektų skaičius, pagal ekonominės veiklos rūšis: profesinė, mokslinė ir techninė veikla, administracinė ir aptarnavimo veikla | — |
 | `shape_area` | `number` | — | `4` | `open` | — | gardelės plotas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/ukio_subjektai.csv#L492 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/ukio_subjektai.csv#L492)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/ukio_subjektai (https://data.gov.lt/datasets/1914/)

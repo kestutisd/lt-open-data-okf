@@ -1,6 +1,6 @@
-# `datasets/gov/lab/bibliografiniai_irasai`
+# Directory Index: `datasets/gov/lab/bibliografiniai_irasai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

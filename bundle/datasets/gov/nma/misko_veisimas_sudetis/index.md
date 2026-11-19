@@ -1,6 +1,6 @@
-# `datasets/gov/nma/misko_veisimas_sudetis`
+# Directory Index: `datasets/gov/nma/misko_veisimas_sudetis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

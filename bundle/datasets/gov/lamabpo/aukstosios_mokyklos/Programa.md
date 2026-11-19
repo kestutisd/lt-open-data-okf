@@ -3,25 +3,34 @@ type: Table
 title: "Programa — Aukštojo mokslo programų duomenys"
 description: "Pateikiami aukštojo mokslo programų duomenys Lietuvos aukštojo mokslo įstaigose."
 resource: "https://get.data.gov.lt/datasets/gov/lamabpo/aukstosios_mokyklos/Programa"
-tags: [gov, lamabpo, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lamabpo, programa, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lamabpo/aukstuju_prasymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/aukstuju_prasymai.csv#L10"
+    title: "atviriduomenys/manifest — datasets/gov/lamabpo/aukstuju_prasymai.csv#L10"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2914/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lamabpo/aukstosios_mokyklos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Programa — Aukštojo mokslo programų duomenys
 
-Pateikiami aukštojo mokslo programų duomenys Lietuvos aukštojo mokslo įstaigose. Lentelės objektas – aukštojo mokslo įstaigos vykdoma mokymo programa pagal priėmimo metus. Nurodoma informacija apie mokymo programą: mokymo įstaiga, programos valstybinis kodas ir pavadinimas, mokymo programos vykdymo apskritis ir savivaldybė.
+Pateikiami aukštojo mokslo programų duomenys Lietuvos aukštojo mokslo įstaigose. Lentelės objektas – aukštojo mokslo įstaigos vykdoma mokymo programa pagal priėmimo metus. Nurodoma informacija apie mokymo programą: mokymo įstaiga, programos valstybinis kodas ir pavadinimas, mokymo programos vykdymo apskritis ir savivaldybė.[^manifest]
 
 - **Model:** `datasets/gov/lamabpo/aukstosios_mokyklos/Programa`[^manifest]
-- **Dataset:** [Priėmimo į aukštojo mokslo įstaigas prašymų duomenys](../aukstosios_mokyklos.md) (`datasets/gov/lamabpo/aukstosios_mokyklos`)
-- **Manifest CSV:** [datasets/gov/lamabpo/aukstuju_prasymai.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/aukstuju_prasymai.csv#L10)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lamabpo/aukstosios_mokyklos/Programa`
-- **Primary Key (`ref`):** `programos_id`
-- **Level:** `4`
+- **Dataset:** [Priėmimo į aukštojo mokslo įstaigas prašymų duomenys](../aukstosios_mokyklos.md) (`datasets/gov/lamabpo/aukstosios_mokyklos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lamabpo/aukstuju_prasymai.csv#L10](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/aukstuju_prasymai.csv#L10)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lamabpo/aukstosios_mokyklos/Programa` (`deployed`)[^manifest]
+- **Provider:** `lamabpo` — Lietuvos aukštųjų mokyklų asociacija bendrajam priėmimui organizuoti (LAMA BPO) *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `programos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,7 +50,7 @@ Pateikiami aukštojo mokslo programų duomenys Lietuvos aukštojo mokslo įstaig
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `jar_validacija` | `"Tinkamas"` | — | — | — | — |
 | `jar_validacija` | `"Tuščia reikšmė"` | — | — | — | — |
@@ -49,4 +58,5 @@ Pateikiami aukštojo mokslo programų duomenys Lietuvos aukštojo mokslo įstaig
 | `jar_validacija` | `"Yra ne skaitmenų"` | — | — | — | — |
 | `jar_validacija` | `"Netinkamas kontrolinis skaitmuo"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lamabpo/aukstuju_prasymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lamabpo/aukstuju_prasymai.csv#L10 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lamabpo/aukstuju_prasymai.csv#L10)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lamabpo/aukstosios_mokyklos (https://data.gov.lt/datasets/2914/)

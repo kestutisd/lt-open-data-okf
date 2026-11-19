@@ -3,25 +3,34 @@ type: Table
 title: "VaizdoGarsoIrasas — Tautosakos vaizdo ir garso įrašų duomenys"
 description: "Duomenų rinkinyje pateikiama informacija apie 1905–2007 m. Lietuvos tautosakos archyvinius garso įrašus ir fotografijas."
 resource: "https://get.data.gov.lt/datasets/gov/llti/tautosakos_vaizdo_garso_irasai/VaizdoGarsoIrasas"
-tags: [gov, llti, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, llti, vaizdogarsoirasas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2790/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/llti/tautosakos_vaizdo_garso_irasai"
+    author: "team:vda"
+    last_modified: "2026-10-14T00:00:00Z"
 ---
 
 # VaizdoGarsoIrasas — Tautosakos vaizdo ir garso įrašų duomenys
 
-Duomenų rinkinyje pateikiama informacija apie 1905–2007 m. Lietuvos tautosakos archyvinius garso įrašus ir fotografijas. Rinkinyje pateikiamos ir nuorodos į įrašus, pateiktus Lietuvos literatūros ir tautosakos instituto svetainėje. Viena duomenų rinkinio eilutė nurodo įrašą ir informaciją apie pateikėją. Kai įrašo pateikėjų yra daugiau nei vienas, informacija apie įrašą pateikiama per kelias eilutes. Adresuose pateikiamos šios santrumpos: r. – rajonas, k. – kaimas, mstl. – miestelis, mst. – miestas, apyl. – apylinkė, apskr. – apskritis, gub. – gubernija.
+Duomenų rinkinyje pateikiama informacija apie 1905–2007 m. Lietuvos tautosakos archyvinius garso įrašus ir fotografijas. Rinkinyje pateikiamos ir nuorodos į įrašus, pateiktus Lietuvos literatūros ir tautosakos instituto svetainėje. Viena duomenų rinkinio eilutė nurodo įrašą ir informaciją apie pateikėją. Kai įrašo pateikėjų yra daugiau nei vienas, informacija apie įrašą pateikiama per kelias eilutes. Adresuose pateikiamos šios santrumpos: r. – rajonas, k. – kaimas, mstl. – miestelis, mst. – miestas, apyl. – apylinkė, apskr. – apskritis, gub. – gubernija. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/llti/tautosakos_vaizdo_garso_irasai/VaizdoGarsoIrasas`[^manifest]
-- **Dataset:** [Tautosakos vaizdo ir garso įrašų duomenys](../tautosakos_vaizdo_garso_irasai.md) (`datasets/gov/llti/tautosakos_vaizdo_garso_irasai`)
-- **Manifest CSV:** [datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/llti/tautosakos_vaizdo_garso_irasai/VaizdoGarsoIrasas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Tautosakos vaizdo ir garso įrašų duomenys](../tautosakos_vaizdo_garso_irasai.md) (`datasets/gov/llti/tautosakos_vaizdo_garso_irasai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/llti/tautosakos_vaizdo_garso_irasai/VaizdoGarsoIrasas` (`deployed`)[^manifest]
+- **Provider:** `llti` — Lietuvių literatūros ir tautosakos institutas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-10-14`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -65,7 +74,7 @@ Duomenų rinkinyje pateikiama informacija apie 1905–2007 m. Lietuvos tautosako
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `fondas` | `"LTR"` | — | — | Lietuvių tautosakos archyvo rankraštinių rinkinių fondas | — |
 | `fondas` | `"LMD II"` | — | — | Lietuvos mokslo draugijos II fondas | — |
@@ -81,4 +90,5 @@ Duomenų rinkinyje pateikiama informacija apie 1905–2007 m. Lietuvos tautosako
 | `ekspedicija` | `"Kraštotyros draugijos Kėdainių skyriaus kompleksinė ekspedicija"` | — | — | Kraštotyros draugijos Kėdainių skyriaus kompleksinė ekspedicija | — |
 | `ekspedicija` | `"Kraštotyros draugijos Ukmergės skyriaus kompleksinė ekspedicija"` | — | — | Kraštotyros draugijos Ukmergės skyriaus kompleksinė ekspedicija | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/llti/tautosakos_vaizdo_garso_irasu_duomenys.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/llti/tautosakos_vaizdo_garso_irasai (https://data.gov.lt/datasets/2790/)

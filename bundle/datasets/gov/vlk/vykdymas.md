@@ -1,28 +1,58 @@
 ---
 type: Dataset
-title: "datasets/gov/vlk/vykdymas"
-description: "Spinta dataset datasets/gov/vlk/vykdymas (1 table)."
+title: "PSDF biudžeto vykdymo ataskaitos duomenys"
+description: "Informacija apie Privalomojo sveikatos draudimo fondo biudžeto vykdymą"
 resource: "https://get.data.gov.lt/datasets/gov/vlk/vykdymas"
-tags: [gov, vlk, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vlk, deployed, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vlk/vykdymas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/vykdymas.csv#L2"
+    title: "atviriduomenys/manifest — datasets/gov/vlk/vykdymas.csv#L2"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1803/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vlk/vykdymas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# datasets/gov/vlk/vykdymas
+# PSDF biudžeto vykdymo ataskaitos duomenys
 
 - **Namespace:** `datasets/gov/vlk/vykdymas`[^manifest]
-- **Manifest CSV:** [datasets/gov/vlk/vykdymas.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/vykdymas.csv#L2)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlk/vykdymas`
+- **Manifest CSV:** [datasets/gov/vlk/vykdymas.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/vykdymas.csv#L2)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vlk/vykdymas` (`deployed`)[^manifest]
+- **Provider:** `vlk` — Valstybinė ligonių kasa *(resolved from institutional code)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `1` (1 lentelė)[^manifest]
+
+# Portal Metadata (DCAT-AP)
+
+- **DCAT Dataset URI:** `https://data.gov.lt/datasets/1803/`[^dcat]
+- **Publisher (`dct:publisher`):** Valstybinė ligonių kasa prie Sveikatos apsaugos ministerijos[^dcat]
+- **Matched Spinta Endpoint:** `https://get.data.gov.lt/datasets/gov/vlk/vykdymas`[^dcat]
+- **Portal Title (`@lt`):** PSDF biudžeto vykdymo ataskaitos duomenys[^dcat]
+- **Portal Title (`@en`):** Report on the implementation of the budget of the Compulsory Health Insurance Fund[^dcat]
+- **Issued (`dct:issued`):** `2023-09-18`[^dcat]
+- **Last Modified (`dct:modified`):** `2025-12-18`[^dcat]
+- **Update Cadence (`dct:accrualPeriodicity`):** `ANNUAL` (`http://publications.europa.eu/resource/authority/frequency/ANNUAL`)[^dcat]
+- **Distribution Date Span:** `2023-06-27` .. `2023-06-28`[^dcat]
+- **License (`dct:license`):** `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
+
+### Portal Description (`@lt`)
+
+Informacija apie Privalomojo sveikatos draudimo fondo biudžeto vykdymą[^dcat]
+
+### Portal Description (`@en`)
+
+Report on the implementation of the budget of the Compulsory Health Insurance Fund[^dcat]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Suma](vykdymas/Suma.md) | PSDF biudžeto vykdymo ataskaitos duomenys | `4` | `ad_id` | — | 16 | Informacija apie PSDF biudžeto vykdymą |
+| [Suma](vykdymas/Suma.md) | PSDF biudžeto vykdymo ataskaitos duomenys | `4` | `ad_id` | — | `16` | Informacija apie PSDF biudžeto vykdymą |
 
 # Prefixes
 
@@ -30,4 +60,5 @@ sources:
 | --- | --- |
 | `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vlk/vykdymas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vlk/vykdymas.csv#L2 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vlk/vykdymas.csv#L2)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vlk/vykdymas (https://data.gov.lt/datasets/1803/)

@@ -1,35 +1,65 @@
 ---
 type: Dataset
 title: "Lietuvos Respublikos nuosavybės teise valdomas turtas"
-description: "Spinta dataset datasets/gov/tb/lr_nt_objektas (1 table)."
+description: "Rinkinyje pateikiamas VĮ Turto banke registruotas Lietuvos Respublikos nuosavybės teise valdomas turtas (pastatai, inžinerija, patalpos), nuosavybės pradžios ir pabaigos data, plotas, registrų centro ir unikalus numeriai."
 resource: "https://get.data.gov.lt/datasets/gov/tb/lr_nt_objektas"
-tags: [gov, tb, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, tb, deployed, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/tb/lr_nt_objektas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tb/lr_nt_objektas.csv#L3"
+    title: "atviriduomenys/manifest — datasets/gov/tb/lr_nt_objektas.csv#L3"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2882/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/tb/lr_nt_objektas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Lietuvos Respublikos nuosavybės teise valdomas turtas
 
 - **Namespace:** `datasets/gov/tb/lr_nt_objektas`[^manifest]
-- **Manifest CSV:** [datasets/gov/tb/lr_nt_objektas.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tb/lr_nt_objektas.csv#L3)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tb/lr_nt_objektas`
-- **Parent Namespace (`ns`):** Turto Bankas (`datasets/gov/tb`)
+- **Manifest CSV:** [datasets/gov/tb/lr_nt_objektas.csv#L3](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tb/lr_nt_objektas.csv#L3)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tb/lr_nt_objektas` (`deployed`)[^manifest]
+- **Provider:** `tb` — Turto Bankas *(declared `ns`)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `1` (1 lentelė)[^manifest]
+
+# Portal Metadata (DCAT-AP)
+
+- **DCAT Dataset URI:** `https://data.gov.lt/datasets/2882/`[^dcat]
+- **Publisher (`dct:publisher`):** Valstybės duomenų agentūra[^dcat]
+- **Matched Spinta Endpoint:** `https://get.data.gov.lt/datasets/gov/tb/lr_nt_objektas`[^dcat]
+- **Portal Title (`@lt`):** Lietuvos Respublikos nuosavybės teise valdomas turtas[^dcat]
+- **Portal Title (`@en`):** Property managed by the right of ownership of the Republic of Lithuania[^dcat]
+- **Issued (`dct:issued`):** `2024-12-13`[^dcat]
+- **Last Modified (`dct:modified`):** `2026-04-07`[^dcat]
+- **Update Cadence (`dct:accrualPeriodicity`):** `MONTHLY` (`http://publications.europa.eu/resource/authority/frequency/MONTHLY`)[^dcat]
+- **Distribution Date Span:** `2026-03-22` .. `2026-04-05`[^dcat]
+- **License (`dct:license`):** `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
+
+### Portal Description (`@lt`)
+
+Rinkinyje pateikiamas VĮ Turto banke registruotas Lietuvos Respublikos nuosavybės teise valdomas turtas (pastatai, inžinerija, patalpos), nuosavybės pradžios ir pabaigos data, plotas, registrų centro ir unikalus numeriai. Taip pat nurodyta detalizuota turto paskirties informacija, adresas ir LKS-94 koordinatės. Duomenų teikėjas – VĮ Turto Bankas. Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^dcat]
+
+### Portal Description (`@en`)
+
+The set shall include the property managed by the right of ownership of the Republic of Lithuania (buildings, engineering, premises) registered with the Property Bank of the SE, the date of the beginning and end of the property, the area, the register centre and unique numbers. Details of the purpose of the property, address and coordinates of LKS-94 are also given. Contact the atverimas@stat.gov.lt for technical questions or possible errors.[^dcat]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Objektas](lr_nt_objektas/Objektas.md) | Lietuvos Respublikos nuosavybės teise valdomas turtas | `4` | `obj_id` | — | 20 | Turto banke registruotas Lietuvos Respublikos nuosavybės teise valdomas turtas |
+| [Objektas](lr_nt_objektas/Objektas.md) | Lietuvos Respublikos nuosavybės teise valdomas turtas | `4` | `obj_id` | — | `20` | "Turto banke registruotas Lietuvos Respublikos nuosavybės teise valdomas turtas" |
 
 # Prefixes
 
 | Prefix | URI |
 | --- | --- |
-| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
 | `manifest` | `https://github.com/atviriduomenys/manifest/issues/` |
+| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/tb/lr_nt_objektas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/tb/lr_nt_objektas.csv#L3 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tb/lr_nt_objektas.csv#L3)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/tb/lr_nt_objektas (https://data.gov.lt/datasets/2882/)

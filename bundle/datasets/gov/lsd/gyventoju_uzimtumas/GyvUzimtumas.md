@@ -3,24 +3,34 @@ type: Table
 title: "GyvUzimtumas — Gyventojų užimtumo statistinis tyrimas"
 description: "Gyventojų užimtumo statistinis tyrimas"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/gyventoju_uzimtumas/GyvUzimtumas"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, gyvuzimtumas, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/gyventoju_uzimtumas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventoju_uzimtumas.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/gyventoju_uzimtumas.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/678/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/gyventoju_uzimtumas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # GyvUzimtumas — Gyventojų užimtumo statistinis tyrimas
 
-Gyventojų užimtumo statistinis tyrimas
+Gyventojų užimtumo statistinis tyrimas[^manifest]
 
 - **Model:** `datasets/gov/lsd/gyventoju_uzimtumas/GyvUzimtumas`[^manifest]
-- **Dataset:** [datasets/gov/lsd/gyventoju_uzimtumas](../gyventoju_uzimtumas.md) (`datasets/gov/lsd/gyventoju_uzimtumas`)
-- **Manifest CSV:** [datasets/gov/lsd/gyventoju_uzimtumas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventoju_uzimtumas.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/gyventoju_uzimtumas/GyvUzimtumas`
-- **Level:** `3`
+- **Dataset:** [Gyventojų užimtumo statistinio tyrimo duomenys](../gyventoju_uzimtumas.md) (`datasets/gov/lsd/gyventoju_uzimtumas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/gyventoju_uzimtumas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventoju_uzimtumas.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/gyventoju_uzimtumas/GyvUzimtumas` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -103,7 +113,7 @@ Gyventojų užimtumo statistinis tyrimas
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `hhseqnum` | `"1"` | — | — | eilės numeris, priskirtas kiekvienam namų ūkio nariui | — |
 | `hhseqnum` | `"2"` | — | — | eilės numeris, priskirtas kiekvienam namų ūkio nariui | — |
@@ -462,4 +472,9 @@ Gyventojų užimtumo statistinis tyrimas
 | `refyear` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/gyventoju_uzimtumas.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/gyventoju_uzimtumas.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/gyventoju_uzimtumas.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/gyventoju_uzimtumas (https://data.gov.lt/datasets/678/)

@@ -3,25 +3,34 @@ type: Table
 title: "Artefaktas — Seimo Kanceliarijos įvairialypės informacijos archyvų duomenys"
 description: "Rinkinyje pateikiami duomenys apie Seimo Kanceliarijos archyvuose saugomus vaizdo, teksto ar garso artefaktus nuo XVI amžiaus iki šių dienų."
 resource: "https://get.data.gov.lt/datasets/gov/lrsk/archyviniai/Artefaktas"
-tags: [gov, lrsk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lrsk, artefaktas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lrsk/archyviniai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/archyviniai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lrsk/archyviniai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2608/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lrsk/archyviniai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Artefaktas — Seimo Kanceliarijos įvairialypės informacijos archyvų duomenys
 
-Rinkinyje pateikiami duomenys apie Seimo Kanceliarijos archyvuose saugomus vaizdo, teksto ar garso artefaktus nuo XVI amžiaus iki šių dienų. Nurodoma artefakto vieta, kategorija, aprašymas, kalba, tema, pradžios ir pabaigos datos (jei taikoma) ir nuoroda, jei artefakto turinys prieinamas internete.
+Rinkinyje pateikiami duomenys apie Seimo Kanceliarijos archyvuose saugomus vaizdo, teksto ar garso artefaktus nuo XVI amžiaus iki šių dienų. Nurodoma artefakto vieta, kategorija, aprašymas, kalba, tema, pradžios ir pabaigos datos (jei taikoma) ir nuoroda, jei artefakto turinys prieinamas internete.[^manifest]
 
 - **Model:** `datasets/gov/lrsk/archyviniai/Artefaktas`[^manifest]
-- **Dataset:** [Seimo Kanceliarijos įvairialypės informacijos archyvų duomenys](../archyviniai.md) (`datasets/gov/lrsk/archyviniai`)
-- **Manifest CSV:** [datasets/gov/lrsk/archyviniai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/archyviniai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lrsk/archyviniai/Artefaktas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Seimo Kanceliarijos įvairialypės informacijos archyvų duomenys](../archyviniai.md) (`datasets/gov/lrsk/archyviniai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lrsk/archyviniai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/archyviniai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lrsk/archyviniai/Artefaktas` (`deployed`)[^manifest]
+- **Provider:** `lrsk` — Lietuvos Respublikos Seimo Kanceliarija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,7 +52,7 @@ Rinkinyje pateikiami duomenys apie Seimo Kanceliarijos archyvuose saugomus vaizd
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `kategorija` | `"Vaizdas"` | — | — | — | — |
 | `kategorija` | `"Tekstas"` | — | — | — | — |
@@ -62,4 +71,9 @@ Rinkinyje pateikiami duomenys apie Seimo Kanceliarijos archyvuose saugomus vaizd
 | `iki_lt` | `update(property: "iki_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `kalba` | `"update(property: ""kalba[]"", type: ""array"", source: ""Kalba"")"` | `property` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lrsk/archyviniai.csv
+# Related References
+
+- [ISO 639 Language Codes Reference](../../../../references/iso-639-kalbu-kodai.md) — ISO 639-1 / 639-2 / EU NAL codes and special markers `zxx`, `und`, `mul`, `mis`.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/lrsk/archyviniai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lrsk/archyviniai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lrsk/archyviniai (https://data.gov.lt/datasets/2608/)

@@ -2,29 +2,32 @@
 type: Table
 title: "PosedisTvarkarastis"
 description: "Spinta table datasets/gov/nta/posedziai/PosedisTvarkarastis (15 columns)."
-tags: [gov, nta, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nta, posedistvarkarastis, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nta/posedziai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/posedziai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nta/posedziai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # PosedisTvarkarastis
 
 - **Model:** `datasets/gov/nta/posedziai/PosedisTvarkarastis`[^manifest]
-- **Dataset:** [datasets/gov/nta/posedziai](../posedziai.md) (`datasets/gov/nta/posedziai`)
-- **Manifest CSV:** [datasets/gov/nta/posedziai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/posedziai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/nta/posedziai](../posedziai.md) (`datasets/gov/nta/posedziai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nta/posedziai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/posedziai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `nta` — Nacionalinė teismų administracija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `teismo_rumai` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `4` | `open` | — | Teismo rūmai | — |
+| `teismo_rumai` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=4 UUID` via `JuridinisAsmuo[ja_pavadinimas]`: `teismo_rumai._id`) | `4` | `open` | — | Teismo rūmai | — |
 | `sale` | `string` | — | `3` | `open` | — | Teismo rūmų salė | — |
 | `data_laikas` | `datetime` | `S` | `4` | `open` | — | Posėdžio data ir laikas | — |
 | `bylos_numeris` | `string` | — | `2` | `open` | — | Bylos numeris | — |
@@ -42,7 +45,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `ar_uzdaras_posedis` | `"ne"` | — | — | Neuždaras | — |
 | `ar_uzdaras_posedis` | `"taip"` | — | — | Uždaras | — |
@@ -69,4 +72,8 @@ sources:
 | `bylos_id` | `update(property: "byla.id", type: "")` | `type` | `4` | `open` | `spinta: 216` | — | — |
 | `tipas` | `update(property: "byla.tipas", type: "")` | `type` | `4` | `open` | `spinta: 216` | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nta/posedziai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/nta/posedziai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nta/posedziai.csv#L6)

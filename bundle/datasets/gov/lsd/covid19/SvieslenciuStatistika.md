@@ -3,24 +3,34 @@ type: Table
 title: "SvieslenciuStatistika — COVID-19 statistika (švieslentės)"
 description: "Pateikta iš švieslenčių (dashboards) agreguota informacija kiekvienai dienai pagal savivaldybes nuo pandemijos pradžios Lietuvoje apie atvejus, tyrimus ir mirtis"
 resource: "https://get.data.gov.lt/datasets/gov/lsd/covid19/SvieslenciuStatistika"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, svieslenciustatistika, deployed, level-3, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L89"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L89"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1670/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/covid19"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # SvieslenciuStatistika — COVID-19 statistika (švieslentės)
 
-Pateikta iš švieslenčių (dashboards) agreguota informacija kiekvienai dienai pagal savivaldybes nuo pandemijos pradžios Lietuvoje apie atvejus, tyrimus ir mirtis
+Pateikta iš švieslenčių (dashboards) agreguota informacija kiekvienai dienai pagal savivaldybes nuo pandemijos pradžios Lietuvoje apie atvejus, tyrimus ir mirtis[^manifest]
 
 - **Model:** `datasets/gov/lsd/covid19/SvieslenciuStatistika`[^manifest]
-- **Dataset:** [datasets/gov/lsd/covid19](../covid19.md) (`datasets/gov/lsd/covid19`)
-- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L89](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L89)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/SvieslenciuStatistika`
-- **Level:** `3`
+- **Dataset:** [COVID-19 pandemijos duomenys](../covid19.md) (`datasets/gov/lsd/covid19`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/covid19.csv#L89](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L89)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/covid19/SvieslenciuStatistika` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -58,4 +68,5 @@ Pateikta iš švieslenčių (dashboards) agreguota informacija kiekvienai dienai
 | `active_sttstcl` | `integer` | `U` | `4` | `open` | — | Statistinis COVID-19 liga sergančių asmenų skaičius | — |
 | `map_colors` | `string` | — | `3` | `open` | — | Savivaldybės spalvinė zona | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/covid19.csv#L89 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/covid19.csv#L89)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/covid19 (https://data.gov.lt/datasets/1670/)

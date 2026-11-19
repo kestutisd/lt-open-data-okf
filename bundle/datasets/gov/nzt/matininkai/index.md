@@ -1,6 +1,6 @@
-# `datasets/gov/nzt/matininkai`
+# Directory Index: `datasets/gov/nzt/matininkai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

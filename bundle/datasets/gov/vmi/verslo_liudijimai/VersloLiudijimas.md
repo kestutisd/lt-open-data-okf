@@ -3,22 +3,32 @@ type: Table
 title: "VersloLiudijimas — Gyventojams išduotų verslo liudijimų duomenys"
 description: "Spinta table datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas (22 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas"
-tags: [gov, vmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, versloliudijimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/verslo_liudijimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/verslo_liudijimai.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/verslo_liudijimai.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2069/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/verslo_liudijimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # VersloLiudijimas — Gyventojams išduotų verslo liudijimų duomenys
 
 - **Model:** `datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas`[^manifest]
-- **Dataset:** [datasets/gov/vmi/verslo_liudijimai](../verslo_liudijimai.md) (`datasets/gov/vmi/verslo_liudijimai`)
-- **Manifest CSV:** [datasets/gov/vmi/verslo_liudijimai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/verslo_liudijimai.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas`
-- **Level:** `4`
+- **Dataset:** [Fizinių asmenų, vykdančių veiklą pagal verslo liudijimą, duomenys](../verslo_liudijimai.md) (`datasets/gov/vmi/verslo_liudijimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/verslo_liudijimai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/verslo_liudijimai.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/verslo_liudijimai/VersloLiudijimas` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -49,7 +59,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `grupe` | `1` | — | — | 1 - gamyba | — |
 | `grupe` | `2` | — | — | 2 - paslaugos | — |
@@ -83,4 +93,10 @@ sources:
 | `veiklos_sav` | `create(property: "savivaldybe", type: "ref", ref: "/datasets/gov/rc/ar/savivaldybe/Savivaldybe")` | `type` | `4` | `open` | — | — | — |
 | `veiklos_sav` | `update(property: "savivaldybe.sav_kodas", type: "")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/verslo_liudijimai.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/verslo_liudijimai.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/verslo_liudijimai.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/verslo_liudijimai (https://data.gov.lt/datasets/2069/)

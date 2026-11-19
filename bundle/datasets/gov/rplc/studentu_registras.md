@@ -1,34 +1,65 @@
 ---
 type: Dataset
-title: "datasets/gov/rplc/studentu_registras"
-description: "Spinta dataset datasets/gov/rplc/studentu_registras (1 table)."
+title: "Respublikinio Priklausomybės Ligų Centro studentų, atliekančių praktiką gydymo įstaigoje, duomenys"
+description: "Šiame duomenų rinkinyje pateikiami studentų atlikusių praktiką ar savanorišką veiklą RPLC duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/rplc/studentu_registras"
-tags: [gov, rplc, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rplc, deployed, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rplc/studentu_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/studentu_registras.csv#L2"
+    title: "atviriduomenys/manifest — datasets/gov/rplc/studentu_registras.csv#L2"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2383/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rplc/studentu_registras"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
-# datasets/gov/rplc/studentu_registras
+# Respublikinio Priklausomybės Ligų Centro studentų, atliekančių praktiką gydymo įstaigoje, duomenys
 
 - **Namespace:** `datasets/gov/rplc/studentu_registras`[^manifest]
-- **Manifest CSV:** [datasets/gov/rplc/studentu_registras.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/studentu_registras.csv#L2)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/studentu_registras`
+- **Manifest CSV:** [datasets/gov/rplc/studentu_registras.csv#L2](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/studentu_registras.csv#L2)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/studentu_registras` (`deployed`)[^manifest]
+- **Provider:** `rplc` — Respublikinis priklausomybės ligų centras *(resolved from institutional code)*[^manifest]
+- **Access:** `—` *(determined by table/property access levels)*[^manifest]
+- **Tables:** `1` (1 lentelė)[^manifest]
+
+# Portal Metadata (DCAT-AP)
+
+- **DCAT Dataset URI:** `https://data.gov.lt/datasets/2383/`[^dcat]
+- **Publisher (`dct:publisher`):** Valstybės duomenų agentūra[^dcat]
+- **Matched Spinta Endpoint:** `https://get.data.gov.lt/datasets/gov/rplc/studentu_registras`[^dcat]
+- **Portal Title (`@lt`):** Respublikinio Priklausomybės Ligų Centro studentų, atliekančių praktiką gydymo įstaigoje, duomenys[^dcat]
+- **Portal Title (`@en`):** Data of students from the Republican Center for Disease Responsibility who are practising in a medical institution[^dcat]
+- **Issued (`dct:issued`):** `2023-11-08`[^dcat]
+- **Last Modified (`dct:modified`):** `2026-04-07`[^dcat]
+- **Update Cadence (`dct:accrualPeriodicity`):** `NEVER` (`http://publications.europa.eu/resource/authority/frequency/NEVER`)[^dcat]
+- **Distribution Date Span:** `2023-12-01` .. `2024-05-09`[^dcat]
+- **License (`dct:license`):** `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
+
+### Portal Description (`@lt`)
+
+Šiame duomenų rinkinyje pateikiami studentų atlikusių praktiką ar savanorišką veiklą RPLC duomenys. Su duomenimis susijusiais klausimais prašome kreiptis el. paštu atverimas@stat.gov.lt. Dėl techninių portalo veiklos sutrikimų prašome kreiptis el. paštu atviriduomenys@vssa.lt.[^dcat]
+
+### Portal Description (`@en`)
+
+This dataset provides data for students who have completed a traineeship or volunteering RPLC. For technical questions or possible errors, contact atverimas@stat.gov.lt[^dcat]
 
 # Tables
 
 | Table | Title | Level | Primary Key | Access | Columns | Description |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Sutartis](studentu_registras/Sutartis.md) | Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus, Kauno, Klaipėdos, Šiaulių ir Panevėžio filialų studentų, atlikusių praktiką, rezidentūrą, tyrimą ar užsiėmusių kita veikla, sutarčių registrų duomenys. | `4` | `vda_id` | — | 5 | — |
+| [Sutartis](studentu_registras/Sutartis.md) | Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus, Kauno, Klaipėdos, Šiaulių ir Panevėžio filialų studentų, atlikusių praktiką, rezidentūrą, tyrimą ar užsiėmusių kita veikla, sutarčių registrų duomenys. | `4` | `vda_id` | — | `5` | — |
 
 # Prefixes
 
 | Prefix | URI |
 | --- | --- |
-| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
 | `manifest` | `https://github.com/atviriduomenys/manifest/issues/` |
+| `spinta` | `https://github.com/atviriduomenys/spinta/issues/` |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/studentu_registras.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/studentu_registras.csv#L2 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/studentu_registras.csv#L2)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rplc/studentu_registras (https://data.gov.lt/datasets/2383/)

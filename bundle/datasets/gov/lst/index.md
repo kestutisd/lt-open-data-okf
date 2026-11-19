@@ -1,13 +1,13 @@
-# `datasets/gov/lst`
+# Directory Index: `datasets/gov/lst`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [standards/](standards/index.md) - Namespace `datasets/gov/lst/standards` (0 datasets, 43 tables)
-* [terms/](terms/index.md) - Namespace `datasets/gov/lst/terms` (0 datasets, 9 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/lst/standards](standards.md) - Spinta dataset datasets/gov/lst/standards (43 tables).
-* [datasets/gov/lst/terms](terms.md) - Spinta dataset datasets/gov/lst/terms (9 tables).
+* [Lietuvos standartų ir standartizacijos leidinių bibliografinių duomenų bazė](standards.md) - Kaupiama ir pateikiama informacija apie Lietuvos standartus (standarto žymuo, pavadinimas, išleidimo data, panaikinimo data, taikymo sritis lietuvių ir anglų kalbomis, kita informacija)...
+* [Standartų terminų bazė](terms.md) - Kaupiami šie standartų terminų duomenys: terminas, termino apibrėžtis, terminą patvirtinęs subjektas, atitikmenys kitomis kalbomis, statusas (teiktinas ar neteiktinas taikyti, pasenęs ar...
+
+# Subdirectories
+
+* [standards/](standards/index.md) - 43 tables
+* [terms/](terms/index.md) - 9 tables

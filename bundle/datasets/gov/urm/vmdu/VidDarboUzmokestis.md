@@ -2,23 +2,26 @@
 type: Table
 title: "VidDarboUzmokestis"
 description: "Spinta table datasets/gov/urm/vmdu/VidDarboUzmokestis (25 columns)."
-tags: [gov, urm, undeployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, urm, viddarbouzmokestis, undeployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/urm/vmdu.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vmdu.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/urm/vmdu.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VidDarboUzmokestis
 
 - **Model:** `datasets/gov/urm/vmdu/VidDarboUzmokestis`[^manifest]
-- **Dataset:** [Vidutinio mėnesio darbo užmokesčio duomenys](../vmdu.md) (`datasets/gov/urm/vmdu`)
-- **Manifest CSV:** [datasets/gov/urm/vmdu.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vmdu.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `pareigybes_pavadinimas`
-- **Level:** `3`
+- **Dataset:** [Vidutinio mėnesio darbo užmokesčio duomenys](../vmdu.md) (`datasets/gov/urm/vmdu`)[^manifest]
+- **Manifest CSV:** [datasets/gov/urm/vmdu.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vmdu.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `urm` — Lietuvos Respublikos užsienio reikalų ministerija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `pareigybes_pavadinimas`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -67,4 +70,4 @@ sources:
 | `vid_du_lapkritis_2021` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `vid_du_gruodis_2021` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/urm/vmdu.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/urm/vmdu.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/urm/vmdu.csv#L5)

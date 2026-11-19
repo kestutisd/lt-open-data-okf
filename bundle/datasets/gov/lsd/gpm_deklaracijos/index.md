@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/gpm_deklaracijos`
+# Directory Index: `datasets/gov/lsd/gpm_deklaracijos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

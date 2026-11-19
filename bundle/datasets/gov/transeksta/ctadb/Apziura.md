@@ -3,25 +3,34 @@ type: Table
 title: "Apziura — Transporto priemonių techninės apžiūros duomenys"
 description: "Lietuvos techninės apžiūros įmonių asociacijos „TRANSEKSTA“ centralizuotoji techninės apžiūros duomenų bazė kaupia kelių transporto priemonių techninių apžiūrų (TA) duomenis, vykdomų asocijuotųjų įmonių."
 resource: "https://get.data.gov.lt/datasets/gov/transeksta/ctadb/Apziura"
-tags: [gov, transeksta, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, transeksta, apziura, deployed, level-4, cadence-weekly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/transeksta/ctadb.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/transeksta/ctadb.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/transeksta/ctadb.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2721/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/transeksta/ctadb"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Apziura — Transporto priemonių techninės apžiūros duomenys
 
-Lietuvos techninės apžiūros įmonių asociacijos „TRANSEKSTA“ centralizuotoji techninės apžiūros duomenų bazė kaupia kelių transporto priemonių techninių apžiūrų (TA) duomenis, vykdomų asocijuotųjų įmonių. Rinkinyje duomenys teikiami nuo 2015 m., atnaujinami kas savaitę. Duomenų rinkinys apima transporto priemonės (TP) pseudonimizuotus identifikatorius, valstybinį ir VIN (angl. vehicle identification number/liet. transporto priemonės identifikacinis numeris) numerius. Valstybiniui numeriui taip pat įtrauktas stulpelis, nurodantis, kuris neapdoroto valstybinio numerio simbolis atitinka raidę, skaitmenį arba spec. paskirties simbolį. Duomenų rinkinys taip pat apima TP markę, modelį, klasę, kėbulą, ar TP yra specialios paskirties, pagaminimo metus, kuro rūšis, dūmingumą, anglies monoksido taršą tiek prie įprasto, tiek prie padidinto variklio apsukų skaičiaus, ridą (bendrą TP nuvažiuotą atstumą), TA stoties pseudonimizuotą kodą, adreso savivaldybę, bei TA tipą, išvadą, ar TA išlaikyta, TA datą savaitės tikslumu.
+Lietuvos techninės apžiūros įmonių asociacijos „TRANSEKSTA“ centralizuotoji techninės apžiūros duomenų bazė kaupia kelių transporto priemonių techninių apžiūrų (TA) duomenis, vykdomų asocijuotųjų įmonių. Rinkinyje duomenys teikiami nuo 2015 m., atnaujinami kas savaitę. Duomenų rinkinys apima transporto priemonės (TP) pseudonimizuotus identifikatorius, valstybinį ir VIN (angl. vehicle identification number/liet. transporto priemonės identifikacinis numeris) numerius. Valstybiniui numeriui taip pat įtrauktas stulpelis, nurodantis, kuris neapdoroto valstybinio numerio simbolis atitinka raidę, skaitmenį arba spec. paskirties simbolį. Duomenų rinkinys taip pat apima TP markę, modelį, klasę, kėbulą, ar TP yra specialios paskirties, pagaminimo metus, kuro rūšis, dūmingumą, anglies monoksido taršą tiek prie įprasto, tiek prie padidinto variklio apsukų skaičiaus, ridą (bendrą TP nuvažiuotą atstumą), TA stoties pseudonimizuotą kodą, adreso savivaldybę, bei TA tipą, išvadą, ar TA išlaikyta, TA datą savaitės tikslumu.[^manifest]
 
 - **Model:** `datasets/gov/transeksta/ctadb/Apziura`[^manifest]
-- **Dataset:** [Transporto priemonių techninės apžiūros duomenys](../ctadb.md) (`datasets/gov/transeksta/ctadb`)
-- **Manifest CSV:** [datasets/gov/transeksta/ctadb.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/transeksta/ctadb.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/transeksta/ctadb/Apziura`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Transporto priemonių techninės apžiūros duomenys](../ctadb.md) (`datasets/gov/transeksta/ctadb`)[^manifest]
+- **Manifest CSV:** [datasets/gov/transeksta/ctadb.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/transeksta/ctadb.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/transeksta/ctadb/Apziura` (`deployed`)[^manifest]
+- **Provider:** `transeksta` — Lietuvos techninės apžiūros įmonių asociacija „Transeksta“ *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `WEEKLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -53,11 +62,12 @@ Lietuvos techninės apžiūros įmonių asociacijos „TRANSEKSTA“ centralizuo
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `ta_isvada` | `"Be trūkumų"` | `Be trūkumų` | — | Be trūkumų | — |
 | `ta_isvada` | `"Nedideli trūkumai"` | `Nedideli trūkumai` | — | Nedideli trūkumai | — |
 | `ta_isvada` | `"Dideli trūkumai"` | `Dideli trūkumai` | — | Dideli trūkumai | — |
 | `ta_isvada` | `"Pavojingi trūkumai"` | `Pavojingi trūkumai` | — | Pavojingi trūkumai | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/transeksta/ctadb.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/transeksta/ctadb.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/transeksta/ctadb.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/transeksta/ctadb (https://data.gov.lt/datasets/2721/)

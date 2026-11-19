@@ -1,6 +1,6 @@
-# `datasets/gov/vilkavi_vand/skaitikliai`
+# Directory Index: `datasets/gov/vilkavi_vand/skaitikliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/demografija/med_mirties_liudijimai`
+# Directory Index: `datasets/gov/lsd/demografija/med_mirties_liudijimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,24 +3,34 @@ type: Table
 title: "BendrasNtMokestis — NT mokesčio mokėtojo ir NT bendri duomenys"
 description: "Nekilnojamojo turto (toliau - NT) mokesčio mokėtojo ir NT bendri duomenys"
 resource: "https://get.data.gov.lt/datasets/gov/vmi/nt/BendrasNtMokestis"
-tags: [gov, vmi, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, bendrasntmokestis, deployed, level-2, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1185/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/nt"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # BendrasNtMokestis — NT mokesčio mokėtojo ir NT bendri duomenys
 
-Nekilnojamojo turto (toliau - NT) mokesčio mokėtojo ir NT bendri duomenys
+Nekilnojamojo turto (toliau - NT) mokesčio mokėtojo ir NT bendri duomenys[^manifest]
 
 - **Model:** `datasets/gov/vmi/nt/BendrasNtMokestis`[^manifest]
-- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)
-- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/BendrasNtMokestis`
-- **Level:** `2`
+- **Dataset:** [Nekilnojamo turto mokesčio duomenų rinkinys](../nt.md) (`datasets/gov/vmi/nt`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/nt.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/nt/BendrasNtMokestis` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,7 +52,7 @@ Nekilnojamojo turto (toliau - NT) mokesčio mokėtojo ir NT bendri duomenys
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `moketojo_tipas` | `1` | — | — | Fizinis asmuo | — |
 | `moketojo_tipas` | `2` | — | — | Juridinis asmuo | — |
@@ -62,4 +72,5 @@ Nekilnojamojo turto (toliau - NT) mokesčio mokėtojo ir NT bendri duomenys
 | `avansinio_mok_suma_2k_agr` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `avansinio_mok_suma_3k_agr` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/nt.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/nt.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/nt (https://data.gov.lt/datasets/1185/)

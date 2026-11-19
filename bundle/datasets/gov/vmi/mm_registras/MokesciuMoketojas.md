@@ -3,23 +3,32 @@ type: Table
 title: "MokesciuMoketojas — MOKESČIŲ MOKĖTOJŲ (JURIDINIŲ ASMENŲ) KODŲ, TIPŲ, GRUPIŲ DUOMENYS"
 description: "Spinta table datasets/gov/vmi/mm_registras/MokesciuMoketojas (37 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/mm_registras/MokesciuMoketojas"
-tags: [gov, vmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, mokesciumoketojas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/mm_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/mm_registras.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/mm_registras.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/607/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/mm_registras"
+    author: "team:vda"
+    last_modified: "2026-03-09T00:00:00Z"
 ---
 
 # MokesciuMoketojas — MOKESČIŲ MOKĖTOJŲ (JURIDINIŲ ASMENŲ) KODŲ, TIPŲ, GRUPIŲ DUOMENYS
 
 - **Model:** `datasets/gov/vmi/mm_registras/MokesciuMoketojas`[^manifest]
-- **Dataset:** [MOKESČIŲ MOKĖTOJŲ (JURIDINIŲ ASMENŲ) KODŲ, TIPŲ, GRUPIŲ DUOMENYS](../mm_registras.md) (`datasets/gov/vmi/mm_registras`)
-- **Manifest CSV:** [datasets/gov/vmi/mm_registras.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/mm_registras.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/mm_registras/MokesciuMoketojas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [MOKESČIŲ MOKĖTOJŲ (JURIDINIŲ ASMENŲ) KODŲ, TIPŲ, GRUPIŲ DUOMENYS](../mm_registras.md) (`datasets/gov/vmi/mm_registras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/mm_registras.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/mm_registras.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/mm_registras/MokesciuMoketojas` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-03-09`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,7 +57,7 @@ sources:
 | `padalinio_kodas` | `integer` | — | `4` | `open` | — | Valstybės, kurioje yra padalinys, kodas | — |
 | `suformuota` | `date` | `D` | `4` | `open` | — | Mokesčio mokėtojo padalinio suformavimo data | — |
 | `isformuota` | `date` | `D` | `4` | `open` | — | Mokesčio mokėtojo padalinio išformavimo data | — |
-| `ekonomine_veikla` | `ref` | [/datasets/gov/lsd/cl/evrk/EkonominesVeiklosRusis](../../lsd/cl/evrk/EkonominesVeiklosRusis.md) | `4` | `open` | — | Ekonominės veiklos rūšies kodas | — |
+| `ekonomine_veikla` | `ref` | [EkonominesVeiklosRusis](../../lsd/cl/evrk/EkonominesVeiklosRusis.md) (`level=4 UUID`: `ekonomine_veikla._id`) | `4` | `open` | — | Ekonominės veiklos rūšies kodas | — |
 | `veiklos_pradzia` | `date` | `D` | `4` | `open` | — | Veiklos galiojimo pradžios data | — |
 | `veiklos_pabaiga` | `date` | `D` | `4` | `open` | — | Veiklos galiojimo pabaigos data | — |
 | `veikla_anuliuota` | `date` | `D` | `4` | `open` | — | Veikla anuliuota | — |
@@ -65,7 +74,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `klnt_tipas` | `"LJA"` | — | — | Lietuvos juridinis asmuo | — |
 | `klnt_tipas` | `"UJA"` | — | — | Užsienio juridinis asmuo | — |
@@ -81,4 +90,9 @@ sources:
 | `vv_savivaldybe` | `create(property: "vv_savivaldybe", type: "ref", ref: "/datasets/gov/rc/ar/savivaldybe/Savivaldybe")` | `type` | `4` | `open` | — | — | — |
 | `vv_savivaldybe` | `update(property: "vv_savivaldybe.sav_kodas", type: "")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/mm_registras.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/mm_registras.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/mm_registras.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/mm_registras (https://data.gov.lt/datasets/607/)

@@ -1,7 +1,7 @@
-# `datasets/gov/rc/jar/buveines`
+# Directory Index: `datasets/gov/rc/jar/buveines`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Buveine](Buveine.md) - Spinta table datasets/gov/rc/jar/buveines/Buveine (3 columns).
+* [Buveine](Buveine.md) - Įregistruotų juridinių asmenų buveinių (adresų) duomenų rinkinys iš Lietuvos Respublikos juridinių asmenų registro (juridinius asmenis apibūdinantys duomenys (kodas, pavadinimas, adreso...

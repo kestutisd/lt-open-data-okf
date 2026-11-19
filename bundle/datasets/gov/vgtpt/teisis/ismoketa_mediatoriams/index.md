@@ -1,7 +1,7 @@
-# `datasets/gov/vgtpt/teisis/ismoketa_mediatoriams`
+# Directory Index: `datasets/gov/vgtpt/teisis/ismoketa_mediatoriams`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [SumaMediatoriui — Teiktų mediacijos paslaugų trukmė ir vertė](SumaMediatoriui.md) - Spinta table datasets/gov/vgtpt/teisis/ismoketa_mediatoriams/SumaMediatoriui (7 columns).
+* [SumaMediatoriui — Teiktų mediacijos paslaugų trukmė ir vertė](SumaMediatoriui.md) - Valstybės garantuojamos teisinės pagalbos tarnybos duomenų, kaupiamų Teisinės pagalbos paslaugų informacinėje sistemoje (TEISIS),duomenys apie teiktų mediacijos paslaugų trukmę ir vertę.

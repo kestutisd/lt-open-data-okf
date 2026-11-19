@@ -3,23 +3,32 @@ type: Table
 title: "NuolatinisGyventojas — Nuolatinių Lietuvos Respublikos gyventojų mirties atvejai ir jų priežastys"
 description: "Spinta table datasets/gov/hi/mirtys/NuolatinisGyventojas (26 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/hi/mirtys/NuolatinisGyventojas"
-tags: [gov, hi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, hi, nuolatinisgyventojas, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/hi/mirties_priezastys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/mirties_priezastys.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/hi/mirties_priezastys.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/998/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/hi/mirtys"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # NuolatinisGyventojas — Nuolatinių Lietuvos Respublikos gyventojų mirties atvejai ir jų priežastys
 
 - **Model:** `datasets/gov/hi/mirtys/NuolatinisGyventojas`[^manifest]
-- **Dataset:** [Nuolatinių Lietuvos gyventojų, mirusių Lietuvoje ar užsienyje, mirties atvejų ir jų priežasčių duomenys](../mirtys.md) (`datasets/gov/hi/mirtys`)
-- **Manifest CSV:** [datasets/gov/hi/mirties_priezastys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/mirties_priezastys.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/mirtys/NuolatinisGyventojas`
-- **Primary Key (`ref`):** `m_id`
-- **Level:** `4`
+- **Dataset:** [Nuolatinių Lietuvos gyventojų, mirusių Lietuvoje ar užsienyje, mirties atvejų ir jų priežasčių...](../mirtys.md) (`datasets/gov/hi/mirtys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/hi/mirties_priezastys.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/mirties_priezastys.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/mirtys/NuolatinisGyventojas` (`deployed`)[^manifest]
+- **Provider:** `hi` — Higienos institutas *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `m_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -54,7 +63,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `m_lytis` | `1` | — | — | Vyras | — |
 | `m_lytis` | `2` | — | — | Moteris | — |
@@ -96,4 +105,5 @@ sources:
 | `e106_operac` | `1` | — | — | Taip | — |
 | `e106_operac` | `2` | — | — | Ne | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/hi/mirties_priezastys.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/hi/mirties_priezastys.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/mirties_priezastys.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/hi/mirtys (https://data.gov.lt/datasets/998/)

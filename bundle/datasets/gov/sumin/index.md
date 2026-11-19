@@ -1,11 +1,11 @@
-# `datasets/gov/sumin`
+# Directory Index: `datasets/gov/sumin`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [vintra/](vintra/index.md) - Namespace `datasets/gov/sumin/vintra` (0 datasets, 4 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/sumin/vintra](vintra.md) - Spinta dataset datasets/gov/sumin/vintra (4 tables).
+* [datasets/gov/sumin/vintra](vintra.md) - Lithuanian open data dataset datasets/gov/sumin/vintra (4 lentelės).
+
+# Subdirectories
+
+* [vintra/](vintra/index.md) - 4 tables

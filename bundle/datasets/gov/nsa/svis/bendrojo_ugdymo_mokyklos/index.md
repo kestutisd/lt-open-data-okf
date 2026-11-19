@@ -1,6 +1,6 @@
-# `datasets/gov/nsa/svis/bendrojo_ugdymo_mokyklos`
+# Directory Index: `datasets/gov/nsa/svis/bendrojo_ugdymo_mokyklos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

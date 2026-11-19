@@ -3,24 +3,34 @@ type: Table
 title: "KedainiuLigonine — Kėdainių ligoninėje pacientams atliktų laboratorinių tyrimų duomenys"
 description: "Kėdainių ligoninės sistemoje „OpenLIMS“ nuo 2012 metų kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KedainiuLigonine"
-tags: [gov, lab_tyrimai, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, kedainiuligonine, deployed, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # KedainiuLigonine — Kėdainių ligoninėje pacientams atliktų laboratorinių tyrimų duomenys
 
-Kėdainių ligoninės sistemoje „OpenLIMS“ nuo 2012 metų kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2017 metų kaupiami ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Kėdainių ligoninė.
+Kėdainių ligoninės sistemoje „OpenLIMS“ nuo 2012 metų kaupiami įstaigos pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinyje pateikiami nuo 2017 metų kaupiami ir iki šiol atnaujinami duomenys. Duomenų rinkinį sudaro: įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimų grupė, tyrimo data, tyrimo mėginio / ėminio tipas, tyrimo analitės pavadinimas, analitės LOINC kodas, analitės rezultatas bei normalių rezultato reikšmių rėžiai (suapvalinti 5 skaitmenų tikslumu), rezultato matavimo vienetai, paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vieną tyrimo-analitės kombinaciją. OpenLIMS sistemoje yra saugomi analičių, tačiau ne jų sudaromų tyrimų pavadinimai. Duomenų teikėjas – VšĮ Kėdainių ligoninė. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/KedainiuLigonine`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KedainiuLigonine`
-- **Primary Key (`ref`):** `vda_prime_key`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/KedainiuLigonine` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +55,7 @@ Kėdainių ligoninės sistemoje „OpenLIMS“ nuo 2012 metų kaupiami įstaigos
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"M"` | — | — | Moteris | — |
 | `paciento_lytis` | `"V"` | — | — | Vyras | — |
@@ -63,4 +73,5 @@ Kėdainių ligoninės sistemoje „OpenLIMS“ nuo 2012 metų kaupiami įstaigos
 | `tyrimo_meginio_tipas` | `"Plazma"` | — | — | Plazma | — |
 | `tyrimo_meginio_tipas` | `"Punktatas"` | — | — | Punktatas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L345)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

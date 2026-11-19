@@ -1,61 +1,61 @@
-# `datasets/gov/aaa`
+# Directory Index: `datasets/gov/aaa`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [atlieku_tvarkymas/](atlieku_tvarkymas/index.md) - Namespace `datasets/gov/aaa/atlieku_tvarkymas` (0 datasets, 1 table)
-* [atlieku_tvarkytoju_valstybes_registras/](atlieku_tvarkytoju_valstybes_registras/index.md) - Atliekų tvarkytojų valstybės registro duomenys (0 datasets, 6 tables)
-* [chemijos_naudotojai/](chemijos_naudotojai/index.md) - Namespace `datasets/gov/aaa/chemijos_naudotojai` (0 datasets, 1 table)
-* [chemines_medziagos/](chemines_medziagos/index.md) - Namespace `datasets/gov/aaa/chemines_medziagos` (0 datasets, 1 table)
-* [cheminiai_misiniai/](cheminiai_misiniai/index.md) - Namespace `datasets/gov/aaa/cheminiai_misiniai` (0 datasets, 1 table)
-* [ezerai_tvenkiniai/](ezerai_tvenkiniai/index.md) - Namespace `datasets/gov/aaa/ezerai_tvenkiniai` (0 datasets, 1 table)
-* [ezeru_bukles_duomenys/](ezeru_bukles_duomenys/index.md) - Namespace `datasets/gov/aaa/ezeru_bukles_duomenys` (0 datasets, 1 table)
-* [ezeru_monitoringas/](ezeru_monitoringas/index.md) - Namespace `datasets/gov/aaa/ezeru_monitoringas` (0 datasets, 1 table)
-* [fdujos/](fdujos/index.md) - Namespace `datasets/gov/aaa/fdujos` (0 datasets, 1 table)
-* [gaminiu_duomenys/](gaminiu_duomenys/index.md) - Namespace `datasets/gov/aaa/gaminiu_duomenys` (0 datasets, 1 table)
-* [integruotas_monitoringas/](integruotas_monitoringas/index.md) - Namespace `datasets/gov/aaa/integruotas_monitoringas` (0 datasets, 5 tables)
-* [isleid_perd_tersalai/](isleid_perd_tersalai/index.md) - Namespace `datasets/gov/aaa/isleid_perd_tersalai` (0 datasets, 7 tables)
-* [juros_mariu_bukle/](juros_mariu_bukle/index.md) - Namespace `datasets/gov/aaa/juros_mariu_bukle` (0 datasets, 1 table)
-* [juros_mariu_monitoringas/](juros_mariu_monitoringas/index.md) - Namespace `datasets/gov/aaa/juros_mariu_monitoringas` (0 datasets, 9 tables)
-* [nuotekos/](nuotekos/index.md) - Namespace `datasets/gov/aaa/nuotekos` (0 datasets, 4 tables)
-* [organiniu_tirpikliu_irenginiai/](organiniu_tirpikliu_irenginiai/index.md) - Namespace `datasets/gov/aaa/organiniu_tirpikliu_irenginiai` (0 datasets, 1 table)
-* [oro_monitoringo_matavimai/](oro_monitoringo_matavimai/index.md) - Namespace `datasets/gov/aaa/oro_monitoringo_matavimai` (0 datasets, 1 table)
-* [oro_stociu_matavimai/](oro_stociu_matavimai/index.md) - Lietuvos valstybinio oro monitoringo automatinių stočių matavimo duomenys (0 datasets, 5 tables)
-* [oro_tarsa/](oro_tarsa/index.md) - Namespace `datasets/gov/aaa/oro_tarsa` (0 datasets, 1 table)
-* [oro_tersalu_duomenys/](oro_tersalu_duomenys/index.md) - Namespace `datasets/gov/aaa/oro_tersalu_duomenys` (0 datasets, 2 tables)
-* [pakuociu_tiekimas/](pakuociu_tiekimas/index.md) - Namespace `datasets/gov/aaa/pakuociu_tiekimas` (0 datasets, 1 table)
-* [tersalu_inventorizacijos_duomenys/](tersalu_inventorizacijos_duomenys/index.md) - Namespace `datasets/gov/aaa/tersalu_inventorizacijos_duomenys` (0 datasets, 1 table)
-* [upes_kanalai/](upes_kanalai/index.md) - Namespace `datasets/gov/aaa/upes_kanalai` (0 datasets, 1 table)
-* [upiu_bukles_duomenys/](upiu_bukles_duomenys/index.md) - Namespace `datasets/gov/aaa/upiu_bukles_duomenys` (0 datasets, 1 table)
-* [upiu_monitoringo_duomenys/](upiu_monitoringo_duomenys/index.md) - Namespace `datasets/gov/aaa/upiu_monitoringo_duomenys` (0 datasets, 1 table)
-* [vandens_naudojimas/](vandens_naudojimas/index.md) - Namespace `datasets/gov/aaa/vandens_naudojimas` (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/aaa/atlieku_tvarkymas](atlieku_tvarkymas.md) - Spinta dataset datasets/gov/aaa/atlieku_tvarkymas (1 table).
-* [Atliekų tvarkytojų valstybės registro duomenys](atlieku_tvarkytoju_valstybes_registras.md) - Atliekų tvarkytojų valstybės registro duomenys - tvarkytojų leidžiami tvarkyti atliekų kiekiai, tvarkytojų registruotos tvarkomos atliekos, tvarkytojai turintys teises išrašyti...
-* [datasets/gov/aaa/chemijos_naudotojai](chemijos_naudotojai.md) - Spinta dataset datasets/gov/aaa/chemijos_naudotojai (1 table).
-* [datasets/gov/aaa/chemines_medziagos](chemines_medziagos.md) - Spinta dataset datasets/gov/aaa/chemines_medziagos (1 table).
-* [datasets/gov/aaa/cheminiai_misiniai](cheminiai_misiniai.md) - Spinta dataset datasets/gov/aaa/cheminiai_misiniai (1 table).
-* [datasets/gov/aaa/ezerai_tvenkiniai](ezerai_tvenkiniai.md) - Spinta dataset datasets/gov/aaa/ezerai_tvenkiniai (1 table).
-* [datasets/gov/aaa/ezeru_bukles_duomenys](ezeru_bukles_duomenys.md) - Spinta dataset datasets/gov/aaa/ezeru_bukles_duomenys (1 table).
-* [datasets/gov/aaa/ezeru_monitoringas](ezeru_monitoringas.md) - Spinta dataset datasets/gov/aaa/ezeru_monitoringas (1 table).
-* [datasets/gov/aaa/fdujos](fdujos.md) - Spinta dataset datasets/gov/aaa/fdujos (1 table).
-* [datasets/gov/aaa/gaminiu_duomenys](gaminiu_duomenys.md) - Spinta dataset datasets/gov/aaa/gaminiu_duomenys (1 table).
-* [datasets/gov/aaa/integruotas_monitoringas](integruotas_monitoringas.md) - Spinta dataset datasets/gov/aaa/integruotas_monitoringas (5 tables).
-* [datasets/gov/aaa/isleid_perd_tersalai](isleid_perd_tersalai.md) - Spinta dataset datasets/gov/aaa/isleid_perd_tersalai (7 tables).
-* [datasets/gov/aaa/juros_mariu_bukle](juros_mariu_bukle.md) - Spinta dataset datasets/gov/aaa/juros_mariu_bukle (1 table).
-* [datasets/gov/aaa/juros_mariu_monitoringas](juros_mariu_monitoringas.md) - Spinta dataset datasets/gov/aaa/juros_mariu_monitoringas (9 tables).
-* [datasets/gov/aaa/nuotekos](nuotekos.md) - Spinta dataset datasets/gov/aaa/nuotekos (4 tables).
-* [datasets/gov/aaa/organiniu_tirpikliu_irenginiai](organiniu_tirpikliu_irenginiai.md) - Spinta dataset datasets/gov/aaa/organiniu_tirpikliu_irenginiai (1 table).
-* [datasets/gov/aaa/oro_monitoringo_matavimai](oro_monitoringo_matavimai.md) - Spinta dataset datasets/gov/aaa/oro_monitoringo_matavimai (1 table).
-* [Lietuvos valstybinio oro monitoringo automatinių stočių matavimo duomenys](oro_stociu_matavimai.md) - Spinta dataset datasets/gov/aaa/oro_stociu_matavimai (5 tables).
-* [datasets/gov/aaa/oro_tarsa](oro_tarsa.md) - Spinta dataset datasets/gov/aaa/oro_tarsa (1 table).
-* [datasets/gov/aaa/oro_tersalu_duomenys](oro_tersalu_duomenys.md) - Spinta dataset datasets/gov/aaa/oro_tersalu_duomenys (2 tables).
-* [datasets/gov/aaa/pakuociu_tiekimas](pakuociu_tiekimas.md) - Spinta dataset datasets/gov/aaa/pakuociu_tiekimas (1 table).
-* [datasets/gov/aaa/tersalu_inventorizacijos_duomenys](tersalu_inventorizacijos_duomenys.md) - Spinta dataset datasets/gov/aaa/tersalu_inventorizacijos_duomenys (1 table).
-* [datasets/gov/aaa/upes_kanalai](upes_kanalai.md) - Spinta dataset datasets/gov/aaa/upes_kanalai (1 table).
-* [datasets/gov/aaa/upiu_bukles_duomenys](upiu_bukles_duomenys.md) - Spinta dataset datasets/gov/aaa/upiu_bukles_duomenys (1 table).
-* [datasets/gov/aaa/upiu_monitoringo_duomenys](upiu_monitoringo_duomenys.md) - Spinta dataset datasets/gov/aaa/upiu_monitoringo_duomenys (1 table).
-* [datasets/gov/aaa/vandens_naudojimas](vandens_naudojimas.md) - Spinta dataset datasets/gov/aaa/vandens_naudojimas (1 table).
+* [Atliekų susidarymo ir tvarkymo duomenys](atlieku_tvarkymas.md) - Rinkinyje pateikiami duomenys apie Lietuvos Respublikoje susidarančių (surinktų iš atliekų darytojų bei susidariusių kitų atliekų tvarkymo metu) ir tvarkomų atliekų kiekius.
+* [Atliekų tvarkytojų valstybės registro duomenys](atlieku_tvarkytoju_valstybes_registras.md) - Atliekų tvarkytojų valstybės registro duomenys - tvarkytojų leidžiami tvarkyti atliekų kiekiai, tvarkytojų registruotos tvarkomos atliekos, tvarkytojai turintys teises išrašyti atliekų sutvarkymą...
+* [Juridiniai ir fiziniai asmenys savo ūkinėje ar pramoninėje veikloje naudojantys chemines medžiagas ir (arba)...](chemijos_naudotojai.md) - Juridinių ir fizinių asmenų sąrašas, kurie savo vykdomoje veikloje gamina, importuoja, eksportuoja, platina ir naudoja chemines medžiagas ir cheminius mišinius.
+* [Lietuvos rinkoje esančios pavojingos cheminės medžiagos](chemines_medziagos.md) - Cheminių medžiagų sąrašas, kurios pagal Europos Parlamento ir Tarybos reglamentą (EB) Nr. 1272/2008 „Dėl cheminių medžiagų ir mišinių klasifikavimo, ženklinimo ir pakavimo“ yra klasifikuojamos...
+* [Lietuvos rinkoje esantys pavojingi cheminiai mišiniai](cheminiai_misiniai.md) - Cheminių mišinių sąrašas, kurie pagal Europos Parlamento ir Tarybos reglamentą (EB) Nr. 1272/2008 „Dėl cheminių medžiagų ir mišinių klasifikavimo, ženklinimo ir pakavimo“ yra klasifikuojami kaip...
+* [Ežerų, tvenkinių ir dirbtinių nepratekamų paviršinio vandens telkinių duomenys](ezerai_tvenkiniai.md) - Ežerų, tvenkinių ir dirbtinių nepratekamų paviršinio vandens telkinių duomenys: pavadinimas, registravimo data, redagavimo data, centro koordinatė, vandens paviršiaus plotas Lietuvos teritorijoje...
+* [Ežerų kategorijos vandens telkinių būklės duomenys](ezeru_bukles_duomenys.md) - Rinkinyje pateikiama valstybinio aplinkos monitoringo duomenų pagrindu arba ekspertiniu vertinimu įvertinta ežerų kategorijos vandens telkinių ekologinė ir cheminė būklė.
+* [Ežerų valstybinio monitoringo duomenys](ezeru_monitoringas.md) - Duomenų rinkinyje pateikiami ežerų valstybinio monitoringo fizikiniai-cheminiai ir pavojingų medžiagų duomenys.
+* [Fluorintų šiltnamio efektą sukeliančių dujų duomenys](fdujos.md) - Pateikiami duomenys apie importuotas iš trečiųjų šalių, eksportuotas į trečiąsias šalis, įvežtas iš kitų ES šalių ir išvežtas į kitas ES šalis fluorintas šiltnamio efektą sukeliančias dujas ir...
+* [Gaminių tiekimo vidaus rinkai apskaitos duomenys](gaminiu_duomenys.md) - Atliekų tvarkymo srityje yra taikomas principas „teršėjas moka“, kuris reiškia, kad atliekų tvarkymo išlaidas turi apmokėti atliekų darytojas ar turėtojas ir (ar) gaminių, dėl kurių naudojimo...
+* [Integruoto monitoringo duomenys](integruotas_monitoringas.md) - Tyrimai Aukštaitijos ir Žemaitijos integruoto monitoringo stotyse bei Preilos atmosferos užterštumo tyrimų stotyje atliekami siekiant įvertinti tolimųjų oro teršalų pernašų iš kitų valstybių...
+* [Išleidžiamų ir perduodamų teršalų duomenys](isleid_perd_tersalai.md) - Duomenys apie įmonių išleidžiamus ir perduodamus teršalus.
+* [Kuršių marių ir Baltijos jūros būklės duomenys](juros_mariu_bukle.md) - Rinkinyje pateikiama valstybinio aplinkos monitoringo duomenų pagrindu nustatyta Kuršių marių ir Baltijos jūros ekologinė ir cheminė būklė, pagal fizikinius-cheminius ir biologinius kokybės...
+* [Kuršių marių ir Baltijos jūros valstybinio monitoringo duomenys](juros_mariu_monitoringas.md) - Rinkinyje pateikiami valstybinio Kuršių marių ir Baltijos jūros aplinkos monitoringo duomenys.
+* [Metinių nuotekų tvarkymo apskaitos ataskaitų duomenys](nuotekos.md) - Metinių nuotekų tvarkymo apskaitos ataskaitų duomenų rinkinyje pateikiami ūkio subjektų nuotekų tvarkymo apskaitos metinių ataskaitų duomenys apie ūkio subjektų su nuotekomis į aplinką išleistus...
+* [Organinius tirpiklius naudojančių įrenginių sąrašas](organiniu_tirpikliu_irenginiai.md) - Organinius tirpiklius naudojantys įrenginiai registruojami vadovaujantis Lakiųjų organinių junginių, susidarančių naudojant organinius tirpiklius tam tikrų veiklos rūšių įrenginiuose, išmetimo...
+* [Lietuvos valstybinio oro monitoringo matavimo duomenys (pusiau automatinių tyrimų)](oro_monitoringo_matavimai.md) - Lietuvos valstybinio oro monitoringo matavimo duomenys (pusiau automatinių tyrimų).
+* [Lietuvos valstybinio oro monitoringo automatinių stočių matavimo duomenys](oro_stociu_matavimai.md) - Lietuvos valstybinio aplinkos oro monitoringo automatinių stočių sistemą sudaro 14 miesto oro kokybės tyrimų stočių, veikiančių Vilniaus, Kauno, Klaipėdos, Šiaulių, Panevėžio, Jonavos, Kėdainių...
+* [Stacionarių taršos šaltinių metinių aplinkos oro ataskaitų duomenys](oro_tarsa.md) - Stacionarių taršos šaltinių metinių aplinkos oro ataskaitų duomenų rinkinyje pateikiami aplinkos oro apsaugos metinių ataskaitų duomenys.
+* [Į aplinkos orą išmetamų teršalų apskaitos duomenys](oro_tersalu_duomenys.md) - Teršalų išmetimų į aplinkos orą Lietuvoje iš stacionarių ir mobilių taršos šaltinių apskaitos duomenys.
+* [Pakuočių tiekimo vidaus rinkai apskaitos duomenys](pakuociu_tiekimas.md) - Gamintojų ir importuotojų, tiekiančių šalies rinkai supakuotus gaminius, metinių ataskaitų duomenys apie vidaus rinkai patiektas pakuotes pagal medžiagas (popierines-kartonines, plastikines...
+* [Ūkio subjektų aplinkos oro taršos šaltinių ir iš jų išmetamų teršalų inventorizacijų sąrašas](tersalu_inventorizacijos_duomenys.md) - Kiekvienais metais pateikiamas atnaujintas ūkio subjektų, kurie atliko aplinkos oro taršos šaltinių ir iš jų išmetamų teršalų inventorizaciją sąrašas.
+* [Upių, kanalų duomenys](upes_kanalai.md) - Upių, kanalų duomenys: unikalus identifikatorius, identifikavimo kodas, pavadinimas, vandens telkinio registravimo ir redagavimo data, vandens telkinio kategorijos pavadinimo kodas, upės...
+* [Upių kategorijos vandens telkinių būklės duomenys](upiu_bukles_duomenys.md) - Rinkinyje pateikiama valstybinio aplinkos monitoringo duomenų pagrindu arba ekspertiniu vertinimu įvertinta upių kategorijos vandens telkinių ekologinė ir cheminė būklė.
+* [Upių valstybinio monitoringo duomenys](upiu_monitoringo_duomenys.md) - Duomenų rinkinyje pateikiami upių valstybinio monitoringo fizikiniai-cheminiai ir pavojingų medžiagų duomenys.
+* [Metinių vandens naudojimo apskaitos ataskaitų duomenys](vandens_naudojimas.md) - Metinių vandens naudojimo apskaitos ataskaitų duomenų rinkinyje pateikiami ūkio subjektų vandens naudojimo apskaitos metinių ataskaitų duomenys apie išgauto iš paviršinių ir požeminių vandens...
+
+# Subdirectories
+
+* [atlieku_tvarkymas/](atlieku_tvarkymas/index.md) - 1 table
+* [atlieku_tvarkytoju_valstybes_registras/](atlieku_tvarkytoju_valstybes_registras/index.md) - 6 tables
+* [chemijos_naudotojai/](chemijos_naudotojai/index.md) - 1 table
+* [chemines_medziagos/](chemines_medziagos/index.md) - 1 table
+* [cheminiai_misiniai/](cheminiai_misiniai/index.md) - 1 table
+* [ezerai_tvenkiniai/](ezerai_tvenkiniai/index.md) - 1 table
+* [ezeru_bukles_duomenys/](ezeru_bukles_duomenys/index.md) - 1 table
+* [ezeru_monitoringas/](ezeru_monitoringas/index.md) - 1 table
+* [fdujos/](fdujos/index.md) - 1 table
+* [gaminiu_duomenys/](gaminiu_duomenys/index.md) - 1 table
+* [integruotas_monitoringas/](integruotas_monitoringas/index.md) - 5 tables
+* [isleid_perd_tersalai/](isleid_perd_tersalai/index.md) - 7 tables
+* [juros_mariu_bukle/](juros_mariu_bukle/index.md) - 1 table
+* [juros_mariu_monitoringas/](juros_mariu_monitoringas/index.md) - 9 tables
+* [nuotekos/](nuotekos/index.md) - 4 tables
+* [organiniu_tirpikliu_irenginiai/](organiniu_tirpikliu_irenginiai/index.md) - 1 table
+* [oro_monitoringo_matavimai/](oro_monitoringo_matavimai/index.md) - 1 table
+* [oro_stociu_matavimai/](oro_stociu_matavimai/index.md) - 5 tables
+* [oro_tarsa/](oro_tarsa/index.md) - 1 table
+* [oro_tersalu_duomenys/](oro_tersalu_duomenys/index.md) - 2 tables
+* [pakuociu_tiekimas/](pakuociu_tiekimas/index.md) - 1 table
+* [tersalu_inventorizacijos_duomenys/](tersalu_inventorizacijos_duomenys/index.md) - 1 table
+* [upes_kanalai/](upes_kanalai/index.md) - 1 table
+* [upiu_bukles_duomenys/](upiu_bukles_duomenys/index.md) - 1 table
+* [upiu_monitoringo_duomenys/](upiu_monitoringo_duomenys/index.md) - 1 table
+* [vandens_naudojimas/](vandens_naudojimas/index.md) - 1 table

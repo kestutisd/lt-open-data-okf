@@ -1,6 +1,6 @@
-# `datasets/gov/rc/hr/tipu_klasifikatoriai`
+# Directory Index: `datasets/gov/rc/hr/tipu_klasifikatoriai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

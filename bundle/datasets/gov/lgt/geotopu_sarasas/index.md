@@ -1,6 +1,6 @@
-# `datasets/gov/lgt/geotopu_sarasas`
+# Directory Index: `datasets/gov/lgt/geotopu_sarasas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

@@ -3,25 +3,34 @@ type: Table
 title: "Knygomatas — Knygomatai"
 description: "Martyno Mažvydo bibliotekos LIBIS IS administruojami knygomatai."
 resource: "https://get.data.gov.lt/datasets/gov/lnb/knygomatai/Knygomatas"
-tags: [gov, lnb, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lnb, knygomatas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lnb/knygomatai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lnb/knygomatai.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/lnb/knygomatai.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2624/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lnb/knygomatai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Knygomatas — Knygomatai
 
-Martyno Mažvydo bibliotekos LIBIS IS administruojami knygomatai.
+Martyno Mažvydo bibliotekos LIBIS IS administruojami knygomatai.[^manifest]
 
 - **Model:** `datasets/gov/lnb/knygomatai/Knygomatas`[^manifest]
-- **Dataset:** [Knygomatai](../knygomatai.md) (`datasets/gov/lnb/knygomatai`)
-- **Manifest CSV:** [datasets/gov/lnb/knygomatai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lnb/knygomatai.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lnb/knygomatai/Knygomatas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Knygomatai](../knygomatai.md) (`datasets/gov/lnb/knygomatai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lnb/knygomatai.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lnb/knygomatai.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lnb/knygomatai/Knygomatas` (`deployed`)[^manifest]
+- **Provider:** `lnb` — Lietuvos nacionalinė Martyno Mažvydo biblioteka *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by-nc/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -37,4 +46,5 @@ Martyno Mažvydo bibliotekos LIBIS IS administruojami knygomatai.
 | `patikimumas` | `integer` | `%` | `4` | `open` | — | Adreso/koordinačių patikimumas procentais | — |
 | `aptikta_koordinaciu` | `integer` | — | `4` | `open` | — | Kiek aptikta koordinačių su tokiu patikimumu | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lnb/knygomatai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lnb/knygomatai.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lnb/knygomatai.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lnb/knygomatai (https://data.gov.lt/datasets/2624/)

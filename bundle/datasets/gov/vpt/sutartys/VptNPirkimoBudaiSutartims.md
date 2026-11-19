@@ -3,21 +3,26 @@ type: Table
 title: "VptNPirkimoBudaiSutartims"
 description: "Spinta table datasets/gov/vpt/sutartys/VptNPirkimoBudaiSutartims (4 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNPirkimoBudaiSutartims"
-tags: [gov, vpt, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vpt, vptnpirkimobudaisutartims, deployed]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L66"
+    title: "atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L66"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VptNPirkimoBudaiSutartims
 
 - **Model:** `datasets/gov/vpt/sutartys/VptNPirkimoBudaiSutartims`[^manifest]
-- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)
-- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L66](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L66)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNPirkimoBudaiSutartims`
+- **Dataset:** [Pirkimų sutarčių duomenys](../sutartys.md) (`datasets/gov/vpt/sutartys`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vpt/sutartys.csv#L66](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L66)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vpt/sutartys/VptNPirkimoBudaiSutartims` (`deployed`)[^manifest]
+- **Provider:** `vpt` — Viešųjų pirkimų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -28,4 +33,8 @@ sources:
 | `pirkbs_pav` | `string` | — | `3` | `open` | — | — | — |
 | `pirkbs_data_galioja_iki` | `datetime` | — | `3` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv
+# Related References
+
+- [VPT Public Procurement Notices Join Reference](../../../../references/joins/vpt-procurement-notices.md) — Notice parent-child UUID joins, CPV normalization, and buyer/supplier JAR links.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vpt/sutartys.csv#L66 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vpt/sutartys.csv#L66)

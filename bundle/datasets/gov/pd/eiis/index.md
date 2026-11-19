@@ -1,6 +1,6 @@
-# `datasets/gov/pd/eiis`
+# Directory Index: `datasets/gov/pd/eiis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

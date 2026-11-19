@@ -1,7 +1,7 @@
-# `datasets/gov/rc/jadis/uzsienio_asmenys`
+# Directory Index: `datasets/gov/rc/jadis/uzsienio_asmenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [UzsienioAsmuo — Juridinių asmenų dalyvių duomenys apie užsienio fizinius ir juridinius asmenis](UzsienioAsmuo.md) - Spinta table datasets/gov/rc/jadis/uzsienio_asmenys/UzsienioAsmuo (5 columns).
+* [UzsienioAsmuo — Juridinių asmenų dalyvių duomenys apie užsienio fizinius ir juridinius asmenis](UzsienioAsmuo.md) - Juridinių asmenų dalyvių informacinės sistemos (JADIS) duomenys apie užsienio fizinius ir juridinius asmenis.

@@ -1,11 +1,11 @@
-# `datasets/gov/lbek`
+# Directory Index: `datasets/gov/lbek`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [leidimai/](leidimai/index.md) - Lietuvos bioetikos komitetas (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Lietuvos bioetikos komitetas](leidimai.md) - Spinta dataset datasets/gov/lbek/leidimai (1 table).
+* [Lietuvos bioetikos komitetas](leidimai.md) - Skelbiama informacija apie Lietuvos bioetikos komiteto išduotus leidimus atlikti biomedicininius tyrimus ir išduotus pritarimų atlikti klinikinį vaistinio preparato tyrimą liudijimus.
+
+# Subdirectories
+
+* [leidimai/](leidimai/index.md) - 1 table

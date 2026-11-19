@@ -1,7 +1,7 @@
-# `datasets/gov/hi/gimdymai`
+# Directory Index: `datasets/gov/hi/gimdymai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Gimimas — Duomenys apie gimdymus Lietuvoje.](Gimimas.md) - Spinta table datasets/gov/hi/gimdymai/Gimimas (6 columns).
+* [Gimimas — Duomenys apie gimdymus Lietuvoje.](Gimimas.md) - Duomenų rinkinyje pateikiama informacija apie gimdymus Lietuvoje nuo 2021m.

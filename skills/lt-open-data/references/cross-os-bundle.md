@@ -1,25 +1,46 @@
-# Cross-OS OKF Bundle Resolution, Sparse Cache, and Search Fallbacks
+# Cross-OS OKF v0.3 Bundle Resolution, `scan.py`, Sparse Cache, and Search Fallbacks
 
 ## 1. Tool Selection and `BUNDLE_DIR` Resolution
 
-- Prefer built-in harness Read, Glob, and Grep tools before spawning shell processes because native tools avoid shell quoting bugs, locale encoding mismatches, and subprocess overhead.
+- Prefer built-in harness Read, Glob, and Grep tools or `scripts/scan.py` before spawning shell pipelines because native tools and Python UTF-8 file I/O avoid shell quoting bugs, locale encoding mismatches, and subprocess overhead.
 - Resolve `BUNDLE_DIR` to the first existing directory containing `index.md`:
   1. `./bundle` when the current workspace is a clone of `lt-open-data-okf`.
   2. `${XDG_CACHE_HOME:-$HOME/.cache}/lt-open-data-okf/bundle` on POSIX shells, `$HOME/.cache/lt-open-data-okf/bundle` in PowerShell, or `%USERPROFILE%\.cache\lt-open-data-okf\bundle` in Windows CMD.
+- Read `bundle/index.md` (`okf_version: "0.3"`, `title`, `description`, `license`, `# Subdirectories`: `computations/`, `datasasets/`, `datasets/`, `references/`) first to orient progressive disclosure.
 - Bootstrap the user cache via shallow sparse-checkout when no local bundle exists and both `git` and HTTPS access are available.
 - Fall back to progressive raw HTTPS fetches only when local files and `git` are unavailable.
 
-## 2. Mandatory Search Exclusions and Stem Pairing
+## 2. Primary Structured Discovery (`scripts/scan.py`)
+
+- Run [../scripts/scan.py](../scripts/scan.py) (Python 3.9+; uses `PyYAML` when installed and automatically falls back to a built-in zero-dependency stdlib frontmatter parser in minimal containers):
+
+```bash
+python3 <skill_dir>/scripts/scan.py "$BUNDLE_DIR" --grep "mokesčių" --deployed --limit 20
+python3 <skill_dir>/scripts/scan.py "$BUNDLE_DIR" --type "Attested Computation" --json
+python3 <skill_dir>/scripts/scan.py "$BUNDLE_DIR" --type Reference
+```
+
+- Supported flags (combined with logical `AND`):
+  - `--type TYPE`: case-insensitive match on frontmatter `type` (`Dataset`, `Table`, `Reference`, `Attested Computation`).
+  - `--tag TAG`: case-insensitive exact match on frontmatter `tags` (respecting OKF §11.2 non-splitting of scalar `tags`).
+  - `--grep TEXT`: case-insensitive, Unicode NFD diacritic-insensitive, `snake_case`/`CamelCase`-aware, and Lithuanian inflection/palatalization stem-aware match across concept ID, frontmatter, and body (`--grep "mokesčių"` matches `Moketojas`, `ja_mokesciai`, and `mokestis`).
+  - `--deployed` / `--undeployed`: filter Spinta concepts by `get_data_gov_lt.in` deployment status (`deployed` tag / `https://get.data.gov.lt/...` `resource:` vs `undeployed`).
+  - `--current` / `--stale` / `--deprecated` / `--unverified`: filter by OKF v0.3 lifecycle, freshness (`--now <RFC3339>`), and current-event trust tier.
+  - `--limit N` / `--json`: cap returned concepts or emit structured JSON with bundle metadata and counts.
+
+## 3. Mandatory Raw-Grep Exclusions and Stem Pairing
+
+When `python3` is unavailable or when grepping line-level `# Schema` matches directly:
 
 - Exclude `viz.html` from every content search because it embeds the interactive graph as a multi-megabyte single-line JSON payload that floods context windows on match.
-- Exclude `index.md` at every directory depth during keyword searches because directory indexes list navigation links rather than authoritative `# Schema` column definitions (open specific `index.md` files directly only when browsing hierarchy).
-- Exclude `log.md` from schema searches because it records bundle generation history rather than dataset or table schemas.
-- Pair inflected Lithuanian stems with unaccented ASCII stems (`<lt_stem>|<ascii_stem>`) because titles and descriptions inflect across grammatical cases while Spinta paths, `<Model>` names, and `<field>` names use ASCII `snake_case` or `PascalCase` (and occasional legacy upstream strings corrupt diacritics).
-- Search from `$BUNDLE_DIR` root (with exclusions) rather than hardcoding a single top-level subfolder because `bundle/index.md` lists all preserved upstream top-level namespaces under `# Subdirectories`.
+- Exclude `index.md` (`':!index.md'` and `':!**/index.md'`) during keyword searches because directory indexes list navigation links rather than authoritative `# Schema` column definitions (open specific `index.md` files directly only when browsing hierarchy).
+- Exclude `log.md` from schema searches because it records bundle update history rather than dataset or table schemas.
+- Pair inflected Lithuanian stems with unaccented ASCII stems (`<lt_stem>|<ascii_stem>`, e.g., `mokesč|mokesc|mokest|moketoj`) because titles and descriptions inflect across grammatical cases while Spinta paths, `<Model>` names, and `<field>` names use ASCII `snake_case` or `PascalCase`.
+- Search from `$BUNDLE_DIR` root (with exclusions) rather than hardcoding `datasets/` so matches in `datasasets/`, `references/`, and `computations/` are never missed.
 
-## 3. Lightweight Sparse-Checkout Cache Bootstrap
+## 4. Lightweight Sparse-Checkout Cache Bootstrap
 
-- Pass `--depth 1 --filter=blob:none --sparse` with `--no-cone` patterns `'bundle/**'` and `'!bundle/viz.html'` so Git downloads Markdown schema files while skipping `bundle/viz.html`.
+- Pass `--depth 1 --filter=blob:none --sparse` with `--no-cone` patterns `'bundle/**'` and `'!bundle/viz.html'` so Git downloads Markdown concepts and Python executors/attesters while skipping `bundle/viz.html`.
 - Omit a leading `/` on sparse-checkout patterns because internal `/` already anchors `--no-cone` patterns to the repository root, whereas a leading `/` triggers MSYS2 path rewriting in Git Bash on Windows.
 - Set `REFRESH_BUNDLE=1` (or run `git -C <cache> pull --ff-only`) only when updated upstream schemas are requested so routine offline queries incur zero network calls.
 
@@ -64,10 +85,10 @@ if not exist "%USERPROFILE%\.cache\lt-open-data-okf\bundle\index.md" (
 )
 ```
 
-## 4. Per-OS UTF-8 Schema Search Fallbacks
+## 5. Per-OS UTF-8 Schema Search Fallbacks
 
 - Set `PATTERN` / `$Pattern` to your target regex (`<lt_stem>|<ascii_stem>` or `<field>`).
-- Keep pathspec exclusions `':!viz.html' ':!index.md' ':!**/index.md' ':!log.md'` (not `*index.md`) so nested directory `index.md` files are excluded without hiding concept files ending in `_index.md`.
+- Keep pathspec exclusions `':!viz.html' ':!index.md' ':!**/index.md' ':!log.md'` (never `*index.md`) so nested directory `index.md` files are excluded without hiding concept files ending in `_index.md`.
 
 ### POSIX (`sh` / `bash` / `zsh`)
 
@@ -125,7 +146,7 @@ pushd "%USERPROFILE%\.cache\lt-open-data-okf\bundle" && findstr /S /I /N /R /C:"
 
 ### Minimal `LC_ALL=C` Containers
 
-- Prefix `LC_ALL=C.UTF-8` or run `python3 -X utf8` in minimal containers because `LC_ALL=C` restricts POSIX `grep -i` case-folding to ASCII `A-Z` and drops uppercase UTF-8 Lithuanian diacritic matches.
+- Prefix `LC_ALL=C.UTF-8` or run `python3 -X utf8` (or `python3 <skill_dir>/scripts/scan.py`) in minimal containers because `LC_ALL=C` restricts POSIX `grep -i` case-folding to ASCII `A-Z` and drops uppercase UTF-8 Lithuanian diacritic matches.
 
 ```sh
 if [ -f "./bundle/index.md" ]; then
@@ -148,10 +169,10 @@ for p in sorted(root.rglob("*.md")):
 ' "$BUNDLE_DIR" "$PATTERN"
 ```
 
-## 5. Restricted and No-Shell Sandbox Fallback (Raw HTTPS)
+## 6. Restricted and No-Shell Sandbox Fallback (Raw HTTPS)
 
 - Traverse progressive disclosure directly over HTTPS at `https://raw.githubusercontent.com/kestutisd/lt-open-data-okf/main/bundle/<path>` when local files, shell access, and `git` are unavailable:
-  1. Fetch `bundle/index.md` (`# Subdirectories`) and `bundle/<namespace>/index.md` to locate the target provider path.
-  2. Fetch `bundle/<dataset>.md` (`type: Dataset`) to check frontmatter `resource:` and the `# Tables` inventory.
-  3. Fetch `bundle/<dataset>/<Model>.md` (`type: Table`) to read introductory prose, `# Schema`, `# Enumerations`, `# Translations`, `# Prefixes`, and `# Comments`.
-- Never fetch `bundle/viz.html` over HTTPS in an agent session because it contains visualization code rather than additional schema data.
+  1. Fetch `bundle/index.md` (`# Subdirectories`) and `bundle/<namespace>/index.md` (or `bundle/references/index.md`, `bundle/computations/index.md`) to locate target concepts.
+  2. Fetch `bundle/<dataset>.md` (`type: Dataset`) to inspect `resource:`, `# Portal Metadata (DCAT-AP)`, and `# Tables`.
+  3. Fetch `bundle/<dataset>/<Model>.md` (`type: Table`) to read introductory prose, `# Schema`, `# Enumerations`, `# Translations (@en)`, `# Prefixes`, `# Comments`, and `# Related References`.
+- Never fetch `bundle/viz.html` over HTTPS in an agent session because it contains visualization code rather than schema definitions.

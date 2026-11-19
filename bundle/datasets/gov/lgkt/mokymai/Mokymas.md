@@ -3,25 +3,34 @@ type: Table
 title: "Mokymas — Mokymų ir konsultacijų apie lygias galimybes duomenys"
 description: "Lentelėje pateikti Lygių galimybių kontrolieriaus tarnybos (LGKT) vedamų mokymų ir teikiamų konsultacijų įvairioms Lietuvoje veikiančioms institucijoms duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lgkt/mokymai/Mokymas"
-tags: [gov, lgkt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lgkt, mokymas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lgkt/mokymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lgkt/mokymai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/lgkt/mokymai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2819/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lgkt/mokymai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Mokymas — Mokymų ir konsultacijų apie lygias galimybes duomenys
 
-Lentelėje pateikti Lygių galimybių kontrolieriaus tarnybos (LGKT) vedamų mokymų ir teikiamų konsultacijų įvairioms Lietuvoje veikiančioms institucijoms duomenys. Šioje lentelėje - nuo duomenų rinkimo pradžios, 2018 metų, iki 2024 metų sukaupta informacija.
+Lentelėje pateikti Lygių galimybių kontrolieriaus tarnybos (LGKT) vedamų mokymų ir teikiamų konsultacijų įvairioms Lietuvoje veikiančioms institucijoms duomenys. Šioje lentelėje - nuo duomenų rinkimo pradžios, 2018 metų, iki 2024 metų sukaupta informacija. Dėl techninių klausimų ar galimų klaidų galima kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lgkt/mokymai/Mokymas`[^manifest]
-- **Dataset:** [Mokymų ir konsultacijų apie lygias galimybes duomenys](../mokymai.md) (`datasets/gov/lgkt/mokymai`)
-- **Manifest CSV:** [datasets/gov/lgkt/mokymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lgkt/mokymai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lgkt/mokymai/Mokymas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Mokymų ir konsultacijų apie lygias galimybes duomenys](../mokymai.md) (`datasets/gov/lgkt/mokymai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lgkt/mokymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lgkt/mokymai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lgkt/mokymai/Mokymas` (`deployed`)[^manifest]
+- **Provider:** `lgkt` — Lygių galimybių kontrolieriaus tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -41,4 +50,5 @@ Lentelėje pateikti Lygių galimybių kontrolieriaus tarnybos (LGKT) vedamų mok
 | `vieta` | `string` | — | `4` | `open` | — | Mokymų ar konsultacijos vieta | — |
 | `konsultavo_vede_moderavo` | `string` | — | `4` | `open` | — | Asmuo, kuris vedė, moderavo mokymus ar teikė konsultaciją | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lgkt/mokymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lgkt/mokymai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lgkt/mokymai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lgkt/mokymai (https://data.gov.lt/datasets/2819/)

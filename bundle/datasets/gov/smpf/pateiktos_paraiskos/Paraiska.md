@@ -3,25 +3,34 @@ type: Table
 title: "Paraiska — Švietimo mainų paramos fondo paraiškos"
 description: "Rinkinyje pateikiami VšĮ Švietimo mainų paramos fondo nuo 2023 m. kaupiami ir saugomi pateiktų paraiškų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/smpf/pateiktos_paraiskos/Paraiska"
-tags: [gov, smpf, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, smpf, paraiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/smpf/pateiktos_paraiskos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/smpf/pateiktos_paraiskos.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/smpf/pateiktos_paraiskos.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2825/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/smpf/pateiktos_paraiskos"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paraiska — Švietimo mainų paramos fondo paraiškos
 
-Rinkinyje pateikiami VšĮ Švietimo mainų paramos fondo nuo 2023 m. kaupiami ir saugomi pateiktų paraiškų duomenys. Rinkinio lentelę sudaro į Lietuvoje organizuojamus renginius pateiktų paraiškų duomenys. Viena eilutė atitinka vieną paraišką.
+Rinkinyje pateikiami VšĮ Švietimo mainų paramos fondo nuo 2023 m. kaupiami ir saugomi pateiktų paraiškų duomenys. Rinkinio lentelę sudaro į Lietuvoje organizuojamus renginius pateiktų paraiškų duomenys. Viena eilutė atitinka vieną paraišką.[^manifest]
 
 - **Model:** `datasets/gov/smpf/pateiktos_paraiskos/Paraiska`[^manifest]
-- **Dataset:** [Švietimo mainų paramos fondo paraiškos ir lektorių programos](../pateiktos_paraiskos.md) (`datasets/gov/smpf/pateiktos_paraiskos`)
-- **Manifest CSV:** [datasets/gov/smpf/pateiktos_paraiskos.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/smpf/pateiktos_paraiskos.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/smpf/pateiktos_paraiskos/Paraiska`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Švietimo mainų paramos fondo paraiškos ir lektorių programos](../pateiktos_paraiskos.md) (`datasets/gov/smpf/pateiktos_paraiskos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/smpf/pateiktos_paraiskos.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/smpf/pateiktos_paraiskos.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/smpf/pateiktos_paraiskos/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `smpf` — VšĮ Švietimo mainų paramos fondas (SMPF) *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -51,4 +60,5 @@ Rinkinyje pateikiami VšĮ Švietimo mainų paramos fondo nuo 2023 m. kaupiami i
 | `komentaras_lt` | `update(property: "komentaras_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `kvietimo_pav_lt` | `update(property: "kvietimo_pav_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/smpf/pateiktos_paraiskos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/smpf/pateiktos_paraiskos.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/smpf/pateiktos_paraiskos.csv#L9)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/smpf/pateiktos_paraiskos (https://data.gov.lt/datasets/2825/)

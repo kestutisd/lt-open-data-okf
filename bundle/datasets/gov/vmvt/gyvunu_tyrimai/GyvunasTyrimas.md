@@ -3,25 +3,34 @@ type: Table
 title: "GyvunasTyrimas — Valstybinės maisto ir veterinarijos tarnybos gyvūnų tyrimai"
 description: "Rinkinyje pateikiami nuo 2008 m. Valstybinės maisto ir veterinarijos tarnybos kaupiami duomenys apie gyvūnams atliktus tyrimus."
 resource: "https://get.data.gov.lt/datasets/gov/vmvt/gyvunu_tyrimai/GyvunasTyrimas"
-tags: [gov, vmvt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmvt, gyvunastyrimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmvt/gyvunu_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmvt/gyvunu_tyrimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vmvt/gyvunu_tyrimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3819/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmvt/gyvunu_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # GyvunasTyrimas — Valstybinės maisto ir veterinarijos tarnybos gyvūnų tyrimai
 
-Rinkinyje pateikiami nuo 2008 m. Valstybinės maisto ir veterinarijos tarnybos kaupiami duomenys apie gyvūnams atliktus tyrimus. Rinkinyje pateikiama informacija apie atliktus tyrimus ir jų rezultatus, gyvūnų amžių, laikymo vietą seniūnijos tikslumu. Viena eilutė atitinka vieno gyvūno vieno tyrimo statusą.
+Rinkinyje pateikiami nuo 2008 m. Valstybinės maisto ir veterinarijos tarnybos kaupiami duomenys apie gyvūnams atliktus tyrimus. Rinkinyje pateikiama informacija apie atliktus tyrimus ir jų rezultatus, gyvūnų amžių, laikymo vietą seniūnijos tikslumu. Viena eilutė atitinka vieno gyvūno vieno tyrimo statusą. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vmvt/gyvunu_tyrimai/GyvunasTyrimas`[^manifest]
-- **Dataset:** [Valstybinės maisto ir veterinarijos tarnybos gyvūnų tyrimai](../gyvunu_tyrimai.md) (`datasets/gov/vmvt/gyvunu_tyrimai`)
-- **Manifest CSV:** [datasets/gov/vmvt/gyvunu_tyrimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmvt/gyvunu_tyrimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmvt/gyvunu_tyrimai/GyvunasTyrimas`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Valstybinės maisto ir veterinarijos tarnybos gyvūnų tyrimai](../gyvunu_tyrimai.md) (`datasets/gov/vmvt/gyvunu_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmvt/gyvunu_tyrimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmvt/gyvunu_tyrimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmvt/gyvunu_tyrimai/GyvunasTyrimas` (`deployed`)[^manifest]
+- **Provider:** `vmvt` — Valstybinė maisto ir veterinarijos tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,4 +55,5 @@ Rinkinyje pateikiami nuo 2008 m. Valstybinės maisto ir veterinarijos tarnybos k
 | `savivaldybe` | `string` | — | `4` | `open` | — | Savivaldybė, kurioje yra gyvūnas | — |
 | `seniunija` | `string` | — | `4` | `open` | — | Seniūnija, kurioje yra gyvūnas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmvt/gyvunu_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmvt/gyvunu_tyrimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmvt/gyvunu_tyrimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmvt/gyvunu_tyrimai (https://data.gov.lt/datasets/3819/)

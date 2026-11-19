@@ -2,22 +2,26 @@
 type: Table
 title: "Rodiklis — Miškų sveikumo monitoringo duomenys"
 description: "Spinta table datasets/gov/miskai/monitoringas/Rodiklis (21 columns)."
-tags: [gov, miskai, undeployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, miskai, rodiklis, undeployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/miskai/monitoringas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/monitoringas.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/miskai/monitoringas.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Rodiklis — Miškų sveikumo monitoringo duomenys
 
 - **Model:** `datasets/gov/miskai/monitoringas/Rodiklis`[^manifest]
-- **Dataset:** [datasets/gov/miskai/monitoringas](../monitoringas.md) (`datasets/gov/miskai/monitoringas`)
-- **Manifest CSV:** [datasets/gov/miskai/monitoringas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/monitoringas.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Level:** `3`
+- **Dataset:** [datasets/gov/miskai/monitoringas](../monitoringas.md) (`datasets/gov/miskai/monitoringas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/miskai/monitoringas.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/monitoringas.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `miskai` — Valstybinė miškų tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -47,11 +51,11 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `task` | `1` | — | — | šiaurė | — |
 | `task` | `2` | — | — | rytai | — |
 | `task` | `3` | — | — | pietūs | — |
 | `task` | `4` | — | — | vakarai | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/miskai/monitoringas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/miskai/monitoringas.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/miskai/monitoringas.csv#L8)

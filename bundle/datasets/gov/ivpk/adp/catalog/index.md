@@ -1,6 +1,6 @@
-# `datasets/gov/ivpk/adp/catalog`
+# Directory Index: `datasets/gov/ivpk/adp/catalog`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
@@ -11,7 +11,7 @@
 * [DatasetDistribution](DatasetDistribution.md) - Spinta table datasets/gov/ivpk/adp/catalog/DatasetDistribution (22 columns).
 * [DatasetEvent](DatasetEvent.md) - Spinta table datasets/gov/ivpk/adp/catalog/DatasetEvent (7 columns).
 * [DatasetStructure — Duomenų struktūros aprašas](DatasetStructure.md) - Spinta table datasets/gov/ivpk/adp/catalog/DatasetStructure (10 columns).
-* [DatasetVisit — Duomenų rinkinio peržiūros](DatasetVisit.md) - Šiuo metu duomenų rinkinio peržiūros fiksuojamos visiems puslapio atidarymo atvejams, greičiauisiai didžiąją dalį peržiūrų sugeneruoja paieškos botai, todėl šie skaičiai gali...
+* [DatasetVisit — Duomenų rinkinio peržiūros](DatasetVisit.md) - Šiuo metu duomenų rinkinio peržiūros fiksuojamos visiems puslapio atidarymo atvejams, greičiauisiai didžiąją dalį peržiūrų sugeneruoja paieškos botai, todėl šie skaičiai gali būti nepatikimi.
 * [ExternalSite — Išorinis atvirų duomenų katalogas](ExternalSite.md) - Spinta table datasets/gov/ivpk/adp/catalog/ExternalSite (8 columns).
 * [Format — Duomenų formatai](Format.md) - Spinta table datasets/gov/ivpk/adp/catalog/Format (8 columns).
 * [Frequency — Periodiškumas](Frequency.md) - Duomenų atnaujinimo periodiškumas

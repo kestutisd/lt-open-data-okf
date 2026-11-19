@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/stacionarines_paslaugos`
+# Directory Index: `datasets/gov/vlk/stacionarines_paslaugos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

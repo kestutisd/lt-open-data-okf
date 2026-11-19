@@ -1,6 +1,6 @@
-# `datasets/gov/vmvt/receptai`
+# Directory Index: `datasets/gov/vmvt/receptai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

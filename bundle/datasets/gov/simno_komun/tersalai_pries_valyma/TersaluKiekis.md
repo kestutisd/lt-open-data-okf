@@ -3,25 +3,34 @@ type: Table
 title: "TersaluKiekis — Teršalų, išleidžiamų su nuotekomis, metinis kiekis"
 description: "Lentelėje pateikti metiniai skirtingų nuotekų valymo įrenginių teršalų koncentracijų prieš valymą duomenys iš Alytaus rajono SĮ „Simno komunalininkas“ Nuotekų prieš valymą registro."
 resource: "https://get.data.gov.lt/datasets/gov/simno_komun/tersalai_pries_valyma/TersaluKiekis"
-tags: [gov, simno_komun, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, simno_komun, tersalukiekis, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/simno_komun/tersalai_pries_valyma.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2784/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/simno_komun/tersalai_pries_valyma"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # TersaluKiekis — Teršalų, išleidžiamų su nuotekomis, metinis kiekis
 
-Lentelėje pateikti metiniai skirtingų nuotekų valymo įrenginių teršalų koncentracijų prieš valymą duomenys iš Alytaus rajono SĮ „Simno komunalininkas“ Nuotekų prieš valymą registro. Duomenys renkami nuo 2018 m. ir yra atnaujinami kas metus.
+Lentelėje pateikti metiniai skirtingų nuotekų valymo įrenginių teršalų koncentracijų prieš valymą duomenys iš Alytaus rajono SĮ „Simno komunalininkas“ Nuotekų prieš valymą registro. Duomenys renkami nuo 2018 m. ir yra atnaujinami kas metus. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/simno_komun/tersalai_pries_valyma/TersaluKiekis`[^manifest]
-- **Dataset:** [Teršalų, išleidžiamų su nuotekomis, metinis kiekis](../tersalai_pries_valyma.md) (`datasets/gov/simno_komun/tersalai_pries_valyma`)
-- **Manifest CSV:** [datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/simno_komun/tersalai_pries_valyma/TersaluKiekis`
-- **Primary Key (`ref`):** `iraso_id`
-- **Level:** `4`
+- **Dataset:** [Teršalų, išleidžiamų su nuotekomis, metinis kiekis](../tersalai_pries_valyma.md) (`datasets/gov/simno_komun/tersalai_pries_valyma`)[^manifest]
+- **Manifest CSV:** [datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/simno_komun/tersalai_pries_valyma/TersaluKiekis` (`deployed`)[^manifest]
+- **Provider:** `simno_komun` — Alytaus rajono savivaldybės įmonė „Simno komunalininkas“ *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `iraso_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,4 +55,5 @@ Lentelėje pateikti metiniai skirtingų nuotekų valymo įrenginių teršalų ko
 | `viso_per_metus_kg` | `number` | `kg` | `4` | `open` | — | Viso per metus, kg | — |
 | `viso_per_metus_t` | `number` | `t` | `4` | `open` | — | Viso per metus, t | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/simno_komun/tersalai_pries_valyma.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/simno_komun/tersalai_pries_valyma.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/simno_komun/tersalai_pries_valyma (https://data.gov.lt/datasets/2784/)

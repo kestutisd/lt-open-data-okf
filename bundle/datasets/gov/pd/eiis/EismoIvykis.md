@@ -2,23 +2,26 @@
 type: Table
 title: "EismoIvykis"
 description: "Spinta table datasets/gov/pd/eiis/EismoIvykis (51 columns)."
-tags: [gov, pd, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pd, eismoivykis, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pd/eiis.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L9"
+    title: "atviriduomenys/manifest — datasets/gov/pd/eiis.csv#L9"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # EismoIvykis
 
 - **Model:** `datasets/gov/pd/eiis/EismoIvykis`[^manifest]
-- **Dataset:** [datasets/gov/pd/eiis](../eiis.md) (`datasets/gov/pd/eiis`)
-- **Manifest CSV:** [datasets/gov/pd/eiis.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L9)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `registrokodas`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/pd/eiis](../eiis.md) (`datasets/gov/pd/eiis`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pd/eiis.csv#L9](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L9)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pd` — Policijos departamentas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `registrokodas`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -41,17 +44,17 @@ sources:
 | `policijos_tp_skaicius` | `integer` | `U` | `4` | `open` | — | Policijos transporto priemonių skaičius | — |
 | `apgadintu_tp_skaicius` | `integer` | `U` | `4` | `open` | — | Apgadintų transporto priemonių skaičius | — |
 | `apgadintu_policijos_tp_skaic` | `integer` | `U` | `4` | `open` | — | Apgadintų policijos transporto priemonių skaičius | — |
-| `policijos_istaiga_l1` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `3` | `open` | — | Policijos įstaiga 1 | — |
-| `policijos_istaiga_l2` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `3` | `open` | — | Policjos įstaiga 2 | — |
-| `iforminusi_istaiga_l1` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `3` | `open` | — | Įforminusi įstaiga 1 | — |
-| `iforminusi_istaiga_l2` | `ref` | [/datasets/gov/rc/jar/iregistruoti/JuridinisAsmuo[ja_pavadinimas]](../../rc/jar/iregistruoti/JuridinisAsmuo.md) | `3` | `open` | — | Įformunusi įstaiga 2 | — |
+| `policijos_istaiga_l1` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=3`: `policijos_istaiga_l1.ja_pavadinimas`) | `3` | `open` | — | Policijos įstaiga 1 | — |
+| `policijos_istaiga_l2` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=3`: `policijos_istaiga_l2.ja_pavadinimas`) | `3` | `open` | — | Policjos įstaiga 2 | — |
+| `iforminusi_istaiga_l1` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=3`: `iforminusi_istaiga_l1.ja_pavadinimas`) | `3` | `open` | — | Įforminusi įstaiga 1 | — |
+| `iforminusi_istaiga_l2` | `ref` | [JuridinisAsmuo](../../rc/jar/iregistruoti/JuridinisAsmuo.md) (`level=3`: `iforminusi_istaiga_l2.ja_pavadinimas`) | `3` | `open` | — | Įformunusi įstaiga 2 | — |
 | `ivykio_vieta` | `string` | — | `3` | `open` | — | Įvykio vieta | — |
 | `vietos_savivaldybe_tipas` | `string` | — | `4` | `open` | — | Savivaldybės tipas | — |
-| `savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe[pavadinimas]](../../rc/ar/savivaldybe/Savivaldybe.md) | `2` | `open` | — | Savivaldybė | — |
-| `gatve` | `ref` | [/datasets/gov/rc/ar/gatve/Gatve[pavadinimas]](../../rc/ar/gatve/Gatve.md) | `2` | `open` | — | Gatvė | — |
-| `namas` | `ref` | [/datasets/gov/rc/ar/patalpa/Patalpa[patalpos_nr]](../../rc/ar/patalpa/Patalpa.md) | `2` | `open` | — | Namas | — |
+| `savivaldybe` | `ref` | [Savivaldybe](../../rc/ar/savivaldybe/Savivaldybe.md) (`level=2` scalar) | `2` | `open` | — | Savivaldybė | — |
+| `gatve` | `ref` | [Gatve](../../rc/ar/gatve/Gatve.md) (`level=2` scalar) | `2` | `open` | — | Gatvė | — |
+| `namas` | `ref` | [Patalpa](../../rc/ar/patalpa/Patalpa.md) (`level=2` scalar) | `2` | `open` | — | Namas | — |
 | `kita_gatve_sankryzoje` | `string` | — | `3` | `open` | — | Kita gatvė (Jei įvykis įvyko sankryžoje) | — |
-| `kelio_pavadinimas` | `ref` | [/datasets/gov/lakd/keliai/StateRoad[pavadinim]](../../lakd/keliai/StateRoad.md) | `2` | `open` | — | Kelio pavadinimas | — |
+| `kelio_pavadinimas` | `ref` | [StateRoad](../../lakd/keliai/StateRoad.md) (`level=2` scalar) | `2` | `open` | — | Kelio pavadinimas | — |
 | `kelio_reiksme` | `string` | — | `4` | `open` | — | Kelio reikšmė | — |
 | `atstumas` | `number` | — | `3` | `open` | — | Atstumas | — |
 | `dangos_rusis` | `string` | — | `4` | `open` | — | Kelio dangos rūšis | — |
@@ -78,7 +81,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `iskaitinis` | `true` | `1` | — | Taip | — |
 | `iskaitinis` | `false` | `0` | — | Ne | — |
@@ -127,4 +130,9 @@ sources:
 | `atsisake_tikrintis_kaltininkai` | `"Ne"` | — | — | Ne | — |
 | `atsisake_tikrintis_kaltininkai` | `"Taip"` | — | — | Taip | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pd/eiis.csv
+# Related References
+
+- [JAR Legal Entities Join Reference](../../../../references/joins/jar-legal-entities.md) — Two-step `level>=4` UUID joins, `ja_kodas` keys, and GDPR masking rules.
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/pd/eiis.csv#L9 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pd/eiis.csv#L9)

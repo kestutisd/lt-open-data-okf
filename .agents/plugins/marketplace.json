@@ -1,0 +1,20 @@
+{
+  "name": "lt-open-data-okf",
+  "interface": {
+    "displayName": "Lithuanian Open Data (OKF v0.3)"
+  },
+  "plugins": [
+    {
+      "name": "lt-open-data",
+      "source": {
+        "source": "local",
+        "path": "./skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

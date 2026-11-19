@@ -1,9 +1,9 @@
-# `datasets/gov/ssva/pastatu_duomenu_bankas`
+# Directory Index: `datasets/gov/ssva/pastatu_duomenu_bankas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [PastatoElementoNusidevejimas](PastatoElementoNusidevejimas.md) - Spinta table datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoNusidevejimas (9 columns).
-* [PastatoElementoRizika](PastatoElementoRizika.md) - Spinta table datasets/gov/ssva/pastatu_duomenu_bankas/PastatoElementoRizika (14 columns).
-* [PastatoRizikaNusidevejimas](PastatoRizikaNusidevejimas.md) - Spinta table datasets/gov/ssva/pastatu_duomenu_bankas/PastatoRizikaNusidevejimas (8 columns).
+* [PastatoElementoNusidevejimas](PastatoElementoNusidevejimas.md) - Informacija apie pastatų charakteristikas, pastatų ir jų elementų būklę.
+* [PastatoElementoRizika](PastatoElementoRizika.md) - Informacija apie pastatų charakteristikas, pastatų ir jų elementų būklę.
+* [PastatoRizikaNusidevejimas](PastatoRizikaNusidevejimas.md) - Informacija apie pastatų charakteristikas, pastatų ir jų elementų būklę.

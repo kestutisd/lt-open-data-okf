@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/pajamu_ir_gyvenimo_salygos`
+# Directory Index: `datasets/gov/lsd/pajamu_ir_gyvenimo_salygos`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

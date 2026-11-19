@@ -1,6 +1,6 @@
-# `datasets/gov/nma/buveines`
+# Directory Index: `datasets/gov/nma/buveines`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

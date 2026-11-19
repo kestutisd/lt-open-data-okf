@@ -3,25 +3,34 @@ type: Table
 title: "Paraiska — Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų"
 description: "Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, banderolių, keleivinio transporto bilietų, oficialiųjų žymėjimo ženklų, dokumentų blankų vertinimo ir priskyrimo prie saugiųjų dokumentų ar saugiųjų dokumentų blankų"
 resource: "https://get.data.gov.lt/datasets/gov/vdtat/dokumentu_paraiskos_komisijai/Paraiska"
-tags: [gov, vdtat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vdtat, paraiska, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2780/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vdtat/dokumentu_paraiskos_komisijai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Paraiska — Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų
 
-Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, banderolių, keleivinio transporto bilietų, oficialiųjų žymėjimo ženklų, dokumentų blankų vertinimo ir priskyrimo prie saugiųjų dokumentų ar saugiųjų dokumentų blankų
+Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, banderolių, keleivinio transporto bilietų, oficialiųjų žymėjimo ženklų, dokumentų blankų vertinimo ir priskyrimo prie saugiųjų dokumentų ar saugiųjų dokumentų blankų[^manifest]
 
 - **Model:** `datasets/gov/vdtat/dokumentu_paraiskos_komisijai/Paraiska`[^manifest]
-- **Dataset:** [Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų ar blankų](../dokumentu_paraiskos_komisijai.md) (`datasets/gov/vdtat/dokumentu_paraiskos_komisijai`)
-- **Manifest CSV:** [datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vdtat/dokumentu_paraiskos_komisijai/Paraiska`
-- **Primary Key (`ref`):** `paraiskos_id`
-- **Level:** `4`
+- **Dataset:** [Pateiktos paraiškos VDTAT Komisijai dėl dokumentų ar blankų priskyrimo prie saugiųjų dokumentų...](../dokumentu_paraiskos_komisijai.md) (`datasets/gov/vdtat/dokumentu_paraiskos_komisijai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vdtat/dokumentu_paraiskos_komisijai/Paraiska` (`deployed`)[^manifest]
+- **Provider:** `vdtat` — Valstybės dokumentų technologinės apsaugos tarnyba prie FM *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `paraiskos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +54,7 @@ Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, ba
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `technologines_apsaugos_lygis` | `"Aukščiausias"` | — | — | — | — |
 | `technologines_apsaugos_lygis` | `"Aukštesnysis"` | — | — | — | — |
@@ -58,4 +67,5 @@ Pateiktos paraiškos VDTAT Komisijai dėl Vyriausybės vertybinių popierių, ba
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `teises_aktas_tvirtinantis_dokumenta_lt` | `update(property: "teises_aktas_tvirtinantis_dokumenta_lt@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vdtat/dokumentu_paraiskos_komisijai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vdtat/dokumentu_paraiskos_komisijai (https://data.gov.lt/datasets/2780/)

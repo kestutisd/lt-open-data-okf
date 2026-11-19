@@ -3,25 +3,34 @@ type: Table
 title: "MokSkaicius — Gimnazijų mokinių skaičiai pamečiui"
 description: "Lentelėje pateikiami gimnazijų ir jų padalinių mokinių skaičiai pamečiui nuo 2018 metų iš Nacionalinės švietimo agentūros (NŠA) Mokinių registro (MR)."
 resource: "https://get.data.gov.lt/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai/MokSkaicius"
-tags: [gov, nsa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nsa, mokskaicius, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/4056/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # MokSkaicius — Gimnazijų mokinių skaičiai pamečiui
 
-Lentelėje pateikiami gimnazijų ir jų padalinių mokinių skaičiai pamečiui nuo 2018 metų iš Nacionalinės švietimo agentūros (NŠA) Mokinių registro (MR). Duomenys atnaujinami kas mėnesį.
+Lentelėje pateikiami gimnazijų ir jų padalinių mokinių skaičiai pamečiui nuo 2018 metų iš Nacionalinės švietimo agentūros (NŠA) Mokinių registro (MR). Duomenys atnaujinami kas mėnesį.[^manifest]
 
 - **Model:** `datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai/MokSkaicius`[^manifest]
-- **Dataset:** [Gimnazijų ir jų padalinių mokinių skaičiai pamečiui](../gimnaziju_mokiniu_skaiciai.md) (`datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai`)
-- **Manifest CSV:** [datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai/MokSkaicius`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Gimnazijų ir jų padalinių mokinių skaičiai pamečiui](../gimnaziju_mokiniu_skaiciai.md) (`datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai/MokSkaicius` (`deployed`)[^manifest]
+- **Provider:** `nsa` — Nacionalinė švietimo agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`[^dcat]
 
 # Schema
 
@@ -56,4 +65,5 @@ Lentelėje pateikiami gimnazijų ir jų padalinių mokinių skaičiai pamečiui 
 | `priesmokyklines_grupes_mokiniu_sk` | `integer` | — | `4` | `open` | — | Asmenų priešmokyklinės grupėse skaičius | — |
 | `paskutinis_atnaujinimas` | `date` | `D` | `4` | `open` | — | Paskutinis duomenų atnaujinimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/nsa/mr/gimnaziju_mokiniu_skaiciai (https://data.gov.lt/datasets/4056/)

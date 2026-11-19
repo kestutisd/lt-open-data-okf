@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "MarijampolesRajSav"
-description: "Spinta table datasets/gov/tvs/turtas/MarijampolesRajSav (13 columns)."
+description: "Rinkinys pateikia informaciją apie savivaldybių valdomą nekilnojamąjį turtą."
 resource: "https://get.data.gov.lt/datasets/gov/tvs/turtas/MarijampolesRajSav"
-tags: [gov, tvs, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, tvs, marijampolesrajsav, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/tvs/turtas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tvs/turtas.csv#L37"
+    title: "atviriduomenys/manifest — datasets/gov/tvs/turtas.csv#L37"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3825/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/tvs/turtas"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # MarijampolesRajSav
 
+**Dataset Context:** Rinkinys pateikia informaciją apie savivaldybių valdomą nekilnojamąjį turtą. Duomenyse nurodomas turto identifikatorius, NT registro kodas, objekto pavadinimas, statybos pabaigos metai, objekto paskirtis, plotas kvadratiniais metrais, bei geografinė vieta. Geografinė informacija pateikiama tiek geografinių koordinačių, tiek LKS-94 plokštuminių koordinačių formatais. Taip pat įtrauktas objekto adreso informacijos aktualumas bei geografinio koordinavimo patikimumo procentas. Duomenų teikėjas: Savivaldybių administracija. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
+
 - **Model:** `datasets/gov/tvs/turtas/MarijampolesRajSav`[^manifest]
-- **Dataset:** [Duomenys apie savyvaldybės turtą](../turtas.md) (`datasets/gov/tvs/turtas`)
-- **Manifest CSV:** [datasets/gov/tvs/turtas.csv#L37](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tvs/turtas.csv#L37)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tvs/turtas/MarijampolesRajSav`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Duomenys apie savyvaldybės turtą](../turtas.md) (`datasets/gov/tvs/turtas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/tvs/turtas.csv#L37](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tvs/turtas.csv#L37)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/tvs/turtas/MarijampolesRajSav` (`deployed`)[^manifest]
+- **Provider:** `tvs` — Savivaldybių turto valdymo duomenų rinkinys *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,4 +50,5 @@ sources:
 | `tipas` | `string` | — | `4` | `open` | — | Objekto adreso informacijos aktualumas | — |
 | `koordinaciu_patikimumas` | `number` | — | `4` | `open` | — | Geografinių koordinačių patikimumas (procentais) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/tvs/turtas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/tvs/turtas.csv#L37 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/tvs/turtas.csv#L37)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/tvs/turtas (https://data.gov.lt/datasets/3825/)

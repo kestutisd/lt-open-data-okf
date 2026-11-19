@@ -1,19 +1,19 @@
-# `datasets/gov/vstt` — Valstybinė saugomų teritorijų tarnyba prie Aplinkos ministerijos
+# Directory Index: `datasets/gov/vstt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [lankytojai/](lankytojai/index.md) - Saugomų teritorijų lankytojų duomenys (0 datasets, 1 table)
-* [natura2000/](natura2000/index.md) - Namespace `datasets/gov/vstt/natura2000` (0 datasets, 2 tables)
-* [rusys/](rusys/index.md) - Namespace `datasets/gov/vstt/rusys` (0 datasets, 1 table)
-* [teritorijos/](teritorijos/index.md) - Saugomų teritorijų valstybės kadastro duomenys (0 datasets, 18 tables)
-* [vilku_medziokles/](vilku_medziokles/index.md) - Sumedžioti vilkai Lietuvoje (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Saugomų teritorijų lankytojų duomenys](lankytojai.md) - Spinta dataset datasets/gov/vstt/lankytojai (1 table).
-* [datasets/gov/vstt/natura2000](natura2000.md) - Spinta dataset datasets/gov/vstt/natura2000 (2 tables).
-* [datasets/gov/vstt/rusys](rusys.md) - Saugojamos rūšys,Saugojamų augalų, gyvūnų, grybų rūšių duomenys
+* [Saugomų teritorijų lankytojų duomenys](lankytojai.md) - Lankytojų monitoringo duomenys saugomose teritorijose.
+* [Natura 2000 teritorijų apsaugos tikslų duomenys](natura2000.md) - Steigiant „Natura 2000“ tinklą Lietuvoje ir užtikrinant jo vertybių apsaugą, inventorizuojamos pagal ES Buveinių ir Paukščių direktyvas saugomos buveinės ir rūšys, nustatoma jų buveinių būklė...
+* [Saugomų rūšių duomenys](rusys.md) - Saugojamos rūšys,Saugojamų augalų, gyvūnų, grybų rūšių duomenys
 * [Saugomų teritorijų valstybės kadastro duomenys](teritorijos.md) - Saugomų teritorijų valstybės kadastro duomenys
 * [Sumedžioti vilkai Lietuvoje](vilku_medziokles.md) - Rinkinyje pateikiami išsamūs nuo 2018 m. iki dabar kaupiami vilkų medžioklės Lietuvos Respublikos teritorijoje duomenys.
+
+# Subdirectories
+
+* [lankytojai/](lankytojai/index.md) - 1 table
+* [natura2000/](natura2000/index.md) - 2 tables
+* [rusys/](rusys/index.md) - 1 table
+* [teritorijos/](teritorijos/index.md) - 18 tables
+* [vilku_medziokles/](vilku_medziokles/index.md) - 2 tables

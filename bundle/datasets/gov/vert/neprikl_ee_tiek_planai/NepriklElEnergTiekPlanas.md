@@ -3,25 +3,34 @@ type: Table
 title: "NepriklElEnergTiekPlanas — Nepriklausomų elektros energijos tiekėjų planai"
 description: "Duomenų rinkinyje pateikiami nepriklausomų elektros energijos tiekėjų planai buitiniams vartotojams."
 resource: "https://get.data.gov.lt/datasets/gov/vert/neprikl_ee_tiek_planai/NepriklElEnergTiekPlanas"
-tags: [gov, vert, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vert, nepriklelenergtiekplanas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vert/neprikl_ee_tiek_planai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2802/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vert/neprikl_ee_tiek_planai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # NepriklElEnergTiekPlanas — Nepriklausomų elektros energijos tiekėjų planai
 
-Duomenų rinkinyje pateikiami nepriklausomų elektros energijos tiekėjų planai buitiniams vartotojams. Plano kainą sudaro tiekėjo kaina, ESO plano kaina, persiuntimo, skirstymo ir viap dedamosios. Biržos planų kainą sudaro „Nordpool“ biržos kaina (rinkinyje nepateikta), kuri keičiasi kas mėnesį arba valandą (priklauso nuo pasirinkto plano), tiekėjo kaina, ESO kaina ir valstybės reguliuojamos kainos dalys. Valstybės reguliuojamos kainų dalys (skirstymo, persiuntimo ir viap dedamosios) fiksuojamos nepriklausomai nuo plano fiksavimo termino, todėl bendra fiksuoto plano kaina gali kisti.
+Duomenų rinkinyje pateikiami nepriklausomų elektros energijos tiekėjų planai buitiniams vartotojams. Plano kainą sudaro tiekėjo kaina, ESO plano kaina, persiuntimo, skirstymo ir viap dedamosios. Biržos planų kainą sudaro „Nordpool“ biržos kaina (rinkinyje nepateikta), kuri keičiasi kas mėnesį arba valandą (priklauso nuo pasirinkto plano), tiekėjo kaina, ESO kaina ir valstybės reguliuojamos kainos dalys. Valstybės reguliuojamos kainų dalys (skirstymo, persiuntimo ir viap dedamosios) fiksuojamos nepriklausomai nuo plano fiksavimo termino, todėl bendra fiksuoto plano kaina gali kisti. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/vert/neprikl_ee_tiek_planai/NepriklElEnergTiekPlanas`[^manifest]
-- **Dataset:** [Nepriklausomų elektros energijos tiekėjų planai](../neprikl_ee_tiek_planai.md) (`datasets/gov/vert/neprikl_ee_tiek_planai`)
-- **Manifest CSV:** [datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vert/neprikl_ee_tiek_planai/NepriklElEnergTiekPlanas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Nepriklausomų elektros energijos tiekėjų planai](../neprikl_ee_tiek_planai.md) (`datasets/gov/vert/neprikl_ee_tiek_planai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vert/neprikl_ee_tiek_planai/NepriklElEnergTiekPlanas` (`deployed`)[^manifest]
+- **Provider:** `vert` — Valstybinė energetikos reguliavimo tarnyba *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -63,10 +72,11 @@ Duomenų rinkinyje pateikiami nepriklausomų elektros energijos tiekėjų planai
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `laiko_zonu_sk` | `1` | — | — | Viena laiko zona | — |
 | `laiko_zonu_sk` | `2` | — | — | Dvi laiko zonos | — |
 | `laiko_zonu_sk` | `4` | — | — | Keturios laiko zonos | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vert/neprikl_ee_tiek_planai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vert/neprikl_ee_tiek_planai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vert/neprikl_ee_tiek_planai (https://data.gov.lt/datasets/2802/)

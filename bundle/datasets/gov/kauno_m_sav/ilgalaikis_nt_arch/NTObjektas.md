@@ -3,25 +3,34 @@ type: Table
 title: "NTObjektas — Kauno miesto nekilnojamo turto objektai"
 description: "Kauno miesto \"Nekilnojamojo ilgalaikio turto informacinė sistema\" skirta turto valdymui, naudojimui ir disponavimui administruoti."
 resource: "https://get.data.gov.lt/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch/NTObjektas"
-tags: [gov, kauno_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kauno_m_sav, ntobjektas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2803/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # NTObjektas — Kauno miesto nekilnojamo turto objektai
 
-Kauno miesto "Nekilnojamojo ilgalaikio turto informacinė sistema" skirta turto valdymui, naudojimui ir disponavimui administruoti. Archyviniai duomenys ir naujinami nebus.
+Kauno miesto "Nekilnojamojo ilgalaikio turto informacinė sistema" skirta turto valdymui, naudojimui ir disponavimui administruoti. Archyviniai duomenys ir naujinami nebus.[^manifest]
 
 - **Model:** `datasets/gov/kauno_m_sav/ilgalaikis_nt_arch/NTObjektas`[^manifest]
-- **Dataset:** [Kauno miesto nekilnojamo turto objektai](../ilgalaikis_nt_arch.md) (`datasets/gov/kauno_m_sav/ilgalaikis_nt_arch`)
-- **Manifest CSV:** [datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch/NTObjektas`
-- **Primary Key (`ref`):** `obj_id`
-- **Level:** `4`
+- **Dataset:** [Kauno miesto nekilnojamo turto objektai](../ilgalaikis_nt_arch.md) (`datasets/gov/kauno_m_sav/ilgalaikis_nt_arch`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch/NTObjektas` (`deployed`)[^manifest]
+- **Provider:** `kauno_m_sav` — Kauno miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `obj_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,4 +55,5 @@ Kauno miesto "Nekilnojamojo ilgalaikio turto informacinė sistema" skirta turto 
 | `arch_data` | `date` | `D` | `4` | `open` | — | Objekto perkėlimo į archyvą data | — |
 | `duomenu_atnaujinimas` | `date` | `D` | `4` | `open` | — | Duomenų atnaujinimo data (vda) | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/ilgalaikis_nt_arch.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/ilgalaikis_nt_arch (https://data.gov.lt/datasets/2803/)

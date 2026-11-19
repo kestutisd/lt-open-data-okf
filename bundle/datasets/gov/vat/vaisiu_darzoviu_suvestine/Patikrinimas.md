@@ -1,26 +1,34 @@
 ---
 type: Table
-title: "Patikrinimas — Pateikiama informacija apie šviežių vaisių ir daržovių atitikties prekybos standartams patikrinimus (produkcijos pavadinimas; kilmės šalis; paskirties šalis; patikrintas partijų..."
+title: "Patikrinimas — Pateikiama informacija apie šviežių vaisių ir daržovių atitikties prekybos standartams patikrinimus (produkcijos pavadinimas; kilmės šalis; paskirties šalis; patikrintas partijų skaičius, vnt.; patikrintas produkcijos..."
 description: "Spinta table datasets/gov/vat/vaisiu_darzoviu_suvestine/Patikrinimas (14 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vat/vaisiu_darzoviu_suvestine/Patikrinimas"
-tags: [gov, vat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vat, patikrinimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1863/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vat/vaisiu_darzoviu_suvestine"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# Patikrinimas — Pateikiama informacija apie šviežių vaisių ir daržovių atitikties prekybos standartams patikrinimus (produkcijos pavadinimas; kilmės šalis; paskirties šalis; patikrintas partijų...
+# Patikrinimas — Pateikiama informacija apie šviežių vaisių ir daržovių atitikties prekybos standartams patikrinimus (produkcijos...
 
 - **Model:** `datasets/gov/vat/vaisiu_darzoviu_suvestine/Patikrinimas`[^manifest]
-- **Dataset:** [datasets/gov/vat/vaisiu_darzoviu_suvestine](../vaisiu_darzoviu_suvestine.md) (`datasets/gov/vat/vaisiu_darzoviu_suvestine`)
-- **Manifest CSV:** [datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/vaisiu_darzoviu_suvestine/Patikrinimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Šviežių vaisių ir daržovių atitikties prekybos standartams patikrinimų suvestinė](../vaisiu_darzoviu_suvestine.md) (`datasets/gov/vat/vaisiu_darzoviu_suvestine`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/vaisiu_darzoviu_suvestine/Patikrinimas` (`deployed`)[^manifest]
+- **Provider:** `vat` — Valstybinė augalininkystės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -43,7 +51,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `dok_patikra` | `"patenkinama"` | — | — | — | — |
 | `dok_patikra` | `"nepatenkinama"` | — | — | — | — |
@@ -54,4 +62,5 @@ sources:
 | `pazeidimai` | `"kita"` | — | — | — | — |
 | `pazeidimai` | `"pakavimo_trukumai"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r7_vaisiu_darzoviu_suvestine.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vat/vaisiu_darzoviu_suvestine (https://data.gov.lt/datasets/1863/)

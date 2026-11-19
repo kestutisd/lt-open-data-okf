@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "OssDeklaracija — OSS Deklaracijoas"
-description: "One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vykdymą ūkio subjektams, parduodantiems neapmokestinamiesiems asmenims tam tikras prekes ar paslaugas, už kurias PVM turėtų būti sumokėtas kitoje valstybėje..."
+description: "One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vykdymą ūkio subjektams, parduodantiems neapmokestinamiesiems asmenims tam tikras prekes ar paslaugas, už kurias PVM turėtų būti sumokėtas kitoje valstybėje narėje tais atvejais, kai veikla apima..."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/oss_deklaracijos/OssDeklaracija"
-tags: [gov, vmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, ossdeklaracija, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/oss.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/oss.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/oss.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1910/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/oss_deklaracijos"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # OssDeklaracija — OSS Deklaracijoas
 
-One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vykdymą ūkio subjektams, parduodantiems neapmokestinamiesiems asmenims tam tikras prekes ar paslaugas, už kurias PVM turėtų būti sumokėtas kitoje valstybėje narėje tais atvejais, kai veikla apima daugiau nei vienos ES valstybės narės teritoriją. Ūkio subjektai, besinaudojantys sistema, registruojasi, deklaruoja ir moka PVM vienoje valstybėje narėje, neatsižvelgdami į tai, kad paslaugas teikia ir (ar) prekes tiekia keliose ES valstybėse narėse.
+One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vykdymą ūkio subjektams, parduodantiems neapmokestinamiesiems asmenims tam tikras prekes ar paslaugas, už kurias PVM turėtų būti sumokėtas kitoje valstybėje narėje tais atvejais, kai veikla apima daugiau nei vienos ES valstybės narės teritoriją. Ūkio subjektai, besinaudojantys sistema, registruojasi, deklaruoja ir moka PVM vienoje valstybėje narėje, neatsižvelgdami į tai, kad paslaugas teikia ir (ar) prekes tiekia keliose ES valstybėse narėse.[^manifest]
 
 - **Model:** `datasets/gov/vmi/oss_deklaracijos/OssDeklaracija`[^manifest]
-- **Dataset:** [datasets/gov/vmi/oss_deklaracijos](../oss_deklaracijos.md) (`datasets/gov/vmi/oss_deklaracijos`)
-- **Manifest CSV:** [datasets/gov/vmi/oss.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/oss.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/oss_deklaracijos/OssDeklaracija`
-- **Level:** `4`
+- **Dataset:** [OSS specialiųjų schemų naudotojų deklaracijų duomenys](../oss_deklaracijos.md) (`datasets/gov/vmi/oss_deklaracijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/oss.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/oss.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/oss_deklaracijos/OssDeklaracija` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -48,7 +58,7 @@ One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vy
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `registracijos_schema` | `"ES"` | — | — | ES prievolė | ES schema skirta prievolių, susijusių su Europos Sąjungos vidaus nuotoline prekyba prekėmis, prekių tiekimo valstybėje narėje naudojant elektronines sąsajas, kuriomis sudaromos sąlygos tiekti prekes, ir paslaugų, kurias teikia Europos Sąjungoje, tačiau ne vartojimo valstybėje narėje įsisteigę apmokestinamieji asmenys, įvykdymui. |
 | `registracijos_schema` | `"Importo"` | — | — | ES supaprastinta PVM prievolė | Importo schema naudojama, siekiant supaprastintai įvykdyti PVM prievoles, susijusias su nuotoline prekybai iš trečiųjų teritorijų ar trečiųjų valstybių importuojamomis prekėmis. Ši schema dar gali būti vadinama IOSS. |
@@ -78,4 +88,5 @@ One Stop Shop (OSS) - tai sistema, kuri palengvina mokestinių PVM prievolių vy
 | `apmokestinta_verte` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `pvm_suma` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/oss.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/oss.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/oss.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/oss_deklaracijos (https://data.gov.lt/datasets/1910/)

@@ -1,6 +1,6 @@
-# `datasets/gov/muitine/prekes_kodu_matavimo_vnt_ir_ju_patikslintoju_sarysis`
+# Directory Index: `datasets/gov/muitine/prekes_kodu_matavimo_vnt_ir_ju_patikslintoju_sarysis`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

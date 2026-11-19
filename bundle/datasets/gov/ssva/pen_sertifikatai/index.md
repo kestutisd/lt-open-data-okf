@@ -1,6 +1,6 @@
-# `datasets/gov/ssva/pen_sertifikatai`
+# Directory Index: `datasets/gov/ssva/pen_sertifikatai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

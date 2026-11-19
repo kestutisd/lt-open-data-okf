@@ -1,7 +1,7 @@
-# `datasets/gov/vaspvt/medicinos_priemones`
+# Directory Index: `datasets/gov/vaspvt/medicinos_priemones`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [MedicininePriemone — Sveikatos priežiūros įstaigų įsigytos medicininės priemonės](MedicininePriemone.md) - Spinta table datasets/gov/vaspvt/medicinos_priemones/MedicininePriemone (12 columns).
+* [MedicininePriemone — Sveikatos priežiūros įstaigų įsigytos medicininės priemonės](MedicininePriemone.md) - "Duomenų rinkinyje pateikiami įrašai apie sveikatos priežiūros įstaigų įsigytas medicinines priemones.

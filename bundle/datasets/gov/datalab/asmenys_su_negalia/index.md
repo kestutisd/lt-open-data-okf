@@ -1,6 +1,6 @@
-# `datasets/gov/datalab/asmenys_su_negalia`
+# Directory Index: `datasets/gov/datalab/asmenys_su_negalia`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

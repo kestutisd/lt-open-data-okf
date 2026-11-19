@@ -3,25 +3,34 @@ type: Table
 title: "SirvintuRajonoSavivaldybesSC — Širvintų savivaldybes rajono sveikatos centro pacientams atliktų laboratorinių tyrimų duomenys"
 description: "Širvintų rajono savivaldybės sveikatos centro OpenLIMS sistemoje nuo 2017 m. kaupiami ir iki šiol atnaujinami pacientams atliktų laboratorinių tyrimų duomenys."
 resource: "https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/SirvintuRajonoSavivaldybesSC"
-tags: [gov, lab_tyrimai, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lab_tyrimai, sirvinturajonosavivaldybessc, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126"
+    title: "atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2700/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai"
+    author: "team:vda"
+    last_modified: "2026-02-23T00:00:00Z"
 ---
 
 # SirvintuRajonoSavivaldybesSC — Širvintų savivaldybes rajono sveikatos centro pacientams atliktų laboratorinių tyrimų duomenys
 
-Širvintų rajono savivaldybės sveikatos centro OpenLIMS sistemoje nuo 2017 m. kaupiami ir iki šiol atnaujinami pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinį sudaro:įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimo data dienos tikslumu, rezultato interpretacijos stulpelis, tiek su skaitiniais rezultatais, tiek su semantiniais vertinimais, atskiras, 5 skaitmenų tikslumu suapvalintas skaitinių rezultatų stulpelis, tyrimo metodo pavadinimas, rezultato reikšmių normų rėžiai, suapvalinti 5 skaitmenų tikslumu, rezultato matavimo vienetai bei paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vienam pacientui atliktą vieną tyrimą.
+Širvintų rajono savivaldybės sveikatos centro OpenLIMS sistemoje nuo 2017 m. kaupiami ir iki šiol atnaujinami pacientams atliktų laboratorinių tyrimų duomenys. Duomenų rinkinį sudaro:įstaigos pavadinimas, paciento šifruotas identifikatorius, lytis, gimimo metai, tyrimo data dienos tikslumu, rezultato interpretacijos stulpelis, tiek su skaitiniais rezultatais, tiek su semantiniais vertinimais, atskiras, 5 skaitmenų tikslumu suapvalintas skaitinių rezultatų stulpelis, tyrimo metodo pavadinimas, rezultato reikšmių normų rėžiai, suapvalinti 5 skaitmenų tikslumu, rezultato matavimo vienetai bei paciento pagrindinės diagnozės TLK-10-AM kodas ir pavadinimas. Vienas įrašas atitinka vienam pacientui atliktą vieną tyrimą. Dėl techninių klausimų ar galimų klaidų kreiptis į atverimas@stat.gov.lt.[^manifest]
 
 - **Model:** `datasets/gov/lab_tyrimai/lab_tyrimai/SirvintuRajonoSavivaldybesSC`[^manifest]
-- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)
-- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/SirvintuRajonoSavivaldybesSC`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Pacientams atliktų laboratorinių tyrimų rezultatai](../lab_tyrimai.md) (`datasets/gov/lab_tyrimai/lab_tyrimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lab_tyrimai/lab_tyrimai/SirvintuRajonoSavivaldybesSC` (`deployed`)[^manifest]
+- **Provider:** `lab_tyrimai`[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2026-02-23`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,9 +53,10 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"Vyras"` | — | — | Vyras | — |
 | `paciento_lytis` | `"Moteris"` | — | — | Moteris | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lab_tyrimai/lab_tyrimai.csv#L126)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lab_tyrimai/lab_tyrimai (https://data.gov.lt/datasets/2700/)

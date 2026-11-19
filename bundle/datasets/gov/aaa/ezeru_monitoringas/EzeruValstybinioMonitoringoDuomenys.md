@@ -1,26 +1,36 @@
 ---
 type: Table
 title: "EzeruValstybinioMonitoringoDuomenys — Aprašymas ežerų monitoringo duomenų"
-description: "Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d. nutarime Nr. 996 „Dėl Valstybinės aplinkos monitoringo 2018–2023 metų programos patvirtinimo“."
+description: "Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/ezeru_monitoringas/EzeruValstybinioMonitoringoDuomenys"
-tags: [gov, aaa, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, ezeruvalstybiniomonitoringoduomenys, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/ezeru_monitoringas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_monitoringas.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/ezeru_monitoringas.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2055/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/ezeru_monitoringas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # EzeruValstybinioMonitoringoDuomenys — Aprašymas ežerų monitoringo duomenų
 
-Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d. nutarime Nr. 996 „Dėl Valstybinės aplinkos monitoringo 2018–2023 metų programos patvirtinimo“. Kasmet Aplinkos ministro įsakymu tvirtinami Valstybinės aplinkos monitoringo 2018-2023 metų programos uždavinių įgyvendinimo planai (https://aaa.lrv.lt/lt/veiklos-sritys/aplinkos-monitoringas/valstybine-aplinkos-monitoringo-programa). Kai kuriais atvejais tyrimai gali būti neatlikti dėl klimatinių sąlygų arba įrangos gedimų.
+Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos Vyriausybės 2018 m. spalio 3 d. nutarime Nr. 996 „Dėl Valstybinės aplinkos monitoringo 2018–2023 metų programos patvirtinimo“. Kasmet Aplinkos ministro įsakymu tvirtinami Valstybinės aplinkos monitoringo 2018-2023 metų programos uždavinių įgyvendinimo planai (https://aaa.lrv.lt/lt/veiklos-sritys/aplinkos-monitoringas/valstybine-aplinkos-monitoringo-programa). Kai kuriais atvejais tyrimai gali būti neatlikti dėl klimatinių sąlygų arba įrangos gedimų.[^manifest]
 
 - **Model:** `datasets/gov/aaa/ezeru_monitoringas/EzeruValstybinioMonitoringoDuomenys`[^manifest]
-- **Dataset:** [datasets/gov/aaa/ezeru_monitoringas](../ezeru_monitoringas.md) (`datasets/gov/aaa/ezeru_monitoringas`)
-- **Manifest CSV:** [datasets/gov/aaa/ezeru_monitoringas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_monitoringas.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/ezeru_monitoringas/EzeruValstybinioMonitoringoDuomenys`
-- **Level:** `4`
+- **Dataset:** [Ežerų valstybinio monitoringo duomenys](../ezeru_monitoringas.md) (`datasets/gov/aaa/ezeru_monitoringas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/ezeru_monitoringas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_monitoringas.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/ezeru_monitoringas/EzeruValstybinioMonitoringoDuomenys` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -145,4 +155,9 @@ Tyrimų apimtys, vykdytojai, tiriami parametrai patvirtinti Lietuvos Respublikos
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `regionas` | `create(property: "apskritis", type: "ref", ref: "/datasets/gov/rc/ar/apskritis/Apskritis")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/ezeru_monitoringas.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/ezeru_monitoringas.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/ezeru_monitoringas.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/ezeru_monitoringas (https://data.gov.lt/datasets/2055/)

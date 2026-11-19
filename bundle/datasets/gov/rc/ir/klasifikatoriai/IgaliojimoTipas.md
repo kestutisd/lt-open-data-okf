@@ -3,23 +3,32 @@ type: Table
 title: "IgaliojimoTipas — Įgaliojimų registro informacinių technologijų priemonėmis sudarytų įgaliojimų tipų klasifikatorius"
 description: "Spinta table datasets/gov/rc/ir/klasifikatoriai/IgaliojimoTipas (2 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/ir/klasifikatoriai/IgaliojimoTipas"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, igaliojimotipas, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/ir/klasifikatoriai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ir/klasifikatoriai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/rc/ir/klasifikatoriai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2167/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/ir/klasifikatoriai"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # IgaliojimoTipas — Įgaliojimų registro informacinių technologijų priemonėmis sudarytų įgaliojimų tipų klasifikatorius
 
 - **Model:** `datasets/gov/rc/ir/klasifikatoriai/IgaliojimoTipas`[^manifest]
-- **Dataset:** [Įgaliojimų registro (ĮR) įgaliojimų rūšių, terminų ir paslaugų klasifikatoriai](../klasifikatoriai.md) (`datasets/gov/rc/ir/klasifikatoriai`)
-- **Manifest CSV:** [datasets/gov/rc/ir/klasifikatoriai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ir/klasifikatoriai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ir/klasifikatoriai/IgaliojimoTipas`
-- **Primary Key (`ref`):** `kodas`
-- **Level:** `4`
+- **Dataset:** [Įgaliojimų registro (ĮR) įgaliojimų rūšių, terminų ir paslaugų klasifikatoriai](../klasifikatoriai.md) (`datasets/gov/rc/ir/klasifikatoriai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/ir/klasifikatoriai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ir/klasifikatoriai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ir/klasifikatoriai/IgaliojimoTipas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `kodas`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -28,4 +37,5 @@ sources:
 | `kodas` | `integer` | — | `4` | `open` | — | Įgaliojimo tipo kodas | — |
 | `pavadinimas` | `string` | — | `3` | `open` | — | Įgaliojimo tipo pavadinimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ir/klasifikatoriai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ir/klasifikatoriai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ir/klasifikatoriai.csv#L8)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/ir/klasifikatoriai (https://data.gov.lt/datasets/2167/)

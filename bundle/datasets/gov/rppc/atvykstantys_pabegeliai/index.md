@@ -1,7 +1,7 @@
-# `datasets/gov/rppc/atvykstantys_pabegeliai`
+# Directory Index: `datasets/gov/rppc/atvykstantys_pabegeliai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [AtvykstantysPabegeliai — Į Pabėgėlių priėmimo centrą atvykstantys asmenys.](AtvykstantysPabegeliai.md) - Spinta table datasets/gov/rppc/atvykstantys_pabegeliai/AtvykstantysPabegeliai (11 columns).
+* [AtvykstantysPabegeliai — Į Pabėgėlių priėmimo centrą atvykstantys asmenys.](AtvykstantysPabegeliai.md) - Į Pabėgėlių priėmimo centrą atvykstančių asmenų išsami informacija.

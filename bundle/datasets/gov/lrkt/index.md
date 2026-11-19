@@ -1,7 +1,7 @@
-# `datasets/gov/lrkt` — Lietuvos Respublikos Konkurencijos Taryba
+# Directory Index: `datasets/gov/lrkt`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Subdirectories
 
-* [kotis/](kotis/index.md) - Namespace `datasets/gov/lrkt/kotis` (1 dataset, 1 table)
+* [kotis/](kotis/index.md) - 1 dataset, 1 table

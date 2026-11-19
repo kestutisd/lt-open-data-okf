@@ -1,7 +1,7 @@
-# `datasets/gov/rokiskio_r_sav/institucijos_darbuotojai`
+# Directory Index: `datasets/gov/rokiskio_r_sav/institucijos_darbuotojai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [InstitucijosDarbuotojas — Rokiškio savivaldybės darbuotojai](InstitucijosDarbuotojas.md) - Spinta table datasets/gov/rokiskio_r_sav/institucijos_darbuotojai/InstitucijosDarbuotojas (12 columns).
+* [InstitucijosDarbuotojas — Rokiškio savivaldybės darbuotojai](InstitucijosDarbuotojas.md) - Rokiškio savivaldybės darbuotojai

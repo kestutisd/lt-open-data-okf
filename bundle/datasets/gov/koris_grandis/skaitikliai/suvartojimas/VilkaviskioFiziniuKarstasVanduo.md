@@ -1,25 +1,30 @@
 ---
 type: Table
 title: "VilkaviskioFiziniuKarstasVanduo — UAB „Vilkaviškio šilumos tinklų“ karšto vandens suvartojimas, už kurį moka fiziniai asmenys"
-description: "Spinta table datasets/gov/koris_grandis/skaitikliai/suvartojimas/VilkaviskioFiziniuKarstasVanduo (12 columns)."
+description: "Deklaruotas vandens ir šilumos suvartojimas"
 resource: "https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/suvartojimas/VilkaviskioFiziniuKarstasVanduo"
-tags: [gov, koris_grandis, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, koris_grandis, vilkaviskiofiziniukarstasvanduo, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L8"
+    title: "atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv#L8"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VilkaviskioFiziniuKarstasVanduo — UAB „Vilkaviškio šilumos tinklų“ karšto vandens suvartojimas, už kurį moka fiziniai asmenys
 
+**Dataset Context:** Deklaruotas vandens ir šilumos suvartojimas[^manifest]
+
 - **Model:** `datasets/gov/koris_grandis/skaitikliai/suvartojimas/VilkaviskioFiziniuKarstasVanduo`[^manifest]
-- **Dataset:** [Suvartojimas](../suvartojimas.md) (`datasets/gov/koris_grandis/skaitikliai/suvartojimas`)
-- **Manifest CSV:** [datasets/gov/koris_grandis/skaitikliai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L8)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/suvartojimas/VilkaviskioFiziniuKarstasVanduo`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Suvartojimas](../suvartojimas.md) (`datasets/gov/koris_grandis/skaitikliai/suvartojimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/koris_grandis/skaitikliai.csv#L8](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L8)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/suvartojimas/VilkaviskioFiziniuKarstasVanduo` (`deployed`)[^manifest]
+- **Provider:** `koris_grandis` — Komunaliniai suvartojimo įrašai sistemoje „GRANDIS“ *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -40,7 +45,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `moketojo_asmens_kodo_tinkamumas` | `"Tinkamas"` | — | — | Tinkamas | — |
 | `moketojo_asmens_kodo_tinkamumas` | `"Tuščia reikšmė"` | — | — | Tuščia reikšmė | — |
@@ -56,4 +61,4 @@ sources:
 | `busena` | `"Dalyvauja"` | — | — | Dalyvauja | — |
 | `busena` | `"Ištrintas"` | — | — | Ištrintas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv#L8 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L8)

@@ -1,6 +1,6 @@
-# `datasets/gov/llti/tautosakos_vaizdo_garso_irasai`
+# Directory Index: `datasets/gov/llti/tautosakos_vaizdo_garso_irasai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

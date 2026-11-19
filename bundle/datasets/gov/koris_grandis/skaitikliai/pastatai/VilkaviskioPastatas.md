@@ -1,25 +1,36 @@
 ---
 type: Table
 title: "VilkaviskioPastatas — UAB „Vilkaviškio šilumos tinklų“ aptarnaujami pastatai"
-description: "Spinta table datasets/gov/koris_grandis/skaitikliai/pastatai/VilkaviskioPastatas (10 columns)."
+description: "Pastatų nekintanti informacija"
 resource: "https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/pastatai/VilkaviskioPastatas"
-tags: [gov, koris_grandis, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, koris_grandis, vilkaviskiopastatas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L103"
+    title: "atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv#L103"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3969/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/koris_grandis/skaitikliai/pastatai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # VilkaviskioPastatas — UAB „Vilkaviškio šilumos tinklų“ aptarnaujami pastatai
 
+**Dataset Context:** Pastatų nekintanti informacija[^manifest]
+
 - **Model:** `datasets/gov/koris_grandis/skaitikliai/pastatai/VilkaviskioPastatas`[^manifest]
-- **Dataset:** [Pastatai](../pastatai.md) (`datasets/gov/koris_grandis/skaitikliai/pastatai`)
-- **Manifest CSV:** [datasets/gov/koris_grandis/skaitikliai.csv#L103](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L103)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/pastatai/VilkaviskioPastatas`
-- **Primary Key (`ref`):** `pastato_id`
-- **Level:** `4`
+- **Dataset:** [Pastatai](../pastatai.md) (`datasets/gov/koris_grandis/skaitikliai/pastatai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/koris_grandis/skaitikliai.csv#L103](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L103)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/koris_grandis/skaitikliai/pastatai/VilkaviskioPastatas` (`deployed`)[^manifest]
+- **Provider:** `koris_grandis` — Komunaliniai suvartojimo įrašai sistemoje „GRANDIS“ *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `pastato_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -38,7 +49,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `pastato_tipas` | `"BŪ namas"` | — | — | BŪ namas | — |
 | `pastato_tipas` | `"Negyvenamos patalpos"` | — | — | Negyvenamos patalpos | — |
@@ -48,4 +59,9 @@ sources:
 | `busena` | `"Dalyvauja"` | — | — | Dalyvauja | — |
 | `busena` | `"Ištrintas"` | — | — | Ištrintas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/koris_grandis/skaitikliai.csv#L103 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/koris_grandis/skaitikliai.csv#L103)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/koris_grandis/skaitikliai/pastatai (https://data.gov.lt/datasets/3969/)

@@ -1,7 +1,7 @@
-# `datasets/gov/vgtpt/teisis/patenkinti_prasymai`
+# Directory Index: `datasets/gov/vgtpt/teisis/patenkinti_prasymai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [PatenkintasPrasymas — Prašymų suteikti antrinę teisinę pagalbą patenkinimo duomenys](PatenkintasPrasymas.md) - Spinta table datasets/gov/vgtpt/teisis/patenkinti_prasymai/PatenkintasPrasymas (9 columns).
+* [PatenkintasPrasymas — Prašymų suteikti antrinę teisinę pagalbą patenkinimo duomenys](PatenkintasPrasymas.md) - Valstybės garantuojamos teisinės pagalbos tarnybos duomenų, kaupiamų Teisinės pagalbos paslaugų informacinėje sistemoje (TEISIS),duomenys apie gautų prašymų suteikti antrinę teisinę pagalbą...

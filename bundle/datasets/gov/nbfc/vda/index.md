@@ -1,6 +1,6 @@
-# `datasets/gov/nbfc/vda`
+# Directory Index: `datasets/gov/nbfc/vda`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

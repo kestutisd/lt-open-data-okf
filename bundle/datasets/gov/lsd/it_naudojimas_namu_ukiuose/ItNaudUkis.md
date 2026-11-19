@@ -3,22 +3,32 @@ type: Table
 title: "ItNaudUkis — Informacinių technologijų naudojimas namų ūkiuose"
 description: "Spinta table datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudUkis (46 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudUkis"
-tags: [gov, lsd, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, itnaudukis, deployed, level-3, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/803/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/it_naudojimas_namu_ukiuose"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # ItNaudUkis — Informacinių technologijų naudojimas namų ūkiuose
 
 - **Model:** `datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudUkis`[^manifest]
-- **Dataset:** [Informacinių technologijų naudojimas namų ūkiuose](../it_naudojimas_namu_ukiuose.md) (`datasets/gov/lsd/it_naudojimas_namu_ukiuose`)
-- **Manifest CSV:** [datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudUkis`
-- **Level:** `3`
+- **Dataset:** [Informacinių technologijų naudojimas namų ūkiuose](../it_naudojimas_namu_ukiuose.md) (`datasets/gov/lsd/it_naudojimas_namu_ukiuose`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/it_naudojimas_namu_ukiuose/ItNaudUkis` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -73,7 +83,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `comp` | `"1"` | — | — | Taip | — |
 | `comp` | `"0"` | — | — | Ne | — |
@@ -185,4 +195,5 @@ sources:
 | `hh_iq5` | `"4"` | — | — | Ketvirtasis (antrasis aukščiausias) kvintilis | — |
 | `hh_iq5` | `"5"` | — | — | Penktasis (aukščiausias) kvintilis | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/it_naudojimas_namu_ukiuose.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/it_naudojimas_namu_ukiuose (https://data.gov.lt/datasets/803/)

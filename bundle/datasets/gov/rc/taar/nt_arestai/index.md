@@ -1,7 +1,7 @@
-# `datasets/gov/rc/taar/nt_arestai`
+# Directory Index: `datasets/gov/rc/taar/nt_arestai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [NTArestas](NTArestas.md) - Spinta table datasets/gov/rc/taar/nt_arestai/NTArestas (9 columns).
+* [NTArestas](NTArestas.md) - Turto arešto aktų registro nuasmeninti duomenys (RAW DATA) apie areštuojamą nekilnojamąjį turtą, nekilnojamojo turto tipą ir potipį, turto arešto aktų jų statusus, įregistravimo / išregistravimo...

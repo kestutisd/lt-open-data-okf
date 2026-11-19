@@ -1,7 +1,7 @@
-# `datasets/gov/rc/ais/aukcionu_dalyviai`
+# Directory Index: `datasets/gov/rc/ais/aukcionu_dalyviai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [AukcionoDalyvis — Aukcionų ir elektroninių varžytynių dalyvių duomenys iš AIS](AukcionoDalyvis.md) - Spinta table datasets/gov/rc/ais/aukcionu_dalyviai/AukcionoDalyvis (6 columns).
+* [AukcionoDalyvis — Aukcionų ir elektroninių varžytynių dalyvių duomenys iš AIS](AukcionoDalyvis.md) - Aukcionų ir elektroninių varžytynių dalyvių duomenys iš AIS (pagal elektroninių varžytynių / aukcionų rūšį registruota dalyvių, aktyvių dalyvių).

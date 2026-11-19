@@ -3,29 +3,33 @@ type: Table
 title: "VezysRegistras — Lietuvos Vėžio Registras"
 description: "Spinta table datasets/gov/nvi/vezio_registras/VezysRegistras (27 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/nvi/vezio_registras/VezysRegistras"
-tags: [gov, nvi, deployed, level-3]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, nvi, vezysregistras, deployed, level-3]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/nvi/vezio_registras.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvi/vezio_registras.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/nvi/vezio_registras.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # VezysRegistras — Lietuvos Vėžio Registras
 
 - **Model:** `datasets/gov/nvi/vezio_registras/VezysRegistras`[^manifest]
-- **Dataset:** [datasets/gov/nvi/vezio_registras](../vezio_registras.md) (`datasets/gov/nvi/vezio_registras`)
-- **Manifest CSV:** [datasets/gov/nvi/vezio_registras.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvi/vezio_registras.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvi/vezio_registras/VezysRegistras`
-- **Level:** `3`
+- **Dataset:** [datasets/gov/nvi/vezio_registras](../vezio_registras.md) (`datasets/gov/nvi/vezio_registras`)[^manifest]
+- **Manifest CSV:** [datasets/gov/nvi/vezio_registras.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvi/vezio_registras.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/nvi/vezio_registras/VezysRegistras` (`deployed`)[^manifest]
+- **Provider:** `nvi` — Nacionalinis vėžio institutas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `3`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `amz_gr` | `string` | — | `4` | `open` | — | Amžiaus grupė | — |
-| `apskritis` | `ref` | [/datasets/gov/rc/ar/apskritis/Apskritis](../../rc/ar/apskritis/Apskritis.md) | `4` | `open` | — | Paciento apskritis | — |
+| `apskritis` | `ref` | [Apskritis](../../rc/ar/apskritis/Apskritis.md) (`level=4 UUID`: `apskritis._id`) | `4` | `open` | — | Paciento apskritis | — |
 | `cm` | `string` | — | `4` | `open` | — | Klininkinė klasifikacija – cTNM M dalis | M – tolimosios metastazės |
 | `cn` | `string` | — | `4` | `open` | — | Klinikinė klasifikacija – cTNM N dalis | N – regioniniai limfmazgiai |
 | `ct` | `string` | — | `4` | `open` | — | Klinikinė klasifikacija – cTNM T dalis | T – pirminis navikas |
@@ -33,7 +37,7 @@ sources:
 | `is_apl` | `string` | — | `4` | `open` | — | Išaiškinimo aplinkybės | — |
 | `lat` | `string` | — | `4` | `open` | — | Laterališkumas | — |
 | `lok_grupe` | `string` | — | `4` | `open` | — | Lokalizacijų grupė | — |
-| `lok_tlk10` | `ref` | [/datasets/gov/vlk/tlk10am/Tlk10am](../../vlk/tlk10am/Tlk10am.md) | `4` | `open` | — | Lokalizacijų grupės TLK-10 kodai | — |
+| `lok_tlk10` | `ref` | [Tlk10am](../../vlk/tlk10am/Tlk10am.md) (`level=4 UUID`: `lok_tlk10._id`) | `4` | `open` | — | Lokalizacijų grupės TLK-10 kodai | — |
 | `lytis` | `string` | — | `4` | `open` | — | Paciento lytis | — |
 | `metai` | `integer` | — | `2` | `open` | — | Diagnozės nustatymo metai | — |
 | `mrfg` | `string` | — | `2` | `open` | — | Morfologijos diferenciacijos laipsnis | — |
@@ -54,7 +58,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `is_apl` | `"Išaiškinta profilaktiškai"` | — | — | Išaiškinta profilaktiškai | — |
 | `is_apl` | `"Kreipėsi savarankiškai"` | — | — | Kreipėsi savarankiškai | — |
@@ -90,4 +94,8 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/nvi/vezio_registras.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/nvi/vezio_registras.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/nvi/vezio_registras.csv#L5)

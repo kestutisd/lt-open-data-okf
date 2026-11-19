@@ -3,22 +3,32 @@ type: Table
 title: "PakuociuTiekimasVidausRinkai — Pakuočių tiekimo vidaus rinkai apskaitos duomenys"
 description: "Spinta table datasets/gov/aaa/pakuociu_tiekimas/PakuociuTiekimasVidausRinkai (3 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/pakuociu_tiekimas/PakuociuTiekimasVidausRinkai"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, pakuociutiekimasvidausrinkai, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/pakuociu_tiekimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/pakuociu_tiekimas.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/pakuociu_tiekimas.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1785/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/pakuociu_tiekimas"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # PakuociuTiekimasVidausRinkai — Pakuočių tiekimo vidaus rinkai apskaitos duomenys
 
 - **Model:** `datasets/gov/aaa/pakuociu_tiekimas/PakuociuTiekimasVidausRinkai`[^manifest]
-- **Dataset:** [datasets/gov/aaa/pakuociu_tiekimas](../pakuociu_tiekimas.md) (`datasets/gov/aaa/pakuociu_tiekimas`)
-- **Manifest CSV:** [datasets/gov/aaa/pakuociu_tiekimas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/pakuociu_tiekimas.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/pakuociu_tiekimas/PakuociuTiekimasVidausRinkai`
-- **Level:** `2`
+- **Dataset:** [Pakuočių tiekimo vidaus rinkai apskaitos duomenys](../pakuociu_tiekimas.md) (`datasets/gov/aaa/pakuociu_tiekimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/pakuociu_tiekimas.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/pakuociu_tiekimas.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/pakuociu_tiekimas/PakuociuTiekimasVidausRinkai` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -30,7 +40,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `medziaga` | `"Stiklinė"` | — | — | Stiklinė pakuotė | — |
 | `medziaga` | `"Plastikinė"` | — | — | Plastikinė pakuotė | — |
@@ -51,4 +61,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/pakuociu_tiekimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/pakuociu_tiekimas.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/pakuociu_tiekimas.csv#L4)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/pakuociu_tiekimas (https://data.gov.lt/datasets/1785/)

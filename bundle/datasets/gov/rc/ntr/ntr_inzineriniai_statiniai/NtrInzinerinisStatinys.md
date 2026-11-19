@@ -3,34 +3,43 @@ type: Table
 title: "NtrInzinerinisStatinys"
 description: "Spinta table datasets/gov/rc/ntr/ntr_inzineriniai_statiniai/NtrInzinerinisStatinys (57 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai/NtrInzinerinisStatinys"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, ntrinzinerinisstatinys, deployed, level-4, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1814/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # NtrInzinerinisStatinys
 
 - **Model:** `datasets/gov/rc/ntr/ntr_inzineriniai_statiniai/NtrInzinerinisStatinys`[^manifest]
-- **Dataset:** [Nekilnojamojo turto registre įregistruotų inžinerinių statinių duomenys pagal savivaldybes](../ntr_inzineriniai_statiniai.md) (`datasets/gov/rc/ntr/ntr_inzineriniai_statiniai`)
-- **Manifest CSV:** [datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai/NtrInzinerinisStatinys`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
+- **Dataset:** [Nekilnojamojo turto registre įregistruotų inžinerinių statinių duomenys pagal savivaldybes](../ntr_inzineriniai_statiniai.md) (`datasets/gov/rc/ntr/ntr_inzineriniai_statiniai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai/NtrInzinerinisStatinys` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
 | Property | Type | Ref | Level | Access | URI | Title | Description |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `id` | `integer` | — | `4` | `open` | — | Identifikatorius | Inžinerinio statinio identifikatorius šiame duomenų rinkinyje |
-| `savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) | `4` | `open` | — | Savivaldybė | Savivaldybės, kurioje yra inžinerinis statinys, pavadinimas |
-| `seniunija` | `ref` | [/datasets/gov/rc/ar/seniunija/Seniunija](../../ar/seniunija/Seniunija.md) | `4` | `open` | — | Seniūnija | Savivaldybėje esančios seniūnijos, kurioje yra inžinerinis statinys, pavadinimas |
+| `savivaldybe` | `ref` | [Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) (`level=4 UUID`: `savivaldybe._id`) | `4` | `open` | — | Savivaldybė | Savivaldybės, kurioje yra inžinerinis statinys, pavadinimas |
+| `seniunija` | `ref` | [Seniunija](../../ar/seniunija/Seniunija.md) (`level=4 UUID`: `seniunija._id`) | `4` | `open` | — | Seniūnija | Savivaldybėje esančios seniūnijos, kurioje yra inžinerinis statinys, pavadinimas |
 | `statinio_kategorija` | `integer` | — | `3` | `open` | — | Statinio kategorija | Statinio rūšis pagal LR statybos įstatymą. Nuo statinio kategorijos priklauso koks projektas turi būti parengtas, kokie reikalavimai keliami projekto vadovui ir kitiems statybos techninės veiklos pagrindinių sričių (STVPS) vadovams ir statybą leidžiančio dokumento (SLD) privalomumas. |
-| `obje_tipas` | `ref` | [/datasets/gov/rc/ntr/ntr_objektai/NtrObjektoTipas](../ntr_objektai/NtrObjektoTipas.md) | `4` | `open` | — | Objekto tipas | Inžinerinio statinio tipas |
-| `pask_tipas` | `ref` | [/datasets/gov/rc/ntr/ntr_paskirtys/NtrPaskirtiesTipas](../ntr_paskirtys/NtrPaskirtiesTipas.md) | `4` | `open` | — | Paskirties tipas | Inžinerinio statinio paskirtis |
+| `obje_tipas` | `ref` | [NtrObjektoTipas](../ntr_objektai/NtrObjektoTipas.md) (`level=4 UUID`: `obje_tipas._id`) | `4` | `open` | — | Objekto tipas | Inžinerinio statinio tipas |
+| `pask_tipas` | `ref` | [NtrPaskirtiesTipas](../ntr_paskirtys/NtrPaskirtiesTipas.md) (`level=4 UUID`: `pask_tipas._id`) | `4` | `open` | — | Paskirties tipas | Inžinerinio statinio paskirtis |
 | `stat_pradzios_metai` | `integer` | — | `3` | `open` | — | Statybos pradžios metai | Inžinerinio statinio statybos pradžios metai |
 | `stat_pabaigos_metai` | `integer` | — | `3` | `open` | — | Statybos pabaigos metai | Inžinerinio statinio statybos užbaigimo metai |
 | `rekonstr_pradzios_metai` | `integer` | — | `3` | `open` | — | Rekonstrukcijos pradžios metai | Inžinerinio statinio rekonstrukcijos pradžios metai |
@@ -83,4 +92,9 @@ sources:
 | `naftotiekio_linijos_reiksme` | `integer` | — | `2` | `open` | — | Naftotiekio linijos reikšmė | Naftotiekio linijos reikšmė |
 | `irenginiu_parko_rusis` | `integer` | — | `2` | `open` | — | Įrenginių parko rūšis | Įrenginių parko rūšis |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/ntr/ntr_inzineriniai_statiniai.csv#L5)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rc/ntr/ntr_inzineriniai_statiniai (https://data.gov.lt/datasets/1814/)

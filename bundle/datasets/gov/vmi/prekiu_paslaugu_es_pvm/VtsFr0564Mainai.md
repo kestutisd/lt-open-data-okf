@@ -3,22 +3,32 @@ type: Table
 title: "VtsFr0564Mainai — FR0564_DUOMENYS"
 description: "Spinta table datasets/gov/vmi/prekiu_paslaugu_es_pvm/VtsFr0564Mainai (12 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vmi/prekiu_paslaugu_es_pvm/VtsFr0564Mainai"
-tags: [gov, vmi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vmi, vtsfr0564mainai, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1175/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vmi/prekiu_paslaugu_es_pvm"
+    author: "team:vda"
+    last_modified: "2026-03-09T00:00:00Z"
 ---
 
 # VtsFr0564Mainai — FR0564_DUOMENYS
 
 - **Model:** `datasets/gov/vmi/prekiu_paslaugu_es_pvm/VtsFr0564Mainai`[^manifest]
-- **Dataset:** [Prekių tiekimo ir paslaugų teikimo kitų ES šalių PVM mokėtojams vertės](../prekiu_paslaugu_es_pvm.md) (`datasets/gov/vmi/prekiu_paslaugu_es_pvm`)
-- **Manifest CSV:** [datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/prekiu_paslaugu_es_pvm/VtsFr0564Mainai`
-- **Level:** `4`
+- **Dataset:** [Prekių tiekimo ir paslaugų teikimo kitų ES šalių PVM mokėtojams vertės](../prekiu_paslaugu_es_pvm.md) (`datasets/gov/vmi/prekiu_paslaugu_es_pvm`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vmi/prekiu_paslaugu_es_pvm/VtsFr0564Mainai` (`deployed`)[^manifest]
+- **Provider:** `vmi` — Valstybinė mokesčių inspekcija *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-03-09`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -50,4 +60,9 @@ sources:
 | `trikampe_prekyba` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `paslaugu_verte` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv
+# Related References
+
+- [EVRK 2 / NACE Rev. 2 & 2025-01-01 EVRK 2.1 Reference](../../../../references/evrk-nace-sekcijos.md) — 21 NACE sections, 88 divisions, and the 2025-01-01 section letter shift & Division 45 split.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vmi/prekiu_paslaugu_es_pvm.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vmi/prekiu_paslaugu_es_pvm (https://data.gov.lt/datasets/1175/)

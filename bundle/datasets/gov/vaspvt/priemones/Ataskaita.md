@@ -3,24 +3,32 @@ type: Table
 title: "Ataskaita — Ataskaita"
 description: "Spinta table datasets/gov/vaspvt/priemones/Ataskaita (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vaspvt/priemones/Ataskaita"
-tags: [gov, vaspvt, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vaspvt, ataskaita, deployed, level-4, cadence-quarterly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L352"
+    title: "atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv#L352"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2310/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vaspvt/priemones"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Ataskaita — Ataskaita
 
 - **Model:** `datasets/gov/vaspvt/priemones/Ataskaita`[^manifest]
-- **Dataset:** [Sveikatos priežiūros technologijų, susijusių su medicinos prietaisais, vertinimo ir valdymo duomenys](../priemones.md) (`datasets/gov/vaspvt/priemones`)
-- **Manifest CSV:** [datasets/gov/vaspvt/medicinos_iranga.csv#L352](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L352)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vaspvt/priemones/Ataskaita`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Sveikatos priežiūros technologijų, susijusių su medicinos prietaisais, vertinimo ir valdymo duomenys](../priemones.md) (`datasets/gov/vaspvt/priemones`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vaspvt/medicinos_iranga.csv#L352](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L352)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vaspvt/priemones/Ataskaita` (`deployed`)[^manifest]
+- **Provider:** `vaspvt` — Valstybinė akreditavimo sveikatos priežiūros veiklai tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUARTERLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -45,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `tipas` | `"1"` | — | — | Medicinos priemones | Darbo su medicinos priemonemis ataskaita |
 | `tipas` | `"2"` | — | — | Priemoniu i6laidu ataskaita | Medicinos priemoniu islaidu ataskaita |
@@ -58,4 +66,5 @@ sources:
 | `naudotojo_tipas` | `"1"` | — | — | Vidinis | Ataskaitas tikrina VASPVT |
 | `naudotojo_tipas` | `"2"` | — | — | Isorinis | Ataskaita teikia istaigu atstovai |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vaspvt/medicinos_iranga.csv#L352 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vaspvt/medicinos_iranga.csv#L352)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vaspvt/priemones (https://data.gov.lt/datasets/2310/)

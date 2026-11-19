@@ -1,6 +1,6 @@
-# `datasets/gov/eimin/prof_patirt_patvirtinimas`
+# Directory Index: `datasets/gov/eimin/prof_patirt_patvirtinimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

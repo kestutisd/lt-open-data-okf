@@ -2,23 +2,26 @@
 type: Table
 title: "CustomsOfficeNationalRole"
 description: "Spinta table datasets/gov/muitine/muitines_funkcijos/CustomsOfficeNationalRole (6 columns)."
-tags: [gov, muitine, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, muitine, customsofficenationalrole, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/muitine/muitines_funkcijos.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_funkcijos.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/muitine/muitines_funkcijos.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # CustomsOfficeNationalRole
 
 - **Model:** `datasets/gov/muitine/muitines_funkcijos/CustomsOfficeNationalRole`[^manifest]
-- **Dataset:** [datasets/gov/muitine/muitines_funkcijos](../muitines_funkcijos.md) (`datasets/gov/muitine/muitines_funkcijos`)
-- **Manifest CSV:** [datasets/gov/muitine/muitines_funkcijos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_funkcijos.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `code`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/muitine/muitines_funkcijos](../muitines_funkcijos.md) (`datasets/gov/muitine/muitines_funkcijos`)[^manifest]
+- **Manifest CSV:** [datasets/gov/muitine/muitines_funkcijos.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_funkcijos.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `muitine` — Muitinės departamentas prie LR FM *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `code`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -38,4 +41,4 @@ sources:
 | `description_lt` | `update(property: "description@lt", type: "text")` | `type` | `4` | `open` | — | — | — |
 | `description_en` | `update(property: "description@en", type: "text")` | `type` | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/muitine/muitines_funkcijos.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/muitine/muitines_funkcijos.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/muitine/muitines_funkcijos.csv#L6)

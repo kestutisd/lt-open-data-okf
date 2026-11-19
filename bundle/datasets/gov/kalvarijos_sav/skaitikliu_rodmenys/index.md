@@ -1,6 +1,6 @@
-# `datasets/gov/kalvarijos_sav/skaitikliu_rodmenys`
+# Directory Index: `datasets/gov/kalvarijos_sav/skaitikliu_rodmenys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

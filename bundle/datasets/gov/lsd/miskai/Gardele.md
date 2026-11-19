@@ -3,23 +3,34 @@ type: Table
 title: "Gardele — Miškų būklės tyrimo duomenys gardelių (1x1 km) lygmeniu"
 description: "Miškų būklės tyrimo duomenys, parengti pagal projekto „Bandomosios ekosistemų apimties ir miškų būklės sąskaitos“ duomenis, gardelių (1x1 km) lygmeniu."
 resource: "https://get.data.gov.lt/datasets/gov/lsd/miskai/Gardele"
-tags: [gov, lsd, deployed]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lsd, gardele, deployed, cadence-triennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lsd/misku_bukle.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/misku_bukle.csv#L48"
+    title: "atviriduomenys/manifest — datasets/gov/lsd/misku_bukle.csv#L48"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2066/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/lsd/miskai"
+    author: "team:vda"
+    last_modified: "2026-10-20T00:00:00Z"
 ---
 
 # Gardele — Miškų būklės tyrimo duomenys gardelių (1x1 km) lygmeniu
 
-Miškų būklės tyrimo duomenys, parengti pagal projekto „Bandomosios ekosistemų apimties ir miškų būklės sąskaitos“ duomenis, gardelių (1x1 km) lygmeniu.
+Miškų būklės tyrimo duomenys, parengti pagal projekto „Bandomosios ekosistemų apimties ir miškų būklės sąskaitos“ duomenis, gardelių (1x1 km) lygmeniu.[^manifest]
 
 - **Model:** `datasets/gov/lsd/miskai/Gardele`[^manifest]
-- **Dataset:** [Miškų būklės tyrimo duomenys](../miskai.md) (`datasets/gov/lsd/miskai`)
-- **Manifest CSV:** [datasets/gov/lsd/misku_bukle.csv#L48](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/misku_bukle.csv#L48)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/miskai/Gardele`
+- **Dataset:** [Miškų būklės tyrimo duomenys](../miskai.md) (`datasets/gov/lsd/miskai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lsd/misku_bukle.csv#L48](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/misku_bukle.csv#L48)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lsd/miskai/Gardele` (`deployed`)[^manifest]
+- **Provider:** `lsd` — Valstybės duomenų agentūra (VDA, buv. Lietuvos statistikos departamentas) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `—`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `TRIENNIAL`, Modified `2026-10-20`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -27,12 +38,12 @@ Miškų būklės tyrimo duomenys, parengti pagal projekto „Bandomosios ekosist
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `x` | `integer` | — | `2` | `open` | — | gardelės pietvakarinio kampo 'x' koordinatė (LKS94) | — |
 | `y` | `integer` | — | `2` | `open` | — | gardelės pietvakarinio kampo 'y' koordinatė (LKS94) | — |
-| `grid_id` | `ref` | [/datasets/gov/lsd/grid/Grid1KmSq](../grid/Grid1KmSq.md) | `4` | `open` | — | gardelės identifikacinis numeris | — |
+| `grid_id` | `ref` | [Grid1KmSq](../grid/Grid1KmSq.md) (`level=4 UUID`: `grid_id._id`) | `4` | `open` | — | gardelės identifikacinis numeris | — |
 | `x_centroid` | `integer` | — | `2` | `open` | — | gardelės centro 'x' koordinatė (LKS94) | — |
 | `y_centroid` | `integer` | — | `2` | `open` | — | gardelės centro 'y' koordinatė (LKS94) | — |
-| `dregl_p` | `number` | `%` | `4` | `open` | — | pelkinių durpinių dirvožemių dalis 2021 m. | Pelkiniai durpiniai dirvožemiai miškų ekosistemose yra svarbūs gamtiniu požiūriu. Pelkinių miškų buveinės pasižymi savitu hidrologiniu režimu ir šioms buveinėms būdingais medynais bei samanų danga. Pelkinių miškų buveines siekiama atkurti ir išlaikyti tipingose vietose ne tik nacionaliniu, bet ir tarptautiniais mastais. Pelkiniai miškai yra svarbūs ir vertingi visose miško sukcesijos stadijose. Natūraliai išnykusi pelkinių miškų buveinė dažniausiai transformuojasi į kitus natūralių miškų tipus. Kartu pelkiniai miškai pasižymi išskirtiniu durpingo sluoksnio kaupimo mastu, todėl vaidina svarbų vaidmenį šiltnamio dujų apykaitoje. Akivaizdu, kad pelkiniai miškai, kaip natūrali miškų buveinė, prisideda prie stabilios ekologinės būklės, todėl pelkinių durpinių dirvožemių, kuriuose šie miškai auga, dalis erdviniame vienete yra vertingas kaip abiotinės ekosistemos fizikinę būklę apibūdinantis rodiklis. |
+| `dregl_p` | `number` | `%` | `4` | `open` | — | pelkinių durpinių dirvožemių dalis 2021 m. | Pelkiniai durpiniai dirvožemiai miškų ekosistemose yra svarbūs gamtiniu požiūriu. Pelkinių miškų buveinės pasižymi savitu hidrologiniu režimu ir šioms buveinėms būdingais medynais bei samanų danga. Pelkinių miškų buveines siekiama atkurti ir išlaikyti tipingose vietose ne tik nacionaliniu, bet ir tarptautiniais mastais.Pelkiniai miškai yra svarbūs ir vertingi visose miško sukcesijos stadijose. Natūraliai išnykusi pelkinių miškų buveinė dažniausiai transformuojasi į kitus natūralių miškų tipus. Kartu pelkiniai miškai pasižymi išskirtiniu durpingo sluoksnio kaupimo mastu, todėl vaidina svarbų vaidmenį šiltnamio dujų apykaitoje. Akivaizdu, kad pelkiniai miškai, kaip natūrali miškų buveinė, prisideda prie stabilios ekologinės būklės, todėl pelkinių durpinių dirvožemių, kuriuose šie miškai auga, dalis erdviniame vienete yra vertingas kaip abiotinės ekosistemos fizikinę būklę apibūdinantis rodiklis. |
 | `dregl_m` | `number` | `%` | `4` | `open` | — | pelkinių durpinių nusausintų dirvožemių dalis 2021 m. | Pelkiniai durpiniai nusausinti dirvožemiai išskirtinai siejami su ūkine žmogaus veikla. Melioracija – tai priemonės, kuriomis ilgam laikui pakeičiamas dirvožemio hidrologinis, oro, šilumos, maisto medžiagų režimas, o kartu ir gamtinės sąlygos. Akivaizdu, kad siekiant išlaikyti natūralias buveines bei stabilią ekologinę aplinką, melioracija, t. y. dirvožemių sausinimas, negali būti laikoma pageidautinu reiškiniu. |
-| `c_dirv_ha` | `number` | — | `4` | `open` | — | vidutinis suminis dirvožemio organinės anglies (DOC) kiekis 1 ha 2021 m. | Klimato kaitos kontekste ypač svarbų vaidmenį įgavo metodinės priemonės, padedančios apskaičiuoti anglies migraciją bei akumuliaciją. Vienas pagrindinių anglies akumuliacijos šaltinių yra dirvožemis, kurį reikia ne tik apsaugoti, bet anglies kiekį jame kiek įmanoma didinti. Anglies akumuliavimas dirvožemio ilgaamžėse formose teigiamai veikia dirvožemio ir visos ekosistemos kokybę, ir tuo pačiu yra perspektyvus būdas mažinant klimato kaitą bei švelninat globalines klimato šiltėjimo pasekmes. Matavimo vienetas - C ekv. (t)/ha |
+| `c_dirv_ha` | `number` | — | `4` | `open` | — | vidutinis suminis dirvožemio organinės anglies (DOC) kiekis 1 ha 2021 m. | Klimato kaitos kontekste ypač svarbų vaidmenį įgavo metodinės priemonės, padedančios apskaičiuoti anglies migraciją bei akumuliaciją.Vienas pagrindinių anglies akumuliacijos šaltinių yra dirvožemis, kurį reikia ne tik apsaugoti, bet anglies kiekį jame kiek įmanoma didinti. Anglies akumuliavimas dirvožemio ilgaamžėse formose teigiamai veikia dirvožemio ir visos ekosistemos kokybę, ir tuo pačiu yra perspektyvus būdas mažinant klimato kaitą bei švelninat globalines klimato šiltėjimo pasekmes. Matavimo vienetas - C ekv. (t)/ha |
 | `misrus` | `number` | `%` | `4` | `open` | — | mišrių medynų dalis 2021 m. | Lietuva priskiriama vidutinio klimato borealinių miškų zonai (angl. temperate-boreal forests), kuriems gryni, t. y. vienos rūšies, medynai nėra būdingi – vyrauja mišrūs medynai. Mišrūs medynai – medynai, kurių pirmojo ardo vyraujančios rūšies medžių tūris sudaro mažiau kaip 86 proc. medyno pirmojo ardo tūrio. Mišrūs medynai yra vertingi gamtiniu požiūriu – jie pasižymi didesne bioįvairove nei gryni medynai. Siekis didinti mišrių (įvairiarūšių) medynų plotus yra įvardinamas Lietuvos Respublikos teritorijos bendrajame plane 2030. Mišrūs medynai yra atsparesni klimato kaitai ir su ja susijusiomis stichijomis, kaip vėjovartos, vėjolaužos, žievėgraužio tipografo invazijos, kt. |
 | `savaiminiai` | `number` | `%` | `4` | `open` | — | natūraliai atsikuriančių medynų dalis 2021 m. | Natūraliai atsikuriantys medynai atsikuria savaiminiu būdu. Juos galima prilyginti natūralių ar pusiau natūralių buveinių (angl. natural and semi-natural habitats) tipui. Biologinės įvairovės požiūriu tokie miškai vertingi, nes savaime atsikuriantys miškai yra labiausiai prisitaikę prie dirvožemio ir klimato sąlygų, juose gausu bioįvairovės, neretai jie ir greičiau „pasensta“ (nes savaime atsikuriančių medžių rūšys dažniausiai greičiau pasiekia gamtinę brandą), prasideda puvimo procesai, kas biologinės įvairovės požiūriu dar labiau sustiprina ekologinį miško vaidmenį. Dauguma, su ekologija susijusių specialistų išsako siekį, kad kuo daugiau miškų atsikurtų savaiminiu arba mišriu būdu. |
 | `zeldiniai` | `number` | `%` | `4` | `open` | — | atželdintų medynų dalis 2021 m. | Atželdinti medynai. Dirbtinu būdu įveisiant mišką (želdant) savo srities specialistai (miškininkai) parenka tikslines medžių rūšis (atsižvelgiant į miško augavietę), numatoma tikslinė medynų sudėtis, kurios bus siekiama miško brandos amžiuje. Tokie medynai yra vertingi ūkiniu požiūriu, nes dažniausiai yra želdoma tokiomis medžių rūšimis kaip pušis ar eglė, kurių mediena vertinga ekonomiškai. Be to, šios rūšys yra ilgaamžiškesnės (pvz. baltalksnis gamtinę brandą pasiekia jau 51 m., kai tuo tarpu eglė – 121 m., pušis – 171 m., o ąžuolas net 201 m.), tinkamai parinktos medžių rūšys gerai prisitaikiusios prie klimato kaitos sąlygų, sekant mokslines studijas galima ugdyti medynus, kurie būtų prisitaikę prie klimato kaitos, atsparūs stichinėms nelaimėms. |
@@ -63,4 +74,5 @@ Miškų būklės tyrimo duomenys, parengti pagal projekto „Bandomosios ekosist
 | `x_pamiskes` | `number` | `m` | `4` | `open` | — | vidutinis pamiškių ilgis 1 ha 200x m. | — |
 | `x_euc_dist` | `number` | — | `4` | `open` | — | euklidinis atstumas iki miško 200x m. | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/misku_bukle.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lsd/misku_bukle.csv#L48 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lsd/misku_bukle.csv#L48)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/lsd/miskai (https://data.gov.lt/datasets/2066/)

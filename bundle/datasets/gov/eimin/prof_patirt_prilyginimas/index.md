@@ -1,7 +1,7 @@
-# `datasets/gov/eimin/prof_patirt_prilyginimas`
+# Directory Index: `datasets/gov/eimin/prof_patirt_prilyginimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [ProfesijPatirtPrilyginimas — Užsienio piliečių profesinės patirties prilyginimo aukštojo mokslo kvalifikacijai...](ProfesijPatirtPrilyginimas.md) - Statistinis duomenų rinkinys apie profesinės patirties prilyginimui aukštojo mokslo kvalifikacijai išduodamus dokumentus trečiosios valstybės piliečiams, siekiantiems dirbti...
+* [ProfesijPatirtPrilyginimas — Užsienio piliečių profesinės patirties prilyginimo aukštojo mokslo kvalifikacijai...](ProfesijPatirtPrilyginimas.md) - Statistinis duomenų rinkinys apie profesinės patirties prilyginimui aukštojo mokslo kvalifikacijai išduodamus dokumentus trečiosios valstybės piliečiams, siekiantiems dirbti aukštos profesinės...

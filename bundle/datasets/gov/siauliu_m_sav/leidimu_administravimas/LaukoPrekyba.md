@@ -3,25 +3,34 @@ type: Table
 title: "LaukoPrekyba — Šiaulių miesto savivaldybės išduoti leidimai lauko mažmeninei prekybai"
 description: "Informacija apie Šiaulių miesto savivaldybės išduotus leidimus lauko mažmeninei prekybai"
 resource: "https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/LaukoPrekyba"
-tags: [gov, siauliu_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, siauliu_m_sav, laukoprekyba, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90"
+    title: "atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2912/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/siauliu_m_sav/leidimu_administravimas"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # LaukoPrekyba — Šiaulių miesto savivaldybės išduoti leidimai lauko mažmeninei prekybai
 
-Informacija apie Šiaulių miesto savivaldybės išduotus leidimus lauko mažmeninei prekybai
+Informacija apie Šiaulių miesto savivaldybės išduotus leidimus lauko mažmeninei prekybai[^manifest]
 
 - **Model:** `datasets/gov/siauliu_m_sav/leidimu_administravimas/LaukoPrekyba`[^manifest]
-- **Dataset:** [Šiaulių miesto savivaldybės išduoti leidimai ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/siauliu_m_sav/leidimu_administravimas`)
-- **Manifest CSV:** [datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/LaukoPrekyba`
-- **Primary Key (`ref`):** `leidimo_id`
-- **Level:** `4`
+- **Dataset:** [Šiaulių miesto savivaldybės išduoti leidimai ir jų apmokėjimai](../leidimu_administravimas.md) (`datasets/gov/siauliu_m_sav/leidimu_administravimas`)[^manifest]
+- **Manifest CSV:** [datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/siauliu_m_sav/leidimu_administravimas/LaukoPrekyba` (`deployed`)[^manifest]
+- **Provider:** `siauliu_m_sav` — Šiaulių miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `leidimo_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -46,7 +55,7 @@ Informacija apie Šiaulių miesto savivaldybės išduotus leidimus lauko mažmen
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `leidimo_numeris` | `"LaukoPrekyba.LaukoPrekyba"` | — | — | Lauko prekyba | — |
 | `asmens_tipas` | `"LietuvosJuridinis"` | — | — | Juridinis asmuo įsisteigęs Lietuvoje | — |
@@ -56,4 +65,5 @@ Informacija apie Šiaulių miesto savivaldybės išduotus leidimus lauko mažmen
 | `vda_asmens_tipas` | `"Fizinis asmuo"` | — | — | Fizinis asmuo Lietuvos pilietis | — |
 | `vda_asmens_tipas` | `"Kita"` | — | — | Nenustatytas asmuo | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/siauliu_m_sav/leidimu_administravimas.csv#L90)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/siauliu_m_sav/leidimu_administravimas (https://data.gov.lt/datasets/2912/)

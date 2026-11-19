@@ -1,6 +1,6 @@
-# `datasasets/gov/ivpk/svetainiu_atitikties_vertinimas`
+# Directory Index: `datasasets/gov/ivpk/svetainiu_atitikties_vertinimas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

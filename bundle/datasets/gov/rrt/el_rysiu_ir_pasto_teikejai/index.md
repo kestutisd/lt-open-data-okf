@@ -1,7 +1,7 @@
-# `datasets/gov/rrt/el_rysiu_ir_pasto_teikejai`
+# Directory Index: `datasets/gov/rrt/el_rysiu_ir_pasto_teikejai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [ElRysiaiPastasTeikejas — Elektroninių ryšių bei pašto paslaugų teikėjai ir jų pateiktų periodinių ataskaitų statistika](ElRysiaiPastasTeikejas.md) - Lentelėje pateikiama Lietuvos Respublikos ryšių reguliavimo tarnybai pateiktų pašto paslaugų ir elektroninių ryšių ataskaitų statistika.
+* [ElRysiaiPastasTeikejas — Elektroninių ryšių bei pašto paslaugų teikėjai ir jų pateiktų periodinių ataskaitų statistika](ElRysiaiPastasTeikejas.md) - "Lentelėje pateikiama Lietuvos Respublikos ryšių reguliavimo tarnybai pateiktų pašto paslaugų ir elektroninių ryšių ataskaitų statistika.

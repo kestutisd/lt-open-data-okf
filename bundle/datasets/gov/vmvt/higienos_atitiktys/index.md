@@ -1,6 +1,6 @@
-# `datasets/gov/vmvt/higienos_atitiktys`
+# Directory Index: `datasets/gov/vmvt/higienos_atitiktys`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

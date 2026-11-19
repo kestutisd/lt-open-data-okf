@@ -3,25 +3,28 @@ type: Table
 title: "LKAPunktas — LKA punktai"
 description: "Lentelėje pateikiami LKA punktų erdviniai taškai ir jų atributai: gyvenvietės pavadinimas, statusas, LKA punkto numeracija, savivaldybė, seniūnija, tarmės identifikatorius ir pavadinimas bei koordinačių sistema."
 resource: "https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/LKAPunktas"
-tags: [gov, lki, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, lki, lkapunktas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L140"
+    title: "atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv#L140"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # LKAPunktas — LKA punktai
 
-Lentelėje pateikiami LKA punktų erdviniai taškai ir jų atributai: gyvenvietės pavadinimas, statusas, LKA punkto numeracija, savivaldybė, seniūnija, tarmės identifikatorius ir pavadinimas bei koordinačių sistema.
+Lentelėje pateikiami LKA punktų erdviniai taškai ir jų atributai: gyvenvietės pavadinimas, statusas, LKA punkto numeracija, savivaldybė, seniūnija, tarmės identifikatorius ir pavadinimas bei koordinačių sistema.[^manifest]
 
 - **Model:** `datasets/gov/lki/gyventoju_surasymas_2011/LKAPunktas`[^manifest]
-- **Dataset:** [datasets/gov/lki/gyventoju_surasymas_2011](../gyventoju_surasymas_2011.md) (`datasets/gov/lki/gyventoju_surasymas_2011`)
-- **Manifest CSV:** [datasets/gov/lki/gyventoju_surasymas_2011.csv#L140](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L140)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/LKAPunktas`
-- **Primary Key (`ref`):** `feature_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/lki/gyventoju_surasymas_2011](../gyventoju_surasymas_2011.md) (`datasets/gov/lki/gyventoju_surasymas_2011`)[^manifest]
+- **Manifest CSV:** [datasets/gov/lki/gyventoju_surasymas_2011.csv#L140](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L140)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/lki/gyventoju_surasymas_2011/LKAPunktas` (`deployed`)[^manifest]
+- **Provider:** `lki` — Lietuvių kalbos institutas *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `feature_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -45,4 +48,4 @@ Lentelėje pateikiami LKA punktų erdviniai taškai ir jų atributai: gyvenviet�
 | `tarmes_pav` | `string` | — | `4` | `open` | — | Tarmės pavadinimas | — |
 | `crs_name` | `string` | — | `4` | `open` | — | Koordinačių sistemos pavadinimas | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/lki/gyventoju_surasymas_2011.csv#L140 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/lki/gyventoju_surasymas_2011.csv#L140)

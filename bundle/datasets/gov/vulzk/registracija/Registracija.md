@@ -3,25 +3,34 @@ type: Table
 title: "Registracija — Pacientų registracijos paslaugoms Žalgirio klinikoje"
 description: "Vilniaus universiteto ligoninės Žalgirio klinikos sveikatos priežiūros sistema kaupia pacientų asmeninius duomenis, kaip registracija vizitams pas gydytoją."
 resource: "https://get.data.gov.lt/datasets/gov/vulzk/registracija/Registracija"
-tags: [gov, vulzk, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vulzk, registracija, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vulzk/registracija.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vulzk/registracija.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/vulzk/registracija.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2661/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vulzk/registracija"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Registracija — Pacientų registracijos paslaugoms Žalgirio klinikoje
 
-Vilniaus universiteto ligoninės Žalgirio klinikos sveikatos priežiūros sistema kaupia pacientų asmeninius duomenis, kaip registracija vizitams pas gydytoją. Duomenys kaupiami nuo 2010 m. iki 2020 m. Duomenų rinkinys sudarytas iš registracijos identifikatoriaus, datos, kuriai registruotasi, įrašo sukūrimo bei keitimo datų, paciento duomenų: šifruoto identifikatoriaus, lyties, gimimo metų bei gydytojo duomenų: identifikatoriaus ir specialybės.
+Vilniaus universiteto ligoninės Žalgirio klinikos sveikatos priežiūros sistema kaupia pacientų asmeninius duomenis, kaip registracija vizitams pas gydytoją. Duomenys kaupiami nuo 2010 m. iki 2020 m. Duomenų rinkinys sudarytas iš registracijos identifikatoriaus, datos, kuriai registruotasi, įrašo sukūrimo bei keitimo datų, paciento duomenų: šifruoto identifikatoriaus, lyties, gimimo metų bei gydytojo duomenų: identifikatoriaus ir specialybės.[^manifest]
 
 - **Model:** `datasets/gov/vulzk/registracija/Registracija`[^manifest]
-- **Dataset:** [Pacientų registracijos paslaugoms Žalgirio klinikoje](../registracija.md) (`datasets/gov/vulzk/registracija`)
-- **Manifest CSV:** [datasets/gov/vulzk/registracija.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vulzk/registracija.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vulzk/registracija/Registracija`
-- **Primary Key (`ref`):** `registracijos_id`
-- **Level:** `4`
+- **Dataset:** [Pacientų registracijos paslaugoms Žalgirio klinikoje](../registracija.md) (`datasets/gov/vulzk/registracija`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vulzk/registracija.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vulzk/registracija.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vulzk/registracija/Registracija` (`deployed`)[^manifest]
+- **Provider:** `vulzk` — VšĮ Vilniaus universiteto ligoninės Žalgirio klinika *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `registracijos_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,10 +48,11 @@ Vilniaus universiteto ligoninės Žalgirio klinikos sveikatos priežiūros siste
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"vyras"` | `V` | — | Vyras | — |
 | `paciento_lytis` | `"moteris"` | `M` | — | Moteris | — |
 | `paciento_lytis` | `"kita"` | `X` | — | Kita | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vulzk/registracija.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vulzk/registracija.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vulzk/registracija.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vulzk/registracija (https://data.gov.lt/datasets/2661/)

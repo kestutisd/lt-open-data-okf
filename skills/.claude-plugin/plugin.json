@@ -1,0 +1,22 @@
+{
+  "name": "lt-open-data",
+  "version": "0.3.0",
+  "description": "Agent skills for Lithuanian Open Data (OKF v0.3): discover Spinta DSA schemas and EU/ISO classifications, query get.data.gov.lt RQL endpoints with provenance/trust/attestation reporting, and steward or validate OKF v0.3 bundles.",
+  "author": {
+    "name": "kestutisd",
+    "url": "https://github.com/kestutisd"
+  },
+  "homepage": "https://github.com/kestutisd/lt-open-data-okf",
+  "repository": "https://github.com/kestutisd/lt-open-data-okf",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "lithuania",
+    "open-data",
+    "spinta",
+    "data-gov-lt",
+    "okf",
+    "open-knowledge-format",
+    "agent-skills"
+  ],
+  "skills": "./"
+}

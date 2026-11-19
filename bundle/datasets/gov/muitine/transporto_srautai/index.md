@@ -1,6 +1,6 @@
-# `datasets/gov/muitine/transporto_srautai`
+# Directory Index: `datasets/gov/muitine/transporto_srautai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

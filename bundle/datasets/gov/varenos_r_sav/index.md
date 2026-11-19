@@ -1,11 +1,11 @@
-# `datasets/gov/varenos_r_sav` — Varėnos rajono savivaldybė
+# Directory Index: `datasets/gov/varenos_r_sav`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [mokyklos/](mokyklos/index.md) - Varėnos rajono savivaldybės mokyklų informacija (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Varėnos rajono savivaldybės mokyklų informacija](mokyklos.md) - Spinta dataset datasets/gov/varenos_r_sav/mokyklos (1 table).
+* [Varėnos rajono savivaldybės mokyklų informacija](mokyklos.md) - Varėnos rajono savivaldybės mokyklų personalas Rinkinyje pateikiamas Varėnos rajono savivaldybės mokyklos personalo sąrašas.
+
+# Subdirectories
+
+* [mokyklos/](mokyklos/index.md) - 1 table

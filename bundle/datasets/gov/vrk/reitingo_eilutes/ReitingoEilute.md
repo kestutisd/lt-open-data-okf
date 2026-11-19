@@ -2,23 +2,26 @@
 type: Table
 title: "ReitingoEilute"
 description: "Spinta table datasets/gov/vrk/reitingo_eilutes/ReitingoEilute (14 columns)."
-tags: [gov, vrk, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vrk, reitingoeilute, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L4"
+    title: "atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv#L4"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # ReitingoEilute
 
 - **Model:** `datasets/gov/vrk/reitingo_eilutes/ReitingoEilute`[^manifest]
-- **Dataset:** [datasets/gov/vrk/reitingo_eilutes](../reitingo_eilutes.md) (`datasets/gov/vrk/reitingo_eilutes`)
-- **Manifest CSV:** [datasets/gov/vrk/reitingo_eilutes.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L4)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `rink_turo_apyg_id, rink_turo_apyl_id`
-- **Level:** `4`
+- **Dataset:** [datasets/gov/vrk/reitingo_eilutes](../reitingo_eilutes.md) (`datasets/gov/vrk/reitingo_eilutes`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vrk/reitingo_eilutes.csv#L4](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L4)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vrk` — Vyriausioji rinkimų komisija *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `rink_turo_apyg_id, rink_turo_apyl_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -39,4 +42,4 @@ sources:
 | `kand_reit_4` | `integer` | — | `4` | `open` | — | Kandidato rinkimų numeris, nurodytas biuletenio 4-ame laukelyje | — |
 | `kand_reit_5` | `integer` | — | `4` | `open` | — | Kandidato rinkimų numeris, nurodytas biuletenio 5-ame laukelyje | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vrk/reitingo_eilutes.csv#L4 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vrk/reitingo_eilutes.csv#L4)

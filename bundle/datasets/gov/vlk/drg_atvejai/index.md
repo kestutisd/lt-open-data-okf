@@ -1,6 +1,6 @@
-# `datasets/gov/vlk/drg_atvejai`
+# Directory Index: `datasets/gov/vlk/drg_atvejai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

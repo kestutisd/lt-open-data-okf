@@ -1,6 +1,6 @@
-# `datasets/gov/marijampoles_sav/savivaldybes_objektai`
+# Directory Index: `datasets/gov/marijampoles_sav/savivaldybes_objektai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

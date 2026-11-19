@@ -3,25 +3,28 @@ type: Table
 title: "JivexRadiologija — Pacientams atlikti radiologiniai tyrimai"
 description: "Ukmergės ligoninės JIVEX sistema kaupia žmonėms atliekamų radiologinių tyrimų duomenis nuo 2018 m., atnaujinamus kasdien."
 resource: "https://get.data.gov.lt/datasets/gov/ukmlig/jivex/JivexRadiologija"
-tags: [gov, ukmlig, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, ukmlig, jivexradiologija, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/ukmlig/jivex.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ukmlig/jivex.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/ukmlig/jivex.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # JivexRadiologija — Pacientams atlikti radiologiniai tyrimai
 
-Ukmergės ligoninės JIVEX sistema kaupia žmonėms atliekamų radiologinių tyrimų duomenis nuo 2018 m., atnaujinamus kasdien. Duomenys apima šifruotus pacientų vidinius sistemos identifikatorius, lytį, gimimo metus. Į duomenis taip pat patenka tyrimų užsakymai, vadinami studijomis: jų identifikatoriai, datos. Patenkantys tyrimų serijų duomenys yra identifikatoriai, datos, paciento kūno padėtis tyrimo metu, tirta kūno dalis, tyrimo serijos modalumas, nusakantis tyrimo pobūdį bei tyrimo serijos protokolas.
+Ukmergės ligoninės JIVEX sistema kaupia žmonėms atliekamų radiologinių tyrimų duomenis nuo 2018 m., atnaujinamus kasdien. Duomenys apima šifruotus pacientų vidinius sistemos identifikatorius, lytį, gimimo metus. Į duomenis taip pat patenka tyrimų užsakymai, vadinami studijomis: jų identifikatoriai, datos. Patenkantys tyrimų serijų duomenys yra identifikatoriai, datos, paciento kūno padėtis tyrimo metu, tirta kūno dalis, tyrimo serijos modalumas, nusakantis tyrimo pobūdį bei tyrimo serijos protokolas.[^manifest]
 
 - **Model:** `datasets/gov/ukmlig/jivex/JivexRadiologija`[^manifest]
-- **Dataset:** [Pacientams atlikti radiologiniai tyrimai](../jivex.md) (`datasets/gov/ukmlig/jivex`)
-- **Manifest CSV:** [datasets/gov/ukmlig/jivex.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ukmlig/jivex.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ukmlig/jivex/JivexRadiologija`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Pacientams atlikti radiologiniai tyrimai](../jivex.md) (`datasets/gov/ukmlig/jivex`)[^manifest]
+- **Manifest CSV:** [datasets/gov/ukmlig/jivex.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ukmlig/jivex.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/ukmlig/jivex/JivexRadiologija` (`deployed`)[^manifest]
+- **Provider:** `ukmlig` — VšĮ Ukmergės ligoninė *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -42,10 +45,10 @@ Ukmergės ligoninės JIVEX sistema kaupia žmonėms atliekamų radiologinių tyr
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `paciento_lytis` | `"vyras"` | `V` | — | Vyras | — |
 | `paciento_lytis` | `"moteris"` | `M` | — | Moteris | — |
 | `paciento_lytis` | `"kita"` | `K` | — | Kita | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/ukmlig/jivex.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/ukmlig/jivex.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/ukmlig/jivex.csv#L7)

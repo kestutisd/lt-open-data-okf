@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/imoniu_islaidos_aplinkos_tausojimui`
+# Directory Index: `datasets/gov/lsd/statistika/imoniu_islaidos_aplinkos_tausojimui`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

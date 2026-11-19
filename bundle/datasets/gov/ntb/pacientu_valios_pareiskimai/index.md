@@ -1,6 +1,6 @@
-# `datasets/gov/ntb/pacientu_valios_pareiskimai`
+# Directory Index: `datasets/gov/ntb/pacientu_valios_pareiskimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

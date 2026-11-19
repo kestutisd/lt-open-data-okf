@@ -1,11 +1,11 @@
-# `datasets/gov/karatc` — VšĮ Kauno regiono atliekų tvarkymo centras
+# Directory Index: `datasets/gov/karatc`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [krec/](krec/index.md) - VšĮ Kauno regiono atliekų tvarkymo centro sutartys (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [VšĮ Kauno regiono atliekų tvarkymo centro sutartys](krec.md) - Rinkinys apima VšĮ Kauno regiono atliekų tvarkymo centro įvairių sutarčių registrus (duomenys nuo 2021- 2023 metų – vienkartiniai duomenys
+* [VšĮ Kauno regiono atliekų tvarkymo centro sutartys](krec.md) - "Rinkinys apima VšĮ Kauno regiono atliekų tvarkymo centro įvairių sutarčių registrus (duomenys nuo 2021- 2023 metų – vienkartiniai duomenys"
+
+# Subdirectories
+
+* [krec/](krec/index.md) - 1 table

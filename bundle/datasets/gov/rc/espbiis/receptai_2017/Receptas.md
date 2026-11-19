@@ -1,27 +1,30 @@
 ---
 type: Table
 title: "Receptas — ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus, duomenys už 2017 metus"
-description: "ESPBI IS e."
+description: "ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus*."
 resource: "https://get.data.gov.lt/datasets/gov/rc/espbiis/receptai_2017/Receptas"
-tags: [gov, rc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rc, receptas, deployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rc/espbiis/receptai_2017.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/espbiis/receptai_2017.csv#L5"
+    title: "atviriduomenys/manifest — datasets/gov/rc/espbiis/receptai_2017.csv#L5"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # Receptas — ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus, duomenys už 2017 metus
 
-ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus*. * - vaistas - šiame duomenų rinkinyje naudojamas kaip bendrinis pavadinimas visiems su receptu skiriamiems medicininiams produktams (vaistinis preparatas, medicinos pagalbos priemonė (MPP), vardinis vaistas, ekstemporalus vaistas***, kitos priemonės); ** - TLK-10-AM - tarptautinis ligos kodas; kodų sistema, apimanti ligas ir įvairius simptomus, patologines būkles, skundus, socialines aplinkybes, išorines sužeidimų ir ligų priežastis, sudaroma Pasaulinės sveikatos organizacijos (PSO); *** - Ekstemporalus vaistas - (ekstemporalus vaistinis preparatas) - vaistinėje pavieniam pacientui pagal gydytojo receptą ir (arba) sveikatos priežiūros įstaigos užsakymą pagamintas vaistinis preparatas ar pagal vaistinio preparato aprašą pagamintas vaistinis preparatas; **** - ATC kodas ar indeksas - anatominis terapinis cheminis indeksas, suteikiamas vaistams ir medicinos priemonėms, pagal kuriuos jie klasifikuojami, patvirtintas Pasaulio sveikatos organizacijos
+ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus*. * - vaistas - šiame duomenų rinkinyje naudojamas kaip bendrinis pavadinimas visiems su receptu skiriamiems medicininiams produktams (vaistinis preparatas, medicinos pagalbos priemonė (MPP), vardinis vaistas, ekstemporalus vaistas***, kitos priemonės); ** - TLK-10-AM - tarptautinis ligos kodas; kodų sistema, apimanti ligas ir įvairius simptomus, patologines būkles, skundus, socialines aplinkybes, išorines sužeidimų ir ligų priežastis, sudaroma Pasaulinės sveikatos organizacijos (PSO); *** - Ekstemporalus vaistas - (ekstemporalus vaistinis preparatas) - vaistinėje pavieniam pacientui pagal gydytojo receptą ir (arba) sveikatos priežiūros įstaigos užsakymą pagamintas vaistinis preparatas ar pagal vaistinio preparato aprašą pagamintas vaistinis preparatas; **** - ATC kodas ar indeksas - anatominis terapinis cheminis indeksas, suteikiamas vaistams ir medicinos priemonėms, pagal kuriuos jie klasifikuojami, patvirtintas Pasaulio sveikatos organizacijos[^manifest]
 
 - **Model:** `datasets/gov/rc/espbiis/receptai_2017/Receptas`[^manifest]
-- **Dataset:** [Elektroninės sveikatos paslaugų ir bendradarbiavimo infrastruktūros informacinės sistema](../receptai_2017.md) (`datasets/gov/rc/espbiis/receptai_2017`)
-- **Manifest CSV:** [datasets/gov/rc/espbiis/receptai_2017.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/espbiis/receptai_2017.csv#L5)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/espbiis/receptai_2017/Receptas`
-- **Primary Key (`ref`):** `dirbt_recepto_id`
-- **Level:** `4`
+- **Dataset:** [Elektroninės sveikatos paslaugų ir bendradarbiavimo infrastruktūros informacinės sistema](../receptai_2017.md) (`datasets/gov/rc/espbiis/receptai_2017`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rc/espbiis/receptai_2017.csv#L5](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/espbiis/receptai_2017.csv#L5)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rc/espbiis/receptai_2017/Receptas` (`deployed`)[^manifest]
+- **Provider:** `rc` — VĮ Registrų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `dirbt_recepto_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -57,15 +60,15 @@ ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus*. * - vaistas - 
 | `vaisto_narkot_poz_id` | `number` | — | `3` | `open` | — | Požymio, nurodančio, ar skiriamas vaistas* yra narkotikas, ar psichotropas, ar prekusorius, ar kompensuojamas tik tęstiniam gydymui, identifikatorius | — |
 | `vaisto_narkot_poz_pav` | `string` | — | `3` | `open` | — | Požymio, nurodančio, ar skiriamas vaistas* yra narkotikas, ar psichotropas, ar prekusorius, ar kompensuojamas tik tęstiniam gydymui, pavadinimas | — |
 | `recepto_statusas` | `string` | — | `4` | `open` | — | Vaisto* skyrimo bei recepto būsena (completed - pagal išrašytą receptą išduotas vaistas, active - išrašytas receptas dar galioja, tačiau vaistas pagal jį neišduotas, stopped - išrašytas receptas nebegalioja ir vaistas nebuvo išduotas, on hold - vaistas pagal išrašytą receptą rezervuotas | — |
-| `org_savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) | `4` | `open` | — | Įstaigos, kurioje buvo išrašytas receptas, savivaldybės pavadinimas (jeigu nurodyta - pateikiama pagal juridinio asmens veiklos adresą, jeigu ne - pagal registracijos adresą) | — |
+| `org_savivaldybe` | `ref` | [Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) (`level=4 UUID`: `org_savivaldybe._id`) | `4` | `open` | — | Įstaigos, kurioje buvo išrašytas receptas, savivaldybės pavadinimas (jeigu nurodyta - pateikiama pagal juridinio asmens veiklos adresą, jeigu ne - pagal registracijos adresą) | — |
 | `gyd_kvalifikacijos_galioja` | `string` | — | `3` | `open` | — | Duomenų rinkinio formavimo metu galiojantį receptą išrašiusio specialisto kvalifikacija | — |
 | `pac_lytis` | `string` | — | `4` | `open` | — | Paciento, kuriam išrašytas receptas, lytis (V - vyras, M - moteris) | — |
 | `pac_amziaus_gr` | `string` | — | `3` | `open` | — | Paciento, kuriam išrašytas receptas, amžiaus grupę (Iki 17 m., 18-44 m., 45-64 m., Nuo 65 m.) | — |
-| `pac_savivaldybe` | `ref` | [/datasets/gov/rc/ar/savivaldybe/Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) | `4` | `open` | — | Paciento, kuriam išrašytas receptas, deklaruotos gyvenamosios vietos savivaldybė (aktuali duomenų rinkinio formavimo metu) | — |
+| `pac_savivaldybe` | `ref` | [Savivaldybe](../../ar/savivaldybe/Savivaldybe.md) (`level=4 UUID`: `pac_savivaldybe._id`) | `4` | `open` | — | Paciento, kuriam išrašytas receptas, deklaruotos gyvenamosios vietos savivaldybė (aktuali duomenų rinkinio formavimo metu) | — |
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `vaisto_tipas` | `"Vaistas"` | — | — | Vaistas | — |
 | `vaisto_tipas` | `"Medicininos pagalbos priemonės"` | — | — | Medicinos pagalbos priemonės | — |
@@ -89,4 +92,8 @@ ESPBI IS e. recepto posistemės duomenys apie išduotus vaistus*. * - vaistas - 
 | `recepto_metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 | `diagnoze` | `update(type: "ref", ref: "/datasets/gov/vlk/tlk10amTlk10am[code]")` | — | `4` | `open` | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rc/espbiis/receptai_2017.csv
+# Related References
+
+- [AR Address Hierarchy & LKS-94 Reference](../../../../../references/joins/ar-address-hierarchy.md) — Administrative hierarchy (`Apskritis` -> `Patalpa`) and `EPSG:3346` vs `EPSG:4326` coordinates.
+
+[^manifest]: atviriduomenys/manifest — datasets/gov/rc/espbiis/receptai_2017.csv#L5 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rc/espbiis/receptai_2017.csv#L5)

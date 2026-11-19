@@ -1,7 +1,7 @@
-# `datasets/gov/vat/panaikinti_aprobavimai`
+# Directory Index: `datasets/gov/vat/panaikinti_aprobavimai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
-* [Aktas](Aktas.md) - Spinta table datasets/gov/vat/panaikinti_aprobavimai/Aktas (9 columns).
+* [Aktas](Aktas.md) - Pateikiami duomenys apie tiekėją, dokumento pavadinimą, dokumento Nr. ir datą, augalo rūšį, veislę, dokumento panaikinimo datą, naujai išduoto dokumento datą ir Nr.

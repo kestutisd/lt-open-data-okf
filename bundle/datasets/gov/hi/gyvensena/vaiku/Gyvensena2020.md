@@ -3,23 +3,32 @@ type: Table
 title: "Gyvensena2020 — Vaikų gyvensenos 2020 metų duomenys"
 description: "Spinta table datasets/gov/hi/gyvensena/vaiku/Gyvensena2020 (43 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/hi/gyvensena/vaiku/Gyvensena2020"
-tags: [gov, hi, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, hi, gyvensena2020, deployed, level-4, cadence-quadrennial]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/hi/gyvensena/vaiku.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/vaiku.csv#L236"
+    title: "atviriduomenys/manifest — datasets/gov/hi/gyvensena/vaiku.csv#L236"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1225/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/hi/gyvensena/vaiku"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
 # Gyvensena2020 — Vaikų gyvensenos 2020 metų duomenys
 
 - **Model:** `datasets/gov/hi/gyvensena/vaiku/Gyvensena2020`[^manifest]
-- **Dataset:** [Vaikų gyvensenos duomenys](../vaiku.md) (`datasets/gov/hi/gyvensena/vaiku`)
-- **Manifest CSV:** [datasets/gov/hi/gyvensena/vaiku.csv#L236](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/vaiku.csv#L236)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/gyvensena/vaiku/Gyvensena2020`
-- **Primary Key (`ref`):** `resp_kodas`
-- **Level:** `4`
+- **Dataset:** [Vaikų gyvensenos duomenys](../vaiku.md) (`datasets/gov/hi/gyvensena/vaiku`)[^manifest]
+- **Manifest CSV:** [datasets/gov/hi/gyvensena/vaiku.csv#L236](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/vaiku.csv#L236)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/hi/gyvensena/vaiku/Gyvensena2020` (`deployed`)[^manifest]
+- **Provider:** `hi` — Suaugusiųjų ir vaikų gyvensenos duomenys *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `resp_kodas`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `QUADRENNIAL`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -71,7 +80,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `fizine_veikla_su_pamokomis` | `'1'` | — | — | nei vienos dienos | — |
 | `fizine_veikla_su_pamokomis` | `'2'` | — | — | 1 dieną | — |
@@ -269,4 +278,5 @@ sources:
 | `isvaizda` | `'5'` | — | — | nekenčiu savo kūno | — |
 | `isvaizda` | `'9'` | — | — | neatsakyta į klausimą | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/hi/gyvensena/vaiku.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/hi/gyvensena/vaiku.csv#L236 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/hi/gyvensena/vaiku.csv#L236)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/hi/gyvensena/vaiku (https://data.gov.lt/datasets/1225/)

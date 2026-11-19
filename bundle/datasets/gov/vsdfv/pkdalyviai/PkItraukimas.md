@@ -2,23 +2,26 @@
 type: Table
 title: "PkItraukimas"
 description: "Spinta table datasets/gov/vsdfv/pkdalyviai/PkItraukimas (3 columns)."
-tags: [gov, vsdfv, undeployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vsdfv, pkitraukimas, undeployed, level-2]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vsdfv/pkdalyviai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsdfv/pkdalyviai.csv#L18"
+    title: "atviriduomenys/manifest — datasets/gov/vsdfv/pkdalyviai.csv#L18"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # PkItraukimas
 
 - **Model:** `datasets/gov/vsdfv/pkdalyviai/PkItraukimas`[^manifest]
-- **Dataset:** [datasets/gov/vsdfv/pkdalyviai](../pkdalyviai.md) (`datasets/gov/vsdfv/pkdalyviai`)
-- **Manifest CSV:** [datasets/gov/vsdfv/pkdalyviai.csv#L18](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsdfv/pkdalyviai.csv#L18)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `metai`
-- **Level:** `2`
+- **Dataset:** [datasets/gov/vsdfv/pkdalyviai](../pkdalyviai.md) (`datasets/gov/vsdfv/pkdalyviai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vsdfv/pkdalyviai.csv#L18](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsdfv/pkdalyviai.csv#L18)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `vsdfv` — Valstybinio socialinio draudimo fondo valdyba („Sodra“) *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `metai`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
 
 # Schema
 
@@ -34,4 +37,4 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vsdfv/pkdalyviai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vsdfv/pkdalyviai.csv#L18 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vsdfv/pkdalyviai.csv#L18)

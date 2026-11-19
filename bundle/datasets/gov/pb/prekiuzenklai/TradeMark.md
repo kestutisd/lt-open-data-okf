@@ -2,24 +2,26 @@
 type: Table
 title: "TradeMark — Trademark"
 description: "Spinta table datasets/gov/pb/prekiuzenklai/TradeMark (12 columns)."
-tags: [gov, pb, undeployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, pb, trademark, undeployed, level-4]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/pb/prekiuzenklai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/prekiuzenklai.csv#L13"
+    title: "atviriduomenys/manifest — datasets/gov/pb/prekiuzenklai.csv#L13"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
 ---
 
 # TradeMark — Trademark
 
 - **Model:** `datasets/gov/pb/prekiuzenklai/TradeMark`[^manifest]
-- **Dataset:** [Prekių ženklai](../prekiuzenklai.md) (`datasets/gov/pb/prekiuzenklai`)
-- **Manifest CSV:** [datasets/gov/pb/prekiuzenklai.csv#L13](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/prekiuzenklai.csv#L13)
-- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in`
-- **Primary Key (`ref`):** `application_number`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Prekių ženklai](../prekiuzenklai.md) (`datasets/gov/pb/prekiuzenklai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/pb/prekiuzenklai.csv#L13](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/prekiuzenklai.csv#L13)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** Not listed in `get_data_gov_lt.in` (undeployed — HTTP 404 on `get.data.gov.lt`)[^manifest]
+- **Provider:** `pb` — Valstybinis patentų biuras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `application_number`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
 
 # Schema
 
@@ -38,4 +40,4 @@ sources:
 | `opposition_period_start_date` | `date` | `D` | `4` | `open` | — | Opposition period start date | — |
 | `opposition_period_end_date` | `date` | `D` | `4` | `open` | — | Opposition period end date | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/pb/prekiuzenklai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/pb/prekiuzenklai.csv#L13 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/pb/prekiuzenklai.csv#L13)

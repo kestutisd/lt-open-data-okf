@@ -1,14 +1,10 @@
-# `datasets/gov/radiologija`
+# Directory Index: `datasets/gov/radiologija`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [kedainiu_ligonine/](kedainiu_ligonine/index.md) - Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys (0 datasets, 2 tables)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys](kedainiu_ligonine.md) - Spinta dataset datasets/gov/radiologija/kedainiu_ligonine (2 tables).
+* [Kėdainių ligoninės pacientams atliktų radiologinių tyrimų duomenys](kedainiu_ligonine.md) - Lithuanian open data dataset datasets/gov/radiologija/kedainiu_ligonine (2 lentelės).
 
 # Table
 
@@ -37,3 +33,7 @@
 * [VilkaviskioLigonine — Vilkaviškio ligoninės pacientams atlikti radiologiniai tyrimai](VilkaviskioLigonine.md) - Informacinėje sistemoje „JiveX“ kaupiami Vilkaviškio ligoninės pacientams atliktų radiologinių tyrimų duomenys.
 * [VisaginoLigonine — Visagino ligoninės pacientams atlikti radiologiniai tyrimai](VisaginoLigonine.md) - Informacinėje sistemoje „JiveX“ kaupiami Visagino ligoninės pacientams atliktų radiologinių tyrimų duomenys.
 * [ZalgirioKlinika — VU ligoninės „Žalgirio klinika“ pacientams atlikti radiologiniai tyrimai](ZalgirioKlinika.md) - Vilniaus universiteto ligoninės Žalgirio klinikos „MedDream“ IS kaupia duomenis apie pacientams vykdytus radiologinius tyrimus.
+
+# Subdirectories
+
+* [kedainiu_ligonine/](kedainiu_ligonine/index.md) - 2 tables

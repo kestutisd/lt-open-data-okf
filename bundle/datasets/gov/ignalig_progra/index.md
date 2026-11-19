@@ -1,11 +1,11 @@
-# `datasets/gov/ignalig_progra`
+# Directory Index: `datasets/gov/ignalig_progra`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [maitinimo_paraiskos/](maitinimo_paraiskos/index.md) - Namespace `datasets/gov/ignalig_progra/maitinimo_paraiskos` (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [datasets/gov/ignalig_progra/maitinimo_paraiskos](maitinimo_paraiskos.md) - Spinta dataset datasets/gov/ignalig_progra/maitinimo_paraiskos (1 table).
+* [Gydymo įstaigos pacientų maitinimo paraiškos](maitinimo_paraiskos.md) - Gydymo įstaigos pacientų maitinimo paraiškos Šiame rinkinyje pateikiamos Ignalinos rajono savivaldybės sveikatos centro maitinimo paraiškos.
+
+# Subdirectories
+
+* [maitinimo_paraiskos/](maitinimo_paraiskos/index.md) - 1 table

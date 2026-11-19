@@ -1,26 +1,34 @@
 ---
 type: Table
-title: "Patikrinimas — Pateikiama informacija apie atliktus agrochemijos srities patikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; metodinė sritis; tikrinimo sritis; tikrinimo pobūdis..."
+title: "Patikrinimas — Pateikiama informacija apie atliktus agrochemijos srities patikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; metodinė sritis; tikrinimo sritis; tikrinimo pobūdis; rizikingumo kategorija; tikrinimo..."
 description: "Spinta table datasets/gov/vat/agrochemija/Patikrinimas (10 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/vat/agrochemija/Patikrinimas"
-tags: [gov, vat, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, vat, patikrinimas, deployed, level-4, cadence-daily]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/vat/r11_agrochemijos_patikrinimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1867/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/vat/agrochemija"
+    author: "team:vda"
+    last_modified: "2025-12-18T00:00:00Z"
 ---
 
-# Patikrinimas — Pateikiama informacija apie atliktus agrochemijos srities patikrinimus (tikrinimą atlikęs teritorinis padalinys; tikrinimo data; metodinė sritis; tikrinimo sritis; tikrinimo pobūdis...
+# Patikrinimas — Pateikiama informacija apie atliktus agrochemijos srities patikrinimus (tikrinimą atlikęs teritorinis padalinys...
 
 - **Model:** `datasets/gov/vat/agrochemija/Patikrinimas`[^manifest]
-- **Dataset:** [datasets/gov/vat/agrochemija](../agrochemija.md) (`datasets/gov/vat/agrochemija`)
-- **Manifest CSV:** [datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/agrochemija/Patikrinimas`
-- **Primary Key (`ref`):** `id`
-- **Level:** `4`
-- **Access:** `open`
+- **Dataset:** [Agrochemijos srities patikrinimai](../agrochemija.md) (`datasets/gov/vat/agrochemija`)[^manifest]
+- **Manifest CSV:** [datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/vat/agrochemija/Patikrinimas` (`deployed`)[^manifest]
+- **Provider:** `vat` — Valstybinė augalininkystės tarnyba *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `open`[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `DAILY`, Modified `2025-12-18`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -39,7 +47,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `pobudis` | `"Augalų apsaugos produktų naudojimo patikra"` | — | — | — | — |
 | `pobudis` | `"Tręšiamųjų produktų naudojimo patikra"` | — | — | — | — |
@@ -76,4 +84,5 @@ sources:
 | `padalinys` | `"Kybartų pasienio kontrolės punkto fitosanitarijos postas (skyrius)"` | — | — | — | — |
 | `padalinys` | `"Kauno oro uosto pasienio kontrolės punkto fitosanitarijos postas (skyrius)"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r11_agrochemijos_patikrinimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/vat/r11_agrochemijos_patikrinimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/vat/agrochemija (https://data.gov.lt/datasets/1867/)

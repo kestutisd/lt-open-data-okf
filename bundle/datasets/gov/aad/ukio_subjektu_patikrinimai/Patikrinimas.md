@@ -3,23 +3,32 @@ type: Table
 title: "Patikrinimas — Ūkio subjekto metinis patikrinimas"
 description: "Spinta table datasets/gov/aad/ukio_subjektu_patikrinimai/Patikrinimas (31 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aad/ukio_subjektu_patikrinimai/Patikrinimas"
-tags: [gov, aad, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aad, patikrinimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aad/ukio_subjektu_patikrinimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1978/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aad/ukio_subjektu_patikrinimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # Patikrinimas — Ūkio subjekto metinis patikrinimas
 
 - **Model:** `datasets/gov/aad/ukio_subjektu_patikrinimai/Patikrinimas`[^manifest]
-- **Dataset:** [Ūkio subjektų metiniai patikrinimai](../ukio_subjektu_patikrinimai.md) (`datasets/gov/aad/ukio_subjektu_patikrinimai`)
-- **Manifest CSV:** [datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aad/ukio_subjektu_patikrinimai/Patikrinimas`
-- **Primary Key (`ref`):** `eil_nr`
-- **Level:** `4`
+- **Dataset:** [Ūkio subjektų metiniai patikrinimai](../ukio_subjektu_patikrinimai.md) (`datasets/gov/aad/ukio_subjektu_patikrinimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aad/ukio_subjektu_patikrinimai/Patikrinimas` (`deployed`)[^manifest]
+- **Provider:** `aad` — Aplinkos apsaugos departamentas prie Aplinkos ministerijos *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `eil_nr`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -59,7 +68,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `objekto_tipas` | `"Ūkio subjektas"` | — | — | — | — |
 | `objekto_tipas` | `"Fizinis asmuo"` | — | — | — | — |
@@ -77,4 +86,5 @@ sources:
 | `paskaiciuot_mokst_padidint_tarif` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 | `skirta_jur_bauda` | `update(type: "money", ref: "EUR")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aad/ukio_subjektu_patikrinimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aad/ukio_subjektu_patikrinimai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aad/ukio_subjektu_patikrinimai (https://data.gov.lt/datasets/1978/)

@@ -1,25 +1,34 @@
 ---
 type: Table
-title: "Apsilankymas — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių (dienos stacionaras priskiriamas prie amb. sk.) pacientų apsilankymų duomenys nuo 2016m...."
+title: "Apsilankymas — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių (dienos stacionaras priskiriamas prie amb. sk.) pacientų apsilankymų duomenys nuo 2016m. Duomenys apima pacientų demografinę..."
 description: "Spinta table datasets/gov/rplc/ambulatorija/Apsilankymas (16 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/rplc/ambulatorija/Apsilankymas"
-tags: [gov, rplc, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, rplc, apsilankymas, deployed, level-4, cadence-never]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/rplc/ambulatoriniai_apsilankymai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/2381/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/rplc/ambulatorija"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
-# Apsilankymas — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių (dienos stacionaras priskiriamas prie amb. sk.) pacientų apsilankymų duomenys nuo 2016m....
+# Apsilankymas — Pateikiami Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių (dienos stacionaras...
 
 - **Model:** `datasets/gov/rplc/ambulatorija/Apsilankymas`[^manifest]
-- **Dataset:** [datasets/gov/rplc/ambulatorija](../ambulatorija.md) (`datasets/gov/rplc/ambulatorija`)
-- **Manifest CSV:** [datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/ambulatorija/Apsilankymas`
-- **Primary Key (`ref`):** `vda_id`
-- **Level:** `4`
+- **Dataset:** [Respublikinio Priklausomybės Ligų Centro Vilniaus filialo ambulatorinių skyrių pacientų...](../ambulatorija.md) (`datasets/gov/rplc/ambulatorija`)[^manifest]
+- **Manifest CSV:** [datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/rplc/ambulatorija/Apsilankymas` (`deployed`)[^manifest]
+- **Provider:** `rplc` — Respublikinis priklausomybės ligų centras *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `vda_id`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `NEVER`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -44,7 +53,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `lytis` | `"vyras"` | — | — | — | — |
 | `lytis` | `"moteris"` | — | — | — | — |
@@ -68,4 +77,5 @@ sources:
 | `vartojimo_budas` | `"geria per burną ir leidžiasi"` | — | — | — | — |
 | `vartojimo_budas` | `"uosto"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/ambulatoriniai_apsilankymai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/rplc/ambulatoriniai_apsilankymai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/rplc/ambulatorija (https://data.gov.lt/datasets/2381/)

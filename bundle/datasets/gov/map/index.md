@@ -1,11 +1,11 @@
-# `datasets/gov/map` — Marijampolės autobusų parkas
+# Directory Index: `datasets/gov/map`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
-
-# Subdirectories
-
-* [keleiviu_srautas/](keleiviu_srautas/index.md) - Keleivių srautas Marijampolės viešajame transporte (0 datasets, 1 table)
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Dataset
 
-* [Keleivių srautas Marijampolės viešajame transporte](keleiviu_srautas.md) - Spinta dataset datasets/gov/map/keleiviu_srautas (1 table).
+* [Keleivių srautas Marijampolės viešajame transporte](keleiviu_srautas.md) - Marijampolės viešojo transporto elektroninio bilieto sistemos (TIKIS) bilietų pirkimo ir žymėjimo duomenys nuo 2023 m. liepos mėn.
+
+# Subdirectories
+
+* [keleiviu_srautas/](keleiviu_srautas/index.md) - 1 table

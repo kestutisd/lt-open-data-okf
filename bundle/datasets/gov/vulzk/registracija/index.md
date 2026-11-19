@@ -1,6 +1,6 @@
-# `datasets/gov/vulzk/registracija`
+# Directory Index: `datasets/gov/vulzk/registracija`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

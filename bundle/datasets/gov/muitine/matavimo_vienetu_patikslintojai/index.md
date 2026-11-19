@@ -1,6 +1,6 @@
-# `datasets/gov/muitine/matavimo_vienetu_patikslintojai`
+# Directory Index: `datasets/gov/muitine/matavimo_vienetu_patikslintojai`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

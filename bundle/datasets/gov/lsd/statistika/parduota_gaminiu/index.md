@@ -1,6 +1,6 @@
-# `datasets/gov/lsd/statistika/parduota_gaminiu`
+# Directory Index: `datasets/gov/lsd/statistika/parduota_gaminiu`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 

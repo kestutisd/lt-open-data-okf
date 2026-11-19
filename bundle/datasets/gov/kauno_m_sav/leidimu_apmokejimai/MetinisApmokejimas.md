@@ -3,25 +3,34 @@ type: Table
 title: "MetinisApmokejimas — Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus"
 description: "Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus reklamai, alkoholio ir tabako prekybai"
 resource: "https://get.data.gov.lt/datasets/gov/kauno_m_sav/leidimu_apmokejimai/MetinisApmokejimas"
-tags: [gov, kauno_m_sav, deployed, level-4]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, kauno_m_sav, metinisapmokejimas, deployed, level-4, cadence-monthly]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6"
+    title: "atviriduomenys/manifest — datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/3895/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/leidimu_apmokejimai"
+    author: "team:vda"
+    last_modified: "2026-04-07T00:00:00Z"
 ---
 
 # MetinisApmokejimas — Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus
 
-Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus reklamai, alkoholio ir tabako prekybai
+Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus reklamai, alkoholio ir tabako prekybai[^manifest]
 
 - **Model:** `datasets/gov/kauno_m_sav/leidimu_apmokejimai/MetinisApmokejimas`[^manifest]
-- **Dataset:** [Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus](../leidimu_apmokejimai.md) (`datasets/gov/kauno_m_sav/leidimu_apmokejimai`)
-- **Manifest CSV:** [datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/leidimu_apmokejimai/MetinisApmokejimas`
-- **Primary Key (`ref`):** `vda_prime_key`
-- **Level:** `4`
+- **Dataset:** [Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus](../leidimu_apmokejimai.md) (`datasets/gov/kauno_m_sav/leidimu_apmokejimai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/kauno_m_sav/leidimu_apmokejimai/MetinisApmokejimas` (`deployed`)[^manifest]
+- **Provider:** `kauno_m_sav` — Kauno miesto savivaldybė *(declared `ns`)*[^manifest]
+- **Primary Key (`ref`):** `vda_prime_key`[^manifest]
+- **Level:** `4`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `MONTHLY`, Modified `2026-04-07`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -42,9 +51,10 @@ Apmokėjimai už Kauno miesto savivaldybės išduodamus leidimus reklamai, alkoh
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `imoku_gavejas` | `"Kauno miesto savivaldybė"` | — | — | — | — |
 | `imoku_gavejo_kodas` | `"188764867"` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/kauno_m_sav/leidimu_apmokejimai.csv#L6)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/kauno_m_sav/leidimu_apmokejimai (https://data.gov.lt/datasets/3895/)

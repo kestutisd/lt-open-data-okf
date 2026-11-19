@@ -3,22 +3,32 @@ type: Table
 title: "ChemMisiniai — Cheminių medžiagų / mišinių klasifikatoriai"
 description: "Spinta table datasets/gov/aaa/cheminiai_misiniai/ChemMisiniai (8 columns)."
 resource: "https://get.data.gov.lt/datasets/gov/aaa/cheminiai_misiniai/ChemMisiniai"
-tags: [gov, aaa, deployed, level-2]
-generated: { by: "lt-open-data-okf/0.2.0", at: "2026-11-11T14:39:20Z" }
+tags: [gov, aaa, chemmisiniai, deployed, level-2, cadence-annual]
+generated: { by: "lt-open-data-okf/0.3.0", at: "2026-11-11T14:39:20Z" }
 sources:
   - id: manifest
-    title: "atviriduomenys/manifest — datasets/gov/aaa/cheminiai_misiniai.csv"
     resource: "https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/cheminiai_misiniai.csv#L7"
+    title: "atviriduomenys/manifest — datasets/gov/aaa/cheminiai_misiniai.csv#L7"
+    author: "team:vssa"
     last_modified: "2026-11-11T14:39:20Z"
+  - id: dcat
+    resource: "https://data.gov.lt/datasets/1561/"
+    title: "data.gov.lt DCAT-AP — datasets/gov/aaa/cheminiai_misiniai"
+    author: "team:vda"
+    last_modified: "2026-01-05T00:00:00Z"
 ---
 
 # ChemMisiniai — Cheminių medžiagų / mišinių klasifikatoriai
 
 - **Model:** `datasets/gov/aaa/cheminiai_misiniai/ChemMisiniai`[^manifest]
-- **Dataset:** [datasets/gov/aaa/cheminiai_misiniai](../cheminiai_misiniai.md) (`datasets/gov/aaa/cheminiai_misiniai`)
-- **Manifest CSV:** [datasets/gov/aaa/cheminiai_misiniai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/cheminiai_misiniai.csv#L7)
-- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/cheminiai_misiniai/ChemMisiniai`
-- **Level:** `2`
+- **Dataset:** [Lietuvos rinkoje esantys pavojingi cheminiai mišiniai](../cheminiai_misiniai.md) (`datasets/gov/aaa/cheminiai_misiniai`)[^manifest]
+- **Manifest CSV:** [datasets/gov/aaa/cheminiai_misiniai.csv#L7](https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/cheminiai_misiniai.csv#L7)[^manifest]
+- **Saugykla (`get_data_gov_lt.in`):** `https://get.data.gov.lt/datasets/gov/aaa/cheminiai_misiniai/ChemMisiniai` (`deployed`)[^manifest]
+- **Provider:** `aaa` — Aplinkos apsaugos agentūra *(resolved from institutional code)*[^manifest]
+- **Primary Key (`ref`):** `— (_id UUID)`[^manifest]
+- **Level:** `2`[^manifest]
+- **Access:** `—` *(determined by column access in `# Schema`)*[^manifest]
+- **Portal Cadence & License (DCAT-AP):** Periodicity `ANNUAL`, Modified `2026-01-05`, License `https://creativecommons.org/licenses/by/4.0/deed.lt`[^dcat]
 
 # Schema
 
@@ -35,7 +45,7 @@ sources:
 
 # Enumerations
 
-| Property | Value (`prepare`) | Source | Access | Title | Description |
+| Property | Value (prepare) | Source | Access | Title | Description |
 | --- | --- | --- | --- | --- | --- |
 | `veiksmas` | `"EK"` | — | — | Eksportuota | — |
 | `veiksmas` | `"SU"` | — | — | Sunaudota | — |
@@ -48,4 +58,5 @@ sources:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `metai` | `update(type: "date", ref: "Y")` | `type` | `4` | — | — | — | — |
 
-[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/cheminiai_misiniai.csv
+[^manifest]: atviriduomenys/manifest — datasets/gov/aaa/cheminiai_misiniai.csv#L7 (https://github.com/atviriduomenys/manifest/blob/ec54998dcea52a0d26dc1c172eacec438d47e727/datasets/gov/aaa/cheminiai_misiniai.csv#L7)
+[^dcat]: data.gov.lt DCAT-AP — datasets/gov/aaa/cheminiai_misiniai (https://data.gov.lt/datasets/1561/)

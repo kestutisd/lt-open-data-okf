@@ -1,6 +1,6 @@
-# `datasets/gov/palangos_gintaras/maistas`
+# Directory Index: `datasets/gov/palangos_gintaras/maistas`
 
-* [Parent Directory (`..`)](../index.md) - Up to parent index
+* [Parent Directory (`..`)](../index.md) - Return to parent directory index.
 
 # Table
 
